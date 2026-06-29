@@ -134,7 +134,7 @@ function renderPerson(p, fly = true) {
   const heroHtml = hero
     ? `<blockquote class="hero-quote">
          <p class="hq-text">${hero.quote}</p>
-         ${hero.quote_en ? `<p class="hq-trans">${hero.quote_en}</p>` : ""}
+         ${LANG === "en" && hero.quote_en ? `<p class="hq-trans">${hero.quote_en}</p>` : ""}
          <cite class="hq-cite">${t(hero.quote_source, hero.quote_source_en) || nameOf2(hero)}</cite>
        </blockquote>` : "";
 
@@ -149,7 +149,7 @@ function renderPerson(p, fly = true) {
   const worksHtml = (p.works || []).map((w) => {
     const isHero = hero && w === hero;
     const q = w.quote && !isHero
-      ? `<blockquote class="work-quote">${w.quote}${w.quote_en ? `<span class="wq-trans">${w.quote_en}</span>` : ""}${w.quote_source ? `<cite>${t(w.quote_source, w.quote_source_en)}</cite>` : ""}</blockquote>` : "";
+      ? `<blockquote class="work-quote">${w.quote}${LANG === "en" && w.quote_en ? `<span class="wq-trans">${w.quote_en}</span>` : ""}${w.quote_source ? `<cite>${t(w.quote_source, w.quote_source_en)}</cite>` : ""}</blockquote>` : "";
     return `<div class="work">
       <span class="work-title">${t(w.title, w.title_en)}</span>${w.year != null ? `<span class="work-year">${fmtYear(w.year)}</span>` : ""}
       ${w.note ? `<span class="work-note">${t(w.note, w.note_en)}</span>` : ""}${q}
