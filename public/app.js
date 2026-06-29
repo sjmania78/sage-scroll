@@ -44,6 +44,48 @@ function fmtYear(y) {
   return y < 0 ? `기원전 ${-y}` : `${y}`;
 }
 
+// 인물 인덱스: 분야별로 묶어 정리(가로 스크롤 제거)
+const PERSON_CATS = [
+  { key: "thought", label: "사상·학문" },
+  { key: "letters", label: "시인·문인" },
+  { key: "art", label: "화가·예술" },
+  { key: "icon", label: "국민 위인" },
+];
+function categoryOf(field) {
+  const f = field || "";
+  if (/국왕|무신|장군/.test(f)) return "icon";
+  if (/실학|철학|성리|유학|사학/.test(f)) return "thought";
+  if (/화가|미술|조각/.test(f)) return "art";
+  return "letters"; // 시인·소설·작가·극작 등
+}
+function buildPersonIndex(people, container) {
+  if (!container) return;
+  const buckets = {};
+  PERSON_CATS.forEach((c) => (buckets[c.key] = []));
+  people.forEach((p) => buckets[categoryOf(p.field)].push(p));
+  PERSON_CATS.forEach((c) => {
+    if (!buckets[c.key].length) return;
+    const grp = document.createElement("div");
+    grp.className = "pgroup";
+    const lab = document.createElement("span");
+    lab.className = "pgroup-label";
+    lab.textContent = c.label;
+    const chips = document.createElement("div");
+    chips.className = "pgroup-chips";
+    buckets[c.key].forEach((p) => {
+      const btn = document.createElement("button");
+      btn.className = "person-chip";
+      btn.textContent = p.name_ko;
+      btn.addEventListener("click", () => renderPerson(p));
+      personChips[p.id] = btn;
+      chips.appendChild(btn);
+    });
+    grp.appendChild(lab);
+    grp.appendChild(chips);
+    container.appendChild(grp);
+  });
+}
+
 function srcMark(url) {
   if (!url) return "";
   return ` <a class="src-mark" href="${url}" target="_blank" rel="noopener">출처</a>`;
@@ -217,16 +259,9 @@ async function init() {
         placeIndex[pl.id] = { ...pl, marker: m, person: p };
       }
     });
-
-    if (personList) {
-      const btn = document.createElement("button");
-      btn.className = "person-chip";
-      btn.textContent = p.name_ko;
-      btn.addEventListener("click", () => renderPerson(p));
-      personChips[p.id] = btn;
-      personList.appendChild(btn);
-    }
   });
+
+  buildPersonIndex(people, personList);
 
   document.getElementById("stat-people").textContent = `인물 ${people.length}`;
   document.getElementById("stat-places").textContent = `장소 ${placeCount}`;
