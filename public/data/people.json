@@ -17,7 +17,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "Majae, Chobu-myeon, Gwangju-bu, Gyeonggi Province (present-day Neungnae-ri, Joan-myeon, Namyangju)"
       },
       "timeline": [
         {
@@ -28,7 +29,8 @@
           "source_grade": "A",
           "flags": [
             "birthdate-variant"
-          ]
+          ],
+          "event_en": "Born in Majae, Chobu-myeon, Gwangju-bu, Gyeonggi Province (present-day Neungnae-ri, Joan-myeon, Namyangju)"
         },
         {
           "year": 1783,
@@ -36,7 +38,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Passed the jinsa (licentiate) examination"
         },
         {
           "year": 1789,
@@ -44,7 +47,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Passed the singnyeon mungwa civil service examination in the first class (gapgwa); began his official career as an officer at Heungneung (Huireung) Tomb"
         },
         {
           "year": 1789,
@@ -52,7 +56,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Completed the pontoon bridge (jugyo) over the Han River"
         },
         {
           "year": 1793,
@@ -60,7 +65,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Designed Suwon Hwaseong Fortress"
         },
         {
           "year": 1801,
@@ -68,7 +74,8 @@
           "place_id": "dasan-chodang",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0050549",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Arrested in the Catholic Persecution of 1801 (Sinyu Persecution) and exiled to Janggi in Gyeongsang Province; in the same year, transferred into exile in Gangjin, Jeolla Province"
         },
         {
           "year": 1817,
@@ -76,7 +83,8 @@
           "place_id": "dasan-chodang",
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Wrote 'Gyeongse yupyo' during his exile in Gangjin"
         },
         {
           "year": 1818,
@@ -84,7 +92,8 @@
           "place_id": "dasan-chodang",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0018631",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Completed 'Mongmin simseo' during his exile in Gangjin"
         },
         {
           "year": 1818,
@@ -92,7 +101,8 @@
           "place_id": "jeong-yagyong-historic-site",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0050549",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Released from exile after 18 years and returned home to Majae"
         },
         {
           "year": 1836,
@@ -100,7 +110,8 @@
           "place_id": "jeong-yagyong-historic-site",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0050549",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Died at his home (Yeoyudang) in his native Majae"
         }
       ],
       "places": [
@@ -112,7 +123,9 @@
           "type": "유적지·기념관",
           "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=6c305513-5f6b-43a8-9be1-2842f7bf800f",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "name_en": "Jeong Yak-yong Historic Site (Dasan Historic Site) — birthplace Yeoyudang, tomb, and memorial hall",
+          "type_en": "Historic site and memorial hall"
         },
         {
           "id": "dasan-chodang",
@@ -124,7 +137,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Gangjin Jeong Yak-yong Historic Site (Dasan Chodang, Historic Site)",
+          "type_en": "Historic site"
         }
       ],
       "works": [
@@ -138,7 +153,10 @@
           "source_grade": "A",
           "flags": [
             "quote-translation"
-          ]
+          ],
+          "title_en": "Mongmin Simseo (牧民心書, Admonitions on Governing the People)",
+          "note_en": "An administrative manual for local magistrates. Written during his exile in Gangjin; included in the 'Yeoyudang Jeonseo'.",
+          "quote_en": "Half of a gentleman's learning is self-cultivation; the other half is governing the people."
         },
         {
           "title": "경세유표(經世遺表)",
@@ -146,7 +164,9 @@
           "note": "국가 제도 개혁안. 강진 유배 중 저술.",
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Gyeongse Yupyo (經世遺表, A Testament on Statecraft)",
+          "note_en": "A proposal for reforming state institutions. Written during his exile in Gangjin."
         },
         {
           "title": "흠흠신서(欽欽新書)",
@@ -156,14 +176,17 @@
           "source_grade": "A",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "title_en": "Heumheum Sinseo (欽欽新書, New Treatise on Prudence in Judicial Administration)",
+          "note_en": "A practical manual on criminal law and trials."
         }
       ],
       "source_grade": "A",
       "verified": true,
       "flags": [
         "birthdate-variant"
-      ]
+      ],
+      "field_en": "Silhak scholar and government official"
     },
     {
       "id": "choe-hangi",
@@ -181,7 +204,8 @@
         "flags": [
           "coords-unverified",
           "birthplace-presumed"
-        ]
+        ],
+        "admin_en": "Gaeseong (presumed). A presumption based on the Sangnyeong Choe clan having lived in Gaeseong for generations; not confirmed by primary sources"
       },
       "timeline": [
         {
@@ -192,7 +216,8 @@
           "source_grade": "A",
           "flags": [
             "birthplace-presumed"
-          ]
+          ],
+          "event_en": "Born in Gaeseong (presumed)"
         },
         {
           "year": 1825,
@@ -200,7 +225,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Passed the saengwon examination and entered the Seonggyungwan (National Confucian Academy)"
         },
         {
           "year": 1830,
@@ -208,7 +234,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Wrote 'Nongjeong hoeyo (農政會要)'"
         },
         {
           "year": 1836,
@@ -216,7 +243,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0008463",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Wrote 'Singi tong' and 'Chucheungnok' (combined as 'Gicheuk cheui')"
         },
         {
           "year": 1857,
@@ -224,7 +252,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Wrote 'Jigu jeonyo (地球典要)' and 'Gihak (氣學)'"
         },
         {
           "year": 1860,
@@ -232,7 +261,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Completed the writing of 'Injeong (人政)'"
         },
         {
           "year": 1866,
@@ -240,7 +270,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0057736",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Wrote 'Singi cheomheom (身機踐驗)'"
         },
         {
           "year": 1877,
@@ -250,7 +281,8 @@
           "source_grade": "A",
           "flags": [
             "deathyear-disputed"
-          ]
+          ],
+          "event_en": "Died"
         }
       ],
       "places": [],
@@ -261,7 +293,9 @@
           "note": "신기통(권1-3)·추측록(권4-9) 합본 9권. 1836년 간행.",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0008463",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Gicheuk Cheui (氣測體儀)",
+          "note_en": "A nine-volume combined work of Singi tong (vols. 1-3) and Chucheungnok (vols. 4-9). Published in 1836."
         },
         {
           "title": "인정(人政)",
@@ -269,7 +303,9 @@
           "note": "인사·통치 제도서. 1851년 구상, 1860년 집필 완료.",
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Injeong (人政)",
+          "note_en": "A treatise on personnel administration and governance. Conceived in 1851, with writing completed in 1860."
         },
         {
           "title": "지구전요(地球典要)",
@@ -277,7 +313,9 @@
           "note": "세계 지리·천문서.",
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Jigu Jeonyo (地球典要)",
+          "note_en": "A treatise on world geography and astronomy."
         }
       ],
       "source_grade": "A",
@@ -286,7 +324,8 @@
         "birthplace-presumed",
         "deathyear-disputed",
         "no-places"
-      ]
+      ],
+      "field_en": "Silhak scholar and philosopher"
     },
     {
       "id": "yun-dongju",
@@ -304,7 +343,8 @@
         "flags": [
           "coords-unverified",
           "overseas"
-        ]
+        ],
+        "admin_en": "Mingdong village, Longjing, Yanbian, Jilin Province, China (Bukgando; then Manchuria, now Chinese territory)"
       },
       "timeline": [
         {
@@ -313,7 +353,8 @@
           "place_id": "yun-dongju-birthplace-myeongdong",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Born in Mingdong village, Bukgando (December 30). Childhood name Haehwan (海煥), Papyeong clan"
         },
         {
           "year": 1935,
@@ -321,7 +362,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Transferred to Sungsil Middle School in Pyongyang"
         },
         {
           "year": 1938,
@@ -331,7 +373,8 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "event_en": "Entered the literature department of Yeonhui College in Seoul"
         },
         {
           "year": 1941,
@@ -339,7 +382,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Graduated from Yeonhui College. Wrote 'Prologue' (Seosi, November 20) and 'Night of Counting Stars'"
         },
         {
           "year": 1942,
@@ -349,7 +393,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Studied in Japan. Entered Rikkyo University in Tokyo, then transferred to the English literature department of Doshisha University in Kyoto"
         },
         {
           "year": 1943,
@@ -360,7 +405,8 @@
           "flags": [
             "wiki-only",
             "overseas"
-          ]
+          ],
+          "event_en": "Arrested in Kyoto on charges of violating the Peace Preservation Law (July 14), sentenced to 2 years in prison"
         },
         {
           "year": 1945,
@@ -370,7 +416,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Died in prison at Fukuoka Prison, Japan (February 16, at age 27)"
         },
         {
           "year": 1948,
@@ -378,7 +425,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Posthumous poetry collection 'Sky, Wind, Stars, and Poetry' (Haneulgwa Baramgwa Byeolgwa Si) published (Jeongeumsa). First edition with 31 poems"
         }
       ],
       "places": [
@@ -392,7 +440,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Yun Dong-ju Literary Museum",
+          "type_en": "Literary museum"
         },
         {
           "id": "yun-dongju-birthplace-myeongdong",
@@ -405,7 +455,9 @@
           "flags": [
             "coords-unverified",
             "overseas"
-          ]
+          ],
+          "name_en": "Yun Dong-ju's Family Home (Mingdong village, Longjing, China)",
+          "type_en": "Family home"
         },
         {
           "id": "yun-dongju-grave-longjing",
@@ -419,7 +471,9 @@
             "coords-unverified",
             "overseas",
             "wiki-only"
-          ]
+          ],
+          "name_en": "Yun Dong-ju's Tomb (Longjing, China)",
+          "type_en": "Tomb"
         }
       ],
       "works": [
@@ -431,7 +485,10 @@
           "quote_source": "서시",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Prologue (Seosi, 序詩)",
+          "note_en": "Poem. Written November 20, 1941. Placed at the opening of the posthumous collection, where it was given the title 'Seosi' (Prologue).",
+          "quote_en": "Until the day I die, may I look up to the heavens with not a single shred of shame"
         },
         {
           "title": "별 헤는 밤",
@@ -441,7 +498,10 @@
           "quote_source": "별 헤는 밤",
           "source_url": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=9000761&menuNo=200019",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Night of Counting Stars (Byeol Heneun Bam)",
+          "note_en": "Poem. Included in the posthumous collection 'Sky, Wind, Stars, and Poetry' (1948).",
+          "quote_en": "The sky through which the seasons pass is brimming full of autumn"
         },
         {
           "title": "하늘과 바람과 별과 시",
@@ -449,7 +509,9 @@
           "note": "유고 시집. 정음사 발행. 초간본 31편 수록.",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Sky, Wind, Stars, and Poetry (Haneulgwa Baramgwa Byeolgwa Si)",
+          "note_en": "Posthumous poetry collection. Published by Jeongeumsa. First edition contained 31 poems."
         }
       ],
       "source_grade": "A",
@@ -457,7 +519,8 @@
       "flags": [
         "overseas-birthplace",
         "coords-unverified"
-      ]
+      ],
+      "field_en": "Poet"
     },
     {
       "id": "yi-sang",
@@ -475,7 +538,8 @@
         "flags": [
           "coords-unverified",
           "birthplace-disputed"
-        ]
+        ],
+        "admin_en": "Banjeong-dong, Sunhwa-bang, Gyeongseong (present-day Jongno-gu area, Seoul). On the family register, the legal domicile is 154 Tong-dong (present-day Tongin-dong)"
       },
       "timeline": [
         {
@@ -484,7 +548,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Born in Banjeong-dong, Sunhwa-bang, Gyeongseong (September 23). Real name Kim Hae-gyeong (金海卿), Gangneung clan"
         },
         {
           "year": 1913,
@@ -494,7 +559,8 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "event_en": "Entered and grew up in the home of his uncle Kim Yeon-pil (Tongin-dong)"
         },
         {
           "year": 1926,
@@ -502,7 +568,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Graduated from Donggwang School (later merged into Boseong High Common School)"
         },
         {
           "year": 1929,
@@ -510,7 +577,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Graduated from the architecture department of Gyeongseong Higher Technical School. Appointed as an engineer in the architecture section of the Internal Affairs Bureau of the Government-General of Korea"
         },
         {
           "year": 1933,
@@ -518,7 +586,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Resigned his post as Government-General engineer and ran tearooms and cafes. Published the poem 'Mirror'"
         },
         {
           "year": 1934,
@@ -526,7 +595,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Joined the Guinhoe (Group of Nine). Serialized the poem cycle 'Crow's-Eye View' (Ogamdo) in the Joseon Jungang Ilbo (discontinued after 15 poems)"
         },
         {
           "year": 1936,
@@ -534,7 +604,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published the short story 'Wings' in the September issue of Jogwang. The same year, went to Tokyo, Japan"
         },
         {
           "year": 1937,
@@ -544,7 +615,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Detained in Tokyo, then released on bail for illness; died at the hospital attached to Tokyo Imperial University (April 17, at age 27)"
         }
       ],
       "places": [
@@ -558,7 +630,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Yi Sang's House",
+          "type_en": "Memorial hall"
         }
       ],
       "works": [
@@ -570,7 +644,10 @@
           "quote_source": "오감도 시제1호",
           "source_url": "https://ko.wikisource.org/wiki/%EC%98%A4%EA%B0%90%EB%8F%84",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Crow's-Eye View (Ogamdo, 烏瞰圖)",
+          "note_en": "Poem cycle. Serialized in the Joseon Jungang Ilbo in 1934. Discontinued after 15 poems (Nos. 1-15).",
+          "quote_en": "Thirteen children speed down the road. (A dead-end alley is the most fitting.)"
         },
         {
           "title": "거울",
@@ -580,7 +657,10 @@
           "quote_source": "거울",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Mirror (Geoul)",
+          "note_en": "Poem. Published in Catholic Youth (Gatollik Cheongnyeon) in 1933.",
+          "quote_en": "Inside the mirror there is no sound. Surely there is no world anywhere as quiet as that."
         },
         {
           "title": "날개",
@@ -590,7 +670,10 @@
           "quote_source": "날개",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Wings (Nalgae)",
+          "note_en": "Short story. Published in the September issue of Jogwang in 1936.",
+          "quote_en": "Do you know of a genius who has become a stuffed specimen?"
         }
       ],
       "source_grade": "A",
@@ -598,7 +681,8 @@
       "flags": [
         "birthplace-disputed",
         "coords-unverified"
-      ]
+      ],
+      "field_en": "Poet and novelist"
     },
     {
       "id": "sejong-the-great",
@@ -615,7 +699,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "Junsubang, Hanseong (present-day Tongin-dong and Ogin-dong area, Jongno-gu, Seoul)"
       },
       "timeline": [
         {
@@ -624,7 +709,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Born as the third son in King Taejong's private residence in Junsubang, Hanseong (April 10 by the lunar calendar). Given name Yi Do"
         },
         {
           "year": 1418,
@@ -632,7 +718,8 @@
           "place_id": "gyeongbokgung",
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "After being invested as crown prince, received the throne abdicated by Taejong and was enthroned at Geunjeongjeon Hall of Gyeongbokgung Palace"
         },
         {
           "year": 1420,
@@ -640,7 +727,8 @@
           "place_id": "gyeongbokgung",
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Established the Jiphyeonjeon (Hall of Worthies)"
         },
         {
           "year": 1434,
@@ -648,7 +736,8 @@
           "place_id": "gyeongbokgung",
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Installed the Jagyeongnu (self-striking water clock) and cast the Gabinja metal movable type"
         },
         {
           "year": 1441,
@@ -656,7 +745,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Produced the Cheugugi (rain gauge) and the water gauge"
         },
         {
           "year": 1443,
@@ -664,7 +754,8 @@
           "place_id": "gyeongbokgung",
           "source_url": "https://ko.wikipedia.org/wiki/%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8C",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "event_en": "Created the 28 letters of Hunminjeongeum (12th lunar month)"
         },
         {
           "year": 1446,
@@ -672,7 +763,8 @@
           "place_id": "gyeongbokgung",
           "source_url": "https://contents.history.go.kr/mobile/km/view.do?levelId=km_037_0070_0020_0010",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Promulgated Hunminjeongeum (9th lunar month). The Haerye (explanatory) edition was published"
         },
         {
           "year": 1450,
@@ -680,7 +772,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Passed away in Hanseong after 31 years on the throne (February 17 by the lunar calendar). Temple name Sejong"
         },
         {
           "year": 1469,
@@ -688,7 +781,8 @@
           "place_id": "yeongneung-sejong",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0037362",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "His tomb was relocated to Yeoju, Gyeonggi. Tomb name Yeongneung"
         }
       ],
       "places": [
@@ -702,7 +796,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Gyeongbokgung Palace",
+          "type_en": "Palace"
         },
         {
           "id": "yeongneung-sejong",
@@ -714,7 +810,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Yeongneung Royal Tomb in Yeoju (Tomb of Sejong the Great)",
+          "type_en": "Royal tomb"
         }
       ],
       "works": [
@@ -726,7 +824,10 @@
           "quote_source": "세종어제훈민정음 언해본 서문 (『월인석보』 1459 권두 합본)",
           "source_url": "https://ko.wikisource.org/wiki/%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8C%EC%96%B8%ED%95%B4",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "title_en": "Hunminjeongeum (The Correct Sounds for the Instruction of the People)",
+          "note_en": "A new writing system of 28 letters. Created in 1443 and promulgated in 1446. The Haerye (explanatory) edition was published.",
+          "quote_en": "Because the speech of our country differs from that of China, it does not match the Chinese characters."
         },
         {
           "title": "갑인자(甲寅字)",
@@ -734,7 +835,9 @@
           "note": "구리로 주조한 금속활자. 1434년(세종 16) 주조.",
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Gabinja (Movable Type of the Gabin Year)",
+          "note_en": "Metal movable type cast in copper. Cast in 1434 (16th year of Sejong's reign)."
         },
         {
           "title": "측우기(測雨器)",
@@ -742,14 +845,17 @@
           "note": "강우량 측정 기구. 1441년(세종 23) 제작.",
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Cheugugi (Rain Gauge)",
+          "note_en": "An instrument for measuring rainfall. Produced in 1441 (23rd year of Sejong's reign)."
         }
       ],
       "source_grade": "A",
       "verified": true,
       "flags": [
         "coords-unverified"
-      ]
+      ],
+      "field_en": "4th King of Joseon"
     },
     {
       "id": "yi-sun-sin",
@@ -767,7 +873,8 @@
         "flags": [
           "coords-unverified",
           "birthplace-disputed"
-        ]
+        ],
+        "admin_en": "Geoncheon-dong, Hanseong (near present-day Inhyeon-dong, Jung-gu, Seoul)"
       },
       "timeline": [
         {
@@ -778,7 +885,8 @@
           "source_grade": "A",
           "flags": [
             "birthplace-disputed"
-          ]
+          ],
+          "event_en": "Born in Geoncheon-dong, Hanseong (near present-day Inhyeon-dong, Jung-gu, Seoul) (March 8 by the lunar calendar). Ancestral seat Deoksu, courtesy name Yeohae"
         },
         {
           "year": 1576,
@@ -786,7 +894,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Passed the regular military examination and entered government service"
         },
         {
           "year": 1591,
@@ -794,7 +903,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Appointed Naval Commander of the Left Jeolla Province (Jeolla Jwasusa)"
         },
         {
           "year": 1592,
@@ -802,7 +912,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309000&code=kc_age_30",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Outbreak of the Imjin War. Engaged the Japanese navy at the Battle of Okpo and others"
         },
         {
           "year": 1592,
@@ -810,7 +921,8 @@
           "place_id": "hansando-yusok",
           "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0061676",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Naval battle off Hansando (7th lunar month, the Great Victory at Hansando)"
         },
         {
           "year": 1593,
@@ -818,7 +930,8 @@
           "place_id": "hansando-yusok",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Appointed Commander-in-Chief of the Three Provinces' Navy (Samdo Sugun Tongjesa); established his headquarters at Hansando"
         },
         {
           "year": 1597,
@@ -826,7 +939,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Dismissed from office and taken in custody to Hanseong, then served as a common soldier (baeguijonggun)"
         },
         {
           "year": 1597,
@@ -834,7 +948,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0018250",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Naval battle at Myeongnyang (Uldolmok, between Jindo and Haenam) (September 16 by the lunar calendar)"
         },
         {
           "year": 1598,
@@ -842,7 +957,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309000&code=kc_age_30",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Killed in action during the naval battle at Noryang (Namhae, South Gyeongsang) (November 19 by the lunar calendar). Aged 54"
         },
         {
           "year": 1614,
@@ -850,7 +966,8 @@
           "place_id": "yi-tomb-asan",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046283",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "His tomb was moved to its present location at Eorasan in Eumbong-myeon, Asan"
         }
       ],
       "places": [
@@ -864,7 +981,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Hyeonchungsa Shrine in Asan",
+          "type_en": "Shrine"
         },
         {
           "id": "hansando-yusok",
@@ -876,7 +995,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Historic Site of Admiral Yi Sun-sin at Hansando, Tongyeong (Jeseungdang)",
+          "type_en": "Historic site"
         },
         {
           "id": "yi-tomb-asan",
@@ -888,7 +1009,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Tomb of Admiral Yi Sun-sin in Asan",
+          "type_en": "Tomb"
         }
       ],
       "works": [
@@ -900,7 +1023,9 @@
           "quote_source": "이순신 난중일기 및 서간첩 임진장초(국보), 현충사 소장",
           "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1113400760000",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Nanjung Ilgi (War Diary)",
+          "note_en": "A handwritten diary kept over the seven years of the Imjin War (1592-1598). National Treasure, held at Hyeonchungsa Shrine. Inscribed on the UNESCO Memory of the World Register in 2013."
         },
         {
           "title": "한산도가(閑山島歌)",
@@ -912,7 +1037,10 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "title_en": "Hansandoga (Song of Hansando)",
+          "note_en": "Transmitted as a sijo poem composed during his time at the Hansando headquarters.",
+          "quote_en": "On Hansan Isle, on a moonlit night, I sit alone in the watchtower; with my great sword at my side, sunk deep in worry, from somewhere a single Tartar flute-note severs another man's heart."
         }
       ],
       "source_grade": "A",
@@ -920,7 +1048,8 @@
       "flags": [
         "coords-unverified",
         "birthplace-disputed"
-      ]
+      ],
+      "field_en": "Military officer of Joseon (naval commander)"
     },
     {
       "id": "han-yongun",
@@ -937,7 +1066,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "Seonggok-ri, Gyeolseong-myeon, Hongseong-gun, Chungnam (Birthplace site: 83 Manhae-ro 318beon-gil)"
       },
       "timeline": [
         {
@@ -946,7 +1076,8 @@
           "place_id": "han-yongun-birthplace",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Born in Hongseong, Chungnam (August 29). Real name Jeong-ok, Cheongju clan"
         },
         {
           "year": 1905,
@@ -954,7 +1085,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Attained enlightenment at Baekdamsa Temple on Seoraksan Mountain; Dharma name Yong-un (龍雲)"
         },
         {
           "year": 1910,
@@ -962,7 +1094,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Wrote 'On the Reformation of Korean Buddhism' (Joseon Bulgyo Yusillon)"
         },
         {
           "year": 1919,
@@ -970,7 +1103,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Participated as one of the 33 National Representatives of the March 1st Movement (representing the Buddhist community) and signed the Declaration of Independence"
         },
         {
           "year": 1925,
@@ -978,7 +1112,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0013398",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Completed the poem 'The Silence of My Beloved' (Nimui Chimmuk) (August 29)"
         },
         {
           "year": 1926,
@@ -986,7 +1121,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published the poetry collection 'The Silence of My Beloved' (Hoedong Seogwan)"
         },
         {
           "year": 1927,
@@ -994,7 +1130,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Participated in forming the Singanhoe, serving as a central executive committee member and head of the Gyeongseong branch"
         },
         {
           "year": 1944,
@@ -1002,7 +1139,8 @@
           "place_id": "simujang",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Died at Simujang in Seongbuk-dong, Seoul (June 29)"
         }
       ],
       "places": [
@@ -1016,7 +1154,9 @@
           "source_grade": "A",
           "flags": [
             "coords-kakao"
-          ]
+          ],
+          "name_en": "Birthplace Site of Master Han Yong-un",
+          "type_en": "Family home"
         },
         {
           "id": "simujang",
@@ -1028,7 +1168,9 @@
           "source_grade": "A",
           "flags": [
             "coords-kakao"
-          ]
+          ],
+          "name_en": "Simujang (尋牛莊), Home of Manhae Han Yong-un",
+          "type_en": "Historic house"
         }
       ],
       "works": [
@@ -1040,7 +1182,10 @@
           "quote_source": "「님의 침묵」 첫 행",
           "source_url": "https://ko.wikisource.org/wiki/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "The Silence of My Beloved (Nimui Chimmuk)",
+          "note_en": "Poetry collection including the title poem. The title poem was completed in 1925 and published by Hoedong Seogwan in 1926.",
+          "quote_en": "My beloved has gone. Ah, my beloved whom I love has gone."
         },
         {
           "title": "조선불교유신론",
@@ -1048,14 +1193,17 @@
           "note": "불교 개혁론. 1910년 저술, 1913년 간행.",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "On the Reformation of Korean Buddhism (Joseon Bulgyo Yusillon)",
+          "note_en": "A treatise on Buddhist reform. Written in 1910, published in 1913."
         }
       ],
       "source_grade": "A",
       "verified": true,
       "flags": [
         "coords-unverified"
-      ]
+      ],
+      "field_en": "Poet, Buddhist monk, and independence activist"
     },
     {
       "id": "sin-chaeho",
@@ -1073,7 +1221,8 @@
         "flags": [
           "coords-unverified",
           "birthplace-disputed"
-        ]
+        ],
+        "admin_en": "Born in Sannae, Daedeok, South Chungcheong Province / raised in Gwirae-ri, Nangseong-myeon, Cheongju, North Chungcheong Province (variant accounts). Birthplace site: 47, Danjae-ro 229beon-gil, Jung-gu, Daejeon"
       },
       "timeline": [
         {
@@ -1084,7 +1233,8 @@
           "source_grade": "A",
           "flags": [
             "birthplace-disputed"
-          ]
+          ],
+          "event_en": "Born in Sannae, Daedeok, South Chungcheong Province, and raised in Cheongju, North Chungcheong Province. Pen name Danjae (丹齋); ancestral seat Goryeong"
         },
         {
           "year": 1906,
@@ -1092,7 +1242,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Appointed editor-in-chief of the 'Daehan Maeil Sinbo'"
         },
         {
           "year": 1908,
@@ -1100,7 +1251,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published 'Doksa sillon' (serialized in the Daehan Maeil Sinbo)"
         },
         {
           "year": 1910,
@@ -1110,7 +1262,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Went into exile in China"
         },
         {
           "year": 1923,
@@ -1120,7 +1273,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Wrote and issued the 'Joseon Revolution Declaration' for the Uiyeoldan (Heroic Corps)"
         },
         {
           "year": 1928,
@@ -1130,7 +1284,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Arrested by Japanese police in Keelung, Taiwan"
         },
         {
           "year": 1931,
@@ -1138,7 +1293,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0052083",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "'Joseon Sanggosa' was serialized in the arts and culture section of the 'Chosun Ilbo'"
         },
         {
           "year": 1936,
@@ -1148,7 +1304,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Died in Lushun Prison (cerebral hemorrhage, aged 57)"
         }
       ],
       "places": [
@@ -1162,7 +1319,9 @@
           "source_grade": "A",
           "flags": [
             "coords-kakao"
-          ]
+          ],
+          "name_en": "Birthplace Site of Danjae Sin Chae-ho (Eonam-dong, Daejeon)",
+          "type_en": "Family home"
         },
         {
           "id": "sin-chaeho-shrine-grave",
@@ -1174,7 +1333,9 @@
           "source_grade": "A",
           "flags": [
             "coords-kakao"
-          ]
+          ],
+          "name_en": "Sin Chae-ho Shrine and Tomb, Cheongju",
+          "type_en": "Shrine and tomb"
         }
       ],
       "works": [
@@ -1186,7 +1347,10 @@
           "quote_source": "『조선상고사』 제1편 총론",
           "source_url": "https://ko.wikisource.org/wiki/%EC%A1%B0%EC%84%A0%EC%83%81%EA%B3%A0%EC%82%AC/%EC%A0%9C1%ED%8E%B8",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Joseon Sanggosa (Ancient History of Korea)",
+          "note_en": "An account of ancient history. Serialized in the 'Chosun Ilbo' in 1931 and published as a book in 1948. The first chapter (general introduction) sets out his theory of history.",
+          "quote_en": "What is history? It is the record of the mental activity of the struggle between the 'Self (我)' and the 'Non-Self (非我)' in human society, as it develops through time and expands through space."
         },
         {
           "title": "조선혁명선언",
@@ -1194,7 +1358,9 @@
           "note": "의열단 선언문. 1923년 발표.",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Joseon Revolution Declaration",
+          "note_en": "The manifesto of the Uiyeoldan (Heroic Corps). Issued in 1923."
         }
       ],
       "source_grade": "A",
@@ -1202,7 +1368,8 @@
       "flags": [
         "birthplace-disputed",
         "coords-unverified"
-      ]
+      ],
+      "field_en": "Historian, journalist, and independence activist"
     },
     {
       "id": "jeong-jiyong",
@@ -1219,7 +1386,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "40 Hagye-ri, Okcheon-eup, Okcheon-gun, Chungbuk (Family home and literary museum: 56 Hyangsu-gil)"
       },
       "timeline": [
         {
@@ -1230,7 +1398,8 @@
           "source_grade": "A",
           "flags": [
             "birthdate-variant"
-          ]
+          ],
+          "event_en": "Born in Okcheon, Chungbuk (June 20). Yeonil clan"
         },
         {
           "year": 1923,
@@ -1240,7 +1409,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Wrote the poem 'Nostalgia' (Hyangsu). The same year, entered the English literature department of Doshisha University in Japan"
         },
         {
           "year": 1927,
@@ -1248,7 +1418,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0062938",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published 'Nostalgia' in issue 65 of Joseon Jigwang (March)"
         },
         {
           "year": 1930,
@@ -1256,7 +1427,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Joined as a member of the Simunhak (Poetry Literature) coterie"
         },
         {
           "year": 1935,
@@ -1264,7 +1436,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0050955",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published his first poetry collection, 'The Poems of Jeong Ji-yong' (Simunhaksa)"
         },
         {
           "year": 1941,
@@ -1272,7 +1445,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published his second poetry collection, 'Baengnokdam'"
         },
         {
           "year": 1945,
@@ -1280,7 +1454,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Appointed professor at Ewha Womens College"
         },
         {
           "year": 1950,
@@ -1290,7 +1465,8 @@
           "source_grade": "A",
           "flags": [
             "death-disputed"
-          ]
+          ],
+          "event_en": "Believed to have died during the Korean War (circumstances of death disputed)"
         }
       ],
       "places": [
@@ -1304,7 +1480,9 @@
           "source_grade": "A",
           "flags": [
             "coords-unverified"
-          ]
+          ],
+          "name_en": "Jeong Ji-yong's Family Home",
+          "type_en": "Family home"
         },
         {
           "id": "jeong-jiyong-literature-museum",
@@ -1316,7 +1494,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Jeong Ji-yong Literary Museum",
+          "type_en": "Literary museum"
         }
       ],
       "works": [
@@ -1328,7 +1508,10 @@
           "quote_source": "「향수」 후렴구",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0062938",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Nostalgia (Hyangsu, 鄕愁)",
+          "note_en": "Free-verse poem of 10 stanzas and 26 lines. Written in 1923, published in Joseon Jigwang in 1927, included in the 1935 poetry collection.",
+          "quote_en": "How could that place ever be forgotten, even in my dreams?"
         },
         {
           "title": "정지용시집",
@@ -1336,7 +1519,9 @@
           "note": "첫 시집. 시문학사, 87편 수록(향수·유리창·바다 등).",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0050955",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "The Poems of Jeong Ji-yong (Jeong Ji-yong Sijip)",
+          "note_en": "His first poetry collection. Simunhaksa, containing 87 poems (Nostalgia, Window, Sea, and others)."
         }
       ],
       "source_grade": "A",
@@ -1345,7 +1530,8 @@
         "birthdate-variant",
         "death-disputed",
         "coords-unverified"
-      ]
+      ],
+      "field_en": "Poet"
     },
     {
       "id": "kim-yujeong",
@@ -1362,7 +1548,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "Sille village, Chuncheon, Gangwon (present-day Jeung-ri, Sindong-myeon). Kim Yu-jeong Literary Village: 1430-14 Kim Yu-jeong-ro"
       },
       "timeline": [
         {
@@ -1373,7 +1560,8 @@
           "source_grade": "A",
           "flags": [
             "birthdate-variant"
-          ]
+          ],
+          "event_en": "Born in Sille village, Chuncheon, Gangwon"
         },
         {
           "year": 1929,
@@ -1381,7 +1569,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Graduated from Hwimun High Common School"
         },
         {
           "year": 1932,
@@ -1389,7 +1578,8 @@
           "place_id": "kim-yujeong-literature-village",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Founded the Geumbyeong Uisuk (錦屛義塾) school in his home village of Sille"
         },
         {
           "year": 1935,
@@ -1397,7 +1587,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Made his literary debut with 'Sonakbi' (Joseon Ilbo) and 'Nodaji' (Jungang Ilbo) winning the spring literary contests"
         },
         {
           "year": 1935,
@@ -1405,7 +1596,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0023781",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published the short story 'Spring, Spring' (Bombom) in Jogwang"
         },
         {
           "year": 1936,
@@ -1413,7 +1605,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published the short story 'Camellias' (Dongbaekkkot)"
         },
         {
           "year": 1937,
@@ -1423,7 +1616,8 @@
           "source_grade": "A",
           "flags": [
             "deathplace-variant"
-          ]
+          ],
+          "event_en": "Died (age 30, pulmonary tuberculosis)"
         }
       ],
       "places": [
@@ -1437,7 +1631,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Kim Yu-jeong Literary Village (restored family home and memorial exhibition hall)",
+          "type_en": "Literary village and family home"
         },
         {
           "id": "kim-yujeong-station",
@@ -1450,7 +1646,9 @@
           "flags": [
             "coords-osm",
             "wiki-only"
-          ]
+          ],
+          "name_en": "Kim Yu-jeong Station (former Sinnam Station)",
+          "type_en": "Memorial site (railway station)"
         }
       ],
       "works": [
@@ -1464,7 +1662,10 @@
           "source_grade": "A",
           "flags": [
             "quote-source-wiki"
-          ]
+          ],
+          "title_en": "Camellias (Dongbaekkkot)",
+          "note_en": "A short story set in the rural Gangwon countryside. Published in 1936.",
+          "quote_en": "Today again, our rooster was being chased about."
         },
         {
           "title": "봄봄",
@@ -1472,7 +1673,9 @@
           "note": "데릴사위 '나'와 장인 봉필을 다룬 단편. 1935년 『조광』 발표.",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0023781",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Spring, Spring (Bombom)",
+          "note_en": "A short story dealing with 'I,' a live-in son-in-law, and his father-in-law Bongpil. Published in Jogwang in 1935."
         }
       ],
       "source_grade": "A",
@@ -1481,7 +1684,8 @@
         "birthdate-variant",
         "deathplace-variant",
         "coords-unverified"
-      ]
+      ],
+      "field_en": "Novelist"
     },
     {
       "id": "lee-yuksa",
@@ -1499,7 +1703,8 @@
         "flags": [
           "coords-unverified",
           "admin-name-variant"
-        ]
+        ],
+        "admin_en": "881 Wonchon-ri (Woncheon-ri), Dosan-myeon, Andong-si, Gyeongbuk"
       },
       "timeline": [
         {
@@ -1508,7 +1713,8 @@
           "place_id": "lee-yuksa-birth-house",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Born in Wonchon-ri, Dosan-myeon, Andong, Gyeongbuk. Real name Yi Won-rok"
         },
         {
           "year": 1925,
@@ -1516,7 +1722,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Joined the Uiyeoldan together with his older and younger brothers"
         },
         {
           "year": 1927,
@@ -1524,7 +1731,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Imprisoned at Daegu Prison for involvement in the bombing of the Daegu branch of the Bank of Joseon (prisoner number 264, the origin of his pen name 'Yuksa')"
         },
         {
           "year": 1939,
@@ -1532,7 +1740,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published the poem 'Green Grapes' (Cheongpodo) in Munjang"
         },
         {
           "year": 1940,
@@ -1540,7 +1749,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0049814",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published the poem 'The Summit' (Jeoljeong) in Munjang"
         },
         {
           "year": 1943,
@@ -1548,7 +1758,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Arrested in Seoul in the autumn and transported to Beijing"
         },
         {
           "year": 1944,
@@ -1558,7 +1769,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Died for his country in a Beijing prison in January"
         },
         {
           "year": 1945,
@@ -1566,7 +1778,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0005168",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "His posthumous poem 'The Wilderness' (Gwangya) was published in the Jayu Sinmun by his younger brother Yi Won-jo (December 17)"
         }
       ],
       "places": [
@@ -1580,7 +1793,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Lee Yuk-sa Literary Museum",
+          "type_en": "Literary museum"
         },
         {
           "id": "lee-yuksa-birth-house",
@@ -1593,7 +1808,9 @@
           "flags": [
             "coords-unverified",
             "relocated"
-          ]
+          ],
+          "name_en": "Lee Yuk-sa's Family Home (relocated due to the flooding of Andong Dam)",
+          "type_en": "Family home"
         }
       ],
       "works": [
@@ -1607,7 +1824,10 @@
           "source_grade": "A",
           "flags": [
             "quote-source-wiki"
-          ]
+          ],
+          "title_en": "The Wilderness (Gwangya, 曠野)",
+          "note_en": "Posthumous poem. Published in the Jayu Sinmun in 1945, included in 'The Collected Poems of Yuksa' in 1946.",
+          "quote_en": "And a thousand ages hence, let there be a superman who comes riding a white horse to cry out his song aloud across this wilderness"
         },
         {
           "title": "절정(絶頂)",
@@ -1619,7 +1839,10 @@
           "source_grade": "A",
           "flags": [
             "quote-source-wiki"
-          ]
+          ],
+          "title_en": "The Summit (Jeoljeong, 絶頂)",
+          "note_en": "Published in Munjang in 1940.",
+          "quote_en": "Winter, it seems, is a rainbow forged of steel"
         },
         {
           "title": "청포도(靑葡萄)",
@@ -1627,7 +1850,9 @@
           "note": "1939년 8월 『문장』 발표.",
           "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0056822",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Green Grapes (Cheongpodo, 靑葡萄)",
+          "note_en": "Published in Munjang in August 1939."
         }
       ],
       "source_grade": "A",
@@ -1635,7 +1860,8 @@
       "flags": [
         "admin-name-variant",
         "coords-unverified"
-      ]
+      ],
+      "field_en": "Poet and independence activist"
     },
     {
       "id": "lee-jung-seop",
@@ -1654,7 +1880,8 @@
           "coords-unverified",
           "overseas",
           "wiki-only"
-        ]
+        ],
+        "admin_en": "742 Songcheon-ri, Joun-myeon, Pyeongwon-gun, South Pyeongan Province (in present-day North Korea)"
       },
       "timeline": [
         {
@@ -1665,7 +1892,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Born in Songcheon-ri, Joun-myeon, Pyeongwon-gun, South Pyeongan Province (April 10, 1916)"
         },
         {
           "year": 1936,
@@ -1673,7 +1901,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "After graduating from Osan Higher Common School, entered the Western painting department of the Imperial Art School in Tokyo, Japan"
         },
         {
           "year": 1937,
@@ -1681,7 +1910,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Transferred to the art department of Bunka Gakuin in Tokyo"
         },
         {
           "year": 1940,
@@ -1689,7 +1919,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Graduated from Bunka Gakuin"
         },
         {
           "year": 1945,
@@ -1699,7 +1930,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Married the Japanese woman Yamamoto Masako (Yi Nam-deok) in Wonsan"
         },
         {
           "year": 1950,
@@ -1707,7 +1939,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "During the Korean War, left Wonsan and took refuge on Jeju Island by way of Busan"
         },
         {
           "year": 1951,
@@ -1715,7 +1948,8 @@
           "place_id": "leejungseop-museum",
           "source_url": "https://culture.seogwipo.go.kr/jslee/index.htm",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "In January 1951, took refuge with his family in Seogwi-dong, Seogwipo, residing there for about a year"
         },
         {
           "year": 1952,
@@ -1725,7 +1959,8 @@
           "source_grade": "A",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "event_en": "Moved to Busan, then lived an itinerant life moving to Tongyeong and other places"
         },
         {
           "year": 1955,
@@ -1735,7 +1970,8 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "event_en": "Held a solo exhibition at the Midopa Department Store gallery in Seoul"
         },
         {
           "year": 1955,
@@ -1745,7 +1981,8 @@
           "source_grade": "A",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "event_en": "Held a solo exhibition in Daegu"
         },
         {
           "year": 1956,
@@ -1753,7 +1990,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Died at the Red Cross Hospital in Seodaemun, Seoul (September 6, 1956)"
         }
       ],
       "places": [
@@ -1765,7 +2003,9 @@
           "type": "미술관·거주지",
           "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=96b662f9-03cf-4c2f-a2c2-69c9582665c9",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "name_en": "Lee Jung-seop Art Museum, Residence, and Street",
+          "type_en": "Art museum and residence"
         }
       ],
       "works": [
@@ -1779,7 +2019,9 @@
           "source_grade": "A",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "title_en": "Hwangso (Bull)",
+          "note_en": "Oil on canvas. Held at the Leeum, Samsung Museum of Art. One of the bull series from his Tongyeong and Seoul period of 1953-1954."
         },
         {
           "title": "흰소",
@@ -1791,7 +2033,9 @@
           "source_grade": "A",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "title_en": "Huinso (White Ox)",
+          "note_en": "Oil on wood panel. Held at the Hongik University Museum."
         },
         {
           "title": "가족",
@@ -1803,7 +2047,9 @@
           "source_grade": "A",
           "flags": [
             "year-unverified"
-          ]
+          ],
+          "title_en": "Gajok (Family)",
+          "note_en": "Oil on paper. Held at the Leeum, Samsung Museum of Art. Date of production unknown."
         },
         {
           "title": "은지화(은박지 그림) 연작",
@@ -1816,7 +2062,9 @@
           "flags": [
             "wiki-only",
             "year-unverified"
-          ]
+          ],
+          "title_en": "Eunjihwa (Silver-Foil Paintings) series",
+          "note_en": "A series of pictures made by incising the silver foil inside cigarette packs with an awl and rubbing pigment into the lines. Date of production unknown."
         }
       ],
       "source_grade": "A",
@@ -1825,7 +2073,8 @@
         "coords-unverified",
         "overseas"
       ],
-      "note": "호 대향(大鄕), 본관 장수, 한자명 李仲燮. 생년 1916·몰년 1956은 한국민족문화대백과사전 일치. 정확한 생몰일(1916-04-10 출생, 1956-09-06 사망)과 출생지 번지(평원군 조운면 송천리 742)는 위키백과 표기라 해당 항목에 wiki-only/C 플래그. 출생지 송천리는 현재 북한 소재로 좌표 미확보·overseas. 원산 결혼·피난 출발지도 북한(overseas). 서귀포 거주 시기(1951년 1월~약 1년)는 서귀포시 문화예술포털(이중섭미술관) A급 출처. 이중섭미술관 좌표(33.2452, 126.5645)와 도로명 주소 '제주특별자치도 서귀포시 이중섭로 33(서귀동)'은 한국관광공사 visitkorea 공식 지도값. 미술관은 2002년 개관, 1951년 거주지를 복원해 경내에 포함. 작품 소장처는 한국민족문화대백과사전 기준이며 일부 제작연도는 자료별 차이가 있어 year-approx/year-unverified."
+      "note": "호 대향(大鄕), 본관 장수, 한자명 李仲燮. 생년 1916·몰년 1956은 한국민족문화대백과사전 일치. 정확한 생몰일(1916-04-10 출생, 1956-09-06 사망)과 출생지 번지(평원군 조운면 송천리 742)는 위키백과 표기라 해당 항목에 wiki-only/C 플래그. 출생지 송천리는 현재 북한 소재로 좌표 미확보·overseas. 원산 결혼·피난 출발지도 북한(overseas). 서귀포 거주 시기(1951년 1월~약 1년)는 서귀포시 문화예술포털(이중섭미술관) A급 출처. 이중섭미술관 좌표(33.2452, 126.5645)와 도로명 주소 '제주특별자치도 서귀포시 이중섭로 33(서귀동)'은 한국관광공사 visitkorea 공식 지도값. 미술관은 2002년 개관, 1951년 거주지를 복원해 경내에 포함. 작품 소장처는 한국민족문화대백과사전 기준이며 일부 제작연도는 자료별 차이가 있어 year-approx/year-unverified.",
+      "field_en": "Western-style painter"
     },
     {
       "id": "kim-whanki",
@@ -1842,7 +2091,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "Eupdong-ri, Anjwa-myeon, Sinan-gun, South Jeolla Province (birthplace: Kim Whanki Historic House, Sinan; 38-1 Anjwaseobu-gil, Anjwa-myeon, Sinan-gun, Jeonnam)"
       },
       "timeline": [
         {
@@ -1853,7 +2103,8 @@
           "source_grade": "A",
           "flags": [
             "birthdate-variant"
-          ]
+          ],
+          "event_en": "Born in Eupdong-ri, Anjwa-myeon, Sinan-gun, South Jeolla Province (April 13, 1913)"
         },
         {
           "year": 1934,
@@ -1861,7 +2112,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "While studying in Japan, took part in the Avant-Garde Art Institute"
         },
         {
           "year": 1936,
@@ -1869,7 +2121,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Graduated from the art department of Nihon University in Tokyo and completed its graduate research course"
         },
         {
           "year": 1937,
@@ -1877,7 +2130,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Organized the Baengmanhoe; returned to Korea around this time"
         },
         {
           "year": 1948,
@@ -1885,7 +2139,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Appointed professor at the College of Fine Arts of Seoul National University; organized the Sinsasilpa (New Realists)"
         },
         {
           "year": 1952,
@@ -1893,7 +2148,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Appointed professor at Hongik University"
         },
         {
           "year": 1956,
@@ -1903,7 +2159,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Went to Paris and stayed there for about three years, working on his art"
         },
         {
           "year": 1963,
@@ -1914,7 +2171,8 @@
           "flags": [
             "wiki-only",
             "overseas"
-          ]
+          ],
+          "event_en": "Participated in the São Paulo Biennale as Korea's representative"
         },
         {
           "year": 1965,
@@ -1925,7 +2183,8 @@
           "flags": [
             "overseas",
             "year-approx"
-          ]
+          ],
+          "event_en": "Moved to New York; received an honorary prize in the painting section of the São Paulo Biennale"
         },
         {
           "year": 1974,
@@ -1936,7 +2195,8 @@
           "flags": [
             "overseas",
             "wiki-only"
-          ]
+          ],
+          "event_en": "Died in New York, United States (July 25, 1974)"
         },
         {
           "year": 1992,
@@ -1944,7 +2204,8 @@
           "place_id": "whanki-museum",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0064975",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "His bereaved family (his wife Kim Hyang-an and the Whanki Foundation) opened the Whanki Museum in Buam-dong, Jongno-gu, Seoul (November 5, 1992)"
         }
       ],
       "places": [
@@ -1958,7 +2219,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Whanki Museum",
+          "type_en": "Art museum"
         },
         {
           "id": "kim-whanki-house",
@@ -1970,7 +2233,9 @@
           "source_grade": "A",
           "flags": [
             "coords-kakao"
-          ]
+          ],
+          "name_en": "Kim Whanki Historic House in Sinan (birthplace, National Folklore Cultural Heritage)",
+          "type_en": "Family home"
         }
       ],
       "works": [
@@ -1982,7 +2247,9 @@
           "quote_source": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Rondo",
+          "note_en": "Oil on canvas, 61×72 cm. Held at the National Museum of Modern and Contemporary Art. An abstract work from his period of study in Japan."
         },
         {
           "title": "어디서 무엇이 되어 다시 만나랴",
@@ -1994,7 +2261,9 @@
           "source_grade": "A",
           "flags": [
             "owner-variant"
-          ]
+          ],
+          "title_en": "Where, in What Form, Shall We Meet Again (Eodiseo Mueosi Doeeo Dasi Mannara)",
+          "note_en": "Oil on canvas, 236×172 cm. The title is quoted from the last line of Kim Kwang-seop's poem 'In the Evening.' A full-surface dot painting from his New York period."
         },
         {
           "title": "우주(Universe 5-IV-71 #200)",
@@ -2006,7 +2275,9 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "title_en": "Universe (Uju, 5-IV-71 #200)",
+          "note_en": "A full-surface dot painting from his New York period. Sold for about 13.2 billion won at the Christie's Hong Kong auction in November 2019 (a record high price for a Korean artwork at auction)."
         }
       ],
       "source_grade": "A",
@@ -2015,7 +2286,8 @@
         "coords-unverified",
         "birthdate-variant"
       ],
-      "note": "호 수화(樹話), 한자명 金煥基. 생년 1913·몰년 1974는 한국민족문화대백과사전 일치. 출생지 '신안군 안좌면 읍동리'는 한국민족문화대백과사전 A급. 정확한 출생일(양력 1913-04-13, 음력 2월 27일)·사망일(1974-07-25, 뉴욕)은 위키백과 표기라 해당 항목 wiki-only/C·birthdate-variant. 환기미술관 주소는 '서울특별시 종로구 자하문로40길 63(부암동)'(visitkorea 영문 페이지), 1992-11-05 개관(부인 김향안이 1978년 설립한 환기재단). 신안 김환기 고택은 국가민속문화재(2007-10-12 지정), 주소 '전남 신안군 안좌면 안좌서부길 38-1(읍동리)', 안채 1920·화실 1940년대 건축. 환기미술관·고택 좌표는 한국 공식 출처에서 위경도 숫자를 교차검증하지 못해 null(coords-unverified), 도로명 주소만 보존. 파리·뉴욕 체류는 overseas."
+      "note": "호 수화(樹話), 한자명 金煥基. 생년 1913·몰년 1974는 한국민족문화대백과사전 일치. 출생지 '신안군 안좌면 읍동리'는 한국민족문화대백과사전 A급. 정확한 출생일(양력 1913-04-13, 음력 2월 27일)·사망일(1974-07-25, 뉴욕)은 위키백과 표기라 해당 항목 wiki-only/C·birthdate-variant. 환기미술관 주소는 '서울특별시 종로구 자하문로40길 63(부암동)'(visitkorea 영문 페이지), 1992-11-05 개관(부인 김향안이 1978년 설립한 환기재단). 신안 김환기 고택은 국가민속문화재(2007-10-12 지정), 주소 '전남 신안군 안좌면 안좌서부길 38-1(읍동리)', 안채 1920·화실 1940년대 건축. 환기미술관·고택 좌표는 한국 공식 출처에서 위경도 숫자를 교차검증하지 못해 null(coords-unverified), 도로명 주소만 보존. 파리·뉴욕 체류는 overseas.",
+      "field_en": "Western-style painter"
     },
     {
       "id": "park-soo-keun",
@@ -2032,7 +2304,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "Jeongnim-ri, Yanggu-myeon, Yanggu-gun, Gangwon Province (present-day Jeongnim-ri, Yanggu-eup, Yanggu-gun)"
       },
       "timeline": [
         {
@@ -2043,7 +2316,8 @@
           "source_grade": "A",
           "flags": [
             "birthdate-variant"
-          ]
+          ],
+          "event_en": "Born in Jeongnim-ri, Yanggu-myeon, Yanggu-gun, Gangwon Province (February 21, 1914)"
         },
         {
           "year": 1932,
@@ -2051,7 +2325,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Selected at the Joseon Art Exhibition (Seonjeon) with the watercolor 'Spring Comes'"
         },
         {
           "year": 1936,
@@ -2059,7 +2334,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Continued to submit works to the Joseon Art Exhibition through 1944"
         },
         {
           "year": 1952,
@@ -2067,7 +2343,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "During the Korean War, fled south and settled in Seoul, beginning to submit works to the Korean Fine Arts Association Exhibition and the National Art Exhibition"
         },
         {
           "year": 1959,
@@ -2075,7 +2352,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Became a recommended artist of the National Art Exhibition (Gukjeon)"
         },
         {
           "year": 1962,
@@ -2083,7 +2361,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Served as a judge of the National Art Exhibition"
         },
         {
           "year": 1965,
@@ -2093,7 +2372,8 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "event_en": "Died in Jeonnong-dong, Dongdaemun-gu, Seoul (May 6, 1965)"
         },
         {
           "year": 2002,
@@ -2101,7 +2381,8 @@
           "place_id": "park-sookeun-museum",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0069393",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "The Yanggu County Park Soo-keun Museum opened on the site of his birthplace in Jeongnim-ri, Yanggu-eup (October 25, 2002)"
         }
       ],
       "places": [
@@ -2115,7 +2396,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Yanggu County Park Soo-keun Museum (site of Park Soo-keun's birthplace)",
+          "type_en": "Art museum and birthplace site"
         }
       ],
       "works": [
@@ -2127,7 +2410,9 @@
           "quote_source": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Jeolgujilhaneun Yeoin (Woman Pounding Grain)",
+          "note_en": "Oil. A picture surface built up with a rough matière (the texture of granite and stone)."
         },
         {
           "title": "빨래터",
@@ -2137,7 +2422,9 @@
           "quote_source": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Ppallaeteo (Washing Place)",
+          "note_en": "Oil. A matière technique evoking the texture of granite."
         },
         {
           "title": "할아버지와 손자",
@@ -2147,7 +2434,9 @@
           "quote_source": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Harabeojiwa Sonja (Grandfather and Grandson)",
+          "note_en": "Oil on canvas, 145.2×97.3 cm. Held at the National Museum of Modern and Contemporary Art."
         },
         {
           "title": "소와 유동",
@@ -2157,7 +2446,9 @@
           "quote_source": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Sowa Yudong (Ox and Children)",
+          "note_en": "Oil. Held at the Leeum, Samsung Museum of Art."
         }
       ],
       "source_grade": "A",
@@ -2166,7 +2457,8 @@
         "coords-unverified",
         "birthdate-variant"
       ],
-      "note": "한자명 朴壽根. 생년 1914·몰년 1965는 한국민족문화대백과사전 일치. 출생지 '양구군 양구면 정림리'는 한국민족문화대백과사전 A급. 정확한 출생일(1914-02-21)·사망일(1965-05-06)·사망지(서울 동대문구 전농동)는 위키백과 표기라 해당 항목 wiki-only/C·birthdate-variant. 양구군립 박수근미술관은 2002-10-25 개관, 생가 터에 건립(한국민족문화대백과사전). 도로명 주소 '강원특별자치도 양구군 양구읍 박수근로 265-15'(visitkorea·양구군 관광). 미술관·생가터 좌표는 한국 공식 출처에서 위경도 숫자를 확인하지 못해 null(coords-unverified), 도로명 주소만 보존. 작품 제작연도·소장처는 한국민족문화대백과사전 기준."
+      "note": "한자명 朴壽根. 생년 1914·몰년 1965는 한국민족문화대백과사전 일치. 출생지 '양구군 양구면 정림리'는 한국민족문화대백과사전 A급. 정확한 출생일(1914-02-21)·사망일(1965-05-06)·사망지(서울 동대문구 전농동)는 위키백과 표기라 해당 항목 wiki-only/C·birthdate-variant. 양구군립 박수근미술관은 2002-10-25 개관, 생가 터에 건립(한국민족문화대백과사전). 도로명 주소 '강원특별자치도 양구군 양구읍 박수근로 265-15'(visitkorea·양구군 관광). 미술관·생가터 좌표는 한국 공식 출처에서 위경도 숫자를 확인하지 못해 null(coords-unverified), 도로명 주소만 보존. 작품 제작연도·소장처는 한국민족문화대백과사전 기준.",
+      "field_en": "Western-style painter"
     },
     {
       "id": "na-hye-seok",
@@ -2183,7 +2475,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "Suwon, Gyeonggi Province (present-day Sinpung-dong area, Paldal-gu, Suwon)"
       },
       "timeline": [
         {
@@ -2192,7 +2485,8 @@
           "place_id": "na-hyeseok-street",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Born in Suwon, Gyeonggi Province (April 28, 1896)"
         },
         {
           "year": 1913,
@@ -2200,7 +2494,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "After graduating from Jinmyeong Girls' High School, entered the Western painting department of the Joshibi (Women's School of Fine Arts) in Tokyo, Japan"
         },
         {
           "year": 1918,
@@ -2208,7 +2503,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published the short story 'Gyeonghui' in the magazine Yeojagye; graduated from the Women's School of Fine Arts the same year"
         },
         {
           "year": 1920,
@@ -2218,7 +2514,8 @@
           "source_grade": "A",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "event_en": "Married the lawyer Kim Woo-yeong"
         },
         {
           "year": 1921,
@@ -2226,7 +2523,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Held a solo oil-painting exhibition at the Naecheonggak hall of the Gyeongseong Ilbo company"
         },
         {
           "year": 1922,
@@ -2234,7 +2532,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Began submitting to the Western painting section of the Joseon Art Exhibition (Seonjeon), winning selections and special prizes over the following years"
         },
         {
           "year": 1927,
@@ -2244,7 +2543,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Took a round-the-world tour of Europe and America with her husband, staying about eight months in Paris"
         },
         {
           "year": 1929,
@@ -2252,7 +2552,8 @@
           "place_id": "na-hyeseok-street",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Held a 'European-American Sketch Painting Exhibition' in Suwon"
         },
         {
           "year": 1930,
@@ -2260,7 +2561,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Divorced Kim Woo-yeong"
         },
         {
           "year": 1934,
@@ -2268,7 +2570,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published 'A Confession of Divorce' in the magazine Samcheolli"
         },
         {
           "year": 1935,
@@ -2276,7 +2579,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Held a 'Recent Small Works Exhibition' at the Joseongwan exhibition hall in Seoul (her final exhibition)"
         },
         {
           "year": 1948,
@@ -2284,7 +2588,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Died at the Seoul Municipal Jajewon (Jahyewon) shelter (December 10, 1948)"
         },
         {
           "year": 2000,
@@ -2292,7 +2597,8 @@
           "place_id": "na-hyeseok-street",
           "source_url": "https://www.kyeonggi.com/article/200002100113031",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "event_en": "Na Hye-seok Street created in Ingye-dong, Paldal-gu, Suwon"
         }
       ],
       "places": [
@@ -2306,7 +2612,9 @@
           "source_grade": "B",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Na Hye-seok Street (Ingye-dong, Paldal-gu, Suwon)",
+          "type_en": "Commemorative street"
         }
       ],
       "works": [
@@ -2320,7 +2628,9 @@
           "source_grade": "A",
           "flags": [
             "year-unverified"
-          ]
+          ],
+          "title_en": "Muhui (The Dancer)",
+          "note_en": "Oil on canvas, 33×41 cm. Held by the National Museum of Modern and Contemporary Art. Painted during her stay in Paris (around 1927)."
         },
         {
           "title": "스페인 해수욕장",
@@ -2332,7 +2642,9 @@
           "source_grade": "A",
           "flags": [
             "year-unverified"
-          ]
+          ],
+          "title_en": "A Spanish Beach",
+          "note_en": "Oil painting. Made during her stay in Paris. Date of creation unknown."
         },
         {
           "title": "경희(瓊姬)",
@@ -2342,7 +2654,9 @@
           "quote_source": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Gyeonghui",
+          "note_en": "Short story. Published in the March 1918 issue of the magazine Yeojagye."
         },
         {
           "title": "이혼고백장(離婚告白狀)",
@@ -2355,7 +2669,10 @@
           "flags": [
             "wiki-only",
             "quote-partial"
-          ]
+          ],
+          "title_en": "A Confession of Divorce",
+          "note_en": "Essay. Published in the magazine Samcheolli in 1934. A piece dealing with her state of mind after divorce and the chastity norms of the time.",
+          "quote_en": "The mindset of Korean men is strange. They have no notion of chastity themselves, yet they demand chastity of their wives and of women in general."
         }
       ],
       "source_grade": "A",
@@ -2363,7 +2680,8 @@
       "flags": [
         "coords-unverified"
       ],
-      "note": "호 정월(晶月), 한자명 羅蕙錫. 이칭 명순(明順)·아지(兒只). 생년 1896·몰년 1948은 한국민족문화대백과사전 일치, 생몰일(1896-04-28 출생, 1948-12-10 사망)도 한국민족문화대백과사전·위키백과 일치. 한국 최초의 여성 서양화가. 출생지는 '경기도 수원'(한국민족문화대백과사전), 세부 행정구역 신풍동은 위키·언론 표기. 사망지는 서울 시립 자제원(자혜원) 무연고자 병동. 나혜석거리는 2000년 수원시 팔달구 인계동(농조예식장~효원공원 구간, 길이 약 440m)에 조성(경기일보 등 B급 언론). 나혜석거리·출생지 좌표는 공식 위경도 미확보로 null(coords-unverified). 「이혼고백장」 원문 구절은 위키백과 인용본을 옮긴 것으로 wiki-only/quote-partial(부분 인용) — 1차 원문 대조는 미완. 작품 「무희」·「스페인 해수욕장」 제작연도는 자료에 정확 연도가 없어 year-unverified."
+      "note": "호 정월(晶月), 한자명 羅蕙錫. 이칭 명순(明順)·아지(兒只). 생년 1896·몰년 1948은 한국민족문화대백과사전 일치, 생몰일(1896-04-28 출생, 1948-12-10 사망)도 한국민족문화대백과사전·위키백과 일치. 한국 최초의 여성 서양화가. 출생지는 '경기도 수원'(한국민족문화대백과사전), 세부 행정구역 신풍동은 위키·언론 표기. 사망지는 서울 시립 자제원(자혜원) 무연고자 병동. 나혜석거리는 2000년 수원시 팔달구 인계동(농조예식장~효원공원 구간, 길이 약 440m)에 조성(경기일보 등 B급 언론). 나혜석거리·출생지 좌표는 공식 위경도 미확보로 null(coords-unverified). 「이혼고백장」 원문 구절은 위키백과 인용본을 옮긴 것으로 wiki-only/quote-partial(부분 인용) — 1차 원문 대조는 미완. 작품 「무희」·「스페인 해수욕장」 제작연도는 자료에 정확 연도가 없어 year-unverified.",
+      "field_en": "Western-style painter and writer"
     },
     {
       "id": "lee-hyoseok",
@@ -2381,7 +2699,8 @@
         "flags": [
           "coords-unverified",
           "birthplace-disputed"
-        ]
+        ],
+        "admin_en": "Changdong-ri, Bongpyeong-myeon, Pyeongchang-gun, Gangwon Province (present-day Bongpyeong-myeon, Pyeongchang-gun). Pyeongchang County regards the Changdong-ri (Nanan-dong) area of Bongpyeong as his birthplace and has reconstructed the birth house. Alternate account: a report (Gangwon Ilbo, 2019) that the bereaved family regards 196 Hajinbu-ri, Jinbu-myeon as his actual birthplace"
       },
       "timeline": [
         {
@@ -2392,7 +2711,8 @@
           "source_grade": "A",
           "flags": [
             "birthplace-disputed"
-          ]
+          ],
+          "event_en": "Born in Bongpyeong, Pyeongchang, Gangwon Province"
         },
         {
           "year": 1925,
@@ -2400,7 +2720,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "His poem 'Spring' was selected as an honorable-mention work in the Maeil Sinbo New Year literary contest"
         },
         {
           "year": 1925,
@@ -2408,7 +2729,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Graduated from Gyeongseong First High School and entered Keijo Imperial University"
         },
         {
           "year": 1928,
@@ -2416,7 +2738,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published the short story 'The City and the Ghost' (literary debut)"
         },
         {
           "year": 1930,
@@ -2424,7 +2747,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Graduated from the English literature department, College of Law and Letters, Keijo Imperial University"
         },
         {
           "year": 1933,
@@ -2432,7 +2756,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Joined the Guinhoe (Group of Nine) and published the short story 'Don (The Pig)'"
         },
         {
           "year": 1934,
@@ -2442,7 +2767,8 @@
           "source_grade": "A",
           "flags": [
             "year-disputed"
-          ]
+          ],
+          "event_en": "Appointed professor at Soongsil College in Pyongyang"
         },
         {
           "year": 1936,
@@ -2450,7 +2776,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0018494",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published 'When the Buckwheat Blooms' in the October issue of Chogwang (publishing 'Mountain' and 'Field' the same year)"
         },
         {
           "year": 1939,
@@ -2458,7 +2785,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published the novel 'Pollen' and the short stories 'Yeosu' and 'The Emperor'"
         },
         {
           "year": 1940,
@@ -2466,7 +2794,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "His wife Lee Gyeong-won died; published the novel 'Boundless Blue Sky'"
         },
         {
           "year": 1942,
@@ -2476,7 +2805,8 @@
           "source_grade": "A",
           "flags": [
             "deathdate-approx"
-          ]
+          ],
+          "event_en": "Died of meningitis in Pyongyang (aged 36)"
         }
       ],
       "places": [
@@ -2488,7 +2818,9 @@
           "type": "문학관",
           "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=e84371f3-00c6-4b8c-a5bf-0729837edafa",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "name_en": "Lee Hyo-seok Literary Museum",
+          "type_en": "Literary museum"
         },
         {
           "id": "lee-hyoseok-birthhouse",
@@ -2498,7 +2830,9 @@
           "type": "생가(복원)",
           "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=a57e0591-38b6-4cec-b22c-2c5d46103514",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "name_en": "Lee Hyo-seok Birth House (reconstructed)",
+          "type_en": "Birthplace (reconstructed)"
         },
         {
           "id": "lee-hyoseok-moonlight-hill",
@@ -2510,7 +2844,9 @@
           "source_grade": "B",
           "flags": [
             "coords-unverified"
-          ]
+          ],
+          "name_en": "Hyoseok Moonlight Hill (Lee Hyo-seok Culture & Arts Village; reconstructed birth house and modern-literature experience hall)",
+          "type_en": "Literary theme park"
         }
       ],
       "works": [
@@ -2524,7 +2860,10 @@
           "source_grade": "A",
           "flags": [
             "quote-wiki-source"
-          ]
+          ],
+          "title_en": "When the Buckwheat Blooms (메밀꽃 필 무렵)",
+          "note_en": "Short story published in the October 1936 issue of Chogwang. Set in the mountain marketplaces of Gangwon such as Bongpyeong and Daehwa. Classified as out of copyright (public domain) on the Korea Copyright Commission's Gongyu Madang.",
+          "quote_en": "The whole hillside was a buckwheat field, and the flowers just beginning to bloom, as if sprinkled with salt, were breathtaking under the abundant moonlight."
         },
         {
           "title": "돈(豚)",
@@ -2534,7 +2873,9 @@
           "quote_source": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Don (The Pig)",
+          "note_en": "Short story published in 1933."
         },
         {
           "title": "화분(花粉)",
@@ -2544,7 +2885,9 @@
           "quote_source": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Pollen (화분)",
+          "note_en": "Full-length novel published in 1939."
         }
       ],
       "source_grade": "A",
@@ -2554,7 +2897,8 @@
         "coords-unverified",
         "deathdate-approx"
       ],
-      "note": "한자 李孝石, 호 가산(可山), 본관 전주. 생년 1907·몰년 1942는 한국민족문화대백과사전(A) 기준. 한국민족문화대백과사전은 사망 날짜를 명시하지 않으며(향년 36세, 뇌막염), 1942-05-25 사망설은 B/C 자료에서만 확인되어 deathdate-approx. 출생지는 평창 봉평(창동리)이 공식·복원 생가 위치이나, 유족이 진부면 하진부리 196을 실제 출생지로 본다는 강원일보(2019) 보도가 있어 birthplace-disputed. 평양 숭실전문학교 교수 부임 연도는 한국민족문화대백과사전 서술상 1934로 보이나 위키 등은 1936~1938로 적어 year-disputed. 이효석문학관(강원특별자치도 평창군 봉평면 효석문학길 73-25, 창동리 544-3)과 복원 생가(봉평면 이효석길 33-11)는 한국관광공사 열린관광 페이지에 공식 좌표가 공개되어 소수점 4자리로 기재. 효석달빛언덕은 공식 좌표 미공개로 coords-unverified(주소: 봉평면 효석문학길 일원). 평창의 이효석 연고지는 국가유산청 지정 문화유산이 아닌 지자체 문화시설. 「메밀꽃 필 무렵」은 공유저작물(공유마당)이라 원문 인용 가능, 인용 텍스트는 위키문헌 기준이므로 정본 대조 권장(quote-wiki-source)."
+      "note": "한자 李孝石, 호 가산(可山), 본관 전주. 생년 1907·몰년 1942는 한국민족문화대백과사전(A) 기준. 한국민족문화대백과사전은 사망 날짜를 명시하지 않으며(향년 36세, 뇌막염), 1942-05-25 사망설은 B/C 자료에서만 확인되어 deathdate-approx. 출생지는 평창 봉평(창동리)이 공식·복원 생가 위치이나, 유족이 진부면 하진부리 196을 실제 출생지로 본다는 강원일보(2019) 보도가 있어 birthplace-disputed. 평양 숭실전문학교 교수 부임 연도는 한국민족문화대백과사전 서술상 1934로 보이나 위키 등은 1936~1938로 적어 year-disputed. 이효석문학관(강원특별자치도 평창군 봉평면 효석문학길 73-25, 창동리 544-3)과 복원 생가(봉평면 이효석길 33-11)는 한국관광공사 열린관광 페이지에 공식 좌표가 공개되어 소수점 4자리로 기재. 효석달빛언덕은 공식 좌표 미공개로 coords-unverified(주소: 봉평면 효석문학길 일원). 평창의 이효석 연고지는 국가유산청 지정 문화유산이 아닌 지자체 문화시설. 「메밀꽃 필 무렵」은 공유저작물(공유마당)이라 원문 인용 가능, 인용 텍스트는 위키문헌 기준이므로 정본 대조 권장(quote-wiki-source).",
+      "field_en": "Novelist"
     },
     {
       "id": "chae-mansik",
@@ -2571,7 +2915,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "Dongsang Village, Eumnae-ri, Impi-myeon, Okgu-gun, North Jeolla Province (present-day Impi-myeon, Gunsan, Jeonbuk). The original birth house was demolished for road widening; today only a birthplace marker stone (erected 1986) remains"
       },
       "timeline": [
         {
@@ -2582,7 +2927,8 @@
           "source_grade": "A",
           "flags": [
             "birthdate-disputed"
-          ]
+          ],
+          "event_en": "Born in Eumnae-ri, Impi-myeon, Okgu-gun, North Jeolla Province"
         },
         {
           "year": 1918,
@@ -2590,7 +2936,8 @@
           "place_id": null,
           "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Entered Jungang High School"
         },
         {
           "year": 1922,
@@ -2598,7 +2945,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0055587",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Graduated from Jungang High School and entered the literature department of the First Waseda Higher School attached to Waseda University in Japan"
         },
         {
           "year": 1924,
@@ -2606,7 +2954,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0055587",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Dropped out of Waseda Higher School and published the short story 'Segillo (Three Roads)' in Joseon Mundan (literary debut)"
         },
         {
           "year": 1925,
@@ -2614,7 +2963,8 @@
           "place_id": null,
           "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Joined the Dong-a Ilbo company"
         },
         {
           "year": 1929,
@@ -2622,7 +2972,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0055587",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Joined the Gaebyeoksa company"
         },
         {
           "year": 1934,
@@ -2630,7 +2981,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0017242",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published the short story 'A Ready-Made Life' in Sin Donga"
         },
         {
           "year": 1937,
@@ -2638,7 +2990,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0058730",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Began serializing the novel 'Muddy Currents' in the Chosun Ilbo (Oct 12, 1937 – May 17, 1938)"
         },
         {
           "year": 1938,
@@ -2646,7 +2999,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0056085",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Serialized the novel 'Cheonha Taepyeongchun' in Chogwang and published the short story 'The Idiot Uncle' in the Dong-a Ilbo"
         },
         {
           "year": 1948,
@@ -2654,7 +3008,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0056085",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Republished 'Cheonha Taepyeongchun' in book form under the new title 'Peace Under Heaven' through Dongjisa"
         },
         {
           "year": 1950,
@@ -2662,7 +3017,8 @@
           "place_id": "chae-mansik-grave",
           "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Died of tuberculosis in Iri (present-day Iksan), North Jeolla Province (aged 49)"
         }
       ],
       "places": [
@@ -2676,7 +3032,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Chae Man-sik Literary Museum",
+          "type_en": "Literary museum"
         },
         {
           "id": "chae-mansik-grave",
@@ -2688,7 +3046,9 @@
           "source_grade": "A",
           "flags": [
             "coords-unverified"
-          ]
+          ],
+          "name_en": "Chae Man-sik's Grave (Gyenam Village, Chuksan-ri, Impi-myeon, Gunsan)",
+          "type_en": "Grave"
         },
         {
           "id": "chae-mansik-birthsite",
@@ -2700,7 +3060,9 @@
           "source_grade": "B",
           "flags": [
             "coords-unverified"
-          ]
+          ],
+          "name_en": "Chae Man-sik Birthplace Marker Stone (Eumnae-ri, Impi-myeon, Gunsan)",
+          "type_en": "Birthplace site (marker stone)"
         }
       ],
       "works": [
@@ -2712,7 +3074,9 @@
           "quote_source": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0058730",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Muddy Currents (탁류)",
+          "note_en": "Serialized in the Chosun Ilbo Oct 12, 1937 – May 17, 1938; published in book form by Bangmun Seogwan in 1939. Set in Gunsan."
         },
         {
           "title": "태평천하(太平天下)",
@@ -2724,7 +3088,10 @@
           "source_grade": "A",
           "flags": [
             "quote-wiki-source"
-          ]
+          ],
+          "title_en": "Peace Under Heaven (태평천하)",
+          "note_en": "When serialized in Chogwang in 1938 it was titled 'Cheonha Taepyeongchun'; it was retitled 'Taepyeongcheonha' in the 1948 Dongjisa book edition. A novel dealing with the family of the landlord Yun Jik-won.",
+          "quote_en": "Past Chuseok, on a certain day at dusk in deepening autumn, when the easily-setting autumn sun was going down."
         },
         {
           "title": "레디메이드 인생",
@@ -2734,7 +3101,9 @@
           "quote_source": null,
           "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0017242",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "A Ready-Made Life (레디메이드 인생)",
+          "note_en": "Short story serialized in three parts in Sin Donga, May–July 1934."
         },
         {
           "title": "치숙(痴叔)",
@@ -2744,7 +3113,9 @@
           "quote_source": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0058368",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "The Idiot Uncle (치숙)",
+          "note_en": "Short story published in the Dong-a Ilbo, March 7–14, 1938. Uses a first-person narrator technique."
         }
       ],
       "source_grade": "A",
@@ -2753,7 +3124,8 @@
         "birthdate-disputed",
         "coords-unverified"
       ],
-      "note": "한자 蔡萬植, 호 백릉(白菱)·채옹(采翁) 등, 본관 평강. 생년 1902·몰년 1950은 한국민족문화대백과사전(A)·디지털군산문화대전(A) 일치. 출생 월·일은 두 A급 사전이 불일치(한국민족문화대백과사전 1902-07-21 vs 디지털군산문화대전 1902-06-17)하여 birthdate-disputed; 연도는 확정. 사망원인은 폐결핵으로 두 A급 출처 일치(일부의 '익사설'은 근거 없음), 사망지 이리=현 익산. 와세다 학력은 '부속 제1와세다고등학원 문과 입학 후 1924년 중퇴'가 정밀 출처(한국민족문화대백과사전·디지털군산문화대전) 기준이며, 일부에서 '영문과'로 표기하나 학부 졸업이 아님. 「천하태평춘」(1938 연재)→「태평천하」(1948 개제). 채만식문학관(전북특별자치도 군산시 강변로 449, 내흥동 285, 2001 개관)·묘소(군산 임피면 축산리 계남마을)·생가터 표지석(임피면 읍내리)은 어떤 공식 출처에도 위경도가 공개되지 않아 전부 coords-unverified, 주소만 보존. 원 생가는 철거되어 표지석만 남음(B급 언론). 「탁류」·「치숙」·「레디메이드 인생」은 A급 사전 본문에 원문 인용이 없어 quote 생략, 「태평천하」 첫 문장만 위키문헌 기준으로 인용(quote-wiki-source). 채만식은 1950년 사망으로 저작권 만료(공유)."
+      "note": "한자 蔡萬植, 호 백릉(白菱)·채옹(采翁) 등, 본관 평강. 생년 1902·몰년 1950은 한국민족문화대백과사전(A)·디지털군산문화대전(A) 일치. 출생 월·일은 두 A급 사전이 불일치(한국민족문화대백과사전 1902-07-21 vs 디지털군산문화대전 1902-06-17)하여 birthdate-disputed; 연도는 확정. 사망원인은 폐결핵으로 두 A급 출처 일치(일부의 '익사설'은 근거 없음), 사망지 이리=현 익산. 와세다 학력은 '부속 제1와세다고등학원 문과 입학 후 1924년 중퇴'가 정밀 출처(한국민족문화대백과사전·디지털군산문화대전) 기준이며, 일부에서 '영문과'로 표기하나 학부 졸업이 아님. 「천하태평춘」(1938 연재)→「태평천하」(1948 개제). 채만식문학관(전북특별자치도 군산시 강변로 449, 내흥동 285, 2001 개관)·묘소(군산 임피면 축산리 계남마을)·생가터 표지석(임피면 읍내리)은 어떤 공식 출처에도 위경도가 공개되지 않아 전부 coords-unverified, 주소만 보존. 원 생가는 철거되어 표지석만 남음(B급 언론). 「탁류」·「치숙」·「레디메이드 인생」은 A급 사전 본문에 원문 인용이 없어 quote 생략, 「태평천하」 첫 문장만 위키문헌 기준으로 인용(quote-wiki-source). 채만식은 1950년 사망으로 저작권 만료(공유).",
+      "field_en": "Novelist and playwright"
     },
     {
       "id": "yi-i",
@@ -2770,7 +3142,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "His maternal family's home in Bukpyeong-chon, Gangneung (present-day Ojukheon, Jukheon-dong, Gangneung, Gangwon Province). Road address: 24, Yulgok-ro 3139beon-gil, Gangneung, Gangwon Province"
       },
       "timeline": [
         {
@@ -2779,7 +3152,8 @@
           "place_id": "ojukheon",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Born at his maternal family's home (Ojukheon) in Gangneung; his mother was Sin Saimdang"
         },
         {
           "year": 1548,
@@ -2787,7 +3161,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Passed the preliminary jinsa examination at age 13"
         },
         {
           "year": 1558,
@@ -2795,7 +3170,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Took first place with his essay 'Cheondochaek (天道策)' in a special examination"
         },
         {
           "year": 1564,
@@ -2803,7 +3179,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309400",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Passed the civil service examination (taking first place on multiple occasions, earning him the title 'Gudojangwongong'); began his official career as Hojo jwarang"
         },
         {
           "year": 1569,
@@ -2811,7 +3188,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Wrote 'Dongho mundap (東湖問答)'"
         },
         {
           "year": 1574,
@@ -2821,7 +3199,8 @@
           "source_grade": "A",
           "flags": [
             "year-variant"
-          ]
+          ],
+          "event_en": "Submitted the 'Maneon bongsa (萬言封事)' while serving as Ubu-seungji"
         },
         {
           "year": 1575,
@@ -2829,7 +3208,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Presented the 'Seonghak jibyo (聖學輯要)' to King Seonjo"
         },
         {
           "year": 1577,
@@ -2837,7 +3217,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Wrote 'Gyeongmong yogyeol (擊蒙要訣)' while serving in Haeju"
         },
         {
           "year": 1582,
@@ -2845,7 +3226,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Appointed Minister of Personnel (Ijo panseo)"
         },
         {
           "year": 1583,
@@ -2853,7 +3235,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Appointed Minister of War (Byeongjo panseo)"
         },
         {
           "year": 1584,
@@ -2861,7 +3244,8 @@
           "place_id": "paju-yi-i-site",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Died in Daesa-dong, Hanyang (aged 49)"
         }
       ],
       "places": [
@@ -2875,7 +3259,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Gangneung Ojukheon (Treasure) — birthplace of Yi I",
+          "type_en": "Family home and Treasure"
         },
         {
           "id": "paju-yi-i-site",
@@ -2887,7 +3273,9 @@
           "source_grade": "A",
           "flags": [
             "coords-unverified"
-          ]
+          ],
+          "name_en": "Paju Yi I Historic Site (Historic Site) — Jaun Seowon, tomb of Yi I, and tomb of Sin Saimdang",
+          "type_en": "Confucian academy, tomb, and historic site"
         },
         {
           "id": "songdam-seowon",
@@ -2899,7 +3287,9 @@
           "source_grade": "A",
           "flags": [
             "coords-unverified"
-          ]
+          ],
+          "name_en": "Gangneung Songdam Seowon (enshrining Yi I)",
+          "type_en": "Confucian academy"
         }
       ],
       "works": [
@@ -2911,7 +3301,9 @@
           "quote_source": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Seonghak Jibyo (聖學輯要, Essentials of the Learning of the Sages)",
+          "note_en": "A textbook on the learning of rulership presented to King Seonjo in 1575. It summarizes the essentials of the Four Books and Six Classics."
         },
         {
           "title": "격몽요결(擊蒙要訣)",
@@ -2923,7 +3315,10 @@
           "source_grade": "A",
           "flags": [
             "quote-secondary-source"
-          ]
+          ],
+          "title_en": "Gyeongmong Yogyeol (擊蒙要訣, Essentials for Dispelling Ignorance)",
+          "note_en": "A primer for beginning students, written in 1577 while serving in Haeju. The autograph manuscript is held at the Ojukheon Museum in Gangneung.",
+          "quote_en": "Born into this world, one cannot become a full human being without learning."
         },
         {
           "title": "동호문답(東湖問答)",
@@ -2933,7 +3328,9 @@
           "quote_source": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309400",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Dongho Mundap (東湖問答, Dongho Dialogues)",
+          "note_en": "A treatise on statecraft in dialogue form, written in 1569 during his sabbatical study leave at the Dongho Reading Hall."
         }
       ],
       "source_grade": "A",
@@ -2942,7 +3339,8 @@
         "coords-unverified",
         "year-variant"
       ],
-      "note": "한자 李珥, 자 숙헌(叔獻), 호 율곡(栗谷)·석담(石潭)·우재(愚齋), 본관 덕수, 시호 문성(文成). 생년 1536·몰년 1584는 모든 A급 출처 일치(이설 없음). 어머니는 신사임당(1504~1551). 황해도관찰사·대사간 등 일부 관직의 임명 연도는 우리역사넷(1573 황해도관찰사)과 다른 연보(1574)가 달라 1574 항목에 year-variant 플래그(관직 보임 사실 자체는 확실, 연도만 출처별 차이). 강릉 오죽헌은 보물(1963 지정, 강원특별자치도 강릉시 율곡로3139번길 24, 죽헌동), 파주 이이 유적은 사적(2013 지정, 경기도 파주시 법원읍 자운서원로 204, 자운서원·이이 묘·신사임당 합장묘 포함), 강릉 송담서원은 강원도 유형문화재(강릉시 강동면 송담서원길 27-5). 세 곳 모두 국가유산청·지자체 공식 페이지에 위경도가 공개되지 않아 coords-unverified, 도로명 주소만 보존(좌표 날조 금지). 『격몽요결』·『성학집요』·『동호문답』은 16세기 저작으로 공유. 격몽요결 서문 한문 원구는 전통문화연구회 원문 DB 기준(quote-secondary-source), 성학집요·동호문답은 A급 사전 본문에 확정 원문 인용이 없어 생략."
+      "note": "한자 李珥, 자 숙헌(叔獻), 호 율곡(栗谷)·석담(石潭)·우재(愚齋), 본관 덕수, 시호 문성(文成). 생년 1536·몰년 1584는 모든 A급 출처 일치(이설 없음). 어머니는 신사임당(1504~1551). 황해도관찰사·대사간 등 일부 관직의 임명 연도는 우리역사넷(1573 황해도관찰사)과 다른 연보(1574)가 달라 1574 항목에 year-variant 플래그(관직 보임 사실 자체는 확실, 연도만 출처별 차이). 강릉 오죽헌은 보물(1963 지정, 강원특별자치도 강릉시 율곡로3139번길 24, 죽헌동), 파주 이이 유적은 사적(2013 지정, 경기도 파주시 법원읍 자운서원로 204, 자운서원·이이 묘·신사임당 합장묘 포함), 강릉 송담서원은 강원도 유형문화재(강릉시 강동면 송담서원길 27-5). 세 곳 모두 국가유산청·지자체 공식 페이지에 위경도가 공개되지 않아 coords-unverified, 도로명 주소만 보존(좌표 날조 금지). 『격몽요결』·『성학집요』·『동호문답』은 16세기 저작으로 공유. 격몽요결 서문 한문 원구는 전통문화연구회 원문 DB 기준(quote-secondary-source), 성학집요·동호문답은 A급 사전 본문에 확정 원문 인용이 없어 생략.",
+      "field_en": "Neo-Confucian scholar and government official"
     },
     {
       "id": "yi-hwang",
@@ -2959,7 +3357,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "Nosongjeong in Ongye-ri, Yean-hyeon, Gyeongsang Province (present-day Onhye-ri, Dosan-myeon, Andong, North Gyeongsang Province). Toegye Taesil road address: 46-5, Onhyejungma-gil, Dosan-myeon, Andong, North Gyeongsang Province"
       },
       "timeline": [
         {
@@ -2968,7 +3367,8 @@
           "place_id": "toegye-birthhouse",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Born in Ongye-ri, Yean-hyeon, Gyeongsang Province"
         },
         {
           "year": 1527,
@@ -2976,7 +3376,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Passed the preliminary rounds of the jinsa and saengwon examinations"
         },
         {
           "year": 1534,
@@ -2984,7 +3385,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Passed the civil service examination"
         },
         {
           "year": 1543,
@@ -2992,7 +3394,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Appointed Saseong of the Seonggyungwan"
         },
         {
           "year": 1548,
@@ -3000,7 +3403,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Appointed magistrate of Danyang County, Chungcheong Province"
         },
         {
           "year": 1549,
@@ -3008,7 +3412,8 @@
           "place_id": null,
           "source_url": "https://www.andong.go.kr/dosanseowon/contents.do?mId=0201000000",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Resigned while serving as magistrate of Punggi County, Gyeongsang Province, and returned home"
         },
         {
           "year": 1552,
@@ -3016,7 +3421,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Appointed Daesaseong of the Seonggyungwan"
         },
         {
           "year": 1561,
@@ -3026,7 +3432,8 @@
           "source_grade": "A",
           "flags": [
             "year-variant"
-          ]
+          ],
+          "event_en": "Built the Dosan Seodang (study hall)"
         },
         {
           "year": 1565,
@@ -3034,7 +3441,8 @@
           "place_id": "dosan-seowon",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Composed 'Dosan Sibigok (陶山十二曲)'"
         },
         {
           "year": 1568,
@@ -3042,7 +3450,8 @@
           "place_id": null,
           "source_url": "https://www.andong.go.kr/dosanseowon/contents.do?mId=0201000000",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Presented 'Seonghak sipdo (聖學十圖)' to King Seonjo"
         },
         {
           "year": 1570,
@@ -3050,7 +3459,8 @@
           "place_id": "toegye-grave",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Died in Andong (aged 70)"
         }
       ],
       "places": [
@@ -3064,7 +3474,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Andong Dosan Seowon (Historic Site; UNESCO Seowon, Confucian Academies of Korea)",
+          "type_en": "Confucian academy and historic site"
         },
         {
           "id": "toegye-birthhouse",
@@ -3077,7 +3489,9 @@
           "flags": [
             "coords-unverified",
             "designation-lifted"
-          ]
+          ],
+          "name_en": "Toegye Taesil (Nosongjeong Head House) — birthplace of Yi Hwang",
+          "type_en": "Family home (birth chamber)"
         },
         {
           "id": "toegye-head-house",
@@ -3089,7 +3503,9 @@
           "source_grade": "A",
           "flags": [
             "coords-unverified"
-          ]
+          ],
+          "name_en": "Toegye Head House (North Gyeongsang Province Monument)",
+          "type_en": "Head house"
         },
         {
           "id": "toegye-grave",
@@ -3101,7 +3517,9 @@
           "source_grade": "A",
           "flags": [
             "coords-unverified"
-          ]
+          ],
+          "name_en": "Tomb of Yi Hwang (Hagye Village, Togye-ri, Dosan-myeon, Andong)",
+          "type_en": "Tomb"
         }
       ],
       "works": [
@@ -3113,7 +3531,9 @@
           "quote_source": null,
           "source_url": "https://www.andong.go.kr/dosanseowon/contents.do?mId=0201000000",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Seonghak Sipdo (聖學十圖, Ten Diagrams on Sage Learning)",
+          "note_en": "A Neo-Confucian textbook presented to King Seonjo in 1568, composed of ten illustrated diagrams with explanations."
         },
         {
           "title": "도산십이곡(陶山十二曲)",
@@ -3125,7 +3545,10 @@
           "source_grade": "A",
           "flags": [
             "quote-wiki-source"
-          ]
+          ],
+          "title_en": "Dosan Sibigok (陶山十二曲, Twelve Songs of Dosan)",
+          "note_en": "A sequence of twelve sijo poems composed in 1565. The first six express one's aspirations (eonji), and the latter six express learning (eonhak).",
+          "quote_en": "What does it matter if it is like this, what does it matter if it is like that? A rustic of the wild fields — what does it matter that he lives so? Still more, having a deep-rooted love of nature, what use is there in trying to cure it?"
         },
         {
           "title": "자성록(自省錄)",
@@ -3137,7 +3560,9 @@
           "source_grade": "A",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "title_en": "Jaseongnok (自省錄, Record of Self-Reflection)",
+          "note_en": "A collection of letters sent to his students and acquaintances (compiled at age 58)."
         }
       ],
       "source_grade": "A",
@@ -3146,7 +3571,8 @@
         "coords-unverified",
         "year-variant"
       ],
-      "note": "한자 李滉, 자 경호(景浩), 호 퇴계(退溪)·퇴도(退陶)·도수(陶叟), 본관 진보, 시호 문순(文純). 생년 1501·몰년 1570은 A급 출처 일치(이설 없음). 출생지는 예안현 온계리(현 안동시 도산면 온혜리) 노송정. 도산서당 건립 연도는 출처 간 차이(우리역사넷 1559, 한국민족문화대백과사전 1560, 안동시 도산서원 공식 1561)가 있어 year-variant(본 데이터는 운영기관인 안동시 도산서원 공식 표기 1561 채택). 안동 도산서원은 사적(1969 지정)·유네스코 세계유산 '한국의 서원'(2019)으로 경북 안동시 도산면 도산서원길 154(토계리). 퇴계태실(노송정 종택, 경북 안동시 도산면 온혜중마길 46-5)은 1985 경북 민속문화재 지정 후 2018-11-01 지정 해제됨(designation-lifted). 퇴계종택은 경상북도 기념물(안동시 도산면 백운로 268, 토계리, 1982 지정). 이황 묘소는 도산면 토계리 하계마을 뒷산에 있으며 묘비명은 '퇴도만은진성이공지묘'(출처 디지털안동문화대전, 한국학중앙연구원 운영, A). 네 곳 모두 공식 페이지에 위경도가 공개되지 않아 coords-unverified, 도로명/지명만 보존(좌표 날조 금지). 『성학십도』·「도산십이곡」은 16세기 저작으로 공유. 도산십이곡 제1수는 위키문헌 고어 원문 기준(quote-wiki-source). 자성록 정리 연도는 58세(1558년경)로 출처 표기되어 year-approx."
+      "note": "한자 李滉, 자 경호(景浩), 호 퇴계(退溪)·퇴도(退陶)·도수(陶叟), 본관 진보, 시호 문순(文純). 생년 1501·몰년 1570은 A급 출처 일치(이설 없음). 출생지는 예안현 온계리(현 안동시 도산면 온혜리) 노송정. 도산서당 건립 연도는 출처 간 차이(우리역사넷 1559, 한국민족문화대백과사전 1560, 안동시 도산서원 공식 1561)가 있어 year-variant(본 데이터는 운영기관인 안동시 도산서원 공식 표기 1561 채택). 안동 도산서원은 사적(1969 지정)·유네스코 세계유산 '한국의 서원'(2019)으로 경북 안동시 도산면 도산서원길 154(토계리). 퇴계태실(노송정 종택, 경북 안동시 도산면 온혜중마길 46-5)은 1985 경북 민속문화재 지정 후 2018-11-01 지정 해제됨(designation-lifted). 퇴계종택은 경상북도 기념물(안동시 도산면 백운로 268, 토계리, 1982 지정). 이황 묘소는 도산면 토계리 하계마을 뒷산에 있으며 묘비명은 '퇴도만은진성이공지묘'(출처 디지털안동문화대전, 한국학중앙연구원 운영, A). 네 곳 모두 공식 페이지에 위경도가 공개되지 않아 coords-unverified, 도로명/지명만 보존(좌표 날조 금지). 『성학십도』·「도산십이곡」은 16세기 저작으로 공유. 도산십이곡 제1수는 위키문헌 고어 원문 기준(quote-wiki-source). 자성록 정리 연도는 58세(1558년경)로 출처 표기되어 year-approx.",
+      "field_en": "Neo-Confucian scholar and government official"
     },
     {
       "id": "kim-sowol",
@@ -3165,7 +3591,8 @@
         "flags": [
           "coords-unverified",
           "birthplace-presumed"
-        ]
+        ],
+        "admin_en": "Guseong, Pyeonganbuk-do (present-day North Korea). Real name Kim Jeong-sik (金廷湜)"
       },
       "timeline": [
         {
@@ -3176,7 +3603,8 @@
           "source_grade": "A",
           "flags": [
             "birthplace-presumed"
-          ]
+          ],
+          "event_en": "Born in Guseong, Pyeonganbuk-do (real name Kim Jeong-sik)"
         },
         {
           "year": 1920,
@@ -3184,7 +3612,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Made his literary debut publishing 'Spring of a Wanderer' (Nangineui Bom) and other works in the magazine Changjo"
         },
         {
           "year": 1922,
@@ -3192,7 +3621,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Entered Baejae High Common School. Published 'Azaleas,' 'Golden Lawn,' 'Mother, Sister' and others in Gaebyeok"
         },
         {
           "year": 1923,
@@ -3202,7 +3632,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Entered the preparatory course of Tokyo University of Commerce in Japan; withdrew and returned home due to the Great Kanto Earthquake"
         },
         {
           "year": 1925,
@@ -3210,7 +3641,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Published the poetry collection 'Azaleas' through Maemunsa. Published the poetics essay 'The Soul of Poetry' (Sihon) in Gaebyeok"
         },
         {
           "year": 1934,
@@ -3220,7 +3652,8 @@
           "source_grade": "A",
           "flags": [
             "death-disputed"
-          ]
+          ],
+          "event_en": "Died in Gwaksan, Pyeonganbuk-do"
         }
       ],
       "places": [
@@ -3235,7 +3668,9 @@
           "flags": [
             "coords-osm",
             "birthplace-presumed"
-          ]
+          ],
+          "name_en": "Guseong, Pyeonganbuk-do (birthplace)",
+          "type_en": "Family home"
         },
         {
           "id": "osan-school-jeongju",
@@ -3247,7 +3682,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Jeongju (Osan School area)",
+          "type_en": "Historic site"
         },
         {
           "id": "gwaksan-death",
@@ -3259,7 +3696,9 @@
           "source_grade": "A",
           "flags": [
             "coords-osm"
-          ]
+          ],
+          "name_en": "Gwaksan, Pyeonganbuk-do (place of death)",
+          "type_en": "Other"
         }
       ],
       "works": [
@@ -3271,7 +3710,10 @@
           "quote_source": "「진달래꽃」(시집 『진달래꽃』, 1925)",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0054623",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Azaleas (Jindallaekkot)",
+          "note_en": "The only poetry collection published in his lifetime, issued by Maemunsa in 1925. The title poem was first published in Gaebyeok in 1922, a free-verse poem of 4 stanzas and 12 lines.",
+          "quote_en": "When you, sick of the sight of me, go away, I will let you go gently, without a word"
         },
         {
           "title": "엄마야 누나야",
@@ -3281,7 +3723,10 @@
           "quote_source": "「엄마야 누나야」",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Mother, Sister (Eommaya Nunaya)",
+          "note_en": "A poem published in Gaebyeok in 1922.",
+          "quote_en": "Mother, sister, let us live by the river"
         },
         {
           "title": "시혼(詩魂)",
@@ -3289,14 +3734,17 @@
           "note": "『개벽』에 발표한 시론.",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "The Soul of Poetry (Sihon, 詩魂)",
+          "note_en": "A poetics essay published in Gaebyeok."
         }
       ],
       "source_grade": "A",
       "verified": true,
       "flags": [
         "death-disputed"
-      ]
+      ],
+      "field_en": "Poet"
     },
     {
       "id": "an-junggeun",
@@ -3315,7 +3763,8 @@
         "flags": [
           "coords-unverified",
           "birthplace-disputed"
-        ]
+        ],
+        "admin_en": "Gwangseok-dong, Haeju-bu, Hwanghae Province (present-day North Korea)"
       },
       "timeline": [
         {
@@ -3324,7 +3773,8 @@
           "place_id": null,
           "source_url": "https://patriot.or.kr/kwa-374213",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "event_en": "Born in Gwangseok-dong, Haeju-bu, Hwanghae Province (September 2)"
         },
         {
           "year": 1897,
@@ -3332,7 +3782,8 @@
           "place_id": null,
           "source_url": "https://encyclopedia.catholic.or.kr/entry/4201",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "event_en": "Baptized into the Catholic Church by Father Wilhelm (baptismal name Thomas)"
         },
         {
           "year": 1906,
@@ -3340,7 +3791,8 @@
           "place_id": null,
           "source_url": "https://patriot.or.kr/kwa-374213",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "event_en": "Founded and ran the Samheung School and Donui School in Jinnampo"
         },
         {
           "year": 1909,
@@ -3350,7 +3802,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Formed the Danji (finger-severing) Alliance with 12 comrades near Yeonchu (February 7)"
         },
         {
           "year": 1909,
@@ -3360,7 +3813,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Shot Itō Hirobumi at Harbin Station (October 26)"
         },
         {
           "year": 1910,
@@ -3370,7 +3824,8 @@
           "source_grade": "B",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Tried in Lushun and sentenced to death (February 14)"
         },
         {
           "year": 1910,
@@ -3380,7 +3835,8 @@
           "source_grade": "A",
           "flags": [
             "overseas"
-          ]
+          ],
+          "event_en": "Executed at Lushun Prison (March 26)"
         }
       ],
       "places": [
@@ -3394,7 +3850,9 @@
           "source_grade": "B",
           "flags": [
             "coords-kakao"
-          ]
+          ],
+          "name_en": "An Jung-geun Memorial Hall (Namsan, Seoul)",
+          "type_en": "Memorial hall"
         },
         {
           "id": "hyochang-park-empty-tomb",
@@ -3407,7 +3865,9 @@
           "flags": [
             "coords-kakao",
             "grave-unknown"
-          ]
+          ],
+          "name_en": "Empty Tomb of An Jung-geun at Hyochang Park",
+          "type_en": "Tomb"
         }
       ],
       "works": [
@@ -3419,7 +3879,10 @@
           "quote_source": "안중근 유묵(보물)",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0016677",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Calligraphy 'Gyeolli Saui Gyeonwi Sumyeong (見利思義見危授命)'",
+          "note_en": "A calligraphic work written in Lushun Prison. It bears the inscription 'Written by An Jung-geun, a Korean, in Lushun Prison, third month of the Gyeongsul year (1910)' and an imprint of his left palm.",
+          "quote_en": "When you see profit, think of righteousness; when you see danger, be ready to give your life."
         },
         {
           "title": "동양평화론(東洋平和論)",
@@ -3427,7 +3890,9 @@
           "note": "뤼순 감옥에서 집필한 미완성 논설. 서(序)·전감(前鑑)만 저술됨.",
           "source_url": "https://contents.history.go.kr/id/hm_121_0130",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Treatise on Peace in East Asia (東洋平和論)",
+          "note_en": "An unfinished essay written in Lushun Prison. Only the preface and the 'Jeongam' (historical survey) sections were completed."
         },
         {
           "title": "안응칠역사(安應七歷史)",
@@ -3435,7 +3900,9 @@
           "note": "수감 중 집필한 자서전(1909.12~1910.3). 원본은 전하지 않고 필사본으로 전함.",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0035030",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "An Eung-chil Yeoksa (安應七歷史, The Autobiography of An Eung-chil)",
+          "note_en": "An autobiography written in prison (December 1909 - March 1910). The original does not survive and is transmitted in manuscript copies."
         }
       ],
       "source_grade": "A",
@@ -3444,7 +3911,8 @@
         "birthplace-disputed",
         "grave-unknown",
         "overseas"
-      ]
+      ],
+      "field_en": "Independence activist and thinker"
     },
     {
       "id": "yun-seondo",
@@ -3462,7 +3930,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "Yeonhwa-bang, Eastern District, Hanseong (present-day Yeonji-dong, Jongno-gu, Seoul)"
       },
       "timeline": [
         {
@@ -3471,7 +3940,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Born in Yeonhwa-bang, Eastern District, Hanseong"
         },
         {
           "year": 1616,
@@ -3479,7 +3949,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Submitted the Byeongjin Memorial impeaching powerful ministers and was exiled to Gyeongwon in Hamgyeong Province"
         },
         {
           "year": 1628,
@@ -3487,7 +3958,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Placed first in the preliminary state civil-service examination and became tutor to Princes Bongnim and Inpyeong"
         },
         {
           "year": 1637,
@@ -3495,7 +3967,8 @@
           "place_id": "bogildo-buyongdong",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "After the Manchu invasion of 1636, went into seclusion at Buyongdong on Bogil Island"
         },
         {
           "year": 1642,
@@ -3503,7 +3976,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Composed the 18 poems of 'Sanjung Singok' (including 'Song of Five Friends') at Geumswae-dong"
         },
         {
           "year": 1651,
@@ -3511,7 +3985,8 @@
           "place_id": "bogildo-buyongdong",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Composed the 40 poems of 'Eobusasisa (Fisherman's Calendar)' at Buyongdong on Bogil Island"
         },
         {
           "year": 1659,
@@ -3519,7 +3994,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Exiled to Samsu in Hamgyeong Province in connection with the Gihae Ritual Controversy"
         },
         {
           "year": 1671,
@@ -3527,7 +4003,8 @@
           "place_id": "bogildo-nakseojae",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Died at Nakseojae in Buyongdong on Bogil Island at the age of 85"
         }
       ],
       "places": [
@@ -3541,7 +4018,9 @@
           "source_grade": "A",
           "flags": [
             "coords-kakao"
-          ]
+          ],
+          "name_en": "Buyongdong Garden, Bogil Island (Seyeonjeong)",
+          "type_en": "Garden"
         },
         {
           "id": "bogildo-nakseojae",
@@ -3553,7 +4032,9 @@
           "source_grade": "A",
           "flags": [
             "coords-kakao"
-          ]
+          ],
+          "name_en": "Nakseojae, Bogil Island",
+          "type_en": "Historic site"
         },
         {
           "id": "haenam-nogudang",
@@ -3565,7 +4046,9 @@
           "source_grade": "A",
           "flags": [
             "coords-kakao"
-          ]
+          ],
+          "name_en": "Nogudang Historic House, Haenam",
+          "type_en": "Historic house"
         }
       ],
       "works": [
@@ -3579,7 +4062,10 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "title_en": "Song of Five Friends (오우가)",
+          "note_en": "A linked sijo sequence of six poems included in 'Sanjung Singok.' It sings of water, stone, pine, bamboo, and the moon as five friends.",
+          "quote_en": "How many friends have I? Water and stone, pine and bamboo— and when the moon rises over the eastern hill, that gladdens me all the more."
         },
         {
           "title": "어부사시사(漁父四時詞)",
@@ -3591,12 +4077,16 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "title_en": "Eobusasisa (Fisherman's Calendar) (어부사시사)",
+          "note_en": "A linked sijo sequence of 40 poems—10 each for spring, summer, autumn, and winter—composed with Buyongdong on Bogil Island as its setting.",
+          "quote_en": "The mist lifts over the cove ahead, the sun shines on the hill behind— Cast off, cast off!"
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "field_en": "Sijo poet and civil official"
     },
     {
       "id": "kim-jeonghui",
@@ -3614,7 +4104,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "Yonggung-ri, Sinam-myeon, Yesan-gun, Chungcheong Province. Pen names Chusa and Wandang"
       },
       "timeline": [
         {
@@ -3623,7 +4114,8 @@
           "place_id": "yesan-chusa-gotaek",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0010428",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Born in Yonggung-ri, Sinam-myeon, Yesan-gun, Chungcheong Province"
         },
         {
           "year": 1809,
@@ -3631,7 +4123,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n302700",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Passed the saengwon examination and traveled to Yeongyeong (Beijing) of Qing China as an attendant officer accompanying his father"
         },
         {
           "year": 1819,
@@ -3639,7 +4132,8 @@
           "place_id": null,
           "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n302700",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Passed the higher civil service examination (daegwa)"
         },
         {
           "year": 1840,
@@ -3647,7 +4141,8 @@
           "place_id": "jeju-chusa-exile-daejeong",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0010428",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Implicated in the Yun Sang-do treason case and exiled under house-arrest confinement to Daejeong-hyeon on Jeju Island"
         },
         {
           "year": 1844,
@@ -3655,7 +4150,8 @@
           "place_id": "jeju-chusa-exile-daejeong",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0038956",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "During his exile on Jeju, painted 'Sehando' for his pupil Yi Sang-jeok"
         },
         {
           "year": 1848,
@@ -3663,7 +4159,8 @@
           "place_id": "jeju-chusa-exile-daejeong",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0010428",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Released from exile on Jeju"
         },
         {
           "year": 1851,
@@ -3671,7 +4168,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0010428",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Implicated in the ritual-controversy case of Gwon Don-in and exiled to Bukcheong in Hamgyeong Province"
         },
         {
           "year": 1856,
@@ -3679,7 +4177,8 @@
           "place_id": null,
           "source_url": "https://encykorea.aks.ac.kr/Article/E0010428",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Died in Gwacheon, Gyeonggi Province"
         }
       ],
       "places": [
@@ -3693,7 +4192,9 @@
           "source_grade": "A",
           "flags": [
             "coords-kakao"
-          ]
+          ],
+          "name_en": "Chusa Historic House in Yesan",
+          "type_en": "Family home"
         },
         {
           "id": "jeju-chusa-exile-daejeong",
@@ -3705,7 +4206,9 @@
           "source_grade": "A",
           "flags": [
             "coords-kakao"
-          ]
+          ],
+          "name_en": "Chusa Place of Exile on Jeju (Daejeong, Jeju Chusa Museum)",
+          "type_en": "Place of exile"
         }
       ],
       "works": [
@@ -3715,7 +4218,9 @@
           "note": "제주 유배 중 제자 이상적에게 그려준 그림. 발문에 소나무·잣나무가 추운 뒤에야 시들지 않음을 안다는 논어 구절을 인용. 국보.",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0038956",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Sehando (Winter Scene)",
+          "note_en": "A painting made for his pupil Yi Sang-jeok during his exile on Jeju. Its colophon quotes the Analects passage that only after the cold sets in does one know the pine and cypress do not wither. National Treasure."
         },
         {
           "title": "예당금석과안록(禮堂金石過眼錄)",
@@ -3723,7 +4228,9 @@
           "note": "금석학 저술. 북한산비·황초령비가 진흥왕순수비임을 고증(북한산비 고증 1816년).",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0007834",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Yedang Geumseok Gwaanrok (Yedang's Record of Epigraphy Examined)",
+          "note_en": "A work of epigraphy. It verified that the Bukhansan stele and the Hwangchoryeong stele were monuments commemorating King Jinheung's tours of inspection (the Bukhansan stele verified in 1816)."
         },
         {
           "title": "완당전집(阮堂全集)",
@@ -3731,12 +4238,15 @@
           "note": "사후 후손 김익환이 편집·간행한 시문집.",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0038958",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "title_en": "Wandang Jeonjip (Collected Works of Wandang)",
+          "note_en": "A collection of his poetry and prose, compiled and published posthumously by his descendant Kim Ik-hwan."
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "field_en": "Calligrapher, epigrapher, and civil official"
     },
     {
       "id": "confucius",
@@ -3755,7 +4265,8 @@
         "flags": [
           "coords-unverified",
           "year-approx"
-        ]
+        ],
+        "admin_en": "Zou (陬邑) in the state of Lu (near present-day Qufu, Shandong Province, China)"
       },
       "timeline": [
         {
@@ -3766,7 +4277,8 @@
           "source_grade": "A",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "event_en": "Born in Zou in the state of Lu (according to traditional accounts)"
         },
         {
           "year": -500,
@@ -3776,7 +4288,8 @@
           "source_grade": "A",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "event_en": "Said to have held offices such as Minister of Justice (Sikou) in the state of Lu"
         },
         {
           "year": -497,
@@ -3786,7 +4299,8 @@
           "source_grade": "A",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "event_en": "At about age 56, said to have left the state of Lu and begun traveling among the various feudal states"
         },
         {
           "year": -484,
@@ -3796,7 +4310,8 @@
           "source_grade": "A",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "event_en": "After wandering through many states, said to have returned to Lu and devoted himself to teaching and editing texts"
         },
         {
           "year": -479,
@@ -3806,7 +4321,8 @@
           "source_grade": "A",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "event_en": "Died in the state of Lu (according to traditional accounts, at about age 73)"
         },
         {
           "year": -478,
@@ -3816,7 +4332,8 @@
           "source_grade": "A",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "event_en": "Said to have had a shrine (the origin of the Temple of Confucius) erected at Qufu the year after his death"
         }
       ],
       "places": [
@@ -3831,7 +4348,9 @@
           "flags": [
             "coords-osm",
             "overseas"
-          ]
+          ],
+          "name_en": "Temple of Confucius, Qufu (孔廟)",
+          "type_en": "Shrine"
         },
         {
           "id": "qufu-confucius-cemetery",
@@ -3844,7 +4363,9 @@
           "flags": [
             "coords-osm",
             "overseas"
-          ]
+          ],
+          "name_en": "Cemetery of Confucius (孔林)",
+          "type_en": "Tomb"
         }
       ],
       "works": [
@@ -3858,14 +4379,18 @@
           "source_grade": "A",
           "flags": [
             "authorship-disputed"
-          ]
+          ],
+          "title_en": "The Analects (論語)",
+          "note_en": "A collection of sayings traditionally held to have been compiled by his disciples and their disciples over the centuries following his death (according to traditional accounts).",
+          "quote_en": "Is it not a pleasure to learn and to practice what one has learned in due time? Is it not a joy to have friends come from afar? Is one not a gentleman if one feels no resentment when others fail to recognize him?"
         }
       ],
       "source_grade": "A",
       "verified": true,
       "flags": [
         "year-approx"
-      ]
+      ],
+      "field_en": "Thinker and philosopher (Confucianism)"
     },
     {
       "id": "du-fu",
@@ -3884,7 +4409,8 @@
         "flags": [
           "coords-unverified",
           "birthplace-disputed"
-        ]
+        ],
+        "admin_en": "Gong County (鞏縣, present-day Gongyi, Henan Province, China), near Luoyang, Tang dynasty"
       },
       "timeline": [
         {
@@ -3895,7 +4421,8 @@
           "source_grade": "A",
           "flags": [
             "birthplace-disputed"
-          ]
+          ],
+          "event_en": "Born near Gong County, Tang dynasty (present-day Gongyi, Henan Province)"
         },
         {
           "year": 744,
@@ -3905,7 +4432,8 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "event_en": "Met Li Bai for the first time"
         },
         {
           "year": 755,
@@ -3913,7 +4441,8 @@
           "place_id": null,
           "source_url": "https://www.britannica.com/biography/Du-Fu",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "The An Lushan Rebellion broke out, after which his wandering began"
         },
         {
           "year": 759,
@@ -3923,7 +4452,8 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "event_en": "Moved to Chengdu and built a thatched cottage near the Huanhua Stream"
         },
         {
           "year": 770,
@@ -3933,7 +4463,8 @@
           "source_grade": "A",
           "flags": [
             "death-disputed"
-          ]
+          ],
+          "event_en": "Died on a boat on a river near Tanzhou (present-day Changsha, Hunan Province)"
         }
       ],
       "places": [
@@ -3948,7 +4479,9 @@
           "flags": [
             "coords-osm",
             "overseas"
-          ]
+          ],
+          "name_en": "Du Fu Thatched Cottage, Chengdu (杜甫草堂)",
+          "type_en": "Thatched cottage"
         }
       ],
       "works": [
@@ -3960,7 +4493,10 @@
           "quote_source": "春望",
           "source_url": "https://www.gushiwen.cn/gushiwen_64ad247806.aspx",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "title_en": "Spring View (春望)",
+          "note_en": "A five-character regulated verse (lüshi) composed while he was detained in the fallen capital of Chang'an during the An Lushan Rebellion.",
+          "quote_en": "The state is shattered, yet mountains and rivers remain; spring comes to the city, and grasses and trees grow deep."
         },
         {
           "title": "춘야희우(春夜喜雨)",
@@ -3970,7 +4506,10 @@
           "quote_source": "春夜喜雨",
           "source_url": "https://www.gushiwen.cn/",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "title_en": "Delighting in Rain on a Spring Night (春夜喜雨)",
+          "note_en": "A five-character regulated verse singing of spring rain, composed in 761 while he was staying at his Chengdu cottage.",
+          "quote_en": "A good rain knows its season; when spring comes, it brings forth life."
         }
       ],
       "source_grade": "B",
@@ -3978,7 +4517,8 @@
       "flags": [
         "birthplace-disputed",
         "death-disputed"
-      ]
+      ],
+      "field_en": "Poet"
     },
     {
       "id": "matsuo-basho",
@@ -3996,7 +4536,8 @@
         "source_grade": "A",
         "flags": [
           "coords-unverified"
-        ]
+        ],
+        "admin_en": "Ueno, Iga Province (present-day Iga, Mie Prefecture, Japan). Real name Matsuo Munefusa (松尾宗房)"
       },
       "timeline": [
         {
@@ -4005,7 +4546,8 @@
           "place_id": "iga-ueno",
           "source_url": "https://www.britannica.com/biography/Basho-Japanese-poet",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Born in Ueno, Iga Province (present-day Iga, Mie Prefecture)"
         },
         {
           "year": 1672,
@@ -4015,7 +4557,8 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "event_en": "Moved to Edo (present-day Tokyo) to study poetry"
         },
         {
           "year": 1680,
@@ -4026,7 +4569,8 @@
           "flags": [
             "wiki-only",
             "year-approx"
-          ]
+          ],
+          "event_en": "Built a hermitage in Fukagawa and planted a banana plant (bashō); from this time he used the pen name 'Bashō'"
         },
         {
           "year": 1689,
@@ -4036,7 +4580,8 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "event_en": "Traveled on foot through the Tōhoku region for about 150 days (roughly 2,400 km) together with his disciple Kawai Sora"
         },
         {
           "year": 1694,
@@ -4044,7 +4589,8 @@
           "place_id": "osaka",
           "source_url": "https://www.britannica.com/biography/Basho-Japanese-poet",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "event_en": "Died of illness in Osaka (November 28)"
         }
       ],
       "places": [
@@ -4059,7 +4605,9 @@
           "flags": [
             "coords-osm",
             "overseas"
-          ]
+          ],
+          "name_en": "Iga-Ueno (birthplace)",
+          "type_en": "Birthplace"
         },
         {
           "id": "osaka",
@@ -4072,7 +4620,9 @@
           "flags": [
             "coords-osm",
             "overseas"
-          ]
+          ],
+          "name_en": "Osaka (place of death)",
+          "type_en": "Historic site"
         }
       ],
       "works": [
@@ -4086,7 +4636,10 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "title_en": "'Furu ike ya' (The Old Pond)",
+          "note_en": "A standalone haiku composed at his Edo hermitage. The most widely known of all Japanese haiku.",
+          "quote_en": "An old pond— a frog leaps in, the sound of water"
         },
         {
           "title": "오쿠노호소미치(奥の細道)",
@@ -4096,12 +4649,15 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "title_en": "The Narrow Road to the Deep North (奥の細道)",
+          "note_en": "A travel account based on his 1689 journey through the Tōhoku region. It combines verse and prose, and was published posthumously."
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "field_en": "Haiku poet"
     },
     {
       "id": "murasaki-shikibu",
@@ -4121,7 +4677,8 @@
           "coords-unverified",
           "year-approx",
           "birthplace-presumed"
-        ]
+        ],
+        "admin_en": "Heian-kyō (present-day Kyoto, Japan). Real name unknown"
       },
       "timeline": [
         {
@@ -4133,7 +4690,8 @@
           "flags": [
             "year-approx",
             "birthplace-presumed"
-          ]
+          ],
+          "event_en": "Born as a daughter of Fujiwara no Tametoki. Her real name is not recorded"
         },
         {
           "year": 998,
@@ -4143,7 +4701,8 @@
           "source_grade": "B",
           "flags": [
             "year-approx"
-          ]
+          ],
+          "event_en": "Married Fujiwara no Nobutaka and had one daughter"
         },
         {
           "year": 1001,
@@ -4151,7 +4710,8 @@
           "place_id": "kyoto-heian-kyo",
           "source_url": "https://www.britannica.com/biography/Murasaki-Shikibu",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "event_en": "Her husband Fujiwara no Nobutaka died"
         },
         {
           "year": 1005,
@@ -4162,7 +4722,8 @@
           "flags": [
             "year-approx",
             "wiki-only"
-          ]
+          ],
+          "event_en": "Entered court service as a lady-in-waiting (nyōbō) attending Empress Shōshi (Fujiwara no Shōshi), consort of Emperor Ichijō"
         },
         {
           "year": 1010,
@@ -4173,7 +4734,8 @@
           "flags": [
             "year-approx",
             "authorship-traditional"
-          ]
+          ],
+          "event_en": "'The Tale of Genji' was written roughly up to around this time (composed in full c. 1000–1012)"
         }
       ],
       "places": [
@@ -4188,7 +4750,9 @@
           "flags": [
             "coords-osm",
             "overseas"
-          ]
+          ],
+          "name_en": "Kyoto (Heian-kyō) — court service",
+          "type_en": "Historic site"
         },
         {
           "id": "ishiyama-dera",
@@ -4202,7 +4766,9 @@
             "coords-osm",
             "overseas",
             "authorship-traditional"
-          ]
+          ],
+          "name_en": "Ishiyama-dera (石山寺) — traditional site where the writing of 'Genji' is said to have begun",
+          "type_en": "Temple"
         }
       ],
       "works": [
@@ -4216,7 +4782,10 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "title_en": "The Diary of Lady Murasaki (紫式部日記)",
+          "note_en": "A diary recording court life, including the birth of Empress Shōshi's imperial prince (c. 1008–1010).",
+          "quote_en": "As the air of autumn deepens, the appearance of the Tsuchimikado mansion is lovely beyond words."
         },
         {
           "title": "겐지 이야기(源氏物語)",
@@ -4226,7 +4795,9 @@
           "source_grade": "B",
           "flags": [
             "authorship-traditional"
-          ]
+          ],
+          "title_en": "The Tale of Genji (源氏物語)",
+          "note_en": "A prose monogatari set in the Heian court. Often called the world's first full-length novel. Composed roughly between 1000 and 1012."
         }
       ],
       "source_grade": "B",
@@ -4235,7 +4806,8 @@
         "year-approx",
         "birthplace-presumed",
         "authorship-traditional"
-      ]
+      ],
+      "field_en": "Writer and poet (Heian court)"
     }
   ]
 }
