@@ -1,0 +1,720 @@
+{
+  "people": [
+    {
+      "id": "lee-hyoseok",
+      "name_ko": "이효석",
+      "name_en": "Lee Hyo-seok",
+      "field": "소설가",
+      "birth_year": 1907,
+      "death_year": 1942,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "강원도 평창군 봉평면 창동리(현 강원특별자치도 평창군 봉평면). 평창군은 봉평 창동리(남안동) 일대를 생가지로 보아 생가를 복원함. 이설: 유족(아들 이우현)은 진부면 하진부리 196번지를 실제 출생지로 본다는 보도(강원일보 2019)가 있음",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+        "source_grade": "A",
+        "flags": ["coords-unverified", "birthplace-disputed"]
+      },
+      "timeline": [
+        {
+          "year": 1907,
+          "event": "강원도 평창 봉평에서 출생",
+          "place_id": "lee-hyoseok-birthhouse",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": ["birthplace-disputed"]
+        },
+        {
+          "year": 1925,
+          "event": "시 「봄」이 매일신보 신춘문예 선외가작에 뽑힘",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1925,
+          "event": "경성제일고등보통학교 졸업, 경성제국대학 입학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1928,
+          "event": "단편 「도시와 유령」 발표(등단)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1930,
+          "event": "경성제국대학 법문학부 영문학과 졸업",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1933,
+          "event": "구인회(九人會) 가입, 단편 「돈(豚)」 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1934,
+          "event": "평양 숭실전문학교 교수 부임",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": ["year-disputed"]
+        },
+        {
+          "year": 1936,
+          "event": "「메밀꽃 필 무렵」을 『조광(朝光)』 10월호에 발표(같은 해 「산」·「들」 발표)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0018494",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1939,
+          "event": "장편 「화분(花粉)」, 단편 「여수」·「황제」 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1940,
+          "event": "부인 이경원 사망, 장편 「벽공무한」 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1942,
+          "event": "뇌막염으로 평양에서 사망(향년 36세)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": ["deathdate-approx"]
+        }
+      ],
+      "places": [
+        {
+          "id": "lee-hyoseok-museum",
+          "name": "이효석문학관",
+          "lat": 37.6132,
+          "lng": 128.3700,
+          "type": "문학관",
+          "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=e84371f3-00c6-4b8c-a5bf-0729837edafa",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "id": "lee-hyoseok-birthhouse",
+          "name": "이효석 생가(복원)",
+          "lat": 37.6107,
+          "lng": 128.3600,
+          "type": "생가(복원)",
+          "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=a57e0591-38b6-4cec-b22c-2c5d46103514",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "id": "lee-hyoseok-moonlight-hill",
+          "name": "효석달빛언덕(이효석문화예술촌, 재현 생가·근대문학체험관)",
+          "lat": null,
+          "lng": null,
+          "type": "문학테마공원",
+          "source_url": "https://tour.pc.go.kr/Home/H20000/H20100/H20103/html",
+          "source_grade": "B",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        {
+          "title": "메밀꽃 필 무렵",
+          "year": 1936,
+          "note": "『조광』 1936년 10월호 발표 단편. 발표 당시 표기는 「모밀꽃 필 무렵」. 봉평·대화 등 강원 산간 장터를 배경으로 함. 한국저작권위원회 공유마당에서 저작권 만료(공유)로 분류.",
+          "quote": "산허리는 온통 메밀밭이어서 피기 시작한 꽃이 소금을 뿌린 듯이 흐붓한 달빛에 숨이 막힐 지경이다.",
+          "quote_source": "이효석 「메밀꽃 필 무렵」 원문(위키문헌, 현대 표기 정본 대조 권장)",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0018494",
+          "source_grade": "A",
+          "flags": ["quote-wiki-source"]
+        },
+        {
+          "title": "돈(豚)",
+          "year": 1933,
+          "note": "1933년 발표 단편.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "화분(花粉)",
+          "year": 1939,
+          "note": "1939년 발표 장편소설.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["birthplace-disputed", "coords-unverified", "deathdate-approx"],
+      "note": "한자 李孝石, 호 가산(可山), 본관 전주. 생년 1907·몰년 1942는 한국민족문화대백과사전(A) 기준. 한국민족문화대백과사전은 사망 날짜를 명시하지 않으며(향년 36세, 뇌막염), 1942-05-25 사망설은 B/C 자료에서만 확인되어 deathdate-approx. 출생지는 평창 봉평(창동리)이 공식·복원 생가 위치이나, 유족이 진부면 하진부리 196을 실제 출생지로 본다는 강원일보(2019) 보도가 있어 birthplace-disputed. 평양 숭실전문학교 교수 부임 연도는 한국민족문화대백과사전 서술상 1934로 보이나 위키 등은 1936~1938로 적어 year-disputed. 이효석문학관(강원특별자치도 평창군 봉평면 효석문학길 73-25, 창동리 544-3)과 복원 생가(봉평면 이효석길 33-11)는 한국관광공사 열린관광 페이지에 공식 좌표가 공개되어 소수점 4자리로 기재. 효석달빛언덕은 공식 좌표 미공개로 coords-unverified(주소: 봉평면 효석문학길 일원). 평창의 이효석 연고지는 국가유산청 지정 문화유산이 아닌 지자체 문화시설. 「메밀꽃 필 무렵」은 공유저작물(공유마당)이라 원문 인용 가능, 인용 텍스트는 위키문헌 기준이므로 정본 대조 권장(quote-wiki-source)."
+    },
+    {
+      "id": "chae-mansik",
+      "name_ko": "채만식",
+      "name_en": "Chae Man-sik",
+      "field": "소설가·극작가",
+      "birth_year": 1902,
+      "death_year": 1950,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "전라북도 옥구군 임피면 읍내리 동상마을(현 전북특별자치도 군산시 임피면). 원 생가는 도로 확장으로 철거되어 현재 생가터 표지석(1986 건립)만 남음",
+        "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+        "source_grade": "A",
+        "flags": ["coords-unverified"]
+      },
+      "timeline": [
+        {
+          "year": 1902,
+          "event": "전라북도 옥구군 임피면 읍내리에서 출생",
+          "place_id": null,
+          "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+          "source_grade": "A",
+          "flags": ["birthdate-disputed"]
+        },
+        {
+          "year": 1918,
+          "event": "중앙고등보통학교 입학",
+          "place_id": null,
+          "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1922,
+          "event": "중앙고등보통학교 졸업, 일본 와세다대학 부속 제1와세다고등학원 문과 입학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0055587",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1924,
+          "event": "와세다고등학원 중퇴, 단편 「세길로」를 『조선문단』에 발표(등단)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0055587",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1925,
+          "event": "동아일보사 입사",
+          "place_id": null,
+          "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1929,
+          "event": "개벽사 입사",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0055587",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1934,
+          "event": "단편 「레디메이드 인생」을 『신동아』에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0017242",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1937,
+          "event": "장편 「탁류」를 『조선일보』에 연재 시작(1937.10.12~1938.5.17)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0058730",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1938,
+          "event": "장편 「천하태평춘」을 『조광』에 연재, 단편 「치숙」을 『동아일보』에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0056085",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1948,
+          "event": "「천하태평춘」을 「태평천하」로 제목을 바꿔 동지사에서 단행본 출간",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0056085",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1950,
+          "event": "폐결핵으로 전라북도 이리(현 익산)에서 사망(향년 49세)",
+          "place_id": "chae-mansik-grave",
+          "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "chae-mansik-museum",
+          "name": "채만식문학관",
+          "lat": null,
+          "lng": null,
+          "type": "문학관",
+          "source_url": "https://www.gunsan.go.kr/chae/m2035",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "chae-mansik-grave",
+          "name": "채만식 묘소(군산 임피면 축산리 계남마을)",
+          "lat": null,
+          "lng": null,
+          "type": "묘소",
+          "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "chae-mansik-birthsite",
+          "name": "채만식 생가터 표지석(군산 임피면 읍내리)",
+          "lat": null,
+          "lng": null,
+          "type": "생가터(표지석)",
+          "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+          "source_grade": "B",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        {
+          "title": "탁류(濁流)",
+          "year": 1937,
+          "note": "『조선일보』 1937.10.12~1938.5.17 연재(198회), 1939년 박문서관 단행본. 군산을 배경으로 함.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0058730",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "태평천하(太平天下)",
+          "year": 1938,
+          "note": "『조광』 1938년 연재 당시 제목은 「천하태평춘(天下太平春)」, 1948년 동지사 단행본에서 「태평천하」로 개제. 지주 윤직원 일가를 다룬 장편.",
+          "quote": "추석을 지나 이윽고, 짙어 가는 가을 해가 저물기 쉬운 어느 날 석양.",
+          "quote_source": "채만식 「태평천하」 제1장 첫 문장(위키문헌, 정본 대조 권장)",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0056085",
+          "source_grade": "A",
+          "flags": ["quote-wiki-source"]
+        },
+        {
+          "title": "레디메이드 인생",
+          "year": 1934,
+          "note": "『신동아』 1934년 5~7월 3회 연재 단편.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0017242",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "치숙(痴叔)",
+          "year": 1938,
+          "note": "『동아일보』 1938.3.7~3.14 발표 단편. 1인칭 화자 기법.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0058368",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["birthdate-disputed", "coords-unverified"],
+      "note": "한자 蔡萬植, 호 백릉(白菱)·채옹(采翁) 등, 본관 평강. 생년 1902·몰년 1950은 한국민족문화대백과사전(A)·디지털군산문화대전(A) 일치. 출생 월·일은 두 A급 사전이 불일치(한국민족문화대백과사전 1902-07-21 vs 디지털군산문화대전 1902-06-17)하여 birthdate-disputed; 연도는 확정. 사망원인은 폐결핵으로 두 A급 출처 일치(일부의 '익사설'은 근거 없음), 사망지 이리=현 익산. 와세다 학력은 '부속 제1와세다고등학원 문과 입학 후 1924년 중퇴'가 정밀 출처(한국민족문화대백과사전·디지털군산문화대전) 기준이며, 일부에서 '영문과'로 표기하나 학부 졸업이 아님. 「천하태평춘」(1938 연재)→「태평천하」(1948 개제). 채만식문학관(전북특별자치도 군산시 강변로 449, 내흥동 285, 2001 개관)·묘소(군산 임피면 축산리 계남마을)·생가터 표지석(임피면 읍내리)은 어떤 공식 출처에도 위경도가 공개되지 않아 전부 coords-unverified, 주소만 보존. 원 생가는 철거되어 표지석만 남음(B급 언론). 「탁류」·「치숙」·「레디메이드 인생」은 A급 사전 본문에 원문 인용이 없어 quote 생략, 「태평천하」 첫 문장만 위키문헌 기준으로 인용(quote-wiki-source). 채만식은 1950년 사망으로 저작권 만료(공유)."
+    },
+    {
+      "id": "yi-i",
+      "name_ko": "이이",
+      "name_en": "Yi I",
+      "field": "성리학자·문신",
+      "birth_year": 1536,
+      "death_year": 1584,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "강릉 북평촌 외가(현 강원특별자치도 강릉시 죽헌동 오죽헌). 도로명: 강원특별자치도 강릉시 율곡로3139번길 24",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+        "source_grade": "A",
+        "flags": ["coords-unverified"]
+      },
+      "timeline": [
+        {
+          "year": 1536,
+          "event": "강릉 외가(오죽헌)에서 출생, 어머니는 신사임당",
+          "place_id": "ojukheon",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1548,
+          "event": "13세에 진사 초시 합격",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1558,
+          "event": "별시에서 「천도책(天道策)」으로 장원",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1564,
+          "event": "문과 급제(여러 차례 장원하여 구도장원공으로 불림), 호조좌랑으로 관직 시작",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309400",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1569,
+          "event": "「동호문답(東湖問答)」 저술",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1574,
+          "event": "우부승지 재직 중 「만언봉사(萬言封事)」를 올림",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": ["year-variant"]
+        },
+        {
+          "year": 1575,
+          "event": "『성학집요(聖學輯要)』를 선조에게 올림",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1577,
+          "event": "해주 재직 중 『격몽요결(擊蒙要訣)』 저술",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1582,
+          "event": "이조판서 임명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1583,
+          "event": "병조판서 임명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1584,
+          "event": "한양 대사동(大寺洞)에서 사망(향년 49세)",
+          "place_id": "paju-yi-i-site",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "ojukheon",
+          "name": "강릉 오죽헌(보물) — 이이 생가",
+          "lat": null,
+          "lng": null,
+          "type": "생가·보물",
+          "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123201650000",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "paju-yi-i-site",
+          "name": "파주 이이 유적(사적) — 자운서원·이이 묘·신사임당 묘",
+          "lat": null,
+          "lng": null,
+          "type": "서원·묘·사적",
+          "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333105250000",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "songdam-seowon",
+          "name": "강릉 송담서원(이이 배향)",
+          "lat": null,
+          "lng": null,
+          "type": "서원",
+          "source_url": "https://www.gn.go.kr/www/contents.do?key=607",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        {
+          "title": "성학집요(聖學輯要)",
+          "year": 1575,
+          "note": "1575년 선조에게 올린 제왕학 교재. 사서·육경의 핵심을 정리.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "격몽요결(擊蒙要訣)",
+          "year": 1577,
+          "note": "1577년 해주 재직 중 저술한 초학자 교육서. 친필본이 강릉 오죽헌박물관에 소장됨.",
+          "quote": "人生斯世, 非學問, 無以爲人.",
+          "quote_source": "이이 『격몽요결』 서문(序文) — 한국고전번역원/전통문화연구회 원문 DB",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": ["quote-secondary-source"]
+        },
+        {
+          "title": "동호문답(東湖問答)",
+          "year": 1569,
+          "note": "1569년 사가독서(동호 독서당) 중 저술한 문답체 경세론.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309400",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["coords-unverified", "year-variant"],
+      "note": "한자 李珥, 자 숙헌(叔獻), 호 율곡(栗谷)·석담(石潭)·우재(愚齋), 본관 덕수, 시호 문성(文成). 생년 1536·몰년 1584는 모든 A급 출처 일치(이설 없음). 어머니는 신사임당(1504~1551). 황해도관찰사·대사간 등 일부 관직의 임명 연도는 우리역사넷(1573 황해도관찰사)과 다른 연보(1574)가 달라 1574 항목에 year-variant 플래그(관직 보임 사실 자체는 확실, 연도만 출처별 차이). 강릉 오죽헌은 보물(1963 지정, 강원특별자치도 강릉시 율곡로3139번길 24, 죽헌동), 파주 이이 유적은 사적(2013 지정, 경기도 파주시 법원읍 자운서원로 204, 자운서원·이이 묘·신사임당 합장묘 포함), 강릉 송담서원은 강원도 유형문화재(강릉시 강동면 송담서원길 27-5). 세 곳 모두 국가유산청·지자체 공식 페이지에 위경도가 공개되지 않아 coords-unverified, 도로명 주소만 보존(좌표 날조 금지). 『격몽요결』·『성학집요』·『동호문답』은 16세기 저작으로 공유. 격몽요결 서문 한문 원구는 전통문화연구회 원문 DB 기준(quote-secondary-source), 성학집요·동호문답은 A급 사전 본문에 확정 원문 인용이 없어 생략."
+    },
+    {
+      "id": "yi-hwang",
+      "name_ko": "이황",
+      "name_en": "Yi Hwang",
+      "field": "성리학자·문신",
+      "birth_year": 1501,
+      "death_year": 1570,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경상도 예안현 온계리(현 경상북도 안동시 도산면 온혜리) 노송정. 퇴계태실 도로명: 경북 안동시 도산면 온혜중마길 46-5",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+        "source_grade": "A",
+        "flags": ["coords-unverified"]
+      },
+      "timeline": [
+        {
+          "year": 1501,
+          "event": "경상도 예안현 온계리에서 출생",
+          "place_id": "toegye-birthhouse",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1527,
+          "event": "진사시·생원시 초시 합격",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1534,
+          "event": "문과 급제",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1543,
+          "event": "성균관 사성 임명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1548,
+          "event": "충청도 단양군수 부임",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1549,
+          "event": "경상도 풍기군수 재직 중 사직하고 귀향",
+          "place_id": null,
+          "source_url": "https://www.andong.go.kr/dosanseowon/contents.do?mId=0201000000",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1552,
+          "event": "성균관 대사성 임명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1561,
+          "event": "도산서당 건립",
+          "place_id": "dosan-seowon",
+          "source_url": "https://www.andong.go.kr/dosanseowon/contents.do?mId=0101000000",
+          "source_grade": "A",
+          "flags": ["year-variant"]
+        },
+        {
+          "year": 1565,
+          "event": "「도산십이곡(陶山十二曲)」 지음",
+          "place_id": "dosan-seowon",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1568,
+          "event": "『성학십도(聖學十圖)』를 선조에게 올림",
+          "place_id": null,
+          "source_url": "https://www.andong.go.kr/dosanseowon/contents.do?mId=0201000000",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1570,
+          "event": "안동에서 사망(향년 70세)",
+          "place_id": "toegye-grave",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "dosan-seowon",
+          "name": "안동 도산서원(사적, 유네스코 한국의 서원)",
+          "lat": null,
+          "lng": null,
+          "type": "서원·사적",
+          "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333701700000",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "toegye-birthhouse",
+          "name": "퇴계태실(노송정 종택) — 이황 출생지",
+          "lat": null,
+          "lng": null,
+          "type": "생가(태실)",
+          "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=2443700600000",
+          "source_grade": "A",
+          "flags": ["coords-unverified", "designation-lifted"]
+        },
+        {
+          "id": "toegye-head-house",
+          "name": "퇴계종택(경상북도 기념물)",
+          "lat": null,
+          "lng": null,
+          "type": "종택",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0059451",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "toegye-grave",
+          "name": "이황 묘소(안동 도산면 토계리 하계마을)",
+          "lat": null,
+          "lng": null,
+          "type": "묘소",
+          "source_url": "https://andong.grandculture.net/andong/toc/GC02401990",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        {
+          "title": "성학십도(聖學十圖)",
+          "year": 1568,
+          "note": "1568년 선조에게 올린 10폭 도설(圖說)로 된 성리학 교재.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://www.andong.go.kr/dosanseowon/contents.do?mId=0201000000",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "도산십이곡(陶山十二曲)",
+          "year": 1565,
+          "note": "1565년 지은 12수 연시조. 앞 6수는 언지(言志), 뒤 6수는 언학(言學).",
+          "quote": "이런들 엇더ᄒᆞ며 져런들 엇더ᄒᆞ료 / 草野 愚生이 이러타 엇더ᄒᆞ료 / ᄒᆞ믈며 泉石膏肓을 고쳐 므슴 ᄒᆞ료",
+          "quote_source": "이황 「도산십이곡」 제1수(위키문헌 원문, 고어 표기)",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": ["quote-wiki-source"]
+        },
+        {
+          "title": "자성록(自省錄)",
+          "year": 1558,
+          "note": "문인·지인에게 보낸 편지를 모은 책(58세에 정리).",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": ["year-approx"]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["coords-unverified", "year-variant"],
+      "note": "한자 李滉, 자 경호(景浩), 호 퇴계(退溪)·퇴도(退陶)·도수(陶叟), 본관 진보, 시호 문순(文純). 생년 1501·몰년 1570은 A급 출처 일치(이설 없음). 출생지는 예안현 온계리(현 안동시 도산면 온혜리) 노송정. 도산서당 건립 연도는 출처 간 차이(우리역사넷 1559, 한국민족문화대백과사전 1560, 안동시 도산서원 공식 1561)가 있어 year-variant(본 데이터는 운영기관인 안동시 도산서원 공식 표기 1561 채택). 안동 도산서원은 사적(1969 지정)·유네스코 세계유산 '한국의 서원'(2019)으로 경북 안동시 도산면 도산서원길 154(토계리). 퇴계태실(노송정 종택, 경북 안동시 도산면 온혜중마길 46-5)은 1985 경북 민속문화재 지정 후 2018-11-01 지정 해제됨(designation-lifted). 퇴계종택은 경상북도 기념물(안동시 도산면 백운로 268, 토계리, 1982 지정). 이황 묘소는 도산면 토계리 하계마을 뒷산에 있으며 묘비명은 '퇴도만은진성이공지묘'(출처 디지털안동문화대전, 한국학중앙연구원 운영, A). 네 곳 모두 공식 페이지에 위경도가 공개되지 않아 coords-unverified, 도로명/지명만 보존(좌표 날조 금지). 『성학십도』·「도산십이곡」은 16세기 저작으로 공유. 도산십이곡 제1수는 위키문헌 고어 원문 기준(quote-wiki-source). 자성록 정리 연도는 58세(1558년경)로 출처 표기되어 year-approx."
+    }
+  ]
+}

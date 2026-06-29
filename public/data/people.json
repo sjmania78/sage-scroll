@@ -4,327 +4,3149 @@
   "people": [
     {
       "id": "jeong-yagyong",
-      "name_ko": "정약용", "name_en": "Jeong Yak-yong",
+      "name_ko": "정약용",
+      "name_en": "Jeong Yak-yong",
       "field": "실학자·문신",
-      "birth_year": 1762, "death_year": 1836,
+      "birth_year": 1762,
+      "death_year": 1836,
       "birthplace": {
-        "lat": null, "lng": null,
+        "lat": null,
+        "lng": null,
         "admin": "경기도 광주부 초부면 마재(현 남양주시 조안면 능내리)",
-        "source_url": "https://encykorea.aks.ac.kr/Article/E0050549", "source_grade": "A",
-        "flags": ["coords-unverified"]
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0050549",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
       },
       "timeline": [
-        { "year": 1762, "event": "경기도 광주부 초부면 마재(현 남양주시 조안면 능내리)에서 출생", "place_id": "jeong-yagyong-historic-site", "source_url": "https://encykorea.aks.ac.kr/Article/E0050549", "source_grade": "A", "flags": ["birthdate-variant"] },
-        { "year": 1783, "event": "진사시 합격", "place_id": null, "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700", "source_grade": "A", "flags": [] },
-        { "year": 1789, "event": "식년문과 갑과 급제, 희릉직장으로 관직 시작", "place_id": null, "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700", "source_grade": "A", "flags": [] },
-        { "year": 1789, "event": "한강 배다리(주교) 준공", "place_id": null, "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700", "source_grade": "A", "flags": [] },
-        { "year": 1793, "event": "수원 화성 설계", "place_id": null, "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700", "source_grade": "A", "flags": [] },
-        { "year": 1801, "event": "신유박해로 체포되어 경상도 장기로 유배, 같은 해 전라도 강진으로 이배", "place_id": "dasan-chodang", "source_url": "https://encykorea.aks.ac.kr/Article/E0050549", "source_grade": "A", "flags": [] },
-        { "year": 1817, "event": "강진 유배 중 『경세유표』 저술", "place_id": "dasan-chodang", "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700", "source_grade": "A", "flags": [] },
-        { "year": 1818, "event": "강진 유배 중 『목민심서』 완성", "place_id": "dasan-chodang", "source_url": "https://encykorea.aks.ac.kr/Article/E0018631", "source_grade": "A", "flags": [] },
-        { "year": 1818, "event": "18년 만에 유배에서 풀려나 고향 마재로 귀향", "place_id": "jeong-yagyong-historic-site", "source_url": "https://encykorea.aks.ac.kr/Article/E0050549", "source_grade": "A", "flags": [] },
-        { "year": 1836, "event": "고향 마재 자택(여유당)에서 사망", "place_id": "jeong-yagyong-historic-site", "source_url": "https://encykorea.aks.ac.kr/Article/E0050549", "source_grade": "A", "flags": [] }
+        {
+          "year": 1762,
+          "event": "경기도 광주부 초부면 마재(현 남양주시 조안면 능내리)에서 출생",
+          "place_id": "jeong-yagyong-historic-site",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050549",
+          "source_grade": "A",
+          "flags": [
+            "birthdate-variant"
+          ]
+        },
+        {
+          "year": 1783,
+          "event": "진사시 합격",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1789,
+          "event": "식년문과 갑과 급제, 희릉직장으로 관직 시작",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1789,
+          "event": "한강 배다리(주교) 준공",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1793,
+          "event": "수원 화성 설계",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1801,
+          "event": "신유박해로 체포되어 경상도 장기로 유배, 같은 해 전라도 강진으로 이배",
+          "place_id": "dasan-chodang",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050549",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1817,
+          "event": "강진 유배 중 『경세유표』 저술",
+          "place_id": "dasan-chodang",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1818,
+          "event": "강진 유배 중 『목민심서』 완성",
+          "place_id": "dasan-chodang",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0018631",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1818,
+          "event": "18년 만에 유배에서 풀려나 고향 마재로 귀향",
+          "place_id": "jeong-yagyong-historic-site",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050549",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1836,
+          "event": "고향 마재 자택(여유당)에서 사망",
+          "place_id": "jeong-yagyong-historic-site",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050549",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
       "places": [
-        { "id": "jeong-yagyong-historic-site", "name": "정약용유적지(다산유적지) — 생가 여유당·묘·기념관", "lat": 37.5165, "lng": 127.2993, "type": "유적지·기념관", "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=6c305513-5f6b-43a8-9be1-2842f7bf800f", "source_grade": "A", "flags": [] },
-        { "id": "dasan-chodang", "name": "강진 정약용 유적(다산초당, 사적)", "lat": 34.5808, "lng": 126.7450, "type": "유적", "source_url": "https://www.gjculture.or.kr/182", "source_grade": "A", "flags": ["coords-osm"] }
+        {
+          "id": "jeong-yagyong-historic-site",
+          "name": "정약용유적지(다산유적지) — 생가 여유당·묘·기념관",
+          "lat": 37.5165,
+          "lng": 127.2993,
+          "type": "유적지·기념관",
+          "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=6c305513-5f6b-43a8-9be1-2842f7bf800f",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "id": "dasan-chodang",
+          "name": "강진 정약용 유적(다산초당, 사적)",
+          "lat": 34.5808,
+          "lng": 126.745,
+          "type": "유적",
+          "source_url": "https://www.gjculture.or.kr/182",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
       ],
       "works": [
-        { "title": "목민심서(牧民心書)", "year": 1818, "note": "지방 수령의 행정 지침서. 강진 유배 중 저술, 『여유당전서』 수록.", "quote": "군자의 학문은 수신이 그 반이요, 나머지 반은 목민이다.", "quote_source": "목민심서 자서(自序)", "source_url": "https://encykorea.aks.ac.kr/Article/E0018631", "source_grade": "A", "flags": ["quote-translation"] },
-        { "title": "경세유표(經世遺表)", "year": 1817, "note": "국가 제도 개혁안. 강진 유배 중 저술.", "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700", "source_grade": "A", "flags": [] },
-        { "title": "흠흠신서(欽欽新書)", "year": 1822, "note": "형옥·재판 실무서.", "source_url": "https://encykorea.aks.ac.kr/Article/E0050549", "source_grade": "A", "flags": ["year-approx"] }
+        {
+          "title": "목민심서(牧民心書)",
+          "year": 1818,
+          "note": "지방 수령의 행정 지침서. 강진 유배 중 저술, 『여유당전서』 수록.",
+          "quote": "군자의 학문은 수신이 그 반이요, 나머지 반은 목민이다.",
+          "quote_source": "목민심서 자서(自序)",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0018631",
+          "source_grade": "A",
+          "flags": [
+            "quote-translation"
+          ]
+        },
+        {
+          "title": "경세유표(經世遺表)",
+          "year": 1817,
+          "note": "국가 제도 개혁안. 강진 유배 중 저술.",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n310700",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "흠흠신서(欽欽新書)",
+          "year": 1822,
+          "note": "형옥·재판 실무서.",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050549",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        }
       ],
-      "source_grade": "A", "verified": true, "flags": ["birthdate-variant"]
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "birthdate-variant"
+      ]
     },
     {
       "id": "choe-hangi",
-      "name_ko": "최한기", "name_en": "Choe Han-gi",
+      "name_ko": "최한기",
+      "name_en": "Choe Han-gi",
       "field": "실학자·철학자",
-      "birth_year": 1803, "death_year": 1877,
+      "birth_year": 1803,
+      "death_year": 1877,
       "birthplace": {
-        "lat": null, "lng": null,
+        "lat": null,
+        "lng": null,
         "admin": "개성(추정). 삭녕 최씨 가문이 대대로 개성에 거주한 점에 근거한 추정으로 1차 사료 확정 아님",
-        "source_url": "https://encykorea.aks.ac.kr/Article/E0057736", "source_grade": "A",
-        "flags": ["coords-unverified", "birthplace-presumed"]
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0057736",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified",
+          "birthplace-presumed"
+        ]
       },
       "timeline": [
-        { "year": 1803, "event": "개성에서 출생(추정)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0057736", "source_grade": "A", "flags": ["birthplace-presumed"] },
-        { "year": 1825, "event": "생원시 합격, 성균관 입학", "place_id": null, "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500", "source_grade": "A", "flags": [] },
-        { "year": 1830, "event": "『농정회요(農政會要)』 저술", "place_id": null, "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500", "source_grade": "A", "flags": [] },
-        { "year": 1836, "event": "『신기통』·『추측록』 저술(합본 『기측체의』)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0008463", "source_grade": "A", "flags": [] },
-        { "year": 1857, "event": "『지구전요(地球典要)』·『기학(氣學)』 저술", "place_id": null, "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500", "source_grade": "A", "flags": [] },
-        { "year": 1860, "event": "『인정(人政)』 집필 완료", "place_id": null, "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500", "source_grade": "A", "flags": [] },
-        { "year": 1866, "event": "『신기천험(身機踐驗)』 저술", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0057736", "source_grade": "A", "flags": [] },
-        { "year": 1877, "event": "사망", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0057736", "source_grade": "A", "flags": ["deathyear-disputed"] }
+        {
+          "year": 1803,
+          "event": "개성에서 출생(추정)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0057736",
+          "source_grade": "A",
+          "flags": [
+            "birthplace-presumed"
+          ]
+        },
+        {
+          "year": 1825,
+          "event": "생원시 합격, 성균관 입학",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1830,
+          "event": "『농정회요(農政會要)』 저술",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1836,
+          "event": "『신기통』·『추측록』 저술(합본 『기측체의』)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0008463",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1857,
+          "event": "『지구전요(地球典要)』·『기학(氣學)』 저술",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1860,
+          "event": "『인정(人政)』 집필 완료",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1866,
+          "event": "『신기천험(身機踐驗)』 저술",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0057736",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1877,
+          "event": "사망",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0057736",
+          "source_grade": "A",
+          "flags": [
+            "deathyear-disputed"
+          ]
+        }
       ],
       "places": [],
       "works": [
-        { "title": "기측체의(氣測體儀)", "year": 1836, "note": "신기통(권1-3)·추측록(권4-9) 합본 9권. 1836년 간행.", "source_url": "https://encykorea.aks.ac.kr/Article/E0008463", "source_grade": "A", "flags": [] },
-        { "title": "인정(人政)", "year": 1860, "note": "인사·통치 제도서. 1851년 구상, 1860년 집필 완료.", "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500", "source_grade": "A", "flags": [] },
-        { "title": "지구전요(地球典要)", "year": 1857, "note": "세계 지리·천문서.", "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500", "source_grade": "A", "flags": [] }
+        {
+          "title": "기측체의(氣測體儀)",
+          "year": 1836,
+          "note": "신기통(권1-3)·추측록(권4-9) 합본 9권. 1836년 간행.",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0008463",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "인정(人政)",
+          "year": 1860,
+          "note": "인사·통치 제도서. 1851년 구상, 1860년 집필 완료.",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "지구전요(地球典要)",
+          "year": 1857,
+          "note": "세계 지리·천문서.",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n312500",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
-      "source_grade": "A", "verified": true, "flags": ["birthplace-presumed", "deathyear-disputed", "no-places"]
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "birthplace-presumed",
+        "deathyear-disputed",
+        "no-places"
+      ]
     },
     {
       "id": "yun-dongju",
-      "name_ko": "윤동주", "name_en": "Yun Dong-ju",
+      "name_ko": "윤동주",
+      "name_en": "Yun Dong-ju",
       "field": "시인",
-      "birth_year": 1917, "death_year": 1945,
+      "birth_year": 1917,
+      "death_year": 1945,
       "birthplace": {
-        "lat": null, "lng": null,
+        "lat": null,
+        "lng": null,
         "admin": "중국 지린성 옌볜 룽징시 명동촌(북간도). 당시 만주, 현 중국 영토",
-        "source_url": "https://encykorea.aks.ac.kr/Article/E0042294", "source_grade": "A",
-        "flags": ["coords-unverified", "overseas"]
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified",
+          "overseas"
+        ]
       },
       "timeline": [
-        { "year": 1917, "event": "북간도 명동촌에서 출생(12월 30일). 아명 해환(海煥), 본관 파평", "place_id": "yun-dongju-birthplace-myeongdong", "source_url": "https://encykorea.aks.ac.kr/Article/E0042294", "source_grade": "A", "flags": [] },
-        { "year": 1935, "event": "평양 숭실중학교로 편입", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0042294", "source_grade": "A", "flags": [] },
-        { "year": 1938, "event": "서울 연희전문학교 문과 입학", "place_id": null, "source_url": "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%8F%99%EC%A3%BC", "source_grade": "C", "flags": ["wiki-only"] },
-        { "year": 1941, "event": "연희전문 졸업. '서시'(11월 20일)·'별 헤는 밤' 창작", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0042294", "source_grade": "A", "flags": [] },
-        { "year": 1942, "event": "일본 유학. 도쿄 릿쿄대 입학 후 교토 도시샤대 영문과로 전학", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0042294", "source_grade": "A", "flags": ["overseas"] },
-        { "year": 1943, "event": "치안유지법 위반 혐의로 교토에서 체포(7월 14일), 징역 2년 선고", "place_id": null, "source_url": "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%8F%99%EC%A3%BC", "source_grade": "C", "flags": ["wiki-only", "overseas"] },
-        { "year": 1945, "event": "일본 후쿠오카 형무소에서 옥사(2월 16일, 향년 27세)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0042294", "source_grade": "A", "flags": ["overseas"] },
-        { "year": 1948, "event": "유고 시집 『하늘과 바람과 별과 시』 발간(정음사). 초간본 31편", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0042294", "source_grade": "A", "flags": [] }
+        {
+          "year": 1917,
+          "event": "북간도 명동촌에서 출생(12월 30일). 아명 해환(海煥), 본관 파평",
+          "place_id": "yun-dongju-birthplace-myeongdong",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1935,
+          "event": "평양 숭실중학교로 편입",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1938,
+          "event": "서울 연희전문학교 문과 입학",
+          "place_id": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%8F%99%EC%A3%BC",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1941,
+          "event": "연희전문 졸업. '서시'(11월 20일)·'별 헤는 밤' 창작",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1942,
+          "event": "일본 유학. 도쿄 릿쿄대 입학 후 교토 도시샤대 영문과로 전학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1943,
+          "event": "치안유지법 위반 혐의로 교토에서 체포(7월 14일), 징역 2년 선고",
+          "place_id": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%8F%99%EC%A3%BC",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "overseas"
+          ]
+        },
+        {
+          "year": 1945,
+          "event": "일본 후쿠오카 형무소에서 옥사(2월 16일, 향년 27세)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1948,
+          "event": "유고 시집 『하늘과 바람과 별과 시』 발간(정음사). 초간본 31편",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
       "places": [
-        { "id": "yun-dongju-literature-museum", "name": "윤동주문학관", "lat": 37.5921, "lng": 126.9670, "type": "문학관", "source_url": "https://www.jfac.or.kr/site/main/content/yoondj04", "source_grade": "A", "flags": ["coords-osm"] },
-        { "id": "yun-dongju-birthplace-myeongdong", "name": "윤동주 생가 (중국 룽징 명동촌)", "lat": null, "lng": null, "type": "생가", "source_url": "https://www.khs.go.kr/cop/bbs/selectBoardArticle.do?nttId=74712&bbsId=BBSMSTR_1008&mn=NS_01_09_01", "source_grade": "A", "flags": ["coords-unverified", "overseas"] },
-        { "id": "yun-dongju-grave-longjing", "name": "윤동주 묘소 (중국 룽징)", "lat": null, "lng": null, "type": "묘소", "source_url": "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%8F%99%EC%A3%BC", "source_grade": "C", "flags": ["coords-unverified", "overseas", "wiki-only"] }
+        {
+          "id": "yun-dongju-literature-museum",
+          "name": "윤동주문학관",
+          "lat": 37.5921,
+          "lng": 126.967,
+          "type": "문학관",
+          "source_url": "https://www.jfac.or.kr/site/main/content/yoondj04",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        },
+        {
+          "id": "yun-dongju-birthplace-myeongdong",
+          "name": "윤동주 생가 (중국 룽징 명동촌)",
+          "lat": null,
+          "lng": null,
+          "type": "생가",
+          "source_url": "https://www.khs.go.kr/cop/bbs/selectBoardArticle.do?nttId=74712&bbsId=BBSMSTR_1008&mn=NS_01_09_01",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified",
+            "overseas"
+          ]
+        },
+        {
+          "id": "yun-dongju-grave-longjing",
+          "name": "윤동주 묘소 (중국 룽징)",
+          "lat": null,
+          "lng": null,
+          "type": "묘소",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%8F%99%EC%A3%BC",
+          "source_grade": "C",
+          "flags": [
+            "coords-unverified",
+            "overseas",
+            "wiki-only"
+          ]
+        }
       ],
       "works": [
-        { "title": "서시(序詩)", "year": 1941, "note": "시. 1941년 11월 20일 창작. 유고 시집 서두에 수록되며 '서시' 제목이 붙음.", "quote": "죽는 날까지 하늘을 우러러 한 점 부끄럼이 없기를", "quote_source": "서시", "source_url": "https://encykorea.aks.ac.kr/Article/E0042294", "source_grade": "A", "flags": [] },
-        { "title": "별 헤는 밤", "year": 1941, "note": "시. 유고 시집 『하늘과 바람과 별과 시』(1948) 수록.", "quote": "계절이 지나가는 하늘에는 가을로 가득 차 있습니다", "quote_source": "별 헤는 밤", "source_url": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=9000761&menuNo=200019", "source_grade": "A", "flags": [] },
-        { "title": "하늘과 바람과 별과 시", "year": 1948, "note": "유고 시집. 정음사 발행. 초간본 31편 수록.", "source_url": "https://encykorea.aks.ac.kr/Article/E0042294", "source_grade": "A", "flags": [] }
+        {
+          "title": "서시(序詩)",
+          "year": 1941,
+          "note": "시. 1941년 11월 20일 창작. 유고 시집 서두에 수록되며 '서시' 제목이 붙음.",
+          "quote": "죽는 날까지 하늘을 우러러 한 점 부끄럼이 없기를",
+          "quote_source": "서시",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "별 헤는 밤",
+          "year": 1941,
+          "note": "시. 유고 시집 『하늘과 바람과 별과 시』(1948) 수록.",
+          "quote": "계절이 지나가는 하늘에는 가을로 가득 차 있습니다",
+          "quote_source": "별 헤는 밤",
+          "source_url": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=9000761&menuNo=200019",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "하늘과 바람과 별과 시",
+          "year": 1948,
+          "note": "유고 시집. 정음사 발행. 초간본 31편 수록.",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
-      "source_grade": "A", "verified": true, "flags": ["overseas-birthplace", "coords-unverified"]
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "overseas-birthplace",
+        "coords-unverified"
+      ]
     },
     {
       "id": "yi-sang",
-      "name_ko": "이상", "name_en": "Yi Sang",
+      "name_ko": "이상",
+      "name_en": "Yi Sang",
       "field": "시인·소설가",
-      "birth_year": 1910, "death_year": 1937,
+      "birth_year": 1910,
+      "death_year": 1937,
       "birthplace": {
-        "lat": null, "lng": null,
+        "lat": null,
+        "lng": null,
         "admin": "경성부 순화방 반정동(현 서울 종로구 일대). 제적부상 본적은 통동(현 통인동) 154번지",
-        "source_url": "https://encykorea.aks.ac.kr/Article/E0044568", "source_grade": "A",
-        "flags": ["coords-unverified", "birthplace-disputed"]
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified",
+          "birthplace-disputed"
+        ]
       },
       "timeline": [
-        { "year": 1910, "event": "경성부 순화방 반정동에서 출생(9월 23일). 본명 김해경(金海卿), 본관 강릉", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0044568", "source_grade": "A", "flags": [] },
-        { "year": 1913, "event": "백부 김연필의 집(통인동)에 들어가 성장", "place_id": "yi-sang-house", "source_url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%83%81_(%EC%9E%91%EA%B0%80)", "source_grade": "C", "flags": ["wiki-only"] },
-        { "year": 1926, "event": "동광학교(후 보성고보 병합) 졸업", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0044568", "source_grade": "A", "flags": [] },
-        { "year": 1929, "event": "경성고등공업학교 건축과 졸업. 조선총독부 내무국 건축과 기사 임용", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0044568", "source_grade": "A", "flags": [] },
-        { "year": 1933, "event": "총독부 기사직 퇴직, 다방·카페 경영. 시 '거울' 발표", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0044568", "source_grade": "A", "flags": [] },
-        { "year": 1934, "event": "구인회 가입. 연작시 '오감도'를 『조선중앙일보』 연재(15편 만에 중단)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0044568", "source_grade": "A", "flags": [] },
-        { "year": 1936, "event": "단편 '날개'를 『조광』 9월호 발표. 같은 해 일본 도쿄로 건너감", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0044568", "source_grade": "A", "flags": [] },
-        { "year": 1937, "event": "도쿄에서 구금되었다 병보석, 도쿄제대 부속병원에서 사망(4월 17일, 향년 27세)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0044568", "source_grade": "A", "flags": ["overseas"] }
+        {
+          "year": 1910,
+          "event": "경성부 순화방 반정동에서 출생(9월 23일). 본명 김해경(金海卿), 본관 강릉",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1913,
+          "event": "백부 김연필의 집(통인동)에 들어가 성장",
+          "place_id": "yi-sang-house",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%83%81_(%EC%9E%91%EA%B0%80)",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1926,
+          "event": "동광학교(후 보성고보 병합) 졸업",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1929,
+          "event": "경성고등공업학교 건축과 졸업. 조선총독부 내무국 건축과 기사 임용",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1933,
+          "event": "총독부 기사직 퇴직, 다방·카페 경영. 시 '거울' 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1934,
+          "event": "구인회 가입. 연작시 '오감도'를 『조선중앙일보』 연재(15편 만에 중단)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1936,
+          "event": "단편 '날개'를 『조광』 9월호 발표. 같은 해 일본 도쿄로 건너감",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1937,
+          "event": "도쿄에서 구금되었다 병보석, 도쿄제대 부속병원에서 사망(4월 17일, 향년 27세)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        }
       ],
       "places": [
-        { "id": "yi-sang-house", "name": "이상의 집", "lat": 37.5786, "lng": 126.9708, "type": "기념관", "source_url": "https://m.tripinfo.co.kr/info.html?content_id=3044977&content_type_id=12", "source_grade": "A", "flags": ["coords-osm"] }
+        {
+          "id": "yi-sang-house",
+          "name": "이상의 집",
+          "lat": 37.5786,
+          "lng": 126.9708,
+          "type": "기념관",
+          "source_url": "https://m.tripinfo.co.kr/info.html?content_id=3044977&content_type_id=12",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
       ],
       "works": [
-        { "title": "오감도(烏瞰圖)", "year": 1934, "note": "연작시. 1934년 『조선중앙일보』 연재. 15편(제1~15호)에서 중단.", "quote": "13인의아해가도로로질주하오 (길은막다른골목이적당하오)", "quote_source": "오감도 시제1호", "source_url": "https://ko.wikisource.org/wiki/%EC%98%A4%EA%B0%90%EB%8F%84", "source_grade": "A", "flags": [] },
-        { "title": "거울", "year": 1933, "note": "시. 1933년 『가톨릭청년』 발표.", "quote": "거울속에는소리가없소 저렇게까지조용한세상은참없을것이오", "quote_source": "거울", "source_url": "https://encykorea.aks.ac.kr/Article/E0044568", "source_grade": "A", "flags": [] },
-        { "title": "날개", "year": 1936, "note": "단편소설. 1936년 『조광』 9월호 발표.", "quote": "박제가 되어버린 천재를 아시오?", "quote_source": "날개", "source_url": "https://encykorea.aks.ac.kr/Article/E0044568", "source_grade": "A", "flags": [] }
+        {
+          "title": "오감도(烏瞰圖)",
+          "year": 1934,
+          "note": "연작시. 1934년 『조선중앙일보』 연재. 15편(제1~15호)에서 중단.",
+          "quote": "13인의아해가도로로질주하오 (길은막다른골목이적당하오)",
+          "quote_source": "오감도 시제1호",
+          "source_url": "https://ko.wikisource.org/wiki/%EC%98%A4%EA%B0%90%EB%8F%84",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "거울",
+          "year": 1933,
+          "note": "시. 1933년 『가톨릭청년』 발표.",
+          "quote": "거울속에는소리가없소 저렇게까지조용한세상은참없을것이오",
+          "quote_source": "거울",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "날개",
+          "year": 1936,
+          "note": "단편소설. 1936년 『조광』 9월호 발표.",
+          "quote": "박제가 되어버린 천재를 아시오?",
+          "quote_source": "날개",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
-      "source_grade": "A", "verified": true, "flags": ["birthplace-disputed", "coords-unverified"]
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "birthplace-disputed",
+        "coords-unverified"
+      ]
     },
     {
       "id": "sejong-the-great",
-      "name_ko": "세종대왕", "name_en": "Sejong the Great",
+      "name_ko": "세종대왕",
+      "name_en": "Sejong the Great",
       "field": "조선 제4대 국왕",
-      "birth_year": 1397, "death_year": 1450,
+      "birth_year": 1397,
+      "death_year": 1450,
       "birthplace": {
-        "lat": null, "lng": null,
+        "lat": null,
+        "lng": null,
         "admin": "한성부 준수방(현 서울 종로구 통인동·옥인동 일대)",
-        "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30", "source_grade": "A",
-        "flags": ["coords-unverified"]
+        "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
       },
       "timeline": [
-        { "year": 1397, "event": "한성부 준수방 태종 사저에서 셋째 아들로 출생(음력 4월 10일). 이름 이도(李祹)", "place_id": null, "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30", "source_grade": "A", "flags": [] },
-        { "year": 1418, "event": "세자 책봉 후 태종의 양위를 받아 경복궁 근정전에서 즉위", "place_id": "gyeongbokgung", "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30", "source_grade": "A", "flags": [] },
-        { "year": 1420, "event": "집현전(集賢殿) 설치", "place_id": "gyeongbokgung", "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30", "source_grade": "A", "flags": [] },
-        { "year": 1434, "event": "자격루(물시계) 설치, 금속활자 갑인자 주조", "place_id": "gyeongbokgung", "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30", "source_grade": "A", "flags": [] },
-        { "year": 1441, "event": "측우기·수표 제작", "place_id": null, "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30", "source_grade": "A", "flags": [] },
-        { "year": 1443, "event": "훈민정음 28자 창제(음력 12월)", "place_id": "gyeongbokgung", "source_url": "https://ko.wikipedia.org/wiki/%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8C", "source_grade": "B", "flags": [] },
-        { "year": 1446, "event": "훈민정음 반포(음력 9월). 해례본 간행", "place_id": "gyeongbokgung", "source_url": "https://contents.history.go.kr/mobile/km/view.do?levelId=km_037_0070_0020_0010", "source_grade": "A", "flags": [] },
-        { "year": 1450, "event": "한성부에서 재위 31년 만에 승하(음력 2월 17일). 묘호 세종", "place_id": null, "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30", "source_grade": "A", "flags": [] },
-        { "year": 1469, "event": "능을 경기 여주로 천장(遷葬). 능호 영릉(英陵)", "place_id": "yeongneung-sejong", "source_url": "https://encykorea.aks.ac.kr/Article/E0037362", "source_grade": "A", "flags": [] }
+        {
+          "year": 1397,
+          "event": "한성부 준수방 태종 사저에서 셋째 아들로 출생(음력 4월 10일). 이름 이도(李祹)",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1418,
+          "event": "세자 책봉 후 태종의 양위를 받아 경복궁 근정전에서 즉위",
+          "place_id": "gyeongbokgung",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1420,
+          "event": "집현전(集賢殿) 설치",
+          "place_id": "gyeongbokgung",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1434,
+          "event": "자격루(물시계) 설치, 금속활자 갑인자 주조",
+          "place_id": "gyeongbokgung",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1441,
+          "event": "측우기·수표 제작",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1443,
+          "event": "훈민정음 28자 창제(음력 12월)",
+          "place_id": "gyeongbokgung",
+          "source_url": "https://ko.wikipedia.org/wiki/%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8C",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1446,
+          "event": "훈민정음 반포(음력 9월). 해례본 간행",
+          "place_id": "gyeongbokgung",
+          "source_url": "https://contents.history.go.kr/mobile/km/view.do?levelId=km_037_0070_0020_0010",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1450,
+          "event": "한성부에서 재위 31년 만에 승하(음력 2월 17일). 묘호 세종",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1469,
+          "event": "능을 경기 여주로 천장(遷葬). 능호 영릉(英陵)",
+          "place_id": "yeongneung-sejong",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0037362",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
       "places": [
-        { "id": "gyeongbokgung", "name": "경복궁(景福宮)", "lat": 37.5798, "lng": 126.9767, "type": "궁궐", "source_url": "https://royal.khs.go.kr/ROYAL/contents/menuInfo-gbg.do?grpCode=rtm", "source_grade": "A", "flags": ["coords-osm"] },
-        { "id": "yeongneung-sejong", "name": "여주 영릉(英陵, 세종대왕릉)", "lat": null, "lng": null, "type": "능", "source_url": "https://encykorea.aks.ac.kr/Article/E0037362", "source_grade": "A", "flags": ["coords-unverified"] }
+        {
+          "id": "gyeongbokgung",
+          "name": "경복궁(景福宮)",
+          "lat": 37.5798,
+          "lng": 126.9767,
+          "type": "궁궐",
+          "source_url": "https://royal.khs.go.kr/ROYAL/contents/menuInfo-gbg.do?grpCode=rtm",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        },
+        {
+          "id": "yeongneung-sejong",
+          "name": "여주 영릉(英陵, 세종대왕릉)",
+          "lat": null,
+          "lng": null,
+          "type": "능",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0037362",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        }
       ],
       "works": [
-        { "title": "훈민정음(訓民正音)", "year": 1446, "note": "28자의 새 문자 체계. 1443년 창제, 1446년 반포. 해례본 간행.", "quote": "나랏말ᄊᆞ미 듕귁에 달아 문ᄍᆞ와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ", "quote_source": "세종어제훈민정음 언해본 서문 (『월인석보』 1459 권두 합본)", "source_url": "https://ko.wikisource.org/wiki/%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8C%EC%96%B8%ED%95%B4", "source_grade": "B", "flags": [] },
-        { "title": "갑인자(甲寅字)", "year": 1434, "note": "구리로 주조한 금속활자. 1434년(세종 16) 주조.", "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30", "source_grade": "A", "flags": [] },
-        { "title": "측우기(測雨器)", "year": 1441, "note": "강우량 측정 기구. 1441년(세종 23) 제작.", "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30", "source_grade": "A", "flags": [] }
+        {
+          "title": "훈민정음(訓民正音)",
+          "year": 1446,
+          "note": "28자의 새 문자 체계. 1443년 창제, 1446년 반포. 해례본 간행.",
+          "quote": "나랏말ᄊᆞ미 듕귁에 달아 문ᄍᆞ와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+          "quote_source": "세종어제훈민정음 언해본 서문 (『월인석보』 1459 권두 합본)",
+          "source_url": "https://ko.wikisource.org/wiki/%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8C%EC%96%B8%ED%95%B4",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "갑인자(甲寅字)",
+          "year": 1434,
+          "note": "구리로 주조한 금속활자. 1434년(세종 16) 주조.",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "측우기(測雨器)",
+          "year": 1441,
+          "note": "강우량 측정 기구. 1441년(세종 23) 제작.",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
-      "source_grade": "A", "verified": true, "flags": ["coords-unverified"]
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "coords-unverified"
+      ]
     },
     {
       "id": "yi-sun-sin",
-      "name_ko": "이순신", "name_en": "Yi Sun-sin",
+      "name_ko": "이순신",
+      "name_en": "Yi Sun-sin",
       "field": "조선 무신(수군 장수)",
-      "birth_year": 1545, "death_year": 1598,
+      "birth_year": 1545,
+      "death_year": 1598,
       "birthplace": {
-        "lat": null, "lng": null,
+        "lat": null,
+        "lng": null,
         "admin": "한성부 건천동(현 서울 중구 인현동 부근)",
-        "source_url": "https://encykorea.aks.ac.kr/Article/E0044900", "source_grade": "A",
-        "flags": ["coords-unverified", "birthplace-disputed"]
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified",
+          "birthplace-disputed"
+        ]
       },
       "timeline": [
-        { "year": 1545, "event": "한성부 건천동(현 서울 중구 인현동 부근)에서 출생(음력 3월 8일). 본관 덕수, 자 여해(汝諧)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0044900", "source_grade": "A", "flags": ["birthplace-disputed"] },
-        { "year": 1576, "event": "식년 무과 급제, 관직에 나아감", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0044900", "source_grade": "A", "flags": [] },
-        { "year": 1591, "event": "전라좌도 수군절도사(전라좌수사) 임명", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0044900", "source_grade": "A", "flags": [] },
-        { "year": 1592, "event": "임진왜란 발발. 옥포해전 등에서 일본 수군과 교전", "place_id": null, "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309000&code=kc_age_30", "source_grade": "A", "flags": [] },
-        { "year": 1592, "event": "한산도 앞바다 해전(음력 7월, 한산도대첩)", "place_id": "hansando-yusok", "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0061676", "source_grade": "A", "flags": [] },
-        { "year": 1593, "event": "삼도수군통제사 임명, 한산도에 통제영을 둠", "place_id": "hansando-yusok", "source_url": "https://encykorea.aks.ac.kr/Article/E0044900", "source_grade": "A", "flags": [] },
-        { "year": 1597, "event": "파직되어 한성으로 압송된 뒤 백의종군", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0044900", "source_grade": "A", "flags": [] },
-        { "year": 1597, "event": "명량(울돌목, 진도-해남 사이) 해전(음력 9월 16일)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0018250", "source_grade": "A", "flags": [] },
-        { "year": 1598, "event": "노량(경남 남해) 해전 중 전사(음력 11월 19일). 향년 54세", "place_id": null, "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309000&code=kc_age_30", "source_grade": "A", "flags": [] },
-        { "year": 1614, "event": "묘를 현재 위치인 아산 음봉면 어라산으로 이장", "place_id": "yi-tomb-asan", "source_url": "https://encykorea.aks.ac.kr/Article/E0046283", "source_grade": "A", "flags": [] }
+        {
+          "year": 1545,
+          "event": "한성부 건천동(현 서울 중구 인현동 부근)에서 출생(음력 3월 8일). 본관 덕수, 자 여해(汝諧)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
+          "source_grade": "A",
+          "flags": [
+            "birthplace-disputed"
+          ]
+        },
+        {
+          "year": 1576,
+          "event": "식년 무과 급제, 관직에 나아감",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1591,
+          "event": "전라좌도 수군절도사(전라좌수사) 임명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1592,
+          "event": "임진왜란 발발. 옥포해전 등에서 일본 수군과 교전",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309000&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1592,
+          "event": "한산도 앞바다 해전(음력 7월, 한산도대첩)",
+          "place_id": "hansando-yusok",
+          "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0061676",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1593,
+          "event": "삼도수군통제사 임명, 한산도에 통제영을 둠",
+          "place_id": "hansando-yusok",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1597,
+          "event": "파직되어 한성으로 압송된 뒤 백의종군",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1597,
+          "event": "명량(울돌목, 진도-해남 사이) 해전(음력 9월 16일)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0018250",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1598,
+          "event": "노량(경남 남해) 해전 중 전사(음력 11월 19일). 향년 54세",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309000&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1614,
+          "event": "묘를 현재 위치인 아산 음봉면 어라산으로 이장",
+          "place_id": "yi-tomb-asan",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046283",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
       "places": [
-        { "id": "hyeonchungsa", "name": "아산 현충사(顯忠祠)", "lat": 36.8072, "lng": 127.0328, "type": "사당", "source_url": "https://hcs.khs.go.kr/html/HtmlPage.do?pg=/n_hcs/hcs/hcs0101.jsp&mn=HCS_01_01_01", "source_grade": "A", "flags": ["coords-osm"] },
-        { "id": "hansando-yusok", "name": "통영 한산도 이충무공 유적(제승당)", "lat": 34.7943, "lng": 128.4719, "type": "유적", "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333801130000", "source_grade": "A", "flags": ["coords-osm"] },
-        { "id": "yi-tomb-asan", "name": "아산 이충무공 묘", "lat": null, "lng": null, "type": "묘", "source_url": "https://encykorea.aks.ac.kr/Article/E0046283", "source_grade": "A", "flags": ["coords-unverified"] }
+        {
+          "id": "hyeonchungsa",
+          "name": "아산 현충사(顯忠祠)",
+          "lat": 36.8072,
+          "lng": 127.0328,
+          "type": "사당",
+          "source_url": "https://hcs.khs.go.kr/html/HtmlPage.do?pg=/n_hcs/hcs/hcs0101.jsp&mn=HCS_01_01_01",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        },
+        {
+          "id": "hansando-yusok",
+          "name": "통영 한산도 이충무공 유적(제승당)",
+          "lat": 34.7943,
+          "lng": 128.4719,
+          "type": "유적",
+          "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333801130000",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        },
+        {
+          "id": "yi-tomb-asan",
+          "name": "아산 이충무공 묘",
+          "lat": null,
+          "lng": null,
+          "type": "묘",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046283",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        }
       ],
       "works": [
-        { "title": "난중일기(亂中日記)", "year": 1592, "note": "임진왜란 7년간(1592~1598) 친필 일기. 국보, 현충사 소장. 2013년 유네스코 세계기록유산 등재.", "quote": "", "quote_source": "이순신 난중일기 및 서간첩 임진장초(국보), 현충사 소장", "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1113400760000", "source_grade": "A", "flags": [] },
-        { "title": "한산도가(閑山島歌)", "year": 1595, "note": "한산도 통제영 시기 지은 시조로 전함.", "quote": "한산섬 달 밝은 밤에 수루에 혼자 앉아 / 큰 칼 옆에 차고 깊은 시름 하는 차에 / 어디서 일성호가는 남의 애를 끊나니", "quote_source": "한산도가(이순신 시조)", "source_url": "https://namu.wiki/w/%ED%95%9C%EC%82%B0%EB%8F%84%EA%B0%80", "source_grade": "C", "flags": ["wiki-only"] }
+        {
+          "title": "난중일기(亂中日記)",
+          "year": 1592,
+          "note": "임진왜란 7년간(1592~1598) 친필 일기. 국보, 현충사 소장. 2013년 유네스코 세계기록유산 등재.",
+          "quote": "",
+          "quote_source": "이순신 난중일기 및 서간첩 임진장초(국보), 현충사 소장",
+          "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1113400760000",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "한산도가(閑山島歌)",
+          "year": 1595,
+          "note": "한산도 통제영 시기 지은 시조로 전함.",
+          "quote": "한산섬 달 밝은 밤에 수루에 혼자 앉아 / 큰 칼 옆에 차고 깊은 시름 하는 차에 / 어디서 일성호가는 남의 애를 끊나니",
+          "quote_source": "한산도가(이순신 시조)",
+          "source_url": "https://namu.wiki/w/%ED%95%9C%EC%82%B0%EB%8F%84%EA%B0%80",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
       ],
-      "source_grade": "A", "verified": true, "flags": ["coords-unverified", "birthplace-disputed"]
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "coords-unverified",
+        "birthplace-disputed"
+      ]
     },
     {
       "id": "han-yongun",
-      "name_ko": "한용운", "name_en": "Han Yong-un",
+      "name_ko": "한용운",
+      "name_en": "Han Yong-un",
       "field": "시인·승려·독립운동가",
-      "birth_year": 1879, "death_year": 1944,
-      "birthplace": { "lat": null, "lng": null, "admin": "충남 홍성군 결성면 성곡리 (생가지: 만해로318번길 83)", "source_url": "https://encykorea.aks.ac.kr/Article/E0061853", "source_grade": "A", "flags": ["coords-unverified"] },
+      "birth_year": 1879,
+      "death_year": 1944,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "충남 홍성군 결성면 성곡리 (생가지: 만해로318번길 83)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
+      },
       "timeline": [
-        { "year": 1879, "event": "충남 홍성에서 출생(8월 29일). 본명 정옥, 본관 청주", "place_id": "han-yongun-birthplace", "source_url": "https://encykorea.aks.ac.kr/Article/E0061853", "source_grade": "A", "flags": [] },
-        { "year": 1905, "event": "설악산 백담사에서 득도, 법명 용운(龍雲)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0061853", "source_grade": "A", "flags": [] },
-        { "year": 1910, "event": "『조선불교유신론』 저술", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0061853", "source_grade": "A", "flags": [] },
-        { "year": 1919, "event": "3·1운동 민족대표 33인(불교계 대표)으로 참여, 독립선언서 서명", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0061853", "source_grade": "A", "flags": [] },
-        { "year": 1925, "event": "시 「님의 침묵」 탈고(8월 29일)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0013398", "source_grade": "A", "flags": [] },
-        { "year": 1926, "event": "시집 『님의 침묵』 발간(회동서관)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0061853", "source_grade": "A", "flags": [] },
-        { "year": 1927, "event": "신간회 결성 참여, 중앙집행위원 겸 경성지회장", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0061853", "source_grade": "A", "flags": [] },
-        { "year": 1944, "event": "서울 성북동 심우장에서 사망(6월 29일)", "place_id": "simujang", "source_url": "https://encykorea.aks.ac.kr/Article/E0061853", "source_grade": "A", "flags": [] }
+        {
+          "year": 1879,
+          "event": "충남 홍성에서 출생(8월 29일). 본명 정옥, 본관 청주",
+          "place_id": "han-yongun-birthplace",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1905,
+          "event": "설악산 백담사에서 득도, 법명 용운(龍雲)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1910,
+          "event": "『조선불교유신론』 저술",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1919,
+          "event": "3·1운동 민족대표 33인(불교계 대표)으로 참여, 독립선언서 서명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1925,
+          "event": "시 「님의 침묵」 탈고(8월 29일)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0013398",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1926,
+          "event": "시집 『님의 침묵』 발간(회동서관)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1927,
+          "event": "신간회 결성 참여, 중앙집행위원 겸 경성지회장",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1944,
+          "event": "서울 성북동 심우장에서 사망(6월 29일)",
+          "place_id": "simujang",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
       "places": [
-        { "id": "han-yongun-birthplace", "name": "한용운 선생 생가지", "lat": null, "lng": null, "type": "생가", "source_url": "https://encykorea.aks.ac.kr/Article/E0061854", "source_grade": "A", "flags": ["coords-unverified"] },
-        { "id": "simujang", "name": "만해 한용운 심우장(尋牛莊)", "lat": null, "lng": null, "type": "사적·고택", "source_url": "https://encykorea.aks.ac.kr/Article/E0017767", "source_grade": "A", "flags": ["coords-unverified"] }
+        {
+          "id": "han-yongun-birthplace",
+          "name": "한용운 선생 생가지",
+          "lat": null,
+          "lng": null,
+          "type": "생가",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061854",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        },
+        {
+          "id": "simujang",
+          "name": "만해 한용운 심우장(尋牛莊)",
+          "lat": null,
+          "lng": null,
+          "type": "사적·고택",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0017767",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        }
       ],
       "works": [
-        { "title": "님의 침묵", "year": 1926, "note": "표제시 포함 시집. 표제시 1925년 탈고, 1926년 회동서관 발간.", "quote": "님은 갔습니다. 아아, 사랑하는 나의 님은 갔습니다.", "quote_source": "「님의 침묵」 첫 행", "source_url": "https://ko.wikisource.org/wiki/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5", "source_grade": "A", "flags": [] },
-        { "title": "조선불교유신론", "year": 1910, "note": "불교 개혁론. 1910년 저술, 1913년 간행.", "source_url": "https://encykorea.aks.ac.kr/Article/E0061853", "source_grade": "A", "flags": [] }
+        {
+          "title": "님의 침묵",
+          "year": 1926,
+          "note": "표제시 포함 시집. 표제시 1925년 탈고, 1926년 회동서관 발간.",
+          "quote": "님은 갔습니다. 아아, 사랑하는 나의 님은 갔습니다.",
+          "quote_source": "「님의 침묵」 첫 행",
+          "source_url": "https://ko.wikisource.org/wiki/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "조선불교유신론",
+          "year": 1910,
+          "note": "불교 개혁론. 1910년 저술, 1913년 간행.",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
-      "source_grade": "A", "verified": true, "flags": ["coords-unverified"]
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "coords-unverified"
+      ]
     },
     {
       "id": "sin-chaeho",
-      "name_ko": "신채호", "name_en": "Sin Chae-ho",
+      "name_ko": "신채호",
+      "name_en": "Sin Chae-ho",
       "field": "사학자·언론인·독립운동가",
-      "birth_year": 1880, "death_year": 1936,
-      "birthplace": { "lat": null, "lng": null, "admin": "충남 대덕 산내 출생 / 충북 청주 낭성면 귀래리 성장 (이설). 생가지: 대전 중구 단재로229번길 47", "source_url": "https://encykorea.aks.ac.kr/Article/E0033432", "source_grade": "A", "flags": ["coords-unverified", "birthplace-disputed"] },
+      "birth_year": 1880,
+      "death_year": 1936,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "충남 대덕 산내 출생 / 충북 청주 낭성면 귀래리 성장 (이설). 생가지: 대전 중구 단재로229번길 47",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified",
+          "birthplace-disputed"
+        ]
+      },
       "timeline": [
-        { "year": 1880, "event": "충남 대덕 산내에서 출생, 충북 청주에서 성장. 호 단재(丹齋), 본관 고령", "place_id": "sin-chaeho-birthplace", "source_url": "https://encykorea.aks.ac.kr/Article/E0033432", "source_grade": "A", "flags": ["birthplace-disputed"] },
-        { "year": 1906, "event": "『대한매일신보』 주필 임명", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0033432", "source_grade": "A", "flags": [] },
-        { "year": 1908, "event": "『독사신론』 발표(대한매일신보 연재)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0033432", "source_grade": "A", "flags": [] },
-        { "year": 1910, "event": "중국으로 망명", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0033432", "source_grade": "A", "flags": ["overseas"] },
-        { "year": 1923, "event": "의열단 「조선혁명선언」 작성·발표", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0033432", "source_grade": "A", "flags": ["overseas"] },
-        { "year": 1928, "event": "대만 기륭에서 일본 경찰에 체포", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0033432", "source_grade": "A", "flags": ["overseas"] },
-        { "year": 1931, "event": "『조선상고사』가 『조선일보』 학예란에 연재됨", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0052083", "source_grade": "A", "flags": [] },
-        { "year": 1936, "event": "여순감옥에서 사망(뇌일혈, 향년 57세)", "place_id": "sin-chaeho-shrine-grave", "source_url": "https://encykorea.aks.ac.kr/Article/E0033432", "source_grade": "A", "flags": ["overseas"] }
+        {
+          "year": 1880,
+          "event": "충남 대덕 산내에서 출생, 충북 청주에서 성장. 호 단재(丹齋), 본관 고령",
+          "place_id": "sin-chaeho-birthplace",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": [
+            "birthplace-disputed"
+          ]
+        },
+        {
+          "year": 1906,
+          "event": "『대한매일신보』 주필 임명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1908,
+          "event": "『독사신론』 발표(대한매일신보 연재)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1910,
+          "event": "중국으로 망명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1923,
+          "event": "의열단 「조선혁명선언」 작성·발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1928,
+          "event": "대만 기륭에서 일본 경찰에 체포",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1931,
+          "event": "『조선상고사』가 『조선일보』 학예란에 연재됨",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0052083",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1936,
+          "event": "여순감옥에서 사망(뇌일혈, 향년 57세)",
+          "place_id": "sin-chaeho-shrine-grave",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        }
       ],
       "places": [
-        { "id": "sin-chaeho-birthplace", "name": "단재 신채호 선생 생가지 (대전 어남동)", "lat": null, "lng": null, "type": "생가", "source_url": "https://encykorea.aks.ac.kr/Article/E0013654", "source_grade": "A", "flags": ["coords-unverified"] },
-        { "id": "sin-chaeho-shrine-grave", "name": "청주 신채호 사당 및 묘소", "lat": null, "lng": null, "type": "사당·묘소", "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0013653", "source_grade": "A", "flags": ["coords-unverified"] }
+        {
+          "id": "sin-chaeho-birthplace",
+          "name": "단재 신채호 선생 생가지 (대전 어남동)",
+          "lat": null,
+          "lng": null,
+          "type": "생가",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0013654",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        },
+        {
+          "id": "sin-chaeho-shrine-grave",
+          "name": "청주 신채호 사당 및 묘소",
+          "lat": null,
+          "lng": null,
+          "type": "사당·묘소",
+          "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0013653",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        }
       ],
       "works": [
-        { "title": "조선상고사", "year": 1931, "note": "고대사 서술. 1931년 『조선일보』 연재, 1948년 단행본. 제1편 총론에 역사 이론.", "quote": "역사란 무엇이뇨? 인류 사회의 '아(我)'와 '비아(非我)'의 투쟁이 시간으로 발전하며 공간으로 확대하는 심적 활동 상태의 기록이니라.", "quote_source": "『조선상고사』 제1편 총론", "source_url": "https://ko.wikisource.org/wiki/%EC%A1%B0%EC%84%A0%EC%83%81%EA%B3%A0%EC%82%AC/%EC%A0%9C1%ED%8E%B8", "source_grade": "A", "flags": [] },
-        { "title": "조선혁명선언", "year": 1923, "note": "의열단 선언문. 1923년 발표.", "source_url": "https://encykorea.aks.ac.kr/Article/E0033432", "source_grade": "A", "flags": [] }
+        {
+          "title": "조선상고사",
+          "year": 1931,
+          "note": "고대사 서술. 1931년 『조선일보』 연재, 1948년 단행본. 제1편 총론에 역사 이론.",
+          "quote": "역사란 무엇이뇨? 인류 사회의 '아(我)'와 '비아(非我)'의 투쟁이 시간으로 발전하며 공간으로 확대하는 심적 활동 상태의 기록이니라.",
+          "quote_source": "『조선상고사』 제1편 총론",
+          "source_url": "https://ko.wikisource.org/wiki/%EC%A1%B0%EC%84%A0%EC%83%81%EA%B3%A0%EC%82%AC/%EC%A0%9C1%ED%8E%B8",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "조선혁명선언",
+          "year": 1923,
+          "note": "의열단 선언문. 1923년 발표.",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
-      "source_grade": "A", "verified": true, "flags": ["birthplace-disputed", "coords-unverified"]
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "birthplace-disputed",
+        "coords-unverified"
+      ]
     },
     {
       "id": "jeong-jiyong",
-      "name_ko": "정지용", "name_en": "Jeong Ji-yong",
+      "name_ko": "정지용",
+      "name_en": "Jeong Ji-yong",
       "field": "시인",
-      "birth_year": 1902, "death_year": 1950,
-      "birthplace": { "lat": null, "lng": null, "admin": "충북 옥천군 옥천읍 하계리 40번지 (생가·문학관: 향수길 56)", "source_url": "https://encykorea.aks.ac.kr/Article/E0050954", "source_grade": "A", "flags": ["coords-unverified"] },
+      "birth_year": 1902,
+      "death_year": 1950,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "충북 옥천군 옥천읍 하계리 40번지 (생가·문학관: 향수길 56)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
+      },
       "timeline": [
-        { "year": 1902, "event": "충북 옥천에서 출생(6월 20일). 본관 연일", "place_id": "jeong-jiyong-birthplace", "source_url": "https://encykorea.aks.ac.kr/Article/E0050954", "source_grade": "A", "flags": ["birthdate-variant"] },
-        { "year": 1923, "event": "시 「향수」 창작. 같은 해 일본 도시샤대학 영문과 입학", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0062938", "source_grade": "A", "flags": ["overseas"] },
-        { "year": 1927, "event": "「향수」를 『조선지광』 65호에 발표(3월)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0062938", "source_grade": "A", "flags": [] },
-        { "year": 1930, "event": "『시문학』 동인으로 참여", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0050954", "source_grade": "A", "flags": [] },
-        { "year": 1935, "event": "첫 시집 『정지용시집』 발간(시문학사)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0050955", "source_grade": "A", "flags": [] },
-        { "year": 1941, "event": "두 번째 시집 『백록담』 발간", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0050954", "source_grade": "A", "flags": [] },
-        { "year": 1945, "event": "이화여자전문학교 교수 부임", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0050954", "source_grade": "A", "flags": [] },
-        { "year": 1950, "event": "한국전쟁 중 사망한 것으로 알려짐(사망 정황에 이설)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0050954", "source_grade": "A", "flags": ["death-disputed"] }
+        {
+          "year": 1902,
+          "event": "충북 옥천에서 출생(6월 20일). 본관 연일",
+          "place_id": "jeong-jiyong-birthplace",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": [
+            "birthdate-variant"
+          ]
+        },
+        {
+          "year": 1923,
+          "event": "시 「향수」 창작. 같은 해 일본 도시샤대학 영문과 입학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0062938",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1927,
+          "event": "「향수」를 『조선지광』 65호에 발표(3월)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0062938",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1930,
+          "event": "『시문학』 동인으로 참여",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1935,
+          "event": "첫 시집 『정지용시집』 발간(시문학사)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050955",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1941,
+          "event": "두 번째 시집 『백록담』 발간",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1945,
+          "event": "이화여자전문학교 교수 부임",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1950,
+          "event": "한국전쟁 중 사망한 것으로 알려짐(사망 정황에 이설)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": [
+            "death-disputed"
+          ]
+        }
       ],
       "places": [
-        { "id": "jeong-jiyong-birthplace", "name": "정지용 생가", "lat": null, "lng": null, "type": "생가", "source_url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=f5a00c8f-87bf-4892-9f4f-10e073532464", "source_grade": "A", "flags": ["coords-unverified"] },
-        { "id": "jeong-jiyong-literature-museum", "name": "정지용 문학관", "lat": null, "lng": null, "type": "문학관", "source_url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=f5a00c8f-87bf-4892-9f4f-10e073532464", "source_grade": "A", "flags": ["coords-unverified"] }
+        {
+          "id": "jeong-jiyong-birthplace",
+          "name": "정지용 생가",
+          "lat": null,
+          "lng": null,
+          "type": "생가",
+          "source_url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=f5a00c8f-87bf-4892-9f4f-10e073532464",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        },
+        {
+          "id": "jeong-jiyong-literature-museum",
+          "name": "정지용 문학관",
+          "lat": null,
+          "lng": null,
+          "type": "문학관",
+          "source_url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=f5a00c8f-87bf-4892-9f4f-10e073532464",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        }
       ],
       "works": [
-        { "title": "향수(鄕愁)", "year": 1927, "note": "10연 26행 자유시. 1923년 창작, 1927년 『조선지광』 발표, 1935년 시집 수록.", "quote": "그곳이 차마 꿈엔들 잊힐 리야", "quote_source": "「향수」 후렴구", "source_url": "https://encykorea.aks.ac.kr/Article/E0062938", "source_grade": "A", "flags": [] },
-        { "title": "정지용시집", "year": 1935, "note": "첫 시집. 시문학사, 87편 수록(향수·유리창·바다 등).", "source_url": "https://encykorea.aks.ac.kr/Article/E0050955", "source_grade": "A", "flags": [] }
+        {
+          "title": "향수(鄕愁)",
+          "year": 1927,
+          "note": "10연 26행 자유시. 1923년 창작, 1927년 『조선지광』 발표, 1935년 시집 수록.",
+          "quote": "그곳이 차마 꿈엔들 잊힐 리야",
+          "quote_source": "「향수」 후렴구",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0062938",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "정지용시집",
+          "year": 1935,
+          "note": "첫 시집. 시문학사, 87편 수록(향수·유리창·바다 등).",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050955",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
-      "source_grade": "A", "verified": true, "flags": ["birthdate-variant", "death-disputed", "coords-unverified"]
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "birthdate-variant",
+        "death-disputed",
+        "coords-unverified"
+      ]
     },
     {
       "id": "kim-yujeong",
-      "name_ko": "김유정", "name_en": "Kim Yu-jeong",
+      "name_ko": "김유정",
+      "name_en": "Kim Yu-jeong",
       "field": "소설가",
-      "birth_year": 1908, "death_year": 1937,
-      "birthplace": { "lat": null, "lng": null, "admin": "강원 춘천 실레마을(현 신동면 증리). 김유정문학촌: 김유정로 1430-14", "source_url": "https://encykorea.aks.ac.kr/Article/E0010093", "source_grade": "A", "flags": ["coords-unverified"] },
+      "birth_year": 1908,
+      "death_year": 1937,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "강원 춘천 실레마을(현 신동면 증리). 김유정문학촌: 김유정로 1430-14",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
+      },
       "timeline": [
-        { "year": 1908, "event": "강원 춘천 실레마을에서 출생", "place_id": "kim-yujeong-literature-village", "source_url": "https://encykorea.aks.ac.kr/Article/E0010093", "source_grade": "A", "flags": ["birthdate-variant"] },
-        { "year": 1929, "event": "휘문고등보통학교 졸업", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0010093", "source_grade": "A", "flags": [] },
-        { "year": 1932, "event": "고향 실레마을에 금병의숙(錦屛義塾) 설립", "place_id": "kim-yujeong-literature-village", "source_url": "https://encykorea.aks.ac.kr/Article/E0010093", "source_grade": "A", "flags": [] },
-        { "year": 1935, "event": "「소낙비」(조선일보)·「노다지」(중앙일보) 신춘문예 당선 등단", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0010093", "source_grade": "A", "flags": [] },
-        { "year": 1935, "event": "단편 「봄봄」을 『조광』에 발표", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0023781", "source_grade": "A", "flags": [] },
-        { "year": 1936, "event": "단편 「동백꽃」 발표", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0010093", "source_grade": "A", "flags": [] },
-        { "year": 1937, "event": "사망(30세, 폐결핵)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0010093", "source_grade": "A", "flags": ["deathplace-variant"] }
+        {
+          "year": 1908,
+          "event": "강원 춘천 실레마을에서 출생",
+          "place_id": "kim-yujeong-literature-village",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": [
+            "birthdate-variant"
+          ]
+        },
+        {
+          "year": 1929,
+          "event": "휘문고등보통학교 졸업",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1932,
+          "event": "고향 실레마을에 금병의숙(錦屛義塾) 설립",
+          "place_id": "kim-yujeong-literature-village",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1935,
+          "event": "「소낙비」(조선일보)·「노다지」(중앙일보) 신춘문예 당선 등단",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1935,
+          "event": "단편 「봄봄」을 『조광』에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0023781",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1936,
+          "event": "단편 「동백꽃」 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1937,
+          "event": "사망(30세, 폐결핵)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": [
+            "deathplace-variant"
+          ]
+        }
       ],
       "places": [
-        { "id": "kim-yujeong-literature-village", "name": "김유정문학촌(복원 생가·기념전시관)", "lat": 37.8194, "lng": 127.7168, "type": "문학촌·생가", "source_url": "https://encykorea.aks.ac.kr/Article/E0070553", "source_grade": "A", "flags": ["coords-osm"] },
-        { "id": "kim-yujeong-station", "name": "김유정역(옛 신남역)", "lat": 37.8181, "lng": 127.7145, "type": "기념지(철도역)", "source_url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%9C%A0%EC%A0%95%EC%97%AD", "source_grade": "C", "flags": ["coords-osm", "wiki-only"] }
+        {
+          "id": "kim-yujeong-literature-village",
+          "name": "김유정문학촌(복원 생가·기념전시관)",
+          "lat": 37.8194,
+          "lng": 127.7168,
+          "type": "문학촌·생가",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0070553",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        },
+        {
+          "id": "kim-yujeong-station",
+          "name": "김유정역(옛 신남역)",
+          "lat": 37.8181,
+          "lng": 127.7145,
+          "type": "기념지(철도역)",
+          "source_url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%9C%A0%EC%A0%95%EC%97%AD",
+          "source_grade": "C",
+          "flags": [
+            "coords-osm",
+            "wiki-only"
+          ]
+        }
       ],
       "works": [
-        { "title": "동백꽃", "year": 1936, "note": "강원 농촌을 배경으로 한 단편. 1936년 발표.", "quote": "오늘도 또 우리 수탉이 막 쫓기었다.", "quote_source": "「동백꽃」 첫 문장", "source_url": "https://ko.wikisource.org/wiki/%EB%8F%99%EB%B0%B1%EA%BD%83", "source_grade": "A", "flags": ["quote-source-wiki"] },
-        { "title": "봄봄", "year": 1935, "note": "데릴사위 '나'와 장인 봉필을 다룬 단편. 1935년 『조광』 발표.", "source_url": "https://encykorea.aks.ac.kr/Article/E0023781", "source_grade": "A", "flags": [] }
+        {
+          "title": "동백꽃",
+          "year": 1936,
+          "note": "강원 농촌을 배경으로 한 단편. 1936년 발표.",
+          "quote": "오늘도 또 우리 수탉이 막 쫓기었다.",
+          "quote_source": "「동백꽃」 첫 문장",
+          "source_url": "https://ko.wikisource.org/wiki/%EB%8F%99%EB%B0%B1%EA%BD%83",
+          "source_grade": "A",
+          "flags": [
+            "quote-source-wiki"
+          ]
+        },
+        {
+          "title": "봄봄",
+          "year": 1935,
+          "note": "데릴사위 '나'와 장인 봉필을 다룬 단편. 1935년 『조광』 발표.",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0023781",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
-      "source_grade": "A", "verified": true, "flags": ["birthdate-variant", "deathplace-variant", "coords-unverified"]
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "birthdate-variant",
+        "deathplace-variant",
+        "coords-unverified"
+      ]
     },
     {
       "id": "lee-yuksa",
-      "name_ko": "이육사", "name_en": "Lee Yuk-sa",
+      "name_ko": "이육사",
+      "name_en": "Lee Yuk-sa",
       "field": "시인·독립운동가",
-      "birth_year": 1904, "death_year": 1944,
-      "birthplace": { "lat": null, "lng": null, "admin": "경북 안동시 도산면 원촌리(원천리) 881번지", "source_url": "https://encykorea.aks.ac.kr/Article/E0045444", "source_grade": "A", "flags": ["coords-unverified", "admin-name-variant"] },
+      "birth_year": 1904,
+      "death_year": 1944,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경북 안동시 도산면 원촌리(원천리) 881번지",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified",
+          "admin-name-variant"
+        ]
+      },
       "timeline": [
-        { "year": 1904, "event": "경북 안동 도산면 원촌리에서 출생. 본명 이원록", "place_id": "lee-yuksa-birth-house", "source_url": "https://encykorea.aks.ac.kr/Article/E0045444", "source_grade": "A", "flags": [] },
-        { "year": 1925, "event": "형·아우와 함께 의열단 가입", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0045444", "source_grade": "A", "flags": [] },
-        { "year": 1927, "event": "조선은행 대구지점 폭파사건 연루로 대구형무소 투옥(수감번호 264 → 아호 '육사' 유래)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0045444", "source_grade": "A", "flags": [] },
-        { "year": 1939, "event": "시 「청포도」를 『문장』에 발표", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0045444", "source_grade": "A", "flags": [] },
-        { "year": 1940, "event": "시 「절정」을 『문장』에 발표", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0049814", "source_grade": "A", "flags": [] },
-        { "year": 1943, "event": "가을 서울에서 체포되어 베이징으로 압송", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0045444", "source_grade": "A", "flags": [] },
-        { "year": 1944, "event": "1월 베이징 감옥에서 순국", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0045444", "source_grade": "A", "flags": ["overseas"] },
-        { "year": 1945, "event": "유고시 「광야」가 동생 이원조에 의해 『자유신문』에 발표(12월 17일)", "place_id": null, "source_url": "https://encykorea.aks.ac.kr/Article/E0005168", "source_grade": "A", "flags": [] }
+        {
+          "year": 1904,
+          "event": "경북 안동 도산면 원촌리에서 출생. 본명 이원록",
+          "place_id": "lee-yuksa-birth-house",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1925,
+          "event": "형·아우와 함께 의열단 가입",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1927,
+          "event": "조선은행 대구지점 폭파사건 연루로 대구형무소 투옥(수감번호 264 → 아호 '육사' 유래)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1939,
+          "event": "시 「청포도」를 『문장』에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1940,
+          "event": "시 「절정」을 『문장』에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0049814",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1943,
+          "event": "가을 서울에서 체포되어 베이징으로 압송",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1944,
+          "event": "1월 베이징 감옥에서 순국",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1945,
+          "event": "유고시 「광야」가 동생 이원조에 의해 『자유신문』에 발표(12월 17일)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0005168",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
       "places": [
-        { "id": "lee-yuksa-literature-museum", "name": "이육사문학관", "lat": 36.7390, "lng": 128.8631, "type": "문학관", "source_url": "http://www.tourandong.com/map/resource.cshtml?seq=194", "source_grade": "A", "flags": ["coords-osm"] },
-        { "id": "lee-yuksa-birth-house", "name": "이육사 생가(안동댐 수몰로 이전)", "lat": null, "lng": null, "type": "생가", "source_url": "https://encykorea.aks.ac.kr/Article/E0045445", "source_grade": "A", "flags": ["coords-unverified", "relocated"] }
+        {
+          "id": "lee-yuksa-literature-museum",
+          "name": "이육사문학관",
+          "lat": 36.739,
+          "lng": 128.8631,
+          "type": "문학관",
+          "source_url": "http://www.tourandong.com/map/resource.cshtml?seq=194",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        },
+        {
+          "id": "lee-yuksa-birth-house",
+          "name": "이육사 생가(안동댐 수몰로 이전)",
+          "lat": null,
+          "lng": null,
+          "type": "생가",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045445",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified",
+            "relocated"
+          ]
+        }
       ],
       "works": [
-        { "title": "광야(曠野)", "year": 1945, "note": "유고시. 1945년 『자유신문』 발표, 1946년 『육사시집』 수록.", "quote": "다시 천고(千古)의 뒤에 / 백마 타고 오는 초인이 있어 / 이 광야에서 목놓아 부르게 하리라", "quote_source": "「광야」 마지막 연", "source_url": "https://ko.wikisource.org/wiki/%EA%B4%91%EC%95%BC_(%EC%9D%B4%EC%9C%A1%EC%82%AC)", "source_grade": "A", "flags": ["quote-source-wiki"] },
-        { "title": "절정(絶頂)", "year": 1940, "note": "1940년 『문장』 발표.", "quote": "겨울은 강철로 된 무지갠가 보다", "quote_source": "「절정」 마지막 행", "source_url": "https://ko.wikisource.org/wiki/%EC%A0%88%EC%A0%95", "source_grade": "A", "flags": ["quote-source-wiki"] },
-        { "title": "청포도(靑葡萄)", "year": 1939, "note": "1939년 8월 『문장』 발표.", "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0056822", "source_grade": "A", "flags": [] }
+        {
+          "title": "광야(曠野)",
+          "year": 1945,
+          "note": "유고시. 1945년 『자유신문』 발표, 1946년 『육사시집』 수록.",
+          "quote": "다시 천고(千古)의 뒤에 / 백마 타고 오는 초인이 있어 / 이 광야에서 목놓아 부르게 하리라",
+          "quote_source": "「광야」 마지막 연",
+          "source_url": "https://ko.wikisource.org/wiki/%EA%B4%91%EC%95%BC_(%EC%9D%B4%EC%9C%A1%EC%82%AC)",
+          "source_grade": "A",
+          "flags": [
+            "quote-source-wiki"
+          ]
+        },
+        {
+          "title": "절정(絶頂)",
+          "year": 1940,
+          "note": "1940년 『문장』 발표.",
+          "quote": "겨울은 강철로 된 무지갠가 보다",
+          "quote_source": "「절정」 마지막 행",
+          "source_url": "https://ko.wikisource.org/wiki/%EC%A0%88%EC%A0%95",
+          "source_grade": "A",
+          "flags": [
+            "quote-source-wiki"
+          ]
+        },
+        {
+          "title": "청포도(靑葡萄)",
+          "year": 1939,
+          "note": "1939년 8월 『문장』 발표.",
+          "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0056822",
+          "source_grade": "A",
+          "flags": []
+        }
       ],
-      "source_grade": "A", "verified": true, "flags": ["admin-name-variant", "coords-unverified"]
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "admin-name-variant",
+        "coords-unverified"
+      ]
+    },
+    {
+      "id": "lee-jung-seop",
+      "name_ko": "이중섭",
+      "name_en": "Lee Jung-seop",
+      "field": "서양화가",
+      "birth_year": 1916,
+      "death_year": 1956,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "평안남도 평원군 조운면 송천리 742 (현 북한 소재)",
+        "source_url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A4%91%EC%84%AD",
+        "source_grade": "C",
+        "flags": [
+          "coords-unverified",
+          "overseas",
+          "wiki-only"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1916,
+          "event": "평안남도 평원군 조운면 송천리에서 출생(1916년 4월 10일)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1936,
+          "event": "오산고등보통학교 졸업 후 일본 도쿄 제국미술학교 서양화과 입학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1937,
+          "event": "도쿄 분카학원(文化學院) 미술과로 옮겨 입학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1940,
+          "event": "분카학원 졸업",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1945,
+          "event": "원산에서 일본인 야마모토 마사코(이남덕)와 결혼",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1950,
+          "event": "한국전쟁 중 원산을 떠나 부산을 거쳐 제주도로 피난",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1951,
+          "event": "1951년 1월 가족과 함께 서귀포 서귀동으로 피난, 약 1년간 거주",
+          "place_id": "leejungseop-museum",
+          "source_url": "https://culture.seogwipo.go.kr/jslee/index.htm",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1952,
+          "event": "부산으로 이주, 이후 통영 등지로 옮겨 다니며 생활",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1955,
+          "event": "서울 미도파백화점 화랑에서 개인전 개최",
+          "place_id": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A4%91%EC%84%AD",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1955,
+          "event": "대구에서 개인전 개최",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1956,
+          "event": "서울 서대문 적십자병원에서 사망(1956년 9월 6일)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "leejungseop-museum",
+          "name": "이중섭미술관 · 이중섭거주지 · 이중섭거리",
+          "lat": 33.2452,
+          "lng": 126.5645,
+          "type": "미술관·거주지",
+          "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=96b662f9-03cf-4c2f-a2c2-69c9582665c9",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "황소",
+          "year": 1954,
+          "note": "캔버스에 유채. 삼성미술관 리움 소장. 1953~1954년 통영·서울 시기 소 연작 중 하나.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "title": "흰소",
+          "year": 1954,
+          "note": "나무판에 유채. 홍익대학교박물관 소장.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "title": "가족",
+          "year": null,
+          "note": "종이에 유채. 삼성미술관 리움 소장. 제작연도 미상.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": [
+            "year-unverified"
+          ]
+        },
+        {
+          "title": "은지화(은박지 그림) 연작",
+          "year": null,
+          "note": "담뱃갑 속 은박지에 송곳 등으로 새기고 물감을 문질러 제작한 그림 연작. 제작연도 미상.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A4%91%EC%84%AD",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "year-unverified"
+          ]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "coords-unverified",
+        "overseas"
+      ],
+      "note": "호 대향(大鄕), 본관 장수, 한자명 李仲燮. 생년 1916·몰년 1956은 한국민족문화대백과사전 일치. 정확한 생몰일(1916-04-10 출생, 1956-09-06 사망)과 출생지 번지(평원군 조운면 송천리 742)는 위키백과 표기라 해당 항목에 wiki-only/C 플래그. 출생지 송천리는 현재 북한 소재로 좌표 미확보·overseas. 원산 결혼·피난 출발지도 북한(overseas). 서귀포 거주 시기(1951년 1월~약 1년)는 서귀포시 문화예술포털(이중섭미술관) A급 출처. 이중섭미술관 좌표(33.2452, 126.5645)와 도로명 주소 '제주특별자치도 서귀포시 이중섭로 33(서귀동)'은 한국관광공사 visitkorea 공식 지도값. 미술관은 2002년 개관, 1951년 거주지를 복원해 경내에 포함. 작품 소장처는 한국민족문화대백과사전 기준이며 일부 제작연도는 자료별 차이가 있어 year-approx/year-unverified."
+    },
+    {
+      "id": "kim-whanki",
+      "name_ko": "김환기",
+      "name_en": "Kim Whan-ki",
+      "field": "서양화가",
+      "birth_year": 1913,
+      "death_year": 1974,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "전라남도 신안군 안좌면 읍동리 (생가: 신안 김환기 고택, 전남 신안군 안좌면 안좌서부길 38-1)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1913,
+          "event": "전라남도 신안군 안좌면 읍동리에서 출생(1913년 4월 13일, 음력 2월 27일)",
+          "place_id": "kim-whanki-house",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": [
+            "birthdate-variant"
+          ]
+        },
+        {
+          "year": 1934,
+          "event": "일본 유학 중 아방가르드미술연구소에 참여",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1936,
+          "event": "도쿄 니혼대학(日本大學) 미술과 졸업, 같은 대학 연구과 수료",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1937,
+          "event": "백만회(白蠻會) 조직, 이 무렵 귀국",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1948,
+          "event": "서울대학교 미술대학 교수로 부임(~1950), 신사실파(新寫實派) 조직",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1952,
+          "event": "홍익대학교 교수로 부임",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1956,
+          "event": "파리로 건너가 약 3년간 체류하며 작품 활동",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1963,
+          "event": "상파울루 비엔날레 한국 대표로 참가",
+          "place_id": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%98%EA%B8%B0",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "overseas"
+          ]
+        },
+        {
+          "year": 1965,
+          "event": "뉴욕으로 이주, 상파울루 비엔날레 회화부문 명예상 수상",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": [
+            "overseas",
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1974,
+          "event": "미국 뉴욕에서 사망(1974년 7월 25일)",
+          "place_id": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%98%EA%B8%B0",
+          "source_grade": "C",
+          "flags": [
+            "overseas",
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1992,
+          "event": "유족(부인 김향안·환기재단)이 서울 종로구 부암동에 환기미술관 개관(1992년 11월 5일)",
+          "place_id": "whanki-museum",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0064975",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "whanki-museum",
+          "name": "환기미술관",
+          "lat": 37.5943,
+          "lng": 126.966,
+          "type": "미술관",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0064975",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        },
+        {
+          "id": "kim-whanki-house",
+          "name": "신안 김환기 고택(생가, 국가민속문화재)",
+          "lat": null,
+          "lng": null,
+          "type": "생가",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033162",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "론도",
+          "year": 1938,
+          "note": "캔버스에 유채, 61×72㎝. 국립현대미술관 소장. 일본 유학기 추상 작품.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "어디서 무엇이 되어 다시 만나랴",
+          "year": 1970,
+          "note": "캔버스에 유채, 236×172㎝. 제목은 김광섭의 시 「저녁에」 마지막 구절에서 인용. 뉴욕 시기 전면점화. 소장처는 출처별로 개인 소장·국립현대미술관 등으로 표기 차이.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0074227",
+          "source_grade": "A",
+          "flags": [
+            "owner-variant"
+          ]
+        },
+        {
+          "title": "우주(Universe 5-IV-71 #200)",
+          "year": 1971,
+          "note": "뉴욕 시기 전면점화. 2019년 11월 크리스티 홍콩 경매에서 약 132억원에 낙찰(한국 미술품 경매 최고가 기록).",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%98%EA%B8%B0",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "coords-unverified",
+        "birthdate-variant"
+      ],
+      "note": "호 수화(樹話), 한자명 金煥基. 생년 1913·몰년 1974는 한국민족문화대백과사전 일치. 출생지 '신안군 안좌면 읍동리'는 한국민족문화대백과사전 A급. 정확한 출생일(양력 1913-04-13, 음력 2월 27일)·사망일(1974-07-25, 뉴욕)은 위키백과 표기라 해당 항목 wiki-only/C·birthdate-variant. 환기미술관 주소는 '서울특별시 종로구 자하문로40길 63(부암동)'(visitkorea 영문 페이지), 1992-11-05 개관(부인 김향안이 1978년 설립한 환기재단). 신안 김환기 고택은 국가민속문화재(2007-10-12 지정), 주소 '전남 신안군 안좌면 안좌서부길 38-1(읍동리)', 안채 1920·화실 1940년대 건축. 환기미술관·고택 좌표는 한국 공식 출처에서 위경도 숫자를 교차검증하지 못해 null(coords-unverified), 도로명 주소만 보존. 파리·뉴욕 체류는 overseas."
+    },
+    {
+      "id": "park-soo-keun",
+      "name_ko": "박수근",
+      "name_en": "Park Soo-keun",
+      "field": "서양화가",
+      "birth_year": 1914,
+      "death_year": 1965,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "강원도 양구군 양구면 정림리 (현 강원특별자치도 양구군 양구읍 정림리)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1914,
+          "event": "강원도 양구군 양구면 정림리에서 출생(1914년 2월 21일)",
+          "place_id": "park-sookeun-museum",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": [
+            "birthdate-variant"
+          ]
+        },
+        {
+          "year": 1932,
+          "event": "조선미술전람회(선전)에 수채화 「봄이 오다」로 입선",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1936,
+          "event": "이후 1944년까지 조선미술전람회에 계속 출품",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1952,
+          "event": "한국전쟁 중 월남하여 서울에 정착, 대한미협전·대한민국미술전람회에 출품 시작",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1959,
+          "event": "국전(대한민국미술전람회) 추천작가가 됨",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1962,
+          "event": "국전 심사위원을 맡음",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1965,
+          "event": "서울 동대문구 전농동에서 사망(1965년 5월 6일)",
+          "place_id": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%88%98%EA%B7%BC",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 2002,
+          "event": "출생지 양구읍 정림리 생가 터에 양구군립 박수근미술관 개관(2002년 10월 25일)",
+          "place_id": "park-sookeun-museum",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0069393",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "park-sookeun-museum",
+          "name": "양구군립 박수근미술관 (박수근 생가 터)",
+          "lat": 38.0964,
+          "lng": 127.9814,
+          "type": "미술관·생가터",
+          "source_url": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=483c821e-cd94-411c-92bd-57009a91fc8d",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "절구질하는 여인",
+          "year": 1952,
+          "note": "유채. 거친 마티에르(화강암·돌 질감)를 쌓아 올린 화면.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "빨래터",
+          "year": 1954,
+          "note": "유채. 화강암 질감을 연상시키는 마티에르 기법.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "할아버지와 손자",
+          "year": 1960,
+          "note": "캔버스에 유채, 145.2×97.3㎝. 국립현대미술관 소장.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "소와 유동",
+          "year": 1962,
+          "note": "유채. 삼성미술관 리움 소장.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "coords-unverified",
+        "birthdate-variant"
+      ],
+      "note": "한자명 朴壽根. 생년 1914·몰년 1965는 한국민족문화대백과사전 일치. 출생지 '양구군 양구면 정림리'는 한국민족문화대백과사전 A급. 정확한 출생일(1914-02-21)·사망일(1965-05-06)·사망지(서울 동대문구 전농동)는 위키백과 표기라 해당 항목 wiki-only/C·birthdate-variant. 양구군립 박수근미술관은 2002-10-25 개관, 생가 터에 건립(한국민족문화대백과사전). 도로명 주소 '강원특별자치도 양구군 양구읍 박수근로 265-15'(visitkorea·양구군 관광). 미술관·생가터 좌표는 한국 공식 출처에서 위경도 숫자를 확인하지 못해 null(coords-unverified), 도로명 주소만 보존. 작품 제작연도·소장처는 한국민족문화대백과사전 기준."
+    },
+    {
+      "id": "na-hye-seok",
+      "name_ko": "나혜석",
+      "name_en": "Na Hye-seok",
+      "field": "서양화가·작가",
+      "birth_year": 1896,
+      "death_year": 1948,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경기도 수원(현 수원시 팔달구 신풍동 일대)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1896,
+          "event": "경기도 수원에서 출생(1896년 4월 28일)",
+          "place_id": "na-hyeseok-street",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1913,
+          "event": "진명여자고등보통학교 졸업 후 일본 도쿄 여자미술학교(女子美術學校) 서양화과 입학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1918,
+          "event": "단편소설 「경희」를 잡지 『여자계』에 발표, 같은 해 여자미술학교 졸업",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1920,
+          "event": "변호사 김우영(金雨英)과 결혼",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1921,
+          "event": "경성일보사 내청각에서 유화 개인전 개최",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1922,
+          "event": "조선미술전람회(선전) 서양화부에 출품 시작, 이후 수년간 입선·특선",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1927,
+          "event": "남편과 함께 구미(歐美) 일주 여행, 파리에 약 8개월 체류",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1929,
+          "event": "수원에서 '구미 사생화 전람회' 개최",
+          "place_id": "na-hyeseok-street",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1930,
+          "event": "김우영과 이혼",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1934,
+          "event": "「이혼고백장(이혼고백서)」을 잡지 『삼천리』에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1935,
+          "event": "서울 조선관 전시장에서 '근작 소품전' 개최(마지막 전시)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1948,
+          "event": "서울 시립 자제원(자혜원)에서 사망(1948년 12월 10일)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 2000,
+          "event": "수원시 팔달구 인계동에 나혜석거리 조성",
+          "place_id": "na-hyeseok-street",
+          "source_url": "https://www.kyeonggi.com/article/200002100113031",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "na-hyeseok-street",
+          "name": "나혜석거리 (수원시 팔달구 인계동)",
+          "lat": 37.2639,
+          "lng": 127.0347,
+          "type": "기념 거리",
+          "source_url": "https://www.kyeonggi.com/article/200002100113031",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "무희(舞姬)",
+          "year": null,
+          "note": "캔버스에 유채, 33×41㎝. 국립현대미술관 소장. 파리 체류기(1927년 무렵) 제작.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": [
+            "year-unverified"
+          ]
+        },
+        {
+          "title": "스페인 해수욕장",
+          "year": null,
+          "note": "유채. 파리 체류기 제작. 제작연도 미상.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": [
+            "year-unverified"
+          ]
+        },
+        {
+          "title": "경희(瓊姬)",
+          "year": 1918,
+          "note": "단편소설. 잡지 『여자계』 1918년 3월호에 발표.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "이혼고백장(離婚告白狀)",
+          "year": 1934,
+          "note": "산문. 잡지 『삼천리』 1934년에 발표. 이혼 후의 심경과 당대 정조관념을 다룬 글.",
+          "quote": "조선 남성 심사는 이상하외다. 자기는 정조 관념이 없으면서 처에게나 일반 여성에게는 정조를 요구하고...",
+          "quote_source": "나혜석, 「이혼고백장」, 『삼천리』(1934)",
+          "source_url": "https://ko.wikipedia.org/wiki/%EB%82%98%ED%98%9C%EC%84%9D",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "quote-partial"
+          ]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "coords-unverified"
+      ],
+      "note": "호 정월(晶月), 한자명 羅蕙錫. 이칭 명순(明順)·아지(兒只). 생년 1896·몰년 1948은 한국민족문화대백과사전 일치, 생몰일(1896-04-28 출생, 1948-12-10 사망)도 한국민족문화대백과사전·위키백과 일치. 한국 최초의 여성 서양화가. 출생지는 '경기도 수원'(한국민족문화대백과사전), 세부 행정구역 신풍동은 위키·언론 표기. 사망지는 서울 시립 자제원(자혜원) 무연고자 병동. 나혜석거리는 2000년 수원시 팔달구 인계동(농조예식장~효원공원 구간, 길이 약 440m)에 조성(경기일보 등 B급 언론). 나혜석거리·출생지 좌표는 공식 위경도 미확보로 null(coords-unverified). 「이혼고백장」 원문 구절은 위키백과 인용본을 옮긴 것으로 wiki-only/quote-partial(부분 인용) — 1차 원문 대조는 미완. 작품 「무희」·「스페인 해수욕장」 제작연도는 자료에 정확 연도가 없어 year-unverified."
+    },
+    {
+      "id": "lee-hyoseok",
+      "name_ko": "이효석",
+      "name_en": "Lee Hyo-seok",
+      "field": "소설가",
+      "birth_year": 1907,
+      "death_year": 1942,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "강원도 평창군 봉평면 창동리(현 강원특별자치도 평창군 봉평면). 평창군은 봉평 창동리(남안동) 일대를 생가지로 보아 생가를 복원함. 이설: 유족(아들 이우현)은 진부면 하진부리 196번지를 실제 출생지로 본다는 보도(강원일보 2019)가 있음",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified",
+          "birthplace-disputed"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1907,
+          "event": "강원도 평창 봉평에서 출생",
+          "place_id": "lee-hyoseok-birthhouse",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": [
+            "birthplace-disputed"
+          ]
+        },
+        {
+          "year": 1925,
+          "event": "시 「봄」이 매일신보 신춘문예 선외가작에 뽑힘",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1925,
+          "event": "경성제일고등보통학교 졸업, 경성제국대학 입학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1928,
+          "event": "단편 「도시와 유령」 발표(등단)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1930,
+          "event": "경성제국대학 법문학부 영문학과 졸업",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1933,
+          "event": "구인회(九人會) 가입, 단편 「돈(豚)」 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1934,
+          "event": "평양 숭실전문학교 교수 부임",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": [
+            "year-disputed"
+          ]
+        },
+        {
+          "year": 1936,
+          "event": "「메밀꽃 필 무렵」을 『조광(朝光)』 10월호에 발표(같은 해 「산」·「들」 발표)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0018494",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1939,
+          "event": "장편 「화분(花粉)」, 단편 「여수」·「황제」 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1940,
+          "event": "부인 이경원 사망, 장편 「벽공무한」 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1942,
+          "event": "뇌막염으로 평양에서 사망(향년 36세)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": [
+            "deathdate-approx"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "lee-hyoseok-museum",
+          "name": "이효석문학관",
+          "lat": 37.6132,
+          "lng": 128.37,
+          "type": "문학관",
+          "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=e84371f3-00c6-4b8c-a5bf-0729837edafa",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "id": "lee-hyoseok-birthhouse",
+          "name": "이효석 생가(복원)",
+          "lat": 37.6107,
+          "lng": 128.36,
+          "type": "생가(복원)",
+          "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=a57e0591-38b6-4cec-b22c-2c5d46103514",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "id": "lee-hyoseok-moonlight-hill",
+          "name": "효석달빛언덕(이효석문화예술촌, 재현 생가·근대문학체험관)",
+          "lat": null,
+          "lng": null,
+          "type": "문학테마공원",
+          "source_url": "https://tour.pc.go.kr/Home/H20000/H20100/H20103/html",
+          "source_grade": "B",
+          "flags": [
+            "coords-unverified"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "메밀꽃 필 무렵",
+          "year": 1936,
+          "note": "『조광』 1936년 10월호 발표 단편. 발표 당시 표기는 「모밀꽃 필 무렵」. 봉평·대화 등 강원 산간 장터를 배경으로 함. 한국저작권위원회 공유마당에서 저작권 만료(공유)로 분류.",
+          "quote": "산허리는 온통 메밀밭이어서 피기 시작한 꽃이 소금을 뿌린 듯이 흐붓한 달빛에 숨이 막힐 지경이다.",
+          "quote_source": "이효석 「메밀꽃 필 무렵」 원문(위키문헌, 현대 표기 정본 대조 권장)",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0018494",
+          "source_grade": "A",
+          "flags": [
+            "quote-wiki-source"
+          ]
+        },
+        {
+          "title": "돈(豚)",
+          "year": 1933,
+          "note": "1933년 발표 단편.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "화분(花粉)",
+          "year": 1939,
+          "note": "1939년 발표 장편소설.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046643",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "birthplace-disputed",
+        "coords-unverified",
+        "deathdate-approx"
+      ],
+      "note": "한자 李孝石, 호 가산(可山), 본관 전주. 생년 1907·몰년 1942는 한국민족문화대백과사전(A) 기준. 한국민족문화대백과사전은 사망 날짜를 명시하지 않으며(향년 36세, 뇌막염), 1942-05-25 사망설은 B/C 자료에서만 확인되어 deathdate-approx. 출생지는 평창 봉평(창동리)이 공식·복원 생가 위치이나, 유족이 진부면 하진부리 196을 실제 출생지로 본다는 강원일보(2019) 보도가 있어 birthplace-disputed. 평양 숭실전문학교 교수 부임 연도는 한국민족문화대백과사전 서술상 1934로 보이나 위키 등은 1936~1938로 적어 year-disputed. 이효석문학관(강원특별자치도 평창군 봉평면 효석문학길 73-25, 창동리 544-3)과 복원 생가(봉평면 이효석길 33-11)는 한국관광공사 열린관광 페이지에 공식 좌표가 공개되어 소수점 4자리로 기재. 효석달빛언덕은 공식 좌표 미공개로 coords-unverified(주소: 봉평면 효석문학길 일원). 평창의 이효석 연고지는 국가유산청 지정 문화유산이 아닌 지자체 문화시설. 「메밀꽃 필 무렵」은 공유저작물(공유마당)이라 원문 인용 가능, 인용 텍스트는 위키문헌 기준이므로 정본 대조 권장(quote-wiki-source)."
+    },
+    {
+      "id": "chae-mansik",
+      "name_ko": "채만식",
+      "name_en": "Chae Man-sik",
+      "field": "소설가·극작가",
+      "birth_year": 1902,
+      "death_year": 1950,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "전라북도 옥구군 임피면 읍내리 동상마을(현 전북특별자치도 군산시 임피면). 원 생가는 도로 확장으로 철거되어 현재 생가터 표지석(1986 건립)만 남음",
+        "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1902,
+          "event": "전라북도 옥구군 임피면 읍내리에서 출생",
+          "place_id": null,
+          "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+          "source_grade": "A",
+          "flags": [
+            "birthdate-disputed"
+          ]
+        },
+        {
+          "year": 1918,
+          "event": "중앙고등보통학교 입학",
+          "place_id": null,
+          "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1922,
+          "event": "중앙고등보통학교 졸업, 일본 와세다대학 부속 제1와세다고등학원 문과 입학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0055587",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1924,
+          "event": "와세다고등학원 중퇴, 단편 「세길로」를 『조선문단』에 발표(등단)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0055587",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1925,
+          "event": "동아일보사 입사",
+          "place_id": null,
+          "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1929,
+          "event": "개벽사 입사",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0055587",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1934,
+          "event": "단편 「레디메이드 인생」을 『신동아』에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0017242",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1937,
+          "event": "장편 「탁류」를 『조선일보』에 연재 시작(1937.10.12~1938.5.17)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0058730",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1938,
+          "event": "장편 「천하태평춘」을 『조광』에 연재, 단편 「치숙」을 『동아일보』에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0056085",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1948,
+          "event": "「천하태평춘」을 「태평천하」로 제목을 바꿔 동지사에서 단행본 출간",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0056085",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1950,
+          "event": "폐결핵으로 전라북도 이리(현 익산)에서 사망(향년 49세)",
+          "place_id": "chae-mansik-grave",
+          "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "chae-mansik-museum",
+          "name": "채만식문학관",
+          "lat": 36.0082,
+          "lng": 126.7584,
+          "type": "문학관",
+          "source_url": "https://www.gunsan.go.kr/chae/m2035",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        },
+        {
+          "id": "chae-mansik-grave",
+          "name": "채만식 묘소(군산 임피면 축산리 계남마을)",
+          "lat": null,
+          "lng": null,
+          "type": "묘소",
+          "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        },
+        {
+          "id": "chae-mansik-birthsite",
+          "name": "채만식 생가터 표지석(군산 임피면 읍내리)",
+          "lat": null,
+          "lng": null,
+          "type": "생가터(표지석)",
+          "source_url": "https://gunsan.grandculture.net/gunsan/toc/GC05701152",
+          "source_grade": "B",
+          "flags": [
+            "coords-unverified"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "탁류(濁流)",
+          "year": 1937,
+          "note": "『조선일보』 1937.10.12~1938.5.17 연재(198회), 1939년 박문서관 단행본. 군산을 배경으로 함.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0058730",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "태평천하(太平天下)",
+          "year": 1938,
+          "note": "『조광』 1938년 연재 당시 제목은 「천하태평춘(天下太平春)」, 1948년 동지사 단행본에서 「태평천하」로 개제. 지주 윤직원 일가를 다룬 장편.",
+          "quote": "추석을 지나 이윽고, 짙어 가는 가을 해가 저물기 쉬운 어느 날 석양.",
+          "quote_source": "채만식 「태평천하」 제1장 첫 문장(위키문헌, 정본 대조 권장)",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0056085",
+          "source_grade": "A",
+          "flags": [
+            "quote-wiki-source"
+          ]
+        },
+        {
+          "title": "레디메이드 인생",
+          "year": 1934,
+          "note": "『신동아』 1934년 5~7월 3회 연재 단편.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0017242",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "치숙(痴叔)",
+          "year": 1938,
+          "note": "『동아일보』 1938.3.7~3.14 발표 단편. 1인칭 화자 기법.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0058368",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "birthdate-disputed",
+        "coords-unverified"
+      ],
+      "note": "한자 蔡萬植, 호 백릉(白菱)·채옹(采翁) 등, 본관 평강. 생년 1902·몰년 1950은 한국민족문화대백과사전(A)·디지털군산문화대전(A) 일치. 출생 월·일은 두 A급 사전이 불일치(한국민족문화대백과사전 1902-07-21 vs 디지털군산문화대전 1902-06-17)하여 birthdate-disputed; 연도는 확정. 사망원인은 폐결핵으로 두 A급 출처 일치(일부의 '익사설'은 근거 없음), 사망지 이리=현 익산. 와세다 학력은 '부속 제1와세다고등학원 문과 입학 후 1924년 중퇴'가 정밀 출처(한국민족문화대백과사전·디지털군산문화대전) 기준이며, 일부에서 '영문과'로 표기하나 학부 졸업이 아님. 「천하태평춘」(1938 연재)→「태평천하」(1948 개제). 채만식문학관(전북특별자치도 군산시 강변로 449, 내흥동 285, 2001 개관)·묘소(군산 임피면 축산리 계남마을)·생가터 표지석(임피면 읍내리)은 어떤 공식 출처에도 위경도가 공개되지 않아 전부 coords-unverified, 주소만 보존. 원 생가는 철거되어 표지석만 남음(B급 언론). 「탁류」·「치숙」·「레디메이드 인생」은 A급 사전 본문에 원문 인용이 없어 quote 생략, 「태평천하」 첫 문장만 위키문헌 기준으로 인용(quote-wiki-source). 채만식은 1950년 사망으로 저작권 만료(공유)."
+    },
+    {
+      "id": "yi-i",
+      "name_ko": "이이",
+      "name_en": "Yi I",
+      "field": "성리학자·문신",
+      "birth_year": 1536,
+      "death_year": 1584,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "강릉 북평촌 외가(현 강원특별자치도 강릉시 죽헌동 오죽헌). 도로명: 강원특별자치도 강릉시 율곡로3139번길 24",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1536,
+          "event": "강릉 외가(오죽헌)에서 출생, 어머니는 신사임당",
+          "place_id": "ojukheon",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1548,
+          "event": "13세에 진사 초시 합격",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1558,
+          "event": "별시에서 「천도책(天道策)」으로 장원",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1564,
+          "event": "문과 급제(여러 차례 장원하여 구도장원공으로 불림), 호조좌랑으로 관직 시작",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309400",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1569,
+          "event": "「동호문답(東湖問答)」 저술",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1574,
+          "event": "우부승지 재직 중 「만언봉사(萬言封事)」를 올림",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": [
+            "year-variant"
+          ]
+        },
+        {
+          "year": 1575,
+          "event": "『성학집요(聖學輯要)』를 선조에게 올림",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1577,
+          "event": "해주 재직 중 『격몽요결(擊蒙要訣)』 저술",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1582,
+          "event": "이조판서 임명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1583,
+          "event": "병조판서 임명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1584,
+          "event": "한양 대사동(大寺洞)에서 사망(향년 49세)",
+          "place_id": "paju-yi-i-site",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "ojukheon",
+          "name": "강릉 오죽헌(보물) — 이이 생가",
+          "lat": 37.7786,
+          "lng": 128.8778,
+          "type": "생가·보물",
+          "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1123201650000",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        },
+        {
+          "id": "paju-yi-i-site",
+          "name": "파주 이이 유적(사적) — 자운서원·이이 묘·신사임당 묘",
+          "lat": null,
+          "lng": null,
+          "type": "서원·묘·사적",
+          "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333105250000",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        },
+        {
+          "id": "songdam-seowon",
+          "name": "강릉 송담서원(이이 배향)",
+          "lat": null,
+          "lng": null,
+          "type": "서원",
+          "source_url": "https://www.gn.go.kr/www/contents.do?key=607",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "성학집요(聖學輯要)",
+          "year": 1575,
+          "note": "1575년 선조에게 올린 제왕학 교재. 사서·육경의 핵심을 정리.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "격몽요결(擊蒙要訣)",
+          "year": 1577,
+          "note": "1577년 해주 재직 중 저술한 초학자 교육서. 친필본이 강릉 오죽헌박물관에 소장됨.",
+          "quote": "人生斯世, 非學問, 無以爲人.",
+          "quote_source": "이이 『격몽요결』 서문(序文) — 한국고전번역원/전통문화연구회 원문 DB",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045546",
+          "source_grade": "A",
+          "flags": [
+            "quote-secondary-source"
+          ]
+        },
+        {
+          "title": "동호문답(東湖問答)",
+          "year": 1569,
+          "note": "1569년 사가독서(동호 독서당) 중 저술한 문답체 경세론.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309400",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "coords-unverified",
+        "year-variant"
+      ],
+      "note": "한자 李珥, 자 숙헌(叔獻), 호 율곡(栗谷)·석담(石潭)·우재(愚齋), 본관 덕수, 시호 문성(文成). 생년 1536·몰년 1584는 모든 A급 출처 일치(이설 없음). 어머니는 신사임당(1504~1551). 황해도관찰사·대사간 등 일부 관직의 임명 연도는 우리역사넷(1573 황해도관찰사)과 다른 연보(1574)가 달라 1574 항목에 year-variant 플래그(관직 보임 사실 자체는 확실, 연도만 출처별 차이). 강릉 오죽헌은 보물(1963 지정, 강원특별자치도 강릉시 율곡로3139번길 24, 죽헌동), 파주 이이 유적은 사적(2013 지정, 경기도 파주시 법원읍 자운서원로 204, 자운서원·이이 묘·신사임당 합장묘 포함), 강릉 송담서원은 강원도 유형문화재(강릉시 강동면 송담서원길 27-5). 세 곳 모두 국가유산청·지자체 공식 페이지에 위경도가 공개되지 않아 coords-unverified, 도로명 주소만 보존(좌표 날조 금지). 『격몽요결』·『성학집요』·『동호문답』은 16세기 저작으로 공유. 격몽요결 서문 한문 원구는 전통문화연구회 원문 DB 기준(quote-secondary-source), 성학집요·동호문답은 A급 사전 본문에 확정 원문 인용이 없어 생략."
+    },
+    {
+      "id": "yi-hwang",
+      "name_ko": "이황",
+      "name_en": "Yi Hwang",
+      "field": "성리학자·문신",
+      "birth_year": 1501,
+      "death_year": 1570,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경상도 예안현 온계리(현 경상북도 안동시 도산면 온혜리) 노송정. 퇴계태실 도로명: 경북 안동시 도산면 온혜중마길 46-5",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1501,
+          "event": "경상도 예안현 온계리에서 출생",
+          "place_id": "toegye-birthhouse",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1527,
+          "event": "진사시·생원시 초시 합격",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1534,
+          "event": "문과 급제",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1543,
+          "event": "성균관 사성 임명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1548,
+          "event": "충청도 단양군수 부임",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1549,
+          "event": "경상도 풍기군수 재직 중 사직하고 귀향",
+          "place_id": null,
+          "source_url": "https://www.andong.go.kr/dosanseowon/contents.do?mId=0201000000",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1552,
+          "event": "성균관 대사성 임명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1561,
+          "event": "도산서당 건립",
+          "place_id": "dosan-seowon",
+          "source_url": "https://www.andong.go.kr/dosanseowon/contents.do?mId=0101000000",
+          "source_grade": "A",
+          "flags": [
+            "year-variant"
+          ]
+        },
+        {
+          "year": 1565,
+          "event": "「도산십이곡(陶山十二曲)」 지음",
+          "place_id": "dosan-seowon",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1568,
+          "event": "『성학십도(聖學十圖)』를 선조에게 올림",
+          "place_id": null,
+          "source_url": "https://www.andong.go.kr/dosanseowon/contents.do?mId=0201000000",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1570,
+          "event": "안동에서 사망(향년 70세)",
+          "place_id": "toegye-grave",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "dosan-seowon",
+          "name": "안동 도산서원(사적, 유네스코 한국의 서원)",
+          "lat": 36.7272,
+          "lng": 128.8435,
+          "type": "서원·사적",
+          "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333701700000",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        },
+        {
+          "id": "toegye-birthhouse",
+          "name": "퇴계태실(노송정 종택) — 이황 출생지",
+          "lat": null,
+          "lng": null,
+          "type": "생가(태실)",
+          "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=2443700600000",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified",
+            "designation-lifted"
+          ]
+        },
+        {
+          "id": "toegye-head-house",
+          "name": "퇴계종택(경상북도 기념물)",
+          "lat": null,
+          "lng": null,
+          "type": "종택",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0059451",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        },
+        {
+          "id": "toegye-grave",
+          "name": "이황 묘소(안동 도산면 토계리 하계마을)",
+          "lat": null,
+          "lng": null,
+          "type": "묘소",
+          "source_url": "https://andong.grandculture.net/andong/toc/GC02401990",
+          "source_grade": "A",
+          "flags": [
+            "coords-unverified"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "성학십도(聖學十圖)",
+          "year": 1568,
+          "note": "1568년 선조에게 올린 10폭 도설(圖說)로 된 성리학 교재.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://www.andong.go.kr/dosanseowon/contents.do?mId=0201000000",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "도산십이곡(陶山十二曲)",
+          "year": 1565,
+          "note": "1565년 지은 12수 연시조. 앞 6수는 언지(言志), 뒤 6수는 언학(言學).",
+          "quote": "이런들 엇더ᄒᆞ며 져런들 엇더ᄒᆞ료 / 草野 愚生이 이러타 엇더ᄒᆞ료 / ᄒᆞ믈며 泉石膏肓을 고쳐 므슴 ᄒᆞ료",
+          "quote_source": "이황 「도산십이곡」 제1수(위키문헌 원문, 고어 표기)",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": [
+            "quote-wiki-source"
+          ]
+        },
+        {
+          "title": "자성록(自省錄)",
+          "year": 1558,
+          "note": "문인·지인에게 보낸 편지를 모은 책(58세에 정리).",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046626",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "coords-unverified",
+        "year-variant"
+      ],
+      "note": "한자 李滉, 자 경호(景浩), 호 퇴계(退溪)·퇴도(退陶)·도수(陶叟), 본관 진보, 시호 문순(文純). 생년 1501·몰년 1570은 A급 출처 일치(이설 없음). 출생지는 예안현 온계리(현 안동시 도산면 온혜리) 노송정. 도산서당 건립 연도는 출처 간 차이(우리역사넷 1559, 한국민족문화대백과사전 1560, 안동시 도산서원 공식 1561)가 있어 year-variant(본 데이터는 운영기관인 안동시 도산서원 공식 표기 1561 채택). 안동 도산서원은 사적(1969 지정)·유네스코 세계유산 '한국의 서원'(2019)으로 경북 안동시 도산면 도산서원길 154(토계리). 퇴계태실(노송정 종택, 경북 안동시 도산면 온혜중마길 46-5)은 1985 경북 민속문화재 지정 후 2018-11-01 지정 해제됨(designation-lifted). 퇴계종택은 경상북도 기념물(안동시 도산면 백운로 268, 토계리, 1982 지정). 이황 묘소는 도산면 토계리 하계마을 뒷산에 있으며 묘비명은 '퇴도만은진성이공지묘'(출처 디지털안동문화대전, 한국학중앙연구원 운영, A). 네 곳 모두 공식 페이지에 위경도가 공개되지 않아 coords-unverified, 도로명/지명만 보존(좌표 날조 금지). 『성학십도』·「도산십이곡」은 16세기 저작으로 공유. 도산십이곡 제1수는 위키문헌 고어 원문 기준(quote-wiki-source). 자성록 정리 연도는 58세(1558년경)로 출처 표기되어 year-approx."
     }
   ]
 }

@@ -1,0 +1,652 @@
+{
+  "people": [
+    {
+      "id": "lee-jung-seop",
+      "name_ko": "이중섭",
+      "name_en": "Lee Jung-seop",
+      "field": "서양화가",
+      "birth_year": 1916,
+      "death_year": 1956,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "평안남도 평원군 조운면 송천리 742 (현 북한 소재)",
+        "source_url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A4%91%EC%84%AD",
+        "source_grade": "C",
+        "flags": ["coords-unverified", "overseas", "wiki-only"]
+      },
+      "timeline": [
+        {
+          "year": 1916,
+          "event": "평안남도 평원군 조운면 송천리에서 출생(1916년 4월 10일)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        },
+        {
+          "year": 1936,
+          "event": "오산고등보통학교 졸업 후 일본 도쿄 제국미술학교 서양화과 입학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1937,
+          "event": "도쿄 분카학원(文化學院) 미술과로 옮겨 입학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1940,
+          "event": "분카학원 졸업",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1945,
+          "event": "원산에서 일본인 야마모토 마사코(이남덕)와 결혼",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        },
+        {
+          "year": 1950,
+          "event": "한국전쟁 중 원산을 떠나 부산을 거쳐 제주도로 피난",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1951,
+          "event": "1951년 1월 가족과 함께 서귀포 서귀동으로 피난, 약 1년간 거주",
+          "place_id": "leejungseop-museum",
+          "source_url": "https://culture.seogwipo.go.kr/jslee/index.htm",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1952,
+          "event": "부산으로 이주, 이후 통영 등지로 옮겨 다니며 생활",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": ["year-approx"]
+        },
+        {
+          "year": 1955,
+          "event": "서울 미도파백화점 화랑에서 개인전 개최",
+          "place_id": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A4%91%EC%84%AD",
+          "source_grade": "C",
+          "flags": ["wiki-only"]
+        },
+        {
+          "year": 1955,
+          "event": "대구에서 개인전 개최",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": ["year-approx"]
+        },
+        {
+          "year": 1956,
+          "event": "서울 서대문 적십자병원에서 사망(1956년 9월 6일)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "leejungseop-museum",
+          "name": "이중섭미술관 · 이중섭거주지 · 이중섭거리",
+          "lat": 33.2452,
+          "lng": 126.5645,
+          "type": "미술관·거주지",
+          "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=96b662f9-03cf-4c2f-a2c2-69c9582665c9",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "황소",
+          "year": 1954,
+          "note": "캔버스에 유채. 삼성미술관 리움 소장. 1953~1954년 통영·서울 시기 소 연작 중 하나.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": ["year-approx"]
+        },
+        {
+          "title": "흰소",
+          "year": 1954,
+          "note": "나무판에 유채. 홍익대학교박물관 소장.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": ["year-approx"]
+        },
+        {
+          "title": "가족",
+          "year": null,
+          "note": "종이에 유채. 삼성미술관 리움 소장. 제작연도 미상.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046021",
+          "source_grade": "A",
+          "flags": ["year-unverified"]
+        },
+        {
+          "title": "은지화(은박지 그림) 연작",
+          "year": null,
+          "note": "담뱃갑 속 은박지에 송곳 등으로 새기고 물감을 문질러 제작한 그림 연작. 제작연도 미상.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A4%91%EC%84%AD",
+          "source_grade": "C",
+          "flags": ["wiki-only", "year-unverified"]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["coords-unverified", "overseas"],
+      "note": "호 대향(大鄕), 본관 장수, 한자명 李仲燮. 생년 1916·몰년 1956은 한국민족문화대백과사전 일치. 정확한 생몰일(1916-04-10 출생, 1956-09-06 사망)과 출생지 번지(평원군 조운면 송천리 742)는 위키백과 표기라 해당 항목에 wiki-only/C 플래그. 출생지 송천리는 현재 북한 소재로 좌표 미확보·overseas. 원산 결혼·피난 출발지도 북한(overseas). 서귀포 거주 시기(1951년 1월~약 1년)는 서귀포시 문화예술포털(이중섭미술관) A급 출처. 이중섭미술관 좌표(33.2452, 126.5645)와 도로명 주소 '제주특별자치도 서귀포시 이중섭로 33(서귀동)'은 한국관광공사 visitkorea 공식 지도값. 미술관은 2002년 개관, 1951년 거주지를 복원해 경내에 포함. 작품 소장처는 한국민족문화대백과사전 기준이며 일부 제작연도는 자료별 차이가 있어 year-approx/year-unverified."
+    },
+    {
+      "id": "kim-whanki",
+      "name_ko": "김환기",
+      "name_en": "Kim Whan-ki",
+      "field": "서양화가",
+      "birth_year": 1913,
+      "death_year": 1974,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "전라남도 신안군 안좌면 읍동리 (생가: 신안 김환기 고택, 전남 신안군 안좌면 안좌서부길 38-1)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+        "source_grade": "A",
+        "flags": ["coords-unverified"]
+      },
+      "timeline": [
+        {
+          "year": 1913,
+          "event": "전라남도 신안군 안좌면 읍동리에서 출생(1913년 4월 13일, 음력 2월 27일)",
+          "place_id": "kim-whanki-house",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": ["birthdate-variant"]
+        },
+        {
+          "year": 1934,
+          "event": "일본 유학 중 아방가르드미술연구소에 참여",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1936,
+          "event": "도쿄 니혼대학(日本大學) 미술과 졸업, 같은 대학 연구과 수료",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1937,
+          "event": "백만회(白蠻會) 조직, 이 무렵 귀국",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1948,
+          "event": "서울대학교 미술대학 교수로 부임(~1950), 신사실파(新寫實派) 조직",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1952,
+          "event": "홍익대학교 교수로 부임",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1956,
+          "event": "파리로 건너가 약 3년간 체류하며 작품 활동",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        },
+        {
+          "year": 1963,
+          "event": "상파울루 비엔날레 한국 대표로 참가",
+          "place_id": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%98%EA%B8%B0",
+          "source_grade": "C",
+          "flags": ["wiki-only", "overseas"]
+        },
+        {
+          "year": 1965,
+          "event": "뉴욕으로 이주, 상파울루 비엔날레 회화부문 명예상 수상",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": ["overseas", "year-approx"]
+        },
+        {
+          "year": 1974,
+          "event": "미국 뉴욕에서 사망(1974년 7월 25일)",
+          "place_id": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%98%EA%B8%B0",
+          "source_grade": "C",
+          "flags": ["overseas", "wiki-only"]
+        },
+        {
+          "year": 1992,
+          "event": "유족(부인 김향안·환기재단)이 서울 종로구 부암동에 환기미술관 개관(1992년 11월 5일)",
+          "place_id": "whanki-museum",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0064975",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "whanki-museum",
+          "name": "환기미술관",
+          "lat": null,
+          "lng": null,
+          "type": "미술관",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0064975",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "kim-whanki-house",
+          "name": "신안 김환기 고택(생가, 국가민속문화재)",
+          "lat": null,
+          "lng": null,
+          "type": "생가",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033162",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        {
+          "title": "론도",
+          "year": 1938,
+          "note": "캔버스에 유채, 61×72㎝. 국립현대미술관 소장. 일본 유학기 추상 작품.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011112",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "어디서 무엇이 되어 다시 만나랴",
+          "year": 1970,
+          "note": "캔버스에 유채, 236×172㎝. 제목은 김광섭의 시 「저녁에」 마지막 구절에서 인용. 뉴욕 시기 전면점화. 소장처는 출처별로 개인 소장·국립현대미술관 등으로 표기 차이.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0074227",
+          "source_grade": "A",
+          "flags": ["owner-variant"]
+        },
+        {
+          "title": "우주(Universe 5-IV-71 #200)",
+          "year": 1971,
+          "note": "뉴욕 시기 전면점화. 2019년 11월 크리스티 홍콩 경매에서 약 132억원에 낙찰(한국 미술품 경매 최고가 기록).",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%98%EA%B8%B0",
+          "source_grade": "C",
+          "flags": ["wiki-only"]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["coords-unverified", "birthdate-variant"],
+      "note": "호 수화(樹話), 한자명 金煥基. 생년 1913·몰년 1974는 한국민족문화대백과사전 일치. 출생지 '신안군 안좌면 읍동리'는 한국민족문화대백과사전 A급. 정확한 출생일(양력 1913-04-13, 음력 2월 27일)·사망일(1974-07-25, 뉴욕)은 위키백과 표기라 해당 항목 wiki-only/C·birthdate-variant. 환기미술관 주소는 '서울특별시 종로구 자하문로40길 63(부암동)'(visitkorea 영문 페이지), 1992-11-05 개관(부인 김향안이 1978년 설립한 환기재단). 신안 김환기 고택은 국가민속문화재(2007-10-12 지정), 주소 '전남 신안군 안좌면 안좌서부길 38-1(읍동리)', 안채 1920·화실 1940년대 건축. 환기미술관·고택 좌표는 한국 공식 출처에서 위경도 숫자를 교차검증하지 못해 null(coords-unverified), 도로명 주소만 보존. 파리·뉴욕 체류는 overseas."
+    },
+    {
+      "id": "park-soo-keun",
+      "name_ko": "박수근",
+      "name_en": "Park Soo-keun",
+      "field": "서양화가",
+      "birth_year": 1914,
+      "death_year": 1965,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "강원도 양구군 양구면 정림리 (현 강원특별자치도 양구군 양구읍 정림리)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+        "source_grade": "A",
+        "flags": ["coords-unverified"]
+      },
+      "timeline": [
+        {
+          "year": 1914,
+          "event": "강원도 양구군 양구면 정림리에서 출생(1914년 2월 21일)",
+          "place_id": "park-sookeun-museum",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": ["birthdate-variant"]
+        },
+        {
+          "year": 1932,
+          "event": "조선미술전람회(선전)에 수채화 「봄이 오다」로 입선",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1936,
+          "event": "이후 1944년까지 조선미술전람회에 계속 출품",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1952,
+          "event": "한국전쟁 중 월남하여 서울에 정착, 대한미협전·대한민국미술전람회에 출품 시작",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1959,
+          "event": "국전(대한민국미술전람회) 추천작가가 됨",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1962,
+          "event": "국전 심사위원을 맡음",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1965,
+          "event": "서울 동대문구 전농동에서 사망(1965년 5월 6일)",
+          "place_id": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%88%98%EA%B7%BC",
+          "source_grade": "C",
+          "flags": ["wiki-only"]
+        },
+        {
+          "year": 2002,
+          "event": "출생지 양구읍 정림리 생가 터에 양구군립 박수근미술관 개관(2002년 10월 25일)",
+          "place_id": "park-sookeun-museum",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0069393",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "park-sookeun-museum",
+          "name": "양구군립 박수근미술관 (박수근 생가 터)",
+          "lat": null,
+          "lng": null,
+          "type": "미술관·생가터",
+          "source_url": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=483c821e-cd94-411c-92bd-57009a91fc8d",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        {
+          "title": "절구질하는 여인",
+          "year": 1952,
+          "note": "유채. 거친 마티에르(화강암·돌 질감)를 쌓아 올린 화면.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "빨래터",
+          "year": 1954,
+          "note": "유채. 화강암 질감을 연상시키는 마티에르 기법.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "할아버지와 손자",
+          "year": 1960,
+          "note": "캔버스에 유채, 145.2×97.3㎝. 국립현대미술관 소장.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "소와 유동",
+          "year": 1962,
+          "note": "유채. 삼성미술관 리움 소장.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0020834",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["coords-unverified", "birthdate-variant"],
+      "note": "한자명 朴壽根. 생년 1914·몰년 1965는 한국민족문화대백과사전 일치. 출생지 '양구군 양구면 정림리'는 한국민족문화대백과사전 A급. 정확한 출생일(1914-02-21)·사망일(1965-05-06)·사망지(서울 동대문구 전농동)는 위키백과 표기라 해당 항목 wiki-only/C·birthdate-variant. 양구군립 박수근미술관은 2002-10-25 개관, 생가 터에 건립(한국민족문화대백과사전). 도로명 주소 '강원특별자치도 양구군 양구읍 박수근로 265-15'(visitkorea·양구군 관광). 미술관·생가터 좌표는 한국 공식 출처에서 위경도 숫자를 확인하지 못해 null(coords-unverified), 도로명 주소만 보존. 작품 제작연도·소장처는 한국민족문화대백과사전 기준."
+    },
+    {
+      "id": "na-hye-seok",
+      "name_ko": "나혜석",
+      "name_en": "Na Hye-seok",
+      "field": "서양화가·작가",
+      "birth_year": 1896,
+      "death_year": 1948,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경기도 수원(현 수원시 팔달구 신풍동 일대)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+        "source_grade": "A",
+        "flags": ["coords-unverified"]
+      },
+      "timeline": [
+        {
+          "year": 1896,
+          "event": "경기도 수원에서 출생(1896년 4월 28일)",
+          "place_id": "na-hyeseok-street",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1913,
+          "event": "진명여자고등보통학교 졸업 후 일본 도쿄 여자미술학교(女子美術學校) 서양화과 입학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1918,
+          "event": "단편소설 「경희」를 잡지 『여자계』에 발표, 같은 해 여자미술학교 졸업",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1920,
+          "event": "변호사 김우영(金雨英)과 결혼",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": ["year-approx"]
+        },
+        {
+          "year": 1921,
+          "event": "경성일보사 내청각에서 유화 개인전 개최",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1922,
+          "event": "조선미술전람회(선전) 서양화부에 출품 시작, 이후 수년간 입선·특선",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1927,
+          "event": "남편과 함께 구미(歐美) 일주 여행, 파리에 약 8개월 체류",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        },
+        {
+          "year": 1929,
+          "event": "수원에서 '구미 사생화 전람회' 개최",
+          "place_id": "na-hyeseok-street",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1930,
+          "event": "김우영과 이혼",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1934,
+          "event": "「이혼고백장(이혼고백서)」을 잡지 『삼천리』에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1935,
+          "event": "서울 조선관 전시장에서 '근작 소품전' 개최(마지막 전시)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1948,
+          "event": "서울 시립 자제원(자혜원)에서 사망(1948년 12월 10일)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 2000,
+          "event": "수원시 팔달구 인계동에 나혜석거리 조성",
+          "place_id": "na-hyeseok-street",
+          "source_url": "https://www.kyeonggi.com/article/200002100113031",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "na-hyeseok-street",
+          "name": "나혜석거리 (수원시 팔달구 인계동)",
+          "lat": null,
+          "lng": null,
+          "type": "기념 거리",
+          "source_url": "https://www.kyeonggi.com/article/200002100113031",
+          "source_grade": "B",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        {
+          "title": "무희(舞姬)",
+          "year": null,
+          "note": "캔버스에 유채, 33×41㎝. 국립현대미술관 소장. 파리 체류기(1927년 무렵) 제작.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": ["year-unverified"]
+        },
+        {
+          "title": "스페인 해수욕장",
+          "year": null,
+          "note": "유채. 파리 체류기 제작. 제작연도 미상.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": ["year-unverified"]
+        },
+        {
+          "title": "경희(瓊姬)",
+          "year": 1918,
+          "note": "단편소설. 잡지 『여자계』 1918년 3월호에 발표.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0011547",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "이혼고백장(離婚告白狀)",
+          "year": 1934,
+          "note": "산문. 잡지 『삼천리』 1934년에 발표. 이혼 후의 심경과 당대 정조관념을 다룬 글.",
+          "quote": "조선 남성 심사는 이상하외다. 자기는 정조 관념이 없으면서 처에게나 일반 여성에게는 정조를 요구하고...",
+          "quote_source": "나혜석, 「이혼고백장」, 『삼천리』(1934)",
+          "source_url": "https://ko.wikipedia.org/wiki/%EB%82%98%ED%98%9C%EC%84%9D",
+          "source_grade": "C",
+          "flags": ["wiki-only", "quote-partial"]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["coords-unverified"],
+      "note": "호 정월(晶月), 한자명 羅蕙錫. 이칭 명순(明順)·아지(兒只). 생년 1896·몰년 1948은 한국민족문화대백과사전 일치, 생몰일(1896-04-28 출생, 1948-12-10 사망)도 한국민족문화대백과사전·위키백과 일치. 한국 최초의 여성 서양화가. 출생지는 '경기도 수원'(한국민족문화대백과사전), 세부 행정구역 신풍동은 위키·언론 표기. 사망지는 서울 시립 자제원(자혜원) 무연고자 병동. 나혜석거리는 2000년 수원시 팔달구 인계동(농조예식장~효원공원 구간, 길이 약 440m)에 조성(경기일보 등 B급 언론). 나혜석거리·출생지 좌표는 공식 위경도 미확보로 null(coords-unverified). 「이혼고백장」 원문 구절은 위키백과 인용본을 옮긴 것으로 wiki-only/quote-partial(부분 인용) — 1차 원문 대조는 미완. 작품 「무희」·「스페인 해수욕장」 제작연도는 자료에 정확 연도가 없어 year-unverified."
+    }
+  ]
+}
