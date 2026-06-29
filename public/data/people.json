@@ -707,13 +707,13 @@
         {
           "id": "yeongneung-sejong",
           "name": "여주 영릉(英陵, 세종대왕릉)",
-          "lat": null,
-          "lng": null,
+          "lat": 37.3048088,
+          "lng": 127.6132793,
           "type": "능",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0037362",
           "source_grade": "A",
           "flags": [
-            "coords-unverified"
+            "coords-osm"
           ]
         }
       ],
@@ -881,13 +881,13 @@
         {
           "id": "yi-tomb-asan",
           "name": "아산 이충무공 묘",
-          "lat": null,
-          "lng": null,
+          "lat": 36.8503047,
+          "lng": 127.0096378,
           "type": "묘",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0046283",
           "source_grade": "A",
           "flags": [
-            "coords-unverified"
+            "coords-osm"
           ]
         }
       ],
@@ -1309,13 +1309,13 @@
         {
           "id": "jeong-jiyong-literature-museum",
           "name": "정지용 문학관",
-          "lat": null,
-          "lng": null,
+          "lat": 36.3149628,
+          "lng": 127.5819797,
           "type": "문학관",
           "source_url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=f5a00c8f-87bf-4892-9f4f-10e073532464",
           "source_grade": "A",
           "flags": [
-            "coords-unverified"
+            "coords-osm"
           ]
         }
       ],
