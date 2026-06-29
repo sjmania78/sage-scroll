@@ -39,6 +39,7 @@ function flagBadges(flags) {
     "wiki-only": "위키 단독·미검증",
     "coords-unverified": "좌표 미확인",
     "coords-osm": "좌표: OSM 지오코딩",
+    "coords-kakao": "좌표: 카카오 지오코딩",
     "birthplace-disputed": "출생지 논쟁",
     "birthplace-traditional": "출생지 전승",
     "authorship-disputed": "저자 논쟁",

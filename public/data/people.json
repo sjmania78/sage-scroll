@@ -1009,25 +1009,25 @@
         {
           "id": "han-yongun-birthplace",
           "name": "한용운 선생 생가지",
-          "lat": null,
-          "lng": null,
+          "lat": 36.5628772,
+          "lng": 126.5538796,
           "type": "생가",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0061854",
           "source_grade": "A",
           "flags": [
-            "coords-unverified"
+            "coords-kakao"
           ]
         },
         {
           "id": "simujang",
           "name": "만해 한용운 심우장(尋牛莊)",
-          "lat": null,
-          "lng": null,
+          "lat": 37.5936484,
+          "lng": 126.9916707,
           "type": "사적·고택",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0017767",
           "source_grade": "A",
           "flags": [
-            "coords-unverified"
+            "coords-kakao"
           ]
         }
       ],
@@ -1155,25 +1155,25 @@
         {
           "id": "sin-chaeho-birthplace",
           "name": "단재 신채호 선생 생가지 (대전 어남동)",
-          "lat": null,
-          "lng": null,
+          "lat": 36.2326517,
+          "lng": 127.4110409,
           "type": "생가",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0013654",
           "source_grade": "A",
           "flags": [
-            "coords-unverified"
+            "coords-kakao"
           ]
         },
         {
           "id": "sin-chaeho-shrine-grave",
           "name": "청주 신채호 사당 및 묘소",
-          "lat": null,
-          "lng": null,
+          "lat": 36.6361408,
+          "lng": 127.6201890,
           "type": "사당·묘소",
           "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0013653",
           "source_grade": "A",
           "flags": [
-            "coords-unverified"
+            "coords-kakao"
           ]
         }
       ],
@@ -1963,13 +1963,13 @@
         {
           "id": "kim-whanki-house",
           "name": "신안 김환기 고택(생가, 국가민속문화재)",
-          "lat": null,
-          "lng": null,
+          "lat": 34.7528039,
+          "lng": 126.1216333,
           "type": "생가",
           "source_url": "https://encykorea.aks.ac.kr/Article/E0033162",
           "source_grade": "A",
           "flags": [
-            "coords-unverified"
+            "coords-kakao"
           ]
         }
       ],
