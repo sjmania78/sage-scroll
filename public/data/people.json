@@ -1168,7 +1168,7 @@
           "id": "sin-chaeho-shrine-grave",
           "name": "청주 신채호 사당 및 묘소",
           "lat": 36.6361408,
-          "lng": 127.6201890,
+          "lng": 127.620189,
           "type": "사당·묘소",
           "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0013653",
           "source_grade": "A",
@@ -3147,6 +3147,1095 @@
         "year-variant"
       ],
       "note": "한자 李滉, 자 경호(景浩), 호 퇴계(退溪)·퇴도(退陶)·도수(陶叟), 본관 진보, 시호 문순(文純). 생년 1501·몰년 1570은 A급 출처 일치(이설 없음). 출생지는 예안현 온계리(현 안동시 도산면 온혜리) 노송정. 도산서당 건립 연도는 출처 간 차이(우리역사넷 1559, 한국민족문화대백과사전 1560, 안동시 도산서원 공식 1561)가 있어 year-variant(본 데이터는 운영기관인 안동시 도산서원 공식 표기 1561 채택). 안동 도산서원은 사적(1969 지정)·유네스코 세계유산 '한국의 서원'(2019)으로 경북 안동시 도산면 도산서원길 154(토계리). 퇴계태실(노송정 종택, 경북 안동시 도산면 온혜중마길 46-5)은 1985 경북 민속문화재 지정 후 2018-11-01 지정 해제됨(designation-lifted). 퇴계종택은 경상북도 기념물(안동시 도산면 백운로 268, 토계리, 1982 지정). 이황 묘소는 도산면 토계리 하계마을 뒷산에 있으며 묘비명은 '퇴도만은진성이공지묘'(출처 디지털안동문화대전, 한국학중앙연구원 운영, A). 네 곳 모두 공식 페이지에 위경도가 공개되지 않아 coords-unverified, 도로명/지명만 보존(좌표 날조 금지). 『성학십도』·「도산십이곡」은 16세기 저작으로 공유. 도산십이곡 제1수는 위키문헌 고어 원문 기준(quote-wiki-source). 자성록 정리 연도는 58세(1558년경)로 출처 표기되어 year-approx."
+    },
+    {
+      "id": "kim-sowol",
+      "name_ko": "김소월",
+      "name_en": "Kim So-wol",
+      "field": "시인",
+      "birth_year": 1902,
+      "death_year": 1934,
+      "nation": "KR",
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "평안북도 구성(현 북한). 본명 김정식(金廷湜)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified",
+          "birthplace-presumed"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1902,
+          "event": "평안북도 구성에서 출생(본명 김정식)",
+          "place_id": "gusong-birthplace",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
+          "source_grade": "A",
+          "flags": [
+            "birthplace-presumed"
+          ]
+        },
+        {
+          "year": 1920,
+          "event": "잡지 『창조』에 「낭인의 봄」 등을 발표하며 등단",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1922,
+          "event": "배재고등보통학교 입학. 『개벽』에 「진달래꽃」·「금잔디」·「엄마야 누나야」 등 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1923,
+          "event": "일본 도쿄상과대학 전문부 입학, 관동대지진으로 중퇴·귀국",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1925,
+          "event": "매문사에서 시집 『진달래꽃』 발간. 『개벽』에 시론 「시혼」 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1934,
+          "event": "평안북도 곽산에서 사망",
+          "place_id": "gwaksan-death",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
+          "source_grade": "A",
+          "flags": [
+            "death-disputed"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "gusong-birthplace",
+          "name": "평안북도 구성(출생지)",
+          "lat": 39.9792248,
+          "lng": 125.252058,
+          "type": "생가",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm",
+            "birthplace-presumed"
+          ]
+        },
+        {
+          "id": "osan-school-jeongju",
+          "name": "정주(오산학교 일대)",
+          "lat": 39.6929225,
+          "lng": 125.2101297,
+          "type": "유적",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        },
+        {
+          "id": "gwaksan-death",
+          "name": "평안북도 곽산(사망지)",
+          "lat": 39.6284591,
+          "lng": 125.0501616,
+          "type": "기타",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "진달래꽃",
+          "year": 1925,
+          "note": "1925년 매문사에서 발간한 생전 유일 시집. 표제시는 1922년 『개벽』에 처음 발표, 4연 12행의 자유시.",
+          "quote": "나 보기가 역겨워 / 가실 때에는 / 말없이 고이 보내 드리오리다",
+          "quote_source": "「진달래꽃」(시집 『진달래꽃』, 1925)",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0054623",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "엄마야 누나야",
+          "year": 1922,
+          "note": "1922년 『개벽』에 발표한 시.",
+          "quote": "엄마야 누나야 강변 살자",
+          "quote_source": "「엄마야 누나야」",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "시혼(詩魂)",
+          "year": 1925,
+          "note": "『개벽』에 발표한 시론.",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0009535",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "death-disputed"
+      ]
+    },
+    {
+      "id": "an-junggeun",
+      "name_ko": "안중근",
+      "name_en": "An Jung-geun",
+      "field": "독립운동가·사상가",
+      "birth_year": 1879,
+      "death_year": 1910,
+      "nation": "KR",
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "황해도 해주부 광석동(현 북한)",
+        "source_url": "https://patriot.or.kr/kwa-374213",
+        "source_grade": "B",
+        "flags": [
+          "coords-unverified",
+          "birthplace-disputed"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1879,
+          "event": "황해도 해주부 광석동에서 출생(9월 2일)",
+          "place_id": null,
+          "source_url": "https://patriot.or.kr/kwa-374213",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1897,
+          "event": "빌렘 신부에게 천주교 영세를 받음(세례명 토마스)",
+          "place_id": null,
+          "source_url": "https://encyclopedia.catholic.or.kr/entry/4201",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1906,
+          "event": "진남포에서 삼흥학교·돈의학교를 설립·운영",
+          "place_id": null,
+          "source_url": "https://patriot.or.kr/kwa-374213",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1909,
+          "event": "연추 부근에서 동지 12인과 단지동맹을 결성(2월 7일)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0066338",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1909,
+          "event": "하얼빈역에서 이토 히로부미를 저격(10월 26일)",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/id/hm_121_0130",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1910,
+          "event": "뤼순에서 재판을 받고 사형 선고(2월 14일)",
+          "place_id": null,
+          "source_url": "https://patriot.or.kr/kwa-374213",
+          "source_grade": "B",
+          "flags": [
+            "overseas"
+          ]
+        },
+        {
+          "year": 1910,
+          "event": "뤼순 감옥에서 사형 집행(3월 26일)",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/id/hm_121_0130",
+          "source_grade": "A",
+          "flags": [
+            "overseas"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "ahn-junggeun-memorial-hall",
+          "name": "안중근의사기념관(서울 남산)",
+          "lat": 37.5534807,
+          "lng": 126.9803989,
+          "type": "기념관",
+          "source_url": "https://www.ahnjunggeun.or.kr/",
+          "source_grade": "B",
+          "flags": [
+            "coords-kakao"
+          ]
+        },
+        {
+          "id": "hyochang-park-empty-tomb",
+          "name": "효창공원 안중근 의사 가묘",
+          "lat": 37.5450822,
+          "lng": 126.9610375,
+          "type": "묘",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0066338",
+          "source_grade": "A",
+          "flags": [
+            "coords-kakao",
+            "grave-unknown"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "유묵 「見利思義見危授命」",
+          "year": 1910,
+          "note": "뤼순 감옥에서 쓴 유묵. '庚戌三月 於旅順獄中 大韓國人 安重根書'와 왼손 장인(掌印)이 찍혀 있음.",
+          "quote": "見利思義見危授命",
+          "quote_source": "안중근 유묵(보물)",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0016677",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "동양평화론(東洋平和論)",
+          "year": 1910,
+          "note": "뤼순 감옥에서 집필한 미완성 논설. 서(序)·전감(前鑑)만 저술됨.",
+          "source_url": "https://contents.history.go.kr/id/hm_121_0130",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "안응칠역사(安應七歷史)",
+          "year": 1910,
+          "note": "수감 중 집필한 자서전(1909.12~1910.3). 원본은 전하지 않고 필사본으로 전함.",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0035030",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "birthplace-disputed",
+        "grave-unknown",
+        "overseas"
+      ]
+    },
+    {
+      "id": "yun-seondo",
+      "name_ko": "윤선도",
+      "name_en": "Yun Seon-do",
+      "field": "시조시인·문신",
+      "birth_year": 1587,
+      "death_year": 1671,
+      "nation": "KR",
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "한성부 동부 연화방(현 서울 종로구 연지동)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1587,
+          "event": "한성부 동부 연화방에서 출생",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1616,
+          "event": "병진소(丙辰疏)를 올려 권신을 탄핵하다 함경도 경원으로 유배",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1628,
+          "event": "별시 문과 초시 장원, 봉림대군·인평대군의 사부가 됨",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1637,
+          "event": "병자호란 이후 보길도 부용동에 은거",
+          "place_id": "bogildo-buyongdong",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1642,
+          "event": "금쇄동에서 「산중신곡」 18수(오우가 포함)를 지음",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1651,
+          "event": "보길도 부용동에서 「어부사시사」 40수를 지음",
+          "place_id": "bogildo-buyongdong",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1659,
+          "event": "기해예송과 관련해 함경도 삼수로 유배",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1671,
+          "event": "보길도 부용동 낙서재에서 85세로 사망",
+          "place_id": "bogildo-nakseojae",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "bogildo-buyongdong",
+          "name": "보길도 부용동 원림(세연정)",
+          "lat": 34.1624761,
+          "lng": 126.5559429,
+          "type": "원림",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
+          "source_grade": "A",
+          "flags": [
+            "coords-kakao"
+          ]
+        },
+        {
+          "id": "bogildo-nakseojae",
+          "name": "보길도 낙서재",
+          "lat": 34.1470541,
+          "lng": 126.5453304,
+          "type": "유적",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
+          "source_grade": "A",
+          "flags": [
+            "coords-kakao"
+          ]
+        },
+        {
+          "id": "haenam-nogudang",
+          "name": "해남 녹우당(고택)",
+          "lat": 34.5512783,
+          "lng": 126.6225571,
+          "type": "고택",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042393",
+          "source_grade": "A",
+          "flags": [
+            "coords-kakao"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "오우가(五友歌)",
+          "year": 1642,
+          "note": "「산중신곡」에 수록된 연시조 6수. 수·석·송·죽·월을 다섯 벗으로 노래함.",
+          "quote": "내 벗이 몇이나 하니 수석과 송죽이라 / 동산에 달 오르니 그 더욱 반갑고야",
+          "quote_source": "「오우가」",
+          "source_url": "https://ko.wikisource.org/wiki/%EC%98%A4%EC%9A%B0%EA%B0%80",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "title": "어부사시사(漁父四時詞)",
+          "year": 1651,
+          "note": "보길도 부용동을 배경으로 지은 춘·하·추·동 각 10수, 총 40수의 연시조.",
+          "quote": "압개예 안개 것고 뒫뫼희 해 비췬다 / 배 떠라 배 떠라",
+          "quote_source": "「어부사시사」 춘사 제1수",
+          "source_url": "https://ko.wikisource.org/wiki/%EC%96%B4%EB%B6%80%EC%82%AC%EC%8B%9C%EC%82%AC",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "kim-jeonghui",
+      "name_ko": "김정희",
+      "name_en": "Kim Jeong-hui",
+      "field": "서예가·금석학자·문신",
+      "birth_year": 1786,
+      "death_year": 1856,
+      "nation": "KR",
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "충청도 예산군 신암면 용궁리. 호 추사(秋史)·완당(阮堂)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0010428",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1786,
+          "event": "충청도 예산군 신암면 용궁리에서 출생",
+          "place_id": "yesan-chusa-gotaek",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010428",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1809,
+          "event": "생원시 합격, 자제군관으로 부친을 따라 청 연경(베이징) 연행",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n302700",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1819,
+          "event": "문과(대과) 급제",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n302700",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1840,
+          "event": "윤상도 옥사에 연루되어 제주도 대정현에 위리안치 유배",
+          "place_id": "jeju-chusa-exile-daejeong",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010428",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1844,
+          "event": "제주 유배 중 제자 이상적에게 〈세한도〉를 그려줌",
+          "place_id": "jeju-chusa-exile-daejeong",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0038956",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1848,
+          "event": "제주 유배에서 석방",
+          "place_id": "jeju-chusa-exile-daejeong",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010428",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1851,
+          "event": "권돈인 예론에 연루되어 함경도 북청으로 유배",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010428",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1856,
+          "event": "경기도 과천에서 사망",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010428",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "yesan-chusa-gotaek",
+          "name": "예산 추사고택",
+          "lat": 36.7468782,
+          "lng": 126.7986382,
+          "type": "생가",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010428",
+          "source_grade": "A",
+          "flags": [
+            "coords-kakao"
+          ]
+        },
+        {
+          "id": "jeju-chusa-exile-daejeong",
+          "name": "제주 추사유배지(대정, 제주추사관)",
+          "lat": 33.249973,
+          "lng": 126.2782213,
+          "type": "유배지",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010428",
+          "source_grade": "A",
+          "flags": [
+            "coords-kakao"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "세한도(歲寒圖)",
+          "year": 1844,
+          "note": "제주 유배 중 제자 이상적에게 그려준 그림. 발문에 소나무·잣나무가 추운 뒤에야 시들지 않음을 안다는 논어 구절을 인용. 국보.",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0038956",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "예당금석과안록(禮堂金石過眼錄)",
+          "year": null,
+          "note": "금석학 저술. 북한산비·황초령비가 진흥왕순수비임을 고증(북한산비 고증 1816년).",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0007834",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "완당전집(阮堂全集)",
+          "year": 1934,
+          "note": "사후 후손 김익환이 편집·간행한 시문집.",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0038958",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "confucius",
+      "name_ko": "공자",
+      "name_en": "Confucius",
+      "field": "사상가·철학자(유가)",
+      "birth_year": -551,
+      "death_year": -479,
+      "nation": "CN",
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "노나라 추읍(陬邑, 현 중국 산둥성 취푸 부근)",
+        "source_url": "https://www.britannica.com/biography/Confucius",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified",
+          "year-approx"
+        ]
+      },
+      "timeline": [
+        {
+          "year": -551,
+          "event": "노(魯)나라 추읍에서 출생(전통적 전승)",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Confucius",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -500,
+          "event": "노나라에서 사구(司寇) 등 관직을 맡았다고 전함",
+          "place_id": "qufu-confucius-temple",
+          "source_url": "https://plato.stanford.edu/entries/confucius/",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -497,
+          "event": "약 56세에 노나라를 떠나 여러 제후국을 주유(周遊)하기 시작했다고 전함",
+          "place_id": null,
+          "source_url": "https://plato.stanford.edu/entries/confucius/",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -484,
+          "event": "여러 나라를 떠돈 끝에 노나라로 귀국하여 교육과 문헌 정리에 전념했다고 전함",
+          "place_id": null,
+          "source_url": "https://plato.stanford.edu/entries/confucius/",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -479,
+          "event": "노나라에서 사망(전통적 전승, 향년 약 73세)",
+          "place_id": "qufu-confucius-cemetery",
+          "source_url": "https://www.britannica.com/biography/Confucius",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -478,
+          "event": "사후 이듬해 곡부(취푸)에 사당(공묘의 기원)이 세워졌다고 전함",
+          "place_id": "qufu-confucius-temple",
+          "source_url": "https://whc.unesco.org/en/list/704/",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "qufu-confucius-temple",
+          "name": "취푸 공묘(孔廟)",
+          "lat": 35.5951635,
+          "lng": 116.9843791,
+          "type": "사당",
+          "source_url": "https://whc.unesco.org/en/list/704/",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm",
+            "overseas"
+          ]
+        },
+        {
+          "id": "qufu-confucius-cemetery",
+          "name": "공림 묘소(孔林)",
+          "lat": 35.6218835,
+          "lng": 116.9864882,
+          "type": "묘",
+          "source_url": "https://whc.unesco.org/en/list/704/",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm",
+            "overseas"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "논어(論語)",
+          "year": null,
+          "note": "공자의 언행을 제자 및 재전제자들이 사후 수세기에 걸쳐 편찬한 것으로 전하는 어록(전통적 전승).",
+          "quote": "學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？",
+          "quote_source": "論語 學而 1.1",
+          "source_url": "https://ctext.org/analects/xue-er/zh",
+          "source_grade": "A",
+          "flags": [
+            "authorship-disputed"
+          ]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "year-approx"
+      ]
+    },
+    {
+      "id": "du-fu",
+      "name_ko": "두보",
+      "name_en": "Du Fu",
+      "field": "시인",
+      "birth_year": 712,
+      "death_year": 770,
+      "nation": "CN",
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "당나라 공현(鞏縣, 현 중국 허난성 궁이), 뤄양 인근",
+        "source_url": "https://www.britannica.com/biography/Du-Fu",
+        "source_grade": "B",
+        "flags": [
+          "coords-unverified",
+          "birthplace-disputed"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 712,
+          "event": "당나라 공현(현 허난성 궁이) 인근에서 출생",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Du-Fu",
+          "source_grade": "A",
+          "flags": [
+            "birthplace-disputed"
+          ]
+        },
+        {
+          "year": 744,
+          "event": "이백(李白)을 처음 만남",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Du_Fu",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 755,
+          "event": "안녹산의 난(安史之亂)이 발발하여 이후 유랑이 시작됨",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Du-Fu",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 759,
+          "event": "청두로 이주하여 완화계(浣花溪) 부근에 초당을 지음",
+          "place_id": "chengdu-du-fu-cottage",
+          "source_url": "https://en.wikipedia.org/wiki/Du_Fu_Thatched_Cottage",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 770,
+          "event": "탄저우(현 후난성 창사) 인근 강 위의 배에서 사망",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Du-Fu",
+          "source_grade": "A",
+          "flags": [
+            "death-disputed"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "chengdu-du-fu-cottage",
+          "name": "청두 두보초당(杜甫草堂)",
+          "lat": 30.6628531,
+          "lng": 104.0262287,
+          "type": "초당",
+          "source_url": "https://en.wikipedia.org/wiki/Du_Fu_Thatched_Cottage",
+          "source_grade": "C",
+          "flags": [
+            "coords-osm",
+            "overseas"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "춘망(春望)",
+          "year": 757,
+          "note": "안녹산의 난 중 함락된 장안에 억류되어 있을 때 지은 오언율시.",
+          "quote": "國破山河在 城春草木深",
+          "quote_source": "春望",
+          "source_url": "https://www.gushiwen.cn/gushiwen_64ad247806.aspx",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "춘야희우(春夜喜雨)",
+          "year": 761,
+          "note": "청두 초당에 머물던 상원 2년(761년)에 봄비를 노래한 오언율시.",
+          "quote": "好雨知時節 當春乃發生",
+          "quote_source": "春夜喜雨",
+          "source_url": "https://www.gushiwen.cn/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": [
+        "birthplace-disputed",
+        "death-disputed"
+      ]
+    },
+    {
+      "id": "matsuo-basho",
+      "name_ko": "마쓰오 바쇼",
+      "name_en": "Matsuo Bashō",
+      "field": "하이쿠 시인",
+      "birth_year": 1644,
+      "death_year": 1694,
+      "nation": "JP",
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "이가국 우에노(현 일본 미에현 이가시). 본명 마쓰오 무네후사(松尾宗房)",
+        "source_url": "https://www.britannica.com/biography/Basho-Japanese-poet",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1644,
+          "event": "이가국 우에노(현 미에현 이가시)에서 출생",
+          "place_id": "iga-ueno",
+          "source_url": "https://www.britannica.com/biography/Basho-Japanese-poet",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1672,
+          "event": "시 공부를 위해 에도(현 도쿄)로 이주",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1680,
+          "event": "후카가와에 초암을 짓고 파초(芭蕉)를 심음. 이때부터 '바쇼'라는 호를 사용",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1689,
+          "event": "제자 가와이 소라와 함께 약 150일간 동북 지방을 도보로 기행(약 2,400km)",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Oku_no_Hosomichi",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1694,
+          "event": "오사카에서 병으로 사망(11월 28일)",
+          "place_id": "osaka",
+          "source_url": "https://www.britannica.com/biography/Basho-Japanese-poet",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "iga-ueno",
+          "name": "이가우에노(생가지)",
+          "lat": 34.7889966,
+          "lng": 136.1235104,
+          "type": "생가",
+          "source_url": "https://www.britannica.com/biography/Basho-Japanese-poet",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm",
+            "overseas"
+          ]
+        },
+        {
+          "id": "osaka",
+          "name": "오사카(사망지)",
+          "lat": 34.6937569,
+          "lng": 135.5014539,
+          "type": "유적",
+          "source_url": "https://www.britannica.com/biography/Basho-Japanese-poet",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm",
+            "overseas"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "「古池や」(오래된 연못)",
+          "year": 1686,
+          "note": "에도의 초암에서 지은 단독 하이쿠. 일본 하이쿠 중 가장 널리 알려진 작품.",
+          "quote": "古池や蛙飛び込む水の音",
+          "quote_source": "1686",
+          "source_url": "https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "title": "오쿠노호소미치(奥の細道)",
+          "year": 1689,
+          "note": "1689년 동북 기행을 바탕으로 한 기행문. 운문과 산문이 결합된 형식이며 사후 출간됨.",
+          "source_url": "https://en.wikipedia.org/wiki/Oku_no_Hosomichi",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "murasaki-shikibu",
+      "name_ko": "무라사키 시키부",
+      "name_en": "Murasaki Shikibu",
+      "field": "작가·시인(헤이안 궁정)",
+      "birth_year": 973,
+      "death_year": 1014,
+      "nation": "JP",
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "헤이안쿄(현 일본 교토). 본명 미상",
+        "source_url": "https://www.britannica.com/biography/Murasaki-Shikibu",
+        "source_grade": "B",
+        "flags": [
+          "coords-unverified",
+          "year-approx",
+          "birthplace-presumed"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 973,
+          "event": "후지와라노 다메토키의 딸로 태어남. 본명은 전하지 않음",
+          "place_id": "kyoto-heian-kyo",
+          "source_url": "https://www.britannica.com/biography/Murasaki-Shikibu",
+          "source_grade": "B",
+          "flags": [
+            "year-approx",
+            "birthplace-presumed"
+          ]
+        },
+        {
+          "year": 998,
+          "event": "후지와라노 노부타카와 혼인하여 딸 하나를 둠",
+          "place_id": "kyoto-heian-kyo",
+          "source_url": "https://www.britannica.com/biography/Murasaki-Shikibu",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1001,
+          "event": "남편 후지와라노 노부타카가 사망함",
+          "place_id": "kyoto-heian-kyo",
+          "source_url": "https://www.britannica.com/biography/Murasaki-Shikibu",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1005,
+          "event": "이치조 천황의 중궁 쇼시(藤原彰子)를 섬기는 女房으로 궁정에 출사함",
+          "place_id": "kyoto-heian-kyo",
+          "source_url": "https://en.wikipedia.org/wiki/Murasaki_Shikibu",
+          "source_grade": "C",
+          "flags": [
+            "year-approx",
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1010,
+          "event": "「겐지 이야기」가 대략 이 무렵까지 집필됨(전체 c.1000~1012)",
+          "place_id": "kyoto-heian-kyo",
+          "source_url": "https://www.britannica.com/biography/Murasaki-Shikibu",
+          "source_grade": "B",
+          "flags": [
+            "year-approx",
+            "authorship-traditional"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "kyoto-heian-kyo",
+          "name": "교토(헤이안쿄) — 궁정 출사",
+          "lat": 35.0115754,
+          "lng": 135.7681441,
+          "type": "유적",
+          "source_url": "https://www.britannica.com/biography/Murasaki-Shikibu",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm",
+            "overseas"
+          ]
+        },
+        {
+          "id": "ishiyama-dera",
+          "name": "이시야마데라(石山寺) — 「겐지」 집필 시작 전승지",
+          "lat": 34.96047,
+          "lng": 135.9054936,
+          "type": "사찰",
+          "source_url": "https://en.wikipedia.org/wiki/Ishiyama-dera",
+          "source_grade": "C",
+          "flags": [
+            "coords-osm",
+            "overseas",
+            "authorship-traditional"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "무라사키 시키부 일기(紫式部日記)",
+          "year": 1010,
+          "note": "중궁 쇼시의 황자 출산 등 궁정 생활을 기록한 일기(c.1008~1010).",
+          "quote": "秋のけはひ入りたつままに、土御門殿のありさま、言はむ方なくをかし。",
+          "quote_source": "『紫式部日記』 冒頭",
+          "source_url": "https://en.wikipedia.org/wiki/The_Diary_of_Lady_Murasaki",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "title": "겐지 이야기(源氏物語)",
+          "year": 1010,
+          "note": "헤이안 궁정을 무대로 한 산문 모노가타리. 흔히 세계 최초의 장편소설로 일컬어짐. 집필은 대략 1000~1012년.",
+          "source_url": "https://www.britannica.com/biography/Murasaki-Shikibu",
+          "source_grade": "B",
+          "flags": [
+            "authorship-traditional"
+          ]
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": [
+        "year-approx",
+        "birthplace-presumed",
+        "authorship-traditional"
+      ]
     }
   ]
 }
