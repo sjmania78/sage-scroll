@@ -3,16 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sage Scroll — 현인·지성의 자취 지도 (검증 MVP)</title>
+  <title>Sage Scroll — 한국 지성의 자취 지도</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header id="topbar">
     <div class="brand">
-      <h1>Sage Scroll</h1>
-      <span class="tag">현인·지성의 자취를 따라가는 지도 · 한국 지성 19인 · 사실+출처만</span>
+      <h1>Sage&nbsp;Scroll</h1>
+      <span class="tag">한국 지성의 자취를 따라가는 지도 · 사실과 그들의 말로만</span>
     </div>
     <div class="route-picker">
       <label for="route-select">동선</label>
@@ -29,7 +32,7 @@
     <div id="map"></div>
     <aside id="panel">
       <div id="panel-empty" class="panel-empty">
-        지도의 마커나 위 인물 칩을 누르면 생애 연표·저작·출처가 여기 표시됩니다.
+        지도의 핀이나 위 인물 이름을 누르면, 그 사람의 생애와 <em>남긴 말</em>이 여기 펼쳐집니다.
       </div>
       <div id="panel-content" hidden></div>
     </aside>
@@ -37,14 +40,12 @@
 
   <footer id="statusbar">
     <span id="stat-people">인물 0</span>
+    <span class="sep">·</span>
     <span id="stat-places">장소 0</span>
+    <span class="sep">·</span>
     <span id="stat-verified">검증 0</span>
     <span class="grow"></span>
-    <span class="legend">
-      <i class="dot a"></i>A 공공·공식
-      <i class="dot b"></i>B 백과·학술
-      <i class="dot c"></i>C 위키(미검증)
-    </span>
+    <span class="foot-note">사실과 사료 원문만 · 평가·교훈은 싣지 않습니다</span>
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
