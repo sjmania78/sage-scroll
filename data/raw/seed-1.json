@@ -1,0 +1,152 @@
+{
+  "people": [
+    {
+      "id": "yun-isang",
+      "name_ko": "윤이상",
+      "name_en": "Isang Yun",
+      "field": "작곡가",
+      "birth_year": 1917,
+      "death_year": 1995,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경상남도 통영시 도천동 (생가터). 출생지에 통영 vs 산청 설이 병존",
+        "source_url": "https://timf.org/kr/sub/space/commemoration_park.asp",
+        "source_grade": "A"
+      },
+      "places": [
+        {
+          "id": "yun-isang-memorial-park",
+          "name": "윤이상 기념공원(도천테마파크)",
+          "lat": 34.8383,
+          "lng": 128.4136,
+          "type": "기념관",
+          "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=024a72c0-17af-4122-a7ca-453e0a79faff",
+          "source_grade": "A"
+        }
+      ],
+      "works": [
+        { "title": "나비의 미망인 (Die Witwe des Schmetterlings)", "year": 1968, "note": "오페라" },
+        { "title": "광주여 영원히! (Exemplum in memoriam Kwangju)", "year": 1981, "note": "관현악을 위한 교향시" }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["birthplace-disputed", "coords-unverified"],
+      "note": "출생지 논쟁: 한국민족문화대백과사전 등은 통영 도천동 본가(호적상 통영시 도천동 157번지)를 출생지로 보나, 통영국제음악재단(timf.org) 공식 페이지 및 위키백과는 출생지를 산청(외가가 있던 경남 산청 시천면 일대)으로 기재. 생가터는 통영 도천동에 있으며 그 옆에 기념공원이 조성됨. 출생지 정확 좌표는 공식 출처에서 확인되지 않아 null 처리. 생몰: 1917-09-17 ~ 1995-11-03(독일 베를린). '상처입은 용'은 음악작품이 아니라 루이제 린저와의 대담 자서전(1977)이므로 works에서 제외."
+    },
+    {
+      "id": "park-kyungni",
+      "name_ko": "박경리",
+      "name_en": "Park Kyung-ni",
+      "field": "소설가",
+      "birth_year": 1926,
+      "death_year": 2008,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경상남도 통영시 (당시 통영읍, 본명 박금이). 통영 내 세부 동 단위는 공식 출처에서 미확인",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0071046",
+        "source_grade": "B"
+      },
+      "places": [
+        {
+          "id": "park-kyungni-memorial",
+          "name": "박경리기념관",
+          "lat": 34.8023,
+          "lng": 128.4035,
+          "type": "기념관",
+          "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=aca6cf6d-f39f-4631-9de9-929657f2f638",
+          "source_grade": "A"
+        },
+        {
+          "id": "park-kyungni-grave",
+          "name": "박경리 묘소(추모의 공간)",
+          "lat": null,
+          "lng": null,
+          "type": "묘소",
+          "source_url": "https://www.tongyeong.go.kr/pkn.web",
+          "source_grade": "A"
+        }
+      ],
+      "works": [
+        { "title": "김약국의 딸들", "year": 1962, "note": "장편소설, 을유문화사. 고향 통영을 배경으로 함" },
+        { "title": "시장과 전장", "year": 1964, "note": "장편소설, 현암사" },
+        { "title": "토지", "year": 1969, "note": "대하소설, 1969년 연재 시작~1994년 탈고" }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["coords-unverified"],
+      "note": "본명 박금이. 생몰: 1926-12-02(음력 10.28) ~ 2008-05-05. 출생지는 통영(당시 통영읍/충무시)으로 공식 확인되나 동 단위 세부 주소 및 좌표는 공식 출처에서 미확인하여 null 처리. 박경리기념관(통영시 산양읍 산양중앙로 173, 2010년 건립) 부지 내에 묘소가 있으나 묘소 자체의 별도 좌표는 미확인."
+    },
+    {
+      "id": "yu-chihwan",
+      "name_ko": "유치환",
+      "name_en": "Yu Chi-hwan",
+      "field": "시인",
+      "birth_year": 1908,
+      "death_year": 1967,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경상남도 통영 (한국민족문화대백과사전 '통영 출신'). 거제시 둔덕면 방하리 출생설과 병존",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0041928",
+        "source_grade": "B"
+      },
+      "places": [
+        {
+          "id": "cheongma-literature-hall",
+          "name": "청마문학관",
+          "lat": 34.8452,
+          "lng": 128.4354,
+          "type": "문학관",
+          "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=3da74791-e411-43d9-a304-fcfe4be2a835",
+          "source_grade": "A"
+        }
+      ],
+      "works": [
+        { "title": "깃발", "year": 1936, "note": "시, 1936년 『조선문단』 발표 후 1939년 시집 『청마시초』 수록" },
+        { "title": "청마시초", "year": 1939, "note": "첫 시집, 55편 수록" },
+        { "title": "생명의 서", "year": 1947, "note": "제2시집" }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["birthplace-disputed", "coords-unverified"],
+      "note": "호 청마(靑馬). 생몰: 1908-08-10(음력 7.14) ~ 1967-02-13(부산 수정동에서 시내버스에 치여 사망). 출생지 논쟁: 한국민족문화대백과사전은 '통영 출신'으로 기재하고, 통영시는 2000년 통영시 정량동에 청마문학관을 건립함. 반면 유족과 거제시는 거제시 둔덕면 방하리 출생을 주장하며 거제에도 생가·청마기념관이 있음(2004년 대법원 판결은 '거제라고 단정하기 어렵다'는 취지로 보도됨). 출생지 정확 좌표는 미확인하여 null. 청마문학관은 통영시 정량동 망일봉 기슭(망일1길 82) 소재."
+    },
+    {
+      "id": "kim-chunsu",
+      "name_ko": "김춘수",
+      "name_en": "Kim Chun-su",
+      "field": "시인",
+      "birth_year": 1922,
+      "death_year": 2004,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경상남도 통영시 동호동 (생가터, 현재 생가는 미존재·기념비만 있음)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0071327",
+        "source_grade": "B"
+      },
+      "places": [
+        {
+          "id": "kim-chunsu-museum",
+          "name": "김춘수 유품전시관",
+          "lat": 34.8333,
+          "lng": 128.4161,
+          "type": "전시관",
+          "source_url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=6eea90e3-7ce8-41b6-bfbf-0f5f75450b8b",
+          "source_grade": "A"
+        }
+      ],
+      "works": [
+        { "title": "구름과 장미", "year": 1948, "note": "첫 시집" },
+        { "title": "꽃", "year": 1952, "note": "시, 1959년 시집 『꽃의 소묘』(백자사)에 수록" },
+        { "title": "꽃의 소묘", "year": 1959, "note": "시집, 백자사" }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["coords-unverified"],
+      "note": "생몰: 1922-11-25 ~ 2004-11-29. 출생지는 통영(당시 통영읍 동호동 61번지로 언론 보도)으로 기재되나 한국민족문화대백과사전은 '통영'까지만 명시. 생가는 현존하지 않고 생가터에 기념비만 있으며 정확 좌표 미확인하여 null. 김춘수 유품전시관은 통영시 봉평동(해평5길 142-16), 옛 한려해상국립공원 동부사무소 건물을 리모델링하여 2008년 개관."
+    }
+  ]
+}

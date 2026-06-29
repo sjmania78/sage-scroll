@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sage Scroll — 현인·지성의 자취 지도 (검증 MVP)</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="topbar">
+    <div class="brand">
+      <h1>Sage Scroll</h1>
+      <span class="tag">현인·지성의 자취를 따라가는 지도 · 한국 지성 11인 · 사실+출처만</span>
+    </div>
+    <div class="route-picker">
+      <label for="route-select">동선</label>
+      <select id="route-select"><option value="">— 없음 —</option></select>
+    </div>
+  </header>
+
+  <nav id="person-bar">
+    <span class="pb-label">인물</span>
+    <div id="person-list"></div>
+  </nav>
+
+  <main id="layout">
+    <div id="map"></div>
+    <aside id="panel">
+      <div id="panel-empty" class="panel-empty">
+        지도의 마커나 위 인물 칩을 누르면 생애 연표·저작·출처가 여기 표시됩니다.
+      </div>
+      <div id="panel-content" hidden></div>
+    </aside>
+  </main>
+
+  <footer id="statusbar">
+    <span id="stat-people">인물 0</span>
+    <span id="stat-places">장소 0</span>
+    <span id="stat-verified">검증 0</span>
+    <span class="grow"></span>
+    <span class="legend">
+      <i class="dot a"></i>A 공공·공식
+      <i class="dot b"></i>B 백과·학술
+      <i class="dot c"></i>C 위키(미검증)
+    </span>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,342 @@
+{
+  "people": [
+    {
+      "id": "sejong-the-great",
+      "name_ko": "세종대왕",
+      "name_en": "Sejong the Great",
+      "field": "조선 제4대 국왕",
+      "birth_year": 1397,
+      "death_year": 1450,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "한성부 준수방(俊秀坊) 태종 잠저(현 서울 종로구 통인동·옥인동 일대)",
+        "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+        "source_grade": "A",
+        "flags": ["coords-unverified"]
+      },
+      "timeline": [
+        {
+          "year": 1397,
+          "event": "한성부 준수방 태종 사저에서 태종과 원경왕후 민씨의 셋째 아들로 출생(음력 4월 10일). 이름 이도(李祹).",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1418,
+          "event": "세자에 책봉(음력 6월)된 뒤 같은 해 음력 8월 태종의 양위를 받아 경복궁 근정전에서 즉위.",
+          "place_id": "gyeongbokgung",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1420,
+          "event": "집현전(集賢殿)을 설치하여 학문 연구 기관으로 운영.",
+          "place_id": "gyeongbokgung",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1434,
+          "event": "물시계 자격루(自擊漏)를 보루각에 설치하고, 금속활자 갑인자(甲寅字)를 주조.",
+          "place_id": "gyeongbokgung",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1434,
+          "event": "북방 여진 지역에 4군 6진 개척에 착수(1434~1443).",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i300200&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1441,
+          "event": "측우기(測雨器)와 수표(水標)를 제작하여 강우량 측정 제도를 마련.",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1443,
+          "event": "훈민정음(訓民正音) 28자를 창제(음력 12월).",
+          "place_id": "gyeongbokgung",
+          "source_url": "https://ko.wikipedia.org/wiki/%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8C",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1446,
+          "event": "훈민정음을 반포(음력 9월). 해설서 『훈민정음』(해례본) 간행.",
+          "place_id": "gyeongbokgung",
+          "source_url": "https://contents.history.go.kr/mobile/km/view.do?levelId=km_037_0070_0020_0010",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1450,
+          "event": "사망(음력 2월 17일). 한성부에서 재위 31년 만에 승하. 묘호 세종(世宗).",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1469,
+          "event": "왕비 소헌왕후와 합장된 능을 한성부 인근 헌릉 서쪽에서 경기도 여주로 천장(遷葬). 능호 영릉(英陵).",
+          "place_id": "yeongneung-sejong",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0037362",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "gyeongbokgung",
+          "name": "경복궁(景福宮)",
+          "lat": null,
+          "lng": null,
+          "type": "궁궐",
+          "source_url": "https://royal.khs.go.kr/ROYAL/contents/menuInfo-gbg.do?grpCode=rtm",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "yeongneung-sejong",
+          "name": "여주 영릉(英陵, 세종대왕릉)",
+          "lat": null,
+          "lng": null,
+          "type": "능",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0037362",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        {
+          "title": "훈민정음(訓民正音)",
+          "year": 1446,
+          "note": "28자의 새 문자 체계. 1443년 창제, 1446년 반포. 해설서 해례본 간행.",
+          "quote": "나랏말ᄊᆞ미 듕귁에 달아 문ᄍᆞ와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+          "quote_source": "세종어제훈민정음(訓民正音 諺解本) 서문, 『월인석보』(1459) 권두 합본",
+          "source_url": "https://ko.wikisource.org/wiki/%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8C%EC%96%B8%ED%95%B4",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "갑인자(甲寅字)",
+          "year": 1434,
+          "note": "구리로 주조한 금속활자. 1434년(세종 16) 주조.",
+          "quote": "",
+          "quote_source": "",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "측우기(測雨器)",
+          "year": 1441,
+          "note": "강우량 측정 기구. 1441년(세종 23) 제작.",
+          "quote": "",
+          "quote_source": "",
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n305800&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["coords-unverified"],
+      "note": "생몰: 1397-05-15(음력 4.10) ~ 1450-04-08(음력 2.17). 본명 이도(李祹), 묘호 세종(世宗). 출생지는 한성부 준수방으로 우리역사넷(국사편찬위원회)에 명시되나, 준수방의 현재 행정구역 비정(종로구 통인동·옥인동 일대)에는 세부 이설이 있어 좌표 null 처리. 훈민정음 언해본 서문 인용은 1459년 『월인석보』 권두 합본 세종어제훈민정음의 위키문헌(위키소스) 전사본을 출전으로 하되 1차 사료 원문 자체는 공유저작물. 능(영릉)은 1450년 한성 인근 헌릉 서쪽에 처음 조성되었다가 1469년 경기 여주로 천장됨. 모든 연고 장소의 정확 좌표는 국가유산청·민백 공식 텍스트에 수치로 게재되지 않아 null + coords-unverified."
+    },
+    {
+      "id": "yi-sun-sin",
+      "name_ko": "이순신",
+      "name_en": "Yi Sun-sin",
+      "field": "조선 무신(수군 장수)",
+      "birth_year": 1545,
+      "death_year": 1598,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "한성부 건천동(乾川洞) (현 서울 중구 인현동 부근)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
+        "source_grade": "A",
+        "flags": ["coords-unverified", "birthplace-disputed"]
+      },
+      "timeline": [
+        {
+          "year": 1545,
+          "event": "한성부 건천동(현 서울 중구 인현동 부근)에서 출생(음력 3월 8일). 본관 덕수(德水), 자 여해(汝諧).",
+          "place_id": "yi-birthplace-marker",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
+          "source_grade": "A",
+          "flags": ["birthplace-disputed"]
+        },
+        {
+          "year": 1576,
+          "event": "식년 무과에 급제하여 관직에 나아감.",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1591,
+          "event": "전라좌도 수군절도사(전라좌수사)에 임명됨.",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1592,
+          "event": "임진왜란 발발. 옥포해전(음력 5월) 등에서 일본 수군과 교전.",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309000&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1592,
+          "event": "한산도 앞바다 해전(음력 7월, 한산도대첩)에서 견내량의 일본 함대와 교전.",
+          "place_id": "hansando-yusok",
+          "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0061676",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1593,
+          "event": "삼도수군통제사(三道水軍統制使)에 임명되어 한산도에 통제영을 둠.",
+          "place_id": "hansando-yusok",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1597,
+          "event": "삼도수군통제사에서 파직되어 한성으로 압송된 뒤 백의종군(白衣從軍)함.",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044900",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1597,
+          "event": "칠천량해전(음력 7월)에서 조선 수군이 패한 뒤 삼도수군통제사에 재임명됨.",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0058551",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1597,
+          "event": "명량(울돌목, 전남 진도-해남 사이 해협) 해전(음력 9월 16일)에서 일본 수군과 교전.",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0018250",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1598,
+          "event": "노량(경남 남해 노량 앞바다) 해전(음력 11월 19일) 중 전사. 향년 54세.",
+          "place_id": null,
+          "source_url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n309000&code=kc_age_30",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1599,
+          "event": "충청남도 아산 금성산 동남쪽 자락에 안장됨(음력 2월 11일).",
+          "place_id": "yi-tomb-asan",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046283",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1614,
+          "event": "묘를 현재 위치인 아산 음봉면 어라산 남쪽으로 이장.",
+          "place_id": "yi-tomb-asan",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046283",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "hyeonchungsa",
+          "name": "아산 현충사(顯忠祠)",
+          "lat": null,
+          "lng": null,
+          "type": "사당",
+          "source_url": "https://hcs.khs.go.kr/html/HtmlPage.do?pg=/n_hcs/hcs/hcs0101.jsp&mn=HCS_01_01_01",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "yi-tomb-asan",
+          "name": "아산 이충무공 묘(牙山 李忠武公 墓)",
+          "lat": null,
+          "lng": null,
+          "type": "묘",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0046283",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "hansando-yusok",
+          "name": "통영 한산도 이충무공 유적(제승당)",
+          "lat": null,
+          "lng": null,
+          "type": "유적",
+          "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333801130000",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "yi-birthplace-marker",
+          "name": "충무공 이순신 생가터 표석(서울 중구 인현동)",
+          "lat": null,
+          "lng": null,
+          "type": "유적",
+          "source_url": "https://mediahub.seoul.go.kr/archives/2009898",
+          "source_grade": "B",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        {
+          "title": "난중일기(亂中日記)",
+          "year": 1592,
+          "note": "임진왜란 7년간(1592~1598) 기록한 친필 일기. 국보로 지정(1962, 국보 제76호 '이순신 난중일기 및 서간첩 임진장초'), 현충사 소장. 2013년 유네스코 세계기록유산 등재.",
+          "quote": "",
+          "quote_source": "이순신 난중일기 및 서간첩 임진장초(국보), 현충사 소장",
+          "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1113400760000",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "한산도가(閑山島歌)",
+          "year": 1595,
+          "note": "한산도 통제영 시기 지은 시조로 전함. 음력 1595년 8월 한산도에서 지은 것으로 알려짐.",
+          "quote": "한산섬 달 밝은 밤에 수루에 혼자 앉아 / 큰 칼 옆에 차고 깊은 시름 하는 차에 / 어디서 일성호가는 남의 애를 끊나니",
+          "quote_source": "한산도가(이순신 시조), 『난중일기』 을미년(1595) 8월 기록과 연관",
+          "source_url": "https://namu.wiki/w/%ED%95%9C%EC%82%B0%EB%8F%84%EA%B0%80",
+          "source_grade": "C",
+          "flags": ["wiki-only"]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["coords-unverified", "birthplace-disputed"],
+      "note": "생몰: 1545-04-28(음력 3.8) ~ 1598-12-16(음력 11.19, 노량해전 중 전사). 본관 덕수(德水), 자 여해(汝諧), 시호 충무(忠武). 날짜는 모두 음력 기준이며 양력 환산일을 병기. 출생지: 한국민족문화대백과사전은 '한성부 건천동(현 중구 인현동 부근)'으로 명시 → birthplace-disputed는 건천동의 현재 정확 지번 비정에 이설이 있음을 표시(서울시 자료는 인현동1가 31-2 신도빌딩 부근, 1985년 표석은 초동 명보아트홀 앞에 별도 설치). 좌표는 어느 공식 출처도 수치를 게재하지 않아 전부 null + coords-unverified. 한산도가 원문 텍스트는 공유저작물이나, 표기·출전을 단일 권위 출처로 확정하지 못해(난중일기 본문에 시조 형태로 직접 수록된 것이 아님) source_grade=C, wiki-only로 보수 처리; 다만 작품 존재·시기 사실 자체는 검증됨."
+    }
+  ]
+}

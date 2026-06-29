@@ -1,0 +1,334 @@
+{
+  "people": [
+    {
+      "id": "kim-yujeong",
+      "name_ko": "김유정",
+      "name_en": "Kim Yu-jeong",
+      "field": "소설가",
+      "birth_year": 1908,
+      "death_year": 1937,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "강원도 춘천(실레마을, 현 강원특별자치도 춘천시 신동면 증리). 도로명 참고: 강원특별자치도 춘천시 신동면 김유정로 1430-14 (김유정문학촌 내 복원 생가)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+        "source_grade": "A",
+        "flags": ["coords-unverified"]
+      },
+      "timeline": [
+        {
+          "year": 1908,
+          "event": "강원도 춘천(실레마을)에서 출생",
+          "place_id": "kim-yujeong-literature-village",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": ["birthdate-variant"]
+        },
+        {
+          "year": 1920,
+          "event": "12세 무렵 서울 재동공립보통학교 입학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": ["year-approx"]
+        },
+        {
+          "year": 1929,
+          "event": "휘문고등보통학교 졸업",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1930,
+          "event": "연희전문학교 문과 진학 후 중퇴",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1932,
+          "event": "고향 실레마을에 금병의숙(錦屛義塾) 설립",
+          "place_id": "kim-yujeong-literature-village",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1935,
+          "event": "「소낙비」가 『조선일보』, 「노다지」가 『중앙일보』 신춘문예에 당선되어 등단",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1935,
+          "event": "단편소설 「봄봄」을 『조광(朝光)』에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0023781",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1936,
+          "event": "단편소설 「동백꽃」 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1937,
+          "event": "「땡볕」·「따라지」 등 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1937,
+          "event": "사망(30세)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": ["deathplace-variant"]
+        }
+      ],
+      "places": [
+        {
+          "id": "kim-yujeong-literature-village",
+          "name": "김유정문학촌(복원 생가·기념전시관)",
+          "lat": null,
+          "lng": null,
+          "type": "문학촌·생가",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0070553",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "kim-yujeong-station",
+          "name": "김유정역(옛 신남역)",
+          "lat": null,
+          "lng": null,
+          "type": "기념지(철도역)",
+          "source_url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%9C%A0%EC%A0%95%EC%97%AD",
+          "source_grade": "C",
+          "flags": ["coords-unverified", "wiki-only"]
+        }
+      ],
+      "works": [
+        {
+          "title": "동백꽃",
+          "year": 1936,
+          "note": "강원도 농촌 마을을 배경으로 한 단편소설. 1936년 발표.",
+          "quote": "오늘도 또 우리 수탉이 막 쫓기었다.",
+          "quote_source": "김유정 「동백꽃」 첫 문장. 위키문헌(저작권 소멸 1차 텍스트) 대조. https://ko.wikisource.org/wiki/%EB%8F%99%EB%B0%B1%EA%BD%83",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0010093",
+          "source_grade": "A",
+          "flags": ["quote-source-wiki"]
+        },
+        {
+          "title": "봄봄",
+          "year": 1935,
+          "note": "데릴사위로 들어간 '나'와 장인 봉필, 점순이를 다룬 단편소설. 1935년 12월 『조광(朝光)』 발표.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0023781",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "소낙비",
+          "year": 1935,
+          "note": "1935년 『조선일보』 신춘문예 당선작.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0029957",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["birthdate-variant", "deathplace-variant", "coords-unverified"],
+      "note": "본명 金裕貞, 본관 청풍(淸風). 생년 1908·몰년 1937은 한국민족문화대백과사전(A) 확정. 정확한 생몰 월일(양력 1908-02-12 / 음력 1908-01-11 출생, 1937-03-29 사망)과 사망지(경기도 광주군 중부면 상산곡리, 폐결핵)는 백과사전 A급 본문에 연도만 명시되고 월일·사망지는 위키백과 등(C급)에만 상세 기재되어 birthdate-variant·deathplace-variant 플래그로 보존. 출생지 실레마을은 현 강원특별자치도 춘천시 신동면 증리. 김유정문학촌(복원 생가·기념전시관)은 2002년 8월 개관, 도로명 강원특별자치도 춘천시 신동면 김유정로 1430-14(실레길 25); 공식 출처에 좌표값 미기재로 lat/lng=null(coords-unverified), 주소는 birthplace.admin에 보존. 김유정역은 1939년 신남역으로 개업, 2004년 12월 1일 한국 철도 최초 인명 역명으로 개명; 도로명 춘천시 신동면 김유정로 1435(증리 945-2), 공식 좌표 미확보로 null이며 출처가 위키백과 단독이라 source_grade=C·wiki-only. 「소낙비」 신춘문예 당선지는 출처별로 조선일보(백과사전)·일부 자료 차이 있으나 백과사전 A급 채택. works의 동백꽃 quote는 저작권 소멸(1937 작고) 1차 텍스트로 위키문헌 대조(quote-source-wiki); 봄봄·소낙비는 백과사전 작품 항목에 본문 인용이 없어 quote=null(추측 금지)."
+    },
+    {
+      "id": "lee-yuksa",
+      "name_ko": "이육사",
+      "name_en": "Lee Yuk-sa",
+      "field": "시인·독립운동가",
+      "birth_year": 1904,
+      "death_year": 1944,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경상북도 안동시 도산면 원촌리(원천리) 881번지",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+        "source_grade": "A",
+        "flags": ["coords-unverified", "admin-name-variant"]
+      },
+      "timeline": [
+        {
+          "year": 1904,
+          "event": "경상북도 안동(도산면 원촌리)에서 출생",
+          "place_id": "lee-yuksa-birth-house",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1925,
+          "event": "형 이원기·아우 이원유와 함께 의열단 가입",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1927,
+          "event": "장진홍의 조선은행 대구지점 폭파사건에 연루되어 대구형무소 투옥(수감번호 264, 아호 '육사'의 유래)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1929,
+          "event": "광주학생운동 관련 연루",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1930,
+          "event": "대구 격문사건 관련 연루",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1939,
+          "event": "시 「청포도」를 『문장』에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1940,
+          "event": "시 「절정」을 『문장』에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0049814",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1943,
+          "event": "가을 서울에서 체포되어 베이징으로 압송",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1944,
+          "event": "1월 베이징 감옥에서 순국",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045444",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1945,
+          "event": "유고시 「광야」가 동생 이원조에 의해 『자유신문』(12월 17일)에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0005168",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1946,
+          "event": "『육사시집(陸史詩集)』 발간",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042106",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "lee-yuksa-literature-museum",
+          "name": "이육사문학관",
+          "lat": null,
+          "lng": null,
+          "type": "문학관",
+          "source_url": "http://www.tourandong.com/map/resource.cshtml?seq=194",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "lee-yuksa-birth-house",
+          "name": "이육사 생가(안동댐 수몰로 이전)",
+          "lat": null,
+          "lng": null,
+          "type": "생가",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0045445",
+          "source_grade": "A",
+          "flags": ["coords-unverified", "relocated"]
+        },
+        {
+          "id": "lee-yuksa-grave",
+          "name": "이육사 묘소",
+          "lat": null,
+          "lng": null,
+          "type": "묘",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%9C%A1%EC%82%AC",
+          "source_grade": "C",
+          "flags": ["coords-unverified", "wiki-only", "relocated"]
+        }
+      ],
+      "works": [
+        {
+          "title": "광야(曠野)",
+          "year": 1945,
+          "note": "유고시. 1945년 12월 17일 『자유신문』 발표, 1946년 『육사시집』 수록.",
+          "quote": "다시 천고(千古)의 뒤에 / 백마 타고 오는 초인(超人)이 있어 / 이 광야에서 목놓아 부르게 하리라",
+          "quote_source": "이육사 「광야」 마지막 연. 1945 『자유신문』·1946 『육사시집』 게재본 기준, 위키문헌 대조. https://ko.wikisource.org/wiki/%EA%B4%91%EC%95%BC_(%EC%9D%B4%EC%9C%A1%EC%82%AC)",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0005168",
+          "source_grade": "A",
+          "flags": ["quote-source-wiki"]
+        },
+        {
+          "title": "절정(絶頂)",
+          "year": 1940,
+          "note": "1940년 1월 『문장』 발표.",
+          "quote": "겨울은 강철로 된 무지갠가 보다",
+          "quote_source": "이육사 「절정」 마지막 행. 1940 『문장』 발표작, 위키문헌 대조. https://ko.wikisource.org/wiki/%EC%A0%88%EC%A0%95",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0049814",
+          "source_grade": "A",
+          "flags": ["quote-source-wiki"]
+        },
+        {
+          "title": "청포도(靑葡萄)",
+          "year": 1939,
+          "note": "1939년 8월 『문장』 발표.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0056822",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["admin-name-variant", "coords-unverified"],
+      "note": "본명 이원록(李源綠), 이명 이원삼(李源三), 자 태경(台卿). 아호 육사(陸史)는 대구형무소 수감번호 264(二六四)에서 취음. 생년 1904·몰년 1944는 한국민족문화대백과사전(A) 확정. 순국 일자는 1944년 1월(자료에 따라 1월 16일 새벽, 베이징 일본총영사관 감옥/지하감옥)로 전하나 백과사전 본문은 '1944년 1월'까지 명시. 출생지 행정구역은 도산면 '원촌리'와 '원천리(원천동)' 표기가 혼재하여 admin-name-variant 플래그(같은 지역). 이육사문학관은 2004년(육사 탄신 100주년) 개관, 도로명 경상북도 안동시 도산면 백운로 525이며 공식 출처에 좌표값 미기재로 null(coords-unverified). 생가는 본래 도산면 원촌리에 있었으나 안동댐 수몰로 1976년 이전(현 안동시 포도길 8, 태화동), 1973년 경상북도 민속자료 지정 — relocated 플래그, 공식 좌표 미확보로 null. 묘소는 베이징·미아리공동묘지를 거쳐 원촌 뒷산에 안장, 2023년 4월 이육사문학관 옆으로 이장된 것으로 전하나 1차 공식 출처 확정 좌표가 없고 출처가 위키백과 단독이라 source_grade=C·wiki-only·relocated. works의 광야·절정 quote는 저작권 소멸(1944 작고) 1차 시 텍스트로, 발표지(『자유신문』·『문장』) 기준이되 백과사전 작품 항목에 본문 직접 인용이 없어 위키문헌으로 글자 대조(quote-source-wiki); 청포도는 본문 인용을 확정하지 못해 quote=null(추측 금지)."
+    }
+  ]
+}

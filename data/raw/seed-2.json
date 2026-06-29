@@ -1,0 +1,154 @@
+{
+  "people": [
+    {
+      "id": "jeon-hyeokrim",
+      "name_ko": "전혁림",
+      "name_en": "Jeon Hyeok-rim",
+      "field": "화가",
+      "birth_year": 1916,
+      "death_year": 2010,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경상남도 통영시 무전동 478번지",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0074270",
+        "source_grade": "A"
+      },
+      "places": [
+        {
+          "id": "jeon-hyeokrim-museum",
+          "name": "전혁림미술관",
+          "lat": 34.8264,
+          "lng": 128.4150,
+          "type": "미술관",
+          "source_url": "https://triple.guide/attractions/2b705dd0-f1df-428b-bffb-68e048d7d446",
+          "source_grade": "C",
+          "address": "경상남도 통영시 봉수1길 10 (봉평동 189-2), 2003년 개관",
+          "address_source_url": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=deb73627-f0ca-40de-94d7-202ce22ef3f6",
+          "address_source_grade": "A",
+          "flags": ["coords-nonofficial-source"]
+        }
+      ],
+      "works": [
+        { "title": "늪", "year": 1953, "note": "제2회 대한민국미술전람회(국전) 출품작, 문교부장관상 수상" },
+        { "title": "정물", "year": 1949, "note": "제1회 대한민국미술전람회 입선작" },
+        { "title": "월광", "year": 1938, "note": "부산미술전 입선작" }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["birthplace-coords-unverified"]
+    },
+    {
+      "id": "kim-sangok",
+      "name_ko": "김상옥",
+      "name_en": "Kim Sang-ok",
+      "field": "시조시인",
+      "birth_year": 1920,
+      "death_year": 2004,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경상남도 통영시 항남동 64번지",
+        "source_url": "https://www.welfarehello.com/community/hometownNews/b8ca6f3b-d50f-449e-8c89-53fe83809ea2",
+        "source_grade": "B"
+      },
+      "places": [
+        {
+          "id": "kim-sangok-birthhouse",
+          "name": "통영 김상옥 생가 (김상옥기념관)",
+          "lat": 34.8431,
+          "lng": 128.4222,
+          "type": "생가/기념관",
+          "source_url": "https://www.welfarehello.com/community/hometownNews/b8ca6f3b-d50f-449e-8c89-53fe83809ea2",
+          "source_grade": "C",
+          "address": "경상남도 통영시 항남1번가길 13, 국가등록문화유산(등록일 2020-03-09), 2026년 김상옥기념관으로 개관",
+          "address_source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaKdcd=79&ccbaAsno=07770800&ccbaCtcd=38",
+          "address_source_grade": "A",
+          "flags": ["coords-nonofficial-source"]
+        }
+      ],
+      "works": [
+        { "title": "봉선화", "year": 1939, "note": "이병기 추천으로 잡지 '문장'에 발표한 등단 시조" },
+        { "title": "초적(草笛)", "year": 1947, "note": "첫 시조집" },
+        { "title": "이단의 시", "year": 1949, "note": "시집" },
+        { "title": "느티나무의 말", "year": 1998, "note": "시집" }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["birthplace-coords-unverified"]
+    },
+    {
+      "id": "kim-yongik",
+      "name_ko": "김용익",
+      "name_en": "Kim Yong-ik",
+      "field": "소설가",
+      "birth_year": 1920,
+      "death_year": 1995,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경상남도 통영시 태평동 22번지",
+        "source_url": "https://www.hanryeotoday.com/news/articleView.html?idxno=5889",
+        "source_grade": "B"
+      },
+      "places": [
+        {
+          "id": "kim-yongsik-yongik-memorial",
+          "name": "김용식·김용익 기념관",
+          "lat": 34.8486,
+          "lng": 128.4270,
+          "type": "기념관",
+          "source_url": "https://www.welfarehello.com/community/hometownNews/73c5adfb-2c6b-49b7-a6ee-9cb49949c041",
+          "source_grade": "C",
+          "address": "경상남도 통영시 주전3길 18 (태평동), 2013-04-17 개관, 생가를 리모델링",
+          "address_source_url": "https://www.hanryeotoday.com/news/articleView.html?idxno=5889",
+          "address_source_grade": "B",
+          "flags": ["coords-nonofficial-source", "shared-with-brother-kim-yongsik"]
+        },
+        {
+          "id": "kim-yongik-grave",
+          "name": "김용익 묘소 (용남면 동달리 오촌마을)",
+          "lat": null,
+          "lng": null,
+          "type": "묘소",
+          "source_url": "https://www.hanryeotoday.com/news/articleView.html?idxno=5889",
+          "source_grade": "B",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        { "title": "꽃신 (The Wedding Shoes)", "year": 1956, "note": "미국 문예지 'Harper's Bazaar'에 발표한 영문 단편소설" },
+        { "title": "해녀 (The Sea Girl)", "year": null, "note": "영문 단편소설, 미국 중고등학교 교과서에 수록", "note_flag": "year-unverified" },
+        { "title": "행복의 계절 (The Happy Days)", "year": null, "note": "영문 소설, 영국·서독·덴마크·뉴질랜드 등에서 출판", "note_flag": "year-unverified" }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": ["birthplace-coords-unverified"]
+    },
+    {
+      "id": "jeong-yunju",
+      "name_ko": "정윤주",
+      "name_en": "Jeong Yun-ju",
+      "field": "작곡가",
+      "birth_year": 1918,
+      "death_year": 1997,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경상남도 통영시 (구체 행정구역 미확인)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0072395",
+        "source_grade": "A"
+      },
+      "places": [],
+      "works": [
+        { "title": "까치의 죽음", "year": 1957, "note": "무용조곡, 제1회 한국작곡콩쿠르 1등 수상작" },
+        { "title": "성춘향", "year": 1961, "note": "영화음악" },
+        { "title": "벙어리 삼룡이", "year": 1964, "note": "영화음악" },
+        { "title": "황병기 주제에 의한 가야금 협주곡", "year": 1981, "note": "국악기 협주곡" }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["birthplace-coords-unverified", "no-verified-memorial-place"]
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "people": [
+    {
+      "id": "yun-dongju",
+      "name_ko": "윤동주",
+      "name_en": "Yun Dong-ju",
+      "field": "시인",
+      "birth_year": 1917,
+      "death_year": 1945,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "중국 지린성 옌볜 룽징시 명동촌(明東村) (북간도). 당시 만주, 현재 중화인민공화국 영토",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+        "source_grade": "A",
+        "flags": ["coords-unverified", "overseas"]
+      },
+      "timeline": [
+        {
+          "year": 1917,
+          "event": "북간도 명동촌에서 출생 (1917년 12월 30일). 아명 해환(海煥), 본관 파평",
+          "place_id": "yun-dongju-birthplace-myeongdong",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1931,
+          "event": "명동소학교 졸업 후 은진중학교 입학",
+          "place_id": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%8F%99%EC%A3%BC",
+          "source_grade": "C",
+          "flags": ["wiki-only"]
+        },
+        {
+          "year": 1935,
+          "event": "평양 숭실중학교로 편입(전학)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1936,
+          "event": "광명학원 중학부로 편입. 이 무렵부터 동시(童詩) 발표 시작",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1938,
+          "event": "서울 연희전문학교 문과 입학 (1938년 4월)",
+          "place_id": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%8F%99%EC%A3%BC",
+          "source_grade": "C",
+          "flags": ["wiki-only"]
+        },
+        {
+          "year": 1941,
+          "event": "연희전문학교 졸업. 자선 시집 발간을 시도했으나 무산됨. '서시'(11월 20일)·'별 헤는 밤' 창작",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1942,
+          "event": "일본 유학. 도쿄 릿쿄대학 영문과 입학(3월) 후 같은 해 가을 교토 도시샤대학 영문과로 전학(편입)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        },
+        {
+          "year": 1943,
+          "event": "치안유지법 위반(사상범) 혐의로 고종사촌 송몽규와 함께 일본 경찰에 체포됨 (1943년 7월 14일, 교토). 이후 징역 2년 선고",
+          "place_id": null,
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%8F%99%EC%A3%BC",
+          "source_grade": "C",
+          "flags": ["wiki-only", "overseas"]
+        },
+        {
+          "year": 1945,
+          "event": "일본 후쿠오카 형무소에서 옥사 (1945년 2월 16일, 향년 27세)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        },
+        {
+          "year": 1948,
+          "event": "유고 시집 『하늘과 바람과 별과 시』 발간 (정음사). 초간본 31편 수록",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1990,
+          "event": "대한민국 정부, 건국훈장 독립장 추서",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "yun-dongju-literature-museum",
+          "name": "윤동주문학관",
+          "lat": null,
+          "lng": null,
+          "type": "문학관",
+          "source_url": "https://www.jfac.or.kr/site/main/content/yoondj04",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "yun-dongju-birthplace-myeongdong",
+          "name": "윤동주 생가 (명동촌)",
+          "lat": null,
+          "lng": null,
+          "type": "생가",
+          "source_url": "https://www.khs.go.kr/cop/bbs/selectBoardArticle.do?nttId=74712&bbsId=BBSMSTR_1008&mn=NS_01_09_01",
+          "source_grade": "A",
+          "flags": ["coords-unverified", "overseas"]
+        },
+        {
+          "id": "yun-dongju-grave-longjing",
+          "name": "윤동주 묘소 (룽징 동산 묘지)",
+          "lat": null,
+          "lng": null,
+          "type": "묘소",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%8F%99%EC%A3%BC",
+          "source_grade": "C",
+          "flags": ["coords-unverified", "overseas", "wiki-only"]
+        }
+      ],
+      "works": [
+        {
+          "title": "서시(序詩)",
+          "year": 1941,
+          "note": "시. 1941년 11월 20일 창작. 유고 시집 『하늘과 바람과 별과 시』(1948) 서두에 수록되며 '서시'라는 제목이 붙음",
+          "quote": "죽는 날까지 하늘을 우러러 한 점 부끄럼이 없기를",
+          "quote_source": "서시",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "별 헤는 밤",
+          "year": 1941,
+          "note": "시. 1941년 창작(공유마당 공표년도 1941). 유고 시집 『하늘과 바람과 별과 시』(1948) 수록",
+          "quote": "계절이 지나가는 하늘에는 가을로 가득 차 있습니다",
+          "quote_source": "별 헤는 밤",
+          "source_url": "https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=9000761&menuNo=200019",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "하늘과 바람과 별과 시",
+          "year": 1948,
+          "note": "유고 시집. 정음사 발행. 초간본 31편 수록",
+          "quote": "",
+          "quote_source": "",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0042294",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["overseas-birthplace", "coords-unverified"],
+      "note": "생몰: 1917-12-30(북간도 명동촌) ~ 1945-02-16(일본 후쿠오카 형무소 옥사). 본관 파평, 아명 해환. 출생지·생가·묘소는 모두 현 중국 지린성 룽징시(당시 만주 북간도)에 있어 해외 소재이며, 한국 공식 출처에 위경도 수치가 명시되지 않아 lat/lng=null + coords-unverified 처리. 윤동주문학관(종로구 창의문로 119, 청운동 3-100)은 옛 청운수도가압장을 리모델링하여 2012년 7월 25일 개관(종로문화재단 운영); 도로명 주소는 A급으로 확인되나 공식 페이지에 위경도 수치가 없어 coords-unverified. 일본 유학은 릿쿄대학 입학(1942.3) 후 도시샤대학 전학(1942 가을)으로, 1차 검색에서 누락되기 쉬운 사실. 체포일 1943-07-14는 위키백과 기준(encykorea는 '1943년 7월'까지만 명시)."
+    },
+    {
+      "id": "yi-sang",
+      "name_ko": "이상",
+      "name_en": "Yi Sang",
+      "field": "시인·소설가",
+      "birth_year": 1910,
+      "death_year": 1937,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "경성부 북부 순화방 반정동 4통 6호 (현 서울 종로구 일대). 제적부상 본적은 경성부 통동(현 통인동) 154번지",
+        "source_url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%83%81_(%EC%9E%91%EA%B0%80)",
+        "source_grade": "C",
+        "flags": ["coords-unverified", "wiki-only"]
+      },
+      "timeline": [
+        {
+          "year": 1910,
+          "event": "경성부 순화방 반정동에서 출생 (1910년 9월 23일). 본명 김해경(金海卿), 본관 강릉. 부 김연창·모 박세창의 2남 1녀 중 장남",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1913,
+          "event": "백부 김연필의 집(통인동)에 입양되다시피 들어가 성장",
+          "place_id": "yi-sang-house",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%83%81_(%EC%9E%91%EA%B0%80)",
+          "source_grade": "C",
+          "flags": ["wiki-only"]
+        },
+        {
+          "year": 1921,
+          "event": "누상동 신명학교 졸업",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1926,
+          "event": "동광학교(후에 보성고등보통학교에 병합) 졸업",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1929,
+          "event": "경성고등공업학교 건축과 졸업. 같은 해 조선총독부 내무국 건축과 기사로 임용",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1930,
+          "event": "장편소설 '12월 12일'을 잡지 『조선』에 연재",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1933,
+          "event": "총독부 기사직 퇴직 후 다방·카페 경영. 시 '거울'을 『가톨릭청년』에 발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1934,
+          "event": "구인회(九人會) 가입. 연작시 '오감도(烏瞰圖)'를 『조선중앙일보』에 연재(독자 항의로 15편 만에 중단)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1936,
+          "event": "결혼. 단편소설 '날개'를 『조광』 9월호에 발표. 같은 해 6월경 일본 도쿄로 건너감",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1937,
+          "event": "도쿄에서 사상불온 혐의로 니시칸다 경찰서에 구금되었다가 병보석. 도쿄제국대학 부속병원에서 사망 (1937년 4월 17일, 향년 27세)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        }
+      ],
+      "places": [
+        {
+          "id": "yi-sang-house",
+          "name": "이상의 집",
+          "lat": null,
+          "lng": null,
+          "type": "기념관",
+          "source_url": "https://m.tripinfo.co.kr/info.html?content_id=3044977&content_type_id=12",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        {
+          "title": "오감도(烏瞰圖)",
+          "year": 1934,
+          "note": "연작시. 1934년 『조선중앙일보』 연재. 30편 예정이었으나 독자 항의로 15편(제1호~제15호)에서 중단",
+          "quote": "13인의아해가도로로질주하오 (길은막다른골목이적당하오)",
+          "quote_source": "오감도 시제1호",
+          "source_url": "https://ko.wikisource.org/wiki/%EC%98%A4%EA%B0%90%EB%8F%84",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "거울",
+          "year": 1933,
+          "note": "시. 1933년 『가톨릭청년』 발표",
+          "quote": "거울속에는소리가없소 저렇게까지조용한세상은참없을것이오",
+          "quote_source": "거울",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "날개",
+          "year": 1936,
+          "note": "단편소설. 1936년 『조광』 9월호 발표",
+          "quote": "박제가 되어버린 천재를 아시오?",
+          "quote_source": "날개",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0044568",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["birthplace-disputed", "coords-unverified"],
+      "note": "본명 김해경(金海卿), 본관 강릉. 생몰: 1910-09-23(경성부 순화방 반정동, 위키백과 기준 음력 8.20) ~ 1937-04-17(도쿄제국대학 부속병원). 한국민족문화대백과사전(A급)은 출생연도 1910과 '서울 출신'까지만 명시하고 정확한 생년월일·서울 내 세부 지명·사망 월일은 기재하지 않음 → 생년월일(9.23)·출생지 세부(순화방 반정동)·본적(통인동 154)·사망일(4.17)은 위키백과(C급) 보완. 출생지는 출생 당시 거주지(순화방 반정동)와 제적부상 본적(통인동 154)이 구분되어 기록상 다소 혼선이 있어 birthplace-disputed 플래그. '이상의 집'(종로구 자하문로7길 18, 통인동 154-10)은 백부 집터의 일부로, 이상이 3~23세 거주·활동한 곳에 문화유산국민신탁이 2009년 매입·복원하여 기념공간으로 운영(현 건물은 이상이 살던 원건물은 아님); 도로명 주소는 A급으로 확인되나 공식 출처에 위경도 수치가 없어 coords-unverified. 묘소: 사후 미아리 공동묘지에 안장되었으나 이후 미아리 일대 묘지가 망우리로 이장되는 과정에서 무연고묘로 처리·유실된 것으로 알려져 현재 방문 가능한 묘가 존재하지 않으므로 places에 묘소 항목을 넣지 않음."
+    }
+  ]
+}

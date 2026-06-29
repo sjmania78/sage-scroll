@@ -1,0 +1,530 @@
+{
+  "people": [
+    {
+      "id": "han-yongun",
+      "name_ko": "한용운",
+      "name_en": "Han Yong-un",
+      "field": "시인·승려·독립운동가",
+      "birth_year": 1879,
+      "death_year": 1944,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "충청남도 홍성군 결성면 성곡리 (생가지 도로명: 충남 홍성군 결성면 만해로318번길 83)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+        "source_grade": "A",
+        "flags": ["coords-unverified"]
+      },
+      "timeline": [
+        {
+          "year": 1879,
+          "event": "충청남도 홍성에서 출생 (1879년 8월 29일). 본명 정옥(貞玉), 아명 유천(裕天), 본관 청주",
+          "place_id": "han-yongun-birthplace",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1896,
+          "event": "설악산 오세암(五歲庵)에 입산",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1905,
+          "event": "설악산 백담사(百潭寺)에서 연곡(連谷)을 은사로 득도(得度), 법명 용운(龍雲)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1908,
+          "event": "약 6개월간 일본(도쿄·교토) 방문",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        },
+        {
+          "year": 1910,
+          "event": "『조선불교유신론(朝鮮佛敎惟新論)』 저술",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1914,
+          "event": "『불교대전(佛敎大典)』·『채근담 주해본』 저술",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1918,
+          "event": "월간지 『유심(惟心)』 간행",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1919,
+          "event": "3·1운동에 민족대표 33인의 한 사람(불교계 대표)으로 참여, 독립선언서에 서명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1920,
+          "event": "3·1운동 주동자로 체포되어 3년간 복역",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": ["year-approx"]
+        },
+        {
+          "year": 1925,
+          "event": "『십현담주해(十玄談註解)』 탈고. 같은 해 8월 시 「님의 침묵」 탈고(8월 29일)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0013398",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1926,
+          "event": "시집 『님의 침묵(님의 沈默)』 발간(회동서관)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1927,
+          "event": "신간회(新幹會) 결성에 참여, 중앙집행위원 겸 경성지회장",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1944,
+          "event": "서울 성북동 심우장(尋牛莊)에서 사망 (1944년 6월 29일, 중풍)",
+          "place_id": "simujang",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "han-yongun-birthplace",
+          "name": "한용운 선생 생가지",
+          "lat": null,
+          "lng": null,
+          "type": "생가",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061854",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "simujang",
+          "name": "만해 한용운 심우장(尋牛莊)",
+          "lat": null,
+          "lng": null,
+          "type": "사적·고택",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0017767",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "han-yongun-grave",
+          "name": "한용운 묘소 (망우역사문화공원)",
+          "lat": null,
+          "lng": null,
+          "type": "묘소",
+          "source_url": "https://guri.grandculture.net/guri/toc/GC06132073",
+          "source_grade": "B",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        {
+          "title": "님의 침묵(님의 沈默)",
+          "year": 1926,
+          "note": "표제시 「님의 침묵」을 포함한 시집. 표제시는 1925년 8월 29일 탈고, 시집은 1926년 회동서관 발간.",
+          "quote": "님은 갔습니다. 아아, 사랑하는 나의 님은 갔습니다.",
+          "quote_source": "한용운 「님의 침묵」 첫 행, 위키문헌(위키소스) 원문",
+          "source_url": "https://ko.wikisource.org/wiki/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "조선불교유신론(朝鮮佛敎惟新論)",
+          "year": 1910,
+          "note": "불교 개혁론을 다룬 논저. 1910년 저술, 1913년 간행.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0061853",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "불교대전(佛敎大典)",
+          "year": 1914,
+          "note": "불교 경전을 분류·편찬한 책.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0077253",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["coords-unverified"],
+      "note": "본명 정옥(貞玉), 아명 유천(裕天), 법명 용운(龍雲), 법호 만해(萬海·卍海), 본관 청주. 생몰: 1879-08-29(충남 홍성) ~ 1944-06-29(서울 성북동 심우장, 중풍). 생몰연도는 한국민족문화대백과사전·우리역사넷 일치. 출생지는 충남 홍성군 결성면 성곡리이며, 생가지 도로명 주소는 충남 홍성군 결성면 만해로318번길 83(시도기념물, 1989-12-29 충청남도 지정) — 공식 페이지에 위경도 수치 미기재로 lat/lng=null + coords-unverified. 심우장은 서울 성북구 성북로29길 24(성북동)로, 1933년 조성, 1984-07-05 서울시 기념물 제7호 지정 후 2019-04-08 사적 제550호로 승격(국가유산청). 공식 출처에 좌표 수치 없어 null. 한용운 묘소는 망우역사문화공원(행정구역상 구리시, 화장 후 유해 안장)에 부인 유숙원 묘와 함께 조성, 2012-10-19 국가등록문화재 제519호 — encykorea 단독 항목이 없어 디지털구리문화대전(B급) 출처. 1920년 복역 시작은 자료에 따라 1919년 체포·1920년 형 확정 등 표기 차이가 있어 year-approx. 「님의 침묵」 인용은 한용운 작고(1944)로 저작권 보호기간이 만료된 1차 사료로, 위키문헌 원문 표기 채택."
+    },
+    {
+      "id": "sin-chaeho",
+      "name_ko": "신채호",
+      "name_en": "Sin Chae-ho",
+      "field": "사학자·언론인·독립운동가",
+      "birth_year": 1880,
+      "death_year": 1936,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "충청남도 대덕군 산내(출생) / 충청북도 청원(현 청주시) 낭성면 귀래리(성장). 출생지·성장지 이설 있음. 생가지(시도기념물) 도로명: 대전 중구 단재로229번길 47 (어남동)",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+        "source_grade": "A",
+        "flags": ["coords-unverified", "birthplace-disputed"]
+      },
+      "timeline": [
+        {
+          "year": 1880,
+          "event": "충청남도 대덕군 산내에서 출생, 충청북도 청원(낭성면 귀래리)에서 성장. 호 단재(丹齋)·일편단생(一片丹生), 본관 고령(高靈)",
+          "place_id": "sin-chaeho-birthplace",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": ["birthplace-disputed"]
+        },
+        {
+          "year": 1905,
+          "event": "성균관 박사 임명(2월). 이후 『황성신문(皇城新聞)』 기자로 활동",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1906,
+          "event": "『대한매일신보(大韓每日申報)』 주필 임명",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1908,
+          "event": "『독사신론(讀史新論)』 발표(대한매일신보 연재)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1910,
+          "event": "중국으로 망명(봄, 청도 거쳐 블라디보스토크)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        },
+        {
+          "year": 1919,
+          "event": "상해 대한민국임시정부 수립에 참여, 대한독립청년단 조직",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        },
+        {
+          "year": 1923,
+          "event": "의열단의 「조선혁명선언(朝鮮革命宣言)」 작성·발표",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        },
+        {
+          "year": 1928,
+          "event": "무정부주의동방연맹대회 참석(4월) 후 대만 기륭(基隆)에서 일본 경찰에 체포(5월)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        },
+        {
+          "year": 1930,
+          "event": "대련지방법원에서 10년형 선고(5월). 이후 여순(旅順)감옥 수감",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": ["overseas", "year-approx"]
+        },
+        {
+          "year": 1931,
+          "event": "『조선상고사(朝鮮上古史)』가 『조선일보』 학예란에 연재됨",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0052083",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1936,
+          "event": "여순감옥에서 사망 (뇌일혈, 향년 57세)",
+          "place_id": "sin-chaeho-shrine-grave",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        }
+      ],
+      "places": [
+        {
+          "id": "sin-chaeho-birthplace",
+          "name": "단재 신채호 선생 생가지",
+          "lat": null,
+          "lng": null,
+          "type": "생가",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0013654",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "sin-chaeho-shrine-grave",
+          "name": "청주 신채호 사당 및 묘소 (단재영각)",
+          "lat": null,
+          "lng": null,
+          "type": "사당·묘소",
+          "source_url": "https://encykorea.aks.ac.kr/Contents/Item/E0013653",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        {
+          "title": "조선상고사(朝鮮上古史)",
+          "year": 1931,
+          "note": "고대사 서술. 1931년 『조선일보』 학예란에 연재, 1948년 종로서원에서 단행본 간행. 제1편 총론에 역사 이론 전개.",
+          "quote": "역사란 무엇이뇨? 인류 사회의 '아(我)'와 '비아(非我)'의 투쟁이 시간으로 발전하며 공간으로 확대하는 심적(心的) 활동 상태의 기록이니라.",
+          "quote_source": "신채호 『조선상고사』 제1편 총론, 위키문헌(위키소스) 원문",
+          "source_url": "https://ko.wikisource.org/wiki/%EC%A1%B0%EC%84%A0%EC%83%81%EA%B3%A0%EC%82%AC/%EC%A0%9C1%ED%8E%B8",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "조선혁명선언(朝鮮革命宣言)",
+          "year": 1923,
+          "note": "의열단 선언문. 1922년 의열단장 김원봉의 초청으로 작성에 착수, 1923년 발표. '의열단 선언'으로도 불림.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "독사신론(讀史新論)",
+          "year": 1908,
+          "note": "역사 서술 방법론을 다룬 논설. 1908년 『대한매일신보』 연재.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0033432",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["birthplace-disputed", "coords-unverified"],
+      "note": "호 단재(丹齋)·일편단생(一片丹生)·단생(丹生), 본관 고령(高靈). 생몰: 1880(충남 대덕 산내 출생) ~ 1936(여순감옥, 뇌일혈). 생몰연도는 한국민족문화대백과사전·우리역사넷 일치. 출생지 이설: 한국민족문화대백과사전 본문은 '충청남도 대덕군 산내 출생, 충청북도 청원에서 성장'으로 기록하며, 생가지(시도기념물, 1991-07-10 대전광역시 지정)는 대전 중구 단재로229번길 47(어남동)에 소재 — birthplace-disputed 플래그(대전 어남동 출생설 vs 청주 낭성 귀래리 성장·연고). 성장지·사당·묘소는 충북 청주시 상당구 낭성면 귀래리(청주 신채호 사당 및 묘소, 충청북도 기념물, 1993-11-05 지정)에 있음. 두 연고지 모두 공식 페이지에 위경도 수치 미기재로 lat/lng=null + coords-unverified. 형 선고는 검색 요약에서 1929년 표기도 보이나 한국민족문화대백과사전 본문이 1930년 5월 대련지방법원으로 명시하여 본문 채택(year-approx). 「조선상고사」 인용은 신채호 작고(1936)로 저작권 보호기간이 만료된 1차 사료로, 위키문헌 원문 표기 채택."
+    },
+    {
+      "id": "jeong-jiyong",
+      "name_ko": "정지용",
+      "name_en": "Jeong Ji-yong",
+      "field": "시인",
+      "birth_year": 1902,
+      "death_year": 1950,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "충청북도 옥천군 옥천면 하계리 40번지 (현 옥천읍). 생가·문학관 도로명: 충북 옥천군 옥천읍 향수길 56",
+        "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+        "source_grade": "A",
+        "flags": ["coords-unverified"]
+      },
+      "timeline": [
+        {
+          "year": 1902,
+          "event": "충청북도 옥천군 옥천면 하계리 40번지에서 출생 (1902년 6월 20일, 음력 5월 15일). 본관 연일(延日), 아명 지용(池龍)",
+          "place_id": "jeong-jiyong-birthplace",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": ["birthdate-variant"]
+        },
+        {
+          "year": 1910,
+          "event": "옥천공립보통학교 입학 (1914년 졸업)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1918,
+          "event": "휘문고등보통학교 입학 (1923년 졸업)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1923,
+          "event": "시 「향수(鄕愁)」 창작. 같은 해 일본 도시샤(同志社)대학 영문과 입학",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0062938",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        },
+        {
+          "year": 1927,
+          "event": "「향수」를 『조선지광(朝鮮之光)』 65호에 발표(3월)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0062938",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1929,
+          "event": "도시샤대학 영문과 졸업",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": ["overseas"]
+        },
+        {
+          "year": 1930,
+          "event": "『시문학(詩文學)』 동인으로 참여(3월)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1935,
+          "event": "첫 시집 『정지용시집(鄭芝溶詩集)』 발간(시문학사, 10월)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050955",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1941,
+          "event": "두 번째 시집 『백록담(白鹿潭)』 발간(9월)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1945,
+          "event": "이화여자전문학교 교수 부임 (1948년 2월 사임)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1946,
+          "event": "경향신문사 주간으로 활동",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1950,
+          "event": "한국전쟁 중 사망한 것으로 알려짐 (1982년 장남이 납북되었다고 주장)",
+          "place_id": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": ["death-disputed"]
+        }
+      ],
+      "places": [
+        {
+          "id": "jeong-jiyong-birthplace",
+          "name": "정지용 생가",
+          "lat": null,
+          "lng": null,
+          "type": "생가",
+          "source_url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=f5a00c8f-87bf-4892-9f4f-10e073532464",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        },
+        {
+          "id": "jeong-jiyong-literature-museum",
+          "name": "정지용 문학관",
+          "lat": null,
+          "lng": null,
+          "type": "문학관",
+          "source_url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=f5a00c8f-87bf-4892-9f4f-10e073532464",
+          "source_grade": "A",
+          "flags": ["coords-unverified"]
+        }
+      ],
+      "works": [
+        {
+          "title": "향수(鄕愁)",
+          "year": 1927,
+          "note": "10연 26행의 자유시. 1923년 창작, 1927년 3월 『조선지광』 65호 발표, 1935년 『정지용시집』 수록.",
+          "quote": "그곳이 차마 꿈엔들 잊힐 리야",
+          "quote_source": "정지용 「향수」 후렴구, 한국민족문화대백과사전 E0062938",
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0062938",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "정지용시집(鄭芝溶詩集)",
+          "year": 1935,
+          "note": "정지용의 첫 시집. 시문학사 발행, 87편의 시 수록. 「향수」·「유리창」·「바다」 등 수록.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050955",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "백록담(白鹿潭)",
+          "year": 1941,
+          "note": "두 번째 시집. 1941년 9월 발간.",
+          "quote": null,
+          "quote_source": null,
+          "source_url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": ["birthdate-variant", "death-disputed", "coords-unverified"],
+      "note": "본관 연일(延日), 아명 지용(池龍). 생몰: 1902-06-20(충북 옥천, 음력 5.15) ~ 1950. 출생연도는 한국민족문화대백과사전이 1902년으로 기록하되 학적부상 1903년 기록도 있다고 명시 → birthdate-variant. 출생지는 충북 옥천군 옥천면 하계리 40번지. 정지용 생가는 한국전쟁 때 소실 후 1996년 옛 모습으로 복원되었고, 정지용 문학관은 생가 옆에 2005년 개관(옥천군 운영) — 둘 다 충북 옥천군 옥천읍 향수길 56 일대에 있으며, 대한민국 구석구석(visitkorea) A급 페이지에 도로명 주소는 확인되나 위경도 수치 미기재로 lat/lng=null + coords-unverified. 사망: 한국전쟁(1950) 중 사망한 것으로 알려졌으며, 월북 문인으로 규정되었다가 1982년 장남이 납북되었다고 주장 — 사망 정황(납북설/행방불명)에 이설이 있어 death-disputed 플래그, 정확한 사망일·사망지는 확정되지 않음. 「향수」 후렴구 인용은 한국민족문화대백과사전 본문 표기 채택('차마'). 정지용은 1950년 작고로 한국 저작권 보호기간이 만료되어 1차 사료 인용 가능."
+    }
+  ]
+}
