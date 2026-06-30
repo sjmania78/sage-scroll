@@ -72,19 +72,22 @@ body { display: flex; flex-direction: column; }
   padding: 11px 24px; background: var(--paper);
   border-bottom: 1px solid var(--rule); flex-shrink: 0;
 }
-#region-tabs { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 11px; padding-bottom: 9px; border-bottom: 1px solid var(--rule); }
-#region-tabs button {
+.nav-axis { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 8px; }
+.axis-label { flex-shrink: 0; width: 36px; padding-top: 8px; font-family: var(--sans); font-size: 10px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-faint); }
+#region-tabs, #era-tabs { display: flex; flex-wrap: wrap; gap: 4px; flex: 1; }
+#era-tabs button { font-size: 12.5px; }
+#region-tabs button, #era-tabs button {
   font-family: var(--sans); font-size: 13px; font-weight: 600; letter-spacing: .01em;
   display: inline-flex; align-items: center; gap: 6px;
   padding: 6px 13px; border: none; background: transparent; color: var(--ink-soft);
   border-radius: 8px; cursor: pointer; transition: background .15s, color .15s;
 }
-#region-tabs button:hover { background: var(--surface-2); color: var(--seal); }
-#region-tabs button.on { background: var(--seal); color: #fff; }
+#region-tabs button:hover, #era-tabs button:hover { background: var(--surface-2); color: var(--seal); }
+#region-tabs button.on, #era-tabs button.on { background: var(--seal); color: #fff; }
 .rt-count { font-size: 11px; font-weight: 500; color: var(--ink-faint); }
-#region-tabs button.on .rt-count { color: rgba(255,255,255,.72); }
+#region-tabs button.on .rt-count, #era-tabs button.on .rt-count { color: rgba(255,255,255,.72); }
 .region-hint { font-size: 13px; color: var(--ink-faint); padding: 3px 2px; line-height: 1.5; }
-#person-list { display: flex; flex-direction: column; gap: 7px; }
+#person-list { display: flex; flex-direction: column; gap: 7px; border-top: 1px solid var(--rule); padding-top: 12px; margin-top: 3px; }
 .pgroup { display: flex; align-items: baseline; gap: 13px; }
 .pgroup-label {
   flex-shrink: 0; width: 58px; text-align: right; padding-top: 3px;

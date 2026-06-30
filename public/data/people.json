@@ -9557,6 +9557,2201 @@
       "source_grade": "A",
       "verified": true,
       "flags": []
+    },
+    {
+      "id": "dostoevsky",
+      "name_ko": "표도르 도스토옙스키",
+      "name_en": "Fyodor Dostoevsky",
+      "field": "소설가",
+      "field_en": "Novelist",
+      "nation": "RU",
+      "birth_year": 1821,
+      "death_year": 1881,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "러시아 모스크바(마린스키 빈민병원)",
+        "admin_en": "Moscow (Mariinsky Hospital for the Poor), Russia",
+        "source_url": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1821,
+          "event": "모스크바 마린스키 빈민병원 부지에서 군의관의 아들로 태어남",
+          "event_en": "Born in Moscow on the grounds of the Mariinsky Hospital for the Poor, son of a military doctor",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1846,
+          "event": "첫 장편 '가난한 사람들'을 발표하며 문단에 데뷔",
+          "event_en": "Made his literary debut with his first novel, Poor Folk",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1849,
+          "event": "페트라솁스키 모임에 연루되어 체포, 모의 총살형 직전 황제의 감형으로 중단됨",
+          "event_en": "Arrested over the Petrashevsky Circle and subjected to a mock execution, halted by the tsar's last-moment commutation",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1850,
+          "event": "시베리아 옴스크의 강제노동 수용소에서 4년간 복역 시작",
+          "event_en": "Began four years of hard labour at the prison camp in Omsk, Siberia",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1866,
+          "event": "장편 '죄와 벌'을 잡지에 연재",
+          "event_en": "Published Crime and Punishment in serial form",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1880,
+          "event": "'카라마조프 가의 형제들'을 완성·발표",
+          "event_en": "Completed and published The Brothers Karamazov",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1881,
+          "event": "상트페테르부르크 쿠즈네치니 골목의 자택에서 사망",
+          "event_en": "Died at his apartment on Kuznechny Lane in Saint Petersburg",
+          "place_id": "dostoevsky-museum-spb",
+          "source_url": "https://en.wikipedia.org/wiki/Dostoevsky_Museum",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "dostoevsky-museum-spb",
+          "name": "도스토옙스키 문학 기념관(상트페테르부르크)",
+          "name_en": "Dostoevsky Literary Memorial Museum, St. Petersburg",
+          "lat": 59.9606739,
+          "lng": 30.1586551,
+          "type": "문학 기념관(사망한 자택)",
+          "type_en": "Literary memorial museum (his final apartment)",
+          "source_url": "https://en.wikipedia.org/wiki/Dostoevsky_Museum",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "죄와 벌",
+          "title_en": "Crime and Punishment",
+          "note": "1866년 연재된 장편으로, 가난한 전직 대학생 라스콜니코프의 살인과 죄의식·구원을 다룸",
+          "note_en": "An 1866 serialized novel following the impoverished ex-student Raskolnikov through murder, guilt, and redemption",
+          "quote": "Pain and suffering are always inevitable for a large intelligence and a deep heart.",
+          "quote_ko": "고통과 괴로움은 큰 지성과 깊은 마음에게 언제나 피할 수 없는 것이다.",
+          "quote_en": "",
+          "quote_source": "Crime and Punishment",
+          "source_url": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "title": "카라마조프 가의 형제들",
+          "title_en": "The Brothers Karamazov",
+          "note": "1879~1880년 발표된 그의 마지막 장편",
+          "note_en": "His final novel, published 1879–1880",
+          "quote": "Every one of us is responsible for all men and everything on earth.",
+          "quote_ko": "우리 한 사람 한 사람은 지상의 모든 사람과 모든 것에 대해 책임이 있다.",
+          "quote_en": "",
+          "quote_source": "The Brothers Karamazov (trans. C. Garnett)",
+          "source_url": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "C",
+      "verified": true,
+      "flags": [
+        "wiki-only"
+      ]
+    },
+    {
+      "id": "pushkin",
+      "name_ko": "알렉산드르 푸시킨",
+      "name_en": "Alexander Pushkin",
+      "field": "시인·소설가·극작가",
+      "field_en": "Poet, novelist, and playwright",
+      "nation": "RU",
+      "birth_year": 1799,
+      "death_year": 1837,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "러시아 모스크바",
+        "admin_en": "Moscow, Russia",
+        "source_url": "https://www.britannica.com/biography/Aleksandr-Sergeyevich-Pushkin",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1799,
+          "event": "러시아 모스크바에서 귀족 가문의 자녀로 태어났다",
+          "event_en": "Born into a noble family in Moscow, Russia",
+          "place_id": "moscow",
+          "source_url": "https://www.britannica.com/biography/Aleksandr-Sergeyevich-Pushkin",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1817,
+          "event": "차르스코예 셀로 리체이(귀족 학교)를 졸업했다",
+          "event_en": "Graduated from the Tsarskoye Selo Lyceum",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Aleksandr-Sergeyevich-Pushkin",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1820,
+          "event": "정치적 시 때문에 러시아 남부로 유배되었고, 서사시 '루슬란과 류드밀라'가 출판되었다",
+          "event_en": "Exiled to southern Russia over his political verse; 'Ruslan and Lyudmila' was published the same year",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Aleksandr-Sergeyevich-Pushkin",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1824,
+          "event": "가문 영지 미하일롭스코예로 유배 거처를 옮겨 주요 작품들을 집필했다",
+          "event_en": "Confined to the family estate of Mikhaylovskoye, where he wrote major works",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Aleksandr-Sergeyevich-Pushkin",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1831,
+          "event": "모스크바에서 나탈리야 곤차로바와 결혼했다",
+          "event_en": "Married Natalya Goncharova in Moscow",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Aleksandr-Sergeyevich-Pushkin",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1837,
+          "event": "조르주 단테스와의 결투에서 입은 부상으로 상트페테르부르크에서 사망했다",
+          "event_en": "Died in Saint Petersburg from wounds suffered in a duel with Georges d'Anthès",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Aleksandr-Sergeyevich-Pushkin",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "moscow",
+          "name": "모스크바",
+          "name_en": "Moscow",
+          "lat": 55.625578,
+          "lng": 37.6063916,
+          "type": "출생지",
+          "type_en": "Birthplace",
+          "source_url": "https://www.britannica.com/biography/Aleksandr-Sergeyevich-Pushkin",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "예브게니 오네긴",
+          "title_en": "Eugene Onegin",
+          "note": "운문 소설로 1825년부터 1832년에 걸쳐 집필·연재되었으며, 동시대 러시아 사회를 다룬 최초의 작품으로 평가된다",
+          "note_en": "A novel in verse written and serialized between 1825 and 1832, regarded as the first Russian work to take contemporary society as its subject",
+          "quote": "Мой дядя самых честных правил",
+          "quote_ko": "나의 숙부는 더없이 올곧은 분이라",
+          "quote_en": "My uncle, what a worthy man",
+          "quote_source": "Eugene Onegin, opening line",
+          "source_url": "https://www.poetryintranslation.com/PITBR/Russian/Onegin1.php",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "보리스 고두노프",
+          "title_en": "Boris Godunov",
+          "note": "미하일롭스코예 유배 시기에 집필한 역사 비극이다",
+          "note_en": "A historical tragedy written during his exile at Mikhaylovskoye",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://www.britannica.com/biography/Aleksandr-Sergeyevich-Pushkin",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "li-bai",
+      "name_ko": "이백",
+      "name_en": "Li Bai",
+      "field": "시인",
+      "field_en": "Poet",
+      "nation": "CN",
+      "birth_year": 701,
+      "death_year": 762,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "당나라(출생지 이설: 쇄엽성[현 키르기스스탄] 또는 쓰촨성 장유. 5세 무렵 쓰촨 장유로 이주해 성장)",
+        "admin_en": "Tang China (birthplace disputed: Suyab [present-day Kyrgyzstan] or Jiangyou, Sichuan; raised in Jiangyou)",
+        "source_url": "https://ctext.org/datawiki.pl?if=en&res=125585",
+        "source_grade": "B",
+        "flags": [
+          "birthplace-disputed"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 701,
+          "event": "당나라 시기 출생(자는 태백). 출생지는 쇄엽성설과 쓰촨 장유설이 있음",
+          "event_en": "Born during the Tang dynasty (courtesy name Taibai); birthplace given variously as Suyab or Jiangyou",
+          "place_id": null,
+          "source_url": "https://ctext.org/datawiki.pl?if=en&res=125585",
+          "source_grade": "B",
+          "flags": [
+            "birthplace-disputed"
+          ]
+        },
+        {
+          "year": 705,
+          "event": "가족이 쓰촨성 장유로 이주하여 그곳에서 성장",
+          "event_en": "Family relocates to Jiangyou in Sichuan, where he grows up",
+          "place_id": "li-bai-memorial-jiangyou",
+          "source_url": "https://en.wikipedia.org/wiki/Li_Bai",
+          "source_grade": "C",
+          "flags": []
+        },
+        {
+          "year": 742,
+          "event": "황제 현종의 부름을 받아 수도 장안에 들어가 궁정 시인들과 어울림",
+          "event_en": "Summoned to the capital Chang'an by Emperor Xuanzong and joins the court poets",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Li_Bai",
+          "source_grade": "C",
+          "flags": []
+        },
+        {
+          "year": 744,
+          "event": "가을에 두보(杜甫)를 만남",
+          "event_en": "Meets the poet Du Fu in autumn",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Li_Bai",
+          "source_grade": "C",
+          "flags": []
+        },
+        {
+          "year": 757,
+          "event": "안녹산의 난 중 영왕의 막료가 되었다가 영왕 실각으로 야랑에 유배형을 받음",
+          "event_en": "After serving on Prince Yong's staff during the An Lushan Rebellion, sentenced to exile in Yelang",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Li_Bai",
+          "source_grade": "C",
+          "flags": []
+        },
+        {
+          "year": 762,
+          "event": "안후이성 당투에서 사망",
+          "event_en": "Dies in Dangtu, Anhui province",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Li_Bai",
+          "source_grade": "C",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "li-bai-memorial-jiangyou",
+          "name": "장유 이백 기념관",
+          "name_en": "Li Bai Memorial Hall, Jiangyou",
+          "lat": 31.7815476,
+          "lng": 104.7365,
+          "type": "기념관",
+          "type_en": "Memorial hall",
+          "source_url": "https://ctext.org/datawiki.pl?if=en&res=125585",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "정야사(고요한 밤의 그리움)",
+          "title_en": "Quiet Night Thought",
+          "note": "오언절구로, 달빛을 보며 고향을 그리는 정서를 노래함. 중국에서 가장 널리 암송되는 시 중 하나",
+          "note_en": "A five-character quatrain expressing homesickness while gazing at moonlight; one of the most widely memorized poems in China",
+          "quote": "床前明月光 疑是地上霜",
+          "quote_ko": "침상 앞 밝은 달빛, 땅 위에 내린 서리인가 의심하네",
+          "quote_en": "Before my bed, the bright moonlight; I suspect it is frost upon the ground",
+          "quote_source": "靜夜思",
+          "source_url": "https://ctext.org/datawiki.pl?if=en&res=125585",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "월하독작(달 아래 홀로 술을 마시며)",
+          "title_en": "Drinking Alone by Moonlight",
+          "note": "홀로 술을 마시며 달과 그림자를 벗 삼아 셋이 되었다고 노래한 시",
+          "note_en": "A poem in which the poet, drinking alone, invites the moon and his shadow to make three companions",
+          "quote": "花間一壺酒 獨酌無相親",
+          "quote_ko": "꽃 사이 한 동이 술을, 친한 이 없이 홀로 마시네",
+          "quote_en": "Among the flowers, a jug of wine; I drink alone, with no companion near",
+          "quote_source": "月下獨酌",
+          "source_url": "https://ctext.org/datawiki.pl?if=en&res=125585",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": [
+        "birthplace-disputed"
+      ]
+    },
+    {
+      "id": "voltaire",
+      "name_ko": "볼테르",
+      "name_en": "Voltaire",
+      "field": "철학자·작가",
+      "field_en": "Philosopher and writer",
+      "nation": "FR",
+      "birth_year": 1694,
+      "death_year": 1778,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "프랑스 파리",
+        "admin_en": "Paris, France",
+        "source_url": "https://www.britannica.com/biography/Voltaire",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1694,
+          "event": "파리에서 프랑수아마리 아루에라는 본명으로 태어났다",
+          "event_en": "Born in Paris under his birth name François-Marie Arouet",
+          "place_id": "paris-voltaire",
+          "source_url": "https://www.britannica.com/biography/Voltaire",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1717,
+          "event": "섭정을 풍자한 시로 바스티유 감옥에 투옥되었다(약 11개월)",
+          "event_en": "Imprisoned in the Bastille for satirizing the Regency (about 11 months)",
+          "place_id": null,
+          "source_url": "https://www.history.com/this-day-in-history/may-16/voltaire-is-imprisoned-in-the-bastille",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1718,
+          "event": "필명 '볼테르'를 채택하고 비극 '오이디푸스'가 성공을 거두었다",
+          "event_en": "Adopted the pen name 'Voltaire'; his tragedy Œdipe was a success",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Voltaire",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1726,
+          "event": "체포 후 영국으로 망명하여 약 2~3년간 머물렀다",
+          "event_en": "After arrest, exiled to England, where he stayed about two to three years",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Voltaire",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1734,
+          "event": "'철학 서간'을 루앙에서 출간하여 큰 물의를 빚었다",
+          "event_en": "Published Lettres philosophiques in Rouen, causing a major scandal",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Voltaire",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1759,
+          "event": "풍자 소설 '캉디드'를 출간했다",
+          "event_en": "Published the satirical novel Candide",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Voltaire",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1778,
+          "event": "파리로 돌아온 뒤 그해 5월 30일 파리에서 사망했다",
+          "event_en": "After returning to Paris, died there on 30 May 1778",
+          "place_id": "paris-voltaire",
+          "source_url": "https://www.britannica.com/biography/Voltaire",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "paris-voltaire",
+          "name": "파리",
+          "name_en": "Paris",
+          "lat": 48.8588897,
+          "lng": 2.320041,
+          "type": "출생·사망 도시",
+          "type_en": "Birth and death city",
+          "source_url": "https://www.britannica.com/biography/Voltaire",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "캉디드",
+          "title_en": "Candide",
+          "note": "낙관주의를 풍자한 철학적 콩트로, 1759년에 출간되었다",
+          "note_en": "A philosophical tale satirizing optimism, published in 1759",
+          "quote": "Il faut cultiver notre jardin.",
+          "quote_ko": "우리는 우리의 정원을 가꾸어야 한다.",
+          "quote_en": "We must cultivate our garden.",
+          "quote_source": "Candide (1759), closing line",
+          "source_url": "https://www.britannica.com/biography/Voltaire",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "철학 서간",
+          "title_en": "Lettres philosophiques",
+          "note": "영국의 정치·종교·과학을 다룬 서간 모음으로, 1734년 출간 후 큰 논란을 일으켰다",
+          "note_en": "A collection of letters on English government, religion, and science; its 1734 publication caused great controversy",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://www.britannica.com/biography/Voltaire",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "dickens",
+      "name_ko": "찰스 디킨스",
+      "name_en": "Charles Dickens",
+      "field": "소설가",
+      "field_en": "Novelist",
+      "nation": "GB",
+      "birth_year": 1812,
+      "death_year": 1870,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "잉글랜드 포츠머스",
+        "admin_en": "Portsmouth, England",
+        "source_url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1812,
+          "event": "잉글랜드 햄프셔 포츠머스의 마일엔드 테라스에서 태어났다",
+          "event_en": "Born at Mile End Terrace in Portsmouth, Hampshire, England",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1824,
+          "event": "아버지가 채무자 감옥에 수감되고, 소년 디킨스는 구두약 공장에서 일했다",
+          "event_en": "His father was imprisoned for debt, and the young Dickens worked at a blacking warehouse",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1836,
+          "event": "캐서린 호가스와 결혼했고, 『피크윅 클럽 여행기』 연재를 시작했다",
+          "event_en": "Married Catherine Hogarth and began serializing The Pickwick Papers",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1837,
+          "event": "런던 다우티가 48번지로 이사해 1839년까지 거주하며 『올리버 트위스트』를 집필했다",
+          "event_en": "Moved to 48 Doughty Street in London, living there until 1839 and writing Oliver Twist",
+          "place_id": "charles-dickens-museum",
+          "source_url": "https://en.wikipedia.org/wiki/Charles_Dickens_Museum",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1843,
+          "event": "중편 소설 『크리스마스 캐럴』을 발표했다",
+          "event_en": "Published the novella A Christmas Carol",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1859,
+          "event": "프랑스 혁명을 배경으로 한 『두 도시 이야기』를 발표했다",
+          "event_en": "Published A Tale of Two Cities, set against the French Revolution",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/A_Tale_of_Two_Cities",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1870,
+          "event": "잉글랜드 켄트의 하이엄에서 58세로 사망했다",
+          "event_en": "Died at Higham in Kent, England, aged 58",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "charles-dickens-museum",
+          "name": "찰스 디킨스 박물관(다우티가 48번지)",
+          "name_en": "Charles Dickens Museum (48 Doughty Street)",
+          "lat": 51.5235936,
+          "lng": -0.1163232,
+          "type": "고택 박물관",
+          "type_en": "Author's house museum",
+          "source_url": "https://en.wikipedia.org/wiki/Charles_Dickens_Museum",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "두 도시 이야기",
+          "title_en": "A Tale of Two Cities",
+          "note": "프랑스 혁명을 배경으로 1859년에 발표한 역사 소설이다",
+          "note_en": "A historical novel published in 1859, set against the French Revolution",
+          "quote": "It was the best of times, it was the worst of times.",
+          "quote_ko": "최고의 시절이자 최악의 시절이었다.",
+          "quote_en": "",
+          "quote_source": "A Tale of Two Cities, opening line",
+          "source_url": "https://en.wikipedia.org/wiki/A_Tale_of_Two_Cities",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "올리버 트위스트",
+          "title_en": "Oliver Twist",
+          "note": "다우티가 48번지에 거주하던 시기에 집필해 1838년에 완성한 소설이다",
+          "note_en": "A novel written while living at 48 Doughty Street and completed in 1838",
+          "quote": "Please, sir, I want some more.",
+          "quote_ko": "제발요, 선생님, 조금만 더 주세요.",
+          "quote_en": "",
+          "quote_source": "Oliver Twist",
+          "source_url": "https://en.wikipedia.org/wiki/Oliver_Twist",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "natsume-soseki",
+      "name_ko": "나쓰메 소세키",
+      "name_en": "Natsume Sōseki",
+      "field": "소설가",
+      "field_en": "Novelist",
+      "nation": "JP",
+      "birth_year": 1867,
+      "death_year": 1916,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "일본 도쿄(당시 에도)",
+        "admin_en": "Edo (now Tokyo), Japan",
+        "source_url": "https://www.britannica.com/biography/Natsume-Soseki",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1867,
+          "event": "에도(현 도쿄)에서 본명 나쓰메 긴노스케로 태어남",
+          "event_en": "Born Natsume Kinnosuke in Edo (now Tokyo)",
+          "place_id": "tokyo",
+          "source_url": "https://www.britannica.com/biography/Natsume-Soseki",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1893,
+          "event": "도쿄제국대학에서 영문학 학위를 받고 졸업",
+          "event_en": "Graduated from the University of Tokyo with a degree in English",
+          "place_id": "tokyo",
+          "source_url": "https://www.britannica.com/biography/Natsume-Soseki",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1900,
+          "event": "일본 정부 장학생으로 영국 런던에 유학",
+          "event_en": "Sent to England (London) on a Japanese government scholarship",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Natsume-Soseki",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1905,
+          "event": "잡지 《호토토기스》에 소설 《나는 고양이로소이다》 연재를 시작",
+          "event_en": "Began serializing the novel I Am a Cat in the magazine Hototogisu",
+          "place_id": "tokyo",
+          "source_url": "https://www.britannica.com/biography/Natsume-Soseki",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1907,
+          "event": "교직을 그만두고 아사히 신문 전속 작가로 집필에 전념",
+          "event_en": "Gave up teaching to write exclusively for the Asahi Shimbun",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Natsume-Soseki",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1916,
+          "event": "도쿄에서 사망",
+          "event_en": "Died in Tokyo",
+          "place_id": "tokyo",
+          "source_url": "https://www.ndl.go.jp/portrait/e/datas/307",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "tokyo",
+          "name": "도쿄(에도)",
+          "name_en": "Tokyo (Edo)",
+          "lat": 35.6768601,
+          "lng": 139.7638947,
+          "type": "출생·활동 도시",
+          "type_en": "Birth and primary activity city",
+          "source_url": "https://www.britannica.com/biography/Natsume-Soseki",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "나는 고양이로소이다",
+          "title_en": "I Am a Cat",
+          "note": "1905~1906년 잡지 《호토토기스》에 연재된 풍자 소설로, 소세키의 출세작이다. 고양이의 시점에서 인간 사회를 관찰한다",
+          "note_en": "A satirical novel serialized in Hototogisu (1905–06) that established Sōseki's reputation; it observes human society from a cat's point of view",
+          "quote": "吾輩は猫である。名前はまだ無い。",
+          "quote_ko": "나는 고양이다. 이름은 아직 없다.",
+          "quote_en": "I am a cat. As yet I have no name.",
+          "quote_source": "『吾輩は猫である』 모두",
+          "source_url": "https://www.aozora.gr.jp/cards/000148/card789.html",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "마음(코코로)",
+          "title_en": "Kokoro",
+          "note": "1914년 아사히 신문에 연재된 후기 대표작으로, 고독·죄의식·세대 단절을 그린다",
+          "note_en": "A major late novel serialized in the Asahi Shimbun in 1914, exploring isolation, guilt, and generational rupture",
+          "quote": "私はその人を常に先生と呼んでいた。",
+          "quote_ko": "나는 그 사람을 늘 선생님이라고 불렀다.",
+          "quote_en": "I always called him Sensei.",
+          "quote_source": "『こころ』 모두",
+          "source_url": "https://www.aozora.gr.jp/cards/000148/files/773_14560.html",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "pessoa",
+      "name_ko": "페르난두 페소아",
+      "name_en": "Fernando Pessoa",
+      "field": "시인·작가",
+      "field_en": "Poet and writer",
+      "nation": "PT",
+      "birth_year": 1888,
+      "death_year": 1935,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "포르투갈 리스본",
+        "admin_en": "Lisbon, Portugal",
+        "source_url": "https://www.casafernandopessoa.pt/en/fernando-pessoa/life",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1888,
+          "event": "리스본에서 출생",
+          "event_en": "Born in Lisbon",
+          "place_id": null,
+          "source_url": "https://www.casafernandopessoa.pt/en/fernando-pessoa/life",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1896,
+          "event": "가족과 함께 남아프리카 더반으로 이주해 영어 교육을 받음",
+          "event_en": "Moved with family to Durban, South Africa, where he was educated in English",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Fernando_Pessoa",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1905,
+          "event": "17세에 리스본으로 영구 귀환",
+          "event_en": "Returned permanently to Lisbon at age 17",
+          "place_id": null,
+          "source_url": "https://www.casafernandopessoa.pt/en/fernando-pessoa/life",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1914,
+          "event": "성인으로서 첫 시를 발표; 주요 이명(異名)들이 등장",
+          "event_en": "Published his first adult poems; his major heteronyms emerged",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Alberto_Caeiro",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1920,
+          "event": "캄푸 드 오리크의 루아 코엘류 다 호샤 16번지 아파트를 임대(생애 마지막 15년 거주지)",
+          "event_en": "Leased the apartment at Rua Coelho da Rocha 16, his home for the last 15 years of his life",
+          "place_id": "casa-fernando-pessoa",
+          "source_url": "https://www.casafernandopessoa.pt/en/fernando-pessoa/life",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1934,
+          "event": "생전에 자신의 이름으로 펴낸 유일한 포르투갈어 시집 『메시지(Mensagem)』 출간",
+          "event_en": "Published Mensagem, the only Portuguese poetry book issued under his own name in his lifetime",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Mensagem",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1935,
+          "event": "리스본에서 사망",
+          "event_en": "Died in Lisbon",
+          "place_id": null,
+          "source_url": "https://www.casafernandopessoa.pt/en/fernando-pessoa/life",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "casa-fernando-pessoa",
+          "name": "카자 페르난두 페소아",
+          "name_en": "Casa Fernando Pessoa",
+          "lat": 38.7166447,
+          "lng": -9.1624508,
+          "type": "기념관(거주지)",
+          "type_en": "Writer's house museum",
+          "source_url": "https://en.wikipedia.org/wiki/Casa_Fernando_Pessoa",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "불안의 서",
+          "title_en": "The Book of Disquiet",
+          "note": "이명 베르나르두 소아르스 명의로 쓴 단편적 산문 모음으로, 페소아 사후에야 정리·출간됨",
+          "note_en": "A collection of fragmentary prose written under the heteronym Bernardo Soares, assembled and published only after Pessoa's death",
+          "quote": "Minha alma é uma orquestra oculta; só me conheço como sinfonia.",
+          "quote_ko": "내 영혼은 숨은 오케스트라다. 나는 오직 교향곡으로만 나를 안다.",
+          "quote_en": "My soul is a hidden orchestra; I know myself only as a symphony.",
+          "quote_source": "Livro do Desassossego",
+          "source_url": "http://arquivopessoa.net/textos/3751",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "title": "메시지",
+          "title_en": "Mensagem (Message)",
+          "note": "1934년 출간; 생전에 페소아 자신의 이름으로 펴낸 유일한 포르투갈어 시집",
+          "note_en": "Published 1934; the only Portuguese poetry book issued under Pessoa's own name in his lifetime",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://en.wikipedia.org/wiki/Mensagem",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "petofi",
+      "name_ko": "샨도르 페퇴피",
+      "name_en": "Sándor Petőfi",
+      "field": "시인",
+      "field_en": "Poet",
+      "nation": "HU",
+      "birth_year": 1823,
+      "death_year": 1849,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "헝가리 키슈쾨뢰시(당시 오스트리아 제국)",
+        "admin_en": "Kiskőrös, Hungary (then Austrian Empire)",
+        "source_url": "https://www.britannica.com/biography/Sandor-Petofi",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1823,
+          "event": "1월 1일 키슈쾨뢰시에서 태어남",
+          "event_en": "Born on 1 January in Kiskőrös",
+          "place_id": "kiskoros",
+          "source_url": "https://www.britannica.com/biography/Sandor-Petofi",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1842,
+          "event": "첫 시가 출판됨",
+          "event_en": "His first poem was published",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Sandor-Petofi",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1844,
+          "event": "첫 시집 '시집(Versek)'을 출간해 즉시 명성을 얻음",
+          "event_en": "Published his first volume of poetry, Versek, which made him famous at once",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Sandor-Petofi",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1847,
+          "event": "경구시 '자유, 사랑'을 씀",
+          "event_en": "Wrote the epigram 'Szabadság, szerelem' (Liberty, Love)",
+          "place_id": null,
+          "source_url": "https://www.visegradliterature.net/works/hu/Pet%C5%91fi_S%C3%A1ndor-1823",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1848,
+          "event": "3월 15일 부다페스트 국립박물관 계단에서 '민족의 노래'를 낭독했고, 이 시는 1848년 혁명의 노래가 됨",
+          "event_en": "On 15 March recited 'Nemzeti dal' on the steps of the Hungarian National Museum in Budapest; it became the anthem of the 1848 Revolution",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Nemzeti_dal",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1849,
+          "event": "7월 31일 셰게슈바르 전투에서 실종되어 전사한 것으로 추정됨; 시신은 발견되지 않음",
+          "event_en": "Disappeared at the Battle of Segesvár on 31 July, presumed killed; his body was never found",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Sandor-Petofi",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "kiskoros",
+          "name": "키슈쾨뢰시",
+          "name_en": "Kiskőrös",
+          "lat": 46.6205706,
+          "lng": 19.2843551,
+          "type": "출생지",
+          "type_en": "Birthplace",
+          "source_url": "https://www.britannica.com/biography/Sandor-Petofi",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "민족의 노래",
+          "title_en": "National Song (Nemzeti dal)",
+          "note": "1848년 3월에 쓰고 낭독했으며, 1848년 헝가리 혁명의 노래(앤섬)가 됨",
+          "note_en": "Written and recited in March 1848; became the anthem of the 1848 Hungarian Revolution",
+          "quote": "Talpra magyar, hí a haza!",
+          "quote_ko": "일어나라 헝가리인이여, 조국이 부른다!",
+          "quote_en": "On your feet, Magyar, the homeland calls!",
+          "quote_source": "Nemzeti dal",
+          "source_url": "https://en.wikipedia.org/wiki/Nemzeti_dal",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "title": "자유, 사랑",
+          "title_en": "Liberty, Love",
+          "note": "1847년에 쓴 짧은 경구시로, 거의 모든 헝가리인이 외우는 작품",
+          "note_en": "A short epigram written in 1847 that almost all Hungarians know by heart",
+          "quote": "Szabadság, szerelem! / E kettő kell nekem.",
+          "quote_ko": "자유, 사랑! / 이 둘이 내게 필요하네.",
+          "quote_en": "Freedom and love my creed! / These are the two I need.",
+          "quote_source": "Szabadság, szerelem (1847)",
+          "source_url": "https://www.visegradliterature.net/works/hu/Pet%C5%91fi_S%C3%A1ndor-1823",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "sibelius",
+      "name_ko": "장 시벨리우스",
+      "name_en": "Jean Sibelius",
+      "field": "작곡가",
+      "field_en": "Composer",
+      "nation": "FI",
+      "birth_year": 1865,
+      "death_year": 1957,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "핀란드 헤멘린나",
+        "admin_en": "Hämeenlinna, Finland",
+        "source_url": "https://en.wikipedia.org/wiki/Jean_Sibelius",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1865,
+          "event": "핀란드 헤멘린나에서 출생",
+          "event_en": "Born in Hämeenlinna, Finland",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Jean_Sibelius",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1892,
+          "event": "아이노 예르네펠트와 결혼하고, 합창 교향곡 '쿨레르보'를 초연하여 명성을 얻음",
+          "event_en": "Married Aino Järnefelt and won fame with the premiere of the choral symphony Kullervo",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Jean_Sibelius",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1899,
+          "event": "교향시 '핀란디아'(원형)를 작곡함",
+          "event_en": "Composed the tone poem Finlandia (original version)",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Jean_Sibelius",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1904,
+          "event": "투술라 호숫가 예르벤페에 자택 '아이놀라'를 완공하고 입주함",
+          "event_en": "Completed and moved into his home Ainola at Järvenpää by Lake Tuusula",
+          "place_id": "ainola",
+          "source_url": "https://en.wikipedia.org/wiki/Jean_Sibelius",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1915,
+          "event": "50세 생일을 맞아 교향곡 제5번을 초연함",
+          "event_en": "Premiered his Symphony No. 5 on his 50th birthday",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Symphony_No._5_(Sibelius)",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1926,
+          "event": "마지막 대작 교향시 '타피올라'를 작곡한 후 사실상 작곡을 중단함",
+          "event_en": "Composed his last major work, Tapiola, after which he largely ceased composing",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Jean_Sibelius",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1957,
+          "event": "아이놀라에서 사망하여 자택 정원에 묻힘",
+          "event_en": "Died at Ainola and was buried in the garden of his home",
+          "place_id": "ainola",
+          "source_url": "https://en.wikipedia.org/wiki/Jean_Sibelius",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "ainola",
+          "name": "아이놀라(시벨리우스 자택)",
+          "name_en": "Ainola (Sibelius's home)",
+          "lat": 60.4536463,
+          "lng": 25.0874102,
+          "type": "자택 겸 묘소(박물관)",
+          "type_en": "Home and burial site (museum)",
+          "source_url": "https://en.wikipedia.org/wiki/Ainola",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "핀란디아",
+          "title_en": "Finlandia",
+          "note": "1899년 작곡된 교향시로 핀란드의 비공식 국가적 상징이 됨",
+          "note_en": "A tone poem composed in 1899 that became an unofficial national symbol of Finland",
+          "quote": "One of the great experiences of my life!",
+          "quote_ko": "내 인생에서 가장 위대한 경험 중 하나였다!",
+          "quote_en": "",
+          "quote_source": "Sibelius diary, 1915 (on seeing sixteen swans)",
+          "source_url": "https://en.wikipedia.org/wiki/Symphony_No._5_(Sibelius)",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "교향곡 제5번",
+          "title_en": "Symphony No. 5",
+          "note": "1915년 작곡가의 50세 생일에 초연되었으며, 피날레의 '백조 주제'는 그가 본 16마리의 백조에서 영감을 받음",
+          "note_en": "Premiered on the composer's 50th birthday in 1915; its finale's 'swan theme' was inspired by sixteen swans he observed",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://en.wikipedia.org/wiki/Symphony_No._5_(Sibelius)",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "rousseau",
+      "name_ko": "장 자크 루소",
+      "name_en": "Jean-Jacques Rousseau",
+      "field": "철학자·작가",
+      "field_en": "Philosopher and writer",
+      "nation": "CH",
+      "birth_year": 1712,
+      "death_year": 1778,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "제네바 공화국(현 스위스)",
+        "admin_en": "Republic of Geneva (now Switzerland)",
+        "source_url": "https://www.britannica.com/biography/Jean-Jacques-Rousseau",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1712,
+          "event": "제네바 공화국에서 출생; 생후 며칠 만에 어머니가 사망함",
+          "event_en": "Born in the Republic of Geneva; his mother died days after his birth",
+          "place_id": "geneva",
+          "source_url": "https://www.britannica.com/biography/Jean-Jacques-Rousseau",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1728,
+          "event": "16세에 제네바를 떠나 방랑 생활을 시작하고 마담 드 바랑을 만남",
+          "event_en": "Left Geneva at age 16 to live as a wanderer and met Madame de Warens",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Jean-Jacques-Rousseau",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1750,
+          "event": "디종 아카데미 현상 공모에서 '학문과 예술에 대하여'로 수상하며 명성을 얻음",
+          "event_en": "Won the Academy of Dijon's prize with the Discourse on the Sciences and Arts",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Discourse_on_the_Arts_and_Sciences",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1762,
+          "event": "'사회계약론'과 '에밀'을 출간했고, 두 책은 파리와 제네바에서 금서로 지정됨",
+          "event_en": "Published The Social Contract and Émile, both banned in Paris and Geneva",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Jean-Jacques-Rousseau",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1778,
+          "event": "프랑스 에르므농빌에서 사망함",
+          "event_en": "Died at Ermenonville, France",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Jean-Jacques-Rousseau",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "geneva",
+          "name": "제네바(루소·문학의 집)",
+          "name_en": "Geneva (Maison Rousseau et Littérature)",
+          "lat": 46.2013411,
+          "lng": 6.1465766,
+          "type": "출생지",
+          "type_en": "Birthplace",
+          "source_url": "https://www.geneve.com/en/attractions/detail/maison-rousseau-et-litterature-mrl",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "사회계약론",
+          "title_en": "The Social Contract",
+          "note": "1762년 출간된 정치철학 저작으로, 일반의지 이론을 제시함",
+          "note_en": "A 1762 work of political philosophy, presenting the theory of the general will",
+          "quote": "L'homme est né libre, et partout il est dans les fers",
+          "quote_ko": "인간은 자유롭게 태어났으나, 어디서나 사슬에 묶여 있다",
+          "quote_en": "Man is born free, and everywhere he is in chains",
+          "quote_source": "Du Contrat social, Book I, Ch. 1 (1762)",
+          "source_url": "https://en.wikiquote.org/wiki/The_Social_Contract",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "에밀",
+          "title_en": "Émile, or On Education",
+          "note": "1762년에 출간된 교육론으로, 출간 직후 파리와 제네바에서 금서가 됨",
+          "note_en": "A 1762 treatise on education, banned in Paris and Geneva soon after publication",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://www.britannica.com/biography/Jean-Jacques-Rousseau",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "magritte",
+      "name_ko": "르네 마그리트",
+      "name_en": "René Magritte",
+      "field": "화가(초현실주의)",
+      "field_en": "Painter (Surrealism)",
+      "nation": "BE",
+      "birth_year": 1898,
+      "death_year": 1967,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "벨기에 에노주 레신",
+        "admin_en": "Lessines, Hainaut, Belgium",
+        "source_url": "https://www.britannica.com/biography/Rene-Magritte",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1898,
+          "event": "벨기에 레신에서 출생(11월 21일)",
+          "event_en": "Born in Lessines, Belgium (21 November)",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Rene-Magritte",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1916,
+          "event": "브뤼셀 왕립미술아카데미에서 수학(1916–1918)",
+          "event_en": "Studied at the Académie Royale des Beaux-Arts in Brussels (1916–1918)",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Rene-Magritte",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1926,
+          "event": "브뤼셀 화랑과 계약하여 전업 화가가 되었고, 첫 초현실주의 작품 '길 잃은 기수'를 제작",
+          "event_en": "Became a full-time painter under a Brussels gallery contract and made The Lost Jockey, his first Surrealist work",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Rene-Magritte",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1929,
+          "event": "대표작 '이미지의 배반(이것은 파이프가 아니다)'을 제작",
+          "event_en": "Painted his signature work The Treachery of Images (This Is Not a Pipe)",
+          "place_id": null,
+          "source_url": "https://collections.lacma.org/object/31931",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1964,
+          "event": "자화상 '인간의 아들'을 제작",
+          "event_en": "Painted the self-portrait The Son of Man",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/The_Son_of_Man",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1967,
+          "event": "브뤼셀에서 별세(8월 15일)",
+          "event_en": "Died in Brussels (15 August)",
+          "place_id": null,
+          "source_url": "https://musee-magritte-museum.be/en/about-the-museum/biography",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "magritte-museum-brussels",
+          "name": "브뤼셀 마그리트 미술관",
+          "name_en": "Magritte Museum, Brussels",
+          "lat": 50.8424182,
+          "lng": 4.358796,
+          "type": "미술관",
+          "type_en": "Art museum",
+          "source_url": "https://musee-magritte-museum.be/en",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "이미지의 배반(이것은 파이프가 아니다)",
+          "title_en": "The Treachery of Images",
+          "note": "1929년 작 유화로, 파이프 그림 아래 '이것은 파이프가 아니다'라는 문구를 적어 이미지와 실물을 동일시하는 관습에 의문을 제기. 미국 LACMA 소장",
+          "note_en": "A 1929 oil painting; the words 'This is not a pipe' beneath an image of a pipe question the convention of identifying an image with the object. Held at LACMA",
+          "quote": "Ceci n'est pas une pipe",
+          "quote_ko": "이것은 파이프가 아니다",
+          "quote_en": "This is not a pipe",
+          "quote_source": "La Trahison des images (1929)",
+          "source_url": "https://collections.lacma.org/object/31931",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "인간의 아들",
+          "title_en": "The Son of Man",
+          "note": "1964년 작 자화상으로, 중절모를 쓴 남자의 얼굴이 공중에 떠 있는 초록 사과로 가려져 있다",
+          "note_en": "A 1964 self-portrait in which a bowler-hatted man's face is obscured by a floating green apple",
+          "quote": "Everything we see hides another thing.",
+          "quote_ko": "우리가 보는 모든 것은 또 다른 것을 숨기고 있다.",
+          "quote_en": "",
+          "quote_source": "René Magritte",
+          "source_url": "https://en.wikipedia.org/wiki/The_Son_of_Man",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "shevchenko",
+      "name_ko": "타라스 셰우첸코",
+      "name_en": "Taras Shevchenko",
+      "field": "시인·화가",
+      "field_en": "Poet and painter",
+      "nation": "UA",
+      "birth_year": 1814,
+      "death_year": 1861,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "러시아 제국 모린치 마을(현 우크라이나 체르카시주)",
+        "admin_en": "Moryntsi, Russian Empire (now Cherkasy Oblast, Ukraine)",
+        "source_url": "https://www.britannica.com/biography/Taras-Hryhorovych-Shevchenko",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1814,
+          "event": "러시아 제국 키예프현 모린치에서 농노로 태어남",
+          "event_en": "Born a serf in Moryntsi, Kyiv Governorate, Russian Empire",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Taras-Hryhorovych-Shevchenko",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1838,
+          "event": "성 페테르부르크 예술 아카데미 학생 시절 농노 신분에서 해방됨",
+          "event_en": "Freed from serfdom while a student at the St. Petersburg Academy of Arts",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Taras-Hryhorovych-Shevchenko",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1840,
+          "event": "첫 시집 『코브자르』를 출간함",
+          "event_en": "Published his first poetry collection, Kobzar",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Taras-Hryhorovych-Shevchenko",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1845,
+          "event": "페레야슬라우에서 유언시 「자포비트(유언)」를 씀",
+          "event_en": "Wrote the poem 'Zapovit' (Testament) in Pereiaslav",
+          "place_id": null,
+          "source_url": "https://shevchenko.ca/taras-shevchenko/poem.cfm?poem=3",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1847,
+          "event": "키릴로스·메토디오스 형제단 사건으로 체포되어 강제 군 복무 유배형을 받음",
+          "event_en": "Arrested in the Brotherhood of Saints Cyril and Methodius affair and sentenced to exile with compulsory military service",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Taras-Hryhorovych-Shevchenko",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1857,
+          "event": "10년간의 군 복무 유배에서 풀려남",
+          "event_en": "Released after ten years of military exile",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Taras-Hryhorovych-Shevchenko",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1861,
+          "event": "성 페테르부르크에서 사망, 유언에 따라 우크라이나 카니우 체르네차 언덕에 이장됨",
+          "event_en": "Died in St. Petersburg; reburied on Chernecha Hora in Kaniv, Ukraine, per his wish",
+          "place_id": "kaniv-taras-hill-grave",
+          "source_url": "https://en.wikipedia.org/wiki/Taras_Hill",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "kaniv-taras-hill-grave",
+          "name": "카니우 셰우첸코 묘(타라스 언덕)",
+          "name_en": "Shevchenko's grave, Taras Hill, Kaniv",
+          "lat": 49.7551031,
+          "lng": 31.4610802,
+          "type": "무덤·기념지",
+          "type_en": "Grave and memorial site",
+          "source_url": "https://en.wikipedia.org/wiki/Taras_Hill",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "코브자르",
+          "title_en": "Kobzar",
+          "note": "1840년 출간된 첫 시집으로, 우크라이나 낭만주의를 대표함",
+          "note_en": "His first poetry collection, published in 1840, a landmark of Ukrainian Romanticism",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://www.britannica.com/biography/Taras-Hryhorovych-Shevchenko",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "자포비트(유언)",
+          "title_en": "Zapovit (Testament)",
+          "note": "1845년 페레야슬라우에서 쓴 시로, 우크라이나에 묻어 달라는 유언을 담음",
+          "note_en": "A poem written in 1845 expressing his wish to be buried in Ukraine",
+          "quote": "Як умру, то поховайте / Мене на могилі, / Серед степу широкого, / На Вкраїні милій",
+          "quote_ko": "내가 죽거든 묻어 주오 / 봉분 위 무덤에, / 드넓은 초원 한가운데, / 사랑하는 우크라이나에",
+          "quote_en": "When I am dead, then bury me / In my beloved Ukraine, / My tomb upon a grave mound high / Amid the spreading plain",
+          "quote_source": "Zapovit (1845)",
+          "source_url": "https://shevchenko.ca/taras-shevchenko/poem.cfm?poem=3",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "sunthorn-phu",
+      "name_ko": "순톤 푸",
+      "name_en": "Sunthorn Phu",
+      "field": "시인",
+      "field_en": "Poet",
+      "nation": "TH",
+      "birth_year": 1786,
+      "death_year": 1855,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "시암(태국) 방콕(왕궁 인근)",
+        "admin_en": "Bangkok (near the royal palace), Siam (Thailand)",
+        "source_url": "https://en.wikipedia.org/wiki/Sunthorn_Phu",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1786,
+          "event": "라마 1세 치세인 1786년 방콕 왕궁 인근에서 태어남",
+          "event_en": "Born near the royal palace in Bangkok during the reign of King Rama I",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Sunthorn_Phu",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1821,
+          "event": "옥중에서 대표 서사시 '프라 아파이 마니'의 집필을 시작한 것으로 전해진다",
+          "event_en": "Began composing his epic 'Phra Aphai Mani', reportedly while imprisoned, around this time",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Sunthorn_Phu",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1824,
+          "event": "라마 2세로부터 '쿤' 칭호를 받았으나 왕의 붕어 후 궁정을 떠났다",
+          "event_en": "Received the title 'Khun' from King Rama II but left court service after the king's death",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Sunthorn_Phu",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1851,
+          "event": "라마 4세 치세에 왕실 서기국장이 되어 '프라 순톤워한' 칭호를 받음",
+          "event_en": "Under King Rama IV, became head of the Royal Scribes Department and received the title 'Phra Sunthonwohan'",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Sunthorn_Phu",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1855,
+          "event": "방콕 탈링찬 지역에서 사망",
+          "event_en": "Died in the Taling Chan area of Bangkok",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Sunthorn_Phu",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1986,
+          "event": "탄생 200주년을 맞아 유네스코가 그를 '세계의 위대한 시인'으로 선정",
+          "event_en": "On the 200th anniversary of his birth, UNESCO recognized him as a great world poet",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Sunthorn_Phu",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "sunthorn-phu-monument-rayong",
+          "name": "순톤 푸 기념공원(라용)",
+          "name_en": "Sunthorn Phu Memorial Park (Rayong)",
+          "lat": 12.7943716,
+          "lng": 101.3705344,
+          "type": "기념공원·기념비",
+          "type_en": "Memorial park and monument",
+          "source_url": "https://en.wikipedia.org/wiki/Sunthorn_Phu_Memorial",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "프라 아파이 마니",
+          "title_en": "Phra Aphai Mani",
+          "note": "약 3만 행에 이르는 태국 대표 서사시. 1986년 유네스코가 순톤 푸를 탄생 200주년 기념 세계 위인으로 선정함",
+          "note_en": "An epic of roughly 30,000 lines, his best-known work. In 1986 UNESCO named Sunthorn Phu a great world poet on the 200th anniversary of his birth",
+          "quote": "Put not your trust in any mortal, for their wiles are immeasurable; even the most tortuous creepers are not as crooked as a man's heart.",
+          "quote_ko": "어떤 사람도 함부로 믿지 말라, 그 꾀는 헤아릴 수 없으니. 가장 뒤틀린 덩굴조차 사람의 마음만큼 굽지는 않았느니라.",
+          "quote_en": "Put not your trust in any mortal, for their wiles are immeasurable; even the most tortuous creepers are not as crooked as a man's heart.",
+          "quote_source": "Phra Aphai Mani (널리 인용되는 영역)",
+          "source_url": "https://en.wikipedia.org/wiki/Phra_Aphai_Mani",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "C",
+      "verified": true,
+      "flags": [
+        "wiki-only"
+      ]
+    },
+    {
+      "id": "cesar-vallejo",
+      "name_ko": "세사르 바예호",
+      "name_en": "César Vallejo",
+      "field": "시인",
+      "field_en": "Poet",
+      "nation": "PE",
+      "birth_year": 1892,
+      "death_year": 1938,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "페루 산티아고데추코",
+        "admin_en": "Santiago de Chuco, Peru",
+        "source_url": "https://www.britannica.com/biography/Cesar-Vallejo",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1892,
+          "event": "페루 산티아고데추코에서 출생",
+          "event_en": "Born in Santiago de Chuco, Peru",
+          "place_id": "santiago-de-chuco",
+          "source_url": "https://www.britannica.com/biography/Cesar-Vallejo",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1919,
+          "event": "첫 시집 '검은 사자(使者)들'(Los heraldos negros) 출간",
+          "event_en": "Published his first poetry collection, Los heraldos negros (The Black Heralds)",
+          "place_id": null,
+          "source_url": "https://poets.org/poem/black-heralds",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1920,
+          "event": "고향에서의 정치적 사건에 연루되어 투옥됨",
+          "event_en": "Imprisoned after political involvement in his home region",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Cesar-Vallejo",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1922,
+          "event": "리마에서 대표작 '트릴세'(Trilce) 출간",
+          "event_en": "Published his major work Trilce in Lima",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Trilce",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1923,
+          "event": "페루를 떠나 파리로 이주",
+          "event_en": "Left Peru for Paris",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Cesar-Vallejo",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1938,
+          "event": "프랑스 파리에서 사망",
+          "event_en": "Died in Paris, France",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Cesar-Vallejo",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "santiago-de-chuco",
+          "name": "산티아고데추코(출생지)",
+          "name_en": "Santiago de Chuco (birthplace)",
+          "lat": -8.1566505,
+          "lng": -78.1071777,
+          "type": "출생지",
+          "type_en": "Birthplace",
+          "source_url": "https://www.britannica.com/biography/Cesar-Vallejo",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "트릴세",
+          "title_en": "Trilce",
+          "note": "1922년 리마에서 출간된 전위주의 대표작으로, 신조어와 활자 실험으로 전통과 단절했다",
+          "note_en": "His avant-garde masterwork, published in Lima in 1922, breaking with tradition through neologisms and typographic experimentation",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://en.wikipedia.org/wiki/Trilce",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "title": "검은 사자들",
+          "title_en": "Los heraldos negros",
+          "note": "1919년 출간된 그의 첫 시집이다",
+          "note_en": "His first poetry collection, published in 1919",
+          "quote": "Hay golpes en la vida, tan fuertes . . . Yo no sé!",
+          "quote_ko": "인생에는 너무도 거센 타격들이 있다 . . . 나는 모르겠다!",
+          "quote_en": "Some blows in life, they're so heavy . . . I don't know.",
+          "quote_source": "Los heraldos negros (1919)",
+          "source_url": "https://poets.org/poem/black-heralds",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "jose-marti",
+      "name_ko": "호세 마르티",
+      "name_en": "José Martí",
+      "field": "시인·언론인·독립운동가",
+      "field_en": "Poet, journalist and independence leader",
+      "nation": "CU",
+      "birth_year": 1853,
+      "death_year": 1895,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "쿠바 아바나",
+        "admin_en": "Havana, Cuba",
+        "source_url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mart%C3%AD",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1853,
+          "event": "1월 28일 쿠바 아바나에서 출생",
+          "event_en": "Born on 28 January in Havana, Cuba",
+          "place_id": "casa-natal-jose-marti",
+          "source_url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mart%C3%AD",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1871,
+          "event": "정치 활동으로 스페인으로 추방됨",
+          "event_en": "Deported to Spain for political activity",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mart%C3%AD",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1891,
+          "event": "시집 '소박한 시(Versos sencillos)' 출간",
+          "event_en": "Published the poetry collection 'Versos sencillos' (Simple Verses)",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Simple_Verses",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1892,
+          "event": "쿠바 혁명당(Partido Revolucionario Cubano) 창설",
+          "event_en": "Founded the Cuban Revolutionary Party",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mart%C3%AD",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1895,
+          "event": "4월 쿠바 독립 전쟁에 참전하기 위해 귀국",
+          "event_en": "Returned to Cuba in April to join the War of Independence",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mart%C3%AD",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1895,
+          "event": "5월 19일 도스리오스 전투에서 전사",
+          "event_en": "Killed in action on 19 May at the Battle of Dos Ríos",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mart%C3%AD",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "casa-natal-jose-marti",
+          "name": "아바나 호세 마르티 생가 박물관",
+          "name_en": "Birthplace Museum of José Martí",
+          "lat": 23.136075,
+          "lng": -82.3500251,
+          "type": "생가·박물관",
+          "type_en": "Birthplace museum",
+          "source_url": "https://www.tripcuba.org/museo-casa-natal-de-jose-marti-birthplace-museum",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "소박한 시(Versos sencillos)",
+          "title_en": "Versos sencillos (Simple Verses)",
+          "note": "1891년 출간된 시집으로, 사후 그 시구가 쿠바의 대표곡 '관타나메라'의 가사로 채택되었다",
+          "note_en": "1891 poetry collection; after his death its verses were adapted as the lyrics of Cuba's iconic song 'Guantanamera'",
+          "quote": "Yo soy un hombre sincero / De donde crece la palma",
+          "quote_ko": "나는 종려나무가 자라는 곳에서 온 / 진실한 사람이라네",
+          "quote_en": "I am a sincere man / From where the palm tree grows",
+          "quote_source": "Versos sencillos I (1891)",
+          "source_url": "https://ciudadseva.com/texto/versos-sencillos-01/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "ruben-dario",
+      "name_ko": "루벤 다리오",
+      "name_en": "Rubén Darío",
+      "field": "시인",
+      "field_en": "Poet",
+      "nation": "NI",
+      "birth_year": 1867,
+      "death_year": 1916,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "니카라과 메타파(현 시우다드다리오)",
+        "admin_en": "Metapa (now Ciudad Darío), Nicaragua",
+        "source_url": "https://www.britannica.com/biography/Ruben-Dario",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1867,
+          "event": "1월 18일 니카라과 메타파에서 펠릭스 루벤 가르시아 사르미엔토로 태어남",
+          "event_en": "Born Félix Rubén García Sarmiento on 18 January in Metapa, Nicaragua",
+          "place_id": "casa-natal-ruben-dario",
+          "source_url": "https://www.britannica.com/biography/Ruben-Dario",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1886,
+          "event": "칠레로 건너가 발파라이소와 산티아고에서 기자·작가로 활동",
+          "event_en": "Moved to Chile, working as a journalist and writer in Valparaíso and Santiago",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Ruben-Dario",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1888,
+          "event": "칠레에서 시·산문집 『푸름(Azul)』을 출간하며 스페인어권 모데르니스모를 본격적으로 열다",
+          "event_en": "Published 'Azul...' in Chile, inaugurating Spanish-American Modernismo",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Ruben-Dario",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1896,
+          "event": "부에노스아이레스에서 시집 『불경한 산문』 출간",
+          "event_en": "Published the poetry collection 'Prosas profanas' in Buenos Aires",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/summary/Ruben-Dario",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1905,
+          "event": "마드리드에서 대표 시집 『삶과 희망의 노래』 출간",
+          "event_en": "Published his major collection 'Cantos de vida y esperanza' in Madrid",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/topic/Cantos-de-vida-y-esperanza",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1916,
+          "event": "2월 6일 니카라과 레온에서 사망; 유해는 레온 대성당에 안치됨",
+          "event_en": "Died on 6 February in León, Nicaragua; buried in León Cathedral",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Ruben-Dario",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "casa-natal-ruben-dario",
+          "name": "루벤 다리오 생가 박물관(시우다드다리오)",
+          "name_en": "Casa Natal Rubén Darío (Ciudad Darío)",
+          "lat": 12.6792623,
+          "lng": -86.1642207,
+          "type": "생가 박물관",
+          "type_en": "Birthplace house museum",
+          "source_url": "https://www.britannica.com/biography/Ruben-Dario",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "푸름(Azul...)",
+          "title_en": "Azul...",
+          "note": "1888년 칠레에서 출간된 시·산문집으로, 스페인어권 모데르니스모 운동을 연 핵심 작품으로 평가된다",
+          "note_en": "Published in Chile in 1888; regarded as the founding work of the Spanish-American Modernismo movement",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://www.britannica.com/biography/Ruben-Dario",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "삶과 희망의 노래",
+          "title_en": "Cantos de vida y esperanza",
+          "note": "1905년 마드리드에서 출간된 시집으로, 수록작 「봄에 부르는 가을의 노래」의 후렴이 널리 알려져 있다",
+          "note_en": "Poetry collection published in Madrid in 1905, including the famous refrain of 'Canción de otoño en primavera'",
+          "quote": "Juventud, divino tesoro, / ¡ya te vas para no volver!",
+          "quote_ko": "젊음이여, 신성한 보물이여, / 너는 이제 다시 오지 않을 길을 떠나는구나!",
+          "quote_en": "Youth, divine treasure, / you are leaving now, never to return!",
+          "quote_source": "Canción de otoño en primavera (1905)",
+          "source_url": "https://www.cervantesvirtual.com/obra-visor/cantos-de-vida-y-esperanza-cancion-de-otono/html/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "senghor",
+      "name_ko": "레오폴 세다르 상고르",
+      "name_en": "Léopold Sédar Senghor",
+      "field": "시인·정치인(네그리튀드)",
+      "field_en": "Poet and statesman (Négritude)",
+      "nation": "SN",
+      "birth_year": 1906,
+      "death_year": 2001,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "프랑스령 서아프리카 세네갈 조알",
+        "admin_en": "Joal, Senegal, French West Africa",
+        "source_url": "https://en.wikipedia.org/wiki/L%C3%A9opold_S%C3%A9dar_Senghor",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1906,
+          "event": "10월 9일 프랑스령 서아프리카 세네갈 조알에서 출생",
+          "event_en": "Born on 9 October in Joal, Senegal, French West Africa",
+          "place_id": "joal",
+          "source_url": "https://en.wikipedia.org/wiki/L%C3%A9opold_S%C3%A9dar_Senghor",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1935,
+          "event": "파리 대학교에서 프랑스어 문법 교수자격(agrégation) 취득",
+          "event_en": "Received the agrégation in French grammar at the University of Paris",
+          "place_id": null,
+          "source_url": "https://www.espacefrancais.com/leopold-sedar-senghor/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1945,
+          "event": "첫 주요 시집 『그림자의 노래』 출간",
+          "event_en": "Published his first major poetry collection, Chants d'ombre",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/L%C3%A9opold_S%C3%A9dar_Senghor",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1948,
+          "event": "에메 세제르 등과 함께 네그리튀드 개념을 전개하고 흑인·말라가시 신시 선집을 편집",
+          "event_en": "Developed the concept of Négritude with Aimé Césaire and others and edited an anthology of new Black and Malagasy poetry",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/L%C3%A9opold_S%C3%A9dar_Senghor",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1960,
+          "event": "독립한 세네갈의 초대 대통령으로 선출됨",
+          "event_en": "Elected the first President of independent Senegal",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/L%C3%A9opold_S%C3%A9dar_Senghor",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1983,
+          "event": "아프리카인 최초로 아카데미 프랑세즈 회원으로 선출됨",
+          "event_en": "Elected to the Académie française, the first African member",
+          "place_id": null,
+          "source_url": "https://www.espacefrancais.com/leopold-sedar-senghor/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2001,
+          "event": "12월 20일 프랑스 노르망디 베르송에서 사망",
+          "event_en": "Died on 20 December in Verson, Normandy, France",
+          "place_id": null,
+          "source_url": "https://www.espacefrancais.com/leopold-sedar-senghor/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "joal",
+          "name": "조알(생가)",
+          "name_en": "Joal (birthplace)",
+          "lat": 14.1582796,
+          "lng": -16.8355227,
+          "type": "출생지",
+          "type_en": "Birthplace",
+          "source_url": "https://en.wikipedia.org/wiki/L%C3%A9opold_S%C3%A9dar_Senghor",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "그림자의 노래",
+          "title_en": "Chants d'ombre (Shadow Songs)",
+          "note": "1945년 출간된 상고르의 첫 주요 시집으로, 네그리튀드 운동과 결부된 작품이다. 유명한 시 「검은 여인」을 수록한다",
+          "note_en": "Senghor's first major poetry collection (1945), associated with the Négritude movement; it contains the well-known poem 'Femme noire'",
+          "quote": "Femme nue, femme noire / Vêtue de ta couleur qui est vie",
+          "quote_ko": "벌거벗은 여인, 검은 여인 / 생명인 그대의 빛깔로 옷 입은 이여",
+          "quote_en": "Naked woman, black woman / Clothed with your colour which is life",
+          "quote_source": "Femme noire (Chants d'ombre, 1945)",
+          "source_url": "https://www.laculturegenerale.com/femme-noire-poeme-leopold-sedar-senghor/",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "title": "검은 제물",
+          "title_en": "Hosties noires (Black Hosts)",
+          "note": "1948년 출간된 시집으로, 프랑스를 위해 싸운 세네갈 병사들에게 바쳐졌다",
+          "note_en": "A 1948 poetry collection dedicated to the Senegalese soldiers who fought for France",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://www.espacefrancais.com/leopold-sedar-senghor/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
     }
   ]
 }

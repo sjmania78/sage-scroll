@@ -32,6 +32,7 @@ let activePersonId = null;
 let currentPerson = null;
 let allPeople = [];
 let activeRegion = "all";
+let activeEra = "all";
 let allBounds = [];
 let routeLayer = null;
 
@@ -228,14 +229,32 @@ const REGIONS = [
 ];
 const NATION_REGION = {
   KR: "korea", CN: "eastasia", JP: "eastasia",
-  GR: "europe", GB: "europe", DE: "europe", IT: "europe", RU: "europe", FR: "europe", ES: "europe", NL: "europe", IE: "europe", AT: "europe", PL: "europe", CZ: "europe", NO: "europe", DK: "europe", SE: "europe",
+  GR: "europe", GB: "europe", DE: "europe", IT: "europe", RU: "europe", FR: "europe", ES: "europe", NL: "europe", IE: "europe", AT: "europe", PL: "europe", CZ: "europe", NO: "europe", DK: "europe", SE: "europe", PT: "europe", HU: "europe", FI: "europe", CH: "europe", BE: "europe", UA: "europe",
   TR: "westasia", IR: "westasia", LB: "westasia",
-  IN: "southasia", PK: "southasia", VN: "southasia", ID: "southasia", PH: "southasia",
-  EG: "africa", NG: "africa", ZA: "africa", MA: "africa",
-  US: "americas", CL: "americas", AR: "americas", CO: "americas", MX: "americas", BR: "americas", CA: "americas",
+  IN: "southasia", PK: "southasia", VN: "southasia", ID: "southasia", PH: "southasia", TH: "southasia",
+  EG: "africa", NG: "africa", ZA: "africa", MA: "africa", SN: "africa",
+  US: "americas", CL: "americas", AR: "americas", CO: "americas", MX: "americas", BR: "americas", CA: "americas", PE: "americas", CU: "americas", NI: "americas",
   NZ: "oceania", AU: "oceania",
 };
 function regionOf(p) { return NATION_REGION[p.nation || "KR"] || "korea"; }
+
+const ERAS = [
+  { key: "all", ko: "전체 시대", en: "All eras" },
+  { key: "ancient", ko: "고대", en: "Ancient" },
+  { key: "medieval", ko: "중세", en: "Medieval" },
+  { key: "earlymodern", ko: "근세", en: "Early Modern" },
+  { key: "c1819", ko: "18–19세기", en: "18–19th c." },
+  { key: "modern", ko: "근현대", en: "Modern" },
+];
+function eraOf(p) {
+  const y = p.birth_year;
+  if (y == null) return "modern";
+  if (y < 600) return "ancient";
+  if (y < 1400) return "medieval";
+  if (y < 1700) return "earlymodern";
+  if (y < 1880) return "c1819";
+  return "modern";
+}
 
 function buildRegionTabs(container) {
   if (!container) return;
@@ -252,17 +271,49 @@ function buildRegionTabs(container) {
   });
 }
 
+function buildEraTabs(container) {
+  if (!container) return;
+  container.innerHTML = "";
+  ERAS.forEach((e) => {
+    const count = e.key === "all" ? allPeople.length : allPeople.filter((p) => eraOf(p) === e.key).length;
+    if (e.key !== "all" && count === 0) return;
+    const b = document.createElement("button");
+    b.dataset.era = e.key;
+    if (e.key === activeEra) b.classList.add("on");
+    b.innerHTML = `${t(e.ko, e.en)}<span class="rt-count">${count}</span>`;
+    b.addEventListener("click", () => selectEra(e.key));
+    container.appendChild(b);
+  });
+}
+
 function selectRegion(key, fly = true) {
   activeRegion = key;
   document.querySelectorAll("#region-tabs button").forEach((b) => b.classList.toggle("on", b.dataset.region === key));
+  refreshList(fly);
+}
+
+function selectEra(key, fly = true) {
+  activeEra = key;
+  document.querySelectorAll("#era-tabs button").forEach((b) => b.classList.toggle("on", b.dataset.era === key));
+  refreshList(fly);
+}
+
+// 지역·시대 두 축을 AND로 교차 필터링
+function refreshList(fly = true) {
   const list = document.getElementById("person-list");
   if (!list) return;
-  if (key === "all") {
-    list.innerHTML = `<div class="region-hint">${t("지역 탭을 누르거나, 지도의 핀·이름을 선택하세요.", "Pick a region tab, or select a pin or a name on the map.")}</div>`;
+  const people = allPeople.filter(
+    (p) => (activeRegion === "all" || regionOf(p) === activeRegion) && (activeEra === "all" || eraOf(p) === activeEra)
+  );
+  if (activeRegion === "all" && activeEra === "all") {
+    list.innerHTML = `<div class="region-hint">${t("지역·시대 탭으로 좁히거나, 지도의 핀·이름을 선택하세요.", "Narrow by region or era, or select a pin or a name on the map.")}</div>`;
     if (fly && allBounds.length) map.fitBounds(allBounds, { padding: [40, 40], maxZoom: 12, animate: true });
     return;
   }
-  const people = allPeople.filter((p) => regionOf(p) === key);
+  if (!people.length) {
+    list.innerHTML = `<div class="region-hint">${t("해당하는 인물이 없습니다.", "No figures match this region and era.")}</div>`;
+    return;
+  }
   buildPersonIndex(people, list);
   if (fly) {
     const pts = [];
@@ -302,7 +353,8 @@ function setLang(lang) {
   applyLanguage();
   updateStats(allPeople, statCache.placeCount, statCache.verifiedCount);
   buildRegionTabs(document.getElementById("region-tabs"));
-  selectRegion(activeRegion, false);
+  buildEraTabs(document.getElementById("era-tabs"));
+  refreshList(false);
   if (currentPerson) renderPerson(currentPerson, false);
 }
 
@@ -344,7 +396,8 @@ async function init() {
   allBounds = bounds;
   updateStats(people, placeCount, verifiedCount);
   buildRegionTabs(document.getElementById("region-tabs"));
-  selectRegion("all", false);
+  buildEraTabs(document.getElementById("era-tabs"));
+  refreshList(false);
   if (bounds.length) map.fitBounds(bounds, { padding: [50, 50], maxZoom: 12 });
 
   document.getElementById("panel-content").addEventListener("click", (e) => {
