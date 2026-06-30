@@ -83,6 +83,8 @@ function trustNote(flags) {
 }
 
 function pickHeroWork(p) { return (p.works || []).find((w) => w.quote) || null; }
+// 인용문 아래 해석: KO 모드=한국어역(quote_ko), EN 모드=영어역(quote_en). 원문이 해당 언어면 비움.
+function qTrans(q) { return LANG === "en" ? (q.quote_en || "") : (q.quote_ko || ""); }
 
 function pinIcon(active) {
   return L.divIcon({
@@ -134,7 +136,7 @@ function renderPerson(p, fly = true) {
   const heroHtml = hero
     ? `<blockquote class="hero-quote">
          <p class="hq-text">${hero.quote}</p>
-         ${LANG === "en" && hero.quote_en ? `<p class="hq-trans">${hero.quote_en}</p>` : ""}
+         ${qTrans(hero) ? `<p class="hq-trans">${qTrans(hero)}</p>` : ""}
          <cite class="hq-cite">${t(hero.quote_source, hero.quote_source_en) || nameOf2(hero)}</cite>
        </blockquote>` : "";
 
@@ -149,7 +151,7 @@ function renderPerson(p, fly = true) {
   const worksHtml = (p.works || []).map((w) => {
     const isHero = hero && w === hero;
     const q = w.quote && !isHero
-      ? `<blockquote class="work-quote">${w.quote}${LANG === "en" && w.quote_en ? `<span class="wq-trans">${w.quote_en}</span>` : ""}${w.quote_source ? `<cite>${t(w.quote_source, w.quote_source_en)}</cite>` : ""}</blockquote>` : "";
+      ? `<blockquote class="work-quote">${w.quote}${qTrans(w) ? `<span class="wq-trans">${qTrans(w)}</span>` : ""}${w.quote_source ? `<cite>${t(w.quote_source, w.quote_source_en)}</cite>` : ""}</blockquote>` : "";
     return `<div class="work">
       <span class="work-title">${t(w.title, w.title_en)}</span>${w.year != null ? `<span class="work-year">${fmtYear(w.year)}</span>` : ""}
       ${w.note ? `<span class="work-note">${t(w.note, w.note_en)}</span>` : ""}${q}
@@ -266,17 +268,13 @@ async function init() {
 
   people.forEach((p) => {
     if (p.verified !== false) verifiedCount++;
-    const b = p.birthplace;
-    if (b && b.lat != null && b.lng != null) {
-      const m = addMarker(b.lat, b.lng, p, { name: t("출생지", "Birthplace"), name_en: "Birthplace" });
-      bounds.push([b.lat, b.lng]);
-      placeIndex[`${p.id}-birth`] = { lat: b.lat, lng: b.lng, marker: m, person: p };
-    }
+    let hasMarker = false; // 한 인물당 마커 1개 (첫 좌표 장소)
     (p.places || []).forEach((pl) => {
       placeCount++;
       if (pl.lat != null && pl.lng != null) {
-        const m = addMarker(pl.lat, pl.lng, p, pl);
         bounds.push([pl.lat, pl.lng]);
+        const m = hasMarker ? null : addMarker(pl.lat, pl.lng, p, pl);
+        if (m) hasMarker = true;
         placeIndex[pl.id] = { ...pl, marker: m, person: p };
       }
     });

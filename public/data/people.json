@@ -453,8 +453,7 @@
           "source_url": "https://www.khs.go.kr/cop/bbs/selectBoardArticle.do?nttId=74712&bbsId=BBSMSTR_1008&mn=NS_01_09_01",
           "source_grade": "A",
           "flags": [
-            "coords-unverified",
-            "overseas"
+            "coords-unverified"
           ],
           "name_en": "Yun Dong-ju's Family Home (Mingdong village, Longjing, China)",
           "type_en": "Family home"
@@ -469,7 +468,6 @@
           "source_grade": "C",
           "flags": [
             "coords-unverified",
-            "overseas",
             "wiki-only"
           ],
           "name_en": "Yun Dong-ju's Tomb (Longjing, China)",
@@ -3882,7 +3880,8 @@
           "flags": [],
           "title_en": "Calligraphy 'Gyeolli Saui Gyeonwi Sumyeong (見利思義見危授命)'",
           "note_en": "A calligraphic work written in Lushun Prison. It bears the inscription 'Written by An Jung-geun, a Korean, in Lushun Prison, third month of the Gyeongsul year (1910)' and an imprint of his left palm.",
-          "quote_en": "When you see profit, think of righteousness; when you see danger, be ready to give your life."
+          "quote_en": "When you see profit, think of righteousness; when you see danger, be ready to give your life.",
+          "quote_ko": "이로움을 보거든 의로움을 생각하고, 위태로움을 보거든 목숨을 바쳐라."
         },
         {
           "title": "동양평화론(東洋平和論)",
@@ -4346,8 +4345,7 @@
           "source_url": "https://whc.unesco.org/en/list/704/",
           "source_grade": "A",
           "flags": [
-            "coords-osm",
-            "overseas"
+            "coords-osm"
           ],
           "name_en": "Temple of Confucius, Qufu (孔廟)",
           "type_en": "Shrine"
@@ -4361,8 +4359,7 @@
           "source_url": "https://whc.unesco.org/en/list/704/",
           "source_grade": "A",
           "flags": [
-            "coords-osm",
-            "overseas"
+            "coords-osm"
           ],
           "name_en": "Cemetery of Confucius (孔林)",
           "type_en": "Tomb"
@@ -4382,7 +4379,8 @@
           ],
           "title_en": "The Analects (論語)",
           "note_en": "A collection of sayings traditionally held to have been compiled by his disciples and their disciples over the centuries following his death (according to traditional accounts).",
-          "quote_en": "Is it not a pleasure to learn and to practice what one has learned in due time? Is it not a joy to have friends come from afar? Is one not a gentleman if one feels no resentment when others fail to recognize him?"
+          "quote_en": "Is it not a pleasure to learn and to practice what one has learned in due time? Is it not a joy to have friends come from afar? Is one not a gentleman if one feels no resentment when others fail to recognize him?",
+          "quote_ko": "배우고 때때로 익히면 또한 기쁘지 아니한가? 벗이 먼 곳에서 찾아오면 또한 즐겁지 아니한가? 남이 알아주지 않아도 성내지 않으면 또한 군자가 아니겠는가?"
         }
       ],
       "source_grade": "A",
@@ -4477,8 +4475,7 @@
           "source_url": "https://en.wikipedia.org/wiki/Du_Fu_Thatched_Cottage",
           "source_grade": "C",
           "flags": [
-            "coords-osm",
-            "overseas"
+            "coords-osm"
           ],
           "name_en": "Du Fu Thatched Cottage, Chengdu (杜甫草堂)",
           "type_en": "Thatched cottage"
@@ -4496,7 +4493,8 @@
           "flags": [],
           "title_en": "Spring View (春望)",
           "note_en": "A five-character regulated verse (lüshi) composed while he was detained in the fallen capital of Chang'an during the An Lushan Rebellion.",
-          "quote_en": "The state is shattered, yet mountains and rivers remain; spring comes to the city, and grasses and trees grow deep."
+          "quote_en": "The state is shattered, yet mountains and rivers remain; spring comes to the city, and grasses and trees grow deep.",
+          "quote_ko": "나라는 깨졌어도 산하는 남아 있고, 성에 봄이 드니 초목이 우거졌구나."
         },
         {
           "title": "춘야희우(春夜喜雨)",
@@ -4509,7 +4507,8 @@
           "flags": [],
           "title_en": "Delighting in Rain on a Spring Night (春夜喜雨)",
           "note_en": "A five-character regulated verse singing of spring rain, composed in 761 while he was staying at his Chengdu cottage.",
-          "quote_en": "A good rain knows its season; when spring comes, it brings forth life."
+          "quote_en": "A good rain knows its season; when spring comes, it brings forth life.",
+          "quote_ko": "좋은 비는 시절을 알아, 봄이 되니 이내 내리는구나."
         }
       ],
       "source_grade": "B",
@@ -4603,8 +4602,7 @@
           "source_url": "https://www.britannica.com/biography/Basho-Japanese-poet",
           "source_grade": "A",
           "flags": [
-            "coords-osm",
-            "overseas"
+            "coords-osm"
           ],
           "name_en": "Iga-Ueno (birthplace)",
           "type_en": "Birthplace"
@@ -4618,8 +4616,7 @@
           "source_url": "https://www.britannica.com/biography/Basho-Japanese-poet",
           "source_grade": "A",
           "flags": [
-            "coords-osm",
-            "overseas"
+            "coords-osm"
           ],
           "name_en": "Osaka (place of death)",
           "type_en": "Historic site"
@@ -4639,7 +4636,8 @@
           ],
           "title_en": "'Furu ike ya' (The Old Pond)",
           "note_en": "A standalone haiku composed at his Edo hermitage. The most widely known of all Japanese haiku.",
-          "quote_en": "An old pond— a frog leaps in, the sound of water"
+          "quote_en": "An old pond— a frog leaps in, the sound of water",
+          "quote_ko": "오래된 연못 / 개구리 뛰어드는 / 물소리"
         },
         {
           "title": "오쿠노호소미치(奥の細道)",
@@ -4748,8 +4746,7 @@
           "source_url": "https://www.britannica.com/biography/Murasaki-Shikibu",
           "source_grade": "B",
           "flags": [
-            "coords-osm",
-            "overseas"
+            "coords-osm"
           ],
           "name_en": "Kyoto (Heian-kyō) — court service",
           "type_en": "Historic site"
@@ -4764,7 +4761,6 @@
           "source_grade": "C",
           "flags": [
             "coords-osm",
-            "overseas",
             "authorship-traditional"
           ],
           "name_en": "Ishiyama-dera (石山寺) — traditional site where the writing of 'Genji' is said to have begun",
@@ -4785,7 +4781,8 @@
           ],
           "title_en": "The Diary of Lady Murasaki (紫式部日記)",
           "note_en": "A diary recording court life, including the birth of Empress Shōshi's imperial prince (c. 1008–1010).",
-          "quote_en": "As the air of autumn deepens, the appearance of the Tsuchimikado mansion is lovely beyond words."
+          "quote_en": "As the air of autumn deepens, the appearance of the Tsuchimikado mansion is lovely beyond words.",
+          "quote_ko": "가을 기운이 깊어 가니, 쓰치미카도 저택의 정취가 이루 말할 수 없이 그윽하다."
         },
         {
           "title": "겐지 이야기(源氏物語)",
@@ -4808,6 +4805,1640 @@
         "authorship-traditional"
       ],
       "field_en": "Writer and poet (Heian court)"
+    },
+    {
+      "id": "socrates",
+      "name_ko": "소크라테스",
+      "name_en": "Socrates",
+      "field": "철학자",
+      "field_en": "Philosopher",
+      "birth_year": -470,
+      "death_year": -399,
+      "nation": "GR",
+      "birthplace": {
+        "admin": "그리스 아테네 (알로페케 구)",
+        "admin_en": "Alopece, Athens, Greece",
+        "source_url": "https://plato.stanford.edu/entries/socrates/",
+        "source_grade": "A",
+        "flags": [
+          "year-approx",
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": -470,
+          "event": "아테네의 알로페케 구에서 석공 소프로니스코스와 산파 파이나레테의 아들로 태어났다.",
+          "event_en": "Born in the Athenian deme of Alopece, son of Sophroniscus (a stonemason) and Phaenarete (a midwife).",
+          "place_id": "athens",
+          "source_url": "https://plato.stanford.edu/entries/socrates/",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -432,
+          "event": "포티다이아 전투에 중장보병으로 참전했으며, 부상당한 알키비아데스를 구했다고 전한다.",
+          "event_en": "Served as a hoplite at the Battle of Potidaea, where he was said to have saved the wounded Alcibiades.",
+          "place_id": null,
+          "source_url": "https://plato.stanford.edu/entries/socrates/",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -424,
+          "event": "델리온 전투에 참전하여 아테네군 후퇴 중 침착함으로 칭송받았다.",
+          "event_en": "Fought at the Battle of Delium, praised for his composure during the Athenian retreat.",
+          "place_id": null,
+          "source_url": "https://plato.stanford.edu/entries/socrates/",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -406,
+          "event": "평의회(불레) 의원으로서 아르기누사이 해전 장군들에 대한 집단 재판에 반대표를 던졌다.",
+          "event_en": "As a member of the Boule, opposed the unlawful collective trial of the generals after the Battle of Arginusae.",
+          "place_id": "athens",
+          "source_url": "https://plato.stanford.edu/entries/socrates/",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -399,
+          "event": "불경죄(아세베이아)와 청년들을 타락시킨 죄목으로 멜레토스, 아니토스, 리콘에 의해 고발되어 재판을 받았다.",
+          "event_en": "Tried on charges of impiety (asebeia) and corrupting the youth, brought by Meletus, Anytus, and Lycon.",
+          "place_id": "athens",
+          "source_url": "https://plato.stanford.edu/entries/socrates/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": -399,
+          "event": "유죄 판결을 받고 사형이 선고되어 독미나리(헴록)를 마시고 사망했다.",
+          "event_en": "Found guilty, sentenced to death, and executed by drinking hemlock.",
+          "place_id": "athens",
+          "source_url": "https://plato.stanford.edu/entries/socrates/",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "athens",
+          "name": "아테네",
+          "name_en": "Athens",
+          "type": "도시",
+          "type_en": "City",
+          "source_url": "https://plato.stanford.edu/entries/socrates/",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 37.9755648,
+          "lng": 23.7348324
+        }
+      ],
+      "works": [
+        {
+          "title": "소크라테스의 변론 (플라톤 기록)",
+          "title_en": "Apology (recorded by Plato)",
+          "note": "소크라테스는 직접 글을 남기지 않았으며, 그의 사상은 주로 제자 플라톤과 크세노폰의 기록을 통해 전해진다. 『변론』은 플라톤이 기록한 재판 변론이다.",
+          "note_en": "Socrates wrote nothing himself; his thought survives mainly through his pupils Plato and Xenophon. The Apology is Plato's account of Socrates' defense speech at his trial.",
+          "quote": "ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ",
+          "quote_ko": "성찰하지 않는 삶은 인간에게 살 가치가 없다.",
+          "quote_en": "The unexamined life is not worth living for a human being.",
+          "quote_source": "Plato, Apology 38a",
+          "source_url": "https://www.perseus.tufts.edu/hopper/text?doc=plat.+apol.+38a",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "year-approx"
+      ]
+    },
+    {
+      "id": "shakespeare",
+      "name_ko": "윌리엄 셰익스피어",
+      "name_en": "William Shakespeare",
+      "field": "극작가·시인·배우",
+      "field_en": "Playwright, Poet, Actor",
+      "birth_year": 1564,
+      "death_year": 1616,
+      "nation": "GB",
+      "birthplace": {
+        "admin": "잉글랜드 워릭셔 스트랫퍼드어폰에이번 헨리 거리",
+        "admin_en": "Henley Street, Stratford-upon-Avon, Warwickshire, England",
+        "source_url": "https://www.folger.edu/explore/shakespeares-life/",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1564,
+          "event": "스트랫퍼드어폰에이번에서 태어나 4월 26일 홀리트리니티 교회에서 세례를 받았다(생일은 전통적으로 4월 23일로 기념).",
+          "event_en": "Born in Stratford-upon-Avon and baptized at Holy Trinity Church on April 26 (birthday traditionally celebrated April 23).",
+          "place_id": "shakespeares-birthplace",
+          "source_url": "https://www.folger.edu/explore/shakespeares-life/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1582,
+          "event": "앤 해서웨이와 결혼했다(혼인 보증서 날짜 1582년 11월 28일).",
+          "event_en": "Married Anne Hathaway (marriage bond dated November 28, 1582).",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/William-Shakespeare",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1592,
+          "event": "런던에서 활동하는 배우이자 극작가로 처음 문헌에 언급되었다.",
+          "event_en": "First documented in London as an established actor and playwright.",
+          "place_id": null,
+          "source_url": "https://www.folger.edu/explore/shakespeares-life/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1594,
+          "event": "극단 '체임벌린 경 극단(Lord Chamberlain's Men)'의 창단 단원이자 주주가 되었다.",
+          "event_en": "Became a founding member and shareholder of the playing company the Lord Chamberlain's Men.",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/topic/Globe-Theatre",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1599,
+          "event": "그의 극단이 템스강 남안 서더크에 글로브 극장(Globe Theatre)을 세웠고, 그는 지분 보유자였다.",
+          "event_en": "His company built the Globe Theatre in Southwark on the south bank of the Thames, in which he held a share.",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/topic/Globe-Theatre",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1616,
+          "event": "4월 23일 스트랫퍼드어폰에이번에서 사망하여 홀리트리니티 교회에 묻혔다.",
+          "event_en": "Died on April 23 in Stratford-upon-Avon and was buried at Holy Trinity Church.",
+          "place_id": null,
+          "source_url": "https://www.folger.edu/explore/shakespeares-life/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1623,
+          "event": "그의 희곡들을 모은 첫 전집 '제1이절판(First Folio)'이 사후 7년 만에 출간되었다.",
+          "event_en": "The First Folio, the first collected edition of his plays, was published seven years after his death.",
+          "place_id": null,
+          "source_url": "https://www.folger.edu/explore/shakespeares-life/",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "shakespeares-birthplace",
+          "name": "셰익스피어 생가",
+          "name_en": "Shakespeare's Birthplace",
+          "type": "생가",
+          "type_en": "Birthplace",
+          "source_url": "https://www.shakespeare.org.uk/visit/shakespeares-birthplace/",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 52.1938833,
+          "lng": -1.7080084
+        }
+      ],
+      "works": [
+        {
+          "title": "햄릿",
+          "title_en": "Hamlet",
+          "note": "덴마크 왕자 햄릿이 아버지의 죽음에 대한 복수를 다루는 비극으로, 3막 1장의 독백이 가장 유명하다.",
+          "note_en": "A tragedy in which Prince Hamlet of Denmark seeks revenge for his father's death; its Act 3, Scene 1 soliloquy is among the most famous in English.",
+          "quote": "To be, or not to be, that is the question",
+          "quote_ko": "사느냐 죽느냐, 그것이 문제로다",
+          "quote_en": "",
+          "quote_source": "Hamlet, Act 3, Scene 1 (Folger Shakespeare Library)",
+          "source_url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/3/1/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "로미오와 줄리엣",
+          "title_en": "Romeo and Juliet",
+          "note": "베로나의 원수 가문 출신 두 연인의 비극을 그린 작품이다.",
+          "note_en": "A tragedy depicting two young lovers from feuding families in Verona.",
+          "quote": "O Romeo, Romeo, wherefore art thou Romeo?",
+          "quote_ko": "오 로미오, 로미오, 어찌하여 그대는 로미오인가요?",
+          "quote_en": "",
+          "quote_source": "Romeo and Juliet, Act 2, Scene 2 (Folger Shakespeare Library)",
+          "source_url": "https://www.folger.edu/explore/shakespeares-works/romeo-and-juliet/",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "goethe",
+      "name_ko": "요한 볼프강 폰 괴테",
+      "name_en": "Johann Wolfgang von Goethe",
+      "field": "작가·시인·정치가·자연과학자",
+      "field_en": "Writer, Poet, Statesman, Natural Scientist",
+      "birth_year": 1749,
+      "death_year": 1832,
+      "nation": "DE",
+      "birthplace": {
+        "admin": "신성로마제국 프랑크푸르트암마인",
+        "admin_en": "Frankfurt am Main, Holy Roman Empire",
+        "source_url": "https://www.britannica.com/biography/Johann-Wolfgang-von-Goethe",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1749,
+          "event": "8월 28일 프랑크푸르트암마인에서 출생",
+          "event_en": "Born on 28 August in Frankfurt am Main",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Johann-Wolfgang-von-Goethe",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1774,
+          "event": "소설 『젊은 베르터의 슬픔』을 발표하여 유럽 전역에서 명성을 얻음",
+          "event_en": "Published the novel The Sorrows of Young Werther, gaining fame across Europe",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1775,
+          "event": "카를 아우구스트 공작의 초청으로 바이마르로 이주",
+          "event_en": "Moved to Weimar at the invitation of Duke Carl August",
+          "place_id": "goethe-house-weimar",
+          "source_url": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1782,
+          "event": "프라우엔플란의 저택으로 입주; 같은 해 귀족 칭호 '폰(von)'을 받음",
+          "event_en": "Moved into the house at Frauenplan; ennobled with the particle 'von' the same year",
+          "place_id": "goethe-house-weimar",
+          "source_url": "https://www.klassik-stiftung.de/goethe-nationalmuseum/goethes-wohnhaus/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1808,
+          "event": "『파우스트』 제1부를 출간",
+          "event_en": "Published Faust Part One",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1832,
+          "event": "3월 22일 바이마르에서 사망; 『파우스트』 제2부가 사후 출간됨",
+          "event_en": "Died on 22 March in Weimar; Faust Part Two published posthumously",
+          "place_id": "goethe-house-weimar",
+          "source_url": "https://www.britannica.com/biography/Johann-Wolfgang-von-Goethe",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "goethe-house-weimar",
+          "name": "바이마르 괴테 하우스 (프라우엔플란 괴테 저택)",
+          "name_en": "Goethe's House (Goethes Wohnhaus am Frauenplan), Weimar",
+          "type": "고택·박물관",
+          "type_en": "Historic house museum",
+          "source_url": "https://www.klassik-stiftung.de/goethe-nationalmuseum/goethes-wohnhaus/",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 50.9775643,
+          "lng": 11.3287428
+        }
+      ],
+      "works": [
+        {
+          "title": "파우스트",
+          "title_en": "Faust",
+          "note": "제1부는 1808년, 제2부는 1832년 사후에 출간된 비극; 학자 파우스트가 메피스토펠레스와 계약을 맺는 이야기",
+          "note_en": "A tragedy; Part One published 1808, Part Two published posthumously 1832; the scholar Faust makes a pact with Mephistopheles",
+          "quote": "Zwei Seelen wohnen, ach! in meiner Brust,\nDie eine will sich von der andern trennen;",
+          "quote_ko": "아아, 두 영혼이 내 가슴 속에 깃들어 있어,\n하나가 다른 하나에서 떨어지려 하는구나;",
+          "quote_en": "Two souls, alas, are dwelling in my breast, and each is fain to leave its brother.",
+          "quote_source": "Faust I, 'Vor dem Tor' (lines 1112–1113)",
+          "source_url": "https://www.britannica.com/biography/Johann-Wolfgang-von-Goethe",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "dante",
+      "name_ko": "단테 알리기에리",
+      "name_en": "Dante Alighieri",
+      "field": "시인",
+      "field_en": "Poet",
+      "birth_year": 1265,
+      "death_year": 1321,
+      "nation": "IT",
+      "birthplace": {
+        "admin": "피렌체 공화국(현 이탈리아 피렌체)",
+        "admin_en": "Republic of Florence (present-day Florence, Italy)",
+        "source_url": "https://www.britannica.com/biography/Dante-Alighieri",
+        "source_grade": "B",
+        "flags": [
+          "year-approx",
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1265,
+          "event": "피렌체에서 하급 귀족 가문의 아들로 태어났다.",
+          "event_en": "Born in Florence into a family of lesser nobility.",
+          "place_id": "florence",
+          "source_url": "https://www.worldhistory.org/Dante_Alighieri/",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1274,
+          "event": "아홉 살 때 베아트리체 포르티나리를 처음 만났으며, 그녀는 이후 그의 시의 중심이 되었다.",
+          "event_en": "At age nine he first met Beatrice Portinari, who became central to his poetry.",
+          "place_id": "florence",
+          "source_url": "https://www.britannica.com/biography/Dante-Alighieri",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1294,
+          "event": "베아트리체의 죽음(1290년) 이후 그녀에게 바친 작품 『새로운 삶(La Vita Nuova)』을 완성했다.",
+          "event_en": "Completed 'La Vita Nuova' dedicated to Beatrice, following her death in 1290.",
+          "place_id": "florence",
+          "source_url": "https://www.britannica.com/topic/La-Vita-nuova",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1300,
+          "event": "피렌체를 다스리는 프리오레(최고위원) 중 한 명으로 선출되었다.",
+          "event_en": "Elected one of the priors who governed Florence.",
+          "place_id": "florence",
+          "source_url": "https://www.worldhistory.org/Dante_Alighieri/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1302,
+          "event": "백당(白黨) 궬프가 패배하면서 피렌체에서 추방되어 다시는 고향에 돌아가지 못했다.",
+          "event_en": "Exiled from Florence after the defeat of the White Guelphs; he never returned.",
+          "place_id": "florence",
+          "source_url": "https://www.britannica.com/biography/Dante-Alighieri",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1308,
+          "event": "망명 생활 중 대표작 『신곡(La Commedia)』의 집필을 시작했다.",
+          "event_en": "Began writing his masterpiece, the 'Divine Comedy', during exile.",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Divine_Comedy",
+          "source_grade": "C",
+          "flags": [
+            "year-approx",
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1321,
+          "event": "라벤나에서 말라리아로 사망했으며, 그곳에 묻혔다.",
+          "event_en": "Died of malaria in Ravenna, where he was buried.",
+          "place_id": null,
+          "source_url": "https://www.worldhistory.org/Dante_Alighieri/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "florence",
+          "name": "피렌체",
+          "name_en": "Florence",
+          "type": "도시",
+          "type_en": "City",
+          "source_url": "https://www.britannica.com/biography/Dante-Alighieri",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 43.7697955,
+          "lng": 11.2556404
+        }
+      ],
+      "works": [
+        {
+          "title": "신곡",
+          "title_en": "The Divine Comedy",
+          "note": "지옥·연옥·천국을 여행하는 3부작 서사시로, 토스카나 속어로 쓰여 이탈리아 문학어의 토대가 되었다.",
+          "note_en": "A three-part epic poem narrating a journey through Hell, Purgatory, and Paradise, written in the Tuscan vernacular.",
+          "quote": "Nel mezzo del cammin di nostra vita / mi ritrovai per una selva oscura, / ché la diritta via era smarrita.",
+          "quote_ko": "우리 인생길 한가운데에서 / 나는 어두운 숲속에 있었으니, / 곧은 길을 잃어버렸기 때문이다.",
+          "quote_en": "Midway upon the journey of our life I found myself within a forest dark, for the straightforward pathway had been lost.",
+          "quote_source": "Dante, Inferno, Canto I, ll. 1-3",
+          "source_url": "https://it.wikisource.org/wiki/Divina_Commedia/Inferno/Canto_I",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "새로운 삶",
+          "title_en": "La Vita Nuova",
+          "note": "산문과 시를 엮어 베아트리체를 향한 사랑을 그린 초기작이다.",
+          "note_en": "An early work mixing prose and poetry expressing his love for Beatrice.",
+          "source_url": "https://www.britannica.com/topic/La-Vita-nuova",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": [
+        "year-approx"
+      ]
+    },
+    {
+      "id": "tolstoy",
+      "name_ko": "레프 톨스토이",
+      "name_en": "Leo Tolstoy",
+      "field": "소설가·사상가",
+      "field_en": "Novelist and Thinker",
+      "birth_year": 1828,
+      "death_year": 1910,
+      "nation": "RU",
+      "birthplace": {
+        "admin": "러시아 툴라주 야스나야 폴랴나",
+        "admin_en": "Yasnaya Polyana, Tula Governorate, Russia",
+        "source_url": "https://en.wikipedia.org/wiki/Yasnaya_Polyana",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only",
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1828,
+          "event": "러시아 툴라주의 영지 야스나야 폴랴나에서 귀족 가문의 아들로 태어났다.",
+          "event_en": "Born into an aristocratic family at the Yasnaya Polyana estate in Tula Governorate, Russia.",
+          "place_id": "yasnaya-polyana",
+          "source_url": "https://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1855,
+          "event": "크림 전쟁 당시 포병 장교로 세바스토폴 공방전(1854~1855)에 참전했다.",
+          "event_en": "Served as an artillery officer in the siege of Sevastopol (1854–55) during the Crimean War.",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1862,
+          "event": "소피야 베르스와 결혼했다.",
+          "event_en": "Married Sophia Behrs.",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1869,
+          "event": "야스나야 폴랴나에서 1862년부터 집필한 장편 '전쟁과 평화'를 완성했다.",
+          "event_en": "Completed the novel 'War and Peace', written at Yasnaya Polyana from 1862.",
+          "place_id": "yasnaya-polyana",
+          "source_url": "https://en.wikipedia.org/wiki/Yasnaya_Polyana",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1878,
+          "event": "'안나 카레니나'를 단행본으로 출간했다(1875~1877년 잡지에 연재).",
+          "event_en": "Published 'Anna Karenina' in book form (serialized 1875–1877).",
+          "place_id": "yasnaya-polyana",
+          "source_url": "https://en.wikipedia.org/wiki/Anna_Karenina",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1901,
+          "event": "러시아 정교회로부터 파문되었다.",
+          "event_en": "Was excommunicated by the Russian Orthodox Church.",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1910,
+          "event": "야스나야 폴랴나를 떠난 뒤 아스타포보 기차역에서 사망했으며, 영지 안 숲에 묻혔다.",
+          "event_en": "Died at Astapovo railway station after leaving Yasnaya Polyana, and was buried in the estate's forest.",
+          "place_id": "yasnaya-polyana",
+          "source_url": "https://en.wikipedia.org/wiki/Leo_Tolstoy",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "yasnaya-polyana",
+          "name": "야스나야 폴랴나(생가·영지)",
+          "name_en": "Yasnaya Polyana",
+          "type": "생가·영지",
+          "type_en": "Birthplace and estate",
+          "source_url": "https://en.wikipedia.org/wiki/Yasnaya_Polyana",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ],
+          "lat": 54.0965421,
+          "lng": 37.5689479
+        }
+      ],
+      "works": [
+        {
+          "title": "전쟁과 평화",
+          "title_en": "War and Peace",
+          "note": "야스나야 폴랴나에서 1862년부터 1869년에 걸쳐 집필했으며 1869년에 완성·출간했다.",
+          "note_en": "Written at Yasnaya Polyana from 1862 to 1869, and completed and published in 1869.",
+          "quote": "Все мы знаем только то, что ничего не знаем. Это высшая степень человеческой премудрости.",
+          "quote_ko": "우리 모두가 아는 것은 우리가 아무것도 모른다는 사실뿐이다. 그것이 인간 지혜의 최고 경지다.",
+          "quote_en": "All we can know is that we know nothing. And that's the height of human wisdom.",
+          "quote_source": "Leo Tolstoy, War and Peace",
+          "source_url": "https://en.wikiquote.org/wiki/War_and_Peace",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "title": "안나 카레니나",
+          "title_en": "Anna Karenina",
+          "note": "야스나야 폴랴나에서 1873년부터 1877년에 걸쳐 집필했으며, 1875~1877년 잡지 연재 후 1878년 단행본으로 출간했다.",
+          "note_en": "Written at Yasnaya Polyana from 1873 to 1877; serialized 1875–1877 and published in book form in 1878.",
+          "quote": "Все счастливые семьи похожи друг на друга, каждая несчастливая семья несчастлива по-своему.",
+          "quote_ko": "행복한 가정은 모두 엇비슷하지만, 불행한 가정은 저마다 다른 이유로 불행하다.",
+          "quote_en": "Happy families are all alike; every unhappy family is unhappy in its own way.",
+          "quote_source": "Leo Tolstoy, Anna Karenina, Part 1, Ch. 1 (trans. C. Garnett)",
+          "source_url": "https://en.wikiquote.org/wiki/Anna_Karenina",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "C",
+      "verified": true,
+      "flags": [
+        "wiki-only"
+      ]
+    },
+    {
+      "id": "rumi",
+      "name_ko": "잘랄 알딘 루미",
+      "name_en": "Jalal al-Din Rumi",
+      "field": "시인·신비주의(수피) 사상가",
+      "field_en": "Poet and Sufi mystic",
+      "birth_year": 1207,
+      "death_year": 1273,
+      "nation": "TR",
+      "birthplace": {
+        "admin": "발흐(현 아프가니스탄) 또는 바흐시(현 타지키스탄) 추정; 코니아(현 터키)에서 활동·사망",
+        "admin_en": "Balkh (in present-day Afghanistan) or Vakhsh (in present-day Tajikistan), disputed; active and died in Konya (present-day Turkey)",
+        "source_url": "https://www.britannica.com/biography/Rumi",
+        "source_grade": "A",
+        "flags": [
+          "birthplace-disputed",
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1207,
+          "event": "발흐 인근(현 아프가니스탄) 또는 바흐시(현 타지키스탄)에서 출생; 신비주의 신학자 바하 알딘 왈라드의 아들",
+          "event_en": "Born near Balkh (present-day Afghanistan) or in Vakhsh (present-day Tajikistan); son of the mystic theologian Baha al-Din Walad",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Rumi",
+          "source_grade": "A",
+          "flags": [
+            "birthplace-disputed"
+          ]
+        },
+        {
+          "year": 1218,
+          "event": "몽골의 위협 등으로 가족이 발흐를 떠나 메카 순례와 중동 각지를 거침",
+          "event_en": "Family left Balkh amid the Mongol threat, traveling via a pilgrimage to Mecca and through the Middle East",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Rumi",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1228,
+          "event": "셀주크 술탄국의 수도 코니아로 초빙되어 정착",
+          "event_en": "Invited to settle in Konya, capital of the Seljuq Sultanate of Rum",
+          "place_id": "mevlana-museum-konya",
+          "source_url": "https://www.britannica.com/biography/Rumi",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1244,
+          "event": "방랑 수피 샴스 알딘 타브리지를 코니아에서 만나 학자에서 신비주의 시인으로 전환",
+          "event_en": "Met the wandering dervish Shams al-Din of Tabriz in Konya, transforming from jurist to mystic poet",
+          "place_id": "mevlana-museum-konya",
+          "source_url": "https://www.britannica.com/biography/Rumi",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1258,
+          "event": "대표 서사시 『마스나비』의 구술·집필을 시작(사망 시까지 지속, 미완으로 남음)",
+          "event_en": "Began dictating his didactic epic the Masnavi, continuing until his death (left unfinished)",
+          "place_id": "mevlana-museum-konya",
+          "source_url": "https://en.wikipedia.org/wiki/Masnavi",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1273,
+          "event": "12월 17일 코니아에서 사망; 부친 곁에 매장되어 영묘가 순례지가 됨",
+          "event_en": "Died on 17 December in Konya; buried next to his father, his shrine becoming a place of pilgrimage",
+          "place_id": "mevlana-museum-konya",
+          "source_url": "https://www.britannica.com/biography/Rumi",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "mevlana-museum-konya",
+          "name": "코니아 메블라나 영묘(박물관)",
+          "name_en": "Mevlana Museum (Mausoleum of Rumi), Konya",
+          "type": "영묘·박물관",
+          "type_en": "Mausoleum and museum",
+          "source_url": "https://en.wikipedia.org/wiki/Mevl%C3%A2na_Museum",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ],
+          "lat": 37.870962,
+          "lng": 32.5057106
+        }
+      ],
+      "works": [
+        {
+          "title": "마스나비(영적 2행시)",
+          "title_en": "Masnavi (Masnavi-ye Ma'navi)",
+          "note": "6권 약 25,000행에 이르는 페르시아어 교훈 서사시로, 무슬림권 신비주의 사상과 문학에 광범위한 영향을 끼침",
+          "note_en": "A six-book Persian didactic epic of some 25,000 verses that broadly influenced mystical thought and literature across the Muslim world",
+          "quote": "bishnaw în nay chûn shikâyat mîkonad / az judâ'î-hâ hikâyat mîkonad",
+          "quote_ko": "이 갈대가 어떻게 하소연하는지 들어보라 / 이별의 이야기를 풀어내고 있나니",
+          "quote_en": "Listen to this reed, how it makes complaint, telling a tale of separation",
+          "quote_source": "Masnavi, Book 1, line 1 (R. A. Nicholson translation)",
+          "source_url": "https://www.dar-al-masnavi.org/reedsong.html",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "birthplace-disputed"
+      ]
+    },
+    {
+      "id": "tagore",
+      "name_ko": "라빈드라나트 타고르",
+      "name_en": "Rabindranath Tagore",
+      "field": "시인·작가·사상가·작곡가",
+      "field_en": "Poet, Writer, Philosopher, Composer",
+      "birth_year": 1861,
+      "death_year": 1941,
+      "nation": "IN",
+      "birthplace": {
+        "admin": "인도 콜카타 조라상코",
+        "admin_en": "Jorasanko, Kolkata (Calcutta), India",
+        "source_url": "https://en.wikipedia.org/wiki/Rabindranath_Tagore",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only",
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1861,
+          "event": "콜카타 조라상코의 타쿠르 가문에서 태어났다.",
+          "event_en": "Born into the Tagore family at Jorasanko, Calcutta (Kolkata).",
+          "place_id": "jorasanko-thakur-bari",
+          "source_url": "https://en.wikipedia.org/wiki/Rabindranath_Tagore",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1910,
+          "event": "벵골어 시집 『기탄잘리』를 출간했다 (8월 4일).",
+          "event_en": "Published the Bengali poetry collection Gitanjali (4 August).",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Gitanjali",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1913,
+          "event": "『기탄잘리』로 노벨 문학상을 받았다. 비유럽인 최초의 수상자였다.",
+          "event_en": "Awarded the Nobel Prize in Literature for Gitanjali; the first non-European laureate.",
+          "place_id": null,
+          "source_url": "https://www.nobelprize.org/prizes/literature/1913/tagore/facts/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1919,
+          "event": "잘리안왈라 바그 학살에 항의하여 기사 작위를 반납하는 편지를 보냈다 (5월 30일).",
+          "event_en": "Renounced his knighthood in a letter (30 May) in protest of the Jallianwala Bagh massacre.",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Rabindranath_Tagore",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1921,
+          "event": "산티니케탄에 비스바바라티 대학을 세웠다.",
+          "event_en": "Founded Visva-Bharati University at Santiniketan.",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Visva-Bharati_University",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1929,
+          "event": "한국을 위한 시 「동방의 등불」을 지었고, 동아일보에 게재되었다.",
+          "event_en": "Composed the poem 'Lamp of the East' for Korea, published in the Dong-A Ilbo.",
+          "place_id": null,
+          "source_url": "https://www.koreatimes.co.kr/opinion/20150210/lamp-of-the-east",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1941,
+          "event": "콜카타에서 세상을 떠났다 (8월 7일).",
+          "event_en": "Died in Calcutta (Kolkata) on 7 August.",
+          "place_id": "jorasanko-thakur-bari",
+          "source_url": "https://en.wikipedia.org/wiki/Rabindranath_Tagore",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "jorasanko-thakur-bari",
+          "name": "조라상코 타쿠르 바리",
+          "name_en": "Jorasanko Thakur Bari",
+          "type": "생가",
+          "type_en": "Birthplace (ancestral home)",
+          "source_url": "https://en.wikipedia.org/wiki/Jorasanko_Thakur_Bari",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ],
+          "lat": 22.5850026,
+          "lng": 88.3590491
+        }
+      ],
+      "works": [
+        {
+          "title": "기탄잘리",
+          "title_en": "Gitanjali",
+          "note": "벵골어 시집(1910)이며, 타고르가 영어로 옮긴 『송 오퍼링스』(1912)로 1913년 노벨 문학상을 받았다.",
+          "note_en": "A Bengali poetry collection (1910); its English version, Song Offerings (1912), brought him the 1913 Nobel Prize in Literature.",
+          "quote": "Where the mind is without fear and the head is held high; / Into that heaven of freedom, my Father, let my country awake.",
+          "quote_ko": "마음에 두려움이 없고 머리를 높이 들 수 있는 곳; / 그 자유의 천국으로, 나의 아버지여, 내 조국이 깨어나게 하소서.",
+          "quote_en": "",
+          "quote_source": "Rabindranath Tagore, Gitanjali 35",
+          "source_url": "https://www.poetryfoundation.org/poems/45668/gitanjali-35",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "동방의 등불",
+          "title_en": "Lamp of the East",
+          "note": "1929년 일제강점기의 한국을 위해 지은 4행 시로, 동아일보에 게재되었다.",
+          "note_en": "A four-line poem composed in 1929 for Korea under Japanese colonial rule, published in the Dong-A Ilbo.",
+          "quote": "In the golden age of Asia / Korea was one of its lamp-bearers / And that lamp is waiting to be lighted once again / For the illumination in the East.",
+          "quote_ko": "일찍이 아시아의 황금시기에 / 빛나던 등불의 하나인 코리아 / 그 등불 다시 한 번 켜지는 날에 / 너는 동방의 밝은 빛이 되리라.",
+          "quote_en": "",
+          "quote_source": "Rabindranath Tagore, 'Lamp of the East' (1929)",
+          "source_url": "https://www.koreatimes.co.kr/opinion/20150210/lamp-of-the-east",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "mark-twain",
+      "name_ko": "마크 트웨인",
+      "name_en": "Mark Twain",
+      "field": "소설가",
+      "field_en": "Novelist",
+      "birth_year": 1835,
+      "death_year": 1910,
+      "nation": "US",
+      "birthplace": {
+        "admin": "미국 미주리주 플로리다(성장지: 미주리주 한니발)",
+        "admin_en": "Florida, Missouri, USA (grew up in Hannibal, Missouri)",
+        "source_url": "https://www.britannica.com/biography/Mark-Twain",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1835,
+          "event": "11월 30일 미주리주 플로리다에서 새뮤얼 랭혼 클레먼스로 태어남. 같은 해 핼리 혜성이 지구를 지나감.",
+          "event_en": "Born Samuel Langhorne Clemens on November 30 in Florida, Missouri, in the year Halley's Comet passed Earth.",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Mark-Twain",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1839,
+          "event": "네 살 때 가족과 함께 미시시피강변의 미주리주 한니발로 이주했으며, 이곳이 그의 소설 무대가 됨.",
+          "event_en": "At age four, moved with his family to Hannibal, Missouri, on the Mississippi River, the setting for his fiction.",
+          "place_id": "mark-twain-boyhood-home",
+          "source_url": "https://www.britannica.com/biography/Mark-Twain",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1859,
+          "event": "미시시피강 증기선 도선사 면허를 취득함.",
+          "event_en": "Became a licensed Mississippi River steamboat pilot.",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Mark_Twain",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1863,
+          "event": "네바다 준주 신문 기고 시 필명 '마크 트웨인'을 처음 사용함. 이는 수심 2패덤(약 3.7m)을 뜻하는 강 용어임.",
+          "event_en": "First used the pen name 'Mark Twain', a riverman's term for water two fathoms (about 3.7 m) deep.",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Mark-Twain",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1876,
+          "event": "『톰 소여의 모험』을 출간함.",
+          "event_en": "Published The Adventures of Tom Sawyer.",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Mark-Twain",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1885,
+          "event": "『허클베리 핀의 모험』을 미국에서 출간함.",
+          "event_en": "Adventures of Huckleberry Finn published in the United States.",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Mark-Twain",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1910,
+          "event": "4월 21일 코네티컷주 레딩에서 심장마비로 사망함. 핼리 혜성이 다시 지구를 지난 시기와 일치함.",
+          "event_en": "Died of a heart attack on April 21 in Redding, Connecticut, as Halley's Comet again passed Earth.",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Mark-Twain",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "mark-twain-boyhood-home",
+          "name": "마크 트웨인 소년의 집 박물관",
+          "name_en": "Mark Twain Boyhood Home and Museum",
+          "type": "고택·박물관",
+          "type_en": "Historic house museum",
+          "source_url": "https://marktwainmuseum.org/about/",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 39.7120508,
+          "lng": -91.3578961
+        }
+      ],
+      "works": [
+        {
+          "title": "허클베리 핀의 모험",
+          "title_en": "Adventures of Huckleberry Finn",
+          "note": "미주리주 한니발의 미시시피강을 배경으로 한 대표작으로, 1885년 미국에서 출간됨.",
+          "note_en": "His landmark novel set on the Mississippi River near Hannibal, Missouri; published in the U.S. in 1885.",
+          "quote": "All modern American literature comes from one book by Mark Twain called Huckleberry Finn.",
+          "quote_ko": "모든 현대 미국 문학은 마크 트웨인의 『허클베리 핀』이라는 한 권의 책에서 비롯되었다.",
+          "quote_en": "",
+          "quote_source": "Ernest Hemingway, Green Hills of Africa (1935)",
+          "source_url": "https://en.wikipedia.org/wiki/Mark_Twain",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "title": "톰 소여의 모험",
+          "title_en": "The Adventures of Tom Sawyer",
+          "note": "한니발에서 보낸 소년 시절을 바탕으로 한 작품으로 1876년 출간됨.",
+          "note_en": "Drawn from his boyhood in Hannibal; published in 1876.",
+          "quote": "I came in with Halley's Comet in 1835. It is coming again next year, and I expect to go out with it.",
+          "quote_ko": "나는 1835년 핼리 혜성과 함께 왔다. 그것이 내년에 다시 올 텐데, 나는 그것과 함께 떠날 것이라 기대한다.",
+          "quote_en": "",
+          "quote_source": "Mark Twain (1909), recorded by A. B. Paine; via Snopes",
+          "source_url": "https://www.snopes.com/fact-check/mark-twain-halleys-comet/",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "neruda",
+      "name_ko": "파블로 네루다",
+      "name_en": "Pablo Neruda",
+      "field": "시인·외교관",
+      "field_en": "Poet and Diplomat",
+      "birth_year": 1904,
+      "death_year": 1973,
+      "nation": "CL",
+      "birthplace": {
+        "admin": "칠레 파랄(성장지 테무코)",
+        "admin_en": "Parral, Chile (raised in Temuco)",
+        "source_url": "https://www.britannica.com/biography/Pablo-Neruda",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1904,
+          "event": "칠레 파랄에서 리카르도 엘리에세르 네프탈리 레예스 바소알토로 출생; 어린 시절 테무코에서 성장",
+          "event_en": "Born in Parral, Chile as Ricardo Eliécer Neftalí Reyes Basoalto; raised in Temuco",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Pablo-Neruda",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1924,
+          "event": "스무 살 무렵 『스무 편의 사랑의 시와 한 편의 절망의 노래』를 출간",
+          "event_en": "Published 'Twenty Love Poems and a Song of Despair' around age twenty",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Pablo-Neruda",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1927,
+          "event": "버마 랑군 주재 명예영사로 부임하며 외교관 경력을 시작",
+          "event_en": "Began diplomatic career as honorary consul in Rangoon, Burma",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Pablo_Neruda",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1938,
+          "event": "태평양에 면한 이슬라네그라의 집을 매입(이후 그의 안식처가 됨)",
+          "event_en": "Acquired the seaside house at Isla Negra facing the Pacific",
+          "place_id": "isla-negra-house",
+          "source_url": "https://fundacionneruda.org/en/isla-negra-museum-house/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1945,
+          "event": "칠레 공산당 상원의원으로 선출됨",
+          "event_en": "Elected Senator for the Chilean Communist Party",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Pablo_Neruda",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1950,
+          "event": "대서사시 『모두의 노래(Canto General)』를 출간",
+          "event_en": "Published the epic 'Canto General'",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Pablo_Neruda",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1971,
+          "event": "노벨 문학상을 수상",
+          "event_en": "Awarded the Nobel Prize in Literature",
+          "place_id": null,
+          "source_url": "https://www.nobelprize.org/prizes/literature/1971/neruda/facts/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1973,
+          "event": "산티아고에서 사망",
+          "event_en": "Died in Santiago",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Pablo-Neruda",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1992,
+          "event": "네루다와 아내 마틸데 우루티아의 유해가 이슬라네그라로 이장됨",
+          "event_en": "Remains of Neruda and his wife Matilde Urrutia transferred to Isla Negra",
+          "place_id": "isla-negra-house",
+          "source_url": "https://fundacionneruda.org/en/isla-negra-museum-house/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "isla-negra-house",
+          "name": "이슬라네그라 네루다 생가박물관(카사 무세오)",
+          "name_en": "Casa Museo Isla Negra (Pablo Neruda House Museum)",
+          "type": "고택박물관",
+          "type_en": "House museum",
+          "source_url": "https://fundacionneruda.org/en/isla-negra-museum-house/",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": -33.442921,
+          "lng": -71.6837539
+        }
+      ],
+      "works": [
+        {
+          "title": "스무 편의 사랑의 시와 한 편의 절망의 노래",
+          "title_en": "Twenty Love Poems and a Song of Despair",
+          "note": "1924년 출간된 그의 대표 시집; 1971년 노벨 문학상 수상",
+          "note_en": "His celebrated 1924 collection; Neruda received the 1971 Nobel Prize in Literature",
+          "quote": "Puedo escribir los versos más tristes esta noche.",
+          "quote_ko": "오늘 밤 나는 가장 슬픈 시를 쓸 수 있다.",
+          "quote_en": "Tonight I can write the saddest lines.",
+          "quote_source": "Pablo Neruda, Poema 20",
+          "source_url": "https://www.britannica.com/biography/Pablo-Neruda",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "모두의 노래",
+          "title_en": "Canto General",
+          "note": "1950년 출간된 라틴아메리카를 노래한 대서사시",
+          "note_en": "An epic poem of Latin America published in 1950",
+          "quote": "Sube a nacer conmigo, hermano.",
+          "quote_ko": "나와 함께 태어나러 오르라, 형제여.",
+          "quote_en": "Rise up to be born with me, brother.",
+          "quote_source": "Pablo Neruda, Canto General",
+          "source_url": "https://en.wikipedia.org/wiki/Canto_General",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "mahfouz",
+      "name_ko": "나기브 마푸즈",
+      "name_en": "Naguib Mahfouz",
+      "field": "소설가",
+      "field_en": "Novelist",
+      "birth_year": 1911,
+      "death_year": 2006,
+      "nation": "EG",
+      "birthplace": {
+        "admin": "이집트 카이로 가말리야(바이트 알카디)",
+        "admin_en": "Bayt al-Qadi, Al-Gamaliya, Cairo, Egypt",
+        "source_url": "https://www.nobelprize.org/prizes/literature/1988/mahfouz/biographical/",
+        "source_grade": "B",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1911,
+          "event": "카이로 구시가 가말리야 지구 바이트 알카디에서 출생",
+          "event_en": "Born in the Bayt al-Qadi neighborhood of the Al-Gamaliya quarter in old Cairo",
+          "place_id": "cairo-gamaliya",
+          "source_url": "https://www.nobelprize.org/prizes/literature/1988/mahfouz/biographical/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1934,
+          "event": "카이로 대학교에서 철학 학사 학위를 받고 이집트 공무원으로 근무 시작",
+          "event_en": "Graduated with a philosophy degree from Cairo University and began work as an Egyptian civil servant",
+          "place_id": null,
+          "source_url": "https://aucpress.com/blog/2019/09/23/naguib-mahfouz-1911-2006/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1947,
+          "event": "카이로 구시가 골목을 배경으로 한 장편 『미다크 골목』 출간",
+          "event_en": "Published the novel 'Midaq Alley', set in an old Cairo alley",
+          "place_id": "cairo-gamaliya",
+          "source_url": "https://aucpress.com/blog/2019/09/23/naguib-mahfouz-1911-2006/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1957,
+          "event": "『카이로 3부작』 완간(『궁전 샛길』 1956, 『욕망의 궁전』 1957, 『설탕 거리』 1957)",
+          "event_en": "Completed 'The Cairo Trilogy' (Palace Walk 1956, Palace of Desire 1957, Sugar Street 1957)",
+          "place_id": "cairo-gamaliya",
+          "source_url": "https://www.britannica.com/biography/Naguib-Mahfouz",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1988,
+          "event": "노벨문학상 수상(아랍어권 작가 최초)",
+          "event_en": "Awarded the Nobel Prize in Literature (first Arabic-language writer to win)",
+          "place_id": null,
+          "source_url": "https://www.nobelprize.org/prizes/literature/1988/mahfouz/facts/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1994,
+          "event": "10월 14일 카이로 자택 인근에서 이슬람 극단주의자에게 습격을 당했으나 생존",
+          "event_en": "On 14 October was stabbed in the neck by an Islamist extremist near his Cairo home but survived",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Naguib_Mahfouz",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 2006,
+          "event": "8월 30일 카이로에서 별세",
+          "event_en": "Died in Cairo on 30 August",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Naguib_Mahfouz",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "cairo-gamaliya",
+          "name": "카이로 구시가 가말리야(칸 엘 칼릴리)",
+          "name_en": "Al-Gamaliya, Old Cairo (Khan el-Khalili)",
+          "type": "역사 지구",
+          "type_en": "Historic district",
+          "source_url": "https://www.nobelprize.org/prizes/literature/1988/mahfouz/biographical/",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 30.0489382,
+          "lng": 31.2613383
+        }
+      ],
+      "works": [
+        {
+          "title": "카이로 3부작",
+          "title_en": "The Cairo Trilogy",
+          "note": "1956~1957년 발표한 3부작(『궁전 샛길』·『욕망의 궁전』·『설탕 거리』)으로, 20세기 초 카이로 한 가족 3대를 그렸다",
+          "note_en": "A trilogy published 1956–1957 (Palace Walk, Palace of Desire, Sugar Street) depicting three generations of a Cairo family in the early 20th century",
+          "quote": "You can tell whether a man is clever by his answers. You can tell whether a man is wise by his questions.",
+          "quote_ko": "사람이 영리한지는 그의 대답으로 알 수 있고, 지혜로운지는 그의 질문으로 알 수 있다.",
+          "quote_en": "",
+          "quote_source": "Naguib Mahfouz; cited in M. J. Gelb, Thinking for a Change (1996)",
+          "source_url": "https://en.wikiquote.org/wiki/Naguib_Mahfouz",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "title": "게벨라위의 아이들",
+          "title_en": "Children of Gebelawi",
+          "note": "1959년 신문 연재된 알레고리 소설로, 이집트 내 단행본 출간이 오래 금지되었다",
+          "note_en": "An allegorical novel serialized in 1959; its book publication was long banned in Egypt",
+          "source_url": "https://en.wikipedia.org/wiki/Naguib_Mahfouz",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "jose-rizal",
+      "name_ko": "호세 리살",
+      "name_en": "José Rizal",
+      "field": "작가·민족운동가·의사",
+      "field_en": "Writer, Nationalist, Physician",
+      "birth_year": 1861,
+      "death_year": 1896,
+      "nation": "PH",
+      "birthplace": {
+        "admin": "필리핀 라구나주 칼람바",
+        "admin_en": "Calamba, Laguna, Philippines",
+        "source_url": "https://www.britannica.com/biography/Jose-Rizal",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1861,
+          "event": "6월 19일 라구나주 칼람바에서 부유한 지주 가문의 일곱째 아이로 태어났다.",
+          "event_en": "Born on 19 June in Calamba, Laguna, the seventh child of a prosperous landowning family.",
+          "place_id": "rizal-shrine-calamba",
+          "source_url": "https://www.britannica.com/biography/Jose-Rizal",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1882,
+          "event": "의학을 공부하기 위해 마드리드로 떠나 마드리드 대학교에서 안과학을 전공했다.",
+          "event_en": "Left for Madrid to study medicine, specializing in ophthalmology at the University of Madrid.",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Jose-Rizal",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1887,
+          "event": "첫 소설 『놀리 메 탕헤레』를 베를린에서 출간해 스페인 식민 통치의 폐해를 고발했다.",
+          "event_en": "Published his first novel, Noli me tángere, in Berlin, exposing the abuses of Spanish colonial rule.",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Jose-Rizal",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1891,
+          "event": "속편 『엘 필리부스테리스모』를 벨기에 헨트에서 출간하며 개혁 운동의 대표적 대변자로 자리매김했다.",
+          "event_en": "Published the sequel El filibusterismo in Ghent, Belgium, cementing his role as a leading reform spokesman.",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Jose-Rizal",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1892,
+          "event": "필리핀으로 돌아와 비폭력 개혁 단체 라 리가 필리피나를 결성했고, 곧 민다나오 다피탄으로 유배되었다.",
+          "event_en": "Returned to the Philippines and founded the nonviolent reform society La Liga Filipina; was soon deported into exile at Dapitan, Mindanao.",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Jose-Rizal",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1896,
+          "event": "선동 혐의로 군사 재판에 회부되어 12월 30일 마닐라에서 스페인 식민 당국에 의해 총살되었다.",
+          "event_en": "Tried for sedition by the military and executed by firing squad by Spanish colonial authorities in Manila on 30 December.",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Jose-Rizal",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "rizal-shrine-calamba",
+          "name": "칼람바 리살 생가 (리살 신전)",
+          "name_en": "Rizal Shrine, Calamba",
+          "type": "생가·기념관",
+          "type_en": "Birthplace and memorial shrine",
+          "source_url": "https://en.wikipedia.org/wiki/Rizal_Shrine_(Calamba)",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ],
+          "lat": 14.2134403,
+          "lng": 121.1667919
+        }
+      ],
+      "works": [
+        {
+          "title": "놀리 메 탕헤레",
+          "title_en": "Noli Me Tángere",
+          "note": "1887년 베를린에서 출간한 첫 소설로, 스페인 식민 통치의 폐해를 고발했다.",
+          "note_en": "His first novel, published in Berlin in 1887, exposing the abuses of Spanish colonial rule.",
+          "quote": "Adiós, Patria adorada, región del sol querida, / Perla del mar de oriente, nuestro perdido Edén!",
+          "quote_ko": "잘 있거라, 사랑하는 조국이여, 태양이 어루만지는 땅이여, / 동방의 바다의 진주여, 우리가 잃어버린 에덴이여!",
+          "quote_en": "Farewell, my adored Land, region of the sun caressed, Pearl of the Orient Sea, our Eden lost.",
+          "quote_source": "José Rizal, 「Mi último adiós」 (1896); trans. C. Derbyshire",
+          "source_url": "https://en.wikisource.org/wiki/Mi_%C3%BAltimo_adi%C3%B3s",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "엘 필리부스테리스모",
+          "title_en": "El Filibusterismo",
+          "note": "1891년 헨트에서 출간한 『놀리 메 탕헤레』의 속편이다.",
+          "note_en": "The 1891 sequel to Noli me tángere, published in Ghent.",
+          "source_url": "https://www.britannica.com/biography/Jose-Rizal",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "mansfield",
+      "name_ko": "캐서린 맨스필드",
+      "name_en": "Katherine Mansfield",
+      "field": "소설가",
+      "field_en": "Short-story writer",
+      "birth_year": 1888,
+      "death_year": 1923,
+      "nation": "NZ",
+      "birthplace": {
+        "admin": "뉴질랜드 웰링턴 손던",
+        "admin_en": "Thorndon, Wellington, New Zealand",
+        "source_url": "https://en.wikipedia.org/wiki/Katherine_Mansfield",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only",
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1888,
+          "event": "웰링턴 손던 티나코리 로드의 집에서 캐슬린 맨스필드 보챔프로 태어남",
+          "event_en": "Born Kathleen Mansfield Beauchamp at the family house on Tinakori Road, Thorndon, Wellington",
+          "place_id": "katherine-mansfield-house",
+          "source_url": "https://en.wikipedia.org/wiki/Katherine_Mansfield",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1903,
+          "event": "런던으로 건너가 퀸스 칼리지에서 수학",
+          "event_en": "Moved to London and studied at Queen's College",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Katherine_Mansfield",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1908,
+          "event": "뉴질랜드를 떠나 영국에 정착하며 작가의 길을 걸음",
+          "event_en": "Left New Zealand and settled in England to pursue writing",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Katherine_Mansfield",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1911,
+          "event": "첫 단편집 『독일 하숙에서』 출간",
+          "event_en": "Published her first short-story collection, In a German Pension",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Katherine_Mansfield",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1917,
+          "event": "폐결핵 진단을 받음",
+          "event_en": "Diagnosed with pulmonary tuberculosis",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Katherine_Mansfield",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1922,
+          "event": "대표 단편집 『가든 파티』 출간",
+          "event_en": "Published her acclaimed collection The Garden Party and Other Stories",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Katherine_Mansfield",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1923,
+          "event": "프랑스 퐁텐블로 인근 구르지예프 연구소에서 폐결핵으로 사망",
+          "event_en": "Died of tuberculosis at the Gurdjieff Institute near Fontainebleau, France",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Katherine_Mansfield",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "katherine-mansfield-house",
+          "name": "웰링턴 캐서린 맨스필드 생가",
+          "name_en": "Katherine Mansfield House and Garden",
+          "type": "생가(현재 박물관)",
+          "type_en": "Birthplace (now a museum)",
+          "source_url": "https://www.katherinemansfield.com/about/katherine-mansfield",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": -41.2701568,
+          "lng": 174.7798246
+        }
+      ],
+      "works": [
+        {
+          "title": "가든 파티",
+          "title_en": "The Garden Party",
+          "note": "1922년 단편집의 표제작으로, 정원 파티의 환희와 이웃의 죽음을 병치한다",
+          "note_en": "The title story of her 1922 collection, juxtaposing the joy of a garden party with a neighbour's death",
+          "quote": "\"Isn't life,\" she stammered, \"isn't life———\" But what life was she couldn't explain.",
+          "quote_ko": "\"인생이란,\" 그녀는 말을 더듬었다, \"인생이란———\" 하지만 인생이 무엇인지 그녀는 설명할 수 없었다.",
+          "quote_en": "",
+          "quote_source": "Katherine Mansfield, 'The Garden-Party' (1922), final lines",
+          "source_url": "https://en.wikisource.org/wiki/The_Garden_Party,_and_Other_Stories/The_Garden-Party",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "독일 하숙에서",
+          "title_en": "In a German Pension",
+          "note": "1911년 출간된 그녀의 첫 단편집",
+          "note_en": "Her first short-story collection, published in 1911",
+          "source_url": "https://en.wikipedia.org/wiki/Katherine_Mansfield",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "C",
+      "verified": true,
+      "flags": [
+        "wiki-only"
+      ]
     }
   ]
 }
