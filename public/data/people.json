@@ -11752,6 +11752,2699 @@
       "source_grade": "B",
       "verified": true,
       "flags": []
+    },
+    {
+      "id": "plato",
+      "name_ko": "플라톤",
+      "name_en": "Plato",
+      "field": "철학자",
+      "field_en": "Philosopher",
+      "nation": "GR",
+      "birth_year": -427,
+      "death_year": -347,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "아테네",
+        "admin_en": "Athens",
+        "source_url": "https://www.britannica.com/biography/Plato",
+        "source_grade": "B",
+        "flags": [
+          "birthplace-disputed"
+        ]
+      },
+      "timeline": [
+        {
+          "year": -427,
+          "event": "아테네의 귀족 가문에서 출생; 출생지는 아테네 또는 아이기나로 전해짐",
+          "event_en": "Born into an aristocratic Athenian family; birth reported at Athens or Aegina",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Plato",
+          "source_grade": "B",
+          "flags": [
+            "birthplace-disputed"
+          ]
+        },
+        {
+          "year": -399,
+          "event": "스승 소크라테스가 아테네에서 처형됨",
+          "event_en": "His teacher Socrates was executed in Athens",
+          "place_id": null,
+          "source_url": "https://plato.stanford.edu/entries/plato/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": -387,
+          "event": "아테네 성벽 밖 아카데모스 숲 근처에 아카데메이아를 세움",
+          "event_en": "Founded the Academy near the grove of Academus outside the walls of Athens",
+          "place_id": "academy-athens",
+          "source_url": "https://iep.utm.edu/plato-academy/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": -347,
+          "event": "아테네에서 사망",
+          "event_en": "Died in Athens",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Platonic_Academy",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "academy-athens",
+          "name": "플라톤의 아카데메이아",
+          "name_en": "Plato's Academy",
+          "lat": 37.9755648,
+          "lng": 23.7348324,
+          "type": "학원 유적",
+          "type_en": "Academy (archaeological site)",
+          "source_url": "https://iep.utm.edu/plato-academy/",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "국가",
+          "title_en": "Republic",
+          "note": "정의와 이상 국가를 다루는 대화편",
+          "note_en": "A dialogue concerning justice and the ideal state",
+          "quote": "ἢ οἱ φιλόσοφοι βασιλεύσωσιν ἐν ταῖς πόλεσιν … οὐκ ἔστι κακῶν παῦλα ταῖς πόλεσι",
+          "quote_ko": "철학자들이 나라에서 왕이 되지 않는 한 … 나라들에 악의 종식은 없네",
+          "quote_en": "Unless philosophers become kings in the cities … there is no cessation of evils for the cities",
+          "quote_source": "Plato, Republic 473c–d",
+          "source_url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0168:book%3D5",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "소크라테스의 변명",
+          "title_en": "Apology",
+          "note": "소크라테스의 재판 변론을 기록한 대화편",
+          "note_en": "A dialogue recording Socrates' defense speech",
+          "quote": "ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ",
+          "quote_ko": "검토되지 않는 삶은 사람에게 살 가치가 없다",
+          "quote_en": "The unexamined life is not worth living for a human being",
+          "quote_source": "Plato, Apology 38a",
+          "source_url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0170",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": [
+        "birthplace-disputed"
+      ]
+    },
+    {
+      "id": "aristotle",
+      "name_ko": "아리스토텔레스",
+      "name_en": "Aristotle",
+      "field": "철학자·과학자",
+      "field_en": "Philosopher and scientist",
+      "nation": "GR",
+      "birth_year": -384,
+      "death_year": -322,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "칼키디키 스타게이라",
+        "admin_en": "Stagira, Chalcidice",
+        "source_url": "https://plato.stanford.edu/entries/aristotle/",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": -384,
+          "event": "칼키디키의 스타게이라에서 태어남",
+          "event_en": "Born in Stagira, Chalcidice",
+          "place_id": "stagira",
+          "source_url": "https://plato.stanford.edu/entries/aristotle/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": -367,
+          "event": "아테네로 가서 플라톤의 아카데미아에 들어감",
+          "event_en": "Goes to Athens and joins Plato's Academy",
+          "place_id": null,
+          "source_url": "https://iep.utm.edu/aristotle/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": -343,
+          "event": "마케도니아 필리포스 2세의 초빙으로 알렉산드로스의 가정교사가 됨",
+          "event_en": "Summoned by Philip II of Macedon to tutor Alexander",
+          "place_id": null,
+          "source_url": "https://plato.stanford.edu/entries/aristotle/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": -335,
+          "event": "아테네에 자신의 학교 리케이온을 세움",
+          "event_en": "Founds his own school, the Lyceum, in Athens",
+          "place_id": null,
+          "source_url": "https://iep.utm.edu/aristotle/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": -322,
+          "event": "에우보이아의 칼키스에서 죽음",
+          "event_en": "Dies in Chalcis, Euboea",
+          "place_id": null,
+          "source_url": "https://plato.stanford.edu/entries/aristotle/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "stagira",
+          "name": "스타게이라",
+          "name_en": "Stagira",
+          "lat": 40.5913217,
+          "lng": 23.7937806,
+          "type": "출생지",
+          "type_en": "Birthplace",
+          "source_url": "https://plato.stanford.edu/entries/aristotle/",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "니코마코스 윤리학",
+          "title_en": "Nicomachean Ethics",
+          "note": "덕, 행복(에우다이모니아), 중용을 다룬 도덕철학 저작",
+          "note_en": "Treatise on moral philosophy: virtue, happiness (eudaimonia), and the mean",
+          "quote": "πᾶσα τέχνη καὶ πᾶσα μέθοδος … ἀγαθοῦ τινὸς ἐφίεσθαι δοκεῖ",
+          "quote_ko": "모든 기예와 모든 탐구는 어떤 좋음을 추구하는 것으로 보인다",
+          "quote_en": "Every art and every inquiry is thought to aim at some good",
+          "quote_source": "Aristotle, Nicomachean Ethics 1094a1-3",
+          "source_url": "http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0086.tlg010.perseus-grc1",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "형이상학",
+          "title_en": "Metaphysics",
+          "note": "존재, 실체, 제1원인을 탐구한 저작",
+          "note_en": "Work investigating being, substance, and first causes",
+          "quote": "πάντες ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει",
+          "quote_ko": "모든 인간은 본성적으로 알기를 욕구한다",
+          "quote_en": "All men by nature desire to know",
+          "quote_source": "Aristotle, Metaphysics 980a21",
+          "source_url": "http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0086.tlg025.perseus-grc1",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "mencius",
+      "name_ko": "맹자",
+      "name_en": "Mencius",
+      "field": "유가 철학자",
+      "field_en": "Confucian philosopher",
+      "nation": "CN",
+      "birth_year": -372,
+      "death_year": -289,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "추(鄒)나라 (현 산둥성 쩌우청 인근)",
+        "admin_en": "State of Zou (near present-day Zoucheng, Shandong)",
+        "source_url": "https://www.britannica.com/biography/Mencius-Chinese-philosopher",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": -372,
+          "event": "추나라에서 태어남 (전통 연대 약 기원전 372년)",
+          "event_en": "Born in the state of Zou (traditional date c. 372 BCE)",
+          "place_id": "mencius-temple",
+          "source_url": "https://www.britannica.com/biography/Mencius-Chinese-philosopher",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -320,
+          "event": "여러 제후국을 유세하던 중 양(梁)나라 혜왕을 만남",
+          "event_en": "Met King Hui of Liang while traveling among the states",
+          "place_id": null,
+          "source_url": "https://ctext.org/mengzi/liang-hui-wang-i",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -319,
+          "event": "제(齊)나라에서 관직을 맡음",
+          "event_en": "Held office in the state of Qi",
+          "place_id": null,
+          "source_url": "https://plato.stanford.edu/entries/mencius/",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -312,
+          "event": "개혁안이 거부되자 고향 추나라로 돌아가 제자들을 가르침",
+          "event_en": "Returned to Zou to teach his disciples after his reforms were rejected",
+          "place_id": "mencius-temple",
+          "source_url": "https://plato.stanford.edu/entries/mencius/",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -289,
+          "event": "세상을 떠남 (전통 연대 약 기원전 289년)",
+          "event_en": "Died (traditional date c. 289 BCE)",
+          "place_id": "mencius-temple",
+          "source_url": "https://www.britannica.com/biography/Mencius-Chinese-philosopher",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "mencius-temple",
+          "name": "맹묘 (孟廟)",
+          "name_en": "Temple of Mencius",
+          "lat": 35.403211,
+          "lng": 117.0017252,
+          "type": "사당",
+          "type_en": "Temple",
+          "source_url": "https://www.britannica.com/biography/Mencius-Chinese-philosopher",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "맹자 (孟子)",
+          "title_en": "Mengzi (Mencius)",
+          "note": "제자들이 편찬한 대화·논변·어록 모음",
+          "note_en": "A collection of dialogues, debates, and sayings compiled by his disciples",
+          "quote": "王何必曰利？亦有仁義而已矣。",
+          "quote_ko": "왕께서는 하필 이익을 말씀하십니까? 오직 인의(仁義)가 있을 뿐입니다.",
+          "quote_en": "Why must your Majesty use that word 'profit'? I am provided only with counsels to benevolence and righteousness.",
+          "quote_source": "Mengzi, Liang Hui Wang I (trans. James Legge)",
+          "source_url": "https://ctext.org/mengzi/liang-hui-wang-i",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "sima-qian",
+      "name_ko": "사마천",
+      "name_en": "Sima Qian",
+      "field": "역사가·태사령",
+      "field_en": "Historian (Grand Historian)",
+      "nation": "CN",
+      "birth_year": -145,
+      "death_year": -86,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "하양(현 산시성 한청)",
+        "admin_en": "Xiayang, near present-day Hancheng, Shaanxi",
+        "source_url": "https://en.wikipedia.org/wiki/Sima_Qian",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only"
+        ]
+      },
+      "timeline": [
+        {
+          "year": -145,
+          "event": "한 좌풍익 하양(현 산시성 한청 인근)에서 태어남",
+          "event_en": "Born in Xiayang (near present-day Hancheng, Shaanxi), Han China",
+          "place_id": "sima-qian-tomb",
+          "source_url": "https://en.wikipedia.org/wiki/Sima_Qian",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": -108,
+          "event": "아버지 사마담의 뒤를 이어 태사령에 임명됨",
+          "event_en": "Appointed Grand Historian (taishi), succeeding his father Sima Tan",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Sima_Qian",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": -99,
+          "event": "장군 이릉을 변호하다 무제의 노여움을 삼",
+          "event_en": "Defended general Li Ling, provoking Emperor Wu's anger",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Sima_Qian",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": -98,
+          "event": "죄를 받아 사형 대신 궁형을 택함",
+          "event_en": "Sentenced; chose castration over execution",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Sima_Qian",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": -91,
+          "event": "역사서 사기(史記)를 완성함",
+          "event_en": "Completed the Shiji (Records of the Grand Historian)",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Records_of_the_Grand_Historian",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "sima-qian-tomb",
+          "name": "사마천 사묘(祠墓)",
+          "name_en": "Tomb and Shrine of Sima Qian",
+          "lat": 35.575278,
+          "lng": 110.361389,
+          "type": "무덤·사당",
+          "type_en": "Tomb and memorial shrine",
+          "source_url": "https://en.wikipedia.org/wiki/Sima_Qian",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "사기",
+          "title_en": "Shiji (Records of the Grand Historian)",
+          "note": "중국 최초의 기전체 통사. 황제 시대부터 한 무제 시대까지 다룸",
+          "note_en": "China's first annals-biography history, from the Yellow Emperor to Emperor Wu of Han",
+          "quote": "人固有一死，或重於泰山，或輕於鴻毛。",
+          "quote_ko": "사람은 누구나 한 번 죽지만, 어떤 죽음은 태산보다 무겁고 어떤 죽음은 기러기 털보다 가볍다.",
+          "quote_en": "A man has but one death; it may be weightier than Mount Tai, or lighter than a goose feather.",
+          "quote_source": "Letter in Reply to Ren An (報任安書), in the Book of Han",
+          "source_url": "https://zh.wikisource.org/wiki/報任少卿書",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "C",
+      "verified": true,
+      "flags": [
+        "wiki-only"
+      ]
+    },
+    {
+      "id": "qu-yuan",
+      "name_ko": "굴원",
+      "name_en": "Qu Yuan",
+      "field": "시인",
+      "field_en": "Poet",
+      "nation": "CN",
+      "birth_year": -340,
+      "death_year": -278,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "초나라 (현 후베이성 쯔구이현)",
+        "admin_en": "State of Chu (modern Zigui County, Hubei)",
+        "source_url": "https://en.wikipedia.org/wiki/Qu_Yuan",
+        "source_grade": "C",
+        "flags": [
+          "year-approx",
+          "birthplace-disputed"
+        ]
+      },
+      "timeline": [
+        {
+          "year": -340,
+          "event": "초나라 귀족 가문에서 태어남 (대략 기원전 340년)",
+          "event_en": "Born into a noble family of Chu (c. 340 BCE)",
+          "place_id": "zigui-quyuan",
+          "source_url": "https://www.britannica.com/biography/Qu-Yuan",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -299,
+          "event": "초 회왕 아래에서 좌도 등 관직을 지냄",
+          "event_en": "Served in office, including as Left Minister, under King Huai of Chu",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Qu_Yuan",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": -296,
+          "event": "모함을 받아 양쯔강 이남으로 추방됨",
+          "event_en": "Slandered and banished to regions south of the Yangtze",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Qu-Yuan",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -278,
+          "event": "초의 수도 영(郢) 함락 후 멱라강에 투신함",
+          "event_en": "Drowned himself in the Miluo River after the fall of the Chu capital Ying",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Qu-Yuan",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": -277,
+          "event": "전승에 따라 그의 죽음은 음력 5월 5일 단오절(용선 축제)과 연관됨",
+          "event_en": "By tradition his death is associated with the Dragon Boat Festival",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/topic/Dragon-Boat-Festival",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "zigui-quyuan",
+          "name": "쯔구이현 (굴원 고향)",
+          "name_en": "Zigui County (Qu Yuan's hometown)",
+          "lat": 30.8275925,
+          "lng": 110.9725264,
+          "type": "출생지",
+          "type_en": "Birthplace",
+          "source_url": "https://en.wikipedia.org/wiki/Qu_Yuan",
+          "source_grade": "C",
+          "flags": [
+            "birthplace-disputed",
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "이소",
+          "title_en": "Li Sao (On Encountering Sorrow)",
+          "note": "초사(楚辭)에 실린 장편 서정시로, 전통적으로 굴원의 작품으로 전해짐",
+          "note_en": "A long lyric poem in the Chu Ci, traditionally attributed to Qu Yuan",
+          "quote": "帝高陽之苗裔兮，朕皇考曰伯庸。",
+          "quote_ko": "나는 고양(高陽) 임금의 먼 후예이니, 나의 돌아가신 아버지의 함자는 백용(伯庸)이라.",
+          "quote_en": "Of the god-king Gao-yang I am the far offspring; my late father bore the name Bo-yong.",
+          "quote_source": "Li Sao (離騷), Chu Ci",
+          "source_url": "https://en.wikipedia.org/wiki/Li_Sao",
+          "source_grade": "C",
+          "flags": [
+            "authorship-traditional"
+          ]
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": [
+        "year-approx"
+      ]
+    },
+    {
+      "id": "ashoka",
+      "name_ko": "아소카",
+      "name_en": "Ashoka",
+      "field": "황제",
+      "field_en": "Emperor",
+      "nation": "IN",
+      "birth_year": -304,
+      "death_year": -232,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "파탈리푸트라 (현 파트나)",
+        "admin_en": "Pataliputra (modern Patna)",
+        "source_url": "https://en.wikipedia.org/wiki/Ashoka",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only",
+          "year-approx"
+        ]
+      },
+      "timeline": [
+        {
+          "year": -304,
+          "event": "마우리아 왕조 빈두사라 왕의 아들로 태어남 (추정)",
+          "event_en": "Born as son of Mauryan king Bindusara (approx.)",
+          "place_id": "sarnath-pillar",
+          "source_url": "https://en.wikipedia.org/wiki/Ashoka",
+          "source_grade": "C",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -269,
+          "event": "마우리아 제국 황제로 즉위 (추정)",
+          "event_en": "Acceded as emperor of the Maurya Empire (approx.)",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/summary/Ashoka",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -261,
+          "event": "즉위 8년째 칼링가 정복 전쟁",
+          "event_en": "Conquest of Kalinga in the eighth year of his reign",
+          "place_id": null,
+          "source_url": "https://www.worldhistory.org/Ashoka_the_Great/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": -250,
+          "event": "사르나트에 사자 주두를 얹은 석주 건립",
+          "event_en": "Erected the pillar topped by the Lion Capital at Sarnath",
+          "place_id": "sarnath-pillar",
+          "source_url": "https://en.wikipedia.org/wiki/Lion_Capital_of_Ashoka",
+          "source_grade": "C",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": -232,
+          "event": "사망 (추정); 마우리아 제국 마지막 주요 황제",
+          "event_en": "Died (approx.); last major emperor of the Maurya Empire",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/summary/Ashoka",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "sarnath-pillar",
+          "name": "사르나트 아소카 석주",
+          "name_en": "Ashoka Pillar at Sarnath",
+          "lat": 25.3776274,
+          "lng": 83.0275999,
+          "type": "석주 비문 유적",
+          "type_en": "Pillar edict site",
+          "source_url": "https://en.wikipedia.org/wiki/Lion_Capital_of_Ashoka",
+          "source_grade": "C",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "아소카 석각 칙령",
+          "title_en": "Edicts of Ashoka",
+          "note": "바위와 석주에 새겨진 칙령 모음",
+          "note_en": "Collection of edicts inscribed on rocks and pillars",
+          "quote": "Now, it is the conquest by the Dharma that the Beloved of the Gods considers as the best conquest.",
+          "quote_ko": "이제 신들의 사랑을 받는 자가 최선의 정복으로 여기는 것은 바로 다르마에 의한 정복이다.",
+          "quote_en": "Now, it is the conquest by the Dharma that the Beloved of the Gods considers as the best conquest.",
+          "quote_source": "Major Rock Edict No. 13",
+          "source_url": "https://en.wikipedia.org/wiki/Edicts_of_Ashoka",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": [
+        "year-approx"
+      ]
+    },
+    {
+      "id": "aryabhata",
+      "name_ko": "아리아바타",
+      "name_en": "Aryabhata",
+      "field": "수학자·천문학자",
+      "field_en": "Mathematician-astronomer",
+      "nation": "IN",
+      "birth_year": 476,
+      "death_year": 550,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "쿠수마푸라(파탈리푸트라, 현 파트나 인근)",
+        "admin_en": "Kusumapura (Pataliputra, near present-day Patna)",
+        "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+        "source_grade": "B",
+        "flags": [
+          "birthplace-disputed"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 476,
+          "event": "출생(전통적으로 쿠수마푸라로 전해지나 출생지는 이견이 있음)",
+          "event_en": "Born (traditionally Kusumapura; birthplace disputed)",
+          "place_id": "kusumapura",
+          "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+          "source_grade": "B",
+          "flags": [
+            "birthplace-disputed"
+          ]
+        },
+        {
+          "year": 499,
+          "event": "23세에 쿠수마푸라에서 『아리아바티야』를 완성",
+          "event_en": "Completed the Aryabhatiya at age 23 at Kusumapura",
+          "place_id": "kusumapura",
+          "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 500,
+          "event": "『아리아바티야』에서 원주율을 3.1416으로 계산",
+          "event_en": "Computed pi as 3.1416 in the Aryabhatiya",
+          "place_id": null,
+          "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 550,
+          "event": "사망",
+          "event_en": "Died",
+          "place_id": null,
+          "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "kusumapura",
+          "name": "쿠수마푸라(파탈리푸트라)",
+          "name_en": "Kusumapura (Pataliputra)",
+          "lat": 25.6093239,
+          "lng": 85.1235252,
+          "type": "고대 학문 중심지",
+          "type_en": "Ancient centre of learning",
+          "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "아리아바티야",
+          "title_en": "Aryabhatiya",
+          "note": "499년 저술된 산스크리트 운문 천문·수학서",
+          "note_en": "Sanskrit verse treatise on astronomy and mathematics, composed 499 CE",
+          "quote": "Add four to one hundred, multiply by eight and then add sixty-two thousand: the approximate circumference of a circle of diameter twenty thousand.",
+          "quote_ko": "100에 4를 더하고 8을 곱한 뒤 62,000을 더하라. 그것이 지름 20,000인 원의 둘레에 근사한다.",
+          "quote_en": "Add four to one hundred, multiply by eight and add sixty-two thousand: the approximate circumference of a circle of diameter twenty thousand.",
+          "quote_source": "Aryabhatiya (Ganitapada), trans. via MacTutor",
+          "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": [
+        "birthplace-disputed"
+      ]
+    },
+    {
+      "id": "augustine",
+      "name_ko": "히포의 아우구스티누스",
+      "name_en": "Augustine of Hippo",
+      "field": "신학자·철학자",
+      "field_en": "Theologian and philosopher",
+      "nation": "DZ",
+      "birth_year": 354,
+      "death_year": 430,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "타가스테, 누미디아 (현 알제리 수크아흐라스)",
+        "admin_en": "Thagaste, Numidia (now Souk Ahras, Algeria)",
+        "source_url": "https://en.wikipedia.org/wiki/Augustine_of_Hippo",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 354,
+          "event": "누미디아 타가스테에서 출생 (11월 13일)",
+          "event_en": "Born in Thagaste, Numidia (13 November)",
+          "place_id": "thagaste",
+          "source_url": "https://en.wikipedia.org/wiki/Augustine_of_Hippo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 391,
+          "event": "히포 레기우스에서 사제로 서품됨",
+          "event_en": "Ordained a priest at Hippo Regius",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Augustine_of_Hippo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 397,
+          "event": "자서전적 저작 『고백록』 집필 시작",
+          "event_en": "Began the autobiographical Confessions",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Confessions_(Augustine)",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 426,
+          "event": "『신국론』을 완성함 (413년 집필 시작)",
+          "event_en": "Completed The City of God (begun 413)",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/The_City_of_God",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 430,
+          "event": "히포 레기우스에서 사망 (8월 28일)",
+          "event_en": "Died at Hippo Regius (28 August)",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Augustine_of_Hippo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "thagaste",
+          "name": "타가스테 (수크아흐라스)",
+          "name_en": "Thagaste (Souk Ahras)",
+          "lat": 36.1378681,
+          "lng": 7.8262426,
+          "type": "출생지",
+          "type_en": "Birthplace",
+          "source_url": "https://en.wikipedia.org/wiki/Souk_Ahras",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "고백록",
+          "title_en": "Confessions",
+          "note": "13권으로 된 자서전적 신앙 고백 저작",
+          "note_en": "Autobiographical confessional work in 13 books",
+          "quote": "fecisti nos ad te et inquietum est cor nostrum donec requiescat in te",
+          "quote_ko": "당신은 당신을 향하여 우리를 지으셨으니, 우리 마음이 당신 안에서 쉬기까지는 안식이 없나이다",
+          "quote_en": "You have made us for Yourself, and our heart is restless until it rests in You",
+          "quote_source": "Confessiones 1.1.1",
+          "source_url": "https://www.thelatinlibrary.com/augustine/conf1.shtml",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "신국론",
+          "title_en": "The City of God",
+          "note": "22권으로 된 기독교 변증 및 역사 신학 저작",
+          "note_en": "Apologetic and historical-theological work in 22 books",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://en.wikipedia.org/wiki/The_City_of_God",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "C",
+      "verified": true,
+      "flags": [
+        "wiki-only"
+      ]
+    },
+    {
+      "id": "ibn-sina",
+      "name_ko": "이븐 시나",
+      "name_en": "Ibn Sina (Avicenna)",
+      "field": "철학자·의학자",
+      "field_en": "Philosopher and physician",
+      "nation": "UZ",
+      "birth_year": 980,
+      "death_year": 1037,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "부하라 인근 아프샤나, 트란스옥시아나",
+        "admin_en": "Afshana, near Bukhara, Transoxiana",
+        "source_url": "https://www.britannica.com/biography/Avicenna",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 980,
+          "event": "트란스옥시아나의 부하라 인근 아프샤나에서 태어남",
+          "event_en": "Born in Afshana, near Bukhara, in Transoxiana",
+          "place_id": "bukhara",
+          "source_url": "https://en.wikipedia.org/wiki/Avicenna",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1014,
+          "event": "《치유의 서》 집필을 시작함",
+          "event_en": "Began writing The Book of Healing",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Avicenna",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1025,
+          "event": "《의학정전》을 완성함",
+          "event_en": "Completed The Canon of Medicine",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/topic/The-Canon-of-Medicine",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1027,
+          "event": "《치유의 서》를 완성함",
+          "event_en": "Completed The Book of Healing",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Avicenna",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1037,
+          "event": "이란 하마단에서 사망하여 그곳에 묻힘",
+          "event_en": "Died in Hamadan, Iran, and was buried there",
+          "place_id": "bukhara",
+          "source_url": "https://www.britannica.com/biography/Avicenna",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "bukhara",
+          "name": "부하라 (출생지 인근)",
+          "name_en": "Bukhara (near birthplace)",
+          "lat": 39.7759835,
+          "lng": 64.415153,
+          "type": "출생지 인근 도시",
+          "type_en": "City near birthplace",
+          "source_url": "https://www.britannica.com/biography/Avicenna",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "의학정전",
+          "title_en": "The Canon of Medicine",
+          "note": "아랍어 원제는 al-Qānūn fī al-ṭibb. 수세기 동안 유럽·이슬람권 의학 교재로 쓰임",
+          "note_en": "Arabic title al-Qānūn fī al-ṭibb; used as a medical textbook for centuries",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://www.britannica.com/topic/The-Canon-of-Medicine",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "치유의 서",
+          "title_en": "The Book of Healing",
+          "note": "아랍어 원제는 Kitāb al-Shifāʾ. 논리학·자연학·수학·형이상학을 아우른 철학 백과",
+          "note_en": "Arabic title Kitāb al-Shifāʾ; a philosophical encyclopedia covering logic, natural science, mathematics, and metaphysics",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://www.britannica.com/biography/Avicenna",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "omar-khayyam",
+      "name_ko": "오마르 하이얌",
+      "name_en": "Omar Khayyam",
+      "field": "수학자·천문학자·시인",
+      "field_en": "Mathematician, astronomer, poet",
+      "nation": "IR",
+      "birth_year": 1048,
+      "death_year": 1131,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "호라산 니샤푸르",
+        "admin_en": "Nishapur, Khorasan",
+        "source_url": "https://www.britannica.com/biography/Omar-Khayyam-Persian-poet-and-astronomer",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1048,
+          "event": "호라산 니샤푸르에서 출생",
+          "event_en": "Born in Nishapur, Khorasan",
+          "place_id": "khayyam-mausoleum",
+          "source_url": "https://www.britannica.com/biography/Omar-Khayyam-Persian-poet-and-astronomer",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1070,
+          "event": "대수학 논문을 저술함",
+          "event_en": "Wrote his Treatise on Algebra",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Omar_Khayyam",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1074,
+          "event": "셀주크 술탄 말리크샤의 부름으로 이스파한 천문대에서 역법 개혁 수행",
+          "event_en": "Summoned by sultan Malik-Shah to reform the calendar at the Isfahan observatory",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Omar-Khayyam-Persian-poet-and-astronomer",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1079,
+          "event": "잘라리 태양력 완성",
+          "event_en": "Produced the Jalali solar calendar",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Omar-Khayyam-Persian-poet-and-astronomer",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1131,
+          "event": "니샤푸르에서 사망",
+          "event_en": "Died in Nishapur",
+          "place_id": "khayyam-mausoleum",
+          "source_url": "https://www.britannica.com/biography/Omar-Khayyam-Persian-poet-and-astronomer",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "khayyam-mausoleum",
+          "name": "오마르 하이얌 묘",
+          "name_en": "Mausoleum of Omar Khayyam",
+          "lat": 36.2105604,
+          "lng": 58.7922291,
+          "type": "묘·기념물",
+          "type_en": "Mausoleum",
+          "source_url": "https://en.wikipedia.org/wiki/Mausoleum_of_Omar_Khayyam",
+          "source_grade": "C",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "루바이야트",
+          "title_en": "The Rubaiyat",
+          "note": "하이얌에게 귀속된 4행시 모음. 1859년 에드워드 피츠제럴드의 영역으로 널리 알려짐. 다수 4행시의 저자 귀속은 논쟁 중",
+          "note_en": "Quatrains attributed to Khayyam, made famous by Edward FitzGerald's 1859 translation; authorship of many is disputed",
+          "quote": "A Loaf of Bread beneath the Bough, A Flask of Wine, a Book of Verse—and Thou",
+          "quote_ko": "나뭇가지 아래 빵 한 덩이, 포도주 한 병, 시집 한 권—그리고 그대",
+          "quote_en": "A Loaf of Bread beneath the Bough, A Flask of Wine, a Book of Verse—and Thou",
+          "quote_source": "FitzGerald, Rubaiyat of Omar Khayyam (1859), quatrain XI",
+          "source_url": "https://www.gutenberg.org/files/246/246-h/246-h.htm",
+          "source_grade": "B",
+          "flags": [
+            "authorship-disputed"
+          ]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "ibn-khaldun",
+      "name_ko": "이븐 할둔",
+      "name_en": "Ibn Khaldun",
+      "field": "역사학자·사회사상가",
+      "field_en": "Historian and early social theorist",
+      "nation": "TN",
+      "birth_year": 1332,
+      "death_year": 1406,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "튀니스",
+        "admin_en": "Tunis",
+        "source_url": "https://www.britannica.com/biography/Ibn-Khaldun",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1332,
+          "event": "튀니스에서 출생",
+          "event_en": "Born in Tunis",
+          "place_id": "tunis",
+          "source_url": "https://www.britannica.com/biography/Ibn-Khaldun",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1364,
+          "event": "카스티야의 페드로 왕에게 외교 사절로 파견됨",
+          "event_en": "Sent on a diplomatic mission to Pedro of Castile",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Ibn_Khaldun",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1377,
+          "event": "칼아트 이븐 살라마에서 『무깟디마』 초고를 완성",
+          "event_en": "Completed the first draft of the Muqaddimah at Qalat ibn Salama",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Ibn-Khaldun",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1384,
+          "event": "카이로에서 말리키 법학파 카디(법관)로 임명됨",
+          "event_en": "Appointed Maliki qadi (judge) in Cairo",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Ibn_Khaldun",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1406,
+          "event": "카이로에서 사망",
+          "event_en": "Died in Cairo",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Ibn-Khaldun",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "tunis",
+          "name": "튀니스",
+          "name_en": "Tunis",
+          "lat": 36.8002068,
+          "lng": 10.1857757,
+          "type": "출생지",
+          "type_en": "Birthplace",
+          "source_url": "https://www.britannica.com/biography/Ibn-Khaldun",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "무깟디마",
+          "title_en": "The Muqaddimah",
+          "note": "보편사 저작의 서설로, 사회와 사회 변동의 본질을 다룸",
+          "note_en": "The introduction to his universal history, treating the nature of society and social change",
+          "quote": "History is firmly rooted in philosophy. It deserves to be accounted a branch of philosophy.",
+          "quote_ko": "역사는 철학에 굳건히 뿌리내리고 있다. 그것은 철학의 한 분과로 여겨질 만하다.",
+          "quote_en": "History is firmly rooted in philosophy. It deserves to be accounted a branch of philosophy.",
+          "quote_source": "Ibn Khaldun, The Muqaddimah, trans. Franz Rosenthal, Vol. 1",
+          "source_url": "https://en.wikipedia.org/wiki/Muqaddimah",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "mansa-musa",
+      "name_ko": "만사 무사",
+      "name_en": "Mansa Musa",
+      "field": "말리 제국 황제(만사)",
+      "field_en": "Emperor (Mansa) of the Mali Empire",
+      "nation": "ML",
+      "birth_year": 1280,
+      "death_year": 1337,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "말리 제국",
+        "admin_en": "Mali Empire",
+        "source_url": "https://en.wikipedia.org/wiki/Mansa_Musa",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only",
+          "year-approx"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1312,
+          "event": "말리 제국의 만사(황제)로 즉위함",
+          "event_en": "Acceded as Mansa (emperor) of the Mali Empire",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Musa-I-of-Mali",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1324,
+          "event": "메카로 향하는 하즈(순례) 길에 오름",
+          "event_en": "Set out on his hajj to Mecca",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Musa-I-of-Mali",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1325,
+          "event": "순례를 마치고 말리로 귀환함",
+          "event_en": "Returned to Mali after the pilgrimage",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Mansa_Musa",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1327,
+          "event": "팀북투에 대모스크(징게레베르)를 건립하게 함",
+          "event_en": "Commissioned the Great Mosque (Djinguereber) at Timbuktu",
+          "place_id": "djinguereber-mosque",
+          "source_url": "https://www.britannica.com/biography/Musa-I-of-Mali",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1337,
+          "event": "사망 (추정)",
+          "event_en": "Died (approx.)",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Mansa_Musa",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "year-approx"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "djinguereber-mosque",
+          "name": "징게레베르 모스크",
+          "name_en": "Djinguereber Mosque",
+          "lat": 16.7719091,
+          "lng": -3.0087272,
+          "type": "모스크",
+          "type_en": "Mosque",
+          "source_url": "https://www.britannica.com/biography/Musa-I-of-Mali",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "팀북투의 건축 후원",
+          "title_en": "Patronage of Timbuktu",
+          "note": "1324년 하즈 이후 팀북투에 징게레베르 모스크와 왕궁을 세우게 하여 학문·교역 중심지로 키움",
+          "note_en": "After his 1324 hajj he had the Djinguereber Mosque and a royal residence built at Timbuktu, fostering it as a centre of learning and trade",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://www.britannica.com/biography/Musa-I-of-Mali",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": [
+        "year-approx"
+      ]
+    },
+    {
+      "id": "sei-shonagon",
+      "name_ko": "세이 쇼나곤",
+      "name_en": "Sei Shōnagon",
+      "field": "수필가·궁정 작가",
+      "field_en": "Essayist and court writer",
+      "nation": "JP",
+      "birth_year": 966,
+      "death_year": 1017,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "헤이안쿄(교토)",
+        "admin_en": "Heian-kyō (Kyoto)",
+        "source_url": "https://www.britannica.com/biography/Sei-Shonagon",
+        "source_grade": "B",
+        "flags": [
+          "year-approx"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 966,
+          "event": "가인 기요하라노 모토스케의 딸로 태어남(추정)",
+          "event_en": "Born as the daughter of the poet Kiyohara no Motosuke (approx.)",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Sei-Shonagon",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 993,
+          "event": "이치조 천황의 중궁 데이시를 섬기며 궁정에 출사",
+          "event_en": "Entered court service to Empress Teishi",
+          "place_id": "heian-palace",
+          "source_url": "https://www.britannica.com/biography/Sei-Shonagon",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1000,
+          "event": "중궁 데이시의 사망으로 궁정 출사가 끝남",
+          "event_en": "Court service ended with the death of Empress Teishi",
+          "place_id": "heian-palace",
+          "source_url": "https://www.britannica.com/biography/Sei-Shonagon",
+          "source_grade": "C",
+          "flags": []
+        },
+        {
+          "year": 1002,
+          "event": "수필집 『마쿠라노소시(베갯머리 서책)』가 거의 완성됨",
+          "event_en": "The Pillow Book (Makura no Sōshi) was largely completed",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/The_Pillow_Book",
+          "source_grade": "C",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1017,
+          "event": "세이 쇼나곤에 대한 마지막 기록(이후 행적 불명)",
+          "event_en": "Last known reference to Sei Shōnagon; later life unknown",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Sei-Shonagon",
+          "source_grade": "C",
+          "flags": [
+            "year-approx"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "heian-palace",
+          "name": "교토 고쇼(헤이안 궁)",
+          "name_en": "Kyoto Imperial Palace (Heian Palace)",
+          "lat": 35.0252635,
+          "lng": 135.7623445,
+          "type": "궁궐",
+          "type_en": "Imperial palace",
+          "source_url": "https://www.britannica.com/biography/Sei-Shonagon",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "마쿠라노소시(베갯머리 서책)",
+          "title_en": "The Pillow Book (Makura no Sōshi)",
+          "note": "헤이안 시대 궁정 생활을 기록한 수필집",
+          "note_en": "A book of essays recording Heian-period court life",
+          "quote": "春はあけぼの。やうやう白くなりゆく山際、少し明かりて、紫だちたる雲の細くたなびきたる。",
+          "quote_ko": "봄은 새벽녘. 점점 하얗게 밝아오는 산등성이가 조금 환해지고, 보랏빛 구름이 가늘게 뻗어 있는 모습.",
+          "quote_en": "In spring, the dawn — the mountain rim grows faintly light, with purplish clouds trailing thin across it.",
+          "quote_source": "枕草子, 第一段 (opening passage)",
+          "source_url": "https://ja.wikisource.org/wiki/枕草子",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": [
+        "year-approx"
+      ]
+    },
+    {
+      "id": "leonardo",
+      "name_ko": "레오나르도 다 빈치",
+      "name_en": "Leonardo da Vinci",
+      "field": "화가·발명가",
+      "field_en": "Painter and inventor",
+      "nation": "IT",
+      "birth_year": 1452,
+      "death_year": 1519,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "토스카나주 빈치 인근 안키아노",
+        "admin_en": "Anchiano, near Vinci, Tuscany",
+        "source_url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only",
+          "birthplace-disputed"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1452,
+          "event": "토스카나 빈치 인근에서 출생",
+          "event_en": "Born near Vinci, Tuscany",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "birthplace-disputed"
+          ]
+        },
+        {
+          "year": 1498,
+          "event": "밀라노 산타 마리아 델레 그라치에 수도원의 '최후의 만찬' 완성(약 1495–1498)",
+          "event_en": "Completed 'The Last Supper' at Santa Maria delle Grazie, Milan (c. 1495–1498)",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1513,
+          "event": "필사본 E에 '역학은 수학적 학문의 낙원' 기록",
+          "event_en": "Wrote 'Mechanics is the paradise of the mathematical sciences' in Manuscript E",
+          "place_id": null,
+          "source_url": "https://todayinsci.com/D/DaVinci_Leonardo/DaVinciLeonardo-Quotations.htm",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1516,
+          "event": "'모나리자' 작업(약 1503–1516)",
+          "event_en": "Worked on the 'Mona Lisa' (c. 1503–1516)",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1519,
+          "event": "프랑스 앙부아즈 클로 뤼세에서 사망",
+          "event_en": "Died at Clos Lucé, Amboise, France",
+          "place_id": "amboise-tomb",
+          "source_url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "amboise-tomb",
+          "name": "앙부아즈성 생튀베르 예배당",
+          "name_en": "Chapel of Saint-Hubert, Château d'Amboise",
+          "lat": 47.4110351,
+          "lng": 0.983698,
+          "type": "무덤(예배당)",
+          "type_en": "Tomb (chapel)",
+          "source_url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_d%27Amboise",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "grave-unknown",
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "필사본 E",
+          "title_en": "Manuscript E (Codex E)",
+          "note": "역학·비행·물의 운동에 관한 노트(1513–1514)",
+          "note_en": "Notebook on mechanics, flight, and the motion of water (1513–1514)",
+          "quote": "La meccanica è il paradiso delle scienze matematiche, perché con quella si viene al frutto matematico.",
+          "quote_ko": "역학은 수학적 학문들의 낙원이다. 그것을 통해 수학의 열매에 이르기 때문이다.",
+          "quote_en": "Mechanics is the paradise of the mathematical sciences, because by means of it one comes to the fruits of mathematics.",
+          "quote_source": "Manuscript E, fol. 8v (c.1513); Richter, Literary Works of Leonardo, aphorism 1155",
+          "source_url": "https://todayinsci.com/D/DaVinci_Leonardo/DaVinciLeonardo-Quotations.htm",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": [
+        "birthplace-disputed"
+      ]
+    },
+    {
+      "id": "michelangelo",
+      "name_ko": "미켈란젤로 부오나로티",
+      "name_en": "Michelangelo Buonarroti",
+      "field": "조각가·화가",
+      "field_en": "Sculptor and painter",
+      "nation": "IT",
+      "birth_year": 1475,
+      "death_year": 1564,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "토스카나 카프레세",
+        "admin_en": "Caprese, Tuscany",
+        "source_url": "https://en.wikiquote.org/wiki/Michelangelo",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1475,
+          "event": "3월 6일 토스카나 카프레세에서 태어남",
+          "event_en": "Born 6 March in Caprese, Tuscany",
+          "place_id": "caprese",
+          "source_url": "https://en.wikiquote.org/wiki/Michelangelo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1499,
+          "event": "로마에서 피에타 완성",
+          "event_en": "Completes the Pietà in Rome",
+          "place_id": null,
+          "source_url": "https://en.wikiquote.org/wiki/Michelangelo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1504,
+          "event": "피렌체에서 다비드상 완성(1501–1504)",
+          "event_en": "Completes the statue of David in Florence (1501–1504)",
+          "place_id": null,
+          "source_url": "https://en.wikiquote.org/wiki/Michelangelo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1512,
+          "event": "바티칸 시스티나 예배당 천장화 완성(1508–1512)",
+          "event_en": "Completes the Sistine Chapel ceiling (1508–1512)",
+          "place_id": null,
+          "source_url": "https://en.wikiquote.org/wiki/Michelangelo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1564,
+          "event": "2월 18일 로마에서 사망",
+          "event_en": "Dies 18 February in Rome",
+          "place_id": null,
+          "source_url": "https://en.wikiquote.org/wiki/Michelangelo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "caprese",
+          "name": "카프레세",
+          "name_en": "Caprese",
+          "lat": 43.6405741,
+          "lng": 11.9874471,
+          "type": "출생지",
+          "type_en": "Birthplace",
+          "source_url": "https://en.wikiquote.org/wiki/Michelangelo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "시스티나 예배당 천장화",
+          "title_en": "Sistine Chapel ceiling",
+          "note": "1508–1512년 바티칸에서 단독으로 그린 프레스코 천장화",
+          "note_en": "Fresco ceiling painted single-handedly in the Vatican, 1508–1512",
+          "quote": "I' ho già fatto un gozzo in questo stento",
+          "quote_ko": "이 고된 일로 나는 벌써 갑상선종이 생겼소",
+          "quote_en": "I've already grown a goitre from this torture",
+          "quote_source": "Michelangelo, Rime n. 5, sonnet to Giovanni da Pistoia, 1509 (autograph, Casa Buonarroti)",
+          "source_url": "https://it.wikisource.org/wiki/Rime_(Michelangelo)/5._I%27_ho_gi%C3%A0_fatto_un_gozzo_in_questo_stento",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "다비드",
+          "title_en": "David",
+          "note": "1501–1504년 카라라 대리석 한 덩어리로 제작한 조각상",
+          "note_en": "Marble statue carved 1501–1504 from a single block of Carrara marble",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://en.wikiquote.org/wiki/Michelangelo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "hokusai",
+      "name_ko": "가쓰시카 호쿠사이",
+      "name_en": "Katsushika Hokusai",
+      "field": "우키요에 화가",
+      "field_en": "Ukiyo-e artist",
+      "nation": "JP",
+      "birth_year": 1760,
+      "death_year": 1849,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "무사시국 에도 혼조 (현 도쿄도 스미다구)",
+        "admin_en": "Honjo, Edo (present-day Sumida, Tokyo)",
+        "source_url": "https://en.wikipedia.org/wiki/Katsushika_Hokusai",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1760,
+          "event": "에도 혼조 와리게스이 지역에서 태어남",
+          "event_en": "Born in the Honjo Warigesui area of Edo",
+          "place_id": "sumida-hokusai-museum",
+          "source_url": "https://en.wikipedia.org/wiki/Katsushika_Hokusai",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1831,
+          "event": "《후가쿠 36경》 연작 출판 시작 (《가나가와 큰 파도》 포함), 약 1830–1832",
+          "event_en": "Began publishing Thirty-Six Views of Mount Fuji, including 'The Great Wave', c.1830–1832",
+          "place_id": null,
+          "source_url": "https://www.metmuseum.org/art/collection/search/45434",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1834,
+          "event": "《후가쿠 백경》 출판; 발문에 '그림에 미친 노인(画狂老人)' 글을 남김",
+          "event_en": "Published One Hundred Views of Mount Fuji; its postscript is signed 'old man mad about drawing'",
+          "place_id": null,
+          "source_url": "https://en.wikiquote.org/wiki/Hokusai",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1849,
+          "event": "에도에서 사망",
+          "event_en": "Died in Edo",
+          "place_id": "sumida-hokusai-museum",
+          "source_url": "https://en.wikipedia.org/wiki/Katsushika_Hokusai",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "sumida-hokusai-museum",
+          "name": "스미다 호쿠사이 미술관",
+          "name_en": "Sumida Hokusai Museum",
+          "lat": 35.6963779,
+          "lng": 139.8004717,
+          "type": "미술관",
+          "type_en": "Museum",
+          "source_url": "https://hokusai-museum.jp/",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "가나가와 큰 파도 (가나가와 해변의 높은 파도 아래)",
+          "title_en": "The Great Wave off Kanagawa",
+          "note": "《후가쿠 36경》 연작 중 가장 유명한 목판화, 약 1830–1832",
+          "note_en": "The most famous woodblock print from Thirty-Six Views of Mount Fuji, c.1830–1832",
+          "quote": "From the age of six I had a passion for copying the form of things; when I am one hundred and ten, each dot, each line will possess a life of its own.",
+          "quote_ko": "여섯 살 때부터 나는 사물의 형태를 그리는 버릇이 있었다. … 백열 살이 되면 점 하나 선 하나가 저마다 생명을 지니게 될 것이다.",
+          "quote_en": "From the age of six I had a passion for copying the form of things; when I am one hundred and ten, each dot, each line will possess a life of its own.",
+          "quote_source": "Postscript to One Hundred Views of Mount Fuji (1834)",
+          "source_url": "https://en.wikiquote.org/wiki/Hokusai",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "C",
+      "verified": true,
+      "flags": [
+        "wiki-only"
+      ]
+    },
+    {
+      "id": "rembrandt",
+      "name_ko": "렘브란트 판 레인",
+      "name_en": "Rembrandt van Rijn",
+      "field": "화가",
+      "field_en": "Painter",
+      "nation": "NL",
+      "birth_year": 1606,
+      "death_year": 1669,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "레이던",
+        "admin_en": "Leiden",
+        "source_url": "https://en.wikipedia.org/wiki/Rembrandt",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1606,
+          "event": "네덜란드 레이던에서 출생",
+          "event_en": "Born in Leiden, Dutch Republic",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Rembrandt",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1631,
+          "event": "암스테르담으로 이주",
+          "event_en": "Moved to Amsterdam",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Rembrandt",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1634,
+          "event": "사스키아 판 아윌렌부르흐와 결혼",
+          "event_en": "Married Saskia van Uylenburgh",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Rembrandt",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1642,
+          "event": "'야경' 완성",
+          "event_en": "Completed The Night Watch",
+          "place_id": "rijksmuseum",
+          "source_url": "https://www.rijksmuseum.nl/en/collection/SK-C-5",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1669,
+          "event": "암스테르담에서 사망",
+          "event_en": "Died in Amsterdam",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Rembrandt",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "rijksmuseum",
+          "name": "레이크스 미술관",
+          "name_en": "Rijksmuseum",
+          "lat": 52.3598431,
+          "lng": 4.8850395,
+          "type": "미술관",
+          "type_en": "Museum",
+          "source_url": "https://www.rijksmuseum.nl/en/collection/SK-C-5",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "야경",
+          "title_en": "The Night Watch",
+          "note": "1642년 작, 캔버스에 유채. 정식 제목은 '프란스 반닝 코크 대위 휘하 민병대'. 레이크스 미술관 소장(SK-C-5)",
+          "note_en": "Made 1642, oil on canvas. Full title: Militia Company under Captain Frans Banninck Cocq. Rijksmuseum (SK-C-5)",
+          "quote": "die meeste ende die natuerelste beweechgelickheyt",
+          "quote_ko": "가장 크고 가장 자연스러운 움직임",
+          "quote_en": "the greatest and most natural movement",
+          "quote_source": "Rembrandt, letter to Constantijn Huygens (his only surviving statement of artistic aim)",
+          "source_url": "https://www.rijksmuseum.nl/en/collection/SK-C-5",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "frida-kahlo",
+      "name_ko": "프리다 칼로",
+      "name_en": "Frida Kahlo",
+      "field": "화가",
+      "field_en": "Painter",
+      "nation": "MX",
+      "birth_year": 1907,
+      "death_year": 1954,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "멕시코시티 코요아칸",
+        "admin_en": "Coyoacán, Mexico City",
+        "source_url": "https://www.britannica.com/biography/Frida-Kahlo",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1907,
+          "event": "멕시코시티 코요아칸의 라 카사 아술에서 태어남",
+          "event_en": "Born at La Casa Azul in Coyoacán, Mexico City",
+          "place_id": "casa-azul",
+          "source_url": "https://www.britannica.com/biography/Frida-Kahlo",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1925,
+          "event": "버스 교통사고로 척추·골반 등에 중상을 입음",
+          "event_en": "Suffered severe injuries to her spine and pelvis in a bus accident",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Frida-Kahlo",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1929,
+          "event": "디에고 리베라와 결혼함 (8월 21일)",
+          "event_en": "Married Diego Rivera (21 August)",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1939,
+          "event": "《두 명의 프리다》를 그림",
+          "event_en": "Painted The Two Fridas",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1953,
+          "event": "멕시코시티에서 생애 첫 개인전을 엶; 같은 해 오른쪽 다리를 절단함",
+          "event_en": "Held her first solo exhibition in Mexico City; her right leg was amputated the same year",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1954,
+          "event": "코요아칸의 라 카사 아술에서 사망함 (7월 13일)",
+          "event_en": "Died at La Casa Azul in Coyoacán (13 July)",
+          "place_id": "casa-azul",
+          "source_url": "https://www.britannica.com/biography/Frida-Kahlo",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "casa-azul",
+          "name": "프리다 칼로 박물관 (라 카사 아술)",
+          "name_en": "Frida Kahlo Museum (La Casa Azul)",
+          "lat": 19.3498606,
+          "lng": -99.1619751,
+          "type": "생가 겸 박물관",
+          "type_en": "Birthplace and museum",
+          "source_url": "https://www.museofridakahlo.org.mx/?lang=en",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "두 명의 프리다",
+          "title_en": "The Two Fridas",
+          "note": "1939년에 그린 이중 자화상",
+          "note_en": "A double self-portrait painted in 1939",
+          "quote": "Pies para qué los quiero si tengo alas para volar",
+          "quote_ko": "날아오를 날개가 있는데 발이 무슨 소용인가",
+          "quote_en": "Feet, what do I need them for if I have wings to fly",
+          "quote_source": "The Diary of Frida Kahlo (1953 entry)",
+          "source_url": "https://archive.org/details/diaryoffridakahl00kahl",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "gandhi",
+      "name_ko": "마하트마 간디",
+      "name_en": "Mahatma Gandhi",
+      "field": "독립운동가·사상가",
+      "field_en": "Independence leader and thinker",
+      "nation": "IN",
+      "birth_year": 1869,
+      "death_year": 1948,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "구자라트주 포르반다르",
+        "admin_en": "Porbandar, Gujarat",
+        "source_url": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 1869,
+          "event": "구자라트주 포르반다르에서 출생",
+          "event_en": "Born in Porbandar, Gujarat",
+          "place_id": "kirti-mandir-porbandar",
+          "source_url": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1893,
+          "event": "법률 업무를 위해 남아프리카로 떠남",
+          "event_en": "Departed for South Africa for legal work",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1930,
+          "event": "3월 12일 사바르마티 아슈람에서 단디까지 소금 행진 시작, 4월 6일 소금법을 어김",
+          "event_en": "Began the Salt March from Sabarmati Ashram to Dandi on 12 March, breaking the salt law on 6 April",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Salt_March",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1942,
+          "event": "8월 8일 인도 철수(Quit India) 운동 시작",
+          "event_en": "Launched the Quit India movement on 8 August",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1948,
+          "event": "1월 30일 뉴델리 비를라 하우스에서 피살",
+          "event_en": "Killed at Birla House, New Delhi, on 30 January",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "kirti-mandir-porbandar",
+          "name": "키르티 만디르, 포르반다르",
+          "name_en": "Kirti Mandir, Porbandar",
+          "lat": 21.6413358,
+          "lng": 69.601032,
+          "type": "생가·기념관",
+          "type_en": "Birthplace and memorial",
+          "source_url": "https://en.wikipedia.org/wiki/Kirti_Mandir,_Porbandar",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "나의 진리 실험 이야기 (자서전)",
+          "title_en": "The Story of My Experiments with Truth",
+          "note": "1925~1929년 구자라트어로 연재된 자서전",
+          "note_en": "Autobiography serialized in Gujarati between 1925 and 1929",
+          "quote": "To see the universal and all-pervading Spirit of Truth face to face one must be able to love the meanest of creation as oneself.",
+          "quote_ko": "보편적이고 모든 곳에 두루 미치는 진리의 영을 직접 대면하려면, 가장 미천한 피조물까지도 자기 자신처럼 사랑할 수 있어야 한다.",
+          "quote_en": "To see the universal and all-pervading Spirit of Truth face to face one must be able to love the meanest of creation as oneself.",
+          "quote_source": "An Autobiography: The Story of My Experiments with Truth, 'Farewell' chapter",
+          "source_url": "https://www.gandhiheritageportal.org/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "sun-yat-sen",
+      "name_ko": "쑨원",
+      "name_en": "Sun Yat-sen",
+      "field": "혁명가·정치가",
+      "field_en": "Revolutionary and politician",
+      "nation": "CN",
+      "birth_year": 1866,
+      "death_year": 1925,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "광둥성 샹산현(현 중산) 추이헝촌",
+        "admin_en": "Cuiheng village, Xiangshan County (now Zhongshan), Guangdong",
+        "source_url": "https://www.britannica.com/biography/Sun-Yat-sen",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1866,
+          "event": "광둥성 추이헝촌에서 출생",
+          "event_en": "Born in Cuiheng village, Guangdong",
+          "place_id": "former-residence-cuiheng",
+          "source_url": "https://www.britannica.com/biography/Sun-Yat-sen",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1894,
+          "event": "흥중회(興中會) 창립",
+          "event_en": "Founded the Revive China Society (Xingzhonghui)",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Sun_Yat-sen",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1905,
+          "event": "도쿄에서 중국동맹회(中國同盟會) 결성",
+          "event_en": "Established the Tongmenghui in Tokyo",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Sun_Yat-sen",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1912,
+          "event": "중화민국 초대 임시대총통 취임 (1월 1일)",
+          "event_en": "Inaugurated as first Provisional President of the Republic of China (1 Jan)",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Sun-Yat-sen",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1912,
+          "event": "국민당(國民黨) 창립",
+          "event_en": "Founded the Kuomintang (Nationalist Party)",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Sun-Yat-sen",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1925,
+          "event": "베이징에서 사망 (3월 12일)",
+          "event_en": "Died in Beijing (12 March)",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Sun-Yat-sen",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "former-residence-cuiheng",
+          "name": "쑨원 고거(추이헝)",
+          "name_en": "Sun Yat-sen's Former Residence, Cuiheng",
+          "lat": 22.5197073,
+          "lng": 113.3872302,
+          "type": "생가·기념관",
+          "type_en": "Former residence and memorial",
+          "source_url": "https://en.wikipedia.org/wiki/Sun_Yat-sen",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "삼민주의",
+          "title_en": "Three Principles of the People",
+          "note": "민족·민권·민생의 세 원칙을 담은 정치 이념 저술",
+          "note_en": "Political ideology setting out nationalism, democracy, and people's livelihood",
+          "quote": "革命尚未成功，同志仍須努力",
+          "quote_ko": "혁명은 아직 이루어지지 않았으니, 동지들은 여전히 힘써 노력해야 한다",
+          "quote_en": "As the Revolution has not yet come to a complete success, my compatriots must continue to strive",
+          "quote_source": "쑨원 유촉(總理遺囑), 1925년 3월 11일 서명",
+          "source_url": "https://ebrary.net/170976/history/sen_s_wills_testament_march_1925",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "bolivar",
+      "name_ko": "시몬 볼리바르",
+      "name_en": "Simón Bolívar",
+      "field": "독립운동가·군인",
+      "field_en": "Independence leader and commander",
+      "nation": "VE",
+      "birth_year": 1783,
+      "death_year": 1830,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "베네수엘라 카라카스",
+        "admin_en": "Caracas, Venezuela",
+        "source_url": "https://www.britannica.com/biography/Simon-Bolivar",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1783,
+          "event": "베네수엘라 카라카스에서 출생",
+          "event_en": "Born in Caracas, Venezuela",
+          "place_id": "casa-natal",
+          "source_url": "https://www.britannica.com/biography/Simon-Bolivar",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1815,
+          "event": "자메이카 망명 중 '자메이카 편지'를 작성",
+          "event_en": "Wrote the 'Letter from Jamaica' while in exile",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/topic/Letter-from-Jamaica",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1819,
+          "event": "보야카 전투에서 승리",
+          "event_en": "Won the Battle of Boyacá",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Simon-Bolivar",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1821,
+          "event": "카라보보 전투에서 승리",
+          "event_en": "Won the Battle of Carabobo",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Battle_of_Carabobo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1830,
+          "event": "콜롬비아 산타마르타에서 사망",
+          "event_en": "Died in Santa Marta, Colombia",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Simon-Bolivar",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "casa-natal",
+          "name": "볼리바르 생가",
+          "name_en": "Casa Natal de Simón Bolívar",
+          "lat": 10.5060934,
+          "lng": -66.9146008,
+          "type": "생가",
+          "type_en": "Birthplace house",
+          "source_url": "https://www.britannica.com/biography/Simon-Bolivar",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "자메이카 편지",
+          "title_en": "Letter from Jamaica",
+          "note": "1815년 자메이카 망명 중 작성한 정치 서한",
+          "note_en": "A political letter written in 1815 during his exile in Jamaica",
+          "quote": "Yo deseo más que otro alguno ver formar en América la más grande nación del mundo, menos por su extensión y riquezas que por su libertad y gloria.",
+          "quote_ko": "나는 그 누구보다도 아메리카가 세계에서 가장 위대한 국가로 형성되는 것을 보기를 바라는데, 이는 그 영토와 부보다는 그 자유와 영광에 의한 것이다.",
+          "quote_en": "I desire more than any other to see America fashioned into the greatest nation in the world, less by its size and wealth than by its freedom and glory.",
+          "quote_source": "Carta de Jamaica / Letter from Jamaica (1815)",
+          "source_url": "http://www.columbia.edu/cu/spanish/courses/spanish3350/02independencia/pdf/jamaica.pdf",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "unaipon",
+      "name_ko": "데이비드 우나이폰",
+      "name_en": "David Unaipon",
+      "field": "발명가·작가",
+      "field_en": "Inventor and writer",
+      "nation": "AU",
+      "birth_year": 1872,
+      "death_year": 1967,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "포인트 맥클레이 선교지(현 라우칸), 사우스오스트레일리아",
+        "admin_en": "Point McLeay Mission (now Raukkan), South Australia",
+        "source_url": "https://adb.anu.edu.au/biography/unaipon-david-8898",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1872,
+          "event": "사우스오스트레일리아 포인트 맥클레이 선교지에서 9월 28일 출생",
+          "event_en": "Born on 28 September at Point McLeay Mission, South Australia",
+          "place_id": "point-mcleay",
+          "source_url": "https://adb.anu.edu.au/biography/unaipon-david-8898",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1909,
+          "event": "개량 양털깎이 핸드피스를 개발해 특허 출원",
+          "event_en": "Developed and patented a modified shearing handpiece",
+          "place_id": null,
+          "source_url": "https://adb.anu.edu.au/biography/unaipon-david-8898",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1924,
+          "event": "시드니 데일리 텔레그래프에 글을 발표하기 시작",
+          "event_en": "Began publishing articles in the Sydney Daily Telegraph",
+          "place_id": null,
+          "source_url": "https://adb.anu.edu.au/biography/unaipon-david-8898",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1929,
+          "event": "오스트레일리아 원주민 전설 이야기를 책으로 펴냄",
+          "event_en": "His Legendary Tales of the Australian Aborigines was published",
+          "place_id": null,
+          "source_url": "https://adb.anu.edu.au/biography/unaipon-david-8898",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1967,
+          "event": "사우스오스트레일리아 테일럼 벤드에서 2월 7일 사망",
+          "event_en": "Died on 7 February at Tailem Bend, South Australia",
+          "place_id": null,
+          "source_url": "https://adb.anu.edu.au/biography/unaipon-david-8898",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "point-mcleay",
+          "name": "포인트 맥클레이 선교지 (라우칸)",
+          "name_en": "Point McLeay Mission (Raukkan)",
+          "lat": -35.5077184,
+          "lng": 139.132835,
+          "type": "선교지·출생지",
+          "type_en": "Mission station and birthplace",
+          "source_url": "https://adb.anu.edu.au/biography/unaipon-david-8898",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "오스트레일리아 원주민의 전설 이야기",
+          "title_en": "Legendary Tales of the Australian Aborigines",
+          "note": "오스트레일리아 원주민이 출간한 최초의 저작으로 기록되며, 원고 일부가 50달러 지폐에 새겨져 있다",
+          "note_en": "Recorded as the first book published by an Aboriginal Australian; an extract appears on the Australian $50 note",
+          "quote": "As a full-blooded member of my race I think I may claim to be the first - but, I hope not the last",
+          "quote_ko": "내 민족의 순혈 구성원으로서, 나는 내가 최초라고 주장할 수 있다고 생각한다 — 그러나 마지막은 아니기를 바란다",
+          "quote_en": "As a full-blooded member of my race I think I may claim to be the first - but, I hope not the last",
+          "quote_source": "David Unaipon, preface to Legendary Tales of the Australian Aborigines (1924-25)",
+          "source_url": "https://www2.sl.nsw.gov.au/archive/discover_collections/history_nation/indigenous/unaipon/legendtails.html",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "ngata",
+      "name_ko": "아피라나 응아타",
+      "name_en": "Āpirana Ngata",
+      "field": "정치인·학자",
+      "field_en": "Politician and scholar",
+      "nation": "NZ",
+      "birth_year": 1874,
+      "death_year": 1950,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "테 아라로아, 이스트 코스트",
+        "admin_en": "Te Araroa, East Coast",
+        "source_url": "https://teara.govt.nz/en/biographies/3n5/ngata-apirana-turupa",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1874,
+          "event": "이스트 코스트 테 아라로아 인근에서 응아티 포로우 부족으로 태어남",
+          "event_en": "Born near Te Araroa on the East Coast, of the Ngāti Porou iwi",
+          "place_id": "te-araroa",
+          "source_url": "https://teara.govt.nz/en/biographies/3n5/ngata-apirana-turupa",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1893,
+          "event": "캔터베리 칼리지 학위를 마쳐 뉴질랜드 대학에서 학위를 취득한 최초의 마오리가 됨",
+          "event_en": "Became the first Māori to complete a degree at a New Zealand university",
+          "place_id": null,
+          "source_url": "https://nzhistory.govt.nz/people/apirana-turupa-ngata",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1905,
+          "event": "이스턴 마오리 선거구 의원으로 의회에 선출됨",
+          "event_en": "Elected to Parliament as the member for Eastern Maori",
+          "place_id": null,
+          "source_url": "https://nzhistory.govt.nz/people/apirana-turupa-ngata",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1949,
+          "event": "여학생 랑이 베넷의 사인북에 'E tipu, e rea' 격언을 적어줌",
+          "event_en": "Wrote the proverb 'E tipu, e rea' in a schoolgirl's autograph book",
+          "place_id": null,
+          "source_url": "https://www.nzonscreen.com/title/e-tipu-e-rea-te-moemoea-1989/background",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1950,
+          "event": "바이오마타티니에서 사망",
+          "event_en": "Died at Waiomatatini",
+          "place_id": null,
+          "source_url": "https://nzhistory.govt.nz/death-of-sir-apirana-ngata",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "te-araroa",
+          "name": "테 아라로아",
+          "name_en": "Te Araroa",
+          "lat": -37.6330949,
+          "lng": 178.3610171,
+          "type": "출생지 (마을)",
+          "type_en": "Birthplace (town)",
+          "source_url": "https://teara.govt.nz/en/biographies/3n5/ngata-apirana-turupa",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "'E tipu, e rea' 격언",
+          "title_en": "The proverb 'E tipu, e rea'",
+          "note": "1949년 응아타가 여학생 랑이 베넷의 사인북에 적은 손글씨 격언",
+          "note_en": "A handwritten proverb Ngata wrote in 1949 in a schoolgirl's autograph book",
+          "quote": "E tipu, e rea, mō ngā rā o tō ao; ko tō ringa ki ngā rākau a te Pākehā hei ara mō tō tinana.",
+          "quote_ko": "자라거라, 어린 새싹아, 네 세상의 날들을 위하여. 네 손은 파케하(유럽인)의 도구로 향하게 하여 네 몸을 살아가게 하라.",
+          "quote_en": "Grow up, O tender shoot, for the days of your world; turn your hand to the tools of the Pākehā for the welfare of your body.",
+          "quote_source": "Āpirana Ngata, written in Rangi Bennett's autograph book, 1949",
+          "source_url": "https://www.nzonscreen.com/title/e-tipu-e-rea-te-moemoea-1989/background",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "al-khwarizmi",
+      "name_ko": "알 콰리즈미",
+      "name_en": "al-Khwarizmi",
+      "field": "수학자·천문학자",
+      "field_en": "Mathematician and astronomer",
+      "nation": "UZ",
+      "birth_year": 780,
+      "death_year": 850,
+      "birthplace": {
+        "lat": null,
+        "lng": null,
+        "admin": "화레즘 (출생지 이설)",
+        "admin_en": "Khwarazm (birthplace disputed)",
+        "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+        "source_grade": "B",
+        "flags": [
+          "birthplace-disputed",
+          "year-approx"
+        ]
+      },
+      "timeline": [
+        {
+          "year": 780,
+          "event": "약 780년경 태어남(이름은 화레즘을 가리키나 출생지는 논쟁 중)",
+          "event_en": "Born c. 780; the name points to Khwarazm, though his birthplace is disputed",
+          "place_id": "house-of-wisdom",
+          "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+          "source_grade": "B",
+          "flags": [
+            "year-approx",
+            "birthplace-disputed"
+          ]
+        },
+        {
+          "year": 813,
+          "event": "칼리프 알 마문 치하 바그다드의 지혜의 집에서 활동",
+          "event_en": "Worked at the House of Wisdom in Baghdad under Caliph al-Ma'mun",
+          "place_id": "house-of-wisdom",
+          "source_url": "https://www.britannica.com/biography/al-Khwarizmi",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 820,
+          "event": "대수학에 관한 최초의 책 『알 자브르 와 알 무카발라』를 저술",
+          "event_en": "Wrote Hisab al-jabr w'al-muqabala, described as the first book on algebra",
+          "place_id": "house-of-wisdom",
+          "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 825,
+          "event": "인도 숫자 체계를 다룬 산술서를 저술; 라틴어역 제목에서 'algorithm'이 유래",
+          "event_en": "Wrote a treatise on Hindu numerals; its Latin translation gave rise to the word 'algorithm'",
+          "place_id": "house-of-wisdom",
+          "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 850,
+          "event": "약 850년경 사망",
+          "event_en": "Died c. 850",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/al-Khwarizmi",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "house-of-wisdom",
+          "name": "지혜의 집 (바이트 알 히크마), 바그다드",
+          "name_en": "House of Wisdom (Bayt al-Hikma), Baghdad",
+          "lat": 33.3061701,
+          "lng": 44.3872213,
+          "type": "학술 기관(활동지)",
+          "type_en": "Academy where he worked",
+          "source_url": "https://www.britannica.com/place/Bayt-al-Hikmah",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "알 자브르 와 알 무카발라",
+          "title_en": "Hisab al-jabr w'al-muqabala",
+          "note": "대수학에 관해 쓰인 최초의 책으로 평가되며, 'algebra'라는 단어가 책 제목의 'al-jabr'(복원)에서 유래했다",
+          "note_en": "Described as the first book on algebra; the word 'algebra' derives from 'al-jabr' (restoration) in its title",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "인도 숫자를 이용한 계산법",
+          "title_en": "On the Calculation with Hindu Numerals",
+          "note": "인도식 십진 자릿값 체계를 설명한 산술서; 저자명의 라틴어 표기 'Algoritmi'에서 'algorithm'이 유래했다",
+          "note_en": "An arithmetic treatise on the Hindu decimal place-value system; the word 'algorithm' derives from the Latinized form of his name",
+          "quote": "",
+          "quote_ko": "",
+          "quote_en": "",
+          "quote_source": "",
+          "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": [
+        "birthplace-disputed"
+      ]
     }
   ]
 }

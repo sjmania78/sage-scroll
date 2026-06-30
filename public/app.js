@@ -63,7 +63,7 @@ const PERSON_CATS = [
 function categoryOf(field) {
   const f = field || "";
   const lead = f.split(/[·,(]/)[0]; // 첫(주된) 역할로 판정
-  if (/국왕|군주|무신|장군|왕|대통령|정치|민족운동|반아파르트헤이트|독립운동/.test(lead)) return "icon";
+  if (/국왕|군주|무신|장군|왕|대통령|정치|혁명|민족운동|반아파르트헤이트|독립운동/.test(lead)) return "icon";
   if (/작곡|음악|피아니스트|화가|미술|조각|서예|금석/.test(lead)) return "art";
   if (/실학|철학|성리|유학|사학|사상|학자|법학|박물|과학|여행가|탐험/.test(lead)) return "thought";
   if (/소설|극작|동화|수필/.test(lead)) return "prose";
@@ -240,10 +240,10 @@ const REGIONS = [
 const NATION_REGION = {
   KR: "korea", CN: "eastasia", JP: "eastasia",
   GR: "europe", GB: "europe", DE: "europe", IT: "europe", RU: "europe", FR: "europe", ES: "europe", NL: "europe", IE: "europe", AT: "europe", PL: "europe", CZ: "europe", NO: "europe", DK: "europe", SE: "europe", PT: "europe", HU: "europe", FI: "europe", CH: "europe", BE: "europe", UA: "europe",
-  TR: "westasia", IR: "westasia", LB: "westasia",
+  TR: "westasia", IR: "westasia", LB: "westasia", UZ: "westasia",
   IN: "southasia", PK: "southasia", VN: "southasia", ID: "southasia", PH: "southasia", TH: "southasia",
-  EG: "africa", NG: "africa", ZA: "africa", MA: "africa", SN: "africa",
-  US: "americas", CL: "americas", AR: "americas", CO: "americas", MX: "americas", BR: "americas", CA: "americas", PE: "americas", CU: "americas", NI: "americas",
+  EG: "africa", NG: "africa", ZA: "africa", MA: "africa", SN: "africa", DZ: "africa", TN: "africa", ML: "africa",
+  US: "americas", CL: "americas", AR: "americas", CO: "americas", MX: "americas", BR: "americas", CA: "americas", PE: "americas", CU: "americas", NI: "americas", VE: "americas",
   NZ: "oceania", AU: "oceania",
 };
 function regionOf(p) { return NATION_REGION[p.nation || "KR"] || "korea"; }
