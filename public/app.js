@@ -31,6 +31,8 @@ const personChips = {};
 let activePersonId = null;
 let currentPerson = null;
 let allPeople = [];
+let activeRegion = "all";
+let allBounds = [];
 let routeLayer = null;
 
 // 신뢰 관련 플래그만 조용히 노출(좌표 출처 등 메타 노이즈는 숨김)
@@ -212,6 +214,63 @@ function buildPersonIndex(people, container) {
   });
 }
 
+// 지역(대륙) 내비게이션 — 63인을 한눈에 못 보니 지역으로 좁혀 보기
+const REGIONS = [
+  { key: "all", ko: "전체", en: "All" },
+  { key: "korea", ko: "한국", en: "Korea" },
+  { key: "eastasia", ko: "동아시아", en: "East Asia" },
+  { key: "europe", ko: "유럽", en: "Europe" },
+  { key: "westasia", ko: "서아시아", en: "West Asia" },
+  { key: "southasia", ko: "남·동남아", en: "S/SE Asia" },
+  { key: "africa", ko: "아프리카", en: "Africa" },
+  { key: "americas", ko: "아메리카", en: "Americas" },
+  { key: "oceania", ko: "오세아니아", en: "Oceania" },
+];
+const NATION_REGION = {
+  KR: "korea", CN: "eastasia", JP: "eastasia",
+  GR: "europe", GB: "europe", DE: "europe", IT: "europe", RU: "europe", FR: "europe", ES: "europe", NL: "europe", IE: "europe", AT: "europe", PL: "europe", CZ: "europe", NO: "europe", DK: "europe", SE: "europe",
+  TR: "westasia", IR: "westasia", LB: "westasia",
+  IN: "southasia", PK: "southasia", VN: "southasia", ID: "southasia", PH: "southasia",
+  EG: "africa", NG: "africa", ZA: "africa", MA: "africa",
+  US: "americas", CL: "americas", AR: "americas", CO: "americas", MX: "americas", BR: "americas", CA: "americas",
+  NZ: "oceania", AU: "oceania",
+};
+function regionOf(p) { return NATION_REGION[p.nation || "KR"] || "korea"; }
+
+function buildRegionTabs(container) {
+  if (!container) return;
+  container.innerHTML = "";
+  REGIONS.forEach((r) => {
+    const count = r.key === "all" ? allPeople.length : allPeople.filter((p) => regionOf(p) === r.key).length;
+    if (r.key !== "all" && count === 0) return;
+    const b = document.createElement("button");
+    b.dataset.region = r.key;
+    if (r.key === activeRegion) b.classList.add("on");
+    b.innerHTML = `${t(r.ko, r.en)}<span class="rt-count">${count}</span>`;
+    b.addEventListener("click", () => selectRegion(r.key));
+    container.appendChild(b);
+  });
+}
+
+function selectRegion(key, fly = true) {
+  activeRegion = key;
+  document.querySelectorAll("#region-tabs button").forEach((b) => b.classList.toggle("on", b.dataset.region === key));
+  const list = document.getElementById("person-list");
+  if (!list) return;
+  if (key === "all") {
+    list.innerHTML = `<div class="region-hint">${t("지역 탭을 누르거나, 지도의 핀·이름을 선택하세요.", "Pick a region tab, or select a pin or a name on the map.")}</div>`;
+    if (fly && allBounds.length) map.fitBounds(allBounds, { padding: [40, 40], maxZoom: 12, animate: true });
+    return;
+  }
+  const people = allPeople.filter((p) => regionOf(p) === key);
+  buildPersonIndex(people, list);
+  if (fly) {
+    const pts = [];
+    people.forEach((p) => (personMarkers[p.id] || []).forEach((m) => pts.push(m.getLatLng())));
+    if (pts.length) map.fitBounds(pts, { padding: [50, 50], maxZoom: 7, animate: true });
+  }
+}
+
 function addMarker(lat, lng, person, place) {
   const m = L.marker([lat, lng], { icon: pinIcon(false) }).addTo(map);
   m.bindPopup("");
@@ -242,7 +301,8 @@ function setLang(lang) {
   try { localStorage.setItem("ss_lang", lang); } catch (e) {}
   applyLanguage();
   updateStats(allPeople, statCache.placeCount, statCache.verifiedCount);
-  buildPersonIndex(allPeople, document.getElementById("person-list"));
+  buildRegionTabs(document.getElementById("region-tabs"));
+  selectRegion(activeRegion, false);
   if (currentPerson) renderPerson(currentPerson, false);
 }
 
@@ -281,8 +341,10 @@ async function init() {
   });
 
   statCache = { placeCount, verifiedCount };
-  buildPersonIndex(people, document.getElementById("person-list"));
+  allBounds = bounds;
   updateStats(people, placeCount, verifiedCount);
+  buildRegionTabs(document.getElementById("region-tabs"));
+  selectRegion("all", false);
   if (bounds.length) map.fitBounds(bounds, { padding: [50, 50], maxZoom: 12 });
 
   document.getElementById("panel-content").addEventListener("click", (e) => {
