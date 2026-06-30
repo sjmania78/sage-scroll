@@ -14445,6 +14445,1000 @@
       "flags": [
         "birthplace-disputed"
       ]
+    },
+    {
+      "id": "claude-shannon",
+      "name_ko": "클로드 섀넌",
+      "name_en": "Claude Shannon",
+      "nation": "US",
+      "field": "수학자·컴퓨터과학자",
+      "field_en": "Mathematician & computer scientist",
+      "birth_year": 1916,
+      "death_year": 2001,
+      "birthplace": {
+        "lat": 45.373343,
+        "lng": -84.95533,
+        "admin": "미국 미시간주 피토스키(게일로드에서 성장)",
+        "admin_en": "Petoskey, Michigan, USA (raised in Gaylord)",
+        "source_url": "https://www.britannica.com/biography/Claude-Shannon",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1916,
+          "event": "미국 미시간주 피토스키에서 출생",
+          "event_en": "Born in Petoskey, Michigan, USA",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Claude-Shannon",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1937,
+          "event": "석사 논문에서 불 대수를 전기 스위칭 회로에 적용",
+          "event_en": "Master's thesis applying Boolean algebra to electrical switching circuits",
+          "place_id": null,
+          "source_url": "https://www.itsoc.org/about/shannon",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1948,
+          "event": "「통신의 수학적 이론」 발표 — 정보이론 창시",
+          "event_en": "Published 'A Mathematical Theory of Communication', founding information theory",
+          "place_id": null,
+          "source_url": "https://www.itsoc.org/about/shannon",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 2001,
+          "event": "사망",
+          "event_en": "Died",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Claude-Shannon",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "john-von-neumann",
+      "name_ko": "존 폰 노이만",
+      "name_en": "John von Neumann",
+      "nation": "HU",
+      "field": "수학자·컴퓨터과학자",
+      "field_en": "Mathematician & computer scientist",
+      "birth_year": 1903,
+      "death_year": 1957,
+      "birthplace": {
+        "lat": 47.4978789,
+        "lng": 19.0402383,
+        "admin": "헝가리 부다페스트(당시 오스트리아-헝가리)",
+        "admin_en": "Budapest, Hungary (then Austria-Hungary)",
+        "source_url": "https://www.britannica.com/biography/John-von-Neumann",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1903,
+          "event": "헝가리 부다페스트에서 출생",
+          "event_en": "Born in Budapest, Hungary",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/John-von-Neumann",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1944,
+          "event": "「게임 이론과 경제 행동」 출간 — 게임 이론 정립",
+          "event_en": "Published 'Theory of Games and Economic Behavior', establishing game theory",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/John-von-Neumann",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1945,
+          "event": "「EDVAC 보고서 초안」 작성 — 프로그램 내장형(폰 노이만) 구조 제시",
+          "event_en": "Wrote 'First Draft of a Report on the EDVAC', defining the stored-program (von Neumann) architecture",
+          "place_id": null,
+          "source_url": "https://history.computer.org/pioneers/von-neumann.html",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1957,
+          "event": "미국 워싱턴 D.C.에서 사망",
+          "event_en": "Died in Washington, D.C., USA",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/John-von-Neumann",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "douglas-engelbart",
+      "name_ko": "더글러스 엥겔바트",
+      "name_en": "Douglas Engelbart",
+      "nation": "US",
+      "field": "발명가·컴퓨터과학자",
+      "field_en": "Inventor & computer scientist",
+      "birth_year": 1925,
+      "death_year": 2013,
+      "birthplace": {
+        "lat": 45.5202471,
+        "lng": -122.674194,
+        "admin": "미국 오리건주 포틀랜드",
+        "admin_en": "Portland, Oregon, USA",
+        "source_url": "https://amturing.acm.org/award_winners/engelbart_5078811.cfm",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1925,
+          "event": "미국 오리건주 포틀랜드에서 출생",
+          "event_en": "Born in Portland, Oregon, USA",
+          "place_id": null,
+          "source_url": "https://amturing.acm.org/award_winners/engelbart_5078811.cfm",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1968,
+          "event": "'모든 데모의 어머니'에서 NLS·마우스·하이퍼텍스트 시연",
+          "event_en": "Demonstrated NLS, the mouse, and hypertext at 'The Mother of All Demos'",
+          "place_id": null,
+          "source_url": "https://amturing.acm.org/award_winners/engelbart_5078811.cfm",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1997,
+          "event": "ACM 튜링상 수상",
+          "event_en": "Received the ACM A.M. Turing Award",
+          "place_id": null,
+          "source_url": "https://amturing.acm.org/award_winners/engelbart_5078811.cfm",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 2013,
+          "event": "사망",
+          "event_en": "Died",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Douglas-Engelbart",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "alan-kay",
+      "name_ko": "앨런 케이",
+      "name_en": "Alan Kay",
+      "nation": "US",
+      "field": "컴퓨터과학자",
+      "field_en": "Computer scientist",
+      "birth_year": 1940,
+      "death_year": null,
+      "birthplace": {
+        "lat": 42.1018764,
+        "lng": -72.5886727,
+        "admin": "미국 매사추세츠주 스프링필드",
+        "admin_en": "Springfield, Massachusetts, USA",
+        "source_url": "https://amturing.acm.org/award_winners/kay_3972189.cfm",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1940,
+          "event": "미국 매사추세츠주 스프링필드에서 출생",
+          "event_en": "Born in Springfield, Massachusetts, USA",
+          "place_id": null,
+          "source_url": "https://amturing.acm.org/award_winners/kay_3972189.cfm",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1972,
+          "event": "휴대용 개인용 컴퓨터 개념 '다이나북' 제안",
+          "event_en": "Proposed the Dynabook, a portable personal computer concept",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Alan-Kay",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1972,
+          "event": "제록스 PARC에서 객체지향 언어 스몰토크 개발 팀 주도",
+          "event_en": "Led the team that developed the object-oriented language Smalltalk at Xerox PARC",
+          "place_id": null,
+          "source_url": "https://amturing.acm.org/award_winners/kay_3972189.cfm",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 2003,
+          "event": "ACM 튜링상 수상",
+          "event_en": "Received the ACM A.M. Turing Award",
+          "place_id": null,
+          "source_url": "https://amturing.acm.org/award_winners/kay_3972189.cfm",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "robert-noyce",
+      "name_ko": "로버트 노이스",
+      "name_en": "Robert Noyce",
+      "nation": "US",
+      "field": "반도체 공학자·기업가",
+      "field_en": "Semiconductor engineer & entrepreneur",
+      "birth_year": 1927,
+      "death_year": 1990,
+      "birthplace": {
+        "lat": 40.81269,
+        "lng": -91.10202,
+        "admin": "미국 아이오와주 벌링턴 (그리넬에서 성장)",
+        "admin_en": "Burlington, Iowa, USA (raised in Grinnell)",
+        "source_url": "https://www.nae.edu/188726/ROBERT-N-NOYCE-19271990",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1927,
+          "event": "미국 아이오와주 벌링턴에서 출생",
+          "event_en": "Born in Burlington, Iowa, USA",
+          "place_id": null,
+          "source_url": "https://www.nae.edu/188726/ROBERT-N-NOYCE-19271990",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1957,
+          "event": "페어차일드 반도체 공동 창업",
+          "event_en": "Co-founded Fairchild Semiconductor",
+          "place_id": null,
+          "source_url": "https://www.nae.edu/188726/ROBERT-N-NOYCE-19271990",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1959,
+          "event": "실리콘 모놀리식 집적회로(IC) 공동 발명",
+          "event_en": "Co-invented the silicon monolithic integrated circuit",
+          "place_id": null,
+          "source_url": "https://www.invent.org/inductees/robert-n-noyce",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1968,
+          "event": "고든 무어와 인텔 공동 창업",
+          "event_en": "Co-founded Intel with Gordon Moore",
+          "place_id": null,
+          "source_url": "https://www.nae.edu/188726/ROBERT-N-NOYCE-19271990",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "gordon-moore",
+      "name_ko": "고든 무어",
+      "name_en": "Gordon Moore",
+      "nation": "US",
+      "field": "반도체 화학자·기업가",
+      "field_en": "Semiconductor chemist & entrepreneur",
+      "birth_year": 1929,
+      "death_year": 2023,
+      "birthplace": {
+        "lat": 37.78794,
+        "lng": -122.40752,
+        "admin": "미국 캘리포니아주 샌프란시스코",
+        "admin_en": "San Francisco, California, USA",
+        "source_url": "https://www.intel.com/content/www/us/en/newsroom/news/gordon-moore-obituary.html",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1929,
+          "event": "미국 캘리포니아주 샌프란시스코에서 출생",
+          "event_en": "Born in San Francisco, California, USA",
+          "place_id": null,
+          "source_url": "https://www.intel.com/content/www/us/en/newsroom/news/gordon-moore-obituary.html",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1957,
+          "event": "페어차일드 반도체 공동 창업",
+          "event_en": "Co-founded Fairchild Semiconductor",
+          "place_id": null,
+          "source_url": "https://computerhistory.org/blog/in-memoriam-gordon-moore-1929-2023/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1965,
+          "event": "'무어의 법칙' 발표 (반도체 집적도 전망)",
+          "event_en": "Formulated Moore's Law on semiconductor transistor density",
+          "place_id": null,
+          "source_url": "https://www.intel.com/content/www/us/en/newsroom/news/gordon-moore-obituary.html",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1968,
+          "event": "로버트 노이스와 인텔 공동 창업",
+          "event_en": "Co-founded Intel with Robert Noyce",
+          "place_id": null,
+          "source_url": "https://www.intel.com/content/www/us/en/newsroom/news/gordon-moore-obituary.html",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 2023,
+          "event": "하와이에서 별세 (향년 94세)",
+          "event_en": "Died in Hawaii, aged 94",
+          "place_id": null,
+          "source_url": "https://www.intc.com/news-events/press-releases/detail/1611/gordon-moore-intel-co-founder-dies-at-94",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "steve-jobs",
+      "name_ko": "스티브 잡스",
+      "name_en": "Steve Jobs",
+      "nation": "US",
+      "field": "컴퓨터 기업가·애플 공동창업자",
+      "field_en": "Computer entrepreneur & Apple co-founder",
+      "birth_year": 1955,
+      "death_year": 2011,
+      "birthplace": {
+        "lat": 37.78794,
+        "lng": -122.40752,
+        "admin": "미국 캘리포니아주 샌프란시스코",
+        "admin_en": "San Francisco, California, USA",
+        "source_url": "https://www.britannica.com/money/Steve-Jobs",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1955,
+          "event": "미국 캘리포니아주 샌프란시스코에서 출생",
+          "event_en": "Born in San Francisco, California, USA",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Steve-Jobs",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1976,
+          "event": "스티브 워즈니악과 애플 공동 창업",
+          "event_en": "Co-founded Apple with Steve Wozniak",
+          "place_id": null,
+          "source_url": "https://www.invent.org/inductees/steve-jobs",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1984,
+          "event": "매킨토시 퍼스널 컴퓨터 출시",
+          "event_en": "Launched the Macintosh personal computer",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Steve-Jobs",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2007,
+          "event": "아이폰 출시",
+          "event_en": "Launched the iPhone",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Steve-Jobs",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2011,
+          "event": "캘리포니아에서 별세 (향년 56세)",
+          "event_en": "Died in California, aged 56",
+          "place_id": null,
+          "source_url": "https://www.cnn.com/2011/10/05/us/obit-steve-jobs",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "steve-wozniak",
+      "name_ko": "스티브 워즈니악",
+      "name_en": "Steve Wozniak",
+      "nation": "US",
+      "field": "컴퓨터 엔지니어·발명가",
+      "field_en": "Computer engineer & inventor",
+      "birth_year": 1950,
+      "death_year": null,
+      "birthplace": {
+        "lat": 37.3361663,
+        "lng": -121.890591,
+        "admin": "미국 캘리포니아주 새너제이",
+        "admin_en": "San Jose, California, USA",
+        "source_url": "https://www.britannica.com/biography/Stephen-Gary-Wozniak",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1950,
+          "event": "미국 캘리포니아주 새너제이에서 출생",
+          "event_en": "Born in San Jose, California, USA",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Stephen-Gary-Wozniak",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1976,
+          "event": "스티브 잡스와 애플 컴퓨터를 공동 창업하고 Apple I을 설계",
+          "event_en": "Co-founded Apple Computer with Steve Jobs and designed the Apple I",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Stephen-Gary-Wozniak",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1977,
+          "event": "Apple II를 설계, 상업적으로 성공한 최초의 개인용 컴퓨터로 출시",
+          "event_en": "Designed the Apple II, the first commercially successful personal computer",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Stephen-Gary-Wozniak",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1985,
+          "event": "애플에서 은퇴",
+          "event_en": "Retired from Apple",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Stephen-Gary-Wozniak",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "bill-gates",
+      "name_ko": "빌 게이츠",
+      "name_en": "Bill Gates",
+      "nation": "US",
+      "field": "소프트웨어 기업가",
+      "field_en": "Software entrepreneur",
+      "birth_year": 1955,
+      "death_year": null,
+      "birthplace": {
+        "lat": 47.6038321,
+        "lng": -122.330062,
+        "admin": "미국 워싱턴주 시애틀",
+        "admin_en": "Seattle, Washington, USA",
+        "source_url": "https://www.britannica.com/money/Bill-Gates",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1955,
+          "event": "미국 워싱턴주 시애틀에서 출생",
+          "event_en": "Born in Seattle, Washington, USA",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Bill-Gates",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1975,
+          "event": "폴 앨런과 마이크로소프트를 공동 창업",
+          "event_en": "Co-founded Microsoft with Paul Allen",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Bill-Gates",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1985,
+          "event": "마이크로소프트가 윈도우 운영체제를 출시",
+          "event_en": "Microsoft released the Windows operating system",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Bill-Gates",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2000,
+          "event": "빌 앤드 멜린다 게이츠 재단을 설립",
+          "event_en": "Established the Bill & Melinda Gates Foundation",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Bill-Gates",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "jeff-bezos",
+      "name_ko": "제프 베이조스",
+      "name_en": "Jeff Bezos",
+      "nation": "US",
+      "field": "전자상거래·컴퓨팅 기업가",
+      "field_en": "E-commerce & computing entrepreneur",
+      "birth_year": 1964,
+      "death_year": null,
+      "birthplace": {
+        "lat": 35.0841034,
+        "lng": -106.650985,
+        "admin": "미국 뉴멕시코주 앨버커키",
+        "admin_en": "Albuquerque, New Mexico, USA",
+        "source_url": "https://www.britannica.com/money/Jeff-Bezos",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1964,
+          "event": "미국 뉴멕시코주 앨버커키에서 출생",
+          "event_en": "Born in Albuquerque, New Mexico, USA",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Jeff-Bezos",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1994,
+          "event": "온라인 서점 아마존(Amazon.com)을 창업",
+          "event_en": "Founded the online retailer Amazon.com",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Jeff-Bezos",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2000,
+          "event": "우주항공 기업 블루 오리진을 설립",
+          "event_en": "Founded the aerospace company Blue Origin",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Jeff-Bezos",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2021,
+          "event": "아마존 최고경영자(CEO)직에서 물러나 이사회 의장으로 전환",
+          "event_en": "Stepped down as Amazon CEO, becoming executive chairman",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Jeff-Bezos",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "larry-page",
+      "name_ko": "래리 페이지",
+      "name_en": "Larry Page",
+      "nation": "US",
+      "field": "컴퓨터 과학자·구글 공동창업자",
+      "field_en": "Computer scientist & Google co-founder",
+      "birth_year": 1973,
+      "death_year": null,
+      "birthplace": {
+        "lat": 42.7338254,
+        "lng": -84.5546295,
+        "admin": "미국 미시간주 랜싱",
+        "admin_en": "Lansing, Michigan, USA",
+        "source_url": "https://www.britannica.com/money/Larry-Page",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1973,
+          "event": "미국 미시간주 랜싱에서 출생",
+          "event_en": "Born in Lansing, Michigan, USA",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Larry-Page",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1998,
+          "event": "세르게이 브린과 구글 공동창업",
+          "event_en": "Co-founded Google with Sergey Brin",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Larry-Page",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2015,
+          "event": "구글 모회사 알파벳 설립과 함께 CEO 취임",
+          "event_en": "Became CEO of newly formed Google parent Alphabet Inc.",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Larry-Page",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "jensen-huang",
+      "name_ko": "젠슨 황",
+      "name_en": "Jensen Huang",
+      "nation": "TW",
+      "field": "반도체·컴퓨팅 기업가",
+      "field_en": "Semiconductor & computing entrepreneur",
+      "birth_year": 1963,
+      "death_year": null,
+      "birthplace": {
+        "lat": 22.9912348,
+        "lng": 120.184982,
+        "admin": "대만 타이난",
+        "admin_en": "Tainan, Taiwan",
+        "source_url": "https://nvidianews.nvidia.com/bios/jensen-huang",
+        "source_grade": "A",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1963,
+          "event": "대만 타이난에서 출생",
+          "event_en": "Born in Tainan, Taiwan",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Jensen-Huang",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1993,
+          "event": "크리스 말라초스키, 커티스 프림과 엔비디아 공동창업",
+          "event_en": "Co-founded NVIDIA with Chris Malachowsky and Curtis Priem",
+          "place_id": null,
+          "source_url": "https://nvidianews.nvidia.com/bios/jensen-huang",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1999,
+          "event": "엔비디아 나스닥(NVDA) 상장",
+          "event_en": "NVIDIA went public on NASDAQ (NVDA)",
+          "place_id": null,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000089843099000180/0000898430-99-000180.txt",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "elon-musk",
+      "name_ko": "일론 머스크",
+      "name_en": "Elon Musk",
+      "nation": "ZA",
+      "field": "전기차·우주·소프트웨어 기업가",
+      "field_en": "EV, space & software entrepreneur",
+      "birth_year": 1971,
+      "death_year": null,
+      "birthplace": {
+        "lat": -25.7459277,
+        "lng": 28.1879101,
+        "admin": "남아프리카공화국 프리토리아",
+        "admin_en": "Pretoria, South Africa",
+        "source_url": "https://www.britannica.com/money/Elon-Musk",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1971,
+          "event": "남아프리카공화국 프리토리아에서 출생",
+          "event_en": "Born in Pretoria, South Africa",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Elon-Musk",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1995,
+          "event": "소프트웨어 회사 Zip2 창업",
+          "event_en": "Founded software company Zip2",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Elon-Musk",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2002,
+          "event": "스페이스X 창업 및 CEO·수석엔지니어 취임",
+          "event_en": "Founded SpaceX, becoming CEO and chief engineer",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Elon-Musk",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2008,
+          "event": "테슬라 CEO 겸 제품 총괄 취임",
+          "event_en": "Became CEO and product architect of Tesla",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Elon-Musk",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2016,
+          "event": "뉴럴링크 공동창업",
+          "event_en": "Co-founded Neuralink",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Elon-Musk",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "geoffrey-hinton",
+      "name_ko": "제프리 힌턴",
+      "name_en": "Geoffrey Hinton",
+      "nation": "GB",
+      "field": "인공지능 연구자·컴퓨터과학자",
+      "field_en": "AI researcher & computer scientist",
+      "birth_year": 1947,
+      "death_year": null,
+      "birthplace": {
+        "lat": 51.4214787,
+        "lng": -0.2064027,
+        "admin": "영국 런던(윔블던)",
+        "admin_en": "London (Wimbledon), UK",
+        "source_url": "https://www.britannica.com/biography/Geoffrey-Hinton",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1947,
+          "event": "영국 런던 윔블던에서 출생",
+          "event_en": "Born in Wimbledon, London, UK",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Geoffrey-Hinton",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2012,
+          "event": "딥러닝 신경망(AlexNet)으로 이미지 인식 정확도 획기적 향상",
+          "event_en": "Deep-learning network (AlexNet) sharply advanced image recognition",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Geoffrey-Hinton",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2018,
+          "event": "딥러닝 기여로 ACM 튜링상 공동 수상(벤지오·르쿤과)",
+          "event_en": "Shared ACM A.M. Turing Award for deep learning (with Bengio and LeCun)",
+          "place_id": null,
+          "source_url": "https://amturing.acm.org/award_winners/hinton_4791679.cfm",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 2024,
+          "event": "인공 신경망 기계학습 기여로 노벨 물리학상 공동 수상",
+          "event_en": "Awarded Nobel Prize in Physics for machine learning with artificial neural networks",
+          "place_id": null,
+          "source_url": "https://www.nobelprize.org/prizes/physics/2024/hinton/facts/",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "sam-altman",
+      "name_ko": "샘 올트먼",
+      "name_en": "Sam Altman",
+      "nation": "US",
+      "field": "인공지능 기업가·OpenAI CEO",
+      "field_en": "AI entrepreneur & OpenAI CEO",
+      "birth_year": 1985,
+      "death_year": null,
+      "birthplace": {
+        "lat": 41.8755616,
+        "lng": -87.6244212,
+        "admin": "미국 일리노이주 시카고",
+        "admin_en": "Chicago, Illinois, USA",
+        "source_url": "https://www.britannica.com/money/Sam-Altman",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1985,
+          "event": "미국 일리노이주 시카고에서 출생",
+          "event_en": "Born in Chicago, Illinois, USA",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Sam-Altman",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2015,
+          "event": "OpenAI 공동 창립",
+          "event_en": "Co-founded OpenAI",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Sam-Altman",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2019,
+          "event": "OpenAI 최고경영자(CEO) 취임",
+          "event_en": "Became CEO of OpenAI",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Sam-Altman",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2022,
+          "event": "ChatGPT 출시 총괄",
+          "event_en": "Oversaw the launch of ChatGPT",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/money/Sam-Altman",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "demis-hassabis",
+      "name_ko": "데미스 허사비스",
+      "name_en": "Demis Hassabis",
+      "nation": "GB",
+      "field": "인공지능 연구자·DeepMind CEO",
+      "field_en": "AI researcher & DeepMind CEO",
+      "birth_year": 1976,
+      "death_year": null,
+      "birthplace": {
+        "lat": 51.5074456,
+        "lng": -0.1277653,
+        "admin": "영국 런던",
+        "admin_en": "London, UK",
+        "source_url": "https://www.britannica.com/biography/Demis-Hassabis",
+        "source_grade": "B",
+        "flags": []
+      },
+      "timeline": [
+        {
+          "year": 1976,
+          "event": "영국 런던에서 출생",
+          "event_en": "Born in London, UK",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Demis-Hassabis",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2010,
+          "event": "인공지능 기업 DeepMind 공동 창립",
+          "event_en": "Co-founded the AI company DeepMind",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Demis-Hassabis",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2016,
+          "event": "AlphaGo가 바둑 기사 이세돌에게 승리",
+          "event_en": "AlphaGo defeated Go champion Lee Sedol",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Demis-Hassabis",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2020,
+          "event": "AlphaFold로 단백질 구조 예측 난제 해결",
+          "event_en": "AlphaFold solved the protein-structure prediction problem",
+          "place_id": null,
+          "source_url": "https://deepmind.google/blog/demis-hassabis-john-jumper-awarded-nobel-prize-in-chemistry/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 2024,
+          "event": "AlphaFold 단백질 구조 예측 기여로 노벨 화학상 공동 수상",
+          "event_en": "Shared Nobel Prize in Chemistry for AlphaFold protein-structure prediction",
+          "place_id": null,
+          "source_url": "https://deepmind.google/blog/demis-hassabis-john-jumper-awarded-nobel-prize-in-chemistry/",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
     }
   ]
 }

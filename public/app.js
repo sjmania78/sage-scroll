@@ -55,6 +55,7 @@ const TRUST_FLAGS = {
 
 const PERSON_CATS = [
   { key: "thought", ko: "사상·학문", en: "Thinkers" },
+  { key: "tech", ko: "기술·컴퓨팅", en: "Technology" },
   { key: "poet", ko: "시인", en: "Poets" },
   { key: "prose", ko: "소설·극", en: "Fiction & Drama" },
   { key: "art", ko: "예술", en: "Arts" },
@@ -62,6 +63,8 @@ const PERSON_CATS = [
 ];
 function categoryOf(field) {
   const f = field || "";
+  // 기술·컴퓨팅 — 컴퓨팅 특화 용어만(발명가/공학 단독은 제외해 다빈치 등 오분류 방지)
+  if (/컴퓨터|반도체|소프트웨어|인공지능|컴퓨팅|전산|로보틱스|프로그래|마이크로프로세서|월드와이드웹|GPU/.test(f)) return "tech";
   const lead = f.split(/[·,(]/)[0]; // 첫(주된) 역할로 판정
   if (/국왕|군주|무신|장군|왕|대통령|정치|혁명|민족운동|반아파르트헤이트|독립운동/.test(lead)) return "icon";
   if (/작곡|음악|피아니스트|화가|미술|조각|서예|금석/.test(lead)) return "art";
@@ -238,7 +241,7 @@ const REGIONS = [
   { key: "oceania", ko: "오세아니아", en: "Oceania" },
 ];
 const NATION_REGION = {
-  KR: "korea", CN: "eastasia", JP: "eastasia",
+  KR: "korea", CN: "eastasia", JP: "eastasia", TW: "eastasia",
   GR: "europe", GB: "europe", DE: "europe", IT: "europe", RU: "europe", FR: "europe", ES: "europe", NL: "europe", IE: "europe", AT: "europe", PL: "europe", CZ: "europe", NO: "europe", DK: "europe", SE: "europe", PT: "europe", HU: "europe", FI: "europe", CH: "europe", BE: "europe", UA: "europe",
   TR: "westasia", IR: "westasia", LB: "westasia", UZ: "westasia",
   IN: "southasia", PK: "southasia", VN: "southasia", ID: "southasia", PH: "southasia", TH: "southasia",
