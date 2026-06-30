@@ -33,6 +33,7 @@ let currentPerson = null;
 let allPeople = [];
 let activeRegion = "all";
 let activeEra = "all";
+let activeField = "all";
 let allBounds = [];
 let routeLayer = null;
 
@@ -54,16 +55,25 @@ const TRUST_FLAGS = {
 
 const PERSON_CATS = [
   { key: "thought", ko: "사상·학문", en: "Thinkers" },
-  { key: "letters", ko: "시인·문인", en: "Poets & Writers" },
-  { key: "art", ko: "화가·예술", en: "Artists" },
+  { key: "poet", ko: "시인", en: "Poets" },
+  { key: "prose", ko: "소설·극", en: "Fiction & Drama" },
+  { key: "art", ko: "예술", en: "Arts" },
   { key: "icon", ko: "국민 위인", en: "National Figures" },
 ];
 function categoryOf(field) {
   const f = field || "";
-  if (/국왕|군주|무신|장군|왕$/.test(f)) return "icon";
-  if (/실학|철학|성리|유학|사학|사상/.test(f)) return "thought";
-  if (/화가|미술|조각|서예/.test(f)) return "art";
-  return "letters";
+  const lead = f.split(/[·,(]/)[0]; // 첫(주된) 역할로 판정
+  if (/국왕|군주|무신|장군|왕|대통령|정치|민족운동|반아파르트헤이트|독립운동/.test(lead)) return "icon";
+  if (/작곡|음악|피아니스트|화가|미술|조각|서예|금석/.test(lead)) return "art";
+  if (/실학|철학|성리|유학|사학|사상|학자|법학|박물|과학|여행가|탐험/.test(lead)) return "thought";
+  if (/소설|극작|동화|수필/.test(lead)) return "prose";
+  if (/시인|시조시인|하이쿠/.test(lead)) return "poet";
+  // 선두가 '작가' 등 모호하면 전체 문자열로 보조 판정
+  if (/소설|극작|동화|수필|작가/.test(f)) return "prose";
+  if (/시인/.test(f)) return "poet";
+  if (/화가|서예|미술|작곡/.test(f)) return "art";
+  if (/철학|사상|학자/.test(f)) return "thought";
+  return "prose";
 }
 
 function fmtYear(y) {
@@ -298,20 +308,44 @@ function selectEra(key, fly = true) {
   refreshList(fly);
 }
 
-// 지역·시대 두 축을 AND로 교차 필터링
+function buildFieldTabs(container) {
+  if (!container) return;
+  container.innerHTML = "";
+  const cats = [{ key: "all", ko: "전체 분야", en: "All fields" }, ...PERSON_CATS];
+  cats.forEach((c) => {
+    const count = c.key === "all" ? allPeople.length : allPeople.filter((p) => categoryOf(p.field) === c.key).length;
+    if (c.key !== "all" && count === 0) return;
+    const b = document.createElement("button");
+    b.dataset.field = c.key;
+    if (c.key === activeField) b.classList.add("on");
+    b.innerHTML = `${t(c.ko, c.en)}<span class="rt-count">${count}</span>`;
+    b.addEventListener("click", () => selectField(c.key));
+    container.appendChild(b);
+  });
+}
+
+function selectField(key, fly = true) {
+  activeField = key;
+  document.querySelectorAll("#field-tabs button").forEach((b) => b.classList.toggle("on", b.dataset.field === key));
+  refreshList(fly);
+}
+
+// 지역·시대·분야 세 축을 AND로 교차 필터링
 function refreshList(fly = true) {
   const list = document.getElementById("person-list");
   if (!list) return;
   const people = allPeople.filter(
-    (p) => (activeRegion === "all" || regionOf(p) === activeRegion) && (activeEra === "all" || eraOf(p) === activeEra)
+    (p) => (activeRegion === "all" || regionOf(p) === activeRegion) &&
+           (activeEra === "all" || eraOf(p) === activeEra) &&
+           (activeField === "all" || categoryOf(p.field) === activeField)
   );
-  if (activeRegion === "all" && activeEra === "all") {
-    list.innerHTML = `<div class="region-hint">${t("지역·시대 탭으로 좁히거나, 지도의 핀·이름을 선택하세요.", "Narrow by region or era, or select a pin or a name on the map.")}</div>`;
+  if (activeRegion === "all" && activeEra === "all" && activeField === "all") {
+    list.innerHTML = `<div class="region-hint">${t("지역·시대·분야 탭으로 좁히거나, 지도의 핀·이름을 선택하세요.", "Narrow by region, era, or field, or select a pin or a name on the map.")}</div>`;
     if (fly && allBounds.length) map.fitBounds(allBounds, { padding: [40, 40], maxZoom: 12, animate: true });
     return;
   }
   if (!people.length) {
-    list.innerHTML = `<div class="region-hint">${t("해당하는 인물이 없습니다.", "No figures match this region and era.")}</div>`;
+    list.innerHTML = `<div class="region-hint">${t("해당하는 인물이 없습니다.", "No figures match these filters.")}</div>`;
     return;
   }
   buildPersonIndex(people, list);
@@ -354,6 +388,7 @@ function setLang(lang) {
   updateStats(allPeople, statCache.placeCount, statCache.verifiedCount);
   buildRegionTabs(document.getElementById("region-tabs"));
   buildEraTabs(document.getElementById("era-tabs"));
+  buildFieldTabs(document.getElementById("field-tabs"));
   refreshList(false);
   if (currentPerson) renderPerson(currentPerson, false);
 }
@@ -397,6 +432,7 @@ async function init() {
   updateStats(people, placeCount, verifiedCount);
   buildRegionTabs(document.getElementById("region-tabs"));
   buildEraTabs(document.getElementById("era-tabs"));
+  buildFieldTabs(document.getElementById("field-tabs"));
   refreshList(false);
   if (bounds.length) map.fitBounds(bounds, { padding: [50, 50], maxZoom: 12 });
 
