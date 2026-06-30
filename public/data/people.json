@@ -6439,6 +6439,3124 @@
       "flags": [
         "wiki-only"
       ]
+    },
+    {
+      "id": "victor-hugo",
+      "name_ko": "빅토르 위고",
+      "name_en": "Victor Hugo",
+      "field": "시인·소설가·극작가",
+      "field_en": "Poet, Novelist, Dramatist",
+      "birth_year": 1802,
+      "death_year": 1885,
+      "nation": "FR",
+      "birthplace": {
+        "admin": "프랑스 브장송",
+        "admin_en": "Besançon, France",
+        "source_url": "https://www.britannica.com/biography/Victor-Hugo",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1831,
+          "event": "소설 『노트르담 드 파리』 출간",
+          "event_en": "Published the novel Notre-Dame de Paris",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Victor-Hugo",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1841,
+          "event": "세 번의 낙선 끝에 아카데미 프랑세즈 회원으로 선출됨",
+          "event_en": "Elected to the Académie française after three failed attempts",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Victor_Hugo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1851,
+          "event": "루이나폴레옹의 쿠데타에 반대해 망명길에 오름",
+          "event_en": "Went into exile opposing Louis-Napoléon's coup d'état",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Victor-Hugo",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1855,
+          "event": "건지섬으로 이주해 오트빌 하우스에 정착함",
+          "event_en": "Moved to Guernsey and settled at Hauteville House",
+          "place_id": "hauteville-house",
+          "source_url": "https://en.wikipedia.org/wiki/Victor_Hugo",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1862,
+          "event": "소설 『레 미제라블』 출간",
+          "event_en": "Published the novel Les Misérables",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Victor-Hugo",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1870,
+          "event": "제2제정 붕괴 후 프랑스로 귀국함",
+          "event_en": "Returned to France after the fall of the Second Empire",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Victor-Hugo",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1885,
+          "event": "파리에서 사망, 팡테옹에 국장으로 안장됨",
+          "event_en": "Died in Paris and was given a state funeral with burial in the Panthéon",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Victor-Hugo",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "hauteville-house",
+          "name": "오트빌 하우스(건지섬)",
+          "name_en": "Hauteville House, Guernsey",
+          "geocode_query": "Hauteville House Saint Peter Port Guernsey",
+          "type": "망명 시절 거주지(현 박물관)",
+          "type_en": "Exile residence (now a museum)",
+          "source_url": "https://en.wikipedia.org/wiki/Victor_Hugo",
+          "source_grade": "C",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 49.451296,
+          "lng": -2.5376571
+        }
+      ],
+      "works": [
+        {
+          "title": "레 미제라블",
+          "title_en": "Les Misérables",
+          "note": "1862년 출간된 대하소설로, 건지섬 망명 시절에 완성되었다",
+          "note_en": "An epic novel published in 1862, completed during his exile on Guernsey",
+          "quote": "Aimer, c'est agir.",
+          "quote_ko": "사랑한다는 것은 행동하는 것이다.",
+          "quote_en": "To love is to act.",
+          "quote_source": "Victor Hugo, Journal, 1885 (last written words)",
+          "source_url": "https://en.wikiquote.org/wiki/Victor_Hugo",
+          "source_grade": "C",
+          "flags": []
+        },
+        {
+          "title": "노트르담 드 파리",
+          "title_en": "Notre-Dame de Paris",
+          "note": "1831년 출간된 소설로 영어권에서 『노트르담의 꼽추』로도 알려져 있다",
+          "note_en": "A novel published in 1831, also known in English as The Hunchback of Notre-Dame",
+          "source_url": "https://www.britannica.com/biography/Victor-Hugo",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "cervantes",
+      "name_ko": "미겔 데 세르반테스",
+      "name_en": "Miguel de Cervantes",
+      "field": "소설가·극작가·시인",
+      "field_en": "Novelist, playwright, and poet",
+      "birth_year": 1547,
+      "death_year": 1616,
+      "nation": "ES",
+      "birthplace": {
+        "admin": "스페인 알칼라데에나레스",
+        "admin_en": "Alcalá de Henares, Spain",
+        "source_url": "https://www.britannica.com/biography/Miguel-de-Cervantes",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1547,
+          "event": "스페인 알칼라데에나레스에서 태어남(10월 9일 세례 기록)",
+          "event_en": "Born in Alcalá de Henares, Spain (baptized 9 October)",
+          "place_id": "casa-natal-cervantes",
+          "source_url": "https://www.britannica.com/biography/Miguel-de-Cervantes",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1571,
+          "event": "레판토 해전에 참전해 부상으로 왼손을 쓰지 못하게 되어 '레판토의 외팔이'로 불림",
+          "event_en": "Fought at the Battle of Lepanto, where wounds left his left hand useless, earning the nickname 'el manco de Lepanto'",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1575,
+          "event": "나폴리에서 귀국 중 오스만 해적에게 붙잡혀 알제로 끌려가 노예로 억류됨",
+          "event_en": "Captured by Ottoman corsairs while returning from Naples and held captive as a slave in Algiers",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1580,
+          "event": "5년간의 알제 억류 끝에 삼위일체 수도회의 몸값 지불로 풀려나 마드리드로 돌아옴",
+          "event_en": "After five years of captivity in Algiers, freed by the Trinitarian order's ransom and returned to Madrid",
+          "place_id": null,
+          "source_url": "https://www.classicspanishbooks.com/16th-cent-baroque-cervantes-life.html",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1605,
+          "event": "『돈키호테』 1부를 출간함",
+          "event_en": "Published Part One of Don Quixote",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Miguel-de-Cervantes",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1615,
+          "event": "『돈키호테』 2부를 출간함",
+          "event_en": "Published Part Two of Don Quixote",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Miguel-de-Cervantes",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1616,
+          "event": "마드리드에서 사망함",
+          "event_en": "Died in Madrid",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Miguel-de-Cervantes",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "casa-natal-cervantes",
+          "name": "세르반테스 생가 박물관",
+          "name_en": "Museo Casa Natal de Cervantes",
+          "geocode_query": "Museo Casa Natal de Cervantes Alcala de Henares",
+          "type": "생가 박물관",
+          "type_en": "Birthplace house museum",
+          "source_url": "https://museocasanataldecervantes.org/home-english/",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 40.4822904,
+          "lng": -3.3671183
+        }
+      ],
+      "works": [
+        {
+          "title": "돈키호테",
+          "title_en": "Don Quixote",
+          "note": "1605년 1부, 1615년 2부가 출간된 세르반테스의 대표작",
+          "note_en": "Cervantes's major work, with Part One published in 1605 and Part Two in 1615",
+          "quote": "En un lugar de la Mancha, de cuyo nombre no quiero acordarme...",
+          "quote_ko": "라만차의 어느 마을, 그 이름은 굳이 기억하고 싶지 않은 그곳에...",
+          "quote_en": "In a village of La Mancha, the name of which I have no desire to call to mind...",
+          "quote_source": "Don Quixote, Part 1, opening line",
+          "source_url": "https://www.britannica.com/biography/Miguel-de-Cervantes",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "van-gogh",
+      "name_ko": "빈센트 반 고흐",
+      "name_en": "Vincent van Gogh",
+      "field": "화가",
+      "field_en": "Painter",
+      "birth_year": 1853,
+      "death_year": 1890,
+      "nation": "NL",
+      "birthplace": {
+        "admin": "네덜란드 북브라반트 쥔더르트",
+        "admin_en": "Zundert, North Brabant, Netherlands",
+        "source_url": "https://www.britannica.com/biography/Vincent-van-Gogh",
+        "source_grade": "B",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1853,
+          "event": "3월 30일 네덜란드 쥔더르트에서 개신교 목사의 아들로 태어났다",
+          "event_en": "Born on 30 March in Zundert, Netherlands, son of a Protestant minister",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Vincent-van-Gogh",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1880,
+          "event": "27세에 화가가 되기로 결심하고 본격적으로 미술에 입문했다",
+          "event_en": "Decided to become an artist at age 27 and began his career in art",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Vincent-van-Gogh",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1885,
+          "event": "누에넌에서 첫 대표작 '감자 먹는 사람들'을 그렸다",
+          "event_en": "Painted his first major work, The Potato Eaters, in Nuenen",
+          "place_id": null,
+          "source_url": "https://www.vangoghmuseum.nl/en/art-and-stories/stories/all-stories/6-facts-you-need-to-know-about-van-goghs-potato-eaters",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1886,
+          "event": "파리로 이주해 인상주의 화가들과 교류하며 화풍이 밝아졌다",
+          "event_en": "Moved to Paris, where he encountered the Impressionists and his palette brightened",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Vincent-van-Gogh",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1888,
+          "event": "프랑스 남부 아를로 이주했으며, 12월 정신적 위기 속에서 자신의 귀 일부를 잘랐다",
+          "event_en": "Moved to Arles in southern France; in December, during a mental crisis, he cut off part of his ear",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Vincent-van-Gogh",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1889,
+          "event": "생레미의 요양원에 입원했고, 6월에 '별이 빛나는 밤'을 그렸다",
+          "event_en": "Entered the Saint-Paul-de-Mausole asylum at Saint-Rémy and painted The Starry Night in June",
+          "place_id": null,
+          "source_url": "https://www.moma.org/collection/works/79802",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1890,
+          "event": "7월 29일 파리 근교 오베르쉬르우아즈에서 37세로 사망했다",
+          "event_en": "Died on 29 July at Auvers-sur-Oise near Paris, aged 37",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Vincent-van-Gogh",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "van-gogh-museum-amsterdam",
+          "name": "반 고흐 미술관(암스테르담)",
+          "name_en": "Van Gogh Museum, Amsterdam",
+          "geocode_query": "Van Gogh Museum Amsterdam",
+          "type": "미술관",
+          "type_en": "Art museum",
+          "source_url": "https://www.vangoghmuseum.nl/en/about/organisation/the-building",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 52.3583673,
+          "lng": 4.88109
+        }
+      ],
+      "works": [
+        {
+          "title": "별이 빛나는 밤",
+          "title_en": "The Starry Night",
+          "note": "1889년 6월 생레미 요양원 창밖 풍경에서 영감을 받아 그렸으며, 현재 뉴욕 현대미술관(MoMA)이 소장하고 있다",
+          "note_en": "Painted in June 1889, inspired by the view from his asylum window at Saint-Rémy; now held by MoMA, New York",
+          "quote": "But the sight of the stars always makes me dream.",
+          "quote_ko": "하지만 별을 바라보면 나는 언제나 꿈을 꾸게 된다.",
+          "quote_en": "",
+          "quote_source": "Vincent van Gogh, Letter to Theo (1888)",
+          "source_url": "https://vangoghletters.org/vg/letters/let638/letter.html",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "감자 먹는 사람들",
+          "title_en": "The Potato Eaters",
+          "note": "1885년 누에넌에서 그렸으며, 반 고흐 자신이 첫 '대표작'으로 여긴 작품으로 현재 반 고흐 미술관이 소장하고 있다",
+          "note_en": "Painted in 1885 in Nuenen; Van Gogh regarded it as his first 'masterwork'; now held by the Van Gogh Museum",
+          "source_url": "https://www.vangoghmuseum.nl/en/art-and-stories/stories/all-stories/6-facts-you-need-to-know-about-van-goghs-potato-eaters",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "james-joyce",
+      "name_ko": "제임스 조이스",
+      "name_en": "James Joyce",
+      "field": "소설가",
+      "field_en": "Novelist",
+      "birth_year": 1882,
+      "death_year": 1941,
+      "nation": "IE",
+      "birthplace": {
+        "admin": "아일랜드 더블린 래스가",
+        "admin_en": "Rathgar, Dublin, Ireland",
+        "source_url": "https://jamesjoyce.ie/james-joyce/",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1882,
+          "event": "더블린 래스가 브라이턴 스퀘어 41번지에서 2월 2일 출생",
+          "event_en": "Born on 2 February at 41 Brighton Square, Rathgar, Dublin",
+          "place_id": "dublin",
+          "source_url": "https://jamesjoyce.ie/james-joyce/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1904,
+          "event": "노라 바너클과 함께 10월에 더블린을 떠나 대륙으로 자발적 망명",
+          "event_en": "Left Dublin in October with Nora Barnacle for self-imposed exile on the Continent",
+          "place_id": "dublin",
+          "source_url": "https://en.wikipedia.org/wiki/James_Joyce",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1905,
+          "event": "트리에스테에 정착",
+          "event_en": "Settled in Trieste",
+          "place_id": null,
+          "source_url": "https://jamesjoyce.ie/james-joyce/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1914,
+          "event": "단편집 《더블린 사람들》 6월 15일 출간",
+          "event_en": "Short-story collection Dubliners published on 15 June",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/James_Joyce",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1916,
+          "event": "《젊은 예술가의 초상》 출간",
+          "event_en": "A Portrait of the Artist as a Young Man published",
+          "place_id": null,
+          "source_url": "https://jamesjoyce.ie/james-joyce/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1922,
+          "event": "파리에서 《율리시스》 출간",
+          "event_en": "Ulysses published in Paris",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/James_Joyce",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1941,
+          "event": "1월 13일 취리히에서 사망",
+          "event_en": "Died on 13 January in Zurich",
+          "place_id": null,
+          "source_url": "https://jamesjoyce.ie/james-joyce/",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "dublin",
+          "name": "더블린",
+          "name_en": "Dublin",
+          "geocode_query": "Dublin Ireland",
+          "type": "출생 도시이자 작품의 배경",
+          "type_en": "Birth city and the setting of his major works",
+          "source_url": "https://jamesjoyce.ie/james-joyce/",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 53.3493795,
+          "lng": -6.2605593
+        }
+      ],
+      "works": [
+        {
+          "title": "율리시스",
+          "title_en": "Ulysses",
+          "note": "1904년 6월 16일 더블린에서 하루 동안 일어나는 일을 다룬 장편소설로, 이 날은 '블룸스데이'로 기념된다",
+          "note_en": "A novel chronicling a single day in Dublin, 16 June 1904, now commemorated as Bloomsday",
+          "quote": "Stately, plump Buck Mulligan came from the stairhead, bearing a bowl of lather...",
+          "quote_ko": "위풍당당하고 통통한 벅 멀리건이 비누 거품 그릇을 받쳐 들고 계단 꼭대기에서 걸어 나왔다...",
+          "quote_en": "",
+          "quote_source": "James Joyce, Ulysses (1922), opening line",
+          "source_url": "https://en.wikiquote.org/wiki/Ulysses_(novel)",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "더블린 사람들",
+          "title_en": "Dubliners",
+          "note": "더블린 중산층의 삶을 그린 15편의 단편 모음집으로 1914년 출간되었다",
+          "note_en": "A collection of 15 short stories depicting Dublin middle-class life, published in 1914",
+          "source_url": "https://en.wikipedia.org/wiki/James_Joyce",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "mozart",
+      "name_ko": "볼프강 아마데우스 모차르트",
+      "name_en": "Wolfgang Amadeus Mozart",
+      "field": "작곡가",
+      "field_en": "Composer",
+      "birth_year": 1756,
+      "death_year": 1791,
+      "nation": "AT",
+      "birthplace": {
+        "admin": "오스트리아 잘츠부르크",
+        "admin_en": "Salzburg, Austria",
+        "source_url": "https://mozarteum.at/en/mozart-museums/mozarts-birthplace",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1756,
+          "event": "1월 27일 잘츠부르크 게트라이데가세 9번지에서 출생",
+          "event_en": "Born on 27 January at Getreidegasse 9 in Salzburg",
+          "place_id": "mozart-birthplace",
+          "source_url": "https://mozarteum.at/en/mozart-museums/mozarts-birthplace",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1762,
+          "event": "아버지 레오폴트와 함께 신동으로 유럽 순회 연주 시작",
+          "event_en": "Began European concert tours with his father Leopold as a child prodigy",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1781,
+          "event": "잘츠부르크 궁정직에서 떠나 빈에 정착하여 자유 음악가로 활동",
+          "event_en": "Settled in Vienna as a freelance composer after leaving his Salzburg court post",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1782,
+          "event": "8월 빈 슈테판 대성당에서 콘스탄체 베버와 결혼",
+          "event_en": "Married Constanze Weber at St. Stephen's Cathedral in Vienna in August",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1786,
+          "event": "오페라 '피가로의 결혼' 빈 초연",
+          "event_en": "Opera 'The Marriage of Figaro' premiered in Vienna",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1791,
+          "event": "9월 오페라 '마술피리' 빈 초연; 12월 5일 빈에서 사망(레퀴엠 미완)",
+          "event_en": "Opera 'The Magic Flute' premiered in Vienna in September; died in Vienna on 5 December with the Requiem unfinished",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/The_Magic_Flute",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "mozart-birthplace",
+          "name": "모차르트 생가(잘츠부르크)",
+          "name_en": "Mozart's Birthplace, Salzburg",
+          "geocode_query": "Mozarts Geburtshaus Getreidegasse 9 Salzburg",
+          "type": "생가 박물관",
+          "type_en": "Birthplace museum",
+          "source_url": "https://mozarteum.at/en/mozart-museums/mozarts-birthplace",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 47.799943,
+          "lng": 13.0435536
+        }
+      ],
+      "works": [
+        {
+          "title": "마술피리",
+          "title_en": "The Magic Flute",
+          "note": "에마누엘 시카네더 대본의 독일어 징슈필로 1791년 9월 빈에서 초연(K. 620)",
+          "note_en": "German Singspiel with a libretto by Emanuel Schikaneder, premiered September 1791 in Vienna (K. 620)",
+          "quote": "I have this moment returned from the opera, which was as full as ever.",
+          "quote_ko": "방금 오페라 공연에서 돌아왔소. 객석은 여느 때처럼 가득 찼더군.",
+          "quote_en": "",
+          "quote_source": "Letter from Mozart to Constanze, 7 October 1791",
+          "source_url": "https://en.wikipedia.org/wiki/The_Magic_Flute",
+          "source_grade": "C",
+          "flags": []
+        },
+        {
+          "title": "레퀴엠",
+          "title_en": "Requiem",
+          "note": "미완성 라단조 진혼곡(K. 626)으로, 1791년 모차르트 사망 시점에 미완으로 남아 제자 쥐스마이어가 완성",
+          "note_en": "Unfinished Requiem in D minor (K. 626), left incomplete at his death in 1791 and completed by his pupil Süssmayr",
+          "source_url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "chopin",
+      "name_ko": "프레데리크 쇼팽",
+      "name_en": "Frédéric Chopin",
+      "field": "작곡가·피아니스트",
+      "field_en": "Composer and Pianist",
+      "birth_year": 1810,
+      "death_year": 1849,
+      "nation": "PL",
+      "birthplace": {
+        "admin": "폴란드 젤라조바볼라",
+        "admin_en": "Żelazowa Wola, Poland",
+        "source_url": "https://muzeum.nifc.pl/en/muzeum/kolekcja-artykul/1027_chopins-birthplace",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1810,
+          "event": "3월 1일 바르샤바 인근 젤라조바볼라에서 출생",
+          "event_en": "Born on 1 March in Żelazowa Wola, near Warsaw",
+          "place_id": "chopin-birthplace-zelazowa-wola",
+          "source_url": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1826,
+          "event": "바르샤바 음악원에서 유제프 엘스너에게 사사",
+          "event_en": "Began study under Józef Elsner at the Warsaw Conservatory",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1830,
+          "event": "11월 폴란드를 떠나 외국으로 향함",
+          "event_en": "Left Poland for abroad in November",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1831,
+          "event": "10월 파리에 도착해 정착",
+          "event_en": "Arrived in Paris in October and settled there",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1838,
+          "event": "작가 조르주 상드와 연인이 되었고, 1838~39년 마요르카에서 겨울을 보냄",
+          "event_en": "Became lovers with the writer George Sand; spent the winter of 1838–39 in Mallorca",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1849,
+          "event": "10월 17일 파리에서 39세로 사망",
+          "event_en": "Died in Paris on 17 October at age 39",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1850,
+          "event": "누이 루드비카가 그의 심장을 폴란드로 가져와 바르샤바 성십자가 성당에 안치",
+          "event_en": "His sister Ludwika took his heart to Poland; it was interred at the Holy Cross Church in Warsaw",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "chopin-birthplace-zelazowa-wola",
+          "name": "쇼팽 생가(젤라조바볼라)",
+          "name_en": "Birthplace of Chopin (Żelazowa Wola)",
+          "geocode_query": "Chopin Birthplace Zelazowa Wola Poland",
+          "type": "생가·전기 박물관",
+          "type_en": "Birthplace and biographical museum",
+          "source_url": "https://muzeum.nifc.pl/en/muzeum/kolekcja-artykul/1027_chopins-birthplace",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 52.2584445,
+          "lng": 20.3108556
+        }
+      ],
+      "works": [
+        {
+          "title": "녹턴",
+          "title_en": "Nocturnes",
+          "note": "주로 피아노 독주곡을 작곡했으며 1831년부터 파리에서 활동했다. 사후 그의 심장은 바르샤바 성십자가 성당에 안장되었다.",
+          "note_en": "He composed mainly solo piano works and was active in Paris from 1831; after his death his heart was interred at the Holy Cross Church in Warsaw.",
+          "quote": "Time is still the best critic, and patience the best teacher.",
+          "quote_ko": "시간은 여전히 최고의 비평가이고, 인내는 최고의 스승이다.",
+          "quote_en": "",
+          "quote_source": "Frédéric Chopin, Letter, 11 October 1846",
+          "source_url": "https://libquotes.com/fr%C3%A9d%C3%A9ric-chopin/quote/lby9n5z",
+          "source_grade": "C",
+          "flags": []
+        },
+        {
+          "title": "폴로네즈와 마주르카",
+          "title_en": "Polonaises and Mazurkas",
+          "note": "폴란드 민속 양식에 뿌리를 둔 피아노곡으로 고국 폴란드와의 연결을 표현했다.",
+          "note_en": "Piano works rooted in Polish folk forms expressing his connection to his native Poland.",
+          "source_url": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "kafka",
+      "name_ko": "프란츠 카프카",
+      "name_en": "Franz Kafka",
+      "field": "소설가",
+      "field_en": "Novelist",
+      "birth_year": 1883,
+      "death_year": 1924,
+      "nation": "CZ",
+      "birthplace": {
+        "admin": "오스트리아-헝가리 프라하(현 체코)",
+        "admin_en": "Prague, Austria-Hungary (now Czechia)",
+        "source_url": "https://www.deutschland.de/en/topic/culture/franz-kafka-anniversary-of-the-authors-death-3-june-1924",
+        "source_grade": "B",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1883,
+          "event": "7월 3일 오스트리아-헝가리 프라하 구시가지에서 출생",
+          "event_en": "Born on 3 July in the Old Town of Prague, Austria-Hungary",
+          "place_id": "prague",
+          "source_url": "https://kafkamuseum.cz/en/timeline",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1906,
+          "event": "프라하 대학교에서 법학 박사 학위를 취득",
+          "event_en": "Obtained a doctorate in law from the University of Prague",
+          "place_id": "prague",
+          "source_url": "https://kafkamuseum.cz/en/timeline",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1908,
+          "event": "노동자재해보험공사에 취직(1922년까지 근무)",
+          "event_en": "Began employment at the Workers' Accident Insurance Institute (until 1922)",
+          "place_id": "prague",
+          "source_url": "https://kafkamuseum.cz/en/timeline",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1915,
+          "event": "단편 '변신'이 라이프치히에서 출간",
+          "event_en": "The novella The Metamorphosis was published in Leipzig",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/The_Metamorphosis",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1917,
+          "event": "8월 결핵의 첫 징후가 나타남",
+          "event_en": "First signs of tuberculosis appeared in August",
+          "place_id": null,
+          "source_url": "https://kafkamuseum.cz/en/timeline",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1924,
+          "event": "6월 3일 빈 인근 키얼링 요양원에서 결핵으로 사망",
+          "event_en": "Died of tuberculosis on 3 June at the Kierling sanatorium near Vienna",
+          "place_id": null,
+          "source_url": "https://www.deutschland.de/en/topic/culture/franz-kafka-anniversary-of-the-authors-death-3-june-1924",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1925,
+          "event": "미완성 장편 '소송'이 친구 막스 브로트에 의해 사후 출간",
+          "event_en": "The unfinished novel The Trial was published posthumously by his friend Max Brod",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Franz_Kafka",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "prague",
+          "name": "프라하 구시가지",
+          "name_en": "Old Town, Prague",
+          "geocode_query": "Old Town Square Prague",
+          "type": "출생 도시",
+          "type_en": "Birth city",
+          "source_url": "https://www.deutschland.de/en/topic/culture/franz-kafka-anniversary-of-the-authors-death-3-june-1924",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 50.0874453,
+          "lng": 14.4209714
+        }
+      ],
+      "works": [
+        {
+          "title": "변신",
+          "title_en": "The Metamorphosis",
+          "note": "1915년 출간된 중편 소설로, 외판원 그레고르 잠자가 어느 날 거대한 벌레로 변한 자신을 발견하는 이야기",
+          "note_en": "A 1915 novella in which the salesman Gregor Samsa wakes to find himself transformed into a giant vermin",
+          "quote": "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.",
+          "quote_ko": "어느 날 아침 그레고르 잠자가 불안한 꿈에서 깨어났을 때, 그는 자신이 침대 속에서 한 마리 흉측한 벌레로 변해 있는 것을 발견했다.",
+          "quote_en": "As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect.",
+          "quote_source": "Franz Kafka, The Metamorphosis, opening line",
+          "source_url": "https://en.wikipedia.org/wiki/The_Metamorphosis",
+          "source_grade": "C",
+          "flags": []
+        },
+        {
+          "title": "소송",
+          "title_en": "The Trial",
+          "note": "체포되었으나 죄목을 알 수 없는 요제프 K를 그린 미완성 장편으로, 1925년 사후 출간",
+          "note_en": "An unfinished novel about Josef K., arrested without being told his crime; published posthumously in 1925",
+          "quote": "Jemand musste Josef K. verleumdet haben...",
+          "quote_ko": "누군가 요제프 K를 모함한 것이 틀림없었다...",
+          "quote_en": "Someone must have slandered Josef K...",
+          "quote_source": "Franz Kafka, The Trial, opening line",
+          "source_url": "https://en.wikipedia.org/wiki/The_Trial",
+          "source_grade": "C",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "ibsen",
+      "name_ko": "헨리크 입센",
+      "name_en": "Henrik Ibsen",
+      "field": "극작가",
+      "field_en": "Playwright",
+      "birth_year": 1828,
+      "death_year": 1906,
+      "nation": "NO",
+      "birthplace": {
+        "admin": "노르웨이 시엔",
+        "admin_en": "Skien, Norway",
+        "source_url": "https://www.telemarkmuseum.no/en/henrik-ibsen-museum/fakta-om-henrik-ibsen/",
+        "source_grade": "B",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1828,
+          "event": "3월 20일 노르웨이 시엔에서 태어남",
+          "event_en": "Born on 20 March in Skien, Norway",
+          "place_id": "skien",
+          "source_url": "https://www.telemarkmuseum.no/en/henrik-ibsen-museum/fakta-om-henrik-ibsen/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1843,
+          "event": "약학 수련을 위해 그림스타드로 이주함",
+          "event_en": "Moved to Grimstad to train as an apothecary",
+          "place_id": null,
+          "source_url": "https://www.telemarkmuseum.no/en/henrik-ibsen-museum/fakta-om-henrik-ibsen/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1851,
+          "event": "베르겐의 노르웨이 극장에서 무대 감독으로 일하기 시작함",
+          "event_en": "Became stage director at the Norwegian Theatre in Bergen",
+          "place_id": null,
+          "source_url": "https://www.telemarkmuseum.no/en/henrik-ibsen-museum/fakta-om-henrik-ibsen/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1864,
+          "event": "노르웨이를 떠나 27년간 해외(이탈리아·독일)에 체류함",
+          "event_en": "Left Norway, living abroad in Italy and Germany for 27 years",
+          "place_id": null,
+          "source_url": "https://www.telemarkmuseum.no/en/henrik-ibsen-museum/fakta-om-henrik-ibsen/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1867,
+          "event": "극시 《페르 귄트》를 발표함",
+          "event_en": "Published the dramatic poem Peer Gynt",
+          "place_id": null,
+          "source_url": "https://www.telemarkmuseum.no/en/henrik-ibsen-museum/fakta-om-henrik-ibsen/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1879,
+          "event": "《인형의 집》을 발표함",
+          "event_en": "Published A Doll's House (Et dukkehjem)",
+          "place_id": null,
+          "source_url": "https://www.telemarkmuseum.no/en/henrik-ibsen-museum/fakta-om-henrik-ibsen/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1906,
+          "event": "5월 23일 크리스티아니아(오슬로)에서 사망함",
+          "event_en": "Died on 23 May in Christiania (Oslo)",
+          "place_id": null,
+          "source_url": "https://www.telemarkmuseum.no/en/henrik-ibsen-museum/fakta-om-henrik-ibsen/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "skien",
+          "name": "시엔(노르웨이)",
+          "name_en": "Skien, Norway",
+          "geocode_query": "Skien Norway",
+          "type": "출생지",
+          "type_en": "Birthplace",
+          "source_url": "https://www.telemarkmuseum.no/en/henrik-ibsen-museum/fakta-om-henrik-ibsen/",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 59.2662883,
+          "lng": 9.5311354
+        }
+      ],
+      "works": [
+        {
+          "title": "인형의 집",
+          "title_en": "A Doll's House",
+          "note": "1879년 발표된 3막 희곡으로, 주인공 노라가 가정을 떠나는 결말로 근대 사실주의 연극의 대표작이 됨",
+          "note_en": "An 1879 three-act play whose ending, in which Nora leaves her household, became a landmark of modern realist drama",
+          "quote": "Jeg tror, at jeg er først og fremst et menneske, jeg, ligesåvel som du",
+          "quote_ko": "나는 내가 무엇보다도 먼저 한 인간이라고 믿어요, 당신과 똑같이.",
+          "quote_en": "I believe that before all else I am a human being, just as much as you are.",
+          "quote_source": "Henrik Ibsen, A Doll's House, Act 3",
+          "source_url": "https://www.bokselskap.no/boker/dukkehjem/akt3",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "andersen",
+      "name_ko": "한스 크리스티안 안데르센",
+      "name_en": "Hans Christian Andersen",
+      "field": "동화작가·시인·소설가",
+      "field_en": "Fairy-tale author, poet, and novelist",
+      "birth_year": 1805,
+      "death_year": 1875,
+      "nation": "DK",
+      "birthplace": {
+        "admin": "덴마크 오덴세",
+        "admin_en": "Odense, Denmark",
+        "source_url": "https://www.britannica.com/biography/Hans-Christian-Andersen-Danish-author",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1805,
+          "event": "덴마크 오덴세의 가난한 가정에서 태어났다",
+          "event_en": "Born into a poor family in Odense, Denmark",
+          "place_id": "hc-andersens-hus-odense",
+          "source_url": "https://www.britannica.com/biography/Hans-Christian-Andersen-Danish-author",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1819,
+          "event": "14세에 배우와 작가를 꿈꾸며 코펜하겐으로 이주했다",
+          "event_en": "At age 14 moved to Copenhagen to pursue acting and writing",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1828,
+          "event": "후원자 요나스 콜린의 도움으로 코펜하겐 대학교에 입학했다",
+          "event_en": "Entered the University of Copenhagen with the support of his patron Jonas Collin",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Hans-Christian-Andersen-Danish-author",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1835,
+          "event": "첫 동화집 '아이들에게 들려주는 이야기'를 발표했다",
+          "event_en": "Published the first 'Fairy Tales Told for Children'",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1837,
+          "event": "'인어공주'와 '벌거벗은 임금님'이 수록된 동화집을 출간했다",
+          "event_en": "Published the fairy-tale collection containing 'The Little Mermaid' and 'The Emperor's New Clothes'",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1843,
+          "event": "'미운 오리 새끼'를 발표했다",
+          "event_en": "Published 'The Ugly Duckling'",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/The_Ugly_Duckling",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1875,
+          "event": "코펜하겐 인근에서 별세했다",
+          "event_en": "Died near Copenhagen",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Hans_Christian_Andersen",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "hc-andersens-hus-odense",
+          "name": "오덴세 H.C. 안데르센 박물관(생가)",
+          "name_en": "H.C. Andersens Hus, Odense",
+          "geocode_query": "H.C. Andersens Hus Odense Denmark",
+          "type": "생가·전기 박물관",
+          "type_en": "Birthplace and biographical museum",
+          "source_url": "https://en.wikipedia.org/wiki/Hans_Christian_Andersen_Museum",
+          "source_grade": "C",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 55.3987262,
+          "lng": 10.390772
+        }
+      ],
+      "works": [
+        {
+          "title": "벌거벗은 임금님",
+          "title_en": "The Emperor's New Clothes",
+          "note": "1837년 출간된 동화로, 한 어린아이가 진실을 외치는 결말로 유명하다",
+          "note_en": "An 1837 tale famous for its ending in which a small child blurts out the truth",
+          "quote": "Men han har jo ikke noget paa!",
+          "quote_ko": "하지만 임금님은 아무것도 안 입으셨잖아요!",
+          "quote_en": "But he hasn't got anything on!",
+          "quote_source": "H.C. Andersen, The Emperor's New Clothes (1837)",
+          "source_url": "https://andersen.sdu.dk/vaerk/kejserens/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "인어공주",
+          "title_en": "The Little Mermaid",
+          "note": "1837년 코펜하겐에서 출간된 동화이다",
+          "note_en": "A fairy tale first published in Copenhagen in 1837",
+          "source_url": "https://en.wikipedia.org/wiki/The_Little_Mermaid",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "linnaeus",
+      "name_ko": "칼 폰 린네",
+      "name_en": "Carl Linnaeus",
+      "field": "식물학자·박물학자",
+      "field_en": "Botanist and naturalist",
+      "birth_year": 1707,
+      "death_year": 1778,
+      "nation": "SE",
+      "birthplace": {
+        "admin": "스웨덴 스몰란드 로스훌트(주 활동지 웁살라)",
+        "admin_en": "Råshult, Småland, Sweden (principally active in Uppsala)",
+        "source_url": "https://www.britannica.com/biography/Carolus-Linnaeus",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1707,
+          "event": "스웨덴 남부 스몰란드 로스훌트에서 출생",
+          "event_en": "Born in Råshult, Småland, southern Sweden",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Carolus-Linnaeus",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1728,
+          "event": "룬드 대학교에서 의학 공부를 시작한 뒤 웁살라 대학교로 옮김",
+          "event_en": "Transferred to Uppsala University after beginning medical studies at Lund",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Carolus-Linnaeus",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1735,
+          "event": "네덜란드에서 『자연의 체계(Systema Naturae)』 초판을 출판",
+          "event_en": "Published the first edition of Systema Naturae in the Netherlands",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Carolus-Linnaeus",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1741,
+          "event": "웁살라 대학교 교수가 되어 식물학·박물학을 담당",
+          "event_en": "Became a professor at Uppsala, taking charge of botany and natural history",
+          "place_id": "uppsala-linnaeus-garden",
+          "source_url": "https://www.uu.se/en/about-uu/history/prominent-people/carl-linnaeus",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1753,
+          "event": "『식물의 종(Species Plantarum)』을 스톡홀름에서 출판 — 식물 이명법의 출발점",
+          "event_en": "Published Species Plantarum in Stockholm — the starting point for botanical binomial nomenclature",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/topic/Species-Plantarum",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1761,
+          "event": "공로로 귀족 작위를 받아 '칼 폰 린네'로 개명",
+          "event_en": "Ennobled and took the name Carl von Linné",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Carl_Linnaeus",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1778,
+          "event": "웁살라에서 사망",
+          "event_en": "Died in Uppsala",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Carolus-Linnaeus",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "uppsala-linnaeus-garden",
+          "name": "웁살라 린네 정원",
+          "name_en": "Linnaeus Garden, Uppsala",
+          "geocode_query": "Linnaeus Garden Uppsala",
+          "type": "식물원·기념지",
+          "type_en": "Botanical garden and memorial site",
+          "source_url": "https://www.uu.se/en/linnaeus-garden/about-the-garden/history",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 59.8586126,
+          "lng": 17.6387436
+        }
+      ],
+      "works": [
+        {
+          "title": "자연의 체계",
+          "title_en": "Systema Naturae",
+          "note": "광물·식물·동물 세 계(界)의 계층적 분류를 제시했고, 판을 거듭하며 이명법을 확립함",
+          "note_en": "Presented a hierarchical classification of the three kingdoms; across editions it established binomial nomenclature",
+          "quote": "Deus creavit, Linnaeus disposuit",
+          "quote_ko": "신이 창조하고, 린네가 정리했다",
+          "quote_en": "God created, Linnaeus organized",
+          "quote_source": "attributed to Carl Linnaeus",
+          "source_url": "https://www.smithsonianmag.com/science-nature/organization-man-151908042/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "식물의 종",
+          "title_en": "Species Plantarum",
+          "note": "1753년 스톡홀름에서 출판되어 약 6,000종을 다루었으며, 식물 이명법의 출발점이 됨",
+          "note_en": "Published 1753 in Stockholm covering ~6,000 species; the starting point for binomial naming of plants",
+          "quote": "Nomina si nescis, perit et cognitio rerum",
+          "quote_ko": "이름을 모르면 사물에 대한 지식도 사라진다",
+          "quote_en": "If you do not know the names of things, the knowledge of them is lost too",
+          "quote_source": "Carl Linnaeus",
+          "source_url": "https://www.britannica.com/topic/Species-Plantarum",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "hafez",
+      "name_ko": "하페즈",
+      "name_en": "Hafez",
+      "field": "시인",
+      "field_en": "Poet",
+      "birth_year": 1315,
+      "death_year": 1390,
+      "nation": "IR",
+      "birthplace": {
+        "admin": "페르시아 시라즈(현 이란)",
+        "admin_en": "Shiraz, Persia (present-day Iran)",
+        "source_url": "https://www.iranicaonline.org/articles/hafez-ii/",
+        "source_grade": "A",
+        "flags": [
+          "year-approx",
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1315,
+          "event": "페르시아 시라즈에서 출생(전승, 연도 불확실)",
+          "event_en": "Born in Shiraz, Persia (traditional account; year uncertain)",
+          "place_id": null,
+          "source_url": "https://www.iranicaonline.org/articles/hafez-ii/",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1320,
+          "event": "쿠란을 외워 익혀 '하페즈'(쿠란을 암송하는 이)라는 별호를 얻었다고 전한다",
+          "event_en": "Said to have memorized the Qur'an, earning the pen-name 'Hafez'",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Hafez",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1353,
+          "event": "시라즈에서 통치자들의 후원을 받았다",
+          "event_en": "Enjoyed the patronage of Shiraz rulers",
+          "place_id": null,
+          "source_url": "https://www.iranicaonline.org/articles/hafez-ii/",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1368,
+          "event": "가잘(서정시) 형식을 완성의 경지로 끌어올렸으며 수피즘 사상이 그의 시를 관통한다",
+          "event_en": "Brought the ghazal (lyric) form to a high refinement; Sufi thought pervades his poetry",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Hafez",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1390,
+          "event": "시라즈에서 사망(연도 불확실)",
+          "event_en": "Died in Shiraz (year uncertain)",
+          "place_id": "tomb-of-hafez",
+          "source_url": "https://www.iranicaonline.org/articles/hafez-ii/",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "tomb-of-hafez",
+          "name": "시라즈 하페즈 영묘(하페지에)",
+          "name_en": "Tomb of Hafez (Hafezieh), Shiraz",
+          "geocode_query": "Tomb of Hafez Shiraz",
+          "type": "영묘",
+          "type_en": "Tomb / mausoleum",
+          "source_url": "https://en.wikipedia.org/wiki/Tomb_of_Hafez",
+          "source_grade": "C",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 29.625771,
+          "lng": 52.5585012
+        }
+      ],
+      "works": [
+        {
+          "title": "디반(하페즈 시집)",
+          "title_en": "Divan of Hafez",
+          "note": "사후에 편찬된 시 모음으로 약 500편의 가잘을 담고 있으며, 이란에서 점복용으로도 펼쳐 읽힌다",
+          "note_en": "A posthumously compiled collection of roughly 500 ghazals; in Iran it is also opened for bibliomancy",
+          "quote": "Alā yā ayyuhā-s-sāqī adir ka'san wa nāwilhā",
+          "quote_ko": "오 술 따르는 이여, 잔을 돌려 내게 건네다오.",
+          "quote_en": "O cupbearer, pass round the cup and offer it to me.",
+          "quote_source": "Divan of Hafez, Ghazal 1 (opening line)",
+          "source_url": "https://www.iranicaonline.org/articles/hafez-ii/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "year-approx"
+      ]
+    },
+    {
+      "id": "gibran",
+      "name_ko": "칼릴 지브란",
+      "name_en": "Khalil Gibran",
+      "field": "시인·작가·화가",
+      "field_en": "Poet, writer and artist",
+      "birth_year": 1883,
+      "death_year": 1931,
+      "nation": "LB",
+      "birthplace": {
+        "admin": "오스만 레바논산 브샤리(현 레바논)",
+        "admin_en": "Bsharri, Mount Lebanon (present-day Lebanon)",
+        "source_url": "https://en.wikipedia.org/wiki/Kahlil_Gibran",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only",
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1883,
+          "event": "레바논산 브샤리에서 마론파 기독교 가정에 태어남 (1월 6일)",
+          "event_en": "Born on 6 January into a Maronite Christian family in Bsharri, Mount Lebanon",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Kahlil_Gibran",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1895,
+          "event": "어머니, 형제자매와 함께 미국 보스턴으로 이주함",
+          "event_en": "Immigrated with his mother and siblings to Boston, United States",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Kahlil_Gibran",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1908,
+          "event": "후원자 메리 해스컬의 지원으로 파리 아카데미 쥘리앙에서 미술을 공부함",
+          "event_en": "Studied art at the Académie Julian in Paris with patron Mary Haskell's support",
+          "place_id": null,
+          "source_url": "https://poets.org/poet/kahlil-gibran",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1923,
+          "event": "뉴욕에서 대표작 '예언자'를 출간함",
+          "event_en": "Published his masterwork 'The Prophet' in New York",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Kahlil_Gibran",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1931,
+          "event": "뉴욕에서 사망함 (4월 10일)",
+          "event_en": "Died in New York City on 10 April",
+          "place_id": null,
+          "source_url": "https://poets.org/poet/kahlil-gibran",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1931,
+          "event": "유해가 고향 브샤리로 옮겨져 옛 마르 사르키스 수도원에 안장됨",
+          "event_en": "His remains were transferred to his native Bsharri and laid to rest at the former Mar Sarkis monastery",
+          "place_id": "gibran-museum",
+          "source_url": "https://en.wikipedia.org/wiki/Gibran_Museum",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "gibran-museum",
+          "name": "브샤리 지브란 박물관",
+          "name_en": "Gibran Museum, Bsharri",
+          "geocode_query": "Gibran Museum Bsharri Lebanon",
+          "type": "전기 박물관 겸 묘소",
+          "type_en": "Biographical museum and tomb",
+          "source_url": "https://en.wikipedia.org/wiki/Gibran_Museum",
+          "source_grade": "C",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 34.249848,
+          "lng": 36.0191211
+        }
+      ],
+      "works": [
+        {
+          "title": "예언자",
+          "title_en": "The Prophet",
+          "note": "1923년 뉴욕에서 출간된 영어 산문시집으로, 100개 이상의 언어로 번역됨",
+          "note_en": "An English prose-poetry collection published in New York in 1923; translated into more than 100 languages",
+          "quote": "Your children are not your children. They are the sons and daughters of Life's longing for itself.",
+          "quote_ko": "당신의 아이들은 당신의 아이가 아니다. 그들은 스스로를 갈망하는 생명의 아들이요 딸이다.",
+          "quote_en": "",
+          "quote_source": "Khalil Gibran, The Prophet, 'On Children'",
+          "source_url": "https://standardebooks.org/ebooks/khalil-gibran/the-prophet/text/on-children",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "광인",
+          "title_en": "The Madman",
+          "note": "1918년 출간된, 지브란이 영어로 쓴 첫 저작으로 우화와 시를 담음",
+          "note_en": "Published in 1918, Gibran's first book in English, containing parables and poems",
+          "source_url": "https://poets.org/poet/kahlil-gibran",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "nguyen-du",
+      "name_ko": "응우옌 주",
+      "name_en": "Nguyễn Du",
+      "field": "시인·관료",
+      "field_en": "Poet and mandarin",
+      "birth_year": 1766,
+      "death_year": 1820,
+      "nation": "VN",
+      "birthplace": {
+        "admin": "베트남 탕롱(현 하노이); 본가는 하띤성 띠엔디엔",
+        "admin_en": "Thăng Long (present-day Hanoi), Vietnam; ancestral seat in Tiên Điền, Hà Tĩnh",
+        "source_url": "https://en.wikipedia.org/wiki/Nguyen_Du",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only",
+          "birthplace-disputed",
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1766,
+          "event": "탕롱에서 고위 관료 응우옌 응이엠의 아들로 태어남",
+          "event_en": "Born in Thăng Long, son of high-ranking minister Nguyễn Nghiễm",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Nguyen_Du",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1802,
+          "event": "자롱 황제(응우옌 왕조)에 출사하여 현감으로 임명됨",
+          "event_en": "Entered service under Emperor Gia Long (Nguyễn dynasty), appointed district magistrate",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Nguyen_Du",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1813,
+          "event": "청나라에 사신으로 파견됨",
+          "event_en": "Sent as envoy to Qing China",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Nguyen_Du",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1820,
+          "event": "후에에서 사망",
+          "event_en": "Died in Huế",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Nguyen-Du",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2013,
+          "event": "유네스코 제37차 총회가 응우옌 주를 세계 문화 인물로 기리는 결의를 채택",
+          "event_en": "UNESCO's 37th General Conference adopted a resolution honouring Nguyễn Du as a world cultural figure",
+          "place_id": null,
+          "source_url": "https://vovworld.vn/en-US/culture/unesco-honors-vietnamese-poet-nguyen-du-208562.vov",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "nguyen-du-memorial-ha-tinh",
+          "name": "응우옌 주 기념지(하띤 띠엔디엔)",
+          "name_en": "Nguyễn Du Memorial Site (Tiên Điền, Hà Tĩnh)",
+          "geocode_query": "Nguyen Du Memorial Tien Dien Nghi Xuan Ha Tinh Vietnam",
+          "type": "기념지(특별 국가유적)",
+          "type_en": "Memorial site (Special National Relic)",
+          "source_url": "https://en.vietnamplus.vn/tapping-the-values-of-great-poets-memorial-site/269205.vnp",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 18.6444942,
+          "lng": 105.7575311
+        }
+      ],
+      "works": [
+        {
+          "title": "쭈옌 끼에우(취교전)",
+          "title_en": "The Tale of Kiều",
+          "note": "베트남 국민 서사시. 루크밧(육팔) 운문 3,254행. 유네스코가 탄생 250주년을 기념(2013년 결의)",
+          "note_en": "Vietnam's national epic poem; 3,254 lines in lục bát verse. UNESCO marked the 250th anniversary of his birth",
+          "quote": "Trăm năm trong cõi người ta, / Chữ tài chữ mệnh khéo là ghét nhau.",
+          "quote_ko": "인간 세상 백 년 동안, / 재주와 운명은 묘하게도 서로 시기하는구나.",
+          "quote_en": "A hundred years—in this life span on earth / talent and destiny are apt to feud.",
+          "quote_source": "The Tale of Kiều, opening couplet (trans. Huỳnh Sanh Thông)",
+          "source_url": "https://en.wikiquote.org/wiki/The_Tale_of_Kieu",
+          "source_grade": "C",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "iqbal",
+      "name_ko": "무함마드 이크발",
+      "name_en": "Muhammad Iqbal",
+      "field": "시인·철학자",
+      "field_en": "Poet and philosopher",
+      "birth_year": 1877,
+      "death_year": 1938,
+      "nation": "PK",
+      "birthplace": {
+        "admin": "영국령 인도 시알코트(현 파키스탄)",
+        "admin_en": "Sialkot, Punjab, British India (now Pakistan)",
+        "source_url": "https://www.britannica.com/biography/Muhammad-Iqbal",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1877,
+          "event": "영국령 인도 시알코트에서 11월 9일 출생",
+          "event_en": "Born on 9 November in Sialkot, Punjab, British India",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Muhammad-Iqbal",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1907,
+          "event": "독일 뮌헨 대학교에서 철학 박사 학위 취득",
+          "event_en": "Awarded a doctorate in philosophy from the University of Munich",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Muhammad_Iqbal",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1915,
+          "event": "페르시아어 장시 '자아의 비밀(아스라르 이 후디)' 발표",
+          "event_en": "Published the Persian poem 'Asrar-i-Khudi' (The Secrets of the Self)",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Muhammad-Iqbal",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1922,
+          "event": "영국 정부로부터 기사 작위를 받음",
+          "event_en": "Knighted by the British government",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Muhammad-Iqbal",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1930,
+          "event": "12월 알라하바드 전인도 무슬림연맹 연설에서 인도 북서부 무슬림 국가 구상을 제시",
+          "event_en": "In his December address to the All-India Muslim League at Allahabad, outlined the idea of a Muslim state in north-western India",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Allahabad_Address",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1932,
+          "event": "페르시아어 서사시 '영원의 서(자비드 나마)' 발표",
+          "event_en": "Published the Persian narrative poem 'Javid-nama'",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Muhammad-Iqbal",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1938,
+          "event": "4월 21일 라호르에서 사망",
+          "event_en": "Died on 21 April in Lahore",
+          "place_id": "tomb-of-iqbal-lahore",
+          "source_url": "https://www.britannica.com/biography/Muhammad-Iqbal",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "tomb-of-iqbal-lahore",
+          "name": "라호르 이크발 묘소(마자르 에 이크발)",
+          "name_en": "Tomb of Allama Iqbal (Mazar-e-Iqbal), Lahore",
+          "geocode_query": "Tomb of Allama Iqbal Lahore",
+          "type": "묘소",
+          "type_en": "Mausoleum",
+          "source_url": "https://en.wikipedia.org/wiki/Tomb_of_Allama_Iqbal",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 31.5878561,
+          "lng": 74.3113401
+        }
+      ],
+      "works": [
+        {
+          "title": "자아의 비밀(아스라르 이 후디)",
+          "title_en": "The Secrets of the Self (Asrar-i-Khudi)",
+          "note": "1915년 발표된 페르시아어 장시로, 자아(khudi)의 발전을 다룬 그의 대표 철학시",
+          "note_en": "A Persian philosophical poem published in 1915 expounding his concept of the self (khudi)",
+          "quote": "ḳhudī ko kar buland itnā ki har taqdīr se pahle / ḳhudā bande se ḳhud pūchhe batā terī razā kyā hai",
+          "quote_ko": "그대의 자아를 드높이라, 모든 운명에 앞서 / 신이 그 종에게 친히 묻도록, '말하라, 그대의 뜻은 무엇인가'",
+          "quote_en": "Raise your self so high that, before issuing every decree, God Himself asks: 'Tell me, what is your wish?'",
+          "quote_source": "Muhammad Iqbal, Bal-i-Jibril",
+          "source_url": "https://www.rekhta.org/couplets/khudii-ko-kar-buland-itnaa-ki-har-taqdiir-se-pahle-allama-iqbal-couplets",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "영원의 서(자비드 나마)",
+          "title_en": "Javid-nama",
+          "note": "1932년 발표된 페르시아어 서사시로, 천상 여행의 형식을 빌려 철학적 주제를 전개",
+          "note_en": "A Persian narrative poem published in 1932 framed as a celestial journey",
+          "source_url": "https://www.britannica.com/biography/Muhammad-Iqbal",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "achebe",
+      "name_ko": "치누아 아체베",
+      "name_en": "Chinua Achebe",
+      "field": "소설가",
+      "field_en": "Novelist",
+      "birth_year": 1930,
+      "death_year": 2013,
+      "nation": "NG",
+      "birthplace": {
+        "admin": "나이지리아 오기디",
+        "admin_en": "Ogidi, Nigeria",
+        "source_url": "https://www.britannica.com/biography/Chinua-Achebe",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1930,
+          "event": "나이지리아 오기디에서 이그보족 집안의 아들로 태어남",
+          "event_en": "Born into an Igbo family in Ogidi, Nigeria",
+          "place_id": "ogidi",
+          "source_url": "https://www.britannica.com/biography/Chinua-Achebe",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1953,
+          "event": "이바단 대학교에서 영문학을 공부하고 졸업",
+          "event_en": "Graduated from University College, Ibadan, where he studied English literature",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Chinua-Achebe",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1958,
+          "event": "첫 장편소설 『모든 것이 산산이 부서지다』 출간",
+          "event_en": "Published his first novel, Things Fall Apart",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Chinua-Achebe",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1961,
+          "event": "나이지리아 방송공사(NBC) 대외방송 국장이 됨",
+          "event_en": "Became director of external broadcasting for the Nigerian Broadcasting Corporation",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Chinua-Achebe",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1990,
+          "event": "교통사고로 허리 아래가 마비됨",
+          "event_en": "Was paralyzed from the waist down in a car accident",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Chinua_Achebe",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 2007,
+          "event": "맨부커 인터내셔널상 수상",
+          "event_en": "Won the Man Booker International Prize",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Chinua-Achebe",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 2013,
+          "event": "미국 매사추세츠주 보스턴에서 사망",
+          "event_en": "Died in Boston, Massachusetts, USA",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Chinua-Achebe",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "ogidi",
+          "name": "오기디(고향)",
+          "name_en": "Ogidi (hometown)",
+          "geocode_query": "Ogidi Anambra Nigeria",
+          "type": "고향",
+          "type_en": "Hometown",
+          "source_url": "https://www.britannica.com/biography/Chinua-Achebe",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 6.1526863,
+          "lng": 6.8668298
+        }
+      ],
+      "works": [
+        {
+          "title": "모든 것이 산산이 부서지다",
+          "title_en": "Things Fall Apart",
+          "note": "1958년 출간된 그의 첫 장편소설로, 영국 선교사와 식민 당국의 도래에 대한 한 이그보 마을의 반응을 그린다",
+          "note_en": "His first novel, published in 1958, depicting an Igbo village's reaction to the arrival of British missionaries and colonial authorities",
+          "quote": "Among the Ibo the art of conversation is regarded very highly, and proverbs are the palm-oil with which words are eaten.",
+          "quote_ko": "이보족 사이에서 대화의 기술은 매우 높이 평가되며, 속담은 말을 먹을 때 곁들이는 야자 기름이다.",
+          "quote_en": "",
+          "quote_source": "Things Fall Apart, Chapter 1",
+          "source_url": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "평안은 사라지고",
+          "title_en": "No Longer at Ease",
+          "note": "1960년 출간된 소설로, 식민지 이후 나이지리아를 배경으로 한다",
+          "note_en": "A novel published in 1960, set in post-colonial Nigeria",
+          "source_url": "https://www.britannica.com/biography/Chinua-Achebe",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "mandela",
+      "name_ko": "넬슨 만델라",
+      "name_en": "Nelson Mandela",
+      "field": "정치인·반아파르트헤이트 운동가",
+      "field_en": "Politician and anti-apartheid activist",
+      "birth_year": 1918,
+      "death_year": 2013,
+      "nation": "ZA",
+      "birthplace": {
+        "admin": "남아프리카공화국 동케이프주 음베조(성장지: 쿠누)",
+        "admin_en": "Mvezo, Eastern Cape, South Africa (grew up in Qunu)",
+        "source_url": "https://www.britannica.com/biography/Nelson-Mandela",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1944,
+          "event": "아프리카민족회의(ANC) 청년동맹 공동 창설",
+          "event_en": "Co-founded the ANC Youth League",
+          "place_id": null,
+          "source_url": "https://www.sahistory.org.za/people/nelson-rolihlahla-mandela",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1964,
+          "event": "리보니아 재판에서 사보타주 혐의로 종신형 선고",
+          "event_en": "Sentenced to life imprisonment for sabotage at the Rivonia Trial",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Nelson-Mandela",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1990,
+          "event": "27년 수감 끝에 석방(2월 11일)",
+          "event_en": "Released after 27 years of incarceration on 11 February",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Nelson-Mandela",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1993,
+          "event": "F. W. 데 클레르크와 공동으로 노벨 평화상 수상",
+          "event_en": "Jointly awarded the Nobel Peace Prize with F. W. de Klerk",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Nelson-Mandela",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1994,
+          "event": "남아공 최초 보통선거로 대통령 당선, 5월 10일 취임",
+          "event_en": "Elected president in South Africa's first universal-suffrage election; inaugurated on 10 May",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Nelson-Mandela",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1995,
+          "event": "진실화해위원회(TRC) 설치",
+          "event_en": "Established the Truth and Reconciliation Commission",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Nelson-Mandela",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 2013,
+          "event": "요하네스버그 자택에서 사망(12월 5일)",
+          "event_en": "Died at his home in Johannesburg on 5 December",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Nelson-Mandela",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "nelson-mandela-museum-qunu",
+          "name": "넬슨 만델라 박물관(쿠누·음타타)",
+          "name_en": "Nelson Mandela Museum (Qunu and Mthatha)",
+          "geocode_query": "Nelson Mandela Museum Qunu Eastern Cape",
+          "type": "기념 박물관",
+          "type_en": "Memorial museum",
+          "source_url": "https://www.sahistory.org.za/dated-event/nelson-mandela-museum-opened-mthatha",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": -31.78258,
+          "lng": 28.6125822
+        }
+      ],
+      "works": [
+        {
+          "title": "자유를 향한 머나먼 길",
+          "title_en": "Long Walk to Freedom",
+          "note": "1994년 출간된 자서전으로, 27년 수감, 1993년 노벨 평화상, 1994년 대통령 취임 등 그의 생애를 다룬다",
+          "note_en": "Autobiography published in 1994, covering his 27 years of imprisonment, the 1993 Nobel Peace Prize, and his 1994 inauguration as president",
+          "quote": "It is an ideal which I hope to live for and to achieve. But if needs be, it is an ideal for which I am prepared to die.",
+          "quote_ko": "그것은 내가 그것을 위해 살며 이루기를 바라는 이상입니다. 그러나 필요하다면, 그것은 내가 그것을 위해 죽을 각오가 되어 있는 이상입니다.",
+          "quote_en": "",
+          "quote_source": "Statement from the Dock, Rivonia Trial, 20 April 1964",
+          "source_url": "https://www.un.org/en/events/mandeladay/court_statement_1964.shtml",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "borges",
+      "name_ko": "호르헤 루이스 보르헤스",
+      "name_en": "Jorge Luis Borges",
+      "field": "소설가·시인·수필가",
+      "field_en": "Short-story writer, poet, essayist",
+      "birth_year": 1899,
+      "death_year": 1986,
+      "nation": "AR",
+      "birthplace": {
+        "admin": "아르헨티나 부에노스아이레스",
+        "admin_en": "Buenos Aires, Argentina",
+        "source_url": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+        "source_grade": "C",
+        "flags": [
+          "wiki-only",
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1899,
+          "event": "부에노스아이레스에서 출생",
+          "event_en": "Born in Buenos Aires",
+          "place_id": "buenos-aires",
+          "source_url": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1914,
+          "event": "가족과 함께 제네바로 이주하여 교육받음",
+          "event_en": "Moved with his family to Geneva, where he was educated",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1923,
+          "event": "첫 시집 『부에노스아이레스의 열기』 출간",
+          "event_en": "Published his first poetry collection, Fervor de Buenos Aires",
+          "place_id": "buenos-aires",
+          "source_url": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1944,
+          "event": "단편집 『픽션들』 출간",
+          "event_en": "Published the short-story collection Ficciones",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1955,
+          "event": "아르헨티나 국립도서관 관장으로 임명됨(이 무렵 거의 실명함)",
+          "event_en": "Appointed director of the National Public Library (by which time he was nearly blind)",
+          "place_id": "buenos-aires",
+          "source_url": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1961,
+          "event": "사뮈엘 베케트와 포르멘토르상 공동 수상",
+          "event_en": "Shared the Formentor Prize with Samuel Beckett",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1986,
+          "event": "스위스 제네바에서 사망",
+          "event_en": "Died in Geneva, Switzerland",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "buenos-aires",
+          "name": "부에노스아이레스",
+          "name_en": "Buenos Aires",
+          "geocode_query": "Buenos Aires Argentina",
+          "type": "출생지·거주지",
+          "type_en": "Birthplace and residence",
+          "source_url": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+          "source_grade": "C",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": -34.6095579,
+          "lng": -58.3887904
+        }
+      ],
+      "works": [
+        {
+          "title": "픽션들",
+          "title_en": "Ficciones",
+          "note": "1944년 출간된 단편 소설집으로, 미로·무한·거울 등을 주제로 한 환상 문학의 대표작",
+          "note_en": "A 1944 short-story collection, a landmark of fantastic literature on themes of labyrinths, infinity and mirrors",
+          "quote": "que con magnífica ironía / me dio a la vez los libros y la noche.",
+          "quote_ko": "찬란한 아이러니로 / 내게 책과 밤을 한꺼번에 주신 분.",
+          "quote_en": "who with magnificent irony / gave me at once the books and the night.",
+          "quote_source": "Jorge Luis Borges, 'Poema de los dones'",
+          "source_url": "https://www.poemas-del-alma.com/poema-de-los-dones.htm",
+          "source_grade": "C",
+          "flags": []
+        },
+        {
+          "title": "창조자",
+          "title_en": "El hacedor (Dreamtigers)",
+          "note": "국립도서관 관장 임명 무렵 실명한 자신의 운명을 노래한 시 「선물의 시」를 수록",
+          "note_en": "Contains the poem 'Poema de los dones' reflecting on the irony of his blindness coinciding with his library directorship",
+          "source_url": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "C",
+      "verified": true,
+      "flags": [
+        "wiki-only"
+      ]
+    },
+    {
+      "id": "ibn-battuta",
+      "name_ko": "이븐 바투타",
+      "name_en": "Ibn Battuta",
+      "field": "여행가·탐험가·법학자",
+      "field_en": "Traveler, explorer and Islamic jurist",
+      "birth_year": 1304,
+      "death_year": 1369,
+      "nation": "MA",
+      "birthplace": {
+        "admin": "마린 왕조 시대 탕헤르(현 모로코)",
+        "admin_en": "Tangier under the Marinid dynasty (present-day Morocco)",
+        "source_url": "https://www.britannica.com/biography/Ibn-Battuta",
+        "source_grade": "A",
+        "flags": [
+          "year-approx",
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1304,
+          "event": "마린 왕조 치하 탕헤르에서 법학자(카디) 집안에 태어남",
+          "event_en": "Born in Tangier under the Marinid dynasty into a family of qadis (Islamic judges)",
+          "place_id": "tangier",
+          "source_url": "https://www.britannica.com/biography/Ibn-Battuta",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1325,
+          "event": "21세에 메카 순례를 위해 홀로 탕헤르를 떠나 약 30년의 여행을 시작함",
+          "event_en": "At age 21 set out alone from Tangier for the pilgrimage to Mecca, beginning roughly 30 years of travel",
+          "place_id": null,
+          "source_url": "https://www.worldhistory.org/Ibn_Battuta/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1334,
+          "event": "델리에 도착해 술탄 밑에서 카디로 임명되어 약 8년간 봉직함",
+          "event_en": "Arrived in Delhi and was appointed qadi under the sultan, serving about eight years",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Ibn-Battuta",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1341,
+          "event": "술탄의 사절로 중국 황제에게 파견되어 델리를 출발함",
+          "event_en": "Set out from Delhi as the sultan's envoy to the emperor of China",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Ibn-Battuta",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1352,
+          "event": "사하라를 건너 전성기의 말리 제국을 약 1년간 방문함",
+          "event_en": "Crossed the Sahara and spent about a year in the Mali Empire at its height",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Ibn-Battuta",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1354,
+          "event": "모로코로 돌아와 서기 이븐 주자이에게 여행 기록을 구술함",
+          "event_en": "Returned to Morocco and dictated his travels to the scribe Ibn Juzayy",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Ibn-Battuta",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1369,
+          "event": "모로코에서 사망함(연도 불확실); 탕헤르가 매장지로 전해짐",
+          "event_en": "Died in Morocco (year uncertain); Tangier is credited as his burial place",
+          "place_id": "tangier",
+          "source_url": "https://www.worldhistory.org/Ibn_Battuta/",
+          "source_grade": "B",
+          "flags": [
+            "year-approx"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "tangier",
+          "name": "탕헤르",
+          "name_en": "Tangier",
+          "geocode_query": "Tangier Morocco",
+          "type": "출생지·매장지로 전해지는 곳",
+          "type_en": "Birthplace and reputed burial place",
+          "source_url": "https://www.britannica.com/biography/Ibn-Battuta",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 35.7696302,
+          "lng": -5.8033522
+        }
+      ],
+      "works": [
+        {
+          "title": "리흘라(여행기)",
+          "title_en": "The Rihla (Travels)",
+          "note": "정식 제목은 『도시의 경이와 여행의 진기함을 사색하는 이들에게 주는 선물』. 약 30년간 약 12만km를 여행하고 말년에 서기 이븐 주자이에게 구술하여 기록함",
+          "note_en": "Full title 'A Gift to Those Who Contemplate the Wonders of Cities and the Marvels of Travelling.' Records some 120,000 km of travel over about 30 years, dictated late in life to the scribe Ibn Juzayy",
+          "quote": "I set out alone, having neither fellow-traveller in whose companionship I might find cheer, nor caravan whose part I might join.",
+          "quote_ko": "나는 홀로 길을 떠났다. 함께 의지하며 위안을 얻을 길동무도, 끼어들 대상(隊商)도 없었다.",
+          "quote_en": "",
+          "quote_source": "Ibn Battuta, The Rihla (trans. H. A. R. Gibb)",
+          "source_url": "https://www.worldhistory.org/Ibn_Battuta/",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": [
+        "year-approx"
+      ]
+    },
+    {
+      "id": "garcia-marquez",
+      "name_ko": "가브리엘 가르시아 마르케스",
+      "name_en": "Gabriel García Márquez",
+      "field": "소설가·언론인",
+      "field_en": "Novelist and journalist",
+      "birth_year": 1927,
+      "death_year": 2014,
+      "nation": "CO",
+      "birthplace": {
+        "admin": "콜롬비아 마그달레나주 아라카타카",
+        "admin_en": "Aracataca, Magdalena, Colombia",
+        "source_url": "https://www.britannica.com/biography/Gabriel-Garcia-Marquez",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1927,
+          "event": "콜롬비아 아라카타카에서 출생, 생후 약 8년간 외조부모와 함께 생활",
+          "event_en": "Born in Aracataca, Colombia; lived with his maternal grandparents for his first roughly eight years",
+          "place_id": "aracataca",
+          "source_url": "https://www.britannica.com/biography/Gabriel-Garcia-Marquez",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1947,
+          "event": "첫 단편 「세 번째 체념」을 보고타 일간지 엘 에스펙타도르에 발표",
+          "event_en": "Published his first short story, 'La tercera resignación', in the Bogotá newspaper El Espectador",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1955,
+          "event": "첫 중편소설 『썩은 잎』 출간",
+          "event_en": "Published his first novella, 'La hojarasca' (Leaf Storm)",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Gabriel-Garcia-Marquez",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1967,
+          "event": "대표작 『백년의 고독』 출간",
+          "event_en": "Published his masterpiece 'One Hundred Years of Solitude'",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Gabriel-Garcia-Marquez",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1982,
+          "event": "노벨문학상 수상",
+          "event_en": "Awarded the Nobel Prize in Literature",
+          "place_id": null,
+          "source_url": "https://www.nobelprize.org/prizes/literature/1982/marquez/facts/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 2014,
+          "event": "멕시코시티에서 별세",
+          "event_en": "Died in Mexico City, Mexico",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Gabriel-Garcia-Marquez",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "aracataca",
+          "name": "아라카타카(생가, 마콘도의 모델)",
+          "name_en": "Aracataca (birthplace, model for Macondo)",
+          "geocode_query": "Aracataca Magdalena Colombia",
+          "type": "출생지",
+          "type_en": "Birthplace",
+          "source_url": "https://www.britannica.com/biography/Gabriel-Garcia-Marquez",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 10.5906011,
+          "lng": -74.1876803
+        }
+      ],
+      "works": [
+        {
+          "title": "백년의 고독",
+          "title_en": "One Hundred Years of Solitude",
+          "note": "1967년 출간된 대표작으로, 1982년 노벨문학상 수상에 결정적 역할을 했다",
+          "note_en": "His 1967 masterpiece, central to his 1982 Nobel Prize in Literature",
+          "quote": "Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo.",
+          "quote_ko": "오랜 세월이 흐른 뒤, 총살형 집행 부대 앞에 선 아우렐리아노 부엔디아 대령은 아버지를 따라 얼음을 처음 보러 갔던 그 먼 오후를 떠올리게 된다.",
+          "quote_en": "Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.",
+          "quote_source": "One Hundred Years of Solitude (1967), opening line (trans. Gregory Rabassa)",
+          "source_url": "https://lithub.com/on-the-iconic-first-line-of-one-hundred-years-of-solitude/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "콜레라 시대의 사랑",
+          "title_en": "Love in the Time of Cholera",
+          "note": "1985년 출간된 장편소설로, 1982년 노벨문학상 수상 이후 처음 발표한 소설이다",
+          "note_en": "His 1985 novel, the first he published after winning the 1982 Nobel Prize",
+          "source_url": "https://www.britannica.com/biography/Gabriel-Garcia-Marquez",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "sor-juana",
+      "name_ko": "소르 후아나 이네스 데 라 크루스",
+      "name_en": "Sor Juana Inés de la Cruz",
+      "field": "시인·학자·수녀",
+      "field_en": "Poet, scholar, and nun",
+      "birth_year": 1648,
+      "death_year": 1695,
+      "nation": "MX",
+      "birthplace": {
+        "admin": "누에바에스파냐 산미겔 네판틀라(현 멕시코주 테페틀릭스파)",
+        "admin_en": "San Miguel Nepantla, Tepetlixpa, State of Mexico (then New Spain)",
+        "source_url": "https://en.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz",
+        "source_grade": "C",
+        "flags": [
+          "year-approx",
+          "wiki-only",
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1648,
+          "event": "누에바에스파냐 산미겔 네판틀라에서 태어남(세례 기록 기준; 일부 자료는 1651년)",
+          "event_en": "Born in San Miguel Nepantla, New Spain (per baptismal record; some sources cite 1651)",
+          "place_id": "nepantla",
+          "source_url": "https://en.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz",
+          "source_grade": "C",
+          "flags": [
+            "year-approx",
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1664,
+          "event": "멕시코시티로 가 부왕 궁정에서 부왕비 레오노르 카레토의 시녀로 지냄",
+          "event_en": "Moved to Mexico City and served at the viceregal court as lady-in-waiting to Vicereine Leonor Carreto",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1669,
+          "event": "히에로니무스회 산타파울라(산헤로니모) 수도원에 입회해 평생 머묾",
+          "event_en": "Entered the Hieronymite convent of Santa Paula (San Jerónimo), where she remained for life",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1690,
+          "event": "'카르타 아테나고리카'가 출판되고, 푸에블라 주교가 '소르 필로테아의 편지'로 그녀를 책망함",
+          "event_en": "Her 'Carta Atenagórica' was published; the Bishop of Puebla rebuked her under the name 'Sor Filotea'",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1691,
+          "event": "여성의 학문할 권리를 옹호한 '소르 필로테아에 대한 답신'을 씀",
+          "event_en": "Wrote 'Respuesta a Sor Filotea de la Cruz', defending women's right to education",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1695,
+          "event": "멕시코시티에서 전염병이 돌던 중 동료 수녀들을 돌보다 4월 17일 사망",
+          "event_en": "Died on 17 April in Mexico City after caring for fellow nuns during an epidemic",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "nepantla",
+          "name": "네판틀라(생가)",
+          "name_en": "Nepantla (birthplace)",
+          "geocode_query": "Nepantla de Sor Juana Ines de la Cruz Mexico",
+          "type": "생가 마을",
+          "type_en": "Birthplace village",
+          "source_url": "https://en.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only",
+            "coords-osm"
+          ],
+          "lat": 18.9816561,
+          "lng": -98.8415202
+        }
+      ],
+      "works": [
+        {
+          "title": "어리석은 남자들(레돈디야)",
+          "title_en": "Hombres necios (Foolish Men)",
+          "note": "남성의 이중잣대를 비판한 풍자시로, 스페인어권에서 가장 널리 인용되는 시 중 하나",
+          "note_en": "A satirical poem (redondillas) criticizing men's double standards; among the most quoted poems in Spanish",
+          "quote": "Hombres necios que acusáis / a la mujer sin razón,",
+          "quote_ko": "여인을 이유 없이 탓하는 / 어리석은 남자들이여,",
+          "quote_en": "You foolish men who accuse / women without reason,",
+          "quote_source": "Sor Juana, 'Hombres necios'",
+          "source_url": "https://en.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz",
+          "source_grade": "C",
+          "flags": []
+        },
+        {
+          "title": "첫 번째 꿈",
+          "title_en": "Primero sueño (First Dream)",
+          "note": "인간 지성의 인식 탐구를 그린 장편 철학 시",
+          "note_en": "A long philosophical poem on the soul's pursuit of knowledge",
+          "source_url": "https://en.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        }
+      ],
+      "source_grade": "C",
+      "verified": true,
+      "flags": [
+        "year-approx",
+        "wiki-only"
+      ]
+    },
+    {
+      "id": "machado-de-assis",
+      "name_ko": "마샤두 지 아시스",
+      "name_en": "Machado de Assis",
+      "field": "소설가·시인·단편작가",
+      "field_en": "Novelist, poet, and short-story writer",
+      "birth_year": 1839,
+      "death_year": 1908,
+      "nation": "BR",
+      "birthplace": {
+        "admin": "브라질 리우데자네이루",
+        "admin_en": "Rio de Janeiro, Brazil",
+        "source_url": "https://www.britannica.com/biography/Joaquim-Maria-Machado-de-Assis",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1839,
+          "event": "리우데자네이루에서 출생",
+          "event_en": "Born in Rio de Janeiro",
+          "place_id": "rio-de-janeiro",
+          "source_url": "https://www.britannica.com/biography/Joaquim-Maria-Machado-de-Assis",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1856,
+          "event": "인쇄소 식자공 견습생으로 일을 시작함",
+          "event_en": "Began working as a typographer's apprentice",
+          "place_id": "rio-de-janeiro",
+          "source_url": "https://en.wikipedia.org/wiki/Machado_de_Assis",
+          "source_grade": "C",
+          "flags": [
+            "wiki-only"
+          ]
+        },
+        {
+          "year": 1881,
+          "event": "『브라스 쿠바스의 사후 회고록』 출간",
+          "event_en": "Published The Posthumous Memoirs of Brás Cubas",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Joaquim-Maria-Machado-de-Assis",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1897,
+          "event": "브라질 문학 아카데미를 창립하고 초대 회장으로 추대됨",
+          "event_en": "Founded the Brazilian Academy of Letters and was acclaimed its first president",
+          "place_id": "rio-de-janeiro",
+          "source_url": "https://www.academia.org.br/academicos/machado-de-assis",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1899,
+          "event": "대표작 『동 카스무후』 출간",
+          "event_en": "Published his masterpiece Dom Casmurro",
+          "place_id": null,
+          "source_url": "https://www.britannica.com/biography/Joaquim-Maria-Machado-de-Assis",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1908,
+          "event": "리우데자네이루에서 사망",
+          "event_en": "Died in Rio de Janeiro",
+          "place_id": "rio-de-janeiro",
+          "source_url": "https://www.britannica.com/biography/Joaquim-Maria-Machado-de-Assis",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "rio-de-janeiro",
+          "name": "리우데자네이루",
+          "name_en": "Rio de Janeiro",
+          "geocode_query": "Rio de Janeiro Brazil",
+          "type": "도시(출생·사망지)",
+          "type_en": "City (birthplace and place of death)",
+          "source_url": "https://www.britannica.com/biography/Joaquim-Maria-Machado-de-Assis",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": -22.9110137,
+          "lng": -43.2093727
+        }
+      ],
+      "works": [
+        {
+          "title": "브라스 쿠바스의 사후 회고록",
+          "title_en": "The Posthumous Memoirs of Brás Cubas",
+          "note": "1881년 출간된 그의 첫 원숙기 소설로, 죽은 화자가 서술하는 형식을 취한다",
+          "note_en": "His first mature novel (1881), narrated by a dead protagonist",
+          "quote": "Ao verme que primeiro roeu as frias carnes do meu cadáver dedico como saudosa lembrança estas memórias póstumas.",
+          "quote_ko": "내 시신의 차가운 살을 가장 먼저 갉아먹은 벌레에게, 그리운 추억으로 이 사후 회고록을 바친다.",
+          "quote_en": "To the worm who first gnawed the cold flesh of my corpse I dedicate with fond remembrance these posthumous memoirs.",
+          "quote_source": "Memórias Póstumas de Brás Cubas (1881), dedication",
+          "source_url": "https://pt.wikiquote.org/wiki/Mem%C3%B3rias_P%C3%B3stumas_de_Br%C3%A1s_Cubas",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "title": "동 카스무후",
+          "title_en": "Dom Casmurro",
+          "note": "1899년 출간된 대표작으로, 질투에 사로잡힌 화자의 1인칭 서술로 이루어진다",
+          "note_en": "His 1899 masterpiece, a first-person narrative of a mind warped by jealousy",
+          "source_url": "https://www.britannica.com/biography/Joaquim-Maria-Machado-de-Assis",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "banjo-paterson",
+      "name_ko": "밴조 패터슨",
+      "name_en": "Banjo Paterson",
+      "field": "시인·언론인·변호사",
+      "field_en": "Poet, journalist and solicitor",
+      "birth_year": 1864,
+      "death_year": 1941,
+      "nation": "AU",
+      "birthplace": {
+        "admin": "오스트레일리아 뉴사우스웨일스 오렌지 인근 나람블라",
+        "admin_en": "Narrambla, near Orange, New South Wales, Australia",
+        "source_url": "https://adb.anu.edu.au/biography/paterson-andrew-barton-banjo-7972",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1864,
+          "event": "2월 17일 뉴사우스웨일스 오렌지 인근 나람블라에서 태어났다",
+          "event_en": "Born on 17 February at Narrambla, near Orange, New South Wales",
+          "place_id": "orange-nsw",
+          "source_url": "https://adb.anu.edu.au/biography/paterson-andrew-barton-banjo-7972",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1886,
+          "event": "사무변호사(solicitor)로 등록되었다",
+          "event_en": "Admitted as a solicitor",
+          "place_id": null,
+          "source_url": "https://adb.anu.edu.au/biography/paterson-andrew-barton-banjo-7972",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1890,
+          "event": "시 '눈 덮인 강의 사나이'가 '불러틴'지에 발표되었다",
+          "event_en": "His poem 'The Man from Snowy River' was published in The Bulletin",
+          "place_id": null,
+          "source_url": "https://adb.anu.edu.au/biography/paterson-andrew-barton-banjo-7972",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1895,
+          "event": "퀸즐랜드 윈턴 인근에서 '왈칭 마틸다'를 썼고, 동명 시집이 출간되었다",
+          "event_en": "Wrote 'Waltzing Matilda' near Winton, Queensland, and published the collection 'The Man from Snowy River, and Other Verses'",
+          "place_id": null,
+          "source_url": "https://adb.anu.edu.au/biography/paterson-andrew-barton-banjo-7972",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1899,
+          "event": "보어 전쟁 때 종군기자로 활동했다",
+          "event_en": "Worked as a war correspondent during the Boer War",
+          "place_id": null,
+          "source_url": "https://adb.anu.edu.au/biography/paterson-andrew-barton-banjo-7972",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1941,
+          "event": "2월 5일 시드니에서 별세했다",
+          "event_en": "Died on 5 February in Sydney",
+          "place_id": null,
+          "source_url": "https://adb.anu.edu.au/biography/paterson-andrew-barton-banjo-7972",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "orange-nsw",
+          "name": "오렌지(뉴사우스웨일스)",
+          "name_en": "Orange, New South Wales",
+          "geocode_query": "Orange New South Wales Australia",
+          "type": "출생 지역",
+          "type_en": "Birthplace region",
+          "source_url": "https://adb.anu.edu.au/biography/paterson-andrew-barton-banjo-7972",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": -33.2820463,
+          "lng": 149.0971567
+        }
+      ],
+      "works": [
+        {
+          "title": "왈칭 마틸다",
+          "title_en": "Waltzing Matilda",
+          "note": "오스트레일리아의 비공식 국가로 널리 불린다. 1895년 작사했다",
+          "note_en": "Widely regarded as Australia's unofficial national anthem; written in 1895",
+          "quote": "Once a jolly swagman camped by a billabong, / Under the shade of a coolibah tree",
+          "quote_ko": "한 명랑한 떠돌이가 빌라봉 곁에 야영을 했네, / 쿨리바 나무 그늘 아래에서",
+          "quote_en": "",
+          "quote_source": "Banjo Paterson, 'Waltzing Matilda' (1895)",
+          "source_url": "https://en.wikisource.org/wiki/Waltzing_Matilda",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "눈 덮인 강의 사나이",
+          "title_en": "The Man from Snowy River",
+          "note": "1890년 '불러틴'지에 발표된 부시 발라드로, 1895년 동명 시집의 표제작이다",
+          "note_en": "A bush ballad first published in The Bulletin in 1890; the title poem of his 1895 collection",
+          "quote": "There was movement at the station, for the word had passed around / That the colt from old Regret had got away",
+          "quote_ko": "목장에 술렁임이 일었네, 소식이 퍼졌기 때문이지 / 늙은 리그렛의 망아지가 달아났다는",
+          "quote_en": "",
+          "quote_source": "Banjo Paterson, 'The Man from Snowy River' (1890)",
+          "source_url": "https://en.wikisource.org/wiki/The_Man_from_Snowy_River_(poem)",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "kartini",
+      "name_ko": "라덴 아젱 카르티니",
+      "name_en": "Raden Adjeng Kartini",
+      "field": "여성교육 선구자·작가",
+      "field_en": "Pioneer of women's education and writer",
+      "birth_year": 1879,
+      "death_year": 1904,
+      "nation": "ID",
+      "birthplace": {
+        "admin": "네덜란드령 동인도 자바 자파라현 마용(현 인도네시아 중부자바)",
+        "admin_en": "Mayong, Jepara, Java, Dutch East Indies (now Central Java, Indonesia)",
+        "source_url": "https://en.wikipedia.org/wiki/Raden_Adjeng_Kartini",
+        "source_grade": "B",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1879,
+          "event": "4월 21일 자바 귀족 가문에서 출생; 부친은 후에 자파라 현감이 됨",
+          "event_en": "Born 21 April into a Javanese noble family; her father later became Regent of Jepara",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Raden_Adjeng_Kartini",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1885,
+          "event": "6세부터 네덜란드어 초등학교에 다니며 서구 사상과 네덜란드어를 익힘",
+          "event_en": "From about age six attended a Dutch-language primary school, becoming fluent in Dutch",
+          "place_id": null,
+          "source_url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/kartini-raden-ajeng",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1899,
+          "event": "5월 25일 네덜란드 친구 스텔라 제한델라르에게 첫 편지를 보내며 서신 교류 시작",
+          "event_en": "On 25 May wrote her first letter to Dutch friend Stella Zeehandelaar, beginning her correspondence",
+          "place_id": null,
+          "source_url": "https://archive.org/details/lettersofjavanes00kart",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1903,
+          "event": "11월 8일 렘방 현감과 결혼",
+          "event_en": "On 8 November married the Regent of Rembang",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Raden_Adjeng_Kartini",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1904,
+          "event": "9월 13일 아들을 출산한 뒤 9월 17일 25세로 렘방에서 사망",
+          "event_en": "Gave birth to a son on 13 September and died at Rembang on 17 September, aged 25",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Raden_Adjeng_Kartini",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1911,
+          "event": "J.H. 아벤다논이 그녀의 서간을 모아 네덜란드어 'Door Duisternis tot Licht'로 출간",
+          "event_en": "J.H. Abendanon compiled and published her letters in Dutch as 'Door Duisternis tot Licht'",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Letters_of_a_Javanese_Princess",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1964,
+          "event": "인도네시아 정부가 그녀를 국가영웅으로 지정; 생일 4월 21일은 '카르티니의 날'",
+          "event_en": "Declared a National Hero of Indonesia; her birthday, 21 April, is observed as Kartini Day",
+          "place_id": null,
+          "source_url": "https://en.wikipedia.org/wiki/Raden_Adjeng_Kartini",
+          "source_grade": "B",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "kartini-museum-jepara",
+          "name": "자파라 카르티니 박물관",
+          "name_en": "Kartini Museum, Jepara",
+          "geocode_query": "Kartini Museum Jepara Indonesia",
+          "type": "기념 박물관",
+          "type_en": "Memorial museum",
+          "source_url": "https://www.britannica.com/biography/Raden-Adjeng-Kartini",
+          "source_grade": "B",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": -6.5885648,
+          "lng": 110.667249
+        }
+      ],
+      "works": [
+        {
+          "title": "어둠을 지나 빛으로(서간집)",
+          "title_en": "Letters of a Javanese Princess",
+          "note": "사후 1911년 네덜란드어 서간집 'Door Duisternis tot Licht'로 출간, 1920년 영역; 인도네시아어 제목은 'Habis Gelap Terbitlah Terang'",
+          "note_en": "Published posthumously in 1911 in Dutch as 'Door Duisternis tot Licht' and translated into English in 1920; the Indonesian title is 'Habis Gelap Terbitlah Terang'",
+          "quote": "I have longed to make the acquaintance of a 'modern girl,' that proud, independent girl who has all my sympathy!",
+          "quote_ko": "나는 '현대적인 여성', 곧 내가 온 마음으로 공감하는 그 당당하고 독립적인 여성을 알고 싶어 오래도록 갈망해 왔다!",
+          "quote_en": "",
+          "quote_source": "Letters of a Javanese Princess, first letter, 25 May 1899 (trans. A. L. Symmers)",
+          "source_url": "https://archive.org/details/lettersofjavanes00kart",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "B",
+      "verified": true,
+      "flags": []
+    },
+    {
+      "id": "lm-montgomery",
+      "name_ko": "루시 모드 몽고메리",
+      "name_en": "Lucy Maud Montgomery",
+      "field": "소설가",
+      "field_en": "Novelist",
+      "birth_year": 1874,
+      "death_year": 1942,
+      "nation": "CA",
+      "birthplace": {
+        "admin": "캐나다 프린스에드워드섬 클리프턴(현 뉴런던)",
+        "admin_en": "Clifton (now New London), Prince Edward Island, Canada",
+        "source_url": "https://lmmontgomery.ca/about/l-m-montgomery/",
+        "source_grade": "A",
+        "flags": [
+          "coords-unverified"
+        ],
+        "lat": null,
+        "lng": null
+      },
+      "timeline": [
+        {
+          "year": 1874,
+          "event": "11월 30일 프린스에드워드섬 클리프턴(현 뉴런던)에서 태어났다",
+          "event_en": "Born on 30 November in Clifton (now New London), Prince Edward Island",
+          "place_id": null,
+          "source_url": "https://lmmontgomery.ca/about/l-m-montgomery/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1876,
+          "event": "어머니가 세상을 떠난 뒤 캐번디시의 외조부모 손에서 자랐다",
+          "event_en": "After her mother died, she was raised by her grandparents in Cavendish",
+          "place_id": "green-gables-cavendish",
+          "source_url": "https://lmmontgomery.ca/about/l-m-montgomery/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1894,
+          "event": "프린스오브웨일스 칼리지에서 교사 자격을 얻었다",
+          "event_en": "Earned a teacher's licence at Prince of Wales College",
+          "place_id": null,
+          "source_url": "https://lmmontgomery.ca/about/l-m-montgomery/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1898,
+          "event": "외할아버지 사망 후 캐번디시로 돌아와 외할머니의 우체국 일을 도왔다",
+          "event_en": "After her grandfather's death, returned to Cavendish and helped her grandmother as postmistress",
+          "place_id": "green-gables-cavendish",
+          "source_url": "https://www.britannica.com/biography/Lucy-Maud-Montgomery",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1908,
+          "event": "첫 소설 『빨간 머리 앤』을 출간했다",
+          "event_en": "Published her first novel, Anne of Green Gables",
+          "place_id": "green-gables-cavendish",
+          "source_url": "https://lmmontgomery.ca/about/l-m-montgomery/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1911,
+          "event": "목사 이완 맥도널드와 결혼하고 온타리오주로 이주했다",
+          "event_en": "Married the Reverend Ewan Macdonald and moved to Ontario",
+          "place_id": null,
+          "source_url": "https://lmmontgomery.ca/about/l-m-montgomery/",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1942,
+          "event": "4월 24일 토론토에서 사망했고, 캐번디시 묘지에 묻혔다",
+          "event_en": "Died on 24 April in Toronto, and was buried in the Cavendish cemetery",
+          "place_id": null,
+          "source_url": "https://lmmontgomery.ca/about/l-m-montgomery/",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "green-gables-cavendish",
+          "name": "그린 게이블스(캐번디시, 프린스에드워드섬)",
+          "name_en": "Green Gables (Cavendish, Prince Edward Island)",
+          "geocode_query": "Green Gables Cavendish Prince Edward Island",
+          "type": "소설 배경 농가(현 국립사적지)",
+          "type_en": "Farmstead that inspired the novel's setting (now a National Historic Site)",
+          "source_url": "https://parks.canada.ca/lhn-nhs/pe/greengables/activ/maison-house",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 46.4887441,
+          "lng": -63.3821066
+        }
+      ],
+      "works": [
+        {
+          "title": "빨간 머리 앤",
+          "title_en": "Anne of Green Gables",
+          "note": "1908년 출간된 첫 소설로, 캐번디시 인근 매크닐 친척의 농가가 배경의 영감이 되었다",
+          "note_en": "Her first novel (1908); the Macneill relatives' farm near Cavendish inspired the setting",
+          "quote": "I'm so glad I live in a world where there are Octobers. It would be terrible if we just skipped from September to November, wouldn't it?",
+          "quote_ko": "시월이 있는 세상에 살고 있어서 정말 기뻐요. 만약 9월에서 11월로 그냥 건너뛴다면 끔찍할 거예요, 그렇죠?",
+          "quote_en": "",
+          "quote_source": "Anne of Green Gables (1908), Ch. 16",
+          "source_url": "https://www.gutenberg.org/files/45/45-h/45-h.htm",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "에밀리, 초승달 농장에서",
+          "title_en": "Emily of New Moon",
+          "note": "1923년 출간된 '에밀리' 3부작의 첫 작품이다",
+          "note_en": "Published in 1923, the first book in the Emily trilogy",
+          "source_url": "https://lmmontgomery.ca/about/l-m-montgomery/",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "source_grade": "A",
+      "verified": true,
+      "flags": []
     }
   ]
 }
