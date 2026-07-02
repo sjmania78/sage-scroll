@@ -103,6 +103,32 @@ body { display: flex; flex-direction: column; }
 .person-chip:hover { border-color: var(--seal-soft); color: var(--seal); }
 .person-chip.active { background: var(--seal); border-color: var(--seal); color: #fff; }
 
+/* ── 오늘의 인물 — 매일 KST 자정 기준 자동 로테이션 (app.js) ── */
+#today-sage {
+  display: flex; align-items: center; gap: 11px;
+  padding: 8px 24px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--rule);
+  flex-shrink: 0; overflow: hidden;
+}
+#today-sage[hidden] { display: none; }
+.ts-label {
+  font-family: var(--sans); font-size: 10.5px; font-weight: 700;
+  letter-spacing: .09em; text-transform: uppercase; color: var(--seal); flex-shrink: 0;
+}
+#today-sage-btn {
+  font-family: var(--serif); font-size: 14.5px; font-weight: 700;
+  background: transparent; color: var(--ink);
+  border: 1px solid var(--seal-soft); border-radius: 999px;
+  padding: 4px 15px; cursor: pointer; white-space: nowrap; flex-shrink: 0;
+  transition: all .15s ease;
+}
+#today-sage-btn:hover { background: var(--seal); border-color: var(--seal); color: #fff; }
+#today-sage-meta {
+  font-size: 12.5px; color: var(--ink-soft);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
 /* ── 레이아웃 ── */
 #layout { display: flex; flex: 1; min-height: 0; }
 #map { flex: 1; min-width: 0; background: var(--surface-2); }

@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sage Scroll — 한국 지성의 자취 지도</title>
+  <meta name="description" content="세계 지성의 자취를 장소 위에 — 연고지·생애·저작을 검증된 출처로 지도화. 사실과 그들의 말로만." />
+  <meta property="og:title" content="Sage Scroll — 지성의 자취 지도" />
+  <meta property="og:description" content="세계 지성의 연고지·생애·저작을 검증된 출처로 지도화 — 사실과 그들의 말로만." />
+  <meta property="og:type" content="website" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -44,6 +48,12 @@
     </div>
     <div id="person-list"></div>
   </nav>
+
+  <div id="today-sage" hidden>
+    <span class="ts-label"><span class="ko">오늘의 인물</span><span class="en">Figure of the day</span></span>
+    <button id="today-sage-btn" type="button"></button>
+    <span id="today-sage-meta"></span>
+  </div>
 
   <main id="layout">
     <div id="map"></div>

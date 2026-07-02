@@ -393,7 +393,31 @@ function setLang(lang) {
   buildEraTabs(document.getElementById("era-tabs"));
   buildFieldTabs(document.getElementById("field-tabs"));
   refreshList(false);
+  renderTodaySage();
   if (currentPerson) renderPerson(currentPerson, false);
+}
+
+// 오늘의 인물 스트립 — 인자 없이 부르면 언어만 갱신(setLang 경로). 사실 필드만 표기(스펙 §1 가드레일).
+let todaySagePerson = null;
+function renderTodaySage(p) {
+  if (p) todaySagePerson = p;
+  const ts = todaySagePerson;
+  const bar = document.getElementById("today-sage");
+  const btn = document.getElementById("today-sage-btn");
+  const meta = document.getElementById("today-sage-meta");
+  if (!bar || !btn || !ts) return;
+  btn.textContent = nameOf(ts);
+  const birth = ts.birthplace || {};
+  meta.textContent = [
+    t(ts.field, ts.field_en),
+    `${fmtYear(ts.birth_year)}–${fmtYear(ts.death_year)}`,
+    t(birth.admin, birth.admin_en) || "",
+  ].filter(Boolean).join(" · ");
+  if (!btn.dataset.bound) {
+    btn.dataset.bound = "1";
+    btn.addEventListener("click", () => renderPerson(todaySagePerson));
+  }
+  bar.hidden = false;
 }
 
 async function loadJSON(path) {
@@ -449,7 +473,16 @@ async function init() {
   const picker = document.querySelector(".route-picker");
   if (!routes.length && picker) picker.style.display = "none";
 
-  if (people.length) renderPerson(people[0], false);
+  // 오늘의 인물 — KST 날짜수 % 인물수로 결정적 로테이션. 매일 KST 자정 교체, 서버 불필요.
+  // 인물이 늘면 주기도 자연히 늘어난다. 첫 화면 패널도 오늘의 인물로 연다.
+  let todaySage = null;
+  if (people.length) {
+    const kstDay = Math.floor((Date.now() + 9 * 3600 * 1000) / 86400000);
+    todaySage = people[kstDay % people.length];
+    renderTodaySage(todaySage);
+  }
+  if (todaySage) renderPerson(todaySage, false);
+  else if (people.length) renderPerson(people[0], false);
 }
 
 init();
