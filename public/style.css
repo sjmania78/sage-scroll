@@ -130,8 +130,38 @@ body { display: flex; flex-direction: column; }
 }
 
 /* ── 레이아웃 ── */
-#layout { display: flex; flex: 1; min-height: 0; }
+#layout { display: flex; flex: 1; min-height: 0; position: relative; }
 #map { flex: 1; min-width: 0; background: var(--surface-2); }
+
+/* ── 시야 연동 인물 리스트 — 지도 좌상단 오버레이 (줌 컨트롤 아래) ── */
+#map-roster {
+  position: absolute; left: 12px; top: 92px; z-index: 900;
+  width: 186px; max-height: min(54vh, 440px); overflow-y: auto;
+  background: rgba(251, 248, 241, .94);
+  border: 1px solid var(--rule); border-radius: 10px;
+  padding: 9px 9px 7px;
+  box-shadow: 0 12px 28px -20px rgba(33, 28, 23, .55);
+}
+#map-roster[hidden] { display: none; }
+.mr-title {
+  font-family: var(--sans); font-size: 10px; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint);
+  padding: 2px 4px 7px;
+}
+.mr-count { color: var(--seal); }
+.mr-item {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 8px;
+  width: 100%; text-align: left;
+  font-family: var(--sans); font-size: 13px; color: var(--ink);
+  background: transparent; border: none; border-radius: 7px;
+  padding: 5px 7px; cursor: pointer; transition: background .12s, color .12s;
+}
+.mr-item:hover { background: var(--surface-2); color: var(--seal); }
+.mr-item.on { background: var(--seal); color: #fff; }
+.mr-item.on .mr-life { color: rgba(255,255,255,.75); }
+.mr-life { font-size: 10.5px; color: var(--ink-faint); white-space: nowrap; }
+.mr-more { font-size: 11px; color: var(--ink-faint); padding: 5px 7px 2px; }
+@media (max-width: 720px) { #map-roster { display: none; } }
 
 #panel {
   width: 424px; flex-shrink: 0;

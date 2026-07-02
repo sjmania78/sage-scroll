@@ -51,6 +51,7 @@ const TRUST_FLAGS = {
   "year-approx": ["연도 근사", "approx. date"],
   "grave-unknown": ["묘소 미상", "grave unknown"],
   "overseas": ["국외", "overseas"],
+  "coords-approx": ["좌표 근사(도시 중심)", "approx. location (city centroid)"],
 };
 
 const PERSON_CATS = [
@@ -394,6 +395,7 @@ function setLang(lang) {
   buildFieldTabs(document.getElementById("field-tabs"));
   refreshList(false);
   renderTodaySage();
+  refreshMapRoster();
   if (currentPerson) renderPerson(currentPerson, false);
 }
 
@@ -418,6 +420,26 @@ function renderTodaySage(p) {
     btn.addEventListener("click", () => renderPerson(todaySagePerson));
   }
   bar.hidden = false;
+}
+
+// 시야 연동 인물 리스트 — 지도를 움직일 때마다 현재 화면 안에 마커가 있는 인물을 갱신해 보여준다.
+function refreshMapRoster() {
+  const box = document.getElementById("map-roster");
+  if (!box || !allPeople.length) return;
+  const b = map.getBounds();
+  const inView = allPeople.filter((p) => (personMarkers[p.id] || []).some((m) => m && b.contains(m.getLatLng())));
+  if (!inView.length) { box.hidden = true; return; }
+  inView.sort((x, y) => (x.birth_year ?? 9999) - (y.birth_year ?? 9999));
+  const MAX = 14;
+  const shown = inView.slice(0, MAX);
+  box.innerHTML =
+    `<div class="mr-title">${t("이 지도 안의 인물", "In this view")} <span class="mr-count">${inView.length}</span></div>` +
+    shown.map((p) =>
+      `<button type="button" class="mr-item${p.id === activePersonId ? " on" : ""}" data-person="${p.id}">` +
+      `${nameOf(p)}<span class="mr-life">${fmtYear(p.birth_year)}–${fmtYear(p.death_year)}</span></button>`
+    ).join("") +
+    (inView.length > MAX ? `<div class="mr-more">${t(`외 ${inView.length - MAX}명 — 확대해서 좁혀보세요`, `+${inView.length - MAX} more — zoom in`)}</div>` : "");
+  box.hidden = false;
 }
 
 async function loadJSON(path) {
@@ -452,6 +474,14 @@ async function init() {
         placeIndex[pl.id] = { ...pl, marker: m, person: p };
       }
     });
+    // 장소 마커가 하나도 없으면 출생지 좌표로 대신 — 좌표 있는 인물이 지도에서 안 보이는 문제 방지
+    // (테크 선구자 16인이 places 없이 birthplace 좌표만 갖고 있던 케이스).
+    const b = p.birthplace;
+    if (!hasMarker && b && b.lat != null && b.lng != null) {
+      bounds.push([b.lat, b.lng]);
+      const m = addMarker(b.lat, b.lng, p, { name: "출생지", name_en: "Birthplace" });
+      placeIndex[`${p.id}-birth`] = { id: `${p.id}-birth`, lat: b.lat, lng: b.lng, name: b.admin, marker: m, person: p };
+    }
   });
 
   statCache = { placeCount, verifiedCount };
@@ -472,6 +502,19 @@ async function init() {
   const routes = (routesData && routesData.routes) || [];
   const picker = document.querySelector(".route-picker");
   if (!routes.length && picker) picker.style.display = "none";
+
+  // 시야 연동 인물 리스트 — 지도 이동/줌 때마다 갱신, 클릭하면 시점 유지한 채 패널 표시.
+  map.on("moveend", refreshMapRoster);
+  const roster = document.getElementById("map-roster");
+  if (roster) {
+    roster.addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-person]");
+      if (!btn) return;
+      const p = allPeople.find((x) => x.id === btn.getAttribute("data-person"));
+      if (p) { renderPerson(p, false); refreshMapRoster(); }
+    });
+  }
+  refreshMapRoster();
 
   // 오늘의 인물 — KST 날짜수 % 인물수로 결정적 로테이션. 매일 KST 자정 교체, 서버 불필요.
   // 인물이 늘면 주기도 자연히 늘어난다. 첫 화면 패널도 오늘의 인물로 연다.

@@ -196,14 +196,15 @@
       "birth_year": 1803,
       "death_year": 1877,
       "birthplace": {
-        "lat": null,
-        "lng": null,
+        "lat": 37.9716991,
+        "lng": 126.5527573,
         "admin": "개성(추정). 삭녕 최씨 가문이 대대로 개성에 거주한 점에 근거한 추정으로 1차 사료 확정 아님",
         "source_url": "https://encykorea.aks.ac.kr/Article/E0057736",
         "source_grade": "A",
         "flags": [
-          "coords-unverified",
-          "birthplace-presumed"
+          "birthplace-presumed",
+          "coords-approx",
+          "coords-osm"
         ],
         "admin_en": "Gaeseong (presumed). A presumption based on the Sangnyeong Choe clan having lived in Gaeseong for generations; not confirmed by primary sources"
       },
