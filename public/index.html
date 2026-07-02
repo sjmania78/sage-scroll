@@ -8,6 +8,10 @@
   <meta property="og:title" content="Sage Scroll — 지성의 자취 지도" />
   <meta property="og:description" content="세계 지성의 연고지·생애·저작을 검증된 출처로 지도화 — 사실과 그들의 말로만." />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://place-atlas.vercel.app/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,6 +38,10 @@
   </header>
 
   <nav id="person-bar">
+    <div class="nav-search">
+      <input id="person-search" type="search" autocomplete="off" />
+      <div id="search-results" hidden></div>
+    </div>
     <div class="nav-axis">
       <span class="axis-label"><span class="ko">지역</span><span class="en">Region</span></span>
       <div id="region-tabs"></div>

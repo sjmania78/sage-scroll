@@ -133,6 +133,8 @@ function setActivePerson(p, fly) {
 
 function renderPerson(p, fly = true) {
   currentPerson = p;
+  // 딥링크 동기화 — URL이 항상 현재 인물을 가리켜 그대로 공유 가능 (#p=<id>)
+  try { history.replaceState(null, "", "#p=" + p.id); } catch (e) {}
   setActivePerson(p, fly);
   document.getElementById("panel-empty").hidden = true;
   const box = document.getElementById("panel-content");
@@ -384,6 +386,8 @@ function applyLanguage() {
   document.documentElement.classList.add("lang-" + LANG);
   document.documentElement.lang = LANG;
   document.querySelectorAll(".lang-toggle button").forEach((b) => b.classList.toggle("on", b.dataset.lang === LANG));
+  const si = document.getElementById("person-search");
+  if (si) si.placeholder = t("인물 검색…", "Search figures…");
 }
 function setLang(lang) {
   LANG = lang;
@@ -420,6 +424,45 @@ function renderTodaySage(p) {
     btn.addEventListener("click", () => renderPerson(todaySagePerson));
   }
   bar.hidden = false;
+}
+
+// 인물 딥링크 — #p=<id> 해시에서 인물을 찾는다 (공유 링크 진입·hashchange용).
+function personFromHash() {
+  const m = (location.hash || "").match(/^#p=([\w-]+)/);
+  return m ? allPeople.find((p) => p.id === m[1]) : null;
+}
+
+// 인물 검색 — 이름(한/영)·분야 부분일치 최대 10명. 선택 시 지도 이동 + 패널.
+function wireSearch() {
+  const input = document.getElementById("person-search");
+  const results = document.getElementById("search-results");
+  if (!input || !results) return;
+  const close = () => { results.hidden = true; results.innerHTML = ""; };
+  input.addEventListener("input", () => {
+    const q = input.value.trim().toLowerCase();
+    if (!q) return close();
+    const hits = allPeople.filter((p) =>
+      (p.name_ko || "").toLowerCase().includes(q) ||
+      (p.name_en || "").toLowerCase().includes(q) ||
+      (p.field || "").toLowerCase().includes(q) ||
+      (p.field_en || "").toLowerCase().includes(q)
+    ).slice(0, 10);
+    results.innerHTML = hits.length
+      ? hits.map((p) =>
+          `<button type="button" class="sr-item" data-person="${p.id}">${nameOf(p)}` +
+          `<span class="sr-sub">${[t(p.field, p.field_en), `${fmtYear(p.birth_year)}–${fmtYear(p.death_year)}`].filter(Boolean).join(" · ")}</span></button>`
+        ).join("")
+      : `<div class="sr-empty">${t("결과 없음", "No matches")}</div>`;
+    results.hidden = false;
+  });
+  results.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-person]");
+    if (!btn) return;
+    const p = allPeople.find((x) => x.id === btn.getAttribute("data-person"));
+    if (p) { renderPerson(p); input.value = ""; close(); }
+  });
+  input.addEventListener("keydown", (e) => { if (e.key === "Escape") { input.value = ""; close(); input.blur(); } });
+  document.addEventListener("click", (e) => { if (!e.target.closest(".nav-search")) close(); });
 }
 
 // 시야 연동 인물 리스트 — 지도를 움직일 때마다 현재 화면 안에 마커가 있는 인물을 갱신해 보여준다.
@@ -524,7 +567,15 @@ async function init() {
     todaySage = people[kstDay % people.length];
     renderTodaySage(todaySage);
   }
-  if (todaySage) renderPerson(todaySage, false);
+  // 검색 + 딥링크 — 공유 링크(#p=id)로 들어오면 그 인물을 바로 연다(오늘의 인물보다 우선).
+  wireSearch();
+  window.addEventListener("hashchange", () => {
+    const p = personFromHash();
+    if (p && p !== currentPerson) renderPerson(p);
+  });
+  const linked = personFromHash();
+  if (linked) renderPerson(linked);
+  else if (todaySage) renderPerson(todaySage, false);
   else if (people.length) renderPerson(people[0], false);
 }
 
