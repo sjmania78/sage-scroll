@@ -1,0 +1,17 @@
+{
+  "id": "/",
+  "name": "Sage Scroll — 세계 지성의 자취 지도",
+  "short_name": "Sage Scroll",
+  "description": "세계 지성의 자취를 장소 위에 · 사실과 그들의 말로만",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#8f2d22",
+  "theme_color": "#b23a2c",
+  "lang": "ko",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
