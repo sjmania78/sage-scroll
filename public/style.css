@@ -344,7 +344,8 @@ body { display: flex; flex-direction: column; }
 /* ── 반응형 ── */
 @media (max-width: 780px) {
   #layout { flex-direction: column; }
-  #map { height: 48vh; }
+  /* column에선 flex-basis(0)가 height를 무시해 지도가 0px로 접힘 — basis를 48vh로 고정 */
+  #map { flex: 0 0 48vh; height: 48vh; }
   #panel { width: 100%; border-left: none; border-top: 1px solid var(--rule); }
   .person { padding: 26px 22px 44px; }
   .person-name { font-size: 29px; }
