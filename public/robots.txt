@@ -1,0 +1,7 @@
+# Sage Scroll robots policy
+# Allow all crawlers, including AI search and answer bots.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://sage.bluetronai.com/sitemap.xml
