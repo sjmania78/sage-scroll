@@ -28,6 +28,7 @@ L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
 const placeIndex = {};
 const personMarkers = {};
 const personChips = {};
+const personById = {};
 let activePersonId = null;
 let currentPerson = null;
 let allPeople = [];
@@ -118,12 +119,30 @@ function focusPlace(id) {
   if (p.marker) p.marker.openPopup();
 }
 
+// 교류·영향 선 — 선택 인물과 관계 인물의 핀을 잇는 붉은 점선. 선택이 바뀌면 지운다.
+let linkLines = null;
+function drawLinkLines(p) {
+  if (linkLines) { map.removeLayer(linkLines); linkLines = null; }
+  const from = (personMarkers[p.id] || [])[0];
+  if (!from || !p.links || !p.links.length) return;
+  const lines = [];
+  p.links.forEach((l) => {
+    const to = (personMarkers[l.id] || [])[0];
+    if (!to) return;
+    lines.push(L.polyline([from.getLatLng(), to.getLatLng()], {
+      color: "#b23a2c", weight: 1.6, opacity: 0.5, dashArray: "4 7", interactive: false,
+    }));
+  });
+  if (lines.length) linkLines = L.layerGroup(lines).addTo(map);
+}
+
 function setActivePerson(p, fly) {
   if (activePersonId && personChips[activePersonId]) personChips[activePersonId].classList.remove("active");
   if (personChips[p.id]) personChips[p.id].classList.add("active");
   if (activePersonId && personMarkers[activePersonId]) personMarkers[activePersonId].forEach((m) => m.setIcon(pinIcon(false)));
   if (personMarkers[p.id]) personMarkers[p.id].forEach((m) => m.setIcon(pinIcon(true)));
   activePersonId = p.id;
+  drawLinkLines(p);
   if (fly && personMarkers[p.id] && personMarkers[p.id].length) {
     const pts = personMarkers[p.id].map((m) => m.getLatLng());
     if (pts.length === 1) map.setView(pts[0], Math.max(map.getZoom(), 9), { animate: true });
@@ -171,12 +190,32 @@ function renderPerson(p, fly = true) {
     const isHero = hero && w === hero;
     const q = w.quote && !isHero
       ? `<blockquote class="work-quote">${w.quote}${qTrans(w) ? `<span class="wq-trans">${qTrans(w)}</span>` : ""}${w.quote_source ? `<cite>${t(w.quote_source, w.quote_source_en)}</cite>` : ""}</blockquote>` : "";
-    return `<div class="work">
+    const img = w.image
+      ? `<a class="work-img" href="${w.image.source_url}" target="_blank" rel="noopener" title="Wikimedia"><img src="${w.image.url}" alt="${t(w.title, w.title_en) || ""}" loading="lazy" onerror="this.parentElement.style.display='none'" /></a>` : "";
+    return `<div class="work${img ? " has-img" : ""}">${img}<div class="work-main">
       <span class="work-title">${t(w.title, w.title_en)}</span>${w.year != null ? `<span class="work-year">${fmtYear(w.year)}</span>` : ""}
       ${w.note ? `<span class="work-note">${t(w.note, w.note_en)}</span>` : ""}${q}
       <span class="work-src">${srcMark(w.source_url)}${trustNote(w.flags)}</span>
-    </div>`;
+    </div></div>`;
   }).join("") || `<div class="seg-empty">${t("기록 없음", "No records")}</div>`;
+
+  // 교류·영향 — 위키데이터(P737·P1066 등) 기준, 데이터셋 안의 인물 쌍만. 사실 관계만 표기(가드레일).
+  const REL_TAG = {
+    student_of: ["스승", "teacher"],
+    teacher_of: ["제자", "student"],
+    influenced_by: ["영향 받음", "influenced by"],
+    influenced: ["영향 줌", "influenced"],
+  };
+  const linkChips = (p.links || []).map((l) => {
+    const q2 = personById[l.id];
+    if (!q2) return "";
+    const tag = REL_TAG[l.rel] || ["관계", "related"];
+    return `<button type="button" class="link-chip" data-person="${l.id}">
+      <span class="lc-name">${nameOf(q2)}</span><span class="lc-rel">${t(tag[0], tag[1])}</span>
+      <span class="lc-life">${fmtYear(q2.birth_year)}–${fmtYear(q2.death_year)}</span>${srcMark(l.source_url)}</button>`;
+  }).join("");
+  const linksSection = linkChips
+    ? `<section class="seg"><h3 class="seg-title">${t("교류·영향", "Connections")}<span class="hint">${t("위키데이터 기준 · 지도에 붉은 선", "from Wikidata · red lines on the map")}</span></h3><div class="link-chips">${linkChips}</div></section>` : "";
 
   const placesHtml = (p.places || []).map((pl) => {
     const clickable = placeIndex[pl.id] && placeIndex[pl.id].lat != null;
@@ -185,17 +224,24 @@ function renderPerson(p, fly = true) {
     </div>`;
   }).join("") || `<div class="seg-empty">${t("검증된 연고 장소 없음", "No verified places")}</div>`;
 
+  const portraitHtml = p.portrait
+    ? `<figure class="person-portrait"><img src="${p.portrait.url}" alt="${nameOf(p)}" onerror="this.closest('.person-portrait').style.display='none'" /><figcaption><a href="${p.portrait.source_url}" target="_blank" rel="noopener">Wikimedia</a></figcaption></figure>` : "";
+
   box.innerHTML = `
     <article class="person">
       <header class="person-head">
-        <h2 class="person-name">${nameOf(p)}${verify}</h2>
-        <div class="person-en">${subNameOf(p)}</div>
-        <div class="person-meta">${[t(p.field, p.field_en), lifespan].filter(Boolean).join(" · ")}</div>
-        ${birthLine}
+        <div class="person-head-text">
+          <h2 class="person-name">${nameOf(p)}${verify}</h2>
+          <div class="person-en">${subNameOf(p)}</div>
+          <div class="person-meta">${[t(p.field, p.field_en), lifespan].filter(Boolean).join(" · ")}</div>
+          ${birthLine}
+        </div>
+        ${portraitHtml}
       </header>
       ${heroHtml}
       <section class="seg"><h3 class="seg-title">${t("생애", "Life")}<span class="hint">${t("📍 누르면 지도가 그곳으로", "📍 tap to move the map")}</span></h3><ol class="timeline">${timelineHtml}</ol></section>
       <section class="seg"><h3 class="seg-title">${t("저작", "Works")}<span class="hint">${t("사료 원문", "primary sources")}</span></h3>${worksHtml}</section>
+      ${linksSection}
       <section class="seg"><h3 class="seg-title">${t("연고 장소", "Places")}</h3>${placesHtml}</section>
     </article>`;
 }
@@ -506,6 +552,7 @@ async function init() {
   let placeCount = 0, verifiedCount = 0;
 
   people.forEach((p) => {
+    personById[p.id] = p;
     if (p.verified !== false) verifiedCount++;
     let hasMarker = false; // 한 인물당 마커 1개 (첫 좌표 장소)
     (p.places || []).forEach((pl) => {
@@ -538,6 +585,8 @@ async function init() {
 
   document.getElementById("panel-content").addEventListener("click", (e) => {
     if (e.target.closest(".src-mark")) return;
+    const pb = e.target.closest("[data-person]");
+    if (pb) { const q = personById[pb.getAttribute("data-person")]; if (q) renderPerson(q); return; }
     const el = e.target.closest("[data-place]");
     if (el) focusPlace(el.getAttribute("data-place"));
   });

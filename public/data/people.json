@@ -186,7 +186,11 @@
       "flags": [
         "birthdate-variant"
       ],
-      "field_en": "Silhak scholar and government official"
+      "field_en": "Silhak scholar and government official",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeong_Yak-yong.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jeong_Yak-yong.jpg"
+      }
     },
     {
       "id": "choe-hangi",
@@ -326,7 +330,11 @@
         "deathyear-disputed",
         "no-places"
       ],
-      "field_en": "Silhak scholar and philosopher"
+      "field_en": "Silhak scholar and philosopher",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Choe_Han-gi.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Choe_Han-gi.jpg"
+      }
     },
     {
       "id": "yun-dongju",
@@ -510,7 +518,11 @@
           "source_grade": "A",
           "flags": [],
           "title_en": "Sky, Wind, Stars, and Poetry (Haneulgwa Baramgwa Byeolgwa Si)",
-          "note_en": "Posthumous poetry collection. Published by Jeongeumsa. First edition contained 31 poems."
+          "note_en": "Posthumous poetry collection. Published by Jeongeumsa. First edition contained 31 poems.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Yoon_Dong_Joo%27s_poem_stone_in_Kyoto.JPG/500px-Yoon_Dong_Joo%27s_poem_stone_in_Kyoto.JPG",
+            "source_url": "https://ko.wikipedia.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C"
+          }
         }
       ],
       "source_grade": "A",
@@ -519,7 +531,11 @@
         "overseas-birthplace",
         "coords-unverified"
       ],
-      "field_en": "Poet"
+      "field_en": "Poet",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoon_Dong-ju.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Yoon_Dong-ju.jpg"
+      }
     },
     {
       "id": "yi-sang",
@@ -659,7 +675,11 @@
           "flags": [],
           "title_en": "Mirror (Geoul)",
           "note_en": "Poem. Published in Catholic Youth (Gatollik Cheongnyeon) in 1933.",
-          "quote_en": "Inside the mirror there is no sound. Surely there is no world anywhere as quiet as that."
+          "quote_en": "Inside the mirror there is no sound. Surely there is no world anywhere as quiet as that.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Mirror.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EC%9A%B8"
+          }
         },
         {
           "title": "날개",
@@ -672,7 +692,11 @@
           "flags": [],
           "title_en": "Wings (Nalgae)",
           "note_en": "Short story. Published in the September issue of Jogwang in 1936.",
-          "quote_en": "Do you know of a genius who has become a stuffed specimen?"
+          "quote_en": "Do you know of a genius who has become a stuffed specimen?",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Swan.spreads.wings.arp.jpg/500px-Swan.spreads.wings.arp.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%82%A0%EA%B0%9C"
+          }
         }
       ],
       "source_grade": "A",
@@ -681,7 +705,11 @@
         "birthplace-disputed",
         "coords-unverified"
       ],
-      "field_en": "Poet and novelist"
+      "field_en": "Poet and novelist",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leesang.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Leesang.jpg"
+      }
     },
     {
       "id": "sejong-the-great",
@@ -854,7 +882,11 @@
       "flags": [
         "coords-unverified"
       ],
-      "field_en": "4th King of Joseon"
+      "field_en": "4th King of Joseon",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/10000_won_banknote_%28cropped%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:10000_won_banknote_%28cropped%29.jpg"
+      }
     },
     {
       "id": "yi-sun-sin",
@@ -1048,7 +1080,11 @@
         "coords-unverified",
         "birthplace-disputed"
       ],
-      "field_en": "Military officer of Joseon (naval commander)"
+      "field_en": "Military officer of Joseon (naval commander)",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bust_of_Yi_Sun-sin_01.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Yi_Sun-sin_01.jpg"
+      }
     },
     {
       "id": "han-yongun",
@@ -1202,7 +1238,11 @@
       "flags": [
         "coords-unverified"
       ],
-      "field_en": "Poet, Buddhist monk, and independence activist"
+      "field_en": "Poet, Buddhist monk, and independence activist",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Han_Yongun.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Han_Yongun.jpg"
+      }
     },
     {
       "id": "sin-chaeho",
@@ -1359,7 +1399,11 @@
           "source_grade": "A",
           "flags": [],
           "title_en": "Joseon Revolution Declaration",
-          "note_en": "The manifesto of the Uiyeoldan (Heroic Corps). Issued in 1923."
+          "note_en": "The manifesto of the Uiyeoldan (Heroic Corps). Issued in 1923.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Declaration_of_Joseon_Revolution.png/500px-Declaration_of_Joseon_Revolution.png",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0%ED%98%81%EB%AA%85%EC%84%A0%EC%96%B8"
+          }
         }
       ],
       "source_grade": "A",
@@ -1368,7 +1412,11 @@
         "birthplace-disputed",
         "coords-unverified"
       ],
-      "field_en": "Historian, journalist, and independence activist"
+      "field_en": "Historian, journalist, and independence activist",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%EB%8B%A8%EC%9E%AC%EC%8B%A0%EC%B1%84%ED%98%B8.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%EB%8B%A8%EC%9E%AC%EC%8B%A0%EC%B1%84%ED%98%B8.jpg"
+      }
     },
     {
       "id": "jeong-jiyong",
@@ -1530,7 +1578,11 @@
         "death-disputed",
         "coords-unverified"
       ],
-      "field_en": "Poet"
+      "field_en": "Poet",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%EC%A0%95%EC%A7%80%EC%9A%A9_%EB%AC%B8%ED%95%99%EA%B4%80_%EC%84%A4%EB%AA%85.JPG?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%EC%A0%95%EC%A7%80%EC%9A%A9_%EB%AC%B8%ED%95%99%EA%B4%80_%EC%84%A4%EB%AA%85.JPG"
+      }
     },
     {
       "id": "kim-yujeong",
@@ -1664,7 +1716,11 @@
           ],
           "title_en": "Camellias (Dongbaekkkot)",
           "note_en": "A short story set in the rural Gangwon countryside. Published in 1936.",
-          "quote_en": "Today again, our rooster was being chased about."
+          "quote_en": "Today again, our rooster was being chased about.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Camellia_japonica_NBG.jpg/500px-Camellia_japonica_NBG.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%8F%99%EB%B0%B1%EB%82%98%EB%AC%B4"
+          }
         },
         {
           "title": "봄봄",
@@ -1684,7 +1740,11 @@
         "deathplace-variant",
         "coords-unverified"
       ],
-      "field_en": "Novelist"
+      "field_en": "Novelist",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/YuJeong_Kim.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:YuJeong_Kim.jpg"
+      }
     },
     {
       "id": "lee-yuksa",
@@ -1860,7 +1920,11 @@
         "admin-name-variant",
         "coords-unverified"
       ],
-      "field_en": "Poet and independence activist"
+      "field_en": "Poet and independence activist",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yiyuksa_264.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Yiyuksa_264.jpg"
+      }
     },
     {
       "id": "lee-jung-seop",
@@ -2020,7 +2084,11 @@
             "year-approx"
           ],
           "title_en": "Hwangso (Bull)",
-          "note_en": "Oil on canvas. Held at the Leeum, Samsung Museum of Art. One of the bull series from his Tongyeong and Seoul period of 1953-1954."
+          "note_en": "Oil on canvas. Held at the Leeum, Samsung Museum of Art. One of the bull series from his Tongyeong and Seoul period of 1953-1954.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Taureau_charolais_au_pr%C3%A9.jpg/500px-Taureau_charolais_au_pr%C3%A9.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%86%8C"
+          }
         },
         {
           "title": "흰소",
@@ -2034,7 +2102,11 @@
             "year-approx"
           ],
           "title_en": "Huinso (White Ox)",
-          "note_en": "Oil on wood panel. Held at the Hongik University Museum."
+          "note_en": "Oil on wood panel. Held at the Hongik University Museum.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/White_Ox_%281954%29_-_Lee_Jung_Seob.jpg/500px-White_Ox_%281954%29_-_Lee_Jung_Seob.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%ED%9D%B0_%EC%86%8C"
+          }
         },
         {
           "title": "가족",
@@ -2048,7 +2120,11 @@
             "year-unverified"
           ],
           "title_en": "Gajok (Family)",
-          "note_en": "Oil on paper. Held at the Leeum, Samsung Museum of Art. Date of production unknown."
+          "note_en": "Oil on paper. Held at the Leeum, Samsung Museum of Art. Date of production unknown.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Sauk_Indian_family_by_Frank_Rinehart_1899.jpg/500px-Sauk_Indian_family_by_Frank_Rinehart_1899.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%A1%B1"
+          }
         },
         {
           "title": "은지화(은박지 그림) 연작",
@@ -2073,7 +2149,11 @@
         "overseas"
       ],
       "note": "호 대향(大鄕), 본관 장수, 한자명 李仲燮. 생년 1916·몰년 1956은 한국민족문화대백과사전 일치. 정확한 생몰일(1916-04-10 출생, 1956-09-06 사망)과 출생지 번지(평원군 조운면 송천리 742)는 위키백과 표기라 해당 항목에 wiki-only/C 플래그. 출생지 송천리는 현재 북한 소재로 좌표 미확보·overseas. 원산 결혼·피난 출발지도 북한(overseas). 서귀포 거주 시기(1951년 1월~약 1년)는 서귀포시 문화예술포털(이중섭미술관) A급 출처. 이중섭미술관 좌표(33.2452, 126.5645)와 도로명 주소 '제주특별자치도 서귀포시 이중섭로 33(서귀동)'은 한국관광공사 visitkorea 공식 지도값. 미술관은 2002년 개관, 1951년 거주지를 복원해 경내에 포함. 작품 소장처는 한국민족문화대백과사전 기준이며 일부 제작연도는 자료별 차이가 있어 year-approx/year-unverified.",
-      "field_en": "Western-style painter"
+      "field_en": "Western-style painter",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9D%B4%EC%A4%91%EC%84%AD_%ED%99%94%EB%B0%B1.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EC%A4%91%EC%84%AD_%ED%99%94%EB%B0%B1.jpg"
+      }
     },
     {
       "id": "kim-whanki",
@@ -2248,7 +2328,11 @@
           "source_grade": "A",
           "flags": [],
           "title_en": "Rondo",
-          "note_en": "Oil on canvas, 61×72 cm. Held at the National Museum of Modern and Contemporary Art. An abstract work from his period of study in Japan."
+          "note_en": "Oil on canvas, 61×72 cm. Held at the National Museum of Modern and Contemporary Art. An abstract work from his period of study in Japan.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Franz_Rigler_three_rondos.jpg/500px-Franz_Rigler_three_rondos.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Rondo"
+          }
         },
         {
           "title": "어디서 무엇이 되어 다시 만나랴",
@@ -2286,7 +2370,11 @@
         "birthdate-variant"
       ],
       "note": "호 수화(樹話), 한자명 金煥基. 생년 1913·몰년 1974는 한국민족문화대백과사전 일치. 출생지 '신안군 안좌면 읍동리'는 한국민족문화대백과사전 A급. 정확한 출생일(양력 1913-04-13, 음력 2월 27일)·사망일(1974-07-25, 뉴욕)은 위키백과 표기라 해당 항목 wiki-only/C·birthdate-variant. 환기미술관 주소는 '서울특별시 종로구 자하문로40길 63(부암동)'(visitkorea 영문 페이지), 1992-11-05 개관(부인 김향안이 1978년 설립한 환기재단). 신안 김환기 고택은 국가민속문화재(2007-10-12 지정), 주소 '전남 신안군 안좌면 안좌서부길 38-1(읍동리)', 안채 1920·화실 1940년대 건축. 환기미술관·고택 좌표는 한국 공식 출처에서 위경도 숫자를 교차검증하지 못해 null(coords-unverified), 도로명 주소만 보존. 파리·뉴욕 체류는 overseas.",
-      "field_en": "Western-style painter"
+      "field_en": "Western-style painter",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%EA%B9%80%ED%99%98%EA%B8%B0_%ED%99%94%EB%B0%B1.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%EA%B9%80%ED%99%98%EA%B8%B0_%ED%99%94%EB%B0%B1.jpg"
+      }
     },
     {
       "id": "park-soo-keun",
@@ -2457,7 +2545,11 @@
         "birthdate-variant"
       ],
       "note": "한자명 朴壽根. 생년 1914·몰년 1965는 한국민족문화대백과사전 일치. 출생지 '양구군 양구면 정림리'는 한국민족문화대백과사전 A급. 정확한 출생일(1914-02-21)·사망일(1965-05-06)·사망지(서울 동대문구 전농동)는 위키백과 표기라 해당 항목 wiki-only/C·birthdate-variant. 양구군립 박수근미술관은 2002-10-25 개관, 생가 터에 건립(한국민족문화대백과사전). 도로명 주소 '강원특별자치도 양구군 양구읍 박수근로 265-15'(visitkorea·양구군 관광). 미술관·생가터 좌표는 한국 공식 출처에서 위경도 숫자를 확인하지 못해 null(coords-unverified), 도로명 주소만 보존. 작품 제작연도·소장처는 한국민족문화대백과사전 기준.",
-      "field_en": "Western-style painter"
+      "field_en": "Western-style painter",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%EB%B0%95%EC%88%98%EA%B7%BC_%ED%99%94%EB%B0%B1.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%EB%B0%95%EC%88%98%EA%B7%BC_%ED%99%94%EB%B0%B1.jpg"
+      }
     },
     {
       "id": "na-hye-seok",
@@ -2680,7 +2772,11 @@
         "coords-unverified"
       ],
       "note": "호 정월(晶月), 한자명 羅蕙錫. 이칭 명순(明順)·아지(兒只). 생년 1896·몰년 1948은 한국민족문화대백과사전 일치, 생몰일(1896-04-28 출생, 1948-12-10 사망)도 한국민족문화대백과사전·위키백과 일치. 한국 최초의 여성 서양화가. 출생지는 '경기도 수원'(한국민족문화대백과사전), 세부 행정구역 신풍동은 위키·언론 표기. 사망지는 서울 시립 자제원(자혜원) 무연고자 병동. 나혜석거리는 2000년 수원시 팔달구 인계동(농조예식장~효원공원 구간, 길이 약 440m)에 조성(경기일보 등 B급 언론). 나혜석거리·출생지 좌표는 공식 위경도 미확보로 null(coords-unverified). 「이혼고백장」 원문 구절은 위키백과 인용본을 옮긴 것으로 wiki-only/quote-partial(부분 인용) — 1차 원문 대조는 미완. 작품 「무희」·「스페인 해수욕장」 제작연도는 자료에 정확 연도가 없어 year-unverified.",
-      "field_en": "Western-style painter and writer"
+      "field_en": "Western-style painter and writer",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%EB%82%98%ED%98%9C%EC%84%9D-Na_Hye-seok.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%EB%82%98%ED%98%9C%EC%84%9D-Na_Hye-seok.jpg"
+      }
     },
     {
       "id": "lee-hyoseok",
@@ -2897,7 +2993,11 @@
         "deathdate-approx"
       ],
       "note": "한자 李孝石, 호 가산(可山), 본관 전주. 생년 1907·몰년 1942는 한국민족문화대백과사전(A) 기준. 한국민족문화대백과사전은 사망 날짜를 명시하지 않으며(향년 36세, 뇌막염), 1942-05-25 사망설은 B/C 자료에서만 확인되어 deathdate-approx. 출생지는 평창 봉평(창동리)이 공식·복원 생가 위치이나, 유족이 진부면 하진부리 196을 실제 출생지로 본다는 강원일보(2019) 보도가 있어 birthplace-disputed. 평양 숭실전문학교 교수 부임 연도는 한국민족문화대백과사전 서술상 1934로 보이나 위키 등은 1936~1938로 적어 year-disputed. 이효석문학관(강원특별자치도 평창군 봉평면 효석문학길 73-25, 창동리 544-3)과 복원 생가(봉평면 이효석길 33-11)는 한국관광공사 열린관광 페이지에 공식 좌표가 공개되어 소수점 4자리로 기재. 효석달빛언덕은 공식 좌표 미공개로 coords-unverified(주소: 봉평면 효석문학길 일원). 평창의 이효석 연고지는 국가유산청 지정 문화유산이 아닌 지자체 문화시설. 「메밀꽃 필 무렵」은 공유저작물(공유마당)이라 원문 인용 가능, 인용 텍스트는 위키문헌 기준이므로 정본 대조 권장(quote-wiki-source).",
-      "field_en": "Novelist"
+      "field_en": "Novelist",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9D%B4%ED%9A%A8%EC%84%9D_%EC%9E%91%EA%B0%80.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%EC%9D%B4%ED%9A%A8%EC%84%9D_%EC%9E%91%EA%B0%80.jpg"
+      }
     },
     {
       "id": "chae-mansik",
@@ -3339,7 +3439,11 @@
         "year-variant"
       ],
       "note": "한자 李珥, 자 숙헌(叔獻), 호 율곡(栗谷)·석담(石潭)·우재(愚齋), 본관 덕수, 시호 문성(文成). 생년 1536·몰년 1584는 모든 A급 출처 일치(이설 없음). 어머니는 신사임당(1504~1551). 황해도관찰사·대사간 등 일부 관직의 임명 연도는 우리역사넷(1573 황해도관찰사)과 다른 연보(1574)가 달라 1574 항목에 year-variant 플래그(관직 보임 사실 자체는 확실, 연도만 출처별 차이). 강릉 오죽헌은 보물(1963 지정, 강원특별자치도 강릉시 율곡로3139번길 24, 죽헌동), 파주 이이 유적은 사적(2013 지정, 경기도 파주시 법원읍 자운서원로 204, 자운서원·이이 묘·신사임당 합장묘 포함), 강릉 송담서원은 강원도 유형문화재(강릉시 강동면 송담서원길 27-5). 세 곳 모두 국가유산청·지자체 공식 페이지에 위경도가 공개되지 않아 coords-unverified, 도로명 주소만 보존(좌표 날조 금지). 『격몽요결』·『성학집요』·『동호문답』은 16세기 저작으로 공유. 격몽요결 서문 한문 원구는 전통문화연구회 원문 DB 기준(quote-secondary-source), 성학집요·동호문답은 A급 사전 본문에 확정 원문 인용이 없어 생략.",
-      "field_en": "Neo-Confucian scholar and government official"
+      "field_en": "Neo-Confucian scholar and government official",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03013.JPG?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03013.JPG"
+      }
     },
     {
       "id": "yi-hwang",
@@ -3571,7 +3675,11 @@
         "year-variant"
       ],
       "note": "한자 李滉, 자 경호(景浩), 호 퇴계(退溪)·퇴도(退陶)·도수(陶叟), 본관 진보, 시호 문순(文純). 생년 1501·몰년 1570은 A급 출처 일치(이설 없음). 출생지는 예안현 온계리(현 안동시 도산면 온혜리) 노송정. 도산서당 건립 연도는 출처 간 차이(우리역사넷 1559, 한국민족문화대백과사전 1560, 안동시 도산서원 공식 1561)가 있어 year-variant(본 데이터는 운영기관인 안동시 도산서원 공식 표기 1561 채택). 안동 도산서원은 사적(1969 지정)·유네스코 세계유산 '한국의 서원'(2019)으로 경북 안동시 도산면 도산서원길 154(토계리). 퇴계태실(노송정 종택, 경북 안동시 도산면 온혜중마길 46-5)은 1985 경북 민속문화재 지정 후 2018-11-01 지정 해제됨(designation-lifted). 퇴계종택은 경상북도 기념물(안동시 도산면 백운로 268, 토계리, 1982 지정). 이황 묘소는 도산면 토계리 하계마을 뒷산에 있으며 묘비명은 '퇴도만은진성이공지묘'(출처 디지털안동문화대전, 한국학중앙연구원 운영, A). 네 곳 모두 공식 페이지에 위경도가 공개되지 않아 coords-unverified, 도로명/지명만 보존(좌표 날조 금지). 『성학십도』·「도산십이곡」은 16세기 저작으로 공유. 도산십이곡 제1수는 위키문헌 고어 원문 기준(quote-wiki-source). 자성록 정리 연도는 58세(1558년경)로 출처 표기되어 year-approx.",
-      "field_en": "Neo-Confucian scholar and government official"
+      "field_en": "Neo-Confucian scholar and government official",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_of_Yi_Hwang.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Statue_of_Yi_Hwang.jpg"
+      }
     },
     {
       "id": "kim-sowol",
@@ -3712,7 +3820,11 @@
           "flags": [],
           "title_en": "Azaleas (Jindallaekkot)",
           "note_en": "The only poetry collection published in his lifetime, issued by Maemunsa in 1925. The title poem was first published in Gaebyeok in 1922, a free-verse poem of 4 stanzas and 12 lines.",
-          "quote_en": "When you, sick of the sight of me, go away, I will let you go gently, without a word"
+          "quote_en": "When you, sick of the sight of me, go away, I will let you go gently, without a word",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%EC%A7%84%EB%8B%AC%EB%9E%98%EA%BD%83-%ED%95%9C%EA%B5%AD%EA%B7%BC%EB%8C%80%EB%AC%B8%ED%95%99%EA%B4%80.jpg/500px-%EC%A7%84%EB%8B%AC%EB%9E%98%EA%BD%83-%ED%95%9C%EA%B5%AD%EA%B7%BC%EB%8C%80%EB%AC%B8%ED%95%99%EA%B4%80.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%A7%84%EB%8B%AC%EB%9E%98%EA%BD%83"
+          }
         },
         {
           "title": "엄마야 누나야",
@@ -3743,7 +3855,11 @@
       "flags": [
         "death-disputed"
       ],
-      "field_en": "Poet"
+      "field_en": "Poet",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kim_Sowol.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kim_Sowol.jpg"
+      }
     },
     {
       "id": "an-junggeun",
@@ -3912,7 +4028,11 @@
         "grave-unknown",
         "overseas"
       ],
-      "field_en": "Independence activist and thinker"
+      "field_en": "Independence activist and thinker",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/An_Jung-geun.JPG?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:An_Jung-geun.JPG"
+      }
     },
     {
       "id": "yun-seondo",
@@ -4086,7 +4206,11 @@
       "source_grade": "A",
       "verified": true,
       "flags": [],
-      "field_en": "Sijo poet and civil official"
+      "field_en": "Sijo poet and civil official",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portraits_of_kings_at_Tongiljeon.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Portraits_of_kings_at_Tongiljeon.jpg"
+      }
     },
     {
       "id": "kim-jeonghui",
@@ -4246,7 +4370,11 @@
       "source_grade": "A",
       "verified": true,
       "flags": [],
-      "field_en": "Calligrapher, epigrapher, and civil official"
+      "field_en": "Calligrapher, epigrapher, and civil official",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kim_Jeong-hui.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kim_Jeong-hui.jpg"
+      }
     },
     {
       "id": "confucius",
@@ -4389,7 +4517,23 @@
       "flags": [
         "year-approx"
       ],
-      "field_en": "Thinker and philosopher (Confucianism)"
+      "field_en": "Thinker and philosopher (Confucianism)",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Confucius%2C_fresco_from_a_Western_Han_tomb_of_Dongping_County%2C_Shandong_province%2C_China.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Confucius%2C_fresco_from_a_Western_Han_tomb_of_Dongping_County%2C_Shandong_province%2C_China.jpg"
+      },
+      "links": [
+        {
+          "id": "mencius",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q188903"
+        },
+        {
+          "id": "voltaire",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9068"
+        }
+      ]
     },
     {
       "id": "du-fu",
@@ -4518,7 +4662,11 @@
         "birthplace-disputed",
         "death-disputed"
       ],
-      "field_en": "Poet"
+      "field_en": "Poet",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dufu.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dufu.jpg"
+      }
     },
     {
       "id": "matsuo-basho",
@@ -4656,7 +4804,11 @@
       "source_grade": "A",
       "verified": true,
       "flags": [],
-      "field_en": "Haiku poet"
+      "field_en": "Haiku poet",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Basho_by_Buson.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Basho_by_Buson.jpg"
+      }
     },
     {
       "id": "murasaki-shikibu",
@@ -4805,7 +4957,11 @@
         "birthplace-presumed",
         "authorship-traditional"
       ],
-      "field_en": "Writer and poet (Heian court)"
+      "field_en": "Writer and poet (Heian court)",
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Murasaki-Shikibu-composing-Genji-Monogatari.png?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Murasaki-Shikibu-composing-Genji-Monogatari.png"
+      }
     },
     {
       "id": "socrates",
@@ -4927,6 +5083,22 @@
       "verified": true,
       "flags": [
         "year-approx"
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Socrates_Louvre.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg"
+      },
+      "links": [
+        {
+          "id": "aristotle",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q868"
+        },
+        {
+          "id": "plato",
+          "rel": "teacher_of",
+          "source_url": "https://www.wikidata.org/wiki/Q859"
+        }
       ]
     },
     {
@@ -5042,7 +5214,11 @@
           "quote_source": "Hamlet, Act 3, Scene 1 (Folger Shakespeare Library)",
           "source_url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/3/1/",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Edwin_Booth_Hamlet_1870.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%ED%96%84%EB%A6%BF"
+          }
         },
         {
           "title": "로미오와 줄리엣",
@@ -5055,12 +5231,52 @@
           "quote_source": "Romeo and Juliet, Act 2, Scene 2 (Folger Shakespeare Library)",
           "source_url": "https://www.folger.edu/explore/shakespeares-works/romeo-and-juliet/",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Romeo_and_juliet_brown.jpg/500px-Romeo_and_juliet_brown.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%AF%B8%EC%98%A4%EC%99%80_%EC%A4%84%EB%A6%AC%EC%97%A3"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shakespeare.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Shakespeare.jpg"
+      },
+      "links": [
+        {
+          "id": "andersen",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q5673"
+        },
+        {
+          "id": "dostoevsky",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q991"
+        },
+        {
+          "id": "goethe",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q5879"
+        },
+        {
+          "id": "machado-de-assis",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q311145"
+        },
+        {
+          "id": "pushkin",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q7200"
+        },
+        {
+          "id": "voltaire",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9068"
+        }
+      ]
     },
     {
       "id": "goethe",
@@ -5172,12 +5388,57 @@
           "quote_source": "Faust I, 'Vor dem Tor' (lines 1112–1113)",
           "source_url": "https://www.britannica.com/biography/Johann-Wolfgang-von-Goethe",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Statue_of_Faust_2.jpg/500px-Statue_of_Faust_2.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9A%B0%EC%8A%A4%ED%8A%B8"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goethe_%28Stieler_1828%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Goethe_%28Stieler_1828%29.jpg"
+      },
+      "links": [
+        {
+          "id": "hafez",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q5879"
+        },
+        {
+          "id": "iqbal",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q484141"
+        },
+        {
+          "id": "linnaeus",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q5879"
+        },
+        {
+          "id": "machado-de-assis",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q311145"
+        },
+        {
+          "id": "pushkin",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q7200"
+        },
+        {
+          "id": "shakespeare",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q5879"
+        },
+        {
+          "id": "voltaire",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q5879"
+        }
+      ]
     },
     {
       "id": "dante",
@@ -5300,7 +5561,11 @@
           "quote_source": "Dante, Inferno, Canto I, ll. 1-3",
           "source_url": "https://it.wikisource.org/wiki/Divina_Commedia/Inferno/Canto_I",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Alighieri_-_Divina_Commedia%2C_Nel_mille_quatro_cento_septe_et_due_nel_quarto_mese_adi_cinque_et_sei_-_2384293_id00022000_Scan00006.jpg/500px-Alighieri_-_Divina_Commedia%2C_Nel_mille_quatro_cento_septe_et_due_nel_quarto_mese_adi_cinque_et_sei_-_2384293_id00022000_Scan00006.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EA%B3%A1"
+          }
         },
         {
           "title": "새로운 삶",
@@ -5309,13 +5574,38 @@
           "note_en": "An early work mixing prose and poetry expressing his love for Beatrice.",
           "source_url": "https://www.britannica.com/topic/La-Vita-nuova",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/The_New_Life_%28Rossetti_1899%29_Frontispiece.jpg/500px-The_New_Life_%28Rossetti_1899%29_Frontispiece.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/La_Vita_Nuova"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
       "flags": [
         "year-approx"
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_de_Dante.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_de_Dante.jpg"
+      },
+      "links": [
+        {
+          "id": "aristotle",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q1067"
+        },
+        {
+          "id": "machado-de-assis",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q311145"
+        },
+        {
+          "id": "pushkin",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q7200"
+        }
       ]
     },
     {
@@ -5449,7 +5739,11 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tolstoy_-_War_and_Peace_-_first_edition%2C_1869.jpg/500px-Tolstoy_-_War_and_Peace_-_first_edition%2C_1869.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%9F%81%EA%B3%BC_%ED%8F%89%ED%99%94"
+          }
         },
         {
           "title": "안나 카레니나",
@@ -5464,13 +5758,68 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/AnnaKareninaTitle.jpg/500px-AnnaKareninaTitle.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%82%98_%EC%B9%B4%EB%A0%88%EB%8B%88%EB%82%98"
+          }
         }
       ],
       "source_grade": "C",
       "verified": true,
       "flags": [
         "wiki-only"
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/L.N.Tolstoy_Prokudin-Gorsky.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:L.N.Tolstoy_Prokudin-Gorsky.jpg"
+      },
+      "links": [
+        {
+          "id": "aristotle",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        },
+        {
+          "id": "dickens",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        },
+        {
+          "id": "dostoevsky",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        },
+        {
+          "id": "gandhi",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q1001"
+        },
+        {
+          "id": "iqbal",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q484141"
+        },
+        {
+          "id": "plato",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        },
+        {
+          "id": "pushkin",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        },
+        {
+          "id": "rousseau",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        },
+        {
+          "id": "victor-hugo",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        }
       ]
     },
     {
@@ -5590,6 +5939,17 @@
       "verified": true,
       "flags": [
         "birthplace-disputed"
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D9%85%D9%88%D9%84%D8%A7%D9%86%D8%A7_%D8%A7%D8%AB%D8%B1_%D8%AD%D8%B3%DB%8C%D9%86_%D8%A8%D9%87%D8%B2%D8%A7%D8%AF_%28cropped%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%D9%85%D9%88%D9%84%D8%A7%D9%86%D8%A7_%D8%A7%D8%AB%D8%B1_%D8%AD%D8%B3%DB%8C%D9%86_%D8%A8%D9%87%D8%B2%D8%A7%D8%AF_%28cropped%29.jpg"
+      },
+      "links": [
+        {
+          "id": "iqbal",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q484141"
+        }
       ]
     },
     {
@@ -5735,7 +6095,11 @@
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rabindranath_Tagore_in_1909.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_in_1909.jpg"
+      }
     },
     {
       "id": "mark-twain",
@@ -5854,7 +6218,11 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Huckleberry_Finn_book.JPG/500px-Huckleberry_Finn_book.JPG",
+            "source_url": "https://ko.wikipedia.org/wiki/%ED%97%88%ED%81%B4%EB%B2%A0%EB%A6%AC_%ED%95%80%EC%9D%98_%EB%AA%A8%ED%97%98"
+          }
         },
         {
           "title": "톰 소여의 모험",
@@ -5867,12 +6235,20 @@
           "quote_source": "Mark Twain (1909), recorded by A. B. Paine; via Snopes",
           "source_url": "https://www.snopes.com/fact-check/mark-twain-halleys-comet/",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tom_Sawyer_1876_frontispiece.jpg/500px-Tom_Sawyer_1876_frontispiece.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%ED%86%B0_%EC%86%8C%EC%97%AC%EC%9D%98_%EB%AA%A8%ED%97%98"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MarkTwain.LOC.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:MarkTwain.LOC.jpg"
+      }
     },
     {
       "id": "neruda",
@@ -6011,7 +6387,11 @@
           "quote_source": "Pablo Neruda, Poema 20",
           "source_url": "https://www.britannica.com/biography/Pablo-Neruda",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/en/8/8b/VeintePoemasNeruda.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Twenty_Love_Poems_and_a_Song_of_Despair"
+          }
         },
         {
           "title": "모두의 노래",
@@ -6031,7 +6411,18 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pablo_Neruda_1963.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pablo_Neruda_1963.jpg"
+      },
+      "links": [
+        {
+          "id": "ruben-dario",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q34189"
+        }
+      ]
     },
     {
       "id": "mahfouz",
@@ -6170,7 +6561,18 @@
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nagib_Mahfouz.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nagib_Mahfouz.jpg"
+      },
+      "links": [
+        {
+          "id": "james-joyce",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q7176"
+        }
+      ]
     },
     {
       "id": "jose-rizal",
@@ -6286,12 +6688,20 @@
           "note_en": "The 1891 sequel to Noli me tángere, published in Ghent.",
           "source_url": "https://www.britannica.com/biography/Jose-Rizal",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/First_page_of_El_filibusterismo_manuscript.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/El_filibusterismo"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jose_Rizal_full.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jose_Rizal_full.jpg"
+      }
     },
     {
       "id": "mansfield",
@@ -6439,7 +6849,11 @@
       "verified": true,
       "flags": [
         "wiki-only"
-      ]
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mansfield_1917_cropped.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mansfield_1917_cropped.jpg"
+      }
     },
     {
       "id": "victor-hugo",
@@ -6559,7 +6973,11 @@
           "quote_source": "Victor Hugo, Journal, 1885 (last written words)",
           "source_url": "https://en.wikiquote.org/wiki/Victor_Hugo",
           "source_grade": "C",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ebcosette.jpg/500px-Ebcosette.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%A0%88_%EB%AF%B8%EC%A0%9C%EB%9D%BC%EB%B8%94"
+          }
         },
         {
           "title": "노트르담 드 파리",
@@ -6568,12 +6986,37 @@
           "note_en": "A novel published in 1831, also known in English as The Hunchback of Notre-Dame",
           "source_url": "https://www.britannica.com/biography/Victor-Hugo",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/500px-Notre-Dame_de_Paris%2C_4_October_2017.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg"
+      },
+      "links": [
+        {
+          "id": "dostoevsky",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q991"
+        },
+        {
+          "id": "machado-de-assis",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q311145"
+        },
+        {
+          "id": "tolstoy",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        }
+      ]
     },
     {
       "id": "cervantes",
@@ -6693,12 +7136,37 @@
           "quote_source": "Don Quixote, Part 1, opening line",
           "source_url": "https://www.britannica.com/biography/Miguel-de-Cervantes",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/El_ingenioso_hidalgo_don_Quijote_de_la_Mancha.jpg/500px-El_ingenioso_hidalgo_don_Quijote_de_la_Mancha.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%8F%88%ED%82%A4%ED%98%B8%ED%85%8C"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cervantes_J%C3%A1uregui.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cervantes_J%C3%A1uregui.jpg"
+      },
+      "links": [
+        {
+          "id": "dostoevsky",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q991"
+        },
+        {
+          "id": "machado-de-assis",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q311145"
+        },
+        {
+          "id": "voltaire",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9068"
+        }
+      ]
     },
     {
       "id": "van-gogh",
@@ -6814,7 +7282,11 @@
           "quote_source": "Vincent van Gogh, Letter to Theo (1888)",
           "source_url": "https://vangoghletters.org/vg/letters/let638/letter.html",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/500px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%B3%84%EC%9D%B4_%EB%B9%9B%EB%82%98%EB%8A%94_%EB%B0%A4"
+          }
         },
         {
           "title": "감자 먹는 사람들",
@@ -6823,12 +7295,27 @@
           "note_en": "Painted in 1885 in Nuenen; Van Gogh regarded it as his first 'masterwork'; now held by the Van Gogh Museum",
           "source_url": "https://www.vangoghmuseum.nl/en/art-and-stories/stories/all-stories/6-facts-you-need-to-know-about-van-goghs-potato-eaters",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/De_aardappeleters_-_s0005V1962_-_Van_Gogh_Museum.jpg/500px-De_aardappeleters_-_s0005V1962_-_Van_Gogh_Museum.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EA%B0%90%EC%9E%90_%EB%A8%B9%EB%8A%94_%EC%82%AC%EB%9E%8C%EB%93%A4"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Self-portrait_-_Vincent_van_Gogh.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Self-portrait_-_Vincent_van_Gogh.jpg"
+      },
+      "links": [
+        {
+          "id": "hokusai",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q5582"
+        }
+      ]
     },
     {
       "id": "james-joyce",
@@ -6961,12 +7448,32 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Joyce_-_Dubliners%2C_1914_-_3690390_F.jpg/500px-Joyce_-_Dubliners%2C_1914_-_3690390_F.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%8D%94%EB%B8%94%EB%A6%B0_%EC%82%AC%EB%9E%8C%EB%93%A4"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Revolutionary_Joyce_Better_Contrast.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Revolutionary_Joyce_Better_Contrast.jpg"
+      },
+      "links": [
+        {
+          "id": "borges",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q909"
+        },
+        {
+          "id": "mahfouz",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q7176"
+        }
+      ]
     },
     {
       "id": "mozart",
@@ -7083,7 +7590,11 @@
           "quote_source": "Letter from Mozart to Constanze, 7 October 1791",
           "source_url": "https://en.wikipedia.org/wiki/The_Magic_Flute",
           "source_grade": "C",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mozart_magic_flute.jpg/500px-Mozart_magic_flute.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%A7%88%EC%88%A0%ED%94%BC%EB%A6%AC"
+          }
         },
         {
           "title": "레퀴엠",
@@ -7094,12 +7605,27 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Strasbourg_crypte_de_la_cath%C3%A9drale_Notre_Dame_messe_de_Requiem_2013_01.JPG/500px-Strasbourg_crypte_de_la_cath%C3%A9drale_Notre_Dame_messe_de_Requiem_2013_01.JPG",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%A0%88%ED%80%B4%EC%97%A0"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wolfgang-amadeus-mozart_1.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Wolfgang-amadeus-mozart_1.jpg"
+      },
+      "links": [
+        {
+          "id": "chopin",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q1268"
+        }
+      ]
     },
     {
       "id": "chopin",
@@ -7215,7 +7741,11 @@
           "quote_source": "Frédéric Chopin, Letter, 11 October 1846",
           "source_url": "https://libquotes.com/fr%C3%A9d%C3%A9ric-chopin/quote/lby9n5z",
           "source_grade": "C",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/%EC%87%BC%ED%8C%BD_%EC%95%BC%EC%83%81%EA%B3%A1_Op.9_no.2_%EB%82%B4%EB%A6%BC%EB%A7%88%EC%9E%A5%EC%A1%B0.png/500px-%EC%87%BC%ED%8C%BD_%EC%95%BC%EC%83%81%EA%B3%A1_Op.9_no.2_%EB%82%B4%EB%A6%BC%EB%A7%88%EC%9E%A5%EC%A1%B0.png",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%85%B9%ED%84%B4"
+          }
         },
         {
           "title": "폴로네즈와 마주르카",
@@ -7229,7 +7759,18 @@
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chopin%2C_by_Wodzinska.JPG?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chopin%2C_by_Wodzinska.JPG"
+      },
+      "links": [
+        {
+          "id": "mozart",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q1268"
+        }
+      ]
     },
     {
       "id": "kafka",
@@ -7349,7 +7890,11 @@
           "quote_source": "Franz Kafka, The Metamorphosis, opening line",
           "source_url": "https://en.wikipedia.org/wiki/The_Metamorphosis",
           "source_grade": "C",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Franz_Kafka_Die_Verwandlung_1916_Orig.-Pappband.jpg/500px-Franz_Kafka_Die_Verwandlung_1916_Orig.-Pappband.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/The_Metamorphosis"
+          }
         },
         {
           "title": "소송",
@@ -7362,12 +7907,20 @@
           "quote_source": "Franz Kafka, The Trial, opening line",
           "source_url": "https://en.wikipedia.org/wiki/The_Trial",
           "source_grade": "C",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/TrialKafka.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/The_Trial"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kafka1906_cropped.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kafka1906_cropped.jpg"
+      }
     },
     {
       "id": "ibsen",
@@ -7483,12 +8036,20 @@
           "quote_source": "Henrik Ibsen, A Doll's House, Act 3",
           "source_url": "https://www.bokselskap.no/boker/dukkehjem/akt3",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Doll%27s_house_%28AM_2003.99.12-1%29.jpg/500px-Doll%27s_house_%28AM_2003.99.12-1%29.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%98%95%EC%9D%98_%EC%A7%91"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ibsen_by_Olrik.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ibsen_by_Olrik.jpg"
+      }
     },
     {
       "id": "andersen",
@@ -7614,7 +8175,11 @@
           "quote_source": "H.C. Andersen, The Emperor's New Clothes (1837)",
           "source_url": "https://andersen.sdu.dk/vaerk/kejserens/",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Emperor_Clothes_01.jpg/500px-Emperor_Clothes_01.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%B2%8C%EA%B1%B0%EC%88%AD%EC%9D%B4_%EC%9E%84%EA%B8%88%EB%8B%98"
+          }
         },
         {
           "title": "인어공주",
@@ -7625,12 +8190,27 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Edmund_Dulac_-_The_Mermaid_-_The_Prince.jpg/500px-Edmund_Dulac_-_The_Mermaid_-_The_Prince.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%96%B4%EA%B3%B5%EC%A3%BC"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hans_Christian_Andersen_by_Thora_Hallager_1869.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hans_Christian_Andersen_by_Thora_Hallager_1869.jpg"
+      },
+      "links": [
+        {
+          "id": "shakespeare",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q5673"
+        }
+      ]
     },
     {
       "id": "linnaeus",
@@ -7748,7 +8328,11 @@
           "quote_source": "attributed to Carl Linnaeus",
           "source_url": "https://www.smithsonianmag.com/science-nature/organization-man-151908042/",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Linnaeus1758-title-page.jpg/500px-Linnaeus1758-title-page.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%97%B0%EC%9D%98_%EC%B2%B4%EA%B3%84"
+          }
         },
         {
           "title": "식물의 종",
@@ -7761,12 +8345,27 @@
           "quote_source": "Carl Linnaeus",
           "source_url": "https://www.britannica.com/topic/Species-Plantarum",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Species_plantarum_001.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%8B%9D%EB%AC%BC%EC%9D%98_%EC%A2%85"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carl_von_Linn%C3%A9.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Carl_von_Linn%C3%A9.jpg"
+      },
+      "links": [
+        {
+          "id": "goethe",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q5879"
+        }
+      ]
     },
     {
       "id": "hafez",
@@ -7875,13 +8474,28 @@
           "quote_source": "Divan of Hafez, Ghazal 1 (opening line)",
           "source_url": "https://www.iranicaonline.org/articles/hafez-ii/",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/DivanofHafez3.jpg/500px-DivanofHafez3.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/The_Div%C3%A2n_of_Hafez"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
       "flags": [
         "year-approx"
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anselm_Feuerbach_Hafis_vor_der_Schenke_%28cropped%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Anselm_Feuerbach_Hafis_vor_der_Schenke_%28cropped%29.jpg"
+      },
+      "links": [
+        {
+          "id": "goethe",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q5879"
+        }
       ]
     },
     {
@@ -7998,7 +8612,11 @@
           "quote_source": "Khalil Gibran, The Prophet, 'On Children'",
           "source_url": "https://standardebooks.org/ebooks/khalil-gibran/the-prophet/text/on-children",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Jesaja_%28Michelangelo%29.jpg/500px-Jesaja_%28Michelangelo%29.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%98%88%EC%96%B8%EC%9E%90"
+          }
         },
         {
           "title": "광인",
@@ -8012,7 +8630,11 @@
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kahlil_Gibran_1913.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kahlil_Gibran_1913.jpg"
+      }
     },
     {
       "id": "nguyen-du",
@@ -8118,12 +8740,20 @@
           "quote_source": "The Tale of Kiều, opening couplet (trans. Huỳnh Sanh Thông)",
           "source_url": "https://en.wikiquote.org/wiki/The_Tale_of_Kieu",
           "source_grade": "C",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Kim_V%C3%A2n_Ki%E1%BB%81u_t%C3%A2n_truy%E1%BB%87n.jpg/500px-Kim_V%C3%A2n_Ki%E1%BB%81u_t%C3%A2n_truy%E1%BB%87n.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/The_Tale_of_Kieu"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chuanguyenphucchu.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chuanguyenphucchu.jpg"
+      }
     },
     {
       "id": "iqbal",
@@ -8255,7 +8885,33 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Iqbal_2.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Iqbal_2.jpg"
+      },
+      "links": [
+        {
+          "id": "aristotle",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q484141"
+        },
+        {
+          "id": "goethe",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q484141"
+        },
+        {
+          "id": "rumi",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q484141"
+        },
+        {
+          "id": "tolstoy",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q484141"
+        }
+      ]
     },
     {
       "id": "achebe",
@@ -8387,7 +9043,11 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinua_Achebe%2C_2008_%28cropped%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chinua_Achebe%2C_2008_%28cropped%29.jpg"
+      }
     },
     {
       "id": "mandela",
@@ -8508,7 +9168,11 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nelson_Mandela_1994.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_1994.jpg"
+      }
     },
     {
       "id": "borges",
@@ -8639,7 +9303,11 @@
           "quote_source": "Jorge Luis Borges, 'Poema de los dones'",
           "source_url": "https://www.poemas-del-alma.com/poema-de-los-dones.htm",
           "source_grade": "C",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Ficciones_%281944%29.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%ED%94%BD%EC%85%98%EB%93%A4"
+          }
         },
         {
           "title": "창조자",
@@ -8657,6 +9325,22 @@
       "verified": true,
       "flags": [
         "wiki-only"
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jorge_Luis_Borges_1951%2C_by_Grete_Stern_%28full%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jorge_Luis_Borges_1951%2C_by_Grete_Stern_%28full%29.jpg"
+      },
+      "links": [
+        {
+          "id": "james-joyce",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q909"
+        },
+        {
+          "id": "plato",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q909"
+        }
       ]
     },
     {
@@ -8793,7 +9477,11 @@
       "verified": true,
       "flags": [
         "year-approx"
-      ]
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bust_of_Ibn_Battuta_at_Ibn_Battuta_museum.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Ibn_Battuta_at_Ibn_Battuta_museum.jpg"
+      }
     },
     {
       "id": "garcia-marquez",
@@ -8911,12 +9599,20 @@
           "note_en": "His 1985 novel, the first he published after winning the 1982 Nobel Prize",
           "source_url": "https://www.britannica.com/biography/Gabriel-Garcia-Marquez",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Astoria%2C_OR%2C_River_Boat_9-1-13_%2810004013695%29.jpg/500px-Astoria%2C_OR%2C_River_Boat_9-1-13_%2810004013695%29.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%BD%9C%EB%A0%88%EB%9D%BC_%EC%8B%9C%EB%8C%80%EC%9D%98_%EC%82%AC%EB%9E%91"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriel_Garc%C3%ADa_M%C3%A1rquez_02.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gabriel_Garc%C3%ADa_M%C3%A1rquez_02.jpg"
+      }
     },
     {
       "id": "sor-juana",
@@ -9058,7 +9754,11 @@
       "flags": [
         "year-approx",
         "wiki-only"
-      ]
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sor_Juana_In%C3%A9s_de_la_Cruz%2C_1732_-_Fray_Miguel_de_Herrera.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sor_Juana_In%C3%A9s_de_la_Cruz%2C_1732_-_Fray_Miguel_de_Herrera.jpg"
+      }
     },
     {
       "id": "machado-de-assis",
@@ -9167,7 +9867,11 @@
           "quote_source": "Memórias Póstumas de Brás Cubas (1881), dedication",
           "source_url": "https://pt.wikiquote.org/wiki/Mem%C3%B3rias_P%C3%B3stumas_de_Br%C3%A1s_Cubas",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Memorias_Posthumas_de_Braz_Cubas.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/The_Posthumous_Memoirs_of_Br%C3%A1s_Cubas"
+          }
         },
         {
           "title": "동 카스무후",
@@ -9176,12 +9880,52 @@
           "note_en": "His 1899 masterpiece, a first-person narrative of a mind warped by jealousy",
           "source_url": "https://www.britannica.com/biography/Joaquim-Maria-Machado-de-Assis",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/DomCasmurroMachadodeAssis.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Dom_Casmurro"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Machado_de_Assis_aos_57_anos.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Machado_de_Assis_aos_57_anos.jpg"
+      },
+      "links": [
+        {
+          "id": "cervantes",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q311145"
+        },
+        {
+          "id": "dante",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q311145"
+        },
+        {
+          "id": "goethe",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q311145"
+        },
+        {
+          "id": "shakespeare",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q311145"
+        },
+        {
+          "id": "victor-hugo",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q311145"
+        },
+        {
+          "id": "voltaire",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q311145"
+        }
+      ]
     },
     {
       "id": "banjo-paterson",
@@ -9288,7 +10032,11 @@
           "quote_source": "Banjo Paterson, 'Waltzing Matilda' (1895)",
           "source_url": "https://en.wikisource.org/wiki/Waltzing_Matilda",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Original_Waltzing_Matilda_manuscript.jpg/500px-Original_Waltzing_Matilda_manuscript.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Waltzing_Matilda"
+          }
         },
         {
           "title": "눈 덮인 강의 사나이",
@@ -9306,7 +10054,11 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Longstaff_-_Banjo_Paterson%2C_1935.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:John_Longstaff_-_Banjo_Paterson%2C_1935.jpg"
+      }
     },
     {
       "id": "kartini",
@@ -9422,12 +10174,20 @@
           "quote_source": "Letters of a Javanese Princess, first letter, 25 May 1899 (trans. A. L. Symmers)",
           "source_url": "https://archive.org/details/lettersofjavanes00kart",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Door_duisternis_tot_licht_1st_edition_cover.jpg/500px-Door_duisternis_tot_licht_1st_edition_cover.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Letters_of_a_Javanese_Princess"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/COLLECTIE_TROPENMUSEUM_Portret_van_Raden_Ajeng_Kartini_TMnr_10018776.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Portret_van_Raden_Ajeng_Kartini_TMnr_10018776.jpg"
+      }
     },
     {
       "id": "lm-montgomery",
@@ -9543,7 +10303,11 @@
           "quote_source": "Anne of Green Gables (1908), Ch. 16",
           "source_url": "https://www.gutenberg.org/files/45/45-h/45-h.htm",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Montgomery_Anne_of_Green_Gables.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%B9%A8%EA%B0%84_%EB%A8%B8%EB%A6%AC_%EC%95%A4"
+          }
         },
         {
           "title": "에밀리, 초승달 농장에서",
@@ -9552,12 +10316,20 @@
           "note_en": "Published in 1923, the first book in the Emily trilogy",
           "source_url": "https://lmmontgomery.ca/about/l-m-montgomery/",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Emilyofnewmoon.png/500px-Emilyofnewmoon.png",
+            "source_url": "https://en.wikipedia.org/wiki/Emily_of_New_Moon"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/LMM_signed_photo.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:LMM_signed_photo.jpg"
+      }
     },
     {
       "id": "dostoevsky",
@@ -9689,7 +10461,11 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Crime_and_Punishment-1.png/500px-Crime_and_Punishment-1.png",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%A3%84%EC%99%80_%EB%B2%8C"
+          }
         },
         {
           "title": "카라마조프 가의 형제들",
@@ -9704,13 +10480,53 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Dostoevsky-Brothers_Karamazov.jpg/500px-Dostoevsky-Brothers_Karamazov.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov"
+          }
         }
       ],
       "source_grade": "C",
       "verified": true,
       "flags": [
         "wiki-only"
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg"
+      },
+      "links": [
+        {
+          "id": "cervantes",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q991"
+        },
+        {
+          "id": "dickens",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q991"
+        },
+        {
+          "id": "pushkin",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q991"
+        },
+        {
+          "id": "shakespeare",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q991"
+        },
+        {
+          "id": "tolstoy",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        },
+        {
+          "id": "victor-hugo",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q991"
+        }
       ]
     },
     {
@@ -9815,7 +10631,11 @@
           "quote_source": "Eugene Onegin, opening line",
           "source_url": "https://www.poetryintranslation.com/PITBR/Russian/Onegin1.php",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Eugene_Onegin_book_edition.jpg/500px-Eugene_Onegin_book_edition.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%98%88%EB%B8%8C%EA%B2%8C%EB%8B%88_%EC%98%A4%EB%84%A4%EA%B8%B4"
+          }
         },
         {
           "title": "보리스 고두노프",
@@ -9828,12 +10648,52 @@
           "quote_source": "",
           "source_url": "https://www.britannica.com/biography/Aleksandr-Sergeyevich-Pushkin",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Boris_Godunov_by_anonim_%2817th_c.%2C_GIM%29.jpg/500px-Boris_Godunov_by_anonim_%2817th_c.%2C_GIM%29.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%B3%B4%EB%A6%AC%EC%8A%A4_%EA%B3%A0%EB%91%90%EB%85%B8%ED%94%84"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiprensky_Pushkin.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kiprensky_Pushkin.jpg"
+      },
+      "links": [
+        {
+          "id": "dante",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q7200"
+        },
+        {
+          "id": "dostoevsky",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q991"
+        },
+        {
+          "id": "goethe",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q7200"
+        },
+        {
+          "id": "shakespeare",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q7200"
+        },
+        {
+          "id": "tolstoy",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        },
+        {
+          "id": "voltaire",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q7200"
+        }
+      ]
     },
     {
       "id": "li-bai",
@@ -9941,7 +10801,11 @@
           "quote_source": "靜夜思",
           "source_url": "https://ctext.org/datawiki.pl?if=en&res=125585",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/%E6%9D%8E%E7%99%BD.png/500px-%E6%9D%8E%E7%99%BD.png",
+            "source_url": "https://en.wikipedia.org/wiki/Quiet_Night_Thought"
+          }
         },
         {
           "title": "월하독작(달 아래 홀로 술을 마시며)",
@@ -9961,7 +10825,11 @@
       "verified": true,
       "flags": [
         "birthplace-disputed"
-      ]
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%9D%8E%E7%99%BD.png?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E7%99%BD.png"
+      }
     },
     {
       "id": "voltaire",
@@ -10076,7 +10944,11 @@
           "quote_source": "Candide (1759), closing line",
           "source_url": "https://www.britannica.com/biography/Voltaire",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Candide1759.jpg/500px-Candide1759.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%BA%89%EB%94%94%EB%93%9C"
+          }
         },
         {
           "title": "철학 서간",
@@ -10089,12 +10961,57 @@
           "quote_source": "",
           "source_url": "https://www.britannica.com/biography/Voltaire",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Lettres_anglaises_voltaire.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Letters_on_the_English"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas_de_Largilli%C3%A8re_-_Portrait_de_Voltaire_%281694-1778%29_en_1718_-_P208_-_Mus%C3%A9e_Carnavalet_-_2.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nicolas_de_Largilli%C3%A8re_-_Portrait_de_Voltaire_%281694-1778%29_en_1718_-_P208_-_Mus%C3%A9e_Carnavalet_-_2.jpg"
+      },
+      "links": [
+        {
+          "id": "cervantes",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9068"
+        },
+        {
+          "id": "confucius",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9068"
+        },
+        {
+          "id": "goethe",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q5879"
+        },
+        {
+          "id": "machado-de-assis",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q311145"
+        },
+        {
+          "id": "plato",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9068"
+        },
+        {
+          "id": "pushkin",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q7200"
+        },
+        {
+          "id": "shakespeare",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9068"
+        }
+      ]
     },
     {
       "id": "dickens",
@@ -10207,7 +11124,11 @@
           "quote_source": "A Tale of Two Cities, opening line",
           "source_url": "https://en.wikipedia.org/wiki/A_Tale_of_Two_Cities",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/A_Tale_of_Two_Cities_title_page.png",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%91%90_%EB%8F%84%EC%8B%9C_%EC%9D%B4%EC%95%BC%EA%B8%B0"
+          }
         },
         {
           "title": "올리버 트위스트",
@@ -10220,12 +11141,32 @@
           "quote_source": "Oliver Twist",
           "source_url": "https://en.wikipedia.org/wiki/Oliver_Twist",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Olivertwist_front.jpg/500px-Olivertwist_front.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%98%AC%EB%A6%AC%EB%B2%84_%ED%8A%B8%EC%9C%84%EC%8A%A4%ED%8A%B8"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dickens_Gurney_head.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dickens_Gurney_head.jpg"
+      },
+      "links": [
+        {
+          "id": "dostoevsky",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q991"
+        },
+        {
+          "id": "tolstoy",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        }
+      ]
     },
     {
       "id": "natsume-soseki",
@@ -10329,7 +11270,11 @@
           "quote_source": "『吾輩は猫である』 모두",
           "source_url": "https://www.aozora.gr.jp/cards/000148/card789.html",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Ich_der_Kater_2.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%82%98%EB%8A%94_%EA%B3%A0%EC%96%91%EC%9D%B4%EB%A1%9C%EC%86%8C%EC%9D%B4%EB%8B%A4"
+          }
         },
         {
           "title": "마음(코코로)",
@@ -10347,7 +11292,11 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Natsume_Soseki_photo.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Natsume_Soseki_photo.jpg"
+      }
     },
     {
       "id": "pessoa",
@@ -10469,7 +11418,11 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/LdoD_1ed.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/The_Book_of_Disquiet"
+          }
         },
         {
           "title": "메시지",
@@ -10489,7 +11442,11 @@
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/216_2310-Fernando-Pessoa.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:216_2310-Fernando-Pessoa.jpg"
+      }
     },
     {
       "id": "petofi",
@@ -10615,7 +11572,11 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Orlai-petofi1.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Orlai-petofi1.jpg"
+      }
     },
     {
       "id": "sibelius",
@@ -10728,7 +11689,11 @@
           "quote_source": "Sibelius diary, 1915 (on seeing sixteen swans)",
           "source_url": "https://en.wikipedia.org/wiki/Symphony_No._5_(Sibelius)",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/JeanSibelius_circa1898-1900.jpg/500px-JeanSibelius_circa1898-1900.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Finlandia"
+          }
         },
         {
           "title": "교향곡 제5번",
@@ -10746,7 +11711,11 @@
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Sibelius_in_1890_%28cropped%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jean_Sibelius_in_1890_%28cropped%29.jpg"
+      }
     },
     {
       "id": "rousseau",
@@ -10843,7 +11812,11 @@
           "quote_source": "Du Contrat social, Book I, Ch. 1 (1762)",
           "source_url": "https://en.wikiquote.org/wiki/The_Social_Contract",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Social_contract_rousseau_page.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%82%AC%ED%9A%8C%EA%B3%84%EC%95%BD%EB%A1%A0"
+          }
         },
         {
           "title": "에밀",
@@ -10856,12 +11829,27 @@
           "quote_source": "",
           "source_url": "https://www.britannica.com/biography/Jean-Jacques-Rousseau",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/EmileTitle.jpeg/500px-EmileTitle.jpeg",
+            "source_url": "https://en.wikipedia.org/wiki/Emile%2C_or_On_Education"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Jacques_Rousseau_%28painted_portrait%29.jpg"
+      },
+      "links": [
+        {
+          "id": "tolstoy",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        }
+      ]
     },
     {
       "id": "magritte",
@@ -10987,7 +11975,11 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ren%C3%A9_Magritte_in_1961.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ren%C3%A9_Magritte_in_1961.jpg"
+      }
     },
     {
       "id": "shevchenko",
@@ -11103,7 +12095,11 @@
           "quote_source": "",
           "source_url": "https://www.britannica.com/biography/Taras-Hryhorovych-Shevchenko",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Kozak_Mamay_%28Unknown_folk_artist%2C_19th_century%29.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Kobzar"
+          }
         },
         {
           "title": "자포비트(유언)",
@@ -11121,7 +12117,11 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taras_Shevchenko_selfportrait_oil_1840.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Taras_Shevchenko_selfportrait_oil_1840.jpg"
+      }
     },
     {
       "id": "sunthorn-phu",
@@ -11243,14 +12243,22 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Sunrise_on_Hat_Saikaew%2C_Koh_Samet.jpg/500px-Sunrise_on_Hat_Saikaew%2C_Koh_Samet.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Phra_Aphai_Mani"
+          }
         }
       ],
       "source_grade": "C",
       "verified": true,
       "flags": [
         "wiki-only"
-      ]
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thai_Human_Imagery_Museum_%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%AB%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%82%E0%B8%B5%E0%B9%89%E0%B8%9C%E0%B8%B6%E0%B9%89%E0%B8%87%E0%B9%84%E0%B8%97%E0%B8%A2_%E0%B8%AD.%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%A8%E0%B8%A3%E0%B8%B5_%E0%B8%88.%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1_%2870%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Thai_Human_Imagery_Museum_%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%AB%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%82%E0%B8%B5%E0%B9%89%E0%B8%9C%E0%B8%B6%E0%B9%89%E0%B8%87%E0%B9%84%E0%B8%97%E0%B8%A2_%E0%B8%AD.%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%A8%E0%B8%A3%E0%B8%B5_%E0%B8%88.%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1_%2870%29.jpg"
+      }
     },
     {
       "id": "cesar-vallejo",
@@ -11358,7 +12366,11 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Trilce_1922.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Trilce"
+          }
         },
         {
           "title": "검은 사자들",
@@ -11371,12 +12383,20 @@
           "quote_source": "Los heraldos negros (1919)",
           "source_url": "https://poets.org/poem/black-heralds",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Los_heraldos_negros.jpg/500px-Los_heraldos_negros.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Los_heraldos_negros"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cesar_vallejo_1929.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cesar_vallejo_1929.jpg"
+      }
     },
     {
       "id": "jose-marti",
@@ -11486,7 +12506,11 @@
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MartiJohnManuel_K_TRestauration.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:MartiJohnManuel_K_TRestauration.jpg"
+      }
     },
     {
       "id": "ruben-dario",
@@ -11590,7 +12614,11 @@
           "quote_source": "",
           "source_url": "https://www.britannica.com/biography/Ruben-Dario",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Azul_-_Primera_edici%C3%B3n.JPG/500px-Azul_-_Primera_edici%C3%B3n.JPG",
+            "source_url": "https://en.wikipedia.org/wiki/Azul..."
+          }
         },
         {
           "title": "삶과 희망의 노래",
@@ -11608,7 +12636,18 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rub%C3%A9n_Dar%C3%ADo.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rub%C3%A9n_Dar%C3%ADo.jpg"
+      },
+      "links": [
+        {
+          "id": "neruda",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q34189"
+        }
+      ]
     },
     {
       "id": "senghor",
@@ -11752,7 +12791,11 @@
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A9opold_S%C3%A9dar_Senghor.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:L%C3%A9opold_S%C3%A9dar_Senghor.jpg"
+      }
     },
     {
       "id": "plato",
@@ -11857,13 +12900,53 @@
           "quote_source": "Plato, Apology 38a",
           "source_url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0170",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/500px-Socrates_Louvre.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%86%8C%ED%81%AC%EB%9D%BC%ED%85%8C%EC%8A%A4%EC%9D%98_%EB%B3%80%EB%A1%A0"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
       "flags": [
         "birthplace-disputed"
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Plato_Silanion_Musei_Capitolini_MC1377.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+      },
+      "links": [
+        {
+          "id": "aristotle",
+          "rel": "teacher_of",
+          "source_url": "https://www.wikidata.org/wiki/Q868"
+        },
+        {
+          "id": "augustine",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q8018"
+        },
+        {
+          "id": "borges",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q909"
+        },
+        {
+          "id": "socrates",
+          "rel": "student_of",
+          "source_url": "https://www.wikidata.org/wiki/Q859"
+        },
+        {
+          "id": "tolstoy",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        },
+        {
+          "id": "voltaire",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9068"
+        }
       ]
     },
     {
@@ -11959,7 +13042,11 @@
           "quote_source": "Aristotle, Nicomachean Ethics 1094a1-3",
           "source_url": "http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0086.tlg010.perseus-grc1",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Aristotelis_De_Moribus_ad_Nicomachum.jpg/500px-Aristotelis_De_Moribus_ad_Nicomachum.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%8B%88%EC%BD%94%EB%A7%88%EC%BD%94%EC%8A%A4_%EC%9C%A4%EB%A6%AC%ED%95%99"
+          }
         },
         {
           "title": "형이상학",
@@ -11972,12 +13059,52 @@
           "quote_source": "Aristotle, Metaphysics 980a21",
           "source_url": "http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0086.tlg025.perseus-grc1",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Meta-moerbeke_jpeg031-part.jpg/500px-Meta-moerbeke_jpeg031-part.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%ED%98%95%EC%9D%B4%EC%83%81%ED%95%99"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aristotle_Altemps_Inv8575.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg"
+      },
+      "links": [
+        {
+          "id": "dante",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q1067"
+        },
+        {
+          "id": "ibn-sina",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q8011"
+        },
+        {
+          "id": "iqbal",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q484141"
+        },
+        {
+          "id": "plato",
+          "rel": "student_of",
+          "source_url": "https://www.wikidata.org/wiki/Q868"
+        },
+        {
+          "id": "socrates",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q868"
+        },
+        {
+          "id": "tolstoy",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q7243"
+        }
+      ]
     },
     {
       "id": "mencius",
@@ -12087,7 +13214,18 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Half_Portraits_of_the_Great_Sage_and_Virtuous_Men_of_Old_-_Meng_Ke_%28%E5%AD%9F%E8%BB%BB%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Half_Portraits_of_the_Great_Sage_and_Virtuous_Men_of_Old_-_Meng_Ke_%28%E5%AD%9F%E8%BB%BB%29.jpg"
+      },
+      "links": [
+        {
+          "id": "confucius",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q188903"
+        }
+      ]
     },
     {
       "id": "sima-qian",
@@ -12202,7 +13340,11 @@
       "verified": true,
       "flags": [
         "wiki-only"
-      ]
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Si_maqian.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Si_maqian.jpg"
+      }
     },
     {
       "id": "qu-yuan",
@@ -12316,7 +13458,11 @@
       "verified": true,
       "flags": [
         "year-approx"
-      ]
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Qu_Yuan_Chen_Hongshou_2.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Qu_Yuan_Chen_Hongshou_2.jpg"
+      }
     },
     {
       "id": "ashoka",
@@ -12424,14 +13570,22 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ashoka_Lauriya_Areraj_inscription.jpg/500px-Ashoka_Lauriya_Areraj_inscription.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Edicts_of_Ashoka"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
       "flags": [
         "year-approx"
-      ]
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashoka%27s_visit_to_the_Ramagrama_stupa_Sanchi_Stupa_1_Southern_gateway.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ashoka%27s_visit_to_the_Ramagrama_stupa_Sanchi_Stupa_1_Southern_gateway.jpg"
+      }
     },
     {
       "id": "aryabhata",
@@ -12521,14 +13675,22 @@
           "quote_source": "Aryabhatiya (Ganitapada), trans. via MacTutor",
           "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Description_of_Kuttaka_in_Aryabhatiya.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Aryabhatiya"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
       "flags": [
         "birthplace-disputed"
-      ]
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2064_aryabhata-crp.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:2064_aryabhata-crp.jpg"
+      }
     },
     {
       "id": "augustine",
@@ -12651,13 +13813,28 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/City_of_God_Manuscript.jpg/500px-City_of_God_Manuscript.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EA%B5%AD%EB%A1%A0"
+          }
         }
       ],
       "source_grade": "C",
       "verified": true,
       "flags": [
         "wiki-only"
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Augustine_by_Philippe_de_Champaigne.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+      },
+      "links": [
+        {
+          "id": "plato",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q8018"
+        }
       ]
     },
     {
@@ -12759,7 +13936,11 @@
           "quote_source": "",
           "source_url": "https://www.britannica.com/topic/The-Canon-of-Medicine",
           "source_grade": "A",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/The_Canon_of_Medicine.jpg/500px-The_Canon_of_Medicine.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/The_Canon_of_Medicine"
+          }
         },
         {
           "title": "치유의 서",
@@ -12777,7 +13958,23 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Avicenna_Portrait_on_Silver_Vase_-_Museum_at_BuAli_Sina_%28Avicenna%29_Mausoleum_-_Hamadan_-_Western_Iran_%287423560860%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Avicenna_Portrait_on_Silver_Vase_-_Museum_at_BuAli_Sina_%28Avicenna%29_Mausoleum_-_Hamadan_-_Western_Iran_%287423560860%29.jpg"
+      },
+      "links": [
+        {
+          "id": "aristotle",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q8011"
+        },
+        {
+          "id": "omar-khayyam",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q35900"
+        }
+      ]
     },
     {
       "id": "omar-khayyam",
@@ -12876,12 +14073,27 @@
           "source_grade": "B",
           "flags": [
             "authorship-disputed"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/033-Earth-could-not-answer-nor-the-Seas-that-mourn-q75-829x1159.jpg/500px-033-Earth-could-not-answer-nor-the-Seas-that-mourn-q75-829x1159.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%A3%A8%EB%B0%94%EC%9D%B4%EC%95%BC%ED%8A%B8"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Omar_Khayyam2.JPG?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Omar_Khayyam2.JPG"
+      },
+      "links": [
+        {
+          "id": "ibn-sina",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q35900"
+        }
+      ]
     },
     {
       "id": "ibn-khaldun",
@@ -12982,12 +14194,20 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Muqaddimah_Ibnu_Khaldun_Imam_Khairul_Annas.JPG/500px-Muqaddimah_Ibnu_Khaldun_Imam_Khairul_Annas.JPG",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EA%B9%9F%EB%94%94%EB%A7%88"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bust_of_Ibn_Khaldun_%28Casbah_of_Bejaia%2C_Algeria%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Ibn_Khaldun_%28Casbah_of_Bejaia%2C_Algeria%29.jpg"
+      }
     },
     {
       "id": "mansa-musa",
@@ -13101,7 +14321,11 @@
       "verified": true,
       "flags": [
         "year-approx"
-      ]
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kanga_Moussa_Atlas_Catalan.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kanga_Moussa_Atlas_Catalan.jpg"
+      }
     },
     {
       "id": "sei-shonagon",
@@ -13213,7 +14437,11 @@
       "verified": true,
       "flags": [
         "year-approx"
-      ]
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sei_Shonagon2.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sei_Shonagon2.jpg"
+      }
     },
     {
       "id": "leonardo",
@@ -13331,7 +14559,11 @@
       "verified": true,
       "flags": [
         "birthplace-disputed"
-      ]
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francesco_Melzi_-_Portrait_of_Leonardo.png?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo.png"
+      }
     },
     {
       "id": "michelangelo",
@@ -13439,7 +14671,11 @@
           "quote_source": "Michelangelo, Rime n. 5, sonnet to Giovanni da Pistoia, 1509 (autograph, Casa Buonarroti)",
           "source_url": "https://it.wikisource.org/wiki/Rime_(Michelangelo)/5._I%27_ho_gi%C3%A0_fatto_un_gozzo_in_questo_stento",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sistine_Chapel_ceiling_02_%28brightened%29.jpg/500px-Sistine_Chapel_ceiling_02_%28brightened%29.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling"
+          }
         },
         {
           "title": "다비드",
@@ -13454,12 +14690,20 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/King_David%2C_the_King_of_Israel.jpg/500px-King_David%2C_the_King_of_Israel.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/David"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg"
+      }
     },
     {
       "id": "hokusai",
@@ -13557,13 +14801,28 @@
           "source_grade": "C",
           "flags": [
             "wiki-only"
-          ]
+          ],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/500px-Tsunami_by_hokusai_19th_century.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa"
+          }
         }
       ],
       "source_grade": "C",
       "verified": true,
       "flags": [
         "wiki-only"
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokusai_as_an_old_man.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hokusai_as_an_old_man.jpg"
+      },
+      "links": [
+        {
+          "id": "van-gogh",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q5582"
+        }
       ]
     },
     {
@@ -13669,12 +14928,20 @@
           "quote_source": "Rembrandt, letter to Constantijn Huygens (his only surviving statement of artistic aim)",
           "source_url": "https://www.rijksmuseum.nl/en/collection/SK-C-5",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/A_Symphony_of_Lights_2009.jpg/500px-A_Symphony_of_Lights_2009.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%95%BC%EA%B2%BD"
+          }
         }
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg"
+      }
     },
     {
       "id": "frida-kahlo",
@@ -13789,7 +15056,11 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frida_Kahlo%2C_by_Guillermo_Kahlo_%28cropped%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo%2C_by_Guillermo_Kahlo_%28cropped%29.jpg"
+      }
     },
     {
       "id": "gandhi",
@@ -13902,7 +15173,18 @@
       ],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahatma-Gandhi%2C_studio%2C_1931.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi%2C_studio%2C_1931.jpg"
+      },
+      "links": [
+        {
+          "id": "tolstoy",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q1001"
+        }
+      ]
     },
     {
       "id": "sun-yat-sen",
@@ -14011,12 +15293,20 @@
           "quote_source": "쑨원 유촉(總理遺囑), 1925년 3월 11일 서명",
           "source_url": "https://ebrary.net/170976/history/sen_s_wills_testament_march_1925",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sunyatsen1.jpg/500px-Sunyatsen1.jpg",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%82%BC%EB%AF%BC%EC%A3%BC%EC%9D%98"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg"
+      }
     },
     {
       "id": "bolivar",
@@ -14113,12 +15403,20 @@
           "quote_source": "Carta de Jamaica / Letter from Jamaica (1815)",
           "source_url": "http://www.columbia.edu/cu/spanish/courses/spanish3350/02independencia/pdf/jamaica.pdf",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/CARTA_DE_JAMAICA_%2832487613314%29.jpg/500px-CARTA_DE_JAMAICA_%2832487613314%29.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Jamaica_Letter"
+          }
         }
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sim%C3%B3n_Bol%C3%ADvar_by_Acevedo_Bernal%2C_1922.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sim%C3%B3n_Bol%C3%ADvar_by_Acevedo_Bernal%2C_1922.jpg"
+      }
     },
     {
       "id": "unaipon",
@@ -14218,7 +15516,11 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/David_Unaipon.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:David_Unaipon.jpg"
+      }
     },
     {
       "id": "ngata",
@@ -14318,7 +15620,11 @@
       ],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C4%80pirana_Ngata_05.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%C4%80pirana_Ngata_05.jpg"
+      }
     },
     {
       "id": "al-khwarizmi",
@@ -14425,7 +15731,11 @@
           "quote_source": "",
           "source_url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
           "source_grade": "B",
-          "flags": []
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Image-Al-Kit%C4%81b_al-mu%E1%B8%ABta%E1%B9%A3ar_f%C4%AB_%E1%B8%A5is%C4%81b_al-%C4%9Fabr_wa-l-muq%C4%81bala.jpg",
+            "source_url": "https://en.wikipedia.org/wiki/Al-Jabr"
+          }
         },
         {
           "title": "인도 숫자를 이용한 계산법",
@@ -14445,7 +15755,11 @@
       "verified": true,
       "flags": [
         "birthplace-disputed"
-      ]
+      ],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Al-Khwarizmi.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Al-Khwarizmi.jpg"
+      }
     },
     {
       "id": "claude-shannon",
@@ -14506,7 +15820,11 @@
       "works": [],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ClaudeShannon_MFO3807.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:ClaudeShannon_MFO3807.jpg"
+      }
     },
     {
       "id": "john-von-neumann",
@@ -14567,7 +15885,11 @@
       "works": [],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JohnvonNeumann-LosAlamos.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.jpg"
+      }
     },
     {
       "id": "douglas-engelbart",
@@ -14628,7 +15950,11 @@
       "works": [],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Douglas_Engelbart_in_2008.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Douglas_Engelbart_in_2008.jpg"
+      }
     },
     {
       "id": "alan-kay",
@@ -14689,7 +16015,11 @@
       "works": [],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alan_Kay_%283097597186%29_%28cropped%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Alan_Kay_%283097597186%29_%28cropped%29.jpg"
+      }
     },
     {
       "id": "robert-noyce",
@@ -14750,7 +16080,11 @@
       "works": [],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Noyce_with_Motherboard_1959.png?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Robert_Noyce_with_Motherboard_1959.png"
+      }
     },
     {
       "id": "gordon-moore",
@@ -14820,7 +16154,11 @@
       "works": [],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Former_Intel_CEO_Gordon_Moore_in_his_cubicle.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Former_Intel_CEO_Gordon_Moore_in_his_cubicle.jpg"
+      }
     },
     {
       "id": "steve-jobs",
@@ -14890,7 +16228,11 @@
       "works": [],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve_Jobs_Headshot_2010-CROP2.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP2.jpg"
+      }
     },
     {
       "id": "steve-wozniak",
@@ -14951,7 +16293,11 @@
       "works": [],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve_Wozniak_by_Gage_Skidmore.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Steve_Wozniak_by_Gage_Skidmore.jpg"
+      }
     },
     {
       "id": "bill-gates",
@@ -15012,7 +16358,11 @@
       "works": [],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_%28cropped%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_%28cropped%29.jpg"
+      }
     },
     {
       "id": "jeff-bezos",
@@ -15073,7 +16423,11 @@
       "works": [],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg"
+      }
     },
     {
       "id": "larry-page",
@@ -15125,7 +16479,11 @@
       "works": [],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry_Page_in_the_European_Parliament%2C_17.06.2009.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Larry_Page_in_the_European_Parliament%2C_17.06.2009.jpg"
+      }
     },
     {
       "id": "jensen-huang",
@@ -15177,7 +16535,11 @@
       "works": [],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jen-Hsun_Huang_2025.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jen-Hsun_Huang_2025.jpg"
+      }
     },
     {
       "id": "elon-musk",
@@ -15247,7 +16609,11 @@
       "works": [],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elon_Musk_%2854816836217%29_%28cropped_2%29_%28b%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Elon_Musk_%2854816836217%29_%28cropped_2%29_%28b%29.jpg"
+      }
     },
     {
       "id": "geoffrey-hinton",
@@ -15308,7 +16674,11 @@
       "works": [],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Geoffrey_Hinton_in_2026.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg"
+      }
     },
     {
       "id": "sam-altman",
@@ -15369,7 +16739,11 @@
       "works": [],
       "source_grade": "B",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sam_Altman_speaking_at_TED_%28cropped%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sam_Altman_speaking_at_TED_%28cropped%29.jpg"
+      }
     },
     {
       "id": "demis-hassabis",
@@ -15439,7 +16813,11 @@
       "works": [],
       "source_grade": "A",
       "verified": true,
-      "flags": []
+      "flags": [],
+      "portrait": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg?width=400",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg"
+      }
     }
   ]
 }
