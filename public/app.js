@@ -538,15 +538,14 @@ function refreshMapRoster() {
   updatePinLabels(inView);
   if (!inView.length) { box.hidden = true; return; }
   inView.sort((x, y) => (x.birth_year ?? 9999) - (y.birth_year ?? 9999));
-  const MAX = 20;
-  const shown = inView.slice(0, MAX);
+  // 전원을 여러 줄 박스로 한 번에(스크롤 없이). 인원이 많으면 연도를 생략해 칩을 컴팩트하게.
+  const showLife = inView.length <= 25;
   box.innerHTML =
     `<div class="mr-title">${t("이 지도 안의 인물", "In this view")} <span class="mr-count">${inView.length}</span></div>` +
-    shown.map((p) =>
+    inView.map((p) =>
       `<button type="button" class="mr-item${p.id === activePersonId ? " on" : ""}" data-person="${p.id}">` +
-      `${nameOf(p)}<span class="mr-life">${fmtYear(p.birth_year)}–${fmtYear(p.death_year)}</span></button>`
-    ).join("") +
-    (inView.length > MAX ? `<div class="mr-more">${t(`외 ${inView.length - MAX}명 — 확대해서 좁혀보세요`, `+${inView.length - MAX} more — zoom in`)}</div>` : "");
+      `${nameOf(p)}${showLife ? `<span class="mr-life">${fmtYear(p.birth_year)}–${fmtYear(p.death_year)}</span>` : ""}</button>`
+    ).join("");
   box.hidden = false;
 }
 

@@ -170,11 +170,12 @@ body { display: flex; flex-direction: column; }
   position: absolute; top: 12px; left: 58px; z-index: 900;
   /* 컨테이너(#layout)에는 패널도 포함 — 지도 폭 안에서만 끝나게 패널 폭(clamp)을 빼서 제한 */
   width: max-content; max-width: calc(100% - clamp(400px, 32vw, 560px) - 82px);
-  display: flex; align-items: center; gap: 2px;
-  overflow-x: auto; overflow-y: hidden;
+  /* 여러 줄 랩 박스 — 전원이 한눈에. 지도 높이 60%를 넘는 극단만 세로 스크롤(안전판) */
+  display: flex; flex-wrap: wrap; align-items: center; gap: 3px 2px;
+  max-height: 60%; overflow-y: auto;
   background: rgba(251, 248, 241, .94);
-  border: 1px solid var(--rule); border-radius: 999px;
-  padding: 5px 12px;
+  border: 1px solid var(--rule); border-radius: 12px;
+  padding: 7px 10px;
   box-shadow: 0 12px 28px -20px rgba(33, 28, 23, .55);
   scrollbar-width: thin;
 }
