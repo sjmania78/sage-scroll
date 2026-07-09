@@ -207,6 +207,7 @@ function renderPerson(p, fly = true) {
     teacher_of: ["제자", "student"],
     influenced_by: ["영향 받음", "influenced by"],
     influenced: ["영향 줌", "influenced"],
+    exchanged: ["교류", "exchanged"],
   };
   const linkChips = (p.links || []).map((l) => {
     const q2 = personById[l.id];

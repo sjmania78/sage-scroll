@@ -39,6 +39,25 @@ REL_PROPS = {
     "P185": ("teacher_of", "student_of"),      # 박사 제자
 }
 
+# 위키데이터가 비어 있는(서양 편중) 동아시아·아시아 교류/영향 — 사료로 잘 문서화된 것만 큐레이션.
+# (a, b, rel, source_url). rel=exchanged 는 상호 교류(대칭). 근거는 각 줄 주석 + 출처 URL.
+CURATED_LINKS = [
+    # 1558년 이이가 도산으로 이황을 찾아 사흘 문답, 이후 서신 왕래 지속 — 조선 유학사의 대표 교류
+    ("yi-i", "yi-hwang", "exchanged", "https://ko.wikipedia.org/wiki/이이"),
+    # 윤동주는 정지용 시의 깊은 영향 아래 습작(본인 스크랩·탐독), 정지용은 유고시집 서문을 씀
+    ("yun-dongju", "jeong-jiyong", "influenced_by", "https://ko.wikipedia.org/wiki/윤동주"),
+    # 이상·김유정 — 구인회 동인이자 절친, 1937년 보름 간격 요절 후 합동 추도식
+    ("yi-sang", "kim-yujeong", "exchanged", "https://ko.wikipedia.org/wiki/김유정_(소설가)"),
+    # 744년 낙양에서 만나 함께 유랑, 두보가 이백을 그리는 시 다수(춘일억이백 등)
+    ("du-fu", "li-bai", "exchanged", "https://ko.wikipedia.org/wiki/두보"),
+    # 타고르·간디 — 수십 년 서신·공개 논쟁·상호 존경('마하트마' 호칭 대중화)
+    ("tagore", "gandhi", "exchanged", "https://en.wikipedia.org/wiki/Rabindranath_Tagore"),
+    # 한용운 「님의 침묵」의 타고르 수용(김억 역 『기탄자리』 독서, 「타골의 시를 읽고」 화답시)
+    ("han-yongun", "tagore", "influenced_by", "https://ko.wikipedia.org/wiki/님의_침묵"),
+    # 김환기·이중섭 — 신사실파 동인(이중섭은 1953년 제3회전 참여)으로 함께 활동
+    ("kim-whanki", "lee-jung-seop", "exchanged", "https://ko.wikipedia.org/wiki/이중섭"),
+]
+
 
 def get_json(url: str):
     req = urllib.request.Request(url, headers=UA)
@@ -192,12 +211,23 @@ def main() -> None:
                 src = f"https://www.wikidata.org/wiki/{qid}"
                 links[pid][(tid, rel)] = {"id": tid, "rel": rel, "source_url": src}
                 links.setdefault(tid, {})[(pid, inv)] = {"id": pid, "rel": inv, "source_url": src}
+    # 큐레이션 관계 병합 — 위키데이터 에지와 같은 구조로(대칭 rel 처리 포함)
+    INV = {"influenced_by": "influenced", "influenced": "influenced_by",
+           "student_of": "teacher_of", "teacher_of": "student_of", "exchanged": "exchanged"}
+    ids = {p["id"] for p in people}
+    for a, b, rel, src in CURATED_LINKS:
+        if a not in ids or b not in ids:
+            print(f"  warn CURATED: 미존재 id {a} 또는 {b}")
+            continue
+        links.setdefault(a, {})[(b, rel)] = {"id": b, "rel": rel, "source_url": src}
+        links.setdefault(b, {})[(a, INV[rel])] = {"id": a, "rel": INV[rel], "source_url": src}
+
     edges = 0
     for p in people:
         ls = list(links.get(p["id"], {}).values())
         # influenced_by와 student_of가 중복될 때(사제=영향) 사제 관계를 우선해 한 인물당 한 항목만
         seen: dict[str, dict] = {}
-        rank = {"student_of": 3, "teacher_of": 3, "influenced_by": 1, "influenced": 1}
+        rank = {"student_of": 3, "teacher_of": 3, "exchanged": 2, "influenced_by": 1, "influenced": 1}
         for l in ls:
             k = l["id"]
             if k not in seen or rank[l["rel"]] > rank[seen[k]["rel"]]:

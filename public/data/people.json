@@ -535,7 +535,14 @@
       "portrait": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoon_Dong-ju.jpg?width=400",
         "source_url": "https://commons.wikimedia.org/wiki/File:Yoon_Dong-ju.jpg"
-      }
+      },
+      "links": [
+        {
+          "id": "jeong-jiyong",
+          "rel": "influenced_by",
+          "source_url": "https://ko.wikipedia.org/wiki/윤동주"
+        }
+      ]
     },
     {
       "id": "yi-sang",
@@ -709,7 +716,14 @@
       "portrait": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leesang.jpg?width=400",
         "source_url": "https://commons.wikimedia.org/wiki/File:Leesang.jpg"
-      }
+      },
+      "links": [
+        {
+          "id": "kim-yujeong",
+          "rel": "exchanged",
+          "source_url": "https://ko.wikipedia.org/wiki/김유정_(소설가)"
+        }
+      ]
     },
     {
       "id": "sejong-the-great",
@@ -1242,7 +1256,14 @@
       "portrait": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Han_Yongun.jpg?width=400",
         "source_url": "https://commons.wikimedia.org/wiki/File:Han_Yongun.jpg"
-      }
+      },
+      "links": [
+        {
+          "id": "tagore",
+          "rel": "influenced_by",
+          "source_url": "https://ko.wikipedia.org/wiki/님의_침묵"
+        }
+      ]
     },
     {
       "id": "sin-chaeho",
@@ -1582,7 +1603,14 @@
       "portrait": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%EC%A0%95%EC%A7%80%EC%9A%A9_%EB%AC%B8%ED%95%99%EA%B4%80_%EC%84%A4%EB%AA%85.JPG?width=400",
         "source_url": "https://commons.wikimedia.org/wiki/File:%EC%A0%95%EC%A7%80%EC%9A%A9_%EB%AC%B8%ED%95%99%EA%B4%80_%EC%84%A4%EB%AA%85.JPG"
-      }
+      },
+      "links": [
+        {
+          "id": "yun-dongju",
+          "rel": "influenced",
+          "source_url": "https://ko.wikipedia.org/wiki/윤동주"
+        }
+      ]
     },
     {
       "id": "kim-yujeong",
@@ -1744,7 +1772,14 @@
       "portrait": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/YuJeong_Kim.jpg?width=400",
         "source_url": "https://commons.wikimedia.org/wiki/File:YuJeong_Kim.jpg"
-      }
+      },
+      "links": [
+        {
+          "id": "yi-sang",
+          "rel": "exchanged",
+          "source_url": "https://ko.wikipedia.org/wiki/김유정_(소설가)"
+        }
+      ]
     },
     {
       "id": "lee-yuksa",
@@ -2153,7 +2188,14 @@
       "portrait": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%EC%9D%B4%EC%A4%91%EC%84%AD_%ED%99%94%EB%B0%B1.jpg?width=400",
         "source_url": "https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EC%A4%91%EC%84%AD_%ED%99%94%EB%B0%B1.jpg"
-      }
+      },
+      "links": [
+        {
+          "id": "kim-whanki",
+          "rel": "exchanged",
+          "source_url": "https://ko.wikipedia.org/wiki/이중섭"
+        }
+      ]
     },
     {
       "id": "kim-whanki",
@@ -2374,7 +2416,14 @@
       "portrait": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%EA%B9%80%ED%99%98%EA%B8%B0_%ED%99%94%EB%B0%B1.jpg?width=400",
         "source_url": "https://commons.wikimedia.org/wiki/File:%EA%B9%80%ED%99%98%EA%B8%B0_%ED%99%94%EB%B0%B1.jpg"
-      }
+      },
+      "links": [
+        {
+          "id": "lee-jung-seop",
+          "rel": "exchanged",
+          "source_url": "https://ko.wikipedia.org/wiki/이중섭"
+        }
+      ]
     },
     {
       "id": "park-soo-keun",
@@ -3443,7 +3492,14 @@
       "portrait": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03013.JPG?width=400",
         "source_url": "https://commons.wikimedia.org/wiki/File:20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03013.JPG"
-      }
+      },
+      "links": [
+        {
+          "id": "yi-hwang",
+          "rel": "exchanged",
+          "source_url": "https://ko.wikipedia.org/wiki/이이"
+        }
+      ]
     },
     {
       "id": "yi-hwang",
@@ -3679,7 +3735,14 @@
       "portrait": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_of_Yi_Hwang.jpg?width=400",
         "source_url": "https://commons.wikimedia.org/wiki/File:Statue_of_Yi_Hwang.jpg"
-      }
+      },
+      "links": [
+        {
+          "id": "yi-i",
+          "rel": "exchanged",
+          "source_url": "https://ko.wikipedia.org/wiki/이이"
+        }
+      ]
     },
     {
       "id": "kim-sowol",
@@ -4666,7 +4729,14 @@
       "portrait": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dufu.jpg?width=400",
         "source_url": "https://commons.wikimedia.org/wiki/File:Dufu.jpg"
-      }
+      },
+      "links": [
+        {
+          "id": "li-bai",
+          "rel": "exchanged",
+          "source_url": "https://ko.wikipedia.org/wiki/두보"
+        }
+      ]
     },
     {
       "id": "matsuo-basho",
@@ -6099,7 +6169,19 @@
       "portrait": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rabindranath_Tagore_in_1909.jpg?width=400",
         "source_url": "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_in_1909.jpg"
-      }
+      },
+      "links": [
+        {
+          "id": "gandhi",
+          "rel": "exchanged",
+          "source_url": "https://en.wikipedia.org/wiki/Rabindranath_Tagore"
+        },
+        {
+          "id": "han-yongun",
+          "rel": "influenced",
+          "source_url": "https://ko.wikipedia.org/wiki/님의_침묵"
+        }
+      ]
     },
     {
       "id": "mark-twain",
@@ -10829,7 +10911,14 @@
       "portrait": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%9D%8E%E7%99%BD.png?width=400",
         "source_url": "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E7%99%BD.png"
-      }
+      },
+      "links": [
+        {
+          "id": "du-fu",
+          "rel": "exchanged",
+          "source_url": "https://ko.wikipedia.org/wiki/두보"
+        }
+      ]
     },
     {
       "id": "voltaire",
@@ -15179,6 +15268,11 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi%2C_studio%2C_1931.jpg"
       },
       "links": [
+        {
+          "id": "tagore",
+          "rel": "exchanged",
+          "source_url": "https://en.wikipedia.org/wiki/Rabindranath_Tagore"
+        },
         {
           "id": "tolstoy",
           "rel": "influenced_by",
