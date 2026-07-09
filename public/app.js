@@ -475,6 +475,34 @@ function renderTodaySage(p) {
   bar.hidden = false;
 }
 
+// 첫 방문 인트로 — 첫 화면이 빈 지도+필터뿐이라 생기는 즉시 이탈 대응.
+// 오늘의 인물을 문 앞에서 바로 건네고, 재방문(localStorage)·딥링크 진입은 건너뛴다.
+function wireIntro(today) {
+  const box = document.getElementById("intro");
+  if (!box || !today) return;
+  try { if (localStorage.getItem("ss_intro") === "1") return; } catch (e) {}
+  document.querySelectorAll(".intro-count").forEach((el) => (el.textContent = allPeople.length));
+  document.getElementById("intro-today-name").textContent = nameOf(today);
+  document.getElementById("intro-today-meta").textContent = [
+    t(today.field, today.field_en),
+    `${fmtYear(today.birth_year)}–${fmtYear(today.death_year)}`,
+  ].filter(Boolean).join(" · ");
+  document.getElementById("intro-today").hidden = false;
+  const close = () => {
+    box.hidden = true;
+    try { localStorage.setItem("ss_intro", "1"); } catch (e) {}
+  };
+  document.getElementById("intro-open").addEventListener("click", () => {
+    close();
+    renderPerson(today);
+    // 모바일은 패널이 지도 아래라 화면 밖 — 펼친 내용이 보이게 스크롤
+    if (window.innerWidth <= 780) document.getElementById("panel").scrollIntoView({ behavior: "smooth" });
+  });
+  document.getElementById("intro-skip").addEventListener("click", close);
+  box.addEventListener("click", (e) => { if (e.target === box) close(); });
+  box.hidden = false;
+}
+
 // 인물 딥링크 — #p=<id> 해시에서 인물을 찾는다 (공유 링크 진입·hashchange용).
 function personFromHash() {
   const m = (location.hash || "").match(/^#p=([\w-]+)/);
@@ -645,6 +673,7 @@ async function init() {
   if (linked) renderPerson(linked);
   else if (todaySage) renderPerson(todaySage, false);
   else if (people.length) renderPerson(people[0], false);
+  if (!linked) wireIntro(todaySage);
 }
 
 init();
