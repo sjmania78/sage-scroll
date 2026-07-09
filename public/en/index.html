@@ -76,6 +76,25 @@
   </div>
 
   <main id="layout">
+    <div id="intro" hidden>
+      <div class="intro-card">
+        <div class="intro-brand">Sage&nbsp;Scroll</div>
+        <p class="intro-lead">
+          <span class="ko">세계 지성 <b class="intro-count">—</b>인의 생애를,<br />그들이 살던 자리 위에서 읽습니다.</span>
+          <span class="en">The lives of <b class="intro-count">—</b> great minds,<br />read on the places where they lived.</span>
+        </p>
+        <p class="intro-sub"><span class="ko">연표 · 저작 · 남긴 말 — 전부 검증된 사료로만.</span><span class="en">Timelines, works, and their own words — verified sources only.</span></p>
+        <div class="intro-today" id="intro-today" hidden>
+          <span class="it-label"><span class="ko">오늘의 인물</span><span class="en">Figure of the day</span></span>
+          <span class="it-name" id="intro-today-name"></span>
+          <span class="it-meta" id="intro-today-meta"></span>
+        </div>
+        <div class="intro-actions">
+          <button type="button" id="intro-open" class="intro-primary"><span class="ko">오늘의 인물 펼치기</span><span class="en">Open today's figure</span></button>
+          <button type="button" id="intro-skip" class="intro-ghost"><span class="ko">지도 둘러보기</span><span class="en">Browse the map</span></button>
+        </div>
+      </div>
+    </div>
     <div id="map"></div>
     <div id="map-roster" hidden></div>
     <aside id="panel">
