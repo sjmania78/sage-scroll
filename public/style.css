@@ -165,39 +165,53 @@ body { display: flex; flex-direction: column; }
 #layout { display: flex; flex: 1; min-height: 0; position: relative; }
 #map { flex: 1; min-width: 0; background: var(--surface-2); }
 
-/* ── 시야 연동 인물 리스트 — 지도 좌상단 오버레이 (줌 컨트롤 아래) ── */
+/* ── 시야 연동 인물 리스트 — 지도 상단에 붙는 가로 스트립(줌 컨트롤 오른쪽) ── */
 #map-roster {
-  position: absolute; left: 12px; top: 92px; z-index: 900;
-  /* 높이 제한은 컨테이너(#layout=지도 영역) 기준 — vh 기준이면 낮은 창에서 지도 밖(푸터)까지 삐져나옴 */
-  width: 186px; max-height: calc(100% - 92px - 14px); overflow-y: auto;
+  position: absolute; top: 12px; left: 58px; z-index: 900;
+  /* 컨테이너(#layout)에는 패널도 포함 — 지도 폭 안에서만 끝나게 패널 폭(clamp)을 빼서 제한 */
+  width: max-content; max-width: calc(100% - clamp(400px, 32vw, 560px) - 82px);
+  display: flex; align-items: center; gap: 2px;
+  overflow-x: auto; overflow-y: hidden;
   background: rgba(251, 248, 241, .94);
-  border: 1px solid var(--rule); border-radius: 10px;
-  padding: 9px 9px 7px;
+  border: 1px solid var(--rule); border-radius: 999px;
+  padding: 5px 12px;
   box-shadow: 0 12px 28px -20px rgba(33, 28, 23, .55);
+  scrollbar-width: thin;
 }
 #map-roster[hidden] { display: none; }
 .mr-title {
   font-family: var(--sans); font-size: 10px; font-weight: 700;
   letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint);
-  padding: 2px 4px 7px;
+  padding: 0 8px 0 2px; white-space: nowrap; flex-shrink: 0;
 }
 .mr-count { color: var(--seal); }
 .mr-item {
-  display: flex; align-items: baseline; justify-content: space-between; gap: 8px;
-  width: 100%; text-align: left;
+  display: inline-flex; align-items: baseline; gap: 6px; flex-shrink: 0;
   font-family: var(--sans); font-size: 13px; color: var(--ink);
-  background: transparent; border: none; border-radius: 7px;
-  padding: 5px 7px; cursor: pointer; transition: background .12s, color .12s;
+  background: transparent; border: none; border-radius: 999px;
+  padding: 4px 10px; cursor: pointer; transition: background .12s, color .12s;
+  white-space: nowrap;
 }
 .mr-item:hover { background: var(--surface-2); color: var(--seal); }
 .mr-item.on { background: var(--seal); color: #fff; }
 .mr-item.on .mr-life { color: rgba(255,255,255,.75); }
 .mr-life { font-size: 10.5px; color: var(--ink-faint); white-space: nowrap; }
-.mr-more { font-size: 11px; color: var(--ink-faint); padding: 5px 7px 2px; }
+.mr-more { font-size: 11px; color: var(--ink-faint); padding: 0 6px; white-space: nowrap; flex-shrink: 0; }
 @media (max-width: 720px) { #map-roster { display: none; } }
 
+/* 핀 옆 이름 라벨 — 화면 안 인물이 적을 때만 표시(app.js updatePinLabels) */
+.pin-label {
+  background: rgba(251, 248, 241, .93);
+  border: 1px solid var(--rule); border-radius: 6px;
+  padding: 1px 7px;
+  font-family: var(--sans); font-size: 11px; color: var(--ink);
+  box-shadow: 0 1px 4px rgba(60, 50, 35, .16);
+}
+.pin-label::before { display: none; }
+
 #panel {
-  width: 424px; flex-shrink: 0;
+  /* 화면 폭에 비례 — 초광폭에서 지도만 끝없이 넓어지고 패널이 상대적으로 좁아지는 것 완화 */
+  width: clamp(400px, 32vw, 560px); flex-shrink: 0;
   background: var(--surface); border-left: 1px solid var(--rule);
   overflow-y: auto;
 }

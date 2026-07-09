@@ -20,10 +20,12 @@ const map = L.map("map", {
 }).setView(KOREA_CENTER, 6);
 
 // 차분한 editorial 베이스맵 (Carto Positron — 무료·키 불필요, 지도는 물러나고 데이터가 튐)
+// noWrap + maxBounds — 초광폭 화면에서 세계지도가 3번 반복되던 것 차단(비율 어색함의 주범)
 L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-  subdomains: "abcd", maxZoom: 19,
+  subdomains: "abcd", maxZoom: 19, noWrap: true,
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
 }).addTo(map);
+map.setMaxBounds([[-85, -180], [85, 180]]);
 
 const placeIndex = {};
 const personMarkers = {};
@@ -130,7 +132,7 @@ function drawLinkLines(p) {
     const to = (personMarkers[l.id] || [])[0];
     if (!to) return;
     lines.push(L.polyline([from.getLatLng(), to.getLatLng()], {
-      color: "#b23a2c", weight: 1.6, opacity: 0.5, dashArray: "4 7", interactive: false,
+      color: "#b23a2c", weight: 2, opacity: 0.55, dashArray: "4 7", interactive: false,
     }));
   });
   if (lines.length) linkLines = L.layerGroup(lines).addTo(map);
@@ -511,15 +513,32 @@ function wireSearch() {
   document.addEventListener("click", (e) => { if (!e.target.closest(".nav-search")) close(); });
 }
 
+// 핀 옆 이름 라벨 — 화면 안 인물이 적을 때만 켠다(밀집 지역 겹침 방지). 언어 전환 시 내용 갱신.
+const PIN_LABEL_MAX = 18;
+function updatePinLabels(inView) {
+  const show = new Set(inView.length <= PIN_LABEL_MAX ? inView.map((p) => p.id) : []);
+  allPeople.forEach((p) => {
+    const m = (personMarkers[p.id] || [])[0];
+    if (!m) return;
+    if (show.has(p.id)) {
+      if (m.getTooltip()) m.setTooltipContent(nameOf(p));
+      else m.bindTooltip(nameOf(p), { permanent: true, direction: "right", offset: [9, 0], className: "pin-label", interactive: false });
+    } else if (m.getTooltip()) {
+      m.unbindTooltip();
+    }
+  });
+}
+
 // 시야 연동 인물 리스트 — 지도를 움직일 때마다 현재 화면 안에 마커가 있는 인물을 갱신해 보여준다.
 function refreshMapRoster() {
   const box = document.getElementById("map-roster");
   if (!box || !allPeople.length) return;
   const b = map.getBounds();
   const inView = allPeople.filter((p) => (personMarkers[p.id] || []).some((m) => m && b.contains(m.getLatLng())));
+  updatePinLabels(inView);
   if (!inView.length) { box.hidden = true; return; }
   inView.sort((x, y) => (x.birth_year ?? 9999) - (y.birth_year ?? 9999));
-  const MAX = 14;
+  const MAX = 20;
   const shown = inView.slice(0, MAX);
   box.innerHTML =
     `<div class="mr-title">${t("이 지도 안의 인물", "In this view")} <span class="mr-count">${inView.length}</span></div>` +
