@@ -14,6 +14,20 @@ let LANG = (function () {
 })();
 function t(ko, en) { return LANG === "en" && en ? en : ko; }
 
+// ── 책 어필리에이트 (저작을 Amazon에서 찾기) ──
+// 사실·출처와 분리된 '쇼핑' 링크(rel=sponsored)로 명시 — 지도의 신뢰도(사실+출처만)를 훼손하지 않는다.
+// 활성화 단계(Joe): Amazon Associates 계정에 sage.bluetronai.com 사이트를 추가하고
+//   트래킹ID(예: sagescroll-20)를 만든 뒤, 아래 AMAZON_TAG를 그 값으로 설정. (빈 문자열이면 링크 미표시)
+const AMAZON_TAG = "sagescroll-20";
+function bookShopLink(p) {
+  if (!AMAZON_TAG) return "";
+  const name = p.name_en || p.name_ko || "";
+  if (!name) return "";
+  const url = "https://www.amazon.com/s?i=stripbooks&k=" + encodeURIComponent(name) + "&tag=" + AMAZON_TAG;
+  return `<a class="book-shop" href="${url}" target="_blank" rel="noopener sponsored">`
+    + `${t("이 인물의 책 찾기", "Find their books")} <span class="bs-amz">Amazon</span></a>`;
+}
+
 const map = L.map("map", {
   zoomControl: true, scrollWheelZoom: true,
   zoomSnap: 0.5, zoomDelta: 0.5, wheelPxPerZoomLevel: 130,
@@ -244,7 +258,7 @@ function renderPerson(p, fly = true) {
       <div class="person-public-link"><a href="${LANG === "en" ? "/en" : ""}/person/${p.id}">${t("공유용 인물 페이지", "Shareable profile")} →</a></div>
       ${heroHtml}
       <section class="seg"><h3 class="seg-title">${t("생애", "Life")}<span class="hint">${t("📍 누르면 지도가 그곳으로", "📍 tap to move the map")}</span></h3><ol class="timeline">${timelineHtml}</ol></section>
-      <section class="seg"><h3 class="seg-title">${t("저작", "Works")}<span class="hint">${t("사료 원문", "primary sources")}</span></h3>${worksHtml}</section>
+      <section class="seg"><h3 class="seg-title">${t("저작", "Works")}<span class="hint">${t("사료 원문", "primary sources")}</span></h3>${worksHtml}${bookShopLink(p)}</section>
       ${linksSection}
       <section class="seg"><h3 class="seg-title">${t("연고 장소", "Places")}</h3>${placesHtml}</section>
     </article>`;
