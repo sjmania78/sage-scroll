@@ -241,6 +241,7 @@ function renderPerson(p, fly = true) {
         </div>
         ${portraitHtml}
       </header>
+      <div class="person-public-link"><a href="${LANG === "en" ? "/en" : ""}/person/${p.id}">${t("공유용 인물 페이지", "Shareable profile")} →</a></div>
       ${heroHtml}
       <section class="seg"><h3 class="seg-title">${t("생애", "Life")}<span class="hint">${t("📍 누르면 지도가 그곳으로", "📍 tap to move the map")}</span></h3><ol class="timeline">${timelineHtml}</ol></section>
       <section class="seg"><h3 class="seg-title">${t("저작", "Works")}<span class="hint">${t("사료 원문", "primary sources")}</span></h3>${worksHtml}</section>
