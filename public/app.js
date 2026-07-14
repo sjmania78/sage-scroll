@@ -17,8 +17,8 @@ function t(ko, en) { return LANG === "en" && en ? en : ko; }
 // ── 책 어필리에이트 (저작을 Amazon에서 찾기) ──
 // 사실·출처와 분리된 '쇼핑' 링크(rel=sponsored)로 명시 — 지도의 신뢰도(사실+출처만)를 훼손하지 않는다.
 // 활성화 단계(Joe): Amazon Associates 계정에 sage.bluetronai.com 사이트를 추가하고
-//   트래킹ID(예: sagescroll-20)를 만든 뒤, 아래 AMAZON_TAG를 그 값으로 설정. (빈 문자열이면 링크 미표시)
-const AMAZON_TAG = "sagescroll-20";
+//   트래킹ID(예: sagescrolls-20)를 만든 뒤, 아래 AMAZON_TAG를 그 값으로 설정. (빈 문자열이면 링크 미표시)
+const AMAZON_TAG = "sagescrolls-20";
 function bookShopLink(p) {
   if (!AMAZON_TAG) return "";
   const name = p.name_en || p.name_ko || "";
