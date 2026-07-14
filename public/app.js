@@ -24,8 +24,13 @@ function bookShopLink(p) {
   const name = p.name_en || p.name_ko || "";
   if (!name) return "";
   const url = "https://www.amazon.com/s?i=stripbooks&k=" + encodeURIComponent(name) + "&tag=" + AMAZON_TAG;
-  return `<a class="book-shop" href="${url}" target="_blank" rel="noopener sponsored">`
-    + `${t("이 인물의 책 찾기", "Find their books")} <span class="bs-amz">Amazon</span></a>`;
+  const disclosure = t(
+    "제휴 링크입니다. 구매 시 일부 수수료가 사이트 운영에 쓰이며, 가격은 동일합니다. 어떤 선별·순위도 돈으로 바뀌지 않습니다.",
+    "Affiliate link. A small commission may support this site at no extra cost to you. No ranking or selection is ever paid for."
+  );
+  return `<div class="book-affiliate"><a class="book-shop" href="${url}" target="_blank" rel="noopener sponsored">`
+    + `${t("이 인물의 책 찾기", "Find their books")} <span class="bs-amz">Amazon</span></a>`
+    + `<p class="region-hint book-disclosure">${disclosure}</p></div>`;
 }
 
 const map = L.map("map", {

@@ -14,7 +14,7 @@
 
 ## 할 일
 - **[Joe]** Amazon Associates에 `sage.bluetronai.com` 등록 → `sagescrolls-20` 활성. ✅완료(2026-07-14)
-- **[데클]** disclosure 표준 문구 노출(현재 링크만 있고 고지 문구 약함 → 보강).
+- ✅ **표준 disclosure** — 책 링크 바로 아래 한·영 고지, 가격 동일, 선별·순위 독립 문구 적용(2026-07-14).
 - **[데클]** Bookshop.org 가입 후 병렬 링크(원서=Amazon, 국내=교보/알라딘 검토).
 
 ## disclosure
