@@ -5,9 +5,26 @@
 const KOREA_CENTER = [36.5, 127.9];
 
 // ── 언어 ──
-let LANG = (function () {
+// 함대 공용 쿠키(.bluetronai.com)에 저장한다. localStorage는 도메인 간 공유가 안 돼서
+// 다른 Bluetron 사이트에서 고른 언어가 여기로 이어지지 않았다. 기존 ss_lang 값은 이어받는다.
+function readBtLang() {
+  const m = document.cookie.match(/(?:^|;\s*)bt_lang=(ko|en)\b/);
+  if (m) return m[1];
   try {
     const s = localStorage.getItem("ss_lang");
+    if (s === "ko" || s === "en") return s;
+  } catch (e) {}
+  return null;
+}
+function writeBtLang(lang) {
+  // 미리보기(*.vercel.app)·로컬에서는 도메인을 붙이면 쿠키가 거부되므로 생략.
+  const domain = location.hostname.indexOf("bluetronai.com") >= 0 ? "; domain=.bluetronai.com" : "";
+  document.cookie = "bt_lang=" + lang + "; path=/" + domain + "; max-age=31536000; samesite=lax";
+  try { localStorage.setItem("ss_lang", lang); } catch (e) {}
+}
+let LANG = (function () {
+  try {
+    const s = readBtLang();
     if (s === "ko" || s === "en") return s;
     return (navigator.language || "ko").toLowerCase().indexOf("ko") === 0 ? "ko" : "en";
   } catch (e) { return "ko"; }
@@ -460,7 +477,7 @@ function applyLanguage() {
 }
 function setLang(lang) {
   LANG = lang;
-  try { localStorage.setItem("ss_lang", lang); } catch (e) {}
+  writeBtLang(lang);
   applyLanguage();
   updateStats(allPeople, statCache.placeCount, statCache.verifiedCount);
   buildRegionTabs(document.getElementById("region-tabs"));
