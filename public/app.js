@@ -23,10 +23,26 @@ function bookShopLink(p) {
   if (!AMAZON_TAG) return "";
   const name = p.name_en || p.name_ko || "";
   if (!name) return "";
+  const contentId = String(p.id || "unknown").replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 80) || "unknown";
   const url = "https://www.amazon.com/s?i=stripbooks&k=" + encodeURIComponent(name) + "&tag=" + AMAZON_TAG;
-  return `<a class="book-shop" href="${url}" target="_blank" rel="noopener sponsored">`
+  return `<a class="book-shop" href="${url}" target="_blank" rel="sponsored noopener noreferrer" data-content-id="${contentId}" data-placement="person-card">`
     + `${t("이 인물의 책 찾기", "Find their books")} <span class="bs-amz">Amazon</span></a>`;
 }
+
+window.va = window.va || function () {
+  (window.vaq = window.vaq || []).push(arguments);
+};
+document.addEventListener("click", function (event) {
+  const link = event.target.closest("a.book-shop[data-content-id]");
+  if (!link) return;
+  window.va("event", {
+    name: "affiliate_click",
+    data: {
+      content_id: link.dataset.contentId || "unknown",
+      placement: link.dataset.placement || "person-card",
+    },
+  });
+});
 
 const map = L.map("map", {
   zoomControl: true, scrollWheelZoom: true,
