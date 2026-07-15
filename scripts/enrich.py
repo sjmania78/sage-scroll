@@ -183,17 +183,20 @@ def main() -> None:
             continue
         qid_of[p["id"]] = h["qid"]
 
-    # 3) 초상 — P18 우선, 없으면 위키 문서 대표 썸네일
+    # 3) 초상 — 문서 대표 썸네일의 직접 URL 우선.
+    # Special:FilePath 리디렉션은 간헐적으로 실패해 실제 페이지에서 깨진다.
     portraits = 0
     for p in people:
         qid = qid_of.get(p["id"])
         if not qid:
             continue
         img = claim_image(ents.get(qid) or {})
-        if not img:
-            h = hits[p["id"]]
-            if h.get("thumb"):
-                img = {"url": h["thumb"], "source_url": h["page_url"]}
+        h = hits[p["id"]]
+        if h.get("thumb"):
+            img = {
+                "url": h["thumb"],
+                "source_url": img["source_url"] if img else h["page_url"],
+            }
         if img:
             p["portrait"] = img
             portraits += 1
