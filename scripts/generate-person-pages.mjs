@@ -4,6 +4,7 @@ import { dirname, resolve } from "node:path";
 const root = resolve(import.meta.dirname, "..");
 const publicDir = resolve(root, "public");
 const baseUrl = "https://sage.bluetronai.com";
+const amazonTag = "sagescrolls-20";
 const { people } = JSON.parse(await readFile(resolve(publicDir, "data/people.json"), "utf8"));
 
 const escapeHtml = (value = "") => String(value)
@@ -15,6 +16,12 @@ const escapeHtml = (value = "") => String(value)
 
 const absoluteSource = (value) => /^https:\/\//.test(value || "") ? value : null;
 const year = (value, lang) => value == null ? "?" : value < 0 ? (lang === "en" ? `${-value} BCE` : `기원전 ${-value}`) : String(value);
+const amazonBookUrl = (person, item) => {
+  const title = item?.title_en || item?.title || "";
+  const name = person.name_en || person.name_ko || "";
+  const query = [title, name].filter(Boolean).join(" ") || `${name} books`;
+  return `https://www.amazon.com/s?i=stripbooks&k=${encodeURIComponent(query)}&tag=${amazonTag}`;
+};
 
 function pageFor(person, lang) {
   const en = lang === "en";
@@ -41,8 +48,9 @@ function pageFor(person, lang) {
   const works = (person.works || []).map((item) => {
     const title = en ? (item.title_en || item.title) : item.title;
     const note = en ? (item.note_en || item.note) : item.note;
-    return `<article><h3>${escapeHtml(title)}${item.year != null ? ` <small>${escapeHtml(year(item.year, lang))}</small>` : ""}</h3>${note ? `<p>${escapeHtml(note)}</p>` : ""}${absoluteSource(item.source_url) ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">${en ? "Verify source" : "출처 확인"}</a>` : ""}</article>`;
+    return `<article><h3>${escapeHtml(title)}${item.year != null ? ` <small>${escapeHtml(year(item.year, lang))}</small>` : ""}</h3>${note ? `<p>${escapeHtml(note)}</p>` : ""}${absoluteSource(item.source_url) ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">${en ? "Verify source" : "출처 확인"}</a>` : ""}<a class="book-shop" href="${escapeHtml(amazonBookUrl(person, item))}" target="_blank" rel="sponsored noopener noreferrer" data-content-id="${escapeHtml(person.id)}" data-placement="person-profile-work">${en ? "Find an edition" : "도서 판본 찾기"} <span class="bs-amz">Amazon</span></a></article>`;
   }).join("");
+  const affiliateNote = works ? `<p class="affiliate-note">${en ? "As an Amazon Associate, Sage Scroll may earn from qualifying purchases. Shopping links are separate from sources and do not affect editorial information." : "Sage Scroll은 아마존 어소시에이트로서 적격 구매에서 수수료를 받을 수 있습니다. 쇼핑 링크는 근거 출처와 분리되며 저작 정보에 영향을 주지 않습니다."}</p>` : "";
   const sourceList = [...sources].map(([url, label]) => `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`).join("");
   const jsonLd = JSON.stringify({
     "@context": "https://schema.org",
@@ -64,9 +72,9 @@ function pageFor(person, lang) {
 <header class="profile-hero">${person.portrait?.url ? `<img src="${escapeHtml(person.portrait.url)}" alt="${escapeHtml(name)}" onerror="this.remove()">` : ""}<div><p>Sage Scroll · ${person.verified === false ? (en ? "Unverified" : "미검증") : (en ? "Verified sources" : "출처 검증")}</p><h1>${escapeHtml(name)}</h1>${en && person.name_ko ? `<div class="profile-alt">${escapeHtml(person.name_ko)}</div>` : (!en && person.name_en ? `<div class="profile-alt">${escapeHtml(person.name_en)}</div>` : "")}<strong>${escapeHtml(field || "")} · ${escapeHtml(year(person.birth_year, lang))}–${escapeHtml(year(person.death_year, lang))}</strong></div></header>
 <div class="profile-actions"><a href="${backPath}">${en ? "Explore places on the map" : "지도에서 연고지 보기"}</a><button type="button" id="share-profile">${en ? "Share" : "공유하기"}</button></div>
 <section class="profile-section"><h2>${en ? "Life" : "생애"}</h2><ol class="profile-timeline">${timeline}</ol></section>
-<section class="profile-section"><h2>${en ? "Works" : "저작"}</h2><div class="profile-works">${works}</div></section>
+<section class="profile-section"><h2>${en ? "Works" : "저작"}</h2><div class="profile-works">${works}</div>${affiliateNote}</section>
 <section class="profile-section"><h2>${en ? "Sources" : "근거 출처"}</h2><ul class="profile-sources">${sourceList}</ul><p class="profile-note">${en ? "Facts are shown with their recorded sources; this page does not rank or evaluate the person." : "사실은 기록된 출처와 함께 표시하며, 인물을 순위화하거나 평가하지 않습니다."}</p></section>
-</main><script>document.getElementById("share-profile").addEventListener("click",async()=>{const u=new URL("${path}",location.origin);u.searchParams.set("utm_source","sage-scroll");u.searchParams.set("utm_medium","share");u.searchParams.set("utm_campaign","person_profile");try{if(navigator.share){await navigator.share({title:${JSON.stringify(name)},url:u.toString()})}else{await navigator.clipboard.writeText(u.toString());alert(${JSON.stringify(en ? "Share link copied." : "공유 링크를 복사했습니다.")})}}catch(e){}});</script></body></html>`;
+</main><script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};document.addEventListener("click",event=>{const link=event.target.closest("a.book-shop[data-content-id]");if(link)window.va("event",{name:"affiliate_click",data:{content_id:(link.dataset.contentId||"unknown").slice(0,80),placement:link.dataset.placement||"person-profile-work"}})});document.getElementById("share-profile").addEventListener("click",async()=>{const u=new URL("${path}",location.origin);u.searchParams.set("utm_source","sage-scroll");u.searchParams.set("utm_medium","share");u.searchParams.set("utm_campaign","person_profile");try{if(navigator.share){await navigator.share({title:${JSON.stringify(name)},url:u.toString()})}else{await navigator.clipboard.writeText(u.toString());alert(${JSON.stringify(en ? "Share link copied." : "공유 링크를 복사했습니다.")})}}catch(e){}});</script></body></html>`;
 }
 
 for (const person of people) {
