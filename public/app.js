@@ -59,6 +59,9 @@ const map = L.map("map", {
 // noWrap + maxBounds — 초광폭 화면에서 세계지도가 3번 반복되던 것 차단(비율 어색함의 주범)
 L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
   subdomains: "abcd", maxZoom: 19, noWrap: true,
+  // bounds: 세계 밖 좌표(z0의 x=-1 등)까지 타일을 요청해 CARTO가 400을 뱉던 것을 차단.
+  // noWrap 만으로는 초저줌·초광폭에서 가장자리 타일 요청이 남는다.
+  bounds: [[-85.06, -180], [85.06, 180]],
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
 }).addTo(map);
 map.setMaxBounds([[-85, -180], [85, 180]]);
@@ -450,6 +453,12 @@ function refreshList(fly = true) {
 
 function addMarker(lat, lng, person, place) {
   const m = L.marker([lat, lng], { icon: pinIcon(false) }).addTo(map);
+  // 접근성: 지도 마커는 키보드 포커스 대상이지만 이름이 없어 스크린리더가 못 읽었다(120개 무명 요소).
+  const markerEl = m.getElement();
+  if (markerEl) {
+    markerEl.setAttribute("role", "button");
+    markerEl.setAttribute("aria-label", nameOf(person));
+  }
   m.bindPopup("");
   m.on("popupopen", () => {
     const label = place ? `${t(place.name, place.name_en)} · ${nameOf(person)}` : nameOf(person);
