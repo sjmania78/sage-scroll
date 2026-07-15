@@ -19,14 +19,29 @@ function t(ko, en) { return LANG === "en" && en ? en : ko; }
 // 활성화 단계(Joe): Amazon Associates 계정에 sage.bluetronai.com 사이트를 추가하고
 //   트래킹ID(예: sagescroll-20)를 만든 뒤, 아래 AMAZON_TAG를 그 값으로 설정. (빈 문자열이면 링크 미표시)
 const AMAZON_TAG = "sagescroll-20";
+function escapeBookText(value) {
+  return String(value || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
 function bookShopLink(p) {
   if (!AMAZON_TAG) return "";
   const name = p.name_en || p.name_ko || "";
   if (!name) return "";
+  const work = (p.works || []).find((item) => item.title_en || item.title);
+  const workTitle = work ? (LANG === "en" ? (work.title_en || work.title) : (work.title || work.title_en)) : "";
+  const query = workTitle ? `${workTitle} ${name}` : `${name} books`;
   const contentId = String(p.id || "unknown").replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 80) || "unknown";
-  const url = "https://www.amazon.com/s?i=stripbooks&k=" + encodeURIComponent(name) + "&tag=" + AMAZON_TAG;
-  return `<a class="book-shop" href="${url}" target="_blank" rel="sponsored noopener noreferrer" data-content-id="${contentId}" data-placement="person-card">`
-    + `${t("이 인물의 책 찾기", "Find their books")} <span class="bs-amz">Amazon</span></a>`;
+  const url = "https://www.amazon.com/s?i=stripbooks&k=" + encodeURIComponent(query) + "&tag=" + AMAZON_TAG;
+  const label = workTitle
+    ? t(`『${escapeBookText(workTitle)}』 판본 찾기`, `Find ${escapeBookText(workTitle)}`)
+    : t("이 인물의 책 찾기", "Find books about this person");
+  return `<div class="book-shop-list"><a class="book-shop" href="${url}" target="_blank" rel="sponsored noopener noreferrer" data-content-id="${contentId}" data-placement="person-card">`
+    + `${label} <span class="bs-amz">Amazon</span></a>`
+    + `<p class="affiliate-note">${t("적격 구매 시 수수료를 받을 수 있습니다. 저작 정보와 순위에는 영향을 주지 않습니다.", "As an Amazon Associate, Sage Scroll may earn from qualifying purchases. Links do not affect editorial information.")}</p></div>`;
 }
 
 window.va = window.va || function () {

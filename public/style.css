@@ -452,6 +452,10 @@ body { display: flex; flex-direction: column; }
 .book-shop:hover { color: var(--seal); border-color: var(--seal-soft); }
 .book-shop .bs-amz { font-weight: 600; color: var(--ink-faint); font-size: 11px; letter-spacing: .02em; }
 .book-shop:hover .bs-amz { color: var(--seal); }
+.book-shop-list { margin-top: 14px; }
+.book-shop-list .book-shop { margin-top: 0; }
+.affiliate-note { margin: 8px 0 0; color: var(--ink-faint); font: 400 11px/1.55 var(--sans); }
+.profile-works .book-shop { margin-left: 10px; }
 
 /* ── 상태 바 ── */
 #statusbar {
