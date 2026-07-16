@@ -5,6 +5,13 @@ const root = resolve(import.meta.dirname, "..");
 const publicDir = resolve(root, "public");
 const baseUrl = "https://sage.bluetronai.com";
 const amazonTag = "sagescrolls-20";
+const coupangDisclosure = "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.";
+const coupangBooks = {
+  dostoevsky: {
+    title: "죄와 벌",
+    url: "https://link.coupang.com/a/fqsgNbrmWi",
+  },
+};
 const { people } = JSON.parse(await readFile(resolve(publicDir, "data/people.json"), "utf8"));
 
 const escapeHtml = (value = "") => String(value)
@@ -48,9 +55,14 @@ function pageFor(person, lang) {
   const works = (person.works || []).map((item) => {
     const title = en ? (item.title_en || item.title) : item.title;
     const note = en ? (item.note_en || item.note) : item.note;
-    return `<article><h3>${escapeHtml(title)}${item.year != null ? ` <small>${escapeHtml(year(item.year, lang))}</small>` : ""}</h3>${note ? `<p>${escapeHtml(note)}</p>` : ""}${absoluteSource(item.source_url) ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">${en ? "Verify source" : "출처 확인"}</a>` : ""}<a class="book-shop" href="${escapeHtml(amazonBookUrl(person, item))}" target="_blank" rel="sponsored noopener noreferrer" data-content-id="${escapeHtml(person.id)}" data-placement="person-profile-work">${en ? "Find an edition" : "도서 판본 찾기"} <span class="bs-amz">Amazon</span></a></article>`;
+    const coupang = coupangBooks[person.id];
+    const coupangLink = coupang?.title === item.title
+      ? `<a class="book-shop book-shop-coupang" href="${coupang.url}" target="_blank" rel="sponsored noopener noreferrer" data-content-id="${escapeHtml(person.id)}" data-placement="person-profile-work-coupang">${en ? "2-volume Korean edition" : "『죄와 벌』 전2권 현재 가격 보기"} <span class="bs-amz">Coupang</span></a>`
+      : "";
+    return `<article><h3>${escapeHtml(title)}${item.year != null ? ` <small>${escapeHtml(year(item.year, lang))}</small>` : ""}</h3>${note ? `<p>${escapeHtml(note)}</p>` : ""}${absoluteSource(item.source_url) ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">${en ? "Verify source" : "출처 확인"}</a>` : ""}<div class="book-shop-row"><a class="book-shop" href="${escapeHtml(amazonBookUrl(person, item))}" target="_blank" rel="sponsored noopener noreferrer" data-content-id="${escapeHtml(person.id)}" data-placement="person-profile-work">${en ? "Find an edition" : "도서 판본 찾기"} <span class="bs-amz">Amazon</span></a>${coupangLink}</div></article>`;
   }).join("");
-  const affiliateNote = works ? `<p class="affiliate-note">${en ? "As an Amazon Associate, Sage Scroll may earn from qualifying purchases. Shopping links are separate from sources and do not affect editorial information." : "Sage Scroll은 아마존 어소시에이트로서 적격 구매에서 수수료를 받을 수 있습니다. 쇼핑 링크는 근거 출처와 분리되며 저작 정보에 영향을 주지 않습니다."}</p>` : "";
+  const hasCoupangBook = (person.works || []).some((item) => coupangBooks[person.id]?.title === item.title);
+  const affiliateNote = works ? `<p class="affiliate-note">${en ? "As an Amazon Associate, Sage Scroll may earn from qualifying purchases. Shopping links are separate from sources and do not affect editorial information." : "Sage Scroll은 아마존 어소시에이트로서 적격 구매에서 수수료를 받을 수 있습니다. 쇼핑 링크는 근거 출처와 분리되며 저작 정보에 영향을 주지 않습니다."}</p>${hasCoupangBook ? `<p class="affiliate-note">${coupangDisclosure}</p>` : ""}` : "";
   const sourceList = [...sources].map(([url, label]) => `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`).join("");
   const jsonLd = JSON.stringify({
     "@context": "https://schema.org",

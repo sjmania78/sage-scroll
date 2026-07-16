@@ -36,6 +36,14 @@ function t(ko, en) { return LANG === "en" && en ? en : ko; }
 // 활성화 단계(Joe): Amazon Associates 계정에 sage.bluetronai.com 사이트를 추가하고
 //   트래킹ID(예: sagescrolls-20)를 만든 뒤, 아래 AMAZON_TAG를 그 값으로 설정. (빈 문자열이면 링크 미표시)
 const AMAZON_TAG = "sagescrolls-20";
+const COUPANG_DISCLOSURE = "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.";
+const COUPANG_BOOKS = {
+  dostoevsky: {
+    url: "https://link.coupang.com/a/fqsgNbrmWi",
+    labelKo: "『죄와 벌』 전2권 현재 가격 보기",
+    labelEn: "Crime and Punishment: 2-volume Korean edition",
+  },
+};
 function escapeBookText(value) {
   return String(value || "")
     .replaceAll("&", "&amp;")
@@ -56,9 +64,14 @@ function bookShopLink(p) {
   const label = workTitle
     ? t(`『${escapeBookText(workTitle)}』 판본 찾기`, `Find ${escapeBookText(workTitle)}`)
     : t("이 인물의 책 찾기", "Find books about this person");
-  return `<div class="book-affiliate book-shop-list"><a class="book-shop" href="${url}" target="_blank" rel="sponsored noopener noreferrer" data-content-id="${contentId}" data-placement="person-card">`
-    + `${label} <span class="bs-amz">Amazon</span></a>`
-    + `<p class="region-hint book-disclosure affiliate-note">${t("제휴 링크입니다. 적격 구매 시 수수료가 사이트 운영에 쓰이며, 가격은 동일합니다. 저작 정보와 순위에는 영향을 주지 않습니다.", "Affiliate link. As an Amazon Associate, Sage Scroll may earn from qualifying purchases at no extra cost. Links do not affect editorial information.")}</p></div>`;
+  const coupang = COUPANG_BOOKS[p.id];
+  const coupangLink = coupang
+    ? `<a class="book-shop book-shop-coupang" href="${coupang.url}" target="_blank" rel="sponsored noopener noreferrer" data-network="coupang" data-content-id="${contentId}" data-placement="person-card-coupang">${t(coupang.labelKo, coupang.labelEn)} <span class="bs-amz">Coupang</span></a>`
+    : "";
+  const coupangDisclosure = coupang ? `<p class="affiliate-note">${COUPANG_DISCLOSURE}</p>` : "";
+  return `<div class="book-affiliate book-shop-list"><div class="book-shop-row"><a class="book-shop" href="${url}" target="_blank" rel="sponsored noopener noreferrer" data-network="amazon" data-content-id="${contentId}" data-placement="person-card">`
+    + `${label} <span class="bs-amz">Amazon</span></a>${coupangLink}</div>`
+    + `<p class="region-hint book-disclosure affiliate-note">${t("제휴 링크입니다. 적격 구매 시 수수료가 사이트 운영에 쓰이며, 가격은 동일합니다. 저작 정보와 순위에는 영향을 주지 않습니다.", "Affiliate link. As an Amazon Associate, Sage Scroll may earn from qualifying purchases at no extra cost. Links do not affect editorial information.")}</p>${coupangDisclosure}</div>`;
 }
 
 window.va = window.va || function () {
@@ -70,6 +83,7 @@ document.addEventListener("click", function (event) {
   window.va("event", {
     name: "affiliate_click",
     data: {
+      network: link.dataset.network || "amazon",
       content_id: link.dataset.contentId || "unknown",
       placement: link.dataset.placement || "person-card",
     },
