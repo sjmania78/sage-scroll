@@ -44,6 +44,28 @@ const COUPANG_BOOKS = {
     labelEn: "Crime and Punishment: 2-volume Korean edition",
   },
 };
+const COUPANG_READING_GEAR = [
+  {
+    id: "book-stand",
+    url: "https://link.coupang.com/a/frdoez7a9c",
+    nameKo: "코믈리 높이조절 독서대",
+    nameEn: "Comely adjustable book stand",
+    benefitKo: "손으로 책을 계속 누르지 않아도 되면 자세가 편해지고, 한 장 더 읽을 여유가 생깁니다. 쿠팡 평점 5.0·후기 6천+ 상품입니다.",
+    benefitEn: "Free your hands and settle into a more comfortable reading position. Rated 5.0 with 6K+ Coupang reviews.",
+    ctaKo: "책을 내려놓고 이야기에 더 오래 머물기",
+    ctaEn: "Set the book down and stay with the story",
+  },
+  {
+    id: "reading-light",
+    url: "https://link.coupang.com/a/frdqUTM9ts",
+    nameKo: "레토 클립형 무선 독서등",
+    nameEn: "Leto cordless clip reading light",
+    benefitKo: "옆 사람을 깨우는 밝은 천장등 없이도, 잠들기 전 마음에 남은 대목을 조금 더 읽을 수 있습니다. 쿠팡 후기 5천+ 상품입니다.",
+    benefitEn: "Read a few more meaningful pages without filling the whole room with ceiling light. 5K+ Coupang reviews.",
+    ctaKo: "옆 사람은 깨우지 않고 한 장 더 읽기",
+    ctaEn: "Read one more page without waking the room",
+  },
+];
 function escapeBookText(value) {
   return String(value || "")
     .replaceAll("&", "&amp;")
@@ -62,8 +84,8 @@ function bookShopLink(p) {
   const contentId = String(p.id || "unknown").replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 80) || "unknown";
   const url = "https://www.amazon.com/s?i=stripbooks&k=" + encodeURIComponent(query) + "&tag=" + AMAZON_TAG;
   const label = workTitle
-    ? t(`『${escapeBookText(workTitle)}』 판본 찾기`, `Find ${escapeBookText(workTitle)}`)
-    : t("이 인물의 책 찾기", "Find books about this person");
+    ? t(`『${escapeBookText(workTitle)}』를 곁에 두고 다시 펼치기`, `Keep ${escapeBookText(workTitle)} close to revisit`)
+    : t("이 인물의 생각을 책으로 오래 만나기", "Stay with this person's ideas in print");
   const coupang = COUPANG_BOOKS[p.id];
   const coupangLink = coupang
     ? `<a class="book-shop book-shop-coupang" href="${coupang.url}" target="_blank" rel="sponsored noopener noreferrer" data-network="coupang" data-content-id="${contentId}" data-placement="person-card-coupang">${t(coupang.labelKo, coupang.labelEn)} <span class="bs-amz">Coupang</span></a>`
@@ -72,6 +94,11 @@ function bookShopLink(p) {
   return `<div class="book-affiliate book-shop-list"><div class="book-shop-row"><a class="book-shop" href="${url}" target="_blank" rel="sponsored noopener noreferrer" data-network="amazon" data-content-id="${contentId}" data-placement="person-card">`
     + `${label} <span class="bs-amz">Amazon</span></a>${coupangLink}</div>`
     + `<p class="region-hint book-disclosure affiliate-note">${t("제휴 링크입니다. 적격 구매 시 수수료가 사이트 운영에 쓰이며, 가격은 동일합니다. 저작 정보와 순위에는 영향을 주지 않습니다.", "Affiliate link. As an Amazon Associate, Sage Scroll may earn from qualifying purchases at no extra cost. Links do not affect editorial information.")}</p>${coupangDisclosure}</div>`;
+}
+function readingGearLinks(p) {
+  const contentId = String(p.id || "unknown").replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 80) || "unknown";
+  const cards = COUPANG_READING_GEAR.map((item) => `<article class="reading-gear-card"><p class="reading-gear-name">${t(item.nameKo, item.nameEn)}</p><p class="reading-gear-benefit">${t(item.benefitKo, item.benefitEn)}</p><a class="book-shop book-shop-coupang" href="${item.url}" target="_blank" rel="sponsored noopener noreferrer" data-network="coupang" data-content-id="${contentId}-${item.id}" data-placement="person-card-reading-gear">${t(item.ctaKo, item.ctaEn)} <span class="bs-amz">Coupang</span></a></article>`).join("");
+  return `<div class="reading-gear"><p class="reading-gear-kicker">${t("독서의 시간을 더 편안하게", "Make reading time more comfortable")}</p><h4>${t("책을 사는 순간보다, 오래 읽는 시간을 준비하세요", "Prepare for the time you will actually spend reading")}</h4><div class="reading-gear-grid">${cards}</div><p class="affiliate-note">${COUPANG_DISCLOSURE}</p></div>`;
 }
 
 window.va = window.va || function () {
@@ -323,7 +350,7 @@ function renderPerson(p, fly = true) {
       <div class="person-public-link"><a href="${LANG === "en" ? "/en" : ""}/person/${p.id}">${t("공유용 인물 페이지", "Shareable profile")} →</a></div>
       ${heroHtml}
       <section class="seg"><h3 class="seg-title">${t("생애", "Life")}<span class="hint">${t("누르면 지도가 그곳으로", "tap to move the map")}</span></h3><ol class="timeline">${timelineHtml}</ol></section>
-      <section class="seg"><h3 class="seg-title">${t("저작", "Works")}<span class="hint">${t("사료 원문", "primary sources")}</span></h3>${worksHtml}${bookShopLink(p)}</section>
+      <section class="seg"><h3 class="seg-title">${t("저작", "Works")}<span class="hint">${t("사료 원문", "primary sources")}</span></h3>${worksHtml}${bookShopLink(p)}${readingGearLinks(p)}</section>
       ${linksSection}
       <section class="seg"><h3 class="seg-title">${t("연고 장소", "Places")}</h3>${placesHtml}</section>
     </article>`;
