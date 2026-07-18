@@ -53,6 +53,11 @@ body { display: flex; flex-direction: column; }
   background: var(--surface); color: var(--ink);
   border: 1px solid var(--rule); border-radius: 6px; padding: 5px 8px; font-size: 12.5px;
 }
+/* 320px 폭 등 초협폭에서 topbar-right(언어토글+동선)가 밀려나 가로 오버플로를 내던 문제 —
+   375px 이상에서는 기존 한 줄 레이아웃 그대로, 그 아래에서만 두 줄로 감싸게 함 */
+@media (max-width: 374px) {
+  #topbar { flex-wrap: wrap; }
+}
 
 /* ── 언어 (ko/en) ── */
 .lang-ko .en { display: none; }
