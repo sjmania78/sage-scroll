@@ -5,7 +5,8 @@ const root = resolve(import.meta.dirname, "..");
 const publicDir = resolve(root, "public");
 const baseUrl = "https://sage.bluetronai.com";
 const amazonTag = "sagescrolls-20";
-const coupangDisclosure = "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.";
+const coupangDisclosureKo = "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.";
+const coupangDisclosureEn = "As part of the Coupang Partners program, this site earns a commission from qualifying purchases.";
 const coupangBooks = {
   dostoevsky: {
     title: "죄와 벌",
@@ -18,8 +19,8 @@ const coupangReadingGear = [
     url: "https://link.coupang.com/a/frdoez7a9c",
     nameKo: "코믈리 높이조절 독서대",
     nameEn: "Comely adjustable book stand",
-    benefitKo: "손으로 책을 계속 누르지 않아도 되면 자세가 편해지고, 한 장 더 읽을 여유가 생깁니다. 쿠팡 평점 5.0·후기 6천+ 상품입니다.",
-    benefitEn: "Free your hands and settle into a more comfortable reading position. Rated 5.0 with 6K+ Coupang reviews.",
+    benefitKo: "손으로 책을 계속 누르지 않아도 되면 자세가 편해지고, 한 장 더 읽을 여유가 생깁니다.",
+    benefitEn: "Free your hands and settle into a more comfortable reading position.",
     ctaKo: "책을 내려놓고 이야기에 더 오래 머물기",
     ctaEn: "Set the book down and stay with the story",
   },
@@ -28,8 +29,8 @@ const coupangReadingGear = [
     url: "https://link.coupang.com/a/frdqUTM9ts",
     nameKo: "레토 클립형 무선 독서등",
     nameEn: "Leto cordless clip reading light",
-    benefitKo: "옆 사람을 깨우는 밝은 천장등 없이도, 잠들기 전 마음에 남은 대목을 조금 더 읽을 수 있습니다. 쿠팡 후기 5천+ 상품입니다.",
-    benefitEn: "Read a few more meaningful pages without filling the whole room with ceiling light. 5K+ Coupang reviews.",
+    benefitKo: "옆 사람을 깨우는 밝은 천장등 없이도, 잠들기 전 마음에 남은 대목을 조금 더 읽을 수 있습니다.",
+    benefitEn: "Read a few more meaningful pages without filling the whole room with ceiling light.",
     ctaKo: "옆 사람은 깨우지 않고 한 장 더 읽기",
     ctaEn: "Read one more page without waking the room",
   },
@@ -84,8 +85,8 @@ function pageFor(person, lang) {
     return `<article><h3>${escapeHtml(title)}${item.year != null ? ` <small>${escapeHtml(year(item.year, lang))}</small>` : ""}</h3>${note ? `<p>${escapeHtml(note)}</p>` : ""}${absoluteSource(item.source_url) ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">${en ? "Verify source" : "출처 확인"}</a>` : ""}<div class="book-shop-row"><a class="book-shop" href="${escapeHtml(amazonBookUrl(person, item))}" target="_blank" rel="sponsored noopener noreferrer" data-content-id="${escapeHtml(person.id)}" data-placement="person-profile-work">${en ? "Keep this work close to revisit" : "마음에 남은 책을 곁에 두고 다시 펼치기"} <span class="bs-amz">Amazon</span></a>${coupangLink}</div></article>`;
   }).join("");
   const hasCoupangBook = (person.works || []).some((item) => coupangBooks[person.id]?.title === item.title);
-  const affiliateNote = works ? `<p class="affiliate-note">${en ? "As an Amazon Associate, Sage Scroll may earn from qualifying purchases. Shopping links are separate from sources and do not affect editorial information." : "Sage Scroll은 아마존 어소시에이트로서 적격 구매에서 수수료를 받을 수 있습니다. 쇼핑 링크는 근거 출처와 분리되며 저작 정보에 영향을 주지 않습니다."}</p>${hasCoupangBook ? `<p class="affiliate-note">${coupangDisclosure}</p>` : ""}` : "";
-  const readingGear = `<div class="reading-gear"><p class="reading-gear-kicker">${en ? "MAKE READING TIME MORE COMFORTABLE" : "독서의 시간을 더 편안하게"}</p><h3>${en ? "Prepare for the time you will actually spend reading" : "책을 사는 순간보다, 오래 읽는 시간을 준비하세요"}</h3><div class="reading-gear-grid">${coupangReadingGear.map((item) => `<article class="reading-gear-card"><p class="reading-gear-name">${escapeHtml(en ? item.nameEn : item.nameKo)}</p><p class="reading-gear-benefit">${escapeHtml(en ? item.benefitEn : item.benefitKo)}</p><a class="book-shop book-shop-coupang" href="${item.url}" target="_blank" rel="sponsored noopener noreferrer" data-network="coupang" data-content-id="${escapeHtml(person.id)}-${item.id}" data-placement="person-profile-reading-gear">${escapeHtml(en ? item.ctaEn : item.ctaKo)} <span class="bs-amz">Coupang</span></a></article>`).join("")}</div><p class="affiliate-note">${coupangDisclosure}</p></div>`;
+  const affiliateNote = works ? `<p class="affiliate-note">${en ? "As an Amazon Associate, Sage Scroll may earn from qualifying purchases. Shopping links are separate from sources and do not affect editorial information." : "Sage Scroll은 아마존 어소시에이트로서 적격 구매에서 수수료를 받을 수 있습니다. 쇼핑 링크는 근거 출처와 분리되며 저작 정보에 영향을 주지 않습니다."}</p>${hasCoupangBook ? `<p class="affiliate-note">${en ? coupangDisclosureEn : coupangDisclosureKo}</p>` : ""}` : "";
+  const readingGear = `<div class="reading-gear"><p class="reading-gear-kicker">${en ? "MAKE READING TIME MORE COMFORTABLE" : "독서의 시간을 더 편안하게"}</p><h3>${en ? "Prepare for the time you will actually spend reading" : "책을 사는 순간보다, 오래 읽는 시간을 준비하세요"}</h3><div class="reading-gear-grid">${coupangReadingGear.map((item) => `<article class="reading-gear-card"><p class="reading-gear-name">${escapeHtml(en ? item.nameEn : item.nameKo)}</p><p class="reading-gear-benefit">${escapeHtml(en ? item.benefitEn : item.benefitKo)}</p><a class="book-shop book-shop-coupang" href="${item.url}" target="_blank" rel="sponsored noopener noreferrer" data-network="coupang" data-content-id="${escapeHtml(person.id)}-${item.id}" data-placement="person-profile-reading-gear">${escapeHtml(en ? item.ctaEn : item.ctaKo)} <span class="bs-amz">Coupang</span></a></article>`).join("")}</div><p class="affiliate-note">${en ? coupangDisclosureEn : coupangDisclosureKo}</p></div>`;
   const sourceList = [...sources].map(([url, label]) => `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`).join("");
   const jsonLd = JSON.stringify({
     "@context": "https://schema.org",

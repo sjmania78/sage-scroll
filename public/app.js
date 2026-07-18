@@ -36,7 +36,8 @@ function t(ko, en) { return LANG === "en" && en ? en : ko; }
 // 활성화 단계(Joe): Amazon Associates 계정에 sage.bluetronai.com 사이트를 추가하고
 //   트래킹ID(예: sagescrolls-20)를 만든 뒤, 아래 AMAZON_TAG를 그 값으로 설정. (빈 문자열이면 링크 미표시)
 const AMAZON_TAG = "sagescrolls-20";
-const COUPANG_DISCLOSURE = "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.";
+const COUPANG_DISCLOSURE_KO = "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.";
+const COUPANG_DISCLOSURE_EN = "As part of the Coupang Partners program, this site earns a commission from qualifying purchases.";
 const COUPANG_BOOKS = {
   dostoevsky: {
     url: "https://link.coupang.com/a/fqsgNbrmWi",
@@ -50,8 +51,8 @@ const COUPANG_READING_GEAR = [
     url: "https://link.coupang.com/a/frdoez7a9c",
     nameKo: "코믈리 높이조절 독서대",
     nameEn: "Comely adjustable book stand",
-    benefitKo: "손으로 책을 계속 누르지 않아도 되면 자세가 편해지고, 한 장 더 읽을 여유가 생깁니다. 쿠팡 평점 5.0·후기 6천+ 상품입니다.",
-    benefitEn: "Free your hands and settle into a more comfortable reading position. Rated 5.0 with 6K+ Coupang reviews.",
+    benefitKo: "손으로 책을 계속 누르지 않아도 되면 자세가 편해지고, 한 장 더 읽을 여유가 생깁니다.",
+    benefitEn: "Free your hands and settle into a more comfortable reading position.",
     ctaKo: "책을 내려놓고 이야기에 더 오래 머물기",
     ctaEn: "Set the book down and stay with the story",
   },
@@ -60,8 +61,8 @@ const COUPANG_READING_GEAR = [
     url: "https://link.coupang.com/a/frdqUTM9ts",
     nameKo: "레토 클립형 무선 독서등",
     nameEn: "Leto cordless clip reading light",
-    benefitKo: "옆 사람을 깨우는 밝은 천장등 없이도, 잠들기 전 마음에 남은 대목을 조금 더 읽을 수 있습니다. 쿠팡 후기 5천+ 상품입니다.",
-    benefitEn: "Read a few more meaningful pages without filling the whole room with ceiling light. 5K+ Coupang reviews.",
+    benefitKo: "옆 사람을 깨우는 밝은 천장등 없이도, 잠들기 전 마음에 남은 대목을 조금 더 읽을 수 있습니다.",
+    benefitEn: "Read a few more meaningful pages without filling the whole room with ceiling light.",
     ctaKo: "옆 사람은 깨우지 않고 한 장 더 읽기",
     ctaEn: "Read one more page without waking the room",
   },
@@ -90,7 +91,7 @@ function bookShopLink(p) {
   const coupangLink = coupang
     ? `<a class="book-shop book-shop-coupang" href="${coupang.url}" target="_blank" rel="sponsored noopener noreferrer" data-network="coupang" data-content-id="${contentId}" data-placement="person-card-coupang">${t(coupang.labelKo, coupang.labelEn)} <span class="bs-amz">Coupang</span></a>`
     : "";
-  const coupangDisclosure = coupang ? `<p class="affiliate-note">${COUPANG_DISCLOSURE}</p>` : "";
+  const coupangDisclosure = coupang ? `<p class="affiliate-note">${t(COUPANG_DISCLOSURE_KO, COUPANG_DISCLOSURE_EN)}</p>` : "";
   return `<div class="book-affiliate book-shop-list"><div class="book-shop-row"><a class="book-shop" href="${url}" target="_blank" rel="sponsored noopener noreferrer" data-network="amazon" data-content-id="${contentId}" data-placement="person-card">`
     + `${label} <span class="bs-amz">Amazon</span></a>${coupangLink}</div>`
     + `<p class="region-hint book-disclosure affiliate-note">${t("제휴 링크입니다. 적격 구매 시 수수료가 사이트 운영에 쓰이며, 가격은 동일합니다. 저작 정보와 순위에는 영향을 주지 않습니다.", "Affiliate link. As an Amazon Associate, Sage Scroll may earn from qualifying purchases at no extra cost. Links do not affect editorial information.")}</p>${coupangDisclosure}</div>`;
@@ -98,7 +99,7 @@ function bookShopLink(p) {
 function readingGearLinks(p) {
   const contentId = String(p.id || "unknown").replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 80) || "unknown";
   const cards = COUPANG_READING_GEAR.map((item) => `<article class="reading-gear-card"><p class="reading-gear-name">${t(item.nameKo, item.nameEn)}</p><p class="reading-gear-benefit">${t(item.benefitKo, item.benefitEn)}</p><a class="book-shop book-shop-coupang" href="${item.url}" target="_blank" rel="sponsored noopener noreferrer" data-network="coupang" data-content-id="${contentId}-${item.id}" data-placement="person-card-reading-gear">${t(item.ctaKo, item.ctaEn)} <span class="bs-amz">Coupang</span></a></article>`).join("");
-  return `<div class="reading-gear"><p class="reading-gear-kicker">${t("독서의 시간을 더 편안하게", "Make reading time more comfortable")}</p><h4>${t("책을 사는 순간보다, 오래 읽는 시간을 준비하세요", "Prepare for the time you will actually spend reading")}</h4><div class="reading-gear-grid">${cards}</div><p class="affiliate-note">${COUPANG_DISCLOSURE}</p></div>`;
+  return `<div class="reading-gear"><p class="reading-gear-kicker">${t("독서의 시간을 더 편안하게", "Make reading time more comfortable")}</p><h4>${t("책을 사는 순간보다, 오래 읽는 시간을 준비하세요", "Prepare for the time you will actually spend reading")}</h4><div class="reading-gear-grid">${cards}</div><p class="affiliate-note">${t(COUPANG_DISCLOSURE_KO, COUPANG_DISCLOSURE_EN)}</p></div>`;
 }
 
 window.va = window.va || function () {
