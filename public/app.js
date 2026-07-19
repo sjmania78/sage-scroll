@@ -118,7 +118,8 @@ function bookShopLink(p) {
 }
 function readingGearLinks(p) {
   const contentId = String(p.id || "unknown").replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 80) || "unknown";
-  const cards = COUPANG_READING_GEAR.map((item) => `<article class="reading-gear-card"><p class="reading-gear-name">${t(item.nameKo, item.nameEn)}</p><p class="reading-gear-benefit">${t(item.benefitKo, item.benefitEn)}</p><a class="book-shop book-shop-coupang" href="${item.url}" target="_blank" rel="sponsored noopener noreferrer" data-network="coupang" data-content-id="${contentId}-${item.id}" data-placement="person-card-reading-gear">${t(item.ctaKo, item.ctaEn)} <span class="bs-amz">Coupang</span></a></article>`).join("");
+  // 헌장 6-1-5: 아이템당 쿠팡 최대 2개 — 배열 상위 2개(독서대·이북리더기)만 노출
+  const cards = COUPANG_READING_GEAR.slice(0, 2).map((item) => `<article class="reading-gear-card"><p class="reading-gear-name">${t(item.nameKo, item.nameEn)}</p><p class="reading-gear-benefit">${t(item.benefitKo, item.benefitEn)}</p><a class="book-shop book-shop-coupang" href="${item.url}" target="_blank" rel="sponsored noopener noreferrer" data-network="coupang" data-content-id="${contentId}-${item.id}" data-placement="person-card-reading-gear">${t(item.ctaKo, item.ctaEn)} <span class="bs-amz">Coupang</span></a></article>`).join("");
   return `<div class="reading-gear"><p class="reading-gear-kicker">${t("독서의 시간을 더 편안하게", "Make reading time more comfortable")}</p><h4>${t("책을 사는 순간보다, 오래 읽는 시간을 준비하세요", "Prepare for the time you will actually spend reading")}</h4><div class="reading-gear-grid">${cards}</div><p class="affiliate-note">${t(COUPANG_DISCLOSURE_KO, COUPANG_DISCLOSURE_EN)}</p></div>`;
 }
 
