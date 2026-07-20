@@ -9,8 +9,7 @@
       .naver-signal[data-theme="light"]{background:#fff;color:#211c17;border-color:#e2d9c6}
       .naver-signal[data-compact="true"]{width:calc(100% - 48px);max-width:none;margin:10px 24px;padding:12px 16px;border-radius:12px}
       .naver-signal__top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
-      .naver-signal__source{font:800 10px/1.2 ui-monospace,monospace;letter-spacing:.16em;color:#10b981}
-      .naver-signal__title{margin:5px 0 0;font-size:18px;line-height:1.2}
+      .naver-signal__title{margin:0;font-size:16px;line-height:1.2}
       .naver-signal__note,.naver-signal__status,.naver-signal__disclosure{color:#94a3b8;font-size:11px}
       [data-theme="light"] .naver-signal__note,[data-theme="light"] .naver-signal__status,[data-theme="light"] .naver-signal__disclosure{color:#6d6357}
       .naver-signal__trends{display:flex;flex-wrap:wrap;gap:8px;margin-top:15px}
@@ -38,20 +37,21 @@
     if (!site) return;
     const en = document.documentElement.lang.toLowerCase().startsWith("en");
     root.classList.add("naver-signal");
-    root.setAttribute("aria-label", en ? "NAVER API HUB signals" : "네이버 API 허브 신호");
+    root.setAttribute("aria-label", en ? "Search interest" : "검색 관심도");
 
     const top = document.createElement("div");
     top.className = "naver-signal__top";
+    // The provider is credited in the footnote, not in a badge above our own
+    // heading: this is a supporting signal, not the headline.
     const heading = document.createElement("div");
     heading.append(
-      text("div", "naver-signal__source", "NAVER API HUB"),
       text("h2", "naver-signal__title", en ? "Search interest and current coverage" : "검색 관심도와 최신 보도"),
     );
     top.append(
       heading,
       text("span", "naver-signal__note", en ? "Recent 4 weeks vs prior 12" : "최근 4주 · 이전 12주 대비"),
     );
-    const status = text("p", "naver-signal__status", en ? "Loading NAVER signals…" : "NAVER 신호를 불러오는 중…");
+    const status = text("p", "naver-signal__status", en ? "Loading search signals…" : "검색 신호를 불러오는 중…");
     root.replaceChildren(top, status);
 
     fetch(`${API}?site=${encodeURIComponent(site)}`)
@@ -100,8 +100,8 @@
           "p",
           "naver-signal__disclosure",
           en
-            ? "Relative search index; not an absolute search-volume count. News links open the original publisher."
-            : "상대 검색지수이며 절대 검색량이 아닙니다. 뉴스는 원문 매체로 연결됩니다.",
+            ? "Source: NAVER DataLab · relative search index, not an absolute search-volume count. News links open the original publisher."
+            : "출처: 네이버 데이터랩 · 상대 검색지수이며 절대 검색량이 아닙니다. 뉴스는 원문 매체로 연결됩니다.",
         ));
       })
       .catch(() => {
