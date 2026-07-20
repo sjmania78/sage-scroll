@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>출처 등급과 방법론 — Sage Scroll</title>
+  <meta name="description" content="Sage Scroll이 인물·연표·장소의 출처를 표시하고 검증 집계를 계산하는 방식입니다." />
+  <link rel="canonical" href="https://sage.bluetronai.com/methodology" />
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .methodology { max-width: 760px; margin: 0 auto; padding: 56px 24px 72px; }
+    .methodology h1 { margin: 0; font: 700 clamp(32px, 6vw, 48px)/1.18 var(--serif); color: var(--ink); }
+    .methodology h2 { margin: 42px 0 12px; font: 600 24px/1.35 var(--serif); color: var(--ink); }
+    .methodology p, .methodology li { color: var(--ink-soft); font: 400 15px/1.75 var(--sans); }
+    .methodology .eyebrow { margin: 0 0 12px; color: var(--seal); font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+    .methodology .lead { margin: 16px 0 0; font-size: 17px; }
+    .methodology .grade { margin: 12px 0; padding: 18px; border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); }
+    .methodology .grade strong { color: var(--ink); }
+    .methodology .note { padding: 16px 18px; border-left: 3px solid var(--seal); background: var(--surface); }
+    .methodology a { color: var(--seal); }
+    .methodology .back { display: inline-block; margin-bottom: 44px; font: 600 13px var(--sans); }
+  </style>
+  <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+  <main class="methodology">
+    <a class="back" href="/">← Sage Scroll</a>
+    <p class="eyebrow">Sage Scroll</p>
+    <h1>출처 등급과 방법론</h1>
+    <p class="lead">이 지도는 인물의 생애·저작·장소를 원문 링크와 함께 제시합니다. 출처가 있다는 사실과, 그 출처가 충분히 검증되었다는 판단은 구분합니다.</p>
+
+    <h2>출처 등급</h2>
+    <section class="grade">
+      <strong>A · 공공·공식 기록</strong>
+      <p>공공기관, 공인 아카이브, 박물관·도서관 등에서 제공한 원문 또는 그에 준하는 기록입니다.</p>
+    </section>
+    <section class="grade">
+      <strong>B · 학술·신뢰 가능한 편집 출처</strong>
+      <p>학술기관·학술 자료 또는 편집 책임이 있는 신뢰 가능한 출처입니다. 항목마다 실제 연결된 원문을 확인할 수 있습니다.</p>
+    </section>
+    <section class="grade">
+      <strong>C · 보강이 필요한 출처</strong>
+      <p>위키 단독 또는 추가 교차 확인이 필요한 자료입니다. 화면에서 ‘출처 보강 필요’로 표시하며 검증 인물 수에 포함하지 않습니다.</p>
+    </section>
+
+    <h2>검증 집계</h2>
+    <p>상단의 ‘검증 A·B’ 수는 <strong>명시적으로 검증됨</strong>으로 표시되고 A 또는 B 출처가 연결된 인물만 집계합니다. 링크가 있다고 해서 자동으로 검증 처리하지 않으며, C 등급 항목은 집계에서 제외합니다.</p>
+
+    <h2>화면에서 확인하는 법</h2>
+    <ul>
+      <li>연표·저작·장소의 ‘출처’ 링크는 해당 사실을 확인할 수 있는 원문으로 이동합니다.</li>
+      <li>출생지 이설, 좌표 미확인처럼 남은 불확실성은 별도 표시합니다.</li>
+      <li>출처 링크와 쇼핑 링크는 다른 목적입니다. 저작 페이지의 제휴 링크는 사실 근거·출처 등급에 영향을 주지 않습니다.</li>
+    </ul>
+
+    <h2>범위와 한계</h2>
+    <p class="note">Sage Scroll은 사실과 연결된 원문을 탐색하기 위한 안내 도구입니다. 모든 생애 기록을 완결적으로 보장하지 않으며, 해석·평가·교훈을 제시하지 않습니다. 원문이 바뀌거나 새 사료가 확인되면 항목의 출처와 등급도 다시 검토해야 합니다.</p>
+  </main>
+</body>
+</html>
