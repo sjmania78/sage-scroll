@@ -558,12 +558,15 @@ function addMarker(lat, lng, person, place) {
   return m;
 }
 
-function updateStats(people, placeCount, verifiedCount) {
+function updateStats(people, placeCount, gradeCount) {
   document.getElementById("stat-people").textContent = `${t("인물", "Figures")} ${people.length}`;
   document.getElementById("stat-places").textContent = `${t("장소", "Places")} ${placeCount}`;
-  document.getElementById("stat-verified").textContent = `${t("검증", "Verified")} ${verifiedCount}/${people.length}`;
+  // 전원 '검증'으로 합치지 않고 출처 등급을 그대로 보여준다 — 방법론 문서의 구분과 일치시킨다.
+  const g = gradeCount || { A: 0, B: 0, C: 0 };
+  document.getElementById("stat-verified").textContent =
+    `${t("출처", "Sources")} A ${g.A} · B ${g.B} · C ${g.C}`;
 }
-let statCache = { placeCount: 0, verifiedCount: 0 };
+let statCache = { placeCount: 0, gradeCount: { A: 0, B: 0, C: 0 } };
 
 function applyLanguage() {
   document.documentElement.classList.remove("lang-ko", "lang-en");
@@ -577,7 +580,7 @@ function setLang(lang) {
   LANG = lang;
   writeBtLang(lang);
   applyLanguage();
-  updateStats(allPeople, statCache.placeCount, statCache.verifiedCount);
+  updateStats(allPeople, statCache.placeCount, statCache.gradeCount);
   buildRegionTabs(document.getElementById("region-tabs"));
   buildEraTabs(document.getElementById("era-tabs"));
   buildFieldTabs(document.getElementById("field-tabs"));
@@ -731,11 +734,16 @@ async function init() {
   const people = (peopleData && peopleData.people) || [];
   allPeople = people;
   const bounds = [];
+  // 2026-07-28: '검증 120/120' 은 verified !== false 를 센 값이라 사실상 전원 통과였다.
+  // 방법론 문서는 "출처가 있다는 사실과 충분히 검증되었다는 판단은 구분한다"고 밝히는데
+  // 실제 출처 등급은 A 73 / B 38 / C 9 로 갈린다. 그 구분을 지우지 않도록 등급을 그대로 센다.
   let placeCount = 0, verifiedCount = 0;
+  const gradeCount = { A: 0, B: 0, C: 0 };
 
   people.forEach((p) => {
     personById[p.id] = p;
     if (p.verified !== false) verifiedCount++;
+    if (gradeCount[p.source_grade] !== undefined) gradeCount[p.source_grade]++;
     let hasMarker = false; // 한 인물당 마커 1개 (첫 좌표 장소)
     (p.places || []).forEach((pl) => {
       placeCount++;
@@ -756,9 +764,9 @@ async function init() {
     }
   });
 
-  statCache = { placeCount, verifiedCount };
+  statCache = { placeCount, gradeCount };
   allBounds = bounds;
-  updateStats(people, placeCount, verifiedCount);
+  updateStats(people, placeCount, gradeCount);
   buildRegionTabs(document.getElementById("region-tabs"));
   buildEraTabs(document.getElementById("era-tabs"));
   buildFieldTabs(document.getElementById("field-tabs"));
