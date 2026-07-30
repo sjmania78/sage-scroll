@@ -126,16 +126,24 @@ function readingGearLinks(p) {
 window.va = window.va || function () {
   (window.vaq = window.vaq || []).push(arguments);
 };
+function trackEvent(name, data) {
+  window.va("event", {
+    name,
+    data: {
+      service_id: "sage-scroll",
+      locale: LANG,
+      ...data,
+    },
+  });
+}
 document.addEventListener("click", function (event) {
   const link = event.target.closest("a.book-shop[data-content-id]");
   if (!link) return;
-  window.va("event", {
-    name: "affiliate_click",
-    data: {
-      network: link.dataset.network || "amazon",
-      content_id: link.dataset.contentId || "unknown",
-      placement: link.dataset.placement || "person-card",
-    },
+  trackEvent("affiliate_click", {
+    network: link.dataset.network || "amazon",
+    content_id: link.dataset.contentId || "unknown",
+    placement: link.dataset.placement || "person-card",
+    source_type: "affiliate",
   });
 });
 
@@ -282,6 +290,18 @@ function setActivePerson(p, fly) {
 
 function renderPerson(p, fly = true) {
   currentPerson = p;
+  trackEvent("person_open", {
+    content_id: p.id || "unknown",
+    placement: "map-panel",
+    source_type: "internal",
+  });
+  if ((p.works || []).length) {
+    trackEvent("works_view", {
+      content_id: p.id || "unknown",
+      placement: "map-panel",
+      source_type: "editorial",
+    });
+  }
   // 딥링크 동기화 — URL이 항상 현재 인물을 가리켜 그대로 공유 가능 (#p=<id>)
   try { history.replaceState(null, "", "#p=" + p.id); } catch (e) {}
   setActivePerson(p, fly);
@@ -631,6 +651,11 @@ function wireIntro(today) {
     try { localStorage.setItem("ss_intro", "1"); } catch (e) {}
   };
   document.getElementById("intro-open").addEventListener("click", () => {
+    trackEvent("intro_open", {
+      content_id: today.id || "today",
+      placement: "first-visit-overlay",
+      source_type: "internal",
+    });
     close();
     renderPerson(today);
     // 모바일은 패널이 지도 아래라 화면 밖 — 펼친 내용이 보이게 스크롤
