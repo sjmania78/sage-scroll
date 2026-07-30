@@ -100,7 +100,7 @@ function pageFor(person, lang) {
     const note = en ? (item.note_en || item.note) : item.note;
     const coupang = coupangBooks[person.id];
     const coupangLink = coupang?.title === item.title
-      ? `<a class="book-shop book-shop-coupang" href="${coupang.url}" target="_blank" rel="sponsored noopener noreferrer" data-content-id="${escapeHtml(person.id)}" data-placement="person-profile-work-coupang">${en ? "2-volume Korean edition" : "『죄와 벌』 전2권 현재 가격 보기"} <span class="bs-amz">Coupang</span></a>`
+      ? `<a class="book-shop book-shop-coupang" href="${coupang.url}" target="_blank" rel="sponsored noopener noreferrer" data-network="coupang" data-content-id="${escapeHtml(person.id)}" data-placement="person-profile-work-coupang">${en ? "2-volume Korean edition" : "『죄와 벌』 전2권 현재 가격 보기"} <span class="bs-amz">Coupang</span></a>`
       : "";
     return `<article><h3>${escapeHtml(title)}${item.year != null ? ` <small>${escapeHtml(year(item.year, lang))}</small>` : ""}</h3>${note ? `<p>${escapeHtml(note)}</p>` : ""}${absoluteSource(item.source_url) ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">${en ? "Verify source" : "출처 확인"}</a>` : ""}<div class="book-shop-row"><a class="book-shop" href="${escapeHtml(amazonBookUrl(person, item))}" target="_blank" rel="sponsored noopener noreferrer" data-content-id="${escapeHtml(person.id)}" data-placement="person-profile-work">${en ? "Keep this work close to revisit" : "마음에 남은 책을 곁에 두고 다시 펼치기"} <span class="bs-amz">Amazon</span></a>${coupangLink}</div></article>`;
   }).join("");
