@@ -15,7 +15,7 @@
       .naver-signal__trends{display:flex;flex-wrap:wrap;gap:8px;margin-top:15px}
       .naver-signal__trend{padding:8px 10px;border:1px solid rgba(148,163,184,.25);border-radius:10px;font-size:12px}
       .naver-signal__trend b{margin-left:7px;color:#10b981}
-      .naver-signal__trend b.down{color:#f43f5e}
+      .naver-signal__trend b.down{color:#be123c}
       .naver-signal__news{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:14px 0 0;padding:0;list-style:none}
       .naver-signal__news a{display:block;height:100%;padding:10px;border:1px solid rgba(148,163,184,.25);border-radius:10px;color:inherit;text-decoration:none;font-size:12px;font-weight:700;line-height:1.45}
       .naver-signal__news a:hover{border-color:#10b981}
