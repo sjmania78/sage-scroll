@@ -5,3 +5,19 @@ User-agent: *
 Allow: /
 
 Sitemap: https://sage.bluetronai.com/sitemap.xml
+
+# --- AI training crawlers: refused (added 2026-08-03) ---
+# A machine-readable reservation of rights. Search engines and AI search/answer
+# bots that send readers back (OAI-SearchBot, ChatGPT-User, PerplexityBot,
+# Claude-User) remain allowed above. Added after an undisclosed AI training
+# crawler generated 15.5M requests against these sites in five days.
+
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: meta-externalagent
+User-agent: Bytespider
+User-agent: Amazonbot
+Disallow: /
