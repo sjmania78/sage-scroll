@@ -23,6 +23,33 @@
   <link rel="alternate" hreflang="ko-KR" href="https://sage.bluetronai.com/" />
   <link rel="alternate" hreflang="en" href="https://sage.bluetronai.com/en" />
   <link rel="alternate" hreflang="x-default" href="https://sage.bluetronai.com/" />
+  <!-- 사이트 차원 구조화 데이터 — 검색·AI 답변엔진이 "이 사이트가 무엇이고 누가 펴내는가"를
+       읽는 통로. 인물 페이지에는 이미 JSON-LD 가 있었지만 사이트 차원 선언이 없어서
+       인물 246페이지를 묶어 줄 발행 주체가 비어 있었다(2026-08-08 실측).
+       generate-home-index.mjs 는 ALL-PEOPLE 블록과 통계 숫자만 덮어쓰므로 head 는 안전하다.
+       측정값이 없는 평점·리뷰 필드는 넣지 않는다 — 근거 없는 구조화 데이터는 스팸으로 취급된다. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://sage.bluetronai.com/#website",
+        "url": "https://sage.bluetronai.com",
+        "name": "Sage Scroll",
+        "description": "세계 지성의 자취를 장소 위에 — 연고지·생애·저작을 검증된 출처로 지도화. 사실과 그들의 말로만.",
+        "inLanguage": ["ko", "en"],
+        "publisher": { "@id": "https://sage.bluetronai.com/#publisher" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://sage.bluetronai.com/#publisher",
+        "name": "Bluetron",
+        "url": "https://www.bluetronai.com"
+      }
+    ]
+  }
+  </script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />

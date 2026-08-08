@@ -18,6 +18,30 @@
   <link rel="alternate" hreflang="ko-KR" href="https://sage.bluetronai.com/" />
   <link rel="alternate" hreflang="en" href="https://sage.bluetronai.com/en" />
   <link rel="alternate" hreflang="x-default" href="https://sage.bluetronai.com/" />
+  <!-- 사이트 차원 구조화 데이터 — 한국어 홈과 같은 @id 를 쓴다. 두 문서가 같은 사이트를
+       가리켜야 하므로 @id 를 나누면 크롤러에게 별개 사이트로 보인다. description 만 영문. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://sage.bluetronai.com/#website",
+        "url": "https://sage.bluetronai.com",
+        "name": "Sage Scroll",
+        "description": "The world's intellectual lives, placed on the map — homelands, lives, and works charted from verified sources. Only facts and their own words.",
+        "inLanguage": ["ko", "en"],
+        "publisher": { "@id": "https://sage.bluetronai.com/#publisher" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://sage.bluetronai.com/#publisher",
+        "name": "Bluetron",
+        "url": "https://www.bluetronai.com"
+      }
+    ]
+  }
+  </script>
   <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
   <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
