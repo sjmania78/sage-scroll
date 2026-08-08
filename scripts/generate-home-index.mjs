@@ -101,8 +101,31 @@ function fillStats(html, people, lang) {
     (n, p) => n + (Array.isArray(p.places) ? p.places.length : 0),
     0,
   );
-  const verified = people.filter((p) => p.verified).length;
   const label = (koText, enText, n) => (ko ? `${koText} ${n}` : `${n} ${enText}`);
+
+  // 출처는 개수가 아니라 등급별로 쓴다. people.json 은 전원 verified 라서
+  // "검증 120" 은 아무것도 구분해주지 않는다 — A 73 · B 38 · C 9 처럼 등급을
+  // 드러내야 무엇이 1차 사료이고 무엇이 2차인지 읽는 사람이 알 수 있다.
+  //
+  // 종전에는 이 스크립트가 "검증 120" 을 써넣었고, HTML 쪽은 손으로 A/B/C 로
+  // 고쳐져 있었다. 그래서 스크립트를 한 번 돌리면 그 손질이 조용히 되돌아갔다
+  // (2026-08-08 실제로 재현). 이제 스크립트가 등급 문구를 직접 만든다.
+  const grades = people.reduce((acc, p) => {
+    const g = p.source_grade;
+    if (g) acc[g] = (acc[g] ?? 0) + 1;
+    return acc;
+  }, {});
+  // 0건인 등급은 적지 않는다. 데이터가 바뀌어도 "C 0" 같은 잡음이 남지 않게.
+  const gradeText = ["A", "B", "C"]
+    .filter((g) => grades[g])
+    .map((g) => `${g} ${grades[g]}`)
+    .join(" · ");
+  const sources = gradeText
+    ? ko
+      ? `출처 ${gradeText}`
+      : `Sources ${gradeText}`
+    : label("검증", "verified", people.filter((p) => p.verified).length);
+
   return html
     .replace(
       /(<span id="stat-people">)[^<]*(<\/span>)/,
@@ -112,10 +135,7 @@ function fillStats(html, people, lang) {
       /(<span id="stat-places">)[^<]*(<\/span>)/,
       `$1${label("장소", "places", places)}$2`,
     )
-    .replace(
-      /(<span id="stat-verified">)[^<]*(<\/span>)/,
-      `$1${label("검증", "verified", verified)}$2`,
-    );
+    .replace(/(<span id="stat-verified">)[^<]*(<\/span>)/, `$1${sources}$2`);
 }
 
 const raw = JSON.parse(
