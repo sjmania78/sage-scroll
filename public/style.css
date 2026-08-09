@@ -166,8 +166,10 @@ body { display: flex; flex-direction: column; }
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 
-/* ── 레이아웃 ── */
-#layout { display: flex; flex: 1; min-height: 0; position: relative; }
+/* ── 레이아웃 ──
+   min-height 필수: body(flex column) 안에 색인·네이버 구역이 붙으면서 세로 여유가 음수가 됐고,
+   flex-basis 0인 #layout 이 0px 로 눌려 지도가 통째로 사라졌다. 바닥값을 줘서 눌리지 않게 한다. */
+#layout { display: flex; flex: 1; min-height: 72vh; position: relative; }
 #map { flex: 1; min-width: 0; background: var(--surface-2); }
 
 /* ── 첫 방문 인트로 — 빈 지도만 보고 나가는 첫 화면 이탈 대응. 딥링크·재방문은 건너뜀(app.js) ── */
@@ -523,7 +525,9 @@ body { display: flex; flex-direction: column; }
 
 /* ── 반응형 ── */
 @media (max-width: 780px) {
-  #layout { flex-direction: column; }
+  /* 세로로 쌓이는 화면에선 지도(48vh)+패널 내용만큼 그대로 늘어나야 한다.
+     72vh 바닥값을 그대로 두면 컨테이너보다 내용이 길어져 아래 구역과 겹친다. */
+  #layout { flex-direction: column; flex: 0 0 auto; min-height: 0; }
   /* column에선 flex-basis(0)가 height를 무시해 지도가 0px로 접힘 — basis를 48vh로 고정 */
   #map { flex: 0 0 48vh; height: 48vh; }
   #panel { width: 100%; border-left: none; border-top: 1px solid var(--rule); }
