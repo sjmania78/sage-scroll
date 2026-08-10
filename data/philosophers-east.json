@@ -1,0 +1,208 @@
+{
+  "_note": "동양 철학자 추가분. 생몰·연고지가 전승에 기대는 인물이 많다. 연도는 year-approx, 출생지는 birthplace-traditional, 도시 중심 좌표는 coords-approx 로 표시하고, 실존·저자 논쟁이 있는 인물은 verified:false 로 둔다. 좌표는 scripts/add-philosophers.mjs 의 지오코딩 결과만 쓴다.",
+  "people": [
+    {
+      "id": "laozi", "name_ko": "노자", "name_en": "Laozi",
+      "field": "사상가·철학자(도가)", "field_en": "Philosopher (Daoism)",
+      "birth_year": -571, "death_year": null, "nation": "CN", "verified": false,
+      "flags": ["year-approx"],
+      "birthplace": { "admin": "초나라 고현(전승, 현 허난성 루이현 일대)", "admin_en": "Ku County, State of Chu, by tradition (now Luyi, Henan, China)", "geo": "Luyi County, Henan, China", "source_url": "https://www.britannica.com/biography/Laozi", "source_grade": "A", "flags": ["birthplace-traditional", "coords-approx"] },
+      "timeline": [
+        { "year": -571, "event": "초나라 고현에서 출생했다고 전함(생몰과 실존 모두 이설이 있음)", "event_en": "Said by tradition to have been born in Ku, Chu; both his dates and his historicity are disputed", "source_url": "https://www.britannica.com/biography/Laozi", "source_grade": "A", "flags": ["year-approx", "birthplace-traditional"] },
+        { "year": -520, "event": "주나라 왕실 서고를 지키는 사관이었다고 『사기』가 전함", "event_en": "The Shiji records him as keeper of the Zhou royal archives", "source_url": "https://www.britannica.com/biography/Laozi", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -500, "event": "주나라를 떠나 관문을 지나며 관문지기의 청으로 오천 자를 남겼다고 전함", "event_en": "Traditionally said to have left Zhou and written some five thousand characters at the request of a gatekeeper", "source_url": "https://www.britannica.com/biography/Laozi", "source_grade": "A", "flags": ["year-approx"] }
+      ],
+      "works": [
+        { "title": "도덕경", "title_en": "Daodejing", "note": "약 오천 자의 운문 형식 텍스트로, 한 사람의 저작인지에 대해 오랜 논쟁이 있다", "note_en": "A text of about five thousand characters in verse form; whether it is the work of one author is long disputed", "quote": "道可道，非常道。", "quote_ko": "도를 도라고 말할 수 있으면 그것은 늘 그러한 도가 아니다.", "quote_en": "The way that can be spoken of is not the constant way.", "quote_source": "老子, 道德經 1장", "source_url": "https://www.britannica.com/biography/Laozi", "source_grade": "A", "flags": ["authorship-disputed"] }
+      ],
+      "legacy": {
+        "ko": "다스리지 않음으로 다스리고 물처럼 낮은 데로 흐르는 것을 힘으로 본 오천 자의 텍스트가 그의 이름으로 전한다. 실존 여부와 저자 문제는 지금도 논쟁 중이지만, 그 책이 동아시아의 정치·예술·수양 전반에 남았다.",
+        "en": "A text of five thousand characters carries his name, treating non-action as a way of governing and water flowing downward as a form of strength. Whether he existed and whether one hand wrote the book are still disputed, but the book itself shaped East Asian politics, art and self-cultivation."
+      }
+    },
+    {
+      "id": "zhuangzi", "name_ko": "장자", "name_en": "Zhuangzi",
+      "field": "사상가·철학자(도가)", "field_en": "Philosopher (Daoism)",
+      "birth_year": -369, "death_year": -286, "nation": "CN",
+      "flags": ["year-approx"],
+      "birthplace": { "admin": "송나라 몽(현 허난성 상추 일대)", "admin_en": "Meng in the State of Song (now near Shangqiu, Henan, China)", "geo": "Shangqiu, Henan, China", "source_url": "https://www.britannica.com/biography/Zhuang-Zhou", "source_grade": "A", "flags": ["birthplace-traditional", "coords-approx"] },
+      "timeline": [
+        { "year": -369, "event": "송나라 몽에서 출생(연도는 근사)", "event_en": "Born at Meng in the State of Song; the date is approximate", "source_url": "https://www.britannica.com/biography/Zhuang-Zhou", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -330, "event": "칠원의 하급 관리를 지낸 것 외에 벼슬을 사양했다고 전함", "event_en": "Said to have served only as a minor officer at Qiyuan and to have declined office thereafter", "source_url": "https://www.britannica.com/biography/Zhuang-Zhou", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -320, "event": "초나라 위왕이 재상 자리를 제안했으나 거절했다고 『사기』가 전함", "event_en": "The Shiji records that he refused the office of chief minister offered by King Wei of Chu", "source_url": "https://www.britannica.com/biography/Zhuang-Zhou", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -286, "event": "사망(연도는 근사)", "event_en": "Died; the date is approximate", "source_url": "https://www.britannica.com/biography/Zhuang-Zhou", "source_grade": "A", "flags": ["year-approx"] }
+      ],
+      "works": [
+        { "title": "장자", "title_en": "Zhuangzi", "note": "우화와 대화로 이루어진 33편. 내편만을 그의 저술로 보는 견해가 통설이다", "note_en": "Thirty-three chapters of fable and dialogue; the Inner Chapters are generally taken as his own", "quote": "昔者莊周夢為胡蝶，栩栩然胡蝶也。", "quote_ko": "언젠가 장주가 꿈에 나비가 되었다. 훨훨 나는 나비였다.", "quote_en": "Once Zhuang Zhou dreamt he was a butterfly, fluttering about as a butterfly.", "quote_source": "莊子, 齊物論", "source_url": "https://www.britannica.com/biography/Zhuang-Zhou", "source_grade": "A", "flags": ["authorship-disputed"] }
+      ],
+      "legacy": {
+        "ko": "우화와 농담으로 철학을 써서, 옳고 그름을 가르는 기준 자체가 보는 자리에 따라 달라진다고 했다. 나비 꿈 이야기처럼 인식의 경계를 흔드는 방식이 이후 동아시아의 시·회화·선불교에 남았다.",
+        "en": "He wrote philosophy in fables and jokes, arguing that the standard dividing right from wrong shifts with where one stands. The butterfly dream and its way of unsettling the boundaries of knowing carried into East Asian poetry, painting and Chan Buddhism."
+      }
+    },
+    {
+      "id": "xunzi", "name_ko": "순자", "name_en": "Xunzi",
+      "field": "유가 철학자", "field_en": "Confucian Philosopher",
+      "birth_year": -310, "death_year": -238, "nation": "CN",
+      "flags": ["year-approx"],
+      "birthplace": { "admin": "조나라(현 중국 허베이성 일대)", "admin_en": "State of Zhao (now Hebei, China)", "geo": "Handan, Hebei, China", "source_url": "https://www.britannica.com/biography/Xunzi", "source_grade": "A", "flags": ["birthplace-presumed", "coords-approx"] },
+      "timeline": [
+        { "year": -310, "event": "조나라에서 출생(연도는 근사)", "event_en": "Born in the State of Zhao; the date is approximate", "source_url": "https://www.britannica.com/biography/Xunzi", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -275, "event": "제나라 직하학궁에서 학문을 논하며 좨주(祭酒)를 세 차례 맡았다고 전함", "event_en": "Taught at the Jixia Academy in Qi and is said to have thrice held its senior post", "source_url": "https://www.britannica.com/biography/Xunzi", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -255, "event": "초나라 난릉의 수령으로 부임", "event_en": "Appointed magistrate of Lanling in Chu", "source_url": "https://www.britannica.com/biography/Xunzi", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -238, "event": "난릉에서 사망(연도는 근사)", "event_en": "Died at Lanling; the date is approximate", "source_url": "https://www.britannica.com/biography/Xunzi", "source_grade": "A", "flags": ["year-approx"] }
+      ],
+      "works": [
+        { "title": "순자", "title_en": "Xunzi", "note": "32편의 논설문으로 하늘을 인격신이 아닌 자연으로 보고 예(禮)와 학습을 강조", "note_en": "Thirty-two essays treating heaven as nature rather than a deity and stressing ritual and learning", "quote": "人之性惡，其善者偽也。", "quote_ko": "사람의 본성은 악하다. 그 선함은 인위로 만든 것이다.", "quote_en": "Human nature is bad; what is good in it is the work of deliberate effort.", "quote_source": "荀子, 性惡", "source_url": "https://www.britannica.com/biography/Xunzi", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "맹자와 반대로 사람의 본성은 악하고 선함은 배움과 예(禮)로 만들어진다고 했다. 하늘을 인격을 가진 존재가 아니라 자연 현상으로 놓았고, 그의 문하에서 한비자와 이사가 나왔다.",
+        "en": "Against Mencius he held that human nature is bad and that goodness is produced by learning and ritual. He treated heaven as natural process rather than a personal power, and Han Feizi and Li Si came out of his school."
+      }
+    },
+    {
+      "id": "hanfeizi", "name_ko": "한비자", "name_en": "Han Feizi",
+      "field": "사상가·법가", "field_en": "Philosopher (Legalism)",
+      "birth_year": -280, "death_year": -233, "nation": "CN",
+      "flags": ["year-approx"],
+      "birthplace": { "admin": "한나라 왕족 출신(현 허난성 신정 일대)", "admin_en": "Born into the royal house of Han (now near Xinzheng, Henan, China)", "geo": "Xinzheng, Henan, China", "source_url": "https://www.britannica.com/biography/Han-Feizi", "source_grade": "A", "flags": ["birthplace-presumed", "coords-approx"] },
+      "timeline": [
+        { "year": -280, "event": "한나라 왕족으로 출생(연도는 근사)", "event_en": "Born into the royal family of the State of Han; the date is approximate", "source_url": "https://www.britannica.com/biography/Han-Feizi", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -255, "event": "순자에게 배우며 훗날 진나라 재상이 되는 이사와 동문 수학", "event_en": "Studied under Xunzi alongside Li Si, later chancellor of Qin", "source_url": "https://www.britannica.com/biography/Han-Feizi", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -234, "event": "그의 글을 읽은 진왕 정(훗날 시황제)이 그를 진나라로 부름", "event_en": "King Zheng of Qin, later the First Emperor, read his writings and summoned him", "source_url": "https://www.britannica.com/biography/Han-Feizi", "source_grade": "A" },
+        { "year": -233, "event": "진나라 옥중에서 사망", "event_en": "Died in prison in Qin", "source_url": "https://www.britannica.com/biography/Han-Feizi", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "한비자", "title_en": "Han Feizi", "note": "55편으로 법(法)·술(術)·세(勢)를 통치의 세 축으로 정리", "note_en": "Fifty-five chapters organising law, technique and positional power as the three axes of rule", "quote": "法不阿貴，繩不撓曲。", "quote_ko": "법은 귀한 자에게 굽히지 않고, 먹줄은 굽은 것에 휘지 않는다.", "quote_en": "The law does not bend for the noble, as the measuring line does not bend for the crooked.", "quote_source": "韓非子, 有度", "source_url": "https://www.britannica.com/biography/Han-Feizi", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "통치를 군주의 덕이 아니라 법·술·세라는 장치의 문제로 정리했고, 법은 신분을 가리지 않아야 한다고 했다. 진나라가 그 논리로 중국을 통일했지만 정작 그는 진의 옥에서 죽었다.",
+        "en": "He recast governing as a matter of institutions — law, technique and positional power — rather than a ruler's virtue, and insisted law must not bend for rank. Qin unified China on that logic; he himself died in a Qin prison."
+      }
+    },
+    {
+      "id": "mozi", "name_ko": "묵자", "name_en": "Mozi",
+      "field": "사상가·묵가", "field_en": "Philosopher (Mohism)",
+      "birth_year": -470, "death_year": -391, "nation": "CN",
+      "flags": ["year-approx"],
+      "birthplace": { "admin": "노나라(현 산둥성 취푸 일대)", "admin_en": "State of Lu (now near Qufu, Shandong, China)", "geo": "Tengzhou, Shandong, China", "source_url": "https://www.britannica.com/biography/Mozi-Chinese-philosopher", "source_grade": "A", "flags": ["birthplace-disputed", "coords-approx"] },
+      "timeline": [
+        { "year": -470, "event": "노나라에서 출생했다고 전함(출생지에 이설이 있고 연도는 근사)", "event_en": "Said to have been born in the State of Lu; the birthplace is disputed and the date approximate", "source_url": "https://www.britannica.com/biography/Mozi-Chinese-philosopher", "source_grade": "A", "flags": ["year-approx", "birthplace-disputed"] },
+        { "year": -440, "event": "제자 집단을 이끌며 방어 기술로 약소국의 성을 지키는 활동을 함", "event_en": "Led a disciplined following that defended the walls of smaller states with siege-defence engineering", "source_url": "https://www.britannica.com/biography/Mozi-Chinese-philosopher", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -430, "event": "초나라의 송나라 공격을 설득으로 막았다는 기록이 『묵자』에 전함", "event_en": "The Mozi records that he talked Chu out of attacking Song", "source_url": "https://www.britannica.com/biography/Mozi-Chinese-philosopher", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -391, "event": "사망(연도는 근사)", "event_en": "Died; the date is approximate", "source_url": "https://www.britannica.com/biography/Mozi-Chinese-philosopher", "source_grade": "A", "flags": ["year-approx"] }
+      ],
+      "works": [
+        { "title": "묵자", "title_en": "Mozi", "note": "겸애·비공(반전)과 함께 광학·역학·논리 관련 기록을 담은 편들이 섞여 있다", "note_en": "Includes chapters on impartial care and opposition to aggressive war, alongside notes on optics, mechanics and logic", "quote": "兼相愛，交相利。", "quote_ko": "서로 두루 사랑하고, 서로 이롭게 하라.", "quote_en": "Care for one another impartially, and benefit one another in exchange.", "quote_source": "墨子, 兼愛", "source_url": "https://www.britannica.com/biography/Mozi-Chinese-philosopher", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "가까운 사람부터 사랑하라는 유가에 맞서, 차등 없이 두루 사랑하고 서로 이롭게 하라고 주장했다. 제자 집단을 이끌고 실제로 약소국의 성을 지키러 다녔고, 그 과정에서 남긴 광학·역학 기록도 함께 전한다.",
+        "en": "Against the Confucian order of caring for those nearest first, he argued for impartial care and mutual benefit. He led a disciplined following that actually went to defend the walls of weaker states, and notes on optics and mechanics survive from that work."
+      }
+    },
+    {
+      "id": "zhu-xi", "name_ko": "주희", "name_en": "Zhu Xi",
+      "field": "성리학자", "field_en": "Neo-Confucian Philosopher",
+      "birth_year": 1130, "death_year": 1200, "nation": "CN",
+      "birthplace": { "admin": "남송 복건로 우계현(현 푸젠성 유시)", "admin_en": "Youxi, Fujian, Southern Song China", "geo": "Youxi County, Fujian, China", "source_url": "https://www.britannica.com/biography/Zhu-Xi", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1130, "event": "남송 복건 우계에서 출생", "event_en": "Born at Youxi in Fujian under the Southern Song", "source_url": "https://www.britannica.com/biography/Zhu-Xi", "source_grade": "A" },
+        { "year": 1148, "event": "열여덟에 진사시에 급제", "event_en": "Passed the jinshi examination at eighteen", "source_url": "https://www.britannica.com/biography/Zhu-Xi", "source_grade": "A" },
+        { "year": 1179, "event": "백록동서원을 다시 세우고 학규를 정함", "event_en": "Restored the White Deer Grotto Academy and wrote its articles of learning", "source_url": "https://www.britannica.com/biography/Zhu-Xi", "source_grade": "A" },
+        { "year": 1190, "event": "『대학』·『중용』·『논어』·『맹자』를 사서로 묶어 주석을 완성", "event_en": "Completed his commentaries binding the Great Learning, Doctrine of the Mean, Analects and Mencius as the Four Books", "source_url": "https://www.britannica.com/biography/Zhu-Xi", "source_grade": "A" },
+        { "year": 1200, "event": "사망; 그의 주석은 이후 과거시험의 표준 교재가 됨", "event_en": "Died; his commentaries later became the standard for the civil examinations", "source_url": "https://www.britannica.com/biography/Zhu-Xi", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "사서집주", "title_en": "Collected Commentaries on the Four Books", "note": "사서를 유학 교육의 중심으로 재편한 주석서로 이후 600여 년간 과거의 표준 교재", "note_en": "The commentary that made the Four Books the core of Confucian education and the examination standard for some six centuries", "quote": "問渠那得清如許，為有源頭活水來。", "quote_ko": "묻노니 저 물은 어이 저리 맑은가, 근원에서 살아 있는 물이 흘러오기 때문이다.", "quote_en": "Ask how the channel stays so clear — because living water flows from the source.", "quote_source": "朱熹, 觀書有感", "source_url": "https://www.britannica.com/biography/Zhu-Xi", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "흩어져 있던 유가 문헌 가운데 사서를 골라 주석을 붙여 유학 교육의 중심을 다시 짰다. 그 주석이 이후 600여 년간 과거시험의 표준이 되었고, 조선의 이황과 이이도 이 틀 위에서 논쟁했다.",
+        "en": "He selected the Four Books from the scattered Confucian corpus and annotated them, rebuilding the core of Confucian education. Those commentaries set the examination standard for some six centuries, and Korea's Yi Hwang and Yi I argued within that frame."
+      }
+    },
+    {
+      "id": "wang-yangming", "name_ko": "왕양명", "name_en": "Wang Yangming",
+      "field": "철학자·문신", "field_en": "Philosopher and Official",
+      "birth_year": 1472, "death_year": 1529, "nation": "CN",
+      "birthplace": { "admin": "명나라 절강 여요(현 저장성 위야오)", "admin_en": "Yuyao, Zhejiang, Ming China", "geo": "Yuyao, Zhejiang, China", "source_url": "https://www.britannica.com/biography/Wang-Yangming", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1472, "event": "명나라 절강 여요에서 출생", "event_en": "Born at Yuyao in Zhejiang under the Ming", "source_url": "https://www.britannica.com/biography/Wang-Yangming", "source_grade": "A" },
+        { "year": 1506, "event": "환관 유근을 탄핵했다가 곤장을 맞고 귀주 용장으로 좌천", "event_en": "Impeached the eunuch Liu Jin, was beaten and banished to Longchang in Guizhou", "source_url": "https://www.britannica.com/biography/Wang-Yangming", "source_grade": "A" },
+        { "year": 1508, "event": "용장에서 이치는 마음 밖에 있지 않다는 깨달음에 이름", "event_en": "At Longchang concluded that principle is not to be sought outside the mind", "source_url": "https://www.britannica.com/biography/Wang-Yangming", "source_grade": "A" },
+        { "year": 1519, "event": "영왕 주신호의 반란을 40여 일 만에 진압", "event_en": "Put down the rebellion of Prince Ning in little over forty days", "source_url": "https://www.britannica.com/biography/Wang-Yangming", "source_grade": "A" },
+        { "year": 1529, "event": "원정에서 돌아오던 길에 사망", "event_en": "Died on the way back from a campaign", "source_url": "https://www.britannica.com/biography/Wang-Yangming", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "전습록", "title_en": "Instructions for Practical Living", "note": "제자들이 기록한 문답으로 지행합일과 치양지를 담음", "note_en": "Dialogues recorded by his students, setting out the unity of knowing and acting", "quote": "知行合一。", "quote_ko": "앎과 행함은 하나다.", "quote_en": "Knowing and acting are one.", "quote_source": "王陽明, 傳習錄", "source_url": "https://www.britannica.com/biography/Wang-Yangming", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "이치를 바깥 사물에서 찾는 주희의 방법에 반대해, 마음이 곧 이치이며 아는 것과 행하는 것은 나뉘지 않는다고 했다. 이 주장은 명대 이후 동아시아 사상과 일본 막말 지사들에게까지 이어졌다.",
+        "en": "Against Zhu Xi's method of seeking principle in external things, he held that mind is principle and that knowing and acting are not separable. The claim carried through late imperial East Asia and reached the activists of late-Tokugawa Japan."
+      }
+    },
+    {
+      "id": "wonhyo", "name_ko": "원효", "name_en": "Wonhyo",
+      "field": "불교 사상가·승려", "field_en": "Buddhist Philosopher and Monk",
+      "birth_year": 617, "death_year": 686, "nation": "KR",
+      "birthplace": { "admin": "신라 압량군(현 경북 경산)", "admin_en": "Amnyang, Silla (now Gyeongsan, North Gyeongsang, Korea)", "geo": "Gyeongsan, Gyeongsangbuk-do, South Korea", "source_url": "https://www.britannica.com/biography/Wonhyo", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 617, "event": "신라 압량군에서 출생", "event_en": "Born at Amnyang in Silla", "source_url": "https://www.britannica.com/biography/Wonhyo", "source_grade": "A" },
+        { "year": 661, "event": "의상과 당으로 향하던 중 유학을 그만두고 신라로 돌아옴", "event_en": "Turned back to Silla while travelling to Tang China with Uisang", "source_url": "https://www.britannica.com/biography/Wonhyo", "source_grade": "A" },
+        { "year": 665, "event": "승복을 벗고 '소성거사'를 자처하며 저잣거리에서 무애가를 부르며 불교를 전함", "event_en": "Left the monastic robe, called himself a layman and spread Buddhism in the markets with the Muae song", "source_url": "https://www.britannica.com/biography/Wonhyo", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": 671, "event": "『대승기신론소』 등 100여 부의 저술을 남김", "event_en": "Wrote some hundred works, among them the Commentary on the Awakening of Faith", "source_url": "https://www.britannica.com/biography/Wonhyo", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": 686, "event": "혈사에서 사망", "event_en": "Died at Hyeolsa temple", "source_url": "https://www.britannica.com/biography/Wonhyo", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "대승기신론소", "title_en": "Commentary on the Awakening of Mahāyāna Faith", "note": "동아시아 전역에서 읽힌 주석으로 중국에서 '해동소'로 불림", "note_en": "A commentary read across East Asia and known in China as the Haedong commentary", "quote": "心生故種種法生。", "quote_ko": "마음이 일어나므로 온갖 법이 일어난다.", "quote_en": "Because the mind arises, all things arise.", "quote_source": "원효 관련 전승 (『송고승전』)", "source_url": "https://www.britannica.com/biography/Wonhyo", "source_grade": "A", "flags": ["authorship-traditional"] }
+      ],
+      "legacy": {
+        "ko": "서로 다투던 여러 불교 종파의 주장을 하나로 아우르는 화쟁(和諍)을 폈고, 100여 부를 저술했다. 승복을 벗고 저잣거리에서 노래로 불교를 전해, 글을 모르는 사람에게도 닿는 길을 열었다.",
+        "en": "He worked to reconcile the competing Buddhist schools of his day under the principle of hwajaeng and wrote some hundred treatises. Leaving the monastic robe, he carried Buddhism into the markets in song, opening a route to people who could not read."
+      }
+    },
+    {
+      "id": "jinul", "name_ko": "지눌", "name_en": "Jinul",
+      "field": "불교 사상가·승려", "field_en": "Buddhist Philosopher and Monk",
+      "birth_year": 1158, "death_year": 1210, "nation": "KR",
+      "birthplace": { "admin": "고려 황해도 서흥", "admin_en": "Seheung, Hwanghae, Goryeo Korea", "geo": "Sohung, North Hwanghae, North Korea", "source_url": "https://plato.stanford.edu/entries/korean-philosophy/", "source_grade": "B", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1158, "event": "고려 황해도 서흥에서 출생", "event_en": "Born at Seheung in Hwanghae, Goryeo", "source_url": "https://plato.stanford.edu/entries/korean-philosophy/", "source_grade": "B" },
+        { "year": 1182, "event": "승과에 급제했으나 관직 대신 수행 결사를 도모", "event_en": "Passed the monastic examination but sought a practice community rather than office", "source_url": "https://plato.stanford.edu/entries/korean-philosophy/", "source_grade": "B" },
+        { "year": 1190, "event": "타락한 교단을 떠나 정혜결사를 일으킴", "event_en": "Left the compromised establishment and founded the Samādhi and Prajñā Society", "source_url": "https://plato.stanford.edu/entries/korean-philosophy/", "source_grade": "B" },
+        { "year": 1200, "event": "송광사로 옮겨 수선사를 열고 선과 교를 함께 닦는 수행을 정착시킴", "event_en": "Moved to Songgwangsa and established a practice joining Seon meditation with doctrinal study", "source_url": "https://plato.stanford.edu/entries/korean-philosophy/", "source_grade": "B" },
+        { "year": 1210, "event": "송광사에서 사망", "event_en": "Died at Songgwangsa", "source_url": "https://plato.stanford.edu/entries/korean-philosophy/", "source_grade": "B" }
+      ],
+      "works": [
+        { "title": "수심결", "title_en": "Secrets on Cultivating the Mind", "note": "돈오점수의 수행 순서를 짧게 정리한 글", "note_en": "A short text setting out sudden awakening followed by gradual cultivation", "quote": "頓悟漸修。", "quote_ko": "단박에 깨치고, 그 뒤로 차츰 닦는다.", "quote_en": "Awaken suddenly, then cultivate gradually.", "quote_source": "지눌, 修心訣", "source_url": "https://plato.stanford.edu/entries/korean-philosophy/", "source_grade": "B" }
+      ],
+      "legacy": {
+        "ko": "선(禪)과 교(敎)가 갈라져 다투던 고려 불교에서 둘을 함께 닦는 길을 세웠고, 단박에 깨친 뒤에도 계속 닦아야 한다는 돈오점수를 폈다. 송광사에 자리 잡은 그 수행 방식이 한국 선불교의 기본형으로 남았다.",
+        "en": "In a Goryeo Buddhism split between meditation and doctrine, he built a practice that held both, and taught that sudden awakening must still be followed by gradual cultivation. The form he settled at Songgwangsa became the basic pattern of Korean Seon."
+      }
+    },
+    {
+      "id": "buddha", "name_ko": "고타마 싯다르타", "name_en": "Siddhartha Gautama (the Buddha)",
+      "field": "사상가·불교 창시자", "field_en": "Philosopher, Founder of Buddhism",
+      "birth_year": -563, "death_year": -483, "nation": "NP",
+      "flags": ["year-approx"],
+      "birthplace": { "admin": "샤캬국 룸비니(현 네팔)", "admin_en": "Lumbini in the Shakya realm (now Nepal)", "geo": "Lumbini, Nepal", "source_url": "https://www.britannica.com/biography/Buddha-founder-of-Buddhism", "source_grade": "A", "flags": ["year-approx"] },
+      "timeline": [
+        { "year": -563, "event": "샤캬족 왕가에서 출생(생몰 연도에는 여러 학설이 있다)", "event_en": "Born into the ruling family of the Shakya; the dates are debated among several scholarly chronologies", "source_url": "https://www.britannica.com/biography/Buddha-founder-of-Buddhism", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -534, "event": "궁을 떠나 출가", "event_en": "Left the palace and took up the life of a wanderer", "source_url": "https://www.britannica.com/biography/Buddha-founder-of-Buddhism", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -528, "event": "부다가야의 보리수 아래에서 깨달음을 얻었다고 전함", "event_en": "Traditionally said to have attained awakening beneath the bodhi tree at Bodh Gaya", "source_url": "https://www.britannica.com/biography/Buddha-founder-of-Buddhism", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -527, "event": "사르나트에서 처음 가르침을 폄(초전법륜)", "event_en": "Gave his first teaching at Sarnath", "source_url": "https://www.britannica.com/biography/Buddha-founder-of-Buddhism", "source_grade": "A", "flags": ["year-approx"] },
+        { "year": -483, "event": "쿠시나가라에서 입멸", "event_en": "Died at Kushinagar", "source_url": "https://www.britannica.com/biography/Buddha-founder-of-Buddhism", "source_grade": "A", "flags": ["year-approx"] }
+      ],
+      "places": [
+        { "id": "bodh-gaya", "name": "부다가야 마하보디 사원", "name_en": "Mahabodhi Temple, Bodh Gaya", "type": "유네스코 세계유산", "type_en": "UNESCO World Heritage site", "geo": "Mahabodhi Temple, Bodh Gaya, India", "source_url": "https://whc.unesco.org/en/list/1056/", "source_grade": "A", "flags": [] }
+      ],
+      "works": [
+        { "title": "법구경", "title_en": "Dhammapada", "note": "그의 말로 전해지는 423편의 게송 모음. 구전으로 전승된 뒤 문자로 정착됐다", "note_en": "423 verses transmitted as his sayings, carried orally before being written down", "quote": "Sabbe saṅkhārā aniccā.", "quote_ko": "모든 지어진 것은 덧없다.", "quote_en": "All conditioned things are impermanent.", "quote_source": "Dhammapada 277", "source_url": "https://www.britannica.com/biography/Buddha-founder-of-Buddhism", "source_grade": "A", "flags": ["authorship-traditional"] }
+      ],
+      "legacy": {
+        "ko": "고통이 어디서 오고 어떻게 그치는지를 네 가지 명제로 정리하고, 그 길을 여덟 갈래의 실천으로 제시했다. 계급이 아니라 수행으로 사람을 나누는 공동체를 만들었고, 그 가르침이 아시아 전역으로 퍼졌다.",
+        "en": "He set out where suffering comes from and how it ends in four propositions, and gave the way to end it as eight kinds of practice. He formed a community that ranked people by practice rather than caste, and the teaching spread across Asia."
+      }
+    }
+  ]
+}

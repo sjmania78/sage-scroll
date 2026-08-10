@@ -454,7 +454,7 @@ const NATION_REGION = {
   KR: "korea", CN: "eastasia", JP: "eastasia", TW: "eastasia",
   GR: "europe", GB: "europe", DE: "europe", IT: "europe", RU: "europe", FR: "europe", ES: "europe", NL: "europe", IE: "europe", AT: "europe", PL: "europe", CZ: "europe", NO: "europe", DK: "europe", SE: "europe", PT: "europe", HU: "europe", FI: "europe", CH: "europe", BE: "europe", UA: "europe",
   TR: "westasia", IR: "westasia", LB: "westasia", UZ: "westasia",
-  IN: "southasia", PK: "southasia", VN: "southasia", ID: "southasia", PH: "southasia", TH: "southasia",
+  IN: "southasia", PK: "southasia", VN: "southasia", ID: "southasia", PH: "southasia", TH: "southasia", NP: "southasia",
   EG: "africa", NG: "africa", ZA: "africa", MA: "africa", SN: "africa", DZ: "africa", TN: "africa", ML: "africa",
   US: "americas", CL: "americas", AR: "americas", CO: "americas", MX: "americas", BR: "americas", CA: "americas", PE: "americas", CU: "americas", NI: "americas", VE: "americas",
   NZ: "oceania", AU: "oceania",

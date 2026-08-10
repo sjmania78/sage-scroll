@@ -480,6 +480,122 @@
     "demis-hassabis": {
       "ko": "딥마인드를 세워 알파고로 바둑을, 알파폴드로 단백질 구조 예측을 풀었다. 알파폴드의 공로로 2024년 노벨 화학상을 받았다.",
       "en": "He founded DeepMind, which solved Go with AlphaGo and protein structure prediction with AlphaFold. AlphaFold brought him a share of the 2024 Nobel Prize in Chemistry."
+    },
+    "montaigne": {
+      "ko": "관직에서 물러나 자기 자신을 관찰 대상으로 삼는 글을 쓰기 시작했고, 그 형식이 '에세이'가 되었다. 확정된 답 대신 판단을 유보하는 태도를 문장의 방법으로 삼았다.",
+      "en": "He left public office and began writing with himself as the object of study, and that form became the essay. Suspending judgement rather than concluding became his method on the page."
+    },
+    "descartes": {
+      "ko": "의심할 수 있는 것을 전부 의심한 끝에 의심하는 자기 자신만은 남는다는 데서 다시 출발했다. 대수와 기하를 좌표로 이어 붙여 해석기하학의 바탕도 함께 놓았다.",
+      "en": "He doubted everything that could be doubted and restarted from the one thing left over: the doubter. Joining algebra to geometry through coordinates, he also laid the ground for analytic geometry."
+    },
+    "pascal": {
+      "ko": "페르마와 주고받은 편지에서 확률론이 시작됐고, 세금 계산을 돕겠다고 만든 기계식 계산기를 남겼다. 『팡세』에서는 이성으로 닿지 않는 자리를 이성의 언어로 적었다.",
+      "en": "Probability theory began in his correspondence with Fermat, and he built a mechanical calculator to help with tax arithmetic. In the Pensées he wrote about what reason cannot reach, in the language of reason."
+    },
+    "spinoza": {
+      "ko": "신과 자연을 같은 것으로 놓고, 정의와 공리에서 정리로 이어지는 기하학의 순서로 철학을 썼다. 파문과 금서를 겪으면서도 교수직을 거절하고 렌즈를 갈아 생계를 유지했다.",
+      "en": "He identified God with nature and wrote philosophy in geometrical order, from definitions and axioms to propositions. Excommunicated and banned, he refused a professorship and supported himself grinding lenses."
+    },
+    "locke": {
+      "ko": "타고난 관념을 부정하고 지식은 경험에서 온다고 논증해 영국 경험론의 출발점이 되었다. 동의에 기초한 정부와 저항권을 논증한 『통치론』은 이후 미국 독립선언의 언어에 닿았다.",
+      "en": "Denying innate ideas and deriving knowledge from experience, he set British empiricism in motion. His argument for government by consent and a right of resistance reached the language of the American Declaration of Independence."
+    },
+    "hume": {
+      "ko": "인과관계를 필연이 아니라 반복된 경험이 만든 습관으로 설명해, 경험만으로 확실성을 얻을 수 있다는 믿음을 흔들었다. 그 회의가 칸트를 '독단의 잠'에서 깨웠다고 칸트 자신이 적었다.",
+      "en": "He explained cause and effect as habit formed by repeated experience rather than necessity, unsettling the belief that experience alone yields certainty. Kant himself wrote that this scepticism woke him from his dogmatic slumber."
+    },
+    "kant": {
+      "ko": "인식이 대상을 따르는 것이 아니라 대상이 인식의 형식을 따른다고 뒤집어 근대 철학의 기준선을 다시 그었다. 도덕은 결과가 아니라 누구에게나 적용될 수 있는 원칙에서 나온다고 했고, 공화국들의 연맹으로 전쟁을 막자는 구상도 남겼다.",
+      "en": "He reversed the relation of mind and world — objects conform to the forms of cognition, not the other way round — and reset the baseline of modern philosophy. He grounded morality in principles that could hold for anyone, and proposed a federation of republics to end war."
+    },
+    "hegel": {
+      "ko": "모순을 없애야 할 오류가 아니라 사고가 앞으로 나아가는 동력으로 놓았고, 역사를 그 운동의 과정으로 서술했다. 이 틀을 뒤집어 물질에 적용한 것이 마르크스의 출발점이 되었다.",
+      "en": "He treated contradiction not as an error to remove but as the engine by which thought advances, and described history as that movement. Marx began by turning this frame over and applying it to material conditions."
+    },
+    "schopenhauer": {
+      "ko": "세계의 바탕에 목적 없는 맹목적 의지가 있다고 보고, 그 의지가 채워지지 않는 데서 고통이 온다고 설명했다. 인도 철학을 서양 철학에 끌어들인 첫 세대이며, 니체와 프로이트가 그의 독자였다.",
+      "en": "He placed a blind, purposeless will at the base of the world and derived suffering from its never being satisfied. Among the first to bring Indian philosophy into Western thought, he was read closely by Nietzsche and Freud."
+    },
+    "kierkegaard": {
+      "ko": "체계가 아니라 한 사람이 실제로 내리는 결단에서 출발해야 한다고 보고, 여러 가명으로 서로 다른 삶의 방식을 각각 말하게 했다. 실존주의라는 흐름이 여기서 시작된 것으로 읽힌다.",
+      "en": "He insisted that philosophy start from the decision an individual actually makes rather than from a system, and let a series of pseudonyms argue different ways of living. Existentialism is generally traced back to him."
+    },
+    "marx": {
+      "ko": "역사를 생산 관계와 계급의 문제로 다시 쓰고, 상품과 노동에서 출발해 자본주의의 작동을 분석했다. 20세기 정치 지형 상당 부분이 그의 저작을 근거로 삼거나 반박하며 형성됐다.",
+      "en": "He rewrote history in terms of production and class, and analysed how capitalism works starting from the commodity and from labour. Much of twentieth-century politics was built either on his texts or against them."
+    },
+    "nietzsche": {
+      "ko": "선과 악의 구분을 주어진 것이 아니라 역사 속에서 만들어진 것으로 보고 그 유래를 추적했다. 기존 가치가 힘을 잃은 자리에서 사람이 무엇을 근거로 살 것인지를 문제로 남겼다.",
+      "en": "He treated the distinction of good and evil as something made in history rather than given, and traced where it came from. He left as a question what a person is to live by once the old values have lost their force."
+    },
+    "freud": {
+      "ko": "사람의 행동 상당 부분이 스스로 알지 못하는 동기에서 나온다고 보고, 꿈과 말실수를 그 통로로 읽는 방법을 만들었다. 개별 이론은 이후 많은 반박을 받았지만 무의식이라는 전제는 20세기 문화 전반에 남았다.",
+      "en": "He held that much of what people do comes from motives they cannot see, and built a method for reading dreams and slips as routes to them. Individual doctrines were widely contested afterwards, but the premise of the unconscious stayed in twentieth-century culture."
+    },
+    "wittgenstein": {
+      "ko": "철학의 문제 상당수가 언어를 잘못 쓰는 데서 생긴다고 보고, 앞선 자기 책의 전제를 스스로 무너뜨린 뒤 다시 썼다. 낱말의 뜻을 정의가 아니라 실제 쓰임에서 찾는 방식을 남겼다.",
+      "en": "He held that many philosophical problems come from misuse of language, then dismantled the premises of his own first book and started again. He left a way of locating meaning in how words are actually used rather than in definitions."
+    },
+    "heidegger": {
+      "ko": "'존재란 무엇인가'라는 물음을 죽음을 앞둔 인간의 시간성에서 다시 열었다. 나치당 가담은 그의 사상과 함께 지금까지 논쟁의 대상으로 남아 있고, 사르트르·아렌트·데리다가 모두 그를 통과했다.",
+      "en": "He reopened the question of being through the temporality of a creature that faces its own death. His Nazi Party membership remains contested alongside the work, and Sartre, Arendt and Derrida all passed through him."
+    },
+    "arendt": {
+      "ko": "전체주의를 낡은 독재의 변형이 아니라 새로운 지배 형태로 분석했다. 아이히만 재판을 지켜보고 거대한 악이 괴물이 아니라 생각하기를 멈춘 평범한 관료에게서 나올 수 있다고 적었다.",
+      "en": "She analysed totalitarianism as a new form of rule rather than a variant of old tyranny. Watching the Eichmann trial, she wrote that enormous evil can come from an ordinary official who has stopped thinking."
+    },
+    "sartre": {
+      "ko": "사람에게는 미리 정해진 본질이 없고 스스로 선택한 것이 곧 그 사람이 된다고 했고, 그래서 자유를 면제가 아니라 피할 수 없는 책임으로 봤다. 노벨 문학상 수상자로 선정되자 작가가 제도에 편입되는 것을 거부한다며 수상을 사양했다.",
+      "en": "He held that a person has no essence given in advance and becomes what they choose, so freedom is not a release but an inescapable responsibility. When awarded the Nobel Prize he declined it, refusing to let a writer be absorbed into an institution."
+    },
+    "beauvoir": {
+      "ko": "여성이라는 조건을 타고난 본성이 아니라 사회가 만들어 온 결과로 분석해 『제2의 성』을 썼다. 이후 페미니즘 이론 대부분이 이 책을 근거로 삼거나 그것과 논쟁하며 전개됐다.",
+      "en": "The Second Sex analysed womanhood as something society produces rather than nature gives. Most later feminist theory developed either from that book or in argument with it."
+    },
+    "camus": {
+      "ko": "의미를 찾는 사람과 아무 답도 주지 않는 세계 사이의 어긋남을 '부조리'라 부르고, 거기서 자살도 체념도 아닌 세 번째 길을 찾으려 했다. 『페스트』에서는 재난 앞에서 각자 할 일을 하는 사람들을 그렸다.",
+      "en": "He named the gap between a person seeking meaning and a world that answers nothing the absurd, and looked for a third response that was neither suicide nor resignation. The Plague set that against people who simply do their work in a catastrophe."
+    },
+    "laozi": {
+      "ko": "다스리지 않음으로 다스리고 물처럼 낮은 데로 흐르는 것을 힘으로 본 오천 자의 텍스트가 그의 이름으로 전한다. 실존 여부와 저자 문제는 지금도 논쟁 중이지만, 그 책이 동아시아의 정치·예술·수양 전반에 남았다.",
+      "en": "A text of five thousand characters carries his name, treating non-action as a way of governing and water flowing downward as a form of strength. Whether he existed and whether one hand wrote the book are still disputed, but the book itself shaped East Asian politics, art and self-cultivation."
+    },
+    "zhuangzi": {
+      "ko": "우화와 농담으로 철학을 써서, 옳고 그름을 가르는 기준 자체가 보는 자리에 따라 달라진다고 했다. 나비 꿈 이야기처럼 인식의 경계를 흔드는 방식이 이후 동아시아의 시·회화·선불교에 남았다.",
+      "en": "He wrote philosophy in fables and jokes, arguing that the standard dividing right from wrong shifts with where one stands. The butterfly dream and its way of unsettling the boundaries of knowing carried into East Asian poetry, painting and Chan Buddhism."
+    },
+    "xunzi": {
+      "ko": "맹자와 반대로 사람의 본성은 악하고 선함은 배움과 예(禮)로 만들어진다고 했다. 하늘을 인격을 가진 존재가 아니라 자연 현상으로 놓았고, 그의 문하에서 한비자와 이사가 나왔다.",
+      "en": "Against Mencius he held that human nature is bad and that goodness is produced by learning and ritual. He treated heaven as natural process rather than a personal power, and Han Feizi and Li Si came out of his school."
+    },
+    "hanfeizi": {
+      "ko": "통치를 군주의 덕이 아니라 법·술·세라는 장치의 문제로 정리했고, 법은 신분을 가리지 않아야 한다고 했다. 진나라가 그 논리로 중국을 통일했지만 정작 그는 진의 옥에서 죽었다.",
+      "en": "He recast governing as a matter of institutions — law, technique and positional power — rather than a ruler's virtue, and insisted law must not bend for rank. Qin unified China on that logic; he himself died in a Qin prison."
+    },
+    "mozi": {
+      "ko": "가까운 사람부터 사랑하라는 유가에 맞서, 차등 없이 두루 사랑하고 서로 이롭게 하라고 주장했다. 제자 집단을 이끌고 실제로 약소국의 성을 지키러 다녔고, 그 과정에서 남긴 광학·역학 기록도 함께 전한다.",
+      "en": "Against the Confucian order of caring for those nearest first, he argued for impartial care and mutual benefit. He led a disciplined following that actually went to defend the walls of weaker states, and notes on optics and mechanics survive from that work."
+    },
+    "zhu-xi": {
+      "ko": "흩어져 있던 유가 문헌 가운데 사서를 골라 주석을 붙여 유학 교육의 중심을 다시 짰다. 그 주석이 이후 600여 년간 과거시험의 표준이 되었고, 조선의 이황과 이이도 이 틀 위에서 논쟁했다.",
+      "en": "He selected the Four Books from the scattered Confucian corpus and annotated them, rebuilding the core of Confucian education. Those commentaries set the examination standard for some six centuries, and Korea's Yi Hwang and Yi I argued within that frame."
+    },
+    "wang-yangming": {
+      "ko": "이치를 바깥 사물에서 찾는 주희의 방법에 반대해, 마음이 곧 이치이며 아는 것과 행하는 것은 나뉘지 않는다고 했다. 이 주장은 명대 이후 동아시아 사상과 일본 막말 지사들에게까지 이어졌다.",
+      "en": "Against Zhu Xi's method of seeking principle in external things, he held that mind is principle and that knowing and acting are not separable. The claim carried through late imperial East Asia and reached the activists of late-Tokugawa Japan."
+    },
+    "wonhyo": {
+      "ko": "서로 다투던 여러 불교 종파의 주장을 하나로 아우르는 화쟁(和諍)을 폈고, 100여 부를 저술했다. 승복을 벗고 저잣거리에서 노래로 불교를 전해, 글을 모르는 사람에게도 닿는 길을 열었다.",
+      "en": "He worked to reconcile the competing Buddhist schools of his day under the principle of hwajaeng and wrote some hundred treatises. Leaving the monastic robe, he carried Buddhism into the markets in song, opening a route to people who could not read."
+    },
+    "jinul": {
+      "ko": "선(禪)과 교(敎)가 갈라져 다투던 고려 불교에서 둘을 함께 닦는 길을 세웠고, 단박에 깨친 뒤에도 계속 닦아야 한다는 돈오점수를 폈다. 송광사에 자리 잡은 그 수행 방식이 한국 선불교의 기본형으로 남았다.",
+      "en": "In a Goryeo Buddhism split between meditation and doctrine, he built a practice that held both, and taught that sudden awakening must still be followed by gradual cultivation. The form he settled at Songgwangsa became the basic pattern of Korean Seon."
+    },
+    "buddha": {
+      "ko": "고통이 어디서 오고 어떻게 그치는지를 네 가지 명제로 정리하고, 그 길을 여덟 갈래의 실천으로 제시했다. 계급이 아니라 수행으로 사람을 나누는 공동체를 만들었고, 그 가르침이 아시아 전역으로 퍼졌다.",
+      "en": "He set out where suffering comes from and how it ends in four propositions, and gave the way to end it as eight kinds of practice. He formed a community that ranked people by practice rather than caste, and the teaching spread across Asia."
     }
   }
 }

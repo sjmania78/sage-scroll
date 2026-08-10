@@ -1,0 +1,416 @@
+{
+  "_note": "서양 철학자 추가분. geo = Nominatim 지오코딩 질의(좌표는 scripts/add-philosophers.mjs 가 채운다). 좌표를 손으로 적지 않는다. 도시 중심 좌표로 근사되는 경우 flags 에 coords-approx 를 단다.",
+  "people": [
+    {
+      "id": "montaigne", "name_ko": "미셸 드 몽테뉴", "name_en": "Michel de Montaigne",
+      "field": "철학자·수필가", "field_en": "Philosopher and Essayist",
+      "birth_year": 1533, "death_year": 1592, "nation": "FR",
+      "birthplace": { "admin": "프랑스 도르도뉴 몽테뉴 성", "admin_en": "Château de Montaigne, Dordogne, France", "geo": "Château de Montaigne, Saint-Michel-de-Montaigne, France", "source_url": "https://www.britannica.com/biography/Michel-de-Montaigne", "source_grade": "A", "flags": [] },
+      "timeline": [
+        { "year": 1533, "event": "프랑스 남서부 몽테뉴 성에서 출생", "event_en": "Born at the Château de Montaigne in south-western France", "source_url": "https://www.britannica.com/biography/Michel-de-Montaigne", "source_grade": "A" },
+        { "year": 1557, "event": "보르도 고등법원 평정관으로 법관 생활 시작", "event_en": "Began serving as a magistrate in the Bordeaux parlement", "source_url": "https://www.britannica.com/biography/Michel-de-Montaigne", "source_grade": "A" },
+        { "year": 1571, "event": "관직에서 물러나 성의 탑 서재에 은거하며 집필 시작", "event_en": "Retired from office to the tower library of his estate and began writing", "source_url": "https://www.britannica.com/biography/Michel-de-Montaigne", "source_grade": "A" },
+        { "year": 1580, "event": "『에세』 1·2권 출간", "event_en": "Published the first two books of the Essais", "source_url": "https://www.britannica.com/biography/Michel-de-Montaigne", "source_grade": "A" },
+        { "year": 1581, "event": "보르도 시장으로 선출되어 두 차례 임기 수행", "event_en": "Elected mayor of Bordeaux and served two terms", "source_url": "https://www.britannica.com/biography/Michel-de-Montaigne", "source_grade": "A" },
+        { "year": 1592, "event": "몽테뉴 성에서 사망", "event_en": "Died at the Château de Montaigne", "source_url": "https://www.britannica.com/biography/Michel-de-Montaigne", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "에세", "title_en": "Essais", "year": 1580, "note": "자기 자신을 관찰 대상으로 삼아 쓴 산문집으로 '에세이'라는 형식의 출발점", "note_en": "Prose written with himself as the object of observation; the origin of the essay as a form", "quote": "Que sais-je ?", "quote_ko": "나는 무엇을 아는가?", "quote_en": "What do I know?", "quote_source": "Michel de Montaigne, Essais II, 12", "source_url": "https://www.britannica.com/biography/Michel-de-Montaigne", "source_grade": "A" },
+        { "title": "여행 일기", "title_en": "Journal de voyage", "note": "1580~1581년 이탈리아 여행 기록으로 사후 발견되어 출간", "note_en": "A record of his 1580–81 journey to Italy, discovered and published after his death", "source_url": "https://en.wikipedia.org/wiki/Michel_de_Montaigne", "source_grade": "C", "flags": ["wiki-only"] }
+      ],
+      "legacy": {
+        "ko": "관직에서 물러나 자기 자신을 관찰 대상으로 삼는 글을 쓰기 시작했고, 그 형식이 '에세이'가 되었다. 확정된 답 대신 판단을 유보하는 태도를 문장의 방법으로 삼았다.",
+        "en": "He left public office and began writing with himself as the object of study, and that form became the essay. Suspending judgement rather than concluding became his method on the page."
+      }
+    },
+    {
+      "id": "descartes", "name_ko": "르네 데카르트", "name_en": "René Descartes",
+      "field": "철학자·수학자", "field_en": "Philosopher and Mathematician",
+      "birth_year": 1596, "death_year": 1650, "nation": "FR",
+      "birthplace": { "admin": "프랑스 투렌 라에(현 데카르트)", "admin_en": "La Haye en Touraine (now Descartes), France", "geo": "Descartes, Indre-et-Loire, France", "source_url": "https://www.britannica.com/biography/Rene-Descartes", "source_grade": "A", "flags": [] },
+      "timeline": [
+        { "year": 1596, "event": "프랑스 투렌 라에에서 출생", "event_en": "Born at La Haye en Touraine, France", "source_url": "https://www.britannica.com/biography/Rene-Descartes", "source_grade": "A" },
+        { "year": 1618, "event": "네덜란드에서 군에 복무하며 수학자 이사크 베크만을 만남", "event_en": "Served with the army in the Netherlands and met the mathematician Isaac Beeckman", "source_url": "https://www.britannica.com/biography/Rene-Descartes", "source_grade": "A" },
+        { "year": 1637, "event": "『방법서설』과 부록 「기하학」·「굴절광학」·「기상학」을 함께 출간", "event_en": "Published the Discourse on Method with the Geometry, Optics and Meteorology as appendices", "source_url": "https://www.britannica.com/biography/Rene-Descartes", "source_grade": "A" },
+        { "year": 1641, "event": "『제일철학에 관한 성찰』 출간", "event_en": "Published the Meditations on First Philosophy", "source_url": "https://www.britannica.com/biography/Rene-Descartes", "source_grade": "A" },
+        { "year": 1649, "event": "스웨덴 크리스티나 여왕의 초청으로 스톡홀름에 감", "event_en": "Went to Stockholm at the invitation of Queen Christina of Sweden", "source_url": "https://www.britannica.com/biography/Rene-Descartes", "source_grade": "A" },
+        { "year": 1650, "event": "스톡홀름에서 사망", "event_en": "Died in Stockholm", "source_url": "https://www.britannica.com/biography/Rene-Descartes", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "방법서설", "title_en": "Discours de la méthode", "year": 1637, "note": "라틴어가 아닌 프랑스어로 쓴 철학서로, 의심을 방법으로 삼는 절차를 제시", "note_en": "A work of philosophy written in French rather than Latin, setting out doubt as a method", "quote": "Je pense, donc je suis.", "quote_ko": "나는 생각한다, 그러므로 나는 존재한다.", "quote_en": "I think, therefore I am.", "quote_source": "René Descartes, Discours de la méthode IV", "source_url": "https://www.britannica.com/biography/Rene-Descartes", "source_grade": "A" },
+        { "title": "기하학", "title_en": "La Géométrie", "year": 1637, "note": "대수와 기하를 좌표로 연결해 해석기하학의 바탕을 놓음", "note_en": "Joined algebra and geometry through coordinates, founding analytic geometry", "source_url": "https://www.britannica.com/biography/Rene-Descartes", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "의심할 수 있는 것을 전부 의심한 끝에 의심하는 자기 자신만은 남는다는 데서 다시 출발했다. 대수와 기하를 좌표로 이어 붙여 해석기하학의 바탕도 함께 놓았다.",
+        "en": "He doubted everything that could be doubted and restarted from the one thing left over: the doubter. Joining algebra to geometry through coordinates, he also laid the ground for analytic geometry."
+      }
+    },
+    {
+      "id": "pascal", "name_ko": "블레즈 파스칼", "name_en": "Blaise Pascal",
+      "field": "철학자·수학자", "field_en": "Philosopher and Mathematician",
+      "birth_year": 1623, "death_year": 1662, "nation": "FR",
+      "birthplace": { "admin": "프랑스 클레르몽페랑", "admin_en": "Clermont-Ferrand, France", "geo": "Clermont-Ferrand, France", "source_url": "https://www.britannica.com/biography/Blaise-Pascal", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1623, "event": "프랑스 클레르몽에서 출생", "event_en": "Born at Clermont, France", "source_url": "https://www.britannica.com/biography/Blaise-Pascal", "source_grade": "A" },
+        { "year": 1642, "event": "세무 관리인 아버지의 계산을 돕기 위해 기계식 계산기 파스칼린 제작 착수", "event_en": "Began building the Pascaline, a mechanical calculator, to help his tax-official father", "source_url": "https://www.britannica.com/biography/Blaise-Pascal", "source_grade": "A" },
+        { "year": 1654, "event": "페르마와 편지를 주고받으며 확률론의 기초를 세움", "event_en": "Exchanged letters with Fermat, founding the theory of probability", "source_url": "https://www.britannica.com/biography/Blaise-Pascal", "source_grade": "A" },
+        { "year": 1656, "event": "『시골 친구에게 보내는 편지』를 익명으로 연재", "event_en": "Published the Provincial Letters anonymously in instalments", "source_url": "https://www.britannica.com/biography/Blaise-Pascal", "source_grade": "A" },
+        { "year": 1662, "event": "파리에서 사망; 유고가 『팡세』로 묶임", "event_en": "Died in Paris; his notes were collected as the Pensées", "source_url": "https://www.britannica.com/biography/Blaise-Pascal", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "팡세", "title_en": "Pensées", "note": "사후에 정리된 단상 모음으로 신앙과 이성의 관계를 다룸", "note_en": "Fragments assembled after his death on the relation of faith and reason", "quote": "Le cœur a ses raisons que la raison ne connaît point.", "quote_ko": "마음에는 이성이 알지 못하는 이성이 있다.", "quote_en": "The heart has its reasons of which reason knows nothing.", "quote_source": "Blaise Pascal, Pensées", "source_url": "https://www.britannica.com/biography/Blaise-Pascal", "source_grade": "A" },
+        { "title": "시골 친구에게 보내는 편지", "title_en": "Les Provinciales", "year": 1656, "note": "예수회의 결의론을 공격한 논쟁문으로 프랑스 산문의 본보기로 읽힘", "note_en": "Polemical letters attacking Jesuit casuistry, read as a model of French prose", "source_url": "https://www.britannica.com/biography/Blaise-Pascal", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "페르마와 주고받은 편지에서 확률론이 시작됐고, 세금 계산을 돕겠다고 만든 기계식 계산기를 남겼다. 『팡세』에서는 이성으로 닿지 않는 자리를 이성의 언어로 적었다.",
+        "en": "Probability theory began in his correspondence with Fermat, and he built a mechanical calculator to help with tax arithmetic. In the Pensées he wrote about what reason cannot reach, in the language of reason."
+      }
+    },
+    {
+      "id": "spinoza", "name_ko": "바뤼흐 스피노자", "name_en": "Baruch Spinoza",
+      "field": "철학자", "field_en": "Philosopher",
+      "birth_year": 1632, "death_year": 1677, "nation": "NL",
+      "birthplace": { "admin": "네덜란드 암스테르담", "admin_en": "Amsterdam, Netherlands", "geo": "Amsterdam, Netherlands", "source_url": "https://www.britannica.com/biography/Benedict-de-Spinoza", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1632, "event": "암스테르담의 포르투갈계 유대인 공동체에서 출생", "event_en": "Born into the Portuguese Jewish community of Amsterdam", "source_url": "https://www.britannica.com/biography/Benedict-de-Spinoza", "source_grade": "A" },
+        { "year": 1656, "event": "유대인 공동체에서 파문(헤렘)당함", "event_en": "Expelled from the Jewish community by writ of herem", "source_url": "https://www.britannica.com/biography/Benedict-de-Spinoza", "source_grade": "A" },
+        { "year": 1670, "event": "『신학정치론』을 익명으로 출간, 곧 금서가 됨", "event_en": "Published the Theological-Political Treatise anonymously; it was soon banned", "source_url": "https://www.britannica.com/biography/Benedict-de-Spinoza", "source_grade": "A" },
+        { "year": 1673, "event": "하이델베르크 대학 교수직 제안을 사상의 자유를 이유로 거절", "event_en": "Declined a chair at Heidelberg, citing freedom of thought", "source_url": "https://www.britannica.com/biography/Benedict-de-Spinoza", "source_grade": "A" },
+        { "year": 1677, "event": "헤이그에서 사망; 같은 해 『에티카』가 유고로 출간", "event_en": "Died at The Hague; the Ethics appeared posthumously the same year", "source_url": "https://www.britannica.com/biography/Benedict-de-Spinoza", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "에티카", "title_en": "Ethica", "year": 1677, "note": "정의·공리·정리로 이어지는 기하학적 서술로 쓴 철학서", "note_en": "A work of philosophy written in geometrical order, from definitions and axioms to propositions", "quote": "Non ridere, non lugere, neque detestari, sed intelligere.", "quote_ko": "비웃지도, 슬퍼하지도, 미워하지도 말고, 다만 이해하라.", "quote_en": "Not to laugh, not to lament, not to curse, but to understand.", "quote_source": "Baruch Spinoza, Tractatus Politicus I, 4", "source_url": "https://www.britannica.com/biography/Benedict-de-Spinoza", "source_grade": "A" },
+        { "title": "신학정치론", "title_en": "Tractatus Theologico-Politicus", "year": 1670, "note": "성서를 역사적 문헌으로 읽고 사상과 표현의 자유를 논증", "note_en": "Reads scripture as a historical document and argues for freedom of thought and expression", "source_url": "https://www.britannica.com/biography/Benedict-de-Spinoza", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "신과 자연을 같은 것으로 놓고, 정의와 공리에서 정리로 이어지는 기하학의 순서로 철학을 썼다. 파문과 금서를 겪으면서도 교수직을 거절하고 렌즈를 갈아 생계를 유지했다.",
+        "en": "He identified God with nature and wrote philosophy in geometrical order, from definitions and axioms to propositions. Excommunicated and banned, he refused a professorship and supported himself grinding lenses."
+      }
+    },
+    {
+      "id": "locke", "name_ko": "존 로크", "name_en": "John Locke",
+      "field": "철학자", "field_en": "Philosopher",
+      "birth_year": 1632, "death_year": 1704, "nation": "GB",
+      "birthplace": { "admin": "잉글랜드 서머싯 링턴", "admin_en": "Wrington, Somerset, England", "geo": "Wrington, Somerset, England", "source_url": "https://www.britannica.com/biography/John-Locke", "source_grade": "A", "flags": [] },
+      "timeline": [
+        { "year": 1632, "event": "잉글랜드 서머싯 링턴에서 출생", "event_en": "Born at Wrington in Somerset, England", "source_url": "https://www.britannica.com/biography/John-Locke", "source_grade": "A" },
+        { "year": 1667, "event": "섀프츠베리 백작의 주치의 겸 비서가 되어 정치 활동에 관여", "event_en": "Became physician and secretary to the Earl of Shaftesbury, entering political life", "source_url": "https://www.britannica.com/biography/John-Locke", "source_grade": "A" },
+        { "year": 1683, "event": "정치적 탄압을 피해 네덜란드로 망명", "event_en": "Fled to the Netherlands amid political persecution", "source_url": "https://www.britannica.com/biography/John-Locke", "source_grade": "A" },
+        { "year": 1689, "event": "『통치론』과 『관용에 관한 편지』 출간", "event_en": "Published the Two Treatises of Government and A Letter Concerning Toleration", "source_url": "https://www.britannica.com/biography/John-Locke", "source_grade": "A" },
+        { "year": 1690, "event": "『인간지성론』 출간", "event_en": "Published An Essay Concerning Human Understanding", "source_url": "https://www.britannica.com/biography/John-Locke", "source_grade": "A" },
+        { "year": 1704, "event": "에식스 오츠에서 사망", "event_en": "Died at Oates in Essex", "source_url": "https://www.britannica.com/biography/John-Locke", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "인간지성론", "title_en": "An Essay Concerning Human Understanding", "year": 1690, "note": "타고난 관념을 부정하고 지식이 경험에서 온다고 논증", "note_en": "Denies innate ideas and argues that knowledge comes from experience", "quote": "Let us then suppose the mind to be, as we say, white paper, void of all characters, without any ideas.", "quote_ko": "그러면 마음을 아무 글자도 적히지 않은 흰 종이라고 해 보자.", "quote_source": "John Locke, An Essay Concerning Human Understanding II, 1", "source_url": "https://www.britannica.com/biography/John-Locke", "source_grade": "A" },
+        { "title": "통치론", "title_en": "Two Treatises of Government", "year": 1689, "note": "왕권신수설을 반박하고 동의에 기초한 정부와 저항권을 논증", "note_en": "Refutes the divine right of kings and argues for government by consent and a right of resistance", "source_url": "https://www.britannica.com/biography/John-Locke", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "타고난 관념을 부정하고 지식은 경험에서 온다고 논증해 영국 경험론의 출발점이 되었다. 동의에 기초한 정부와 저항권을 논증한 『통치론』은 이후 미국 독립선언의 언어에 닿았다.",
+        "en": "Denying innate ideas and deriving knowledge from experience, he set British empiricism in motion. His argument for government by consent and a right of resistance reached the language of the American Declaration of Independence."
+      }
+    },
+    {
+      "id": "hume", "name_ko": "데이비드 흄", "name_en": "David Hume",
+      "field": "철학자·역사가", "field_en": "Philosopher and Historian",
+      "birth_year": 1711, "death_year": 1776, "nation": "GB",
+      "birthplace": { "admin": "스코틀랜드 에든버러", "admin_en": "Edinburgh, Scotland", "geo": "Edinburgh, Scotland", "source_url": "https://www.britannica.com/biography/David-Hume", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1711, "event": "스코틀랜드 에든버러에서 출생", "event_en": "Born in Edinburgh, Scotland", "source_url": "https://www.britannica.com/biography/David-Hume", "source_grade": "A" },
+        { "year": 1739, "event": "스무 대에 『인간 본성에 관한 논고』 출간", "event_en": "Published A Treatise of Human Nature in his twenties", "source_url": "https://www.britannica.com/biography/David-Hume", "source_grade": "A" },
+        { "year": 1748, "event": "『인간 지성에 관한 탐구』 출간", "event_en": "Published An Enquiry Concerning Human Understanding", "source_url": "https://www.britannica.com/biography/David-Hume", "source_grade": "A" },
+        { "year": 1754, "event": "『영국사』 연작을 내기 시작해 당대에는 역사가로 더 알려짐", "event_en": "Began the History of England, by which he was better known in his lifetime", "source_url": "https://www.britannica.com/biography/David-Hume", "source_grade": "A" },
+        { "year": 1776, "event": "에든버러에서 사망", "event_en": "Died in Edinburgh", "source_url": "https://www.britannica.com/biography/David-Hume", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "인간 본성에 관한 논고", "title_en": "A Treatise of Human Nature", "year": 1739, "note": "인과를 필연이 아니라 반복된 경험이 만든 습관으로 설명", "note_en": "Explains causation not as necessity but as habit formed by repeated experience", "quote": "Reason is, and ought only to be the slave of the passions.", "quote_ko": "이성은 정념의 노예이고, 또 그래야만 한다.", "quote_source": "David Hume, A Treatise of Human Nature II, 3, 3", "source_url": "https://www.britannica.com/biography/David-Hume", "source_grade": "A" },
+        { "title": "자연종교에 관한 대화", "title_en": "Dialogues Concerning Natural Religion", "year": 1779, "note": "생전에 출간을 미루고 사후에 나온 종교 논쟁 대화편", "note_en": "A dialogue on religion he withheld in life and which appeared after his death", "source_url": "https://www.britannica.com/biography/David-Hume", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "인과관계를 필연이 아니라 반복된 경험이 만든 습관으로 설명해, 경험만으로 확실성을 얻을 수 있다는 믿음을 흔들었다. 그 회의가 칸트를 '독단의 잠'에서 깨웠다고 칸트 자신이 적었다.",
+        "en": "He explained cause and effect as habit formed by repeated experience rather than necessity, unsettling the belief that experience alone yields certainty. Kant himself wrote that this scepticism woke him from his dogmatic slumber."
+      }
+    },
+    {
+      "id": "kant", "name_ko": "이마누엘 칸트", "name_en": "Immanuel Kant",
+      "field": "철학자", "field_en": "Philosopher",
+      "birth_year": 1724, "death_year": 1804, "nation": "DE",
+      "birthplace": { "admin": "프로이센 쾨니히스베르크(현 러시아 칼리닌그라드)", "admin_en": "Königsberg, Prussia (now Kaliningrad, Russia)", "geo": "Kaliningrad, Russia", "source_url": "https://www.britannica.com/biography/Immanuel-Kant", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1724, "event": "프로이센 쾨니히스베르크에서 출생", "event_en": "Born at Königsberg in Prussia", "source_url": "https://www.britannica.com/biography/Immanuel-Kant", "source_grade": "A" },
+        { "year": 1770, "event": "쾨니히스베르크 대학 논리학·형이상학 정교수가 됨", "event_en": "Appointed professor of logic and metaphysics at Königsberg", "source_url": "https://www.britannica.com/biography/Immanuel-Kant", "source_grade": "A" },
+        { "year": 1781, "event": "『순수이성비판』 출간", "event_en": "Published the Critique of Pure Reason", "source_url": "https://www.britannica.com/biography/Immanuel-Kant", "source_grade": "A" },
+        { "year": 1784, "event": "「계몽이란 무엇인가에 대한 답변」 발표", "event_en": "Published the essay Answering the Question: What Is Enlightenment?", "source_url": "https://www.britannica.com/biography/Immanuel-Kant", "source_grade": "A" },
+        { "year": 1788, "event": "『실천이성비판』 출간", "event_en": "Published the Critique of Practical Reason", "source_url": "https://www.britannica.com/biography/Immanuel-Kant", "source_grade": "A" },
+        { "year": 1795, "event": "『영구평화론』 출간", "event_en": "Published Toward Perpetual Peace", "source_url": "https://www.britannica.com/biography/Immanuel-Kant", "source_grade": "A" },
+        { "year": 1804, "event": "평생을 보낸 쾨니히스베르크에서 사망", "event_en": "Died at Königsberg, where he had spent his whole life", "source_url": "https://www.britannica.com/biography/Immanuel-Kant", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "순수이성비판", "title_en": "Kritik der reinen Vernunft", "year": 1781, "note": "인식이 대상을 따르는 것이 아니라 대상이 인식의 형식을 따른다고 뒤집음", "note_en": "Reverses the relation of knowledge and object: objects conform to the forms of our cognition", "quote": "Habe Mut, dich deines eigenen Verstandes zu bedienen!", "quote_ko": "네 자신의 지성을 사용할 용기를 가져라!", "quote_en": "Have courage to use your own understanding!", "quote_source": "Immanuel Kant, Beantwortung der Frage: Was ist Aufklärung? (1784)", "source_url": "https://www.britannica.com/biography/Immanuel-Kant", "source_grade": "A" },
+        { "title": "영구평화론", "title_en": "Zum ewigen Frieden", "year": 1795, "note": "공화정 국가들의 연맹으로 전쟁을 막자는 구상으로 국제기구 논의의 원형", "note_en": "Proposes a federation of republics to prevent war, a prototype for later international bodies", "source_url": "https://www.britannica.com/biography/Immanuel-Kant", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "인식이 대상을 따르는 것이 아니라 대상이 인식의 형식을 따른다고 뒤집어 근대 철학의 기준선을 다시 그었다. 도덕은 결과가 아니라 누구에게나 적용될 수 있는 원칙에서 나온다고 했고, 공화국들의 연맹으로 전쟁을 막자는 구상도 남겼다.",
+        "en": "He reversed the relation of mind and world — objects conform to the forms of cognition, not the other way round — and reset the baseline of modern philosophy. He grounded morality in principles that could hold for anyone, and proposed a federation of republics to end war."
+      }
+    },
+    {
+      "id": "hegel", "name_ko": "게오르크 빌헬름 프리드리히 헤겔", "name_en": "Georg Wilhelm Friedrich Hegel",
+      "field": "철학자", "field_en": "Philosopher",
+      "birth_year": 1770, "death_year": 1831, "nation": "DE",
+      "birthplace": { "admin": "독일 슈투트가르트", "admin_en": "Stuttgart, Germany", "geo": "Stuttgart, Germany", "source_url": "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1770, "event": "독일 슈투트가르트에서 출생", "event_en": "Born in Stuttgart, Germany", "source_url": "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel", "source_grade": "A" },
+        { "year": 1788, "event": "튀빙겐 신학교 입학, 횔덜린·셸링과 같은 방을 씀", "event_en": "Entered the Tübingen seminary, rooming with Hölderlin and Schelling", "source_url": "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel", "source_grade": "A" },
+        { "year": 1807, "event": "『정신현상학』 출간", "event_en": "Published the Phenomenology of Spirit", "source_url": "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel", "source_grade": "A" },
+        { "year": 1821, "event": "『법철학 강요』 출간", "event_en": "Published the Elements of the Philosophy of Right", "source_url": "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel", "source_grade": "A" },
+        { "year": 1818, "event": "베를린 대학 교수로 부임해 당대 독일 철학의 중심에 섬", "event_en": "Took the chair at Berlin, becoming the centre of German philosophy of his day", "source_url": "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel", "source_grade": "A" },
+        { "year": 1831, "event": "베를린에서 사망", "event_en": "Died in Berlin", "source_url": "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "정신현상학", "title_en": "Phänomenologie des Geistes", "year": 1807, "note": "의식이 스스로를 부정하며 단계를 밟아 나아가는 과정을 서술", "note_en": "Traces consciousness advancing stage by stage through its own negation", "quote": "Die Eule der Minerva beginnt erst mit der einbrechenden Dämmerung ihren Flug.", "quote_ko": "미네르바의 부엉이는 황혼이 깃들 무렵에야 날개를 편다.", "quote_en": "The owl of Minerva spreads its wings only with the falling of the dusk.", "quote_source": "G. W. F. Hegel, Grundlinien der Philosophie des Rechts, Vorrede", "source_url": "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel", "source_grade": "A" },
+        { "title": "법철학 강요", "title_en": "Grundlinien der Philosophie des Rechts", "year": 1821, "note": "가족·시민사회·국가로 이어지는 인륜의 단계를 서술", "note_en": "Sets out ethical life advancing through family, civil society and the state", "source_url": "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "모순을 없애야 할 오류가 아니라 사고가 앞으로 나아가는 동력으로 놓았고, 역사를 그 운동의 과정으로 서술했다. 이 틀을 뒤집어 물질에 적용한 것이 마르크스의 출발점이 되었다.",
+        "en": "He treated contradiction not as an error to remove but as the engine by which thought advances, and described history as that movement. Marx began by turning this frame over and applying it to material conditions."
+      }
+    },
+    {
+      "id": "schopenhauer", "name_ko": "아르투어 쇼펜하우어", "name_en": "Arthur Schopenhauer",
+      "field": "철학자", "field_en": "Philosopher",
+      "birth_year": 1788, "death_year": 1860, "nation": "DE",
+      "birthplace": { "admin": "단치히(현 폴란드 그단스크)", "admin_en": "Danzig (now Gdańsk, Poland)", "geo": "Gdańsk, Poland", "source_url": "https://www.britannica.com/biography/Arthur-Schopenhauer", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1788, "event": "단치히에서 상인 가문의 아들로 출생", "event_en": "Born at Danzig into a merchant family", "source_url": "https://www.britannica.com/biography/Arthur-Schopenhauer", "source_grade": "A" },
+        { "year": 1818, "event": "서른 살에 『의지와 표상으로서의 세계』를 완성", "event_en": "Completed The World as Will and Representation at thirty", "source_url": "https://www.britannica.com/biography/Arthur-Schopenhauer", "source_grade": "A" },
+        { "year": 1820, "event": "베를린 대학에서 헤겔과 같은 시간에 강의를 열었으나 수강생이 모이지 않음", "event_en": "Scheduled his Berlin lectures against Hegel's and drew almost no students", "source_url": "https://www.britannica.com/biography/Arthur-Schopenhauer", "source_grade": "A" },
+        { "year": 1851, "event": "『소품과 부록』으로 뒤늦게 대중적 명성을 얻음", "event_en": "Parerga and Paralipomena brought him belated public recognition", "source_url": "https://www.britannica.com/biography/Arthur-Schopenhauer", "source_grade": "A" },
+        { "year": 1860, "event": "프랑크푸르트에서 사망", "event_en": "Died in Frankfurt", "source_url": "https://www.britannica.com/biography/Arthur-Schopenhauer", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "의지와 표상으로서의 세계", "title_en": "Die Welt als Wille und Vorstellung", "year": 1818, "note": "세계를 표상과 그 배후의 맹목적 의지로 나누어 설명", "note_en": "Divides the world into representation and the blind will behind it", "quote": "Die Welt ist meine Vorstellung.", "quote_ko": "세계는 나의 표상이다.", "quote_en": "The world is my representation.", "quote_source": "Arthur Schopenhauer, Die Welt als Wille und Vorstellung I, §1", "source_url": "https://www.britannica.com/biography/Arthur-Schopenhauer", "source_grade": "A" },
+        { "title": "소품과 부록", "title_en": "Parerga und Paralipomena", "year": 1851, "note": "짧은 에세이 모음으로 그의 이름을 대중에게 알린 책", "note_en": "A collection of short essays that finally brought him a wide readership", "source_url": "https://www.britannica.com/biography/Arthur-Schopenhauer", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "세계의 바탕에 목적 없는 맹목적 의지가 있다고 보고, 그 의지가 채워지지 않는 데서 고통이 온다고 설명했다. 인도 철학을 서양 철학에 끌어들인 첫 세대이며, 니체와 프로이트가 그의 독자였다.",
+        "en": "He placed a blind, purposeless will at the base of the world and derived suffering from its never being satisfied. Among the first to bring Indian philosophy into Western thought, he was read closely by Nietzsche and Freud."
+      }
+    },
+    {
+      "id": "kierkegaard", "name_ko": "쇠렌 키르케고르", "name_en": "Søren Kierkegaard",
+      "field": "철학자·신학자", "field_en": "Philosopher and Theologian",
+      "birth_year": 1813, "death_year": 1855, "nation": "DK",
+      "birthplace": { "admin": "덴마크 코펜하겐", "admin_en": "Copenhagen, Denmark", "geo": "Copenhagen, Denmark", "source_url": "https://www.britannica.com/biography/Soren-Kierkegaard", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1813, "event": "덴마크 코펜하겐에서 출생", "event_en": "Born in Copenhagen, Denmark", "source_url": "https://www.britannica.com/biography/Soren-Kierkegaard", "source_grade": "A" },
+        { "year": 1841, "event": "약혼자 레기네 올센과의 약혼을 스스로 파기", "event_en": "Broke off his engagement to Regine Olsen", "source_url": "https://www.britannica.com/biography/Soren-Kierkegaard", "source_grade": "A" },
+        { "year": 1843, "event": "『이것이냐 저것이냐』와 『두려움과 떨림』을 가명으로 출간", "event_en": "Published Either/Or and Fear and Trembling under pseudonyms", "source_url": "https://www.britannica.com/biography/Soren-Kierkegaard", "source_grade": "A" },
+        { "year": 1849, "event": "『죽음에 이르는 병』 출간", "event_en": "Published The Sickness unto Death", "source_url": "https://www.britannica.com/biography/Soren-Kierkegaard", "source_grade": "A" },
+        { "year": 1855, "event": "덴마크 국교회를 공개 비판하던 중 코펜하겐에서 사망", "event_en": "Died in Copenhagen in the middle of his public attack on the Danish state church", "source_url": "https://www.britannica.com/biography/Soren-Kierkegaard", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "두려움과 떨림", "title_en": "Frygt og Bæven", "year": 1843, "note": "아브라함의 이야기를 통해 윤리를 넘어서는 신앙의 결단을 다룸", "note_en": "Uses the story of Abraham to examine a decision of faith that exceeds ethics", "quote": "Livet skal forstås baglæns, men det må leves forlæns.", "quote_ko": "삶은 뒤돌아볼 때 이해되지만, 살아야 하는 것은 앞을 향해서다.", "quote_en": "Life can only be understood backwards; but it must be lived forwards.", "quote_source": "Søren Kierkegaard, Journals (1843)", "source_url": "https://www.britannica.com/biography/Soren-Kierkegaard", "source_grade": "A", "flags": ["authorship-traditional"] },
+        { "title": "이것이냐 저것이냐", "title_en": "Enten – Eller", "year": 1843, "note": "심미적 삶과 윤리적 삶을 두 인물의 문서로 대비", "note_en": "Contrasts the aesthetic and the ethical life through two sets of papers", "source_url": "https://www.britannica.com/biography/Soren-Kierkegaard", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "체계가 아니라 한 사람이 실제로 내리는 결단에서 출발해야 한다고 보고, 여러 가명으로 서로 다른 삶의 방식을 각각 말하게 했다. 실존주의라는 흐름이 여기서 시작된 것으로 읽힌다.",
+        "en": "He insisted that philosophy start from the decision an individual actually makes rather than from a system, and let a series of pseudonyms argue different ways of living. Existentialism is generally traced back to him."
+      }
+    },
+    {
+      "id": "marx", "name_ko": "카를 마르크스", "name_en": "Karl Marx",
+      "field": "철학자·경제학자", "field_en": "Philosopher and Economist",
+      "birth_year": 1818, "death_year": 1883, "nation": "DE",
+      "birthplace": { "admin": "독일 트리어", "admin_en": "Trier, Germany", "geo": "Trier, Germany", "source_url": "https://www.britannica.com/biography/Karl-Marx", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1818, "event": "프로이센 트리어에서 출생", "event_en": "Born at Trier in Prussia", "source_url": "https://www.britannica.com/biography/Karl-Marx", "source_grade": "A" },
+        { "year": 1844, "event": "파리에서 엥겔스를 만나 평생의 공동 작업을 시작", "event_en": "Met Engels in Paris, beginning a lifelong collaboration", "source_url": "https://www.britannica.com/biography/Karl-Marx", "source_grade": "A" },
+        { "year": 1848, "event": "엥겔스와 『공산당 선언』 발표", "event_en": "Issued the Communist Manifesto with Engels", "source_url": "https://www.britannica.com/biography/Karl-Marx", "source_grade": "A" },
+        { "year": 1849, "event": "추방을 거듭한 끝에 런던에 정착", "event_en": "Settled in London after repeated expulsions", "source_url": "https://www.britannica.com/biography/Karl-Marx", "source_grade": "A" },
+        { "year": 1867, "event": "『자본론』 제1권 출간", "event_en": "Published the first volume of Capital", "source_url": "https://www.britannica.com/biography/Karl-Marx", "source_grade": "A" },
+        { "year": 1883, "event": "런던에서 사망", "event_en": "Died in London", "source_url": "https://www.britannica.com/biography/Karl-Marx", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "자본론", "title_en": "Das Kapital", "year": 1867, "note": "상품과 노동에서 출발해 자본주의 생산 과정을 분석", "note_en": "Analyses capitalist production beginning from the commodity and from labour", "quote": "Die Philosophen haben die Welt nur verschieden interpretiert; es kömmt darauf an, sie zu verändern.", "quote_ko": "철학자들은 세계를 여러 가지로 해석해 왔을 뿐이다. 중요한 것은 세계를 바꾸는 일이다.", "quote_en": "The philosophers have only interpreted the world in various ways; the point is to change it.", "quote_source": "Karl Marx, Thesen über Feuerbach XI (1845)", "source_url": "https://www.britannica.com/biography/Karl-Marx", "source_grade": "A" },
+        { "title": "공산당 선언", "title_en": "Manifest der Kommunistischen Partei", "year": 1848, "note": "엥겔스와 함께 쓴 강령으로 역사를 계급 투쟁으로 서술", "note_en": "Written with Engels; describes history as a history of class struggle", "source_url": "https://www.britannica.com/biography/Karl-Marx", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "역사를 생산 관계와 계급의 문제로 다시 쓰고, 상품과 노동에서 출발해 자본주의의 작동을 분석했다. 20세기 정치 지형 상당 부분이 그의 저작을 근거로 삼거나 반박하며 형성됐다.",
+        "en": "He rewrote history in terms of production and class, and analysed how capitalism works starting from the commodity and from labour. Much of twentieth-century politics was built either on his texts or against them."
+      }
+    },
+    {
+      "id": "nietzsche", "name_ko": "프리드리히 니체", "name_en": "Friedrich Nietzsche",
+      "field": "철학자·문헌학자", "field_en": "Philosopher and Philologist",
+      "birth_year": 1844, "death_year": 1900, "nation": "DE",
+      "birthplace": { "admin": "독일 작센 뢰켄", "admin_en": "Röcken, Saxony, Germany", "geo": "Röcken, Lützen, Germany", "source_url": "https://www.britannica.com/biography/Friedrich-Nietzsche", "source_grade": "A", "flags": [] },
+      "timeline": [
+        { "year": 1844, "event": "독일 뢰켄의 목사 가정에서 출생", "event_en": "Born at Röcken, Germany, into a pastor's family", "source_url": "https://www.britannica.com/biography/Friedrich-Nietzsche", "source_grade": "A" },
+        { "year": 1869, "event": "스물넷에 바젤 대학 고전문헌학 교수로 임용", "event_en": "Appointed professor of classical philology at Basel at twenty-four", "source_url": "https://www.britannica.com/biography/Friedrich-Nietzsche", "source_grade": "A" },
+        { "year": 1879, "event": "건강 악화로 교수직을 사임하고 알프스와 이탈리아를 옮겨 다니며 집필", "event_en": "Resigned his chair for reasons of health and wrote while moving between the Alps and Italy", "source_url": "https://www.britannica.com/biography/Friedrich-Nietzsche", "source_grade": "A" },
+        { "year": 1883, "event": "『차라투스트라는 이렇게 말했다』를 쓰기 시작", "event_en": "Began Thus Spoke Zarathustra", "source_url": "https://www.britannica.com/biography/Friedrich-Nietzsche", "source_grade": "A" },
+        { "year": 1889, "event": "토리노에서 쓰러진 뒤 저술을 중단", "event_en": "Collapsed in Turin and wrote no more", "source_url": "https://www.britannica.com/biography/Friedrich-Nietzsche", "source_grade": "A" },
+        { "year": 1900, "event": "바이마르에서 사망", "event_en": "Died at Weimar", "source_url": "https://www.britannica.com/biography/Friedrich-Nietzsche", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "차라투스트라는 이렇게 말했다", "title_en": "Also sprach Zarathustra", "year": 1883, "note": "잠언과 이야기를 섞은 형식으로 기존 가치의 전환을 말함", "note_en": "Mixes aphorism and narrative to argue for a revaluation of existing values", "quote": "Gott ist tot.", "quote_ko": "신은 죽었다.", "quote_en": "God is dead.", "quote_source": "Friedrich Nietzsche, Die fröhliche Wissenschaft §125", "source_url": "https://www.britannica.com/biography/Friedrich-Nietzsche", "source_grade": "A" },
+        { "title": "도덕의 계보", "title_en": "Zur Genealogie der Moral", "year": 1887, "note": "선악의 구분이 어떤 역사적 과정에서 생겼는지를 추적", "note_en": "Traces the historical process by which the distinction of good and evil arose", "source_url": "https://www.britannica.com/biography/Friedrich-Nietzsche", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "선과 악의 구분을 주어진 것이 아니라 역사 속에서 만들어진 것으로 보고 그 유래를 추적했다. 기존 가치가 힘을 잃은 자리에서 사람이 무엇을 근거로 살 것인지를 문제로 남겼다.",
+        "en": "He treated the distinction of good and evil as something made in history rather than given, and traced where it came from. He left as a question what a person is to live by once the old values have lost their force."
+      }
+    },
+    {
+      "id": "freud", "name_ko": "지크문트 프로이트", "name_en": "Sigmund Freud",
+      "field": "정신분석학자·사상가", "field_en": "Founder of Psychoanalysis",
+      "birth_year": 1856, "death_year": 1939, "nation": "AT",
+      "birthplace": { "admin": "모라비아 프라이베르크(현 체코 프르시보르)", "admin_en": "Freiberg, Moravia (now Příbor, Czechia)", "geo": "Příbor, Czechia", "source_url": "https://www.britannica.com/biography/Sigmund-Freud", "source_grade": "A", "flags": [] },
+      "timeline": [
+        { "year": 1856, "event": "모라비아 프라이베르크에서 출생", "event_en": "Born at Freiberg in Moravia", "source_url": "https://www.britannica.com/biography/Sigmund-Freud", "source_grade": "A" },
+        { "year": 1886, "event": "빈에서 신경과 의원을 열고 진료 시작", "event_en": "Opened a neurological practice in Vienna", "source_url": "https://www.britannica.com/biography/Sigmund-Freud", "source_grade": "A" },
+        { "year": 1900, "event": "『꿈의 해석』 출간", "event_en": "Published The Interpretation of Dreams", "source_url": "https://www.britannica.com/biography/Sigmund-Freud", "source_grade": "A" },
+        { "year": 1923, "event": "『자아와 이드』에서 이드·자아·초자아의 구조를 제시", "event_en": "Set out the id, ego and super-ego in The Ego and the Id", "source_url": "https://www.britannica.com/biography/Sigmund-Freud", "source_grade": "A" },
+        { "year": 1938, "event": "나치의 오스트리아 병합 후 런던으로 망명", "event_en": "Fled to London after the Nazi annexation of Austria", "source_url": "https://www.britannica.com/biography/Sigmund-Freud", "source_grade": "A" },
+        { "year": 1939, "event": "런던에서 사망", "event_en": "Died in London", "source_url": "https://www.britannica.com/biography/Sigmund-Freud", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "꿈의 해석", "title_en": "Die Traumdeutung", "year": 1900, "note": "꿈을 무의식적 소망이 변형되어 나타난 것으로 읽는 방법을 제시", "note_en": "Proposes reading dreams as disguised expressions of unconscious wishes", "quote": "Wo Es war, soll Ich werden.", "quote_ko": "이드가 있던 자리에 자아가 있게 해야 한다.", "quote_en": "Where id was, there ego shall be.", "quote_source": "Sigmund Freud, Neue Folge der Vorlesungen zur Einführung in die Psychoanalyse (1933)", "source_url": "https://www.britannica.com/biography/Sigmund-Freud", "source_grade": "A" },
+        { "title": "문명 속의 불만", "title_en": "Das Unbehagen in der Kultur", "year": 1930, "note": "문명이 요구하는 억압과 개인의 충동 사이의 갈등을 다룸", "note_en": "Examines the conflict between the renunciations civilisation demands and individual drives", "source_url": "https://www.britannica.com/biography/Sigmund-Freud", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "사람의 행동 상당 부분이 스스로 알지 못하는 동기에서 나온다고 보고, 꿈과 말실수를 그 통로로 읽는 방법을 만들었다. 개별 이론은 이후 많은 반박을 받았지만 무의식이라는 전제는 20세기 문화 전반에 남았다.",
+        "en": "He held that much of what people do comes from motives they cannot see, and built a method for reading dreams and slips as routes to them. Individual doctrines were widely contested afterwards, but the premise of the unconscious stayed in twentieth-century culture."
+      }
+    },
+    {
+      "id": "wittgenstein", "name_ko": "루트비히 비트겐슈타인", "name_en": "Ludwig Wittgenstein",
+      "field": "철학자", "field_en": "Philosopher",
+      "birth_year": 1889, "death_year": 1951, "nation": "AT",
+      "birthplace": { "admin": "오스트리아 빈", "admin_en": "Vienna, Austria", "geo": "Vienna, Austria", "source_url": "https://www.britannica.com/biography/Ludwig-Wittgenstein", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1889, "event": "오스트리아 빈의 부유한 산업가 가문에서 출생", "event_en": "Born in Vienna into a wealthy industrial family", "source_url": "https://www.britannica.com/biography/Ludwig-Wittgenstein", "source_grade": "A" },
+        { "year": 1911, "event": "케임브리지에서 버트런드 러셀에게 배움", "event_en": "Went to Cambridge to study with Bertrand Russell", "source_url": "https://www.britannica.com/biography/Ludwig-Wittgenstein", "source_grade": "A" },
+        { "year": 1921, "event": "『논리철학논고』 출간 후 철학을 떠나 시골 초등학교 교사가 됨", "event_en": "Published the Tractatus, then left philosophy to teach in village schools", "source_url": "https://www.britannica.com/biography/Ludwig-Wittgenstein", "source_grade": "A" },
+        { "year": 1929, "event": "케임브리지로 돌아와 앞선 자기 견해를 스스로 비판", "event_en": "Returned to Cambridge and began criticising his own earlier position", "source_url": "https://www.britannica.com/biography/Ludwig-Wittgenstein", "source_grade": "A" },
+        { "year": 1951, "event": "케임브리지에서 사망; 『철학적 탐구』는 사후 출간", "event_en": "Died at Cambridge; the Philosophical Investigations appeared posthumously", "source_url": "https://www.britannica.com/biography/Ludwig-Wittgenstein", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "논리철학논고", "title_en": "Tractatus Logico-Philosophicus", "year": 1921, "note": "번호를 매긴 명제들로 언어가 세계를 그리는 방식과 그 한계를 서술", "note_en": "Numbered propositions setting out how language pictures the world, and where that stops", "quote": "Wovon man nicht sprechen kann, darüber muß man schweigen.", "quote_ko": "말할 수 없는 것에 대해서는 침묵해야 한다.", "quote_en": "Whereof one cannot speak, thereof one must be silent.", "quote_source": "Ludwig Wittgenstein, Tractatus Logico-Philosophicus 7", "source_url": "https://www.britannica.com/biography/Ludwig-Wittgenstein", "source_grade": "A" },
+        { "title": "철학적 탐구", "title_en": "Philosophische Untersuchungen", "year": 1953, "note": "낱말의 뜻을 정의가 아니라 실제 쓰임에서 찾는 '언어놀이' 개념을 제시", "note_en": "Introduces language-games, locating meaning in use rather than in definition", "source_url": "https://www.britannica.com/biography/Ludwig-Wittgenstein", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "철학의 문제 상당수가 언어를 잘못 쓰는 데서 생긴다고 보고, 앞선 자기 책의 전제를 스스로 무너뜨린 뒤 다시 썼다. 낱말의 뜻을 정의가 아니라 실제 쓰임에서 찾는 방식을 남겼다.",
+        "en": "He held that many philosophical problems come from misuse of language, then dismantled the premises of his own first book and started again. He left a way of locating meaning in how words are actually used rather than in definitions."
+      }
+    },
+    {
+      "id": "heidegger", "name_ko": "마르틴 하이데거", "name_en": "Martin Heidegger",
+      "field": "철학자", "field_en": "Philosopher",
+      "birth_year": 1889, "death_year": 1976, "nation": "DE",
+      "birthplace": { "admin": "독일 바덴 메스키르히", "admin_en": "Meßkirch, Baden, Germany", "geo": "Meßkirch, Germany", "source_url": "https://www.britannica.com/biography/Martin-Heidegger-German-philosopher", "source_grade": "A", "flags": [] },
+      "timeline": [
+        { "year": 1889, "event": "독일 메스키르히에서 출생", "event_en": "Born at Meßkirch, Germany", "source_url": "https://www.britannica.com/biography/Martin-Heidegger-German-philosopher", "source_grade": "A" },
+        { "year": 1927, "event": "『존재와 시간』 출간", "event_en": "Published Being and Time", "source_url": "https://www.britannica.com/biography/Martin-Heidegger-German-philosopher", "source_grade": "A" },
+        { "year": 1933, "event": "프라이부르크 대학 총장에 취임하고 나치당에 입당(이후 지속적 비판의 대상)", "event_en": "Became rector at Freiburg and joined the Nazi Party, a fact debated ever since", "source_url": "https://www.britannica.com/biography/Martin-Heidegger-German-philosopher", "source_grade": "A" },
+        { "year": 1946, "event": "「휴머니즘에 관한 편지」를 씀", "event_en": "Wrote the Letter on Humanism", "source_url": "https://www.britannica.com/biography/Martin-Heidegger-German-philosopher", "source_grade": "A" },
+        { "year": 1976, "event": "프라이부르크에서 사망, 고향 메스키르히에 묻힘", "event_en": "Died at Freiburg and was buried at Meßkirch", "source_url": "https://www.britannica.com/biography/Martin-Heidegger-German-philosopher", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "존재와 시간", "title_en": "Sein und Zeit", "year": 1927, "note": "'존재란 무엇인가'를 죽음을 앞둔 인간의 시간성에서 다시 물음", "note_en": "Reopens the question of being through the temporality of a being that faces its own death", "quote": "Die Sprache ist das Haus des Seins.", "quote_ko": "언어는 존재의 집이다.", "quote_en": "Language is the house of being.", "quote_source": "Martin Heidegger, Brief über den Humanismus (1946)", "source_url": "https://www.britannica.com/biography/Martin-Heidegger-German-philosopher", "source_grade": "A" },
+        { "title": "숲길", "title_en": "Holzwege", "year": 1950, "note": "예술 작품의 근원과 기술을 다룬 후기 논문 모음", "note_en": "Later essays on the origin of the work of art and on technology", "source_url": "https://en.wikipedia.org/wiki/Martin_Heidegger", "source_grade": "C", "flags": ["wiki-only"] }
+      ],
+      "legacy": {
+        "ko": "'존재란 무엇인가'라는 물음을 죽음을 앞둔 인간의 시간성에서 다시 열었다. 나치당 가담은 그의 사상과 함께 지금까지 논쟁의 대상으로 남아 있고, 사르트르·아렌트·데리다가 모두 그를 통과했다.",
+        "en": "He reopened the question of being through the temporality of a creature that faces its own death. His Nazi Party membership remains contested alongside the work, and Sartre, Arendt and Derrida all passed through him."
+      }
+    },
+    {
+      "id": "arendt", "name_ko": "한나 아렌트", "name_en": "Hannah Arendt",
+      "field": "정치철학자", "field_en": "Political Theorist",
+      "birth_year": 1906, "death_year": 1975, "nation": "DE",
+      "birthplace": { "admin": "독일 하노버 린덴", "admin_en": "Linden, Hanover, Germany", "geo": "Linden, Hannover, Germany", "source_url": "https://www.britannica.com/biography/Hannah-Arendt", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1906, "event": "독일 하노버 린덴에서 출생", "event_en": "Born at Linden, Hanover, Germany", "source_url": "https://www.britannica.com/biography/Hannah-Arendt", "source_grade": "A" },
+        { "year": 1933, "event": "게슈타포에 체포되었다 풀려난 뒤 독일을 떠남", "event_en": "Left Germany after being arrested and released by the Gestapo", "source_url": "https://www.britannica.com/biography/Hannah-Arendt", "source_grade": "A" },
+        { "year": 1941, "event": "무국적자로 미국에 도착", "event_en": "Arrived in the United States as a stateless refugee", "source_url": "https://www.britannica.com/biography/Hannah-Arendt", "source_grade": "A" },
+        { "year": 1951, "event": "『전체주의의 기원』 출간", "event_en": "Published The Origins of Totalitarianism", "source_url": "https://www.britannica.com/biography/Hannah-Arendt", "source_grade": "A" },
+        { "year": 1963, "event": "아이히만 재판 참관기 『예루살렘의 아이히만』 출간", "event_en": "Published Eichmann in Jerusalem, her report on the trial", "source_url": "https://www.britannica.com/biography/Hannah-Arendt", "source_grade": "A" },
+        { "year": 1975, "event": "뉴욕에서 사망", "event_en": "Died in New York", "source_url": "https://www.britannica.com/biography/Hannah-Arendt", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "예루살렘의 아이히만", "title_en": "Eichmann in Jerusalem", "year": 1963, "note": "부제 '악의 평범성에 대한 보고서'로 재판을 기록", "note_en": "Subtitled A Report on the Banality of Evil", "quote": "the banality of evil", "quote_ko": "악의 평범성", "quote_source": "Hannah Arendt, Eichmann in Jerusalem: A Report on the Banality of Evil (1963)", "source_url": "https://www.britannica.com/biography/Hannah-Arendt", "source_grade": "A" },
+        { "title": "전체주의의 기원", "title_en": "The Origins of Totalitarianism", "year": 1951, "note": "반유대주의·제국주의·전체주의를 잇는 조건을 분석", "note_en": "Analyses the conditions linking antisemitism, imperialism and totalitarian rule", "source_url": "https://www.britannica.com/biography/Hannah-Arendt", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "전체주의를 낡은 독재의 변형이 아니라 새로운 지배 형태로 분석했다. 아이히만 재판을 지켜보고 거대한 악이 괴물이 아니라 생각하기를 멈춘 평범한 관료에게서 나올 수 있다고 적었다.",
+        "en": "She analysed totalitarianism as a new form of rule rather than a variant of old tyranny. Watching the Eichmann trial, she wrote that enormous evil can come from an ordinary official who has stopped thinking."
+      }
+    },
+    {
+      "id": "sartre", "name_ko": "장폴 사르트르", "name_en": "Jean-Paul Sartre",
+      "field": "철학자·작가", "field_en": "Philosopher and Writer",
+      "birth_year": 1905, "death_year": 1980, "nation": "FR",
+      "birthplace": { "admin": "프랑스 파리", "admin_en": "Paris, France", "geo": "Paris, France", "source_url": "https://www.britannica.com/biography/Jean-Paul-Sartre", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1905, "event": "프랑스 파리에서 출생", "event_en": "Born in Paris, France", "source_url": "https://www.britannica.com/biography/Jean-Paul-Sartre", "source_grade": "A" },
+        { "year": 1938, "event": "소설 『구토』 출간", "event_en": "Published the novel Nausea", "source_url": "https://www.britannica.com/biography/Jean-Paul-Sartre", "source_grade": "A" },
+        { "year": 1943, "event": "독일 점령기 파리에서 『존재와 무』 출간", "event_en": "Published Being and Nothingness in occupied Paris", "source_url": "https://www.britannica.com/biography/Jean-Paul-Sartre", "source_grade": "A" },
+        { "year": 1945, "event": "잡지 『현대』를 창간해 참여 문학을 주장", "event_en": "Founded the review Les Temps modernes and argued for committed literature", "source_url": "https://www.britannica.com/biography/Jean-Paul-Sartre", "source_grade": "A" },
+        { "year": 1964, "event": "노벨 문학상 수상자로 선정되었으나 수상을 거부", "event_en": "Declined the Nobel Prize in Literature awarded to him", "source_url": "https://www.nobelprize.org/prizes/literature/1964/sartre/facts/", "source_grade": "B" },
+        { "year": 1980, "event": "파리에서 사망", "event_en": "Died in Paris", "source_url": "https://www.britannica.com/biography/Jean-Paul-Sartre", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "존재와 무", "title_en": "L'Être et le Néant", "year": 1943, "note": "의식을 규정된 본질이 없는 것으로 놓고 자유와 책임을 논증", "note_en": "Treats consciousness as having no fixed essence and derives freedom and responsibility from that", "quote": "L'existence précède l'essence.", "quote_ko": "실존은 본질에 앞선다.", "quote_en": "Existence precedes essence.", "quote_source": "Jean-Paul Sartre, L'existentialisme est un humanisme (1946)", "source_url": "https://www.britannica.com/biography/Jean-Paul-Sartre", "source_grade": "A" },
+        { "title": "구토", "title_en": "La Nausée", "year": 1938, "note": "일기 형식의 소설로 사물 앞에서 느끼는 존재의 우연성을 다룸", "note_en": "A novel in diary form on the contingency of existence felt before ordinary objects", "source_url": "https://www.britannica.com/biography/Jean-Paul-Sartre", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "사람에게는 미리 정해진 본질이 없고 스스로 선택한 것이 곧 그 사람이 된다고 했고, 그래서 자유를 면제가 아니라 피할 수 없는 책임으로 봤다. 노벨 문학상 수상자로 선정되자 작가가 제도에 편입되는 것을 거부한다며 수상을 사양했다.",
+        "en": "He held that a person has no essence given in advance and becomes what they choose, so freedom is not a release but an inescapable responsibility. When awarded the Nobel Prize he declined it, refusing to let a writer be absorbed into an institution."
+      }
+    },
+    {
+      "id": "beauvoir", "name_ko": "시몬 드 보부아르", "name_en": "Simone de Beauvoir",
+      "field": "철학자·작가", "field_en": "Philosopher and Writer",
+      "birth_year": 1908, "death_year": 1986, "nation": "FR",
+      "birthplace": { "admin": "프랑스 파리", "admin_en": "Paris, France", "geo": "Paris, France", "source_url": "https://www.britannica.com/biography/Simone-de-Beauvoir", "source_grade": "A", "flags": ["coords-approx"] },
+      "timeline": [
+        { "year": 1908, "event": "프랑스 파리에서 출생", "event_en": "Born in Paris, France", "source_url": "https://www.britannica.com/biography/Simone-de-Beauvoir", "source_grade": "A" },
+        { "year": 1929, "event": "철학 교수자격시험(아그레가시옹)에 최연소로 합격", "event_en": "Passed the agrégation in philosophy as its youngest candidate", "source_url": "https://www.britannica.com/biography/Simone-de-Beauvoir", "source_grade": "A" },
+        { "year": 1949, "event": "『제2의 성』 출간", "event_en": "Published The Second Sex", "source_url": "https://www.britannica.com/biography/Simone-de-Beauvoir", "source_grade": "A" },
+        { "year": 1954, "event": "소설 『레 망다랭』으로 공쿠르상 수상", "event_en": "Won the Prix Goncourt for the novel The Mandarins", "source_url": "https://www.britannica.com/biography/Simone-de-Beauvoir", "source_grade": "A" },
+        { "year": 1986, "event": "파리에서 사망", "event_en": "Died in Paris", "source_url": "https://www.britannica.com/biography/Simone-de-Beauvoir", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "제2의 성", "title_en": "Le Deuxième Sexe", "year": 1949, "note": "여성을 남성 기준의 '타자'로 규정해 온 역사와 조건을 분석", "note_en": "Analyses the history and conditions by which woman has been defined as the Other", "quote": "On ne naît pas femme : on le devient.", "quote_ko": "여자로 태어나는 것이 아니라 여자가 되는 것이다.", "quote_en": "One is not born, but rather becomes, a woman.", "quote_source": "Simone de Beauvoir, Le Deuxième Sexe II (1949)", "source_url": "https://www.britannica.com/biography/Simone-de-Beauvoir", "source_grade": "A" },
+        { "title": "레 망다랭", "title_en": "Les Mandarins", "year": 1954, "note": "전후 프랑스 지식인 사회를 그린 소설로 공쿠르상 수상작", "note_en": "A novel of postwar French intellectual life; winner of the Prix Goncourt", "source_url": "https://www.britannica.com/biography/Simone-de-Beauvoir", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "여성이라는 조건을 타고난 본성이 아니라 사회가 만들어 온 결과로 분석해 『제2의 성』을 썼다. 이후 페미니즘 이론 대부분이 이 책을 근거로 삼거나 그것과 논쟁하며 전개됐다.",
+        "en": "The Second Sex analysed womanhood as something society produces rather than nature gives. Most later feminist theory developed either from that book or in argument with it."
+      }
+    },
+    {
+      "id": "camus", "name_ko": "알베르 카뮈", "name_en": "Albert Camus",
+      "field": "철학자·소설가", "field_en": "Philosopher and Novelist",
+      "birth_year": 1913, "death_year": 1960, "nation": "DZ",
+      "birthplace": { "admin": "프랑스령 알제리 몬도비(현 드레앙)", "admin_en": "Mondovi, French Algeria (now Dréan)", "geo": "Dréan, Algeria", "source_url": "https://www.britannica.com/biography/Albert-Camus", "source_grade": "A", "flags": [] },
+      "timeline": [
+        { "year": 1913, "event": "프랑스령 알제리 몬도비에서 출생", "event_en": "Born at Mondovi in French Algeria", "source_url": "https://www.britannica.com/biography/Albert-Camus", "source_grade": "A" },
+        { "year": 1942, "event": "『이방인』과 『시지프 신화』를 같은 해 출간", "event_en": "Published The Stranger and The Myth of Sisyphus in the same year", "source_url": "https://www.britannica.com/biography/Albert-Camus", "source_grade": "A" },
+        { "year": 1943, "event": "레지스탕스 신문 『콩바』에 참여", "event_en": "Joined the Resistance newspaper Combat", "source_url": "https://www.britannica.com/biography/Albert-Camus", "source_grade": "A" },
+        { "year": 1947, "event": "소설 『페스트』 출간", "event_en": "Published the novel The Plague", "source_url": "https://www.britannica.com/biography/Albert-Camus", "source_grade": "A" },
+        { "year": 1957, "event": "노벨 문학상 수상", "event_en": "Awarded the Nobel Prize in Literature", "source_url": "https://www.nobelprize.org/prizes/literature/1957/camus/facts/", "source_grade": "B" },
+        { "year": 1960, "event": "교통사고로 사망", "event_en": "Died in a car accident", "source_url": "https://www.britannica.com/biography/Albert-Camus", "source_grade": "A" }
+      ],
+      "works": [
+        { "title": "시지프 신화", "title_en": "Le Mythe de Sisyphe", "year": 1942, "note": "의미를 찾는 인간과 침묵하는 세계 사이의 어긋남을 '부조리'로 규정", "note_en": "Names the gap between a person seeking meaning and a silent world the absurd", "quote": "Il faut imaginer Sisyphe heureux.", "quote_ko": "시지프가 행복하다고 상상해야 한다.", "quote_en": "One must imagine Sisyphus happy.", "quote_source": "Albert Camus, Le Mythe de Sisyphe (1942)", "source_url": "https://www.britannica.com/biography/Albert-Camus", "source_grade": "A" },
+        { "title": "페스트", "title_en": "La Peste", "year": 1947, "note": "봉쇄된 도시의 전염병을 통해 재난 앞의 연대를 다룸", "note_en": "Uses an epidemic in a sealed city to examine solidarity in the face of catastrophe", "source_url": "https://www.britannica.com/biography/Albert-Camus", "source_grade": "A" }
+      ],
+      "legacy": {
+        "ko": "의미를 찾는 사람과 아무 답도 주지 않는 세계 사이의 어긋남을 '부조리'라 부르고, 거기서 자살도 체념도 아닌 세 번째 길을 찾으려 했다. 『페스트』에서는 재난 앞에서 각자 할 일을 하는 사람들을 그렸다.",
+        "en": "He named the gap between a person seeking meaning and a world that answers nothing the absurd, and looked for a third response that was neither suicide nor resignation. The Plague set that against people who simply do their work in a catastrophe."
+      }
+    }
+  ]
+}
