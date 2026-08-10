@@ -4794,6 +4794,11 @@
       },
       "links": [
         {
+          "id": "leibniz",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
+        },
+        {
           "id": "mencius",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q188903"
@@ -5609,6 +5614,11 @@
           "source_url": "https://www.wikidata.org/wiki/Q7200"
         },
         {
+          "id": "seneca",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q692"
+        },
+        {
           "id": "voltaire",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q9068"
@@ -5961,6 +5971,11 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_de_Dante.jpg"
       },
       "links": [
+        {
+          "id": "aquinas",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q1067"
+        },
         {
           "id": "aristotle",
           "rel": "influenced_by",
@@ -7967,6 +7982,11 @@
           "id": "borges",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q909"
+        },
+        {
+          "id": "derrida",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
         },
         {
           "id": "mahfouz",
@@ -12696,6 +12716,11 @@
       },
       "links": [
         {
+          "id": "derrida",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
           "id": "hegel",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q9235"
@@ -13856,6 +13881,11 @@
       },
       "links": [
         {
+          "id": "aquinas",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9438"
+        },
+        {
           "id": "arendt",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q60025"
@@ -13876,9 +13906,19 @@
           "source_url": "https://www.wikidata.org/wiki/Q909"
         },
         {
+          "id": "derrida",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
           "id": "descartes",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q9191"
+        },
+        {
+          "id": "foucault",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
         },
         {
           "id": "hegel",
@@ -13894,6 +13934,11 @@
           "id": "kant",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q9312"
+        },
+        {
+          "id": "leibniz",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
         },
         {
           "id": "nietzsche",
@@ -14062,6 +14107,11 @@
       },
       "links": [
         {
+          "id": "aquinas",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9438"
+        },
+        {
           "id": "arendt",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q60025"
@@ -14100,6 +14150,11 @@
           "id": "kierkegaard",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q6512"
+        },
+        {
+          "id": "leibniz",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
         },
         {
           "id": "nietzsche",
@@ -14914,9 +14969,19 @@
       },
       "links": [
         {
+          "id": "aquinas",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9438"
+        },
+        {
           "id": "arendt",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q60025"
+        },
+        {
+          "id": "leibniz",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
         },
         {
           "id": "pascal",
@@ -15066,6 +15131,11 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Avicenna_Portrait_on_Silver_Vase_-_Museum_at_BuAli_Sina_%28Avicenna%29_Mausoleum_-_Hamadan_-_Western_Iran_%287423560860%29.jpg"
       },
       "links": [
+        {
+          "id": "aquinas",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9438"
+        },
         {
           "id": "aristotle",
           "rel": "influenced_by",
@@ -18486,6 +18556,11 @@
       },
       "links": [
         {
+          "id": "aquinas",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9191"
+        },
+        {
           "id": "aristotle",
           "rel": "influenced_by",
           "source_url": "https://www.wikidata.org/wiki/Q9191"
@@ -18499,6 +18574,11 @@
           "id": "kant",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q9312"
+        },
+        {
+          "id": "leibniz",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
         },
         {
           "id": "locke",
@@ -18646,6 +18726,16 @@
           "source_url": "https://www.wikidata.org/wiki/Q1290"
         },
         {
+          "id": "epictetus",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q1290"
+        },
+        {
+          "id": "leibniz",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
+        },
+        {
           "id": "montaigne",
           "rel": "influenced_by",
           "source_url": "https://www.wikidata.org/wiki/Q1290"
@@ -18787,6 +18877,11 @@
           "source_url": "https://www.wikidata.org/wiki/Q35802"
         },
         {
+          "id": "francis-bacon",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q35802"
+        },
+        {
           "id": "goethe",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q5879"
@@ -18807,6 +18902,11 @@
           "source_url": "https://www.wikidata.org/wiki/Q9312"
         },
         {
+          "id": "leibniz",
+          "rel": "teacher_of",
+          "source_url": "https://www.wikidata.org/wiki/Q35802"
+        },
+        {
           "id": "machado-de-assis",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q311145"
@@ -18820,6 +18920,11 @@
           "id": "plato",
           "rel": "influenced_by",
           "source_url": "https://www.wikidata.org/wiki/Q35802"
+        },
+        {
+          "id": "russell",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q33760"
         },
         {
           "id": "schopenhauer",
@@ -18964,6 +19069,11 @@
           "source_url": "https://www.wikidata.org/wiki/Q9312"
         },
         {
+          "id": "rawls",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q172544"
+        },
+        {
           "id": "schopenhauer",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q38193"
@@ -19097,6 +19207,11 @@
           "id": "locke",
           "rel": "influenced_by",
           "source_url": "https://www.wikidata.org/wiki/Q37160"
+        },
+        {
+          "id": "russell",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q33760"
         },
         {
           "id": "schopenhauer",
@@ -19251,6 +19366,11 @@
           "source_url": "https://www.wikidata.org/wiki/Q991"
         },
         {
+          "id": "foucault",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
+        },
+        {
           "id": "hegel",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q9235"
@@ -19271,6 +19391,11 @@
           "source_url": "https://www.wikidata.org/wiki/Q6512"
         },
         {
+          "id": "leibniz",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9312"
+        },
+        {
           "id": "locke",
           "rel": "influenced_by",
           "source_url": "https://www.wikidata.org/wiki/Q9312"
@@ -19289,6 +19414,11 @@
           "id": "plato",
           "rel": "influenced_by",
           "source_url": "https://www.wikidata.org/wiki/Q9312"
+        },
+        {
+          "id": "rawls",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q172544"
         },
         {
           "id": "rousseau",
@@ -19430,14 +19560,29 @@
       },
       "links": [
         {
+          "id": "adorno",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q152388"
+        },
+        {
           "id": "aristotle",
           "rel": "influenced_by",
           "source_url": "https://www.wikidata.org/wiki/Q9235"
         },
         {
+          "id": "derrida",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
           "id": "descartes",
           "rel": "influenced_by",
           "source_url": "https://www.wikidata.org/wiki/Q9235"
+        },
+        {
+          "id": "foucault",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
         },
         {
           "id": "iqbal",
@@ -19933,9 +20078,24 @@
       },
       "links": [
         {
+          "id": "adorno",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q152388"
+        },
+        {
           "id": "arendt",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q60025"
+        },
+        {
+          "id": "derrida",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
+          "id": "foucault",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
         },
         {
           "id": "hegel",
@@ -20071,6 +20231,11 @@
       },
       "links": [
         {
+          "id": "adorno",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q152388"
+        },
+        {
           "id": "aristotle",
           "rel": "influenced_by",
           "source_url": "https://www.wikidata.org/wiki/Q9358"
@@ -20081,9 +20246,19 @@
           "source_url": "https://www.wikidata.org/wiki/Q34670"
         },
         {
+          "id": "derrida",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
           "id": "dostoevsky",
           "rel": "influenced_by",
           "source_url": "https://www.wikidata.org/wiki/Q9358"
+        },
+        {
+          "id": "foucault",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
         },
         {
           "id": "goethe",
@@ -20107,6 +20282,11 @@
         },
         {
           "id": "kant",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9358"
+        },
+        {
+          "id": "leibniz",
           "rel": "influenced_by",
           "source_url": "https://www.wikidata.org/wiki/Q9358"
         },
@@ -20276,7 +20456,19 @@
       "portrait": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sigmund_Freud_LIFE.jpg/500px-Sigmund_Freud_LIFE.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "source_url": "https://commons.wikimedia.org/wiki/File:Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg"
-      }
+      },
+      "links": [
+        {
+          "id": "derrida",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
+          "id": "foucault",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
+        }
+      ]
     },
     {
       "id": "wittgenstein",
@@ -20393,9 +20585,19 @@
       },
       "links": [
         {
+          "id": "derrida",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
           "id": "kierkegaard",
           "rel": "influenced_by",
           "source_url": "https://www.wikidata.org/wiki/Q9391"
+        },
+        {
+          "id": "russell",
+          "rel": "student_of",
+          "source_url": "https://www.wikidata.org/wiki/Q33760"
         },
         {
           "id": "schopenhauer",
@@ -20516,6 +20718,11 @@
       },
       "links": [
         {
+          "id": "aquinas",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q48301"
+        },
+        {
           "id": "arendt",
           "rel": "teacher_of",
           "source_url": "https://www.wikidata.org/wiki/Q60025"
@@ -20529,6 +20736,16 @@
           "id": "camus",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q34670"
+        },
+        {
+          "id": "derrida",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
+          "id": "foucault",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
         },
         {
           "id": "kant",
@@ -22024,7 +22241,7 @@
         "ko": "선(禪)과 교(敎)가 갈라져 다투던 고려 불교에서 둘을 함께 닦는 길을 세웠고, 단박에 깨친 뒤에도 계속 닦아야 한다는 돈오점수를 폈다. 송광사에 자리 잡은 그 수행 방식이 한국 선불교의 기본형으로 남았다.",
         "en": "In a Goryeo Buddhism split between meditation and doctrine, he built a practice that held both, and taught that sudden awakening must still be followed by gradual cultivation. The form he settled at Songgwangsa became the basic pattern of Korean Seon.",
         "source_url": "https://plato.stanford.edu/entries/korean-philosophy/",
-        "source_grade": "A",
+        "source_grade": "B",
         "flags": [
           "editorial-summary"
         ]
@@ -22177,6 +22394,2421 @@
           "id": "tolstoy",
           "rel": "influenced",
           "source_url": "https://www.wikidata.org/wiki/Q7243"
+        }
+      ]
+    },
+    {
+      "id": "seneca",
+      "name_ko": "루키우스 안나이우스 세네카",
+      "name_en": "Seneca the Younger",
+      "field": "철학자·정치가",
+      "field_en": "Philosopher and Statesman",
+      "birth_year": -4,
+      "death_year": 65,
+      "nation": "ES",
+      "flags": [
+        "year-approx"
+      ],
+      "birthplace": {
+        "admin": "히스파니아 코르두바(현 스페인 코르도바)",
+        "admin_en": "Corduba, Hispania (now Córdoba, Spain)",
+        "source_url": "https://www.britannica.com/biography/Lucius-Annaeus-Seneca-Roman-philosopher-and-statesman",
+        "source_grade": "A",
+        "flags": [
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 37.8845813,
+        "lng": -4.7760138
+      },
+      "timeline": [
+        {
+          "year": -4,
+          "event": "히스파니아 코르두바에서 출생(연도는 근사)",
+          "event_en": "Born at Corduba in Hispania; the date is approximate",
+          "source_url": "https://www.britannica.com/biography/Lucius-Annaeus-Seneca-Roman-philosopher-and-statesman",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 41,
+          "event": "간통 혐의로 코르시카에 8년간 유배",
+          "event_en": "Banished to Corsica for eight years on a charge of adultery",
+          "source_url": "https://www.britannica.com/biography/Lucius-Annaeus-Seneca-Roman-philosopher-and-statesman",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 49,
+          "event": "소환되어 어린 네로의 스승이 됨",
+          "event_en": "Recalled to Rome and made tutor to the young Nero",
+          "source_url": "https://www.britannica.com/biography/Lucius-Annaeus-Seneca-Roman-philosopher-and-statesman",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 62,
+          "event": "정치에서 물러나 저술에 전념",
+          "event_en": "Withdrew from public life and devoted himself to writing",
+          "source_url": "https://www.britannica.com/biography/Lucius-Annaeus-Seneca-Roman-philosopher-and-statesman",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 65,
+          "event": "네로의 명으로 자결",
+          "event_en": "Ordered by Nero to take his own life",
+          "source_url": "https://www.britannica.com/biography/Lucius-Annaeus-Seneca-Roman-philosopher-and-statesman",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "인생의 짧음에 관하여",
+          "title_en": "De Brevitate Vitae",
+          "note": "시간을 어떻게 쓰는가의 문제로 삶의 길이를 다시 정의한 논설",
+          "note_en": "An essay redefining the length of a life as a question of how time is spent",
+          "quote": "Vita, si scias uti, longa est.",
+          "quote_ko": "쓸 줄만 안다면 인생은 길다.",
+          "quote_en": "Life, if you know how to use it, is long.",
+          "quote_source": "Seneca, De Brevitate Vitae 2",
+          "source_url": "https://www.britannica.com/biography/Lucius-Annaeus-Seneca-Roman-philosopher-and-statesman",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Gaudeamus_igitur_1898.jpg/500px-Gaudeamus_igitur_1898.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Gaudeamus_igitur"
+          }
+        },
+        {
+          "title": "루킬리우스에게 보내는 도덕 서한",
+          "title_en": "Epistulae Morales ad Lucilium",
+          "note": "124편의 편지 형식으로 스토아 윤리를 일상의 사례로 풀어낸 글",
+          "note_en": "124 letters working Stoic ethics through everyday cases",
+          "source_url": "https://www.britannica.com/biography/Lucius-Annaeus-Seneca-Roman-philosopher-and-statesman",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Seneca_the_Younger%2C_Letters%2C_Florence%2C_Plut._45.33.jpg/500px-Seneca_the_Younger%2C_Letters%2C_Florence%2C_Plut._45.33.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Epistulae_Morales_ad_Lucilium"
+          }
+        }
+      ],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "스토아 윤리를 강단의 이론이 아니라 편지와 일상의 사례로 풀어 썼고, 시간을 어떻게 쓰느냐로 삶의 길이를 다시 정의했다. 네로의 스승이자 권력의 한복판에 있었고 결국 그 명으로 자결했다.",
+        "en": "He wrote Stoic ethics as letters and everyday cases rather than school doctrine, and redefined the length of a life as a question of how time is used. Tutor to Nero and close to power, he was finally ordered by Nero to kill himself.",
+        "source_url": "https://www.britannica.com/biography/Lucius-Annaeus-Seneca-Roman-philosopher-and-statesman",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg/500px-Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg"
+      },
+      "links": [
+        {
+          "id": "shakespeare",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q692"
+        }
+      ]
+    },
+    {
+      "id": "epictetus",
+      "name_ko": "에픽테토스",
+      "name_en": "Epictetus",
+      "field": "철학자",
+      "field_en": "Philosopher",
+      "birth_year": 55,
+      "death_year": 135,
+      "nation": "TR",
+      "flags": [
+        "year-approx"
+      ],
+      "birthplace": {
+        "admin": "프리기아 히에라폴리스(현 튀르키예 파묵칼레)",
+        "admin_en": "Hierapolis, Phrygia (now Pamukkale, Turkey)",
+        "source_url": "https://www.britannica.com/biography/Epictetus-Greek-philosopher",
+        "source_grade": "A",
+        "flags": [
+          "coords-osm"
+        ],
+        "lat": 37.9309549,
+        "lng": 29.1263634
+      },
+      "timeline": [
+        {
+          "year": 55,
+          "event": "프리기아 히에라폴리스에서 노예의 신분으로 출생(연도는 근사)",
+          "event_en": "Born into slavery at Hierapolis in Phrygia; the date is approximate",
+          "source_url": "https://www.britannica.com/biography/Epictetus-Greek-philosopher",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 80,
+          "event": "로마에서 해방되어 스토아 철학을 가르치기 시작",
+          "event_en": "Freed in Rome and began teaching Stoic philosophy",
+          "source_url": "https://www.britannica.com/biography/Epictetus-Greek-philosopher",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 93,
+          "event": "도미티아누스 황제의 철학자 추방령으로 로마를 떠남",
+          "event_en": "Left Rome when Domitian banished philosophers from the city",
+          "source_url": "https://www.britannica.com/biography/Epictetus-Greek-philosopher",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 95,
+          "event": "그리스 니코폴리스에 학교를 열어 여생을 가르침",
+          "event_en": "Opened a school at Nicopolis in Greece and taught there for the rest of his life",
+          "source_url": "https://www.britannica.com/biography/Epictetus-Greek-philosopher",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 135,
+          "event": "니코폴리스에서 사망(연도는 근사)",
+          "event_en": "Died at Nicopolis; the date is approximate",
+          "source_url": "https://www.britannica.com/biography/Epictetus-Greek-philosopher",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "엥케이리디온(편람)",
+          "title_en": "Encheiridion (The Manual)",
+          "note": "제자 아리아노스가 그의 강의를 받아 적어 남긴 요약본",
+          "note_en": "A summary of his teaching written down by his student Arrian",
+          "quote": "ταράσσει τοὺς ἀνθρώπους οὐ τὰ πράγματα, ἀλλὰ τὰ περὶ τῶν πραγμάτων δόγματα.",
+          "quote_ko": "사람을 흔드는 것은 사건이 아니라 그 사건에 대한 생각이다.",
+          "quote_en": "People are disturbed not by things, but by the views they take of them.",
+          "quote_source": "Epictetus, Encheiridion 5",
+          "source_url": "https://www.britannica.com/biography/Epictetus-Greek-philosopher",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "담화록",
+          "title_en": "Discourses",
+          "note": "역시 아리아노스가 기록한 강의록으로 네 권이 전한다",
+          "note_en": "Lecture notes also recorded by Arrian; four books survive",
+          "source_url": "https://www.britannica.com/biography/Epictetus-Greek-philosopher",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "내 뜻대로 되는 것과 되지 않는 것을 나누고, 되지 않는 것에는 판단을 걸지 말라고 가르쳤다. 노예로 태어나 글을 남기지 않았고, 제자가 받아 적은 강의만 전한다.",
+        "en": "He taught the division between what is up to us and what is not, and to place no judgement on the latter. Born a slave, he wrote nothing; only a student's transcripts of his lectures survive.",
+        "source_url": "https://www.britannica.com/biography/Epictetus-Greek-philosopher",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Epictetus.png/500px-Epictetus.png?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Epictetus_from_L._Annaei_Senecae_philosophi_Opera%2C_1605%2C_title_page_detail.png"
+      },
+      "links": [
+        {
+          "id": "pascal",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q1290"
+        }
+      ]
+    },
+    {
+      "id": "marcus-aurelius",
+      "name_ko": "마르쿠스 아우렐리우스",
+      "name_en": "Marcus Aurelius",
+      "field": "철학자·로마 황제",
+      "field_en": "Philosopher and Roman Emperor",
+      "birth_year": 121,
+      "death_year": 180,
+      "nation": "IT",
+      "birthplace": {
+        "admin": "로마",
+        "admin_en": "Rome",
+        "source_url": "https://www.britannica.com/biography/Marcus-Aurelius-Roman-emperor",
+        "source_grade": "A",
+        "flags": [
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 41.8933203,
+        "lng": 12.4829321
+      },
+      "timeline": [
+        {
+          "year": 121,
+          "event": "로마에서 출생",
+          "event_en": "Born in Rome",
+          "source_url": "https://www.britannica.com/biography/Marcus-Aurelius-Roman-emperor",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 138,
+          "event": "안토니누스 피우스의 양자가 되어 후계자로 지명됨",
+          "event_en": "Adopted by Antoninus Pius and named his successor",
+          "source_url": "https://www.britannica.com/biography/Marcus-Aurelius-Roman-emperor",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 161,
+          "event": "황제로 즉위",
+          "event_en": "Became emperor",
+          "source_url": "https://www.britannica.com/biography/Marcus-Aurelius-Roman-emperor",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 170,
+          "event": "다뉴브 전선의 진중에서 『명상록』을 쓰기 시작",
+          "event_en": "Began writing the Meditations on campaign at the Danube frontier",
+          "source_url": "https://www.britannica.com/biography/Marcus-Aurelius-Roman-emperor",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 180,
+          "event": "전선에서 사망",
+          "event_en": "Died on campaign",
+          "source_url": "https://www.britannica.com/biography/Marcus-Aurelius-Roman-emperor",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "명상록",
+          "title_en": "Meditations",
+          "note": "출간을 염두에 두지 않고 그리스어로 쓴 자기 자신에게 보내는 기록",
+          "note_en": "Notes to himself in Greek, written without publication in view",
+          "quote": "ὁ κόσμος ἀλλοίωσις, ὁ βίος ὑπόληψις.",
+          "quote_ko": "우주는 변화이고, 삶은 의견이다.",
+          "quote_en": "The universe is change; life is opinion.",
+          "quote_source": "Marcus Aurelius, Meditations IV, 3",
+          "source_url": "https://www.britannica.com/biography/Marcus-Aurelius-Roman-emperor",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/MeditationsMarcusAurelius1811.jpg/500px-MeditationsMarcusAurelius1811.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%AA%85%EC%83%81%EB%A1%9D"
+          }
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "제국의 최고 권력자가 전쟁터의 막사에서 자기 자신에게 쓴 기록이 남았고, 그 안에 남을 다스리는 말은 거의 없고 스스로를 단속하는 말만 있다. 스토아 철학이 실제로 어떻게 쓰였는지 보여 주는 1차 기록으로 읽힌다.",
+        "en": "The most powerful man in the empire left notes written to himself in a campaign tent, almost none of them about governing others and nearly all about holding himself in check. They are read as a first-hand record of Stoicism actually in use.",
+        "source_url": "https://www.britannica.com/biography/Marcus-Aurelius-Roman-emperor",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Marcus_Aurelius_bust_Istanbul_Archaeological_Museum_-_inv._5129_T.jpg/500px-Marcus_Aurelius_bust_Istanbul_Archaeological_Museum_-_inv._5129_T.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_Louvre_MR561_n02.jpg"
+      }
+    },
+    {
+      "id": "nagarjuna",
+      "name_ko": "나가르주나(용수)",
+      "name_en": "Nagarjuna",
+      "field": "불교 사상가·철학자",
+      "field_en": "Buddhist Philosopher",
+      "birth_year": 150,
+      "death_year": 250,
+      "nation": "IN",
+      "flags": [
+        "year-approx"
+      ],
+      "birthplace": {
+        "admin": "남인도(전승, 현 안드라프라데시 일대)",
+        "admin_en": "South India by tradition (now Andhra Pradesh region)",
+        "source_url": "https://www.britannica.com/biography/Nagarjuna",
+        "source_grade": "A",
+        "flags": [
+          "birthplace-traditional",
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 16.5223922,
+        "lng": 79.2416262
+      },
+      "timeline": [
+        {
+          "year": 150,
+          "event": "남인도에서 출생했다고 전함(생몰 연도는 근사)",
+          "event_en": "Said by tradition to have been born in South India; the dates are approximate",
+          "source_url": "https://www.britannica.com/biography/Nagarjuna",
+          "source_grade": "A",
+          "flags": [
+            "year-approx",
+            "birthplace-traditional"
+          ]
+        },
+        {
+          "year": 200,
+          "event": "『중론』을 지어 중관학파를 열었다고 전함",
+          "event_en": "Traditionally credited with the Mūlamadhyamakakārikā, founding the Madhyamaka school",
+          "source_url": "https://www.britannica.com/biography/Nagarjuna",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 250,
+          "event": "사망(연도는 근사)",
+          "event_en": "Died; the date is approximate",
+          "source_url": "https://www.britannica.com/biography/Nagarjuna",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "중론",
+          "title_en": "Mūlamadhyamakakārikā",
+          "note": "27품의 게송으로 모든 것이 조건에 기대어 성립함을 논증",
+          "note_en": "Twenty-seven chapters of verse arguing that everything arises only in dependence",
+          "quote": "衆因緣生法，我說即是空。",
+          "quote_ko": "여러 조건이 모여 생기는 것들을, 나는 공(空)이라 말한다.",
+          "quote_en": "What arises dependently, that we declare to be emptiness.",
+          "quote_source": "龍樹, 中論 觀四諦品",
+          "source_url": "https://www.britannica.com/biography/Nagarjuna",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Dharma_Wheel_%282%29.svg/500px-Dharma_Wheel_%282%29.svg.png?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%A4%91%EB%A1%A0"
+          }
+        }
+      ],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "모든 것은 그 자체로 성립하는 본질이 없고 조건에 기대어서만 있다는 공(空)을 논증으로 세웠다. 이 중관 사상이 티베트·중국·한국·일본 대승불교 전체의 이론적 바탕이 되었다.",
+        "en": "He established emptiness by argument: nothing holds by an essence of its own, only in dependence on conditions. That Madhyamaka reasoning became the theoretical base of Mahayana Buddhism across Tibet, China, Korea and Japan.",
+        "source_url": "https://www.britannica.com/biography/Nagarjuna",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Nagarjuna_with_84_mahasiddha_cropped.jpg/500px-Nagarjuna_with_84_mahasiddha_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nagarjuna_at_Samye_Ling_Monastery.JPG"
+      }
+    },
+    {
+      "id": "uisang",
+      "name_ko": "의상",
+      "name_en": "Uisang",
+      "field": "불교 사상가·승려",
+      "field_en": "Buddhist Philosopher and Monk",
+      "birth_year": 625,
+      "death_year": 702,
+      "nation": "KR",
+      "birthplace": {
+        "admin": "신라 서라벌(현 경북 경주)",
+        "admin_en": "Seorabeol, Silla (now Gyeongju, Korea)",
+        "source_url": "https://www.britannica.com/biography/Uisang",
+        "source_grade": "A",
+        "flags": [
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 35.8556705,
+        "lng": 129.2248811
+      },
+      "timeline": [
+        {
+          "year": 625,
+          "event": "신라에서 출생",
+          "event_en": "Born in Silla",
+          "source_url": "https://www.britannica.com/biography/Uisang",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 661,
+          "event": "원효와 당으로 향하다 혼자 건너가 지엄에게 화엄을 배움",
+          "event_en": "Continued alone to Tang China after parting from Wonhyo, and studied Huayan under Zhiyan",
+          "source_url": "https://www.britannica.com/biography/Uisang",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 668,
+          "event": "「화엄일승법계도」를 지어 화엄의 요체를 210자에 압축",
+          "event_en": "Composed the Ocean Seal diagram, compressing Huayan doctrine into 210 characters",
+          "source_url": "https://www.britannica.com/biography/Uisang",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 676,
+          "event": "귀국 후 부석사를 창건하고 신라 화엄종을 세움",
+          "event_en": "Returned home, founded Buseoksa and established the Korean Huayan school",
+          "source_url": "https://www.britannica.com/biography/Uisang",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 702,
+          "event": "사망",
+          "event_en": "Died",
+          "source_url": "https://www.britannica.com/biography/Uisang",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "places": [
+        {
+          "id": "buseoksa",
+          "name": "영주 부석사",
+          "name_en": "Buseoksa Temple, Yeongju",
+          "type": "유네스코 세계유산(산사, 한국의 산지승원)",
+          "type_en": "UNESCO World Heritage site",
+          "source_url": "https://whc.unesco.org/en/list/1562/",
+          "source_grade": "A",
+          "flags": [
+            "coords-osm"
+          ],
+          "lat": 36.9973878,
+          "lng": 128.6866489
+        }
+      ],
+      "works": [
+        {
+          "title": "화엄일승법계도",
+          "title_en": "Ocean Seal Diagram of the Huayan One Vehicle",
+          "year": 668,
+          "note": "210자를 도장 모양으로 배열해 화엄 교리 전체를 한 장에 담은 도해",
+          "note_en": "210 characters arranged as a seal, holding an entire doctrinal system on one sheet",
+          "quote": "法性圓融無二相。",
+          "quote_ko": "법의 성품은 두루 통하여 두 모습이 없다.",
+          "quote_en": "The nature of things is perfectly fused and has no two aspects.",
+          "quote_source": "의상, 華嚴一乘法界圖",
+          "source_url": "https://www.britannica.com/biography/Uisang",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "화엄의 교리 전체를 210자의 도장 그림 한 장으로 압축한 「법계도」를 남겼고, 부석사를 세워 신라 화엄종을 열었다. 저잣거리로 간 원효와 달리 그는 교단과 사찰을 세우는 쪽으로 갔다.",
+        "en": "He compressed an entire Huayan doctrinal system into a single 210-character seal diagram and founded Buseoksa, establishing the Korean Huayan school. Where Wonhyo went to the markets, he built the order and its temples.",
+        "source_url": "https://www.britannica.com/biography/Uisang",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/%EC%9D%98%EC%83%81%EB%8C%80%EC%82%AC_%EC%98%81%EC%A0%95.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%EC%9D%98%EC%83%81%EB%8C%80%EC%82%AC_%EC%98%81%EC%A0%95.jpg"
+      }
+    },
+    {
+      "id": "shankara",
+      "name_ko": "샹카라",
+      "name_en": "Shankara",
+      "field": "철학자·베단타 사상가",
+      "field_en": "Philosopher (Advaita Vedanta)",
+      "birth_year": 788,
+      "death_year": 820,
+      "nation": "IN",
+      "flags": [
+        "year-approx"
+      ],
+      "birthplace": {
+        "admin": "인도 케랄라 칼라디(전승)",
+        "admin_en": "Kalady, Kerala, India, by tradition",
+        "source_url": "https://www.britannica.com/biography/Shankara",
+        "source_grade": "A",
+        "flags": [
+          "birthplace-traditional",
+          "coords-osm"
+        ],
+        "lat": 10.1666308,
+        "lng": 76.4390495
+      },
+      "timeline": [
+        {
+          "year": 788,
+          "event": "케랄라 칼라디에서 출생했다고 전함(연도에 이설이 있음)",
+          "event_en": "Said by tradition to have been born at Kalady in Kerala; the dates are disputed",
+          "source_url": "https://www.britannica.com/biography/Shankara",
+          "source_grade": "A",
+          "flags": [
+            "year-approx",
+            "birthplace-traditional"
+          ]
+        },
+        {
+          "year": 800,
+          "event": "『브라흐마수트라』·우파니샤드·『바가바드기타』에 주석을 씀",
+          "event_en": "Wrote commentaries on the Brahma Sutras, the Upanishads and the Bhagavad Gita",
+          "source_url": "https://www.britannica.com/biography/Shankara",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 810,
+          "event": "인도 사방에 수도원(마타)을 세웠다고 전함",
+          "event_en": "Traditionally credited with founding monastic centres in the four directions of India",
+          "source_url": "https://www.britannica.com/biography/Shankara",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 820,
+          "event": "사망(연도는 근사)",
+          "event_en": "Died; the date is approximate",
+          "source_url": "https://www.britannica.com/biography/Shankara",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "title": "브라흐마수트라 주석",
+          "title_en": "Brahmasutrabhashya",
+          "note": "불이일원론(아드바이타) 베단타를 체계로 세운 대표 주석",
+          "note_en": "The commentary that established Advaita Vedanta as a system",
+          "quote": "ब्रह्म सत्यं जगन्मिथ्या।",
+          "quote_ko": "브라흐만은 실재이고, 세계는 그와 다르게 보이는 것이다.",
+          "quote_en": "Brahman is real; the world is not what it appears to be.",
+          "quote_source": "샹카라 전승 게송 (Brahmajnanavalimala)",
+          "source_url": "https://www.britannica.com/biography/Shankara",
+          "source_grade": "A",
+          "flags": [
+            "authorship-traditional"
+          ]
+        }
+      ],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "개별 자아와 궁극 실재가 둘이 아니라는 불이일원론을 주석 작업으로 체계화했다. 인도 사방에 수도원을 세웠다고 전하며, 이후 힌두 사상의 주류 해석 틀이 여기서 나왔다.",
+        "en": "Through commentary he systematised Advaita — that the individual self and ultimate reality are not two. Tradition credits him with founding monastic centres across India, and the mainstream frame of later Hindu thought came out of this work.",
+        "source_url": "https://www.britannica.com/biography/Shankara",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Raja_Ravi_Varma_-_Sankaracharya.jpg/500px-Raja_Ravi_Varma_-_Sankaracharya.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raja_Ravi_Varma_-_Sankaracharya.jpg"
+      }
+    },
+    {
+      "id": "aquinas",
+      "name_ko": "토마스 아퀴나스",
+      "name_en": "Thomas Aquinas",
+      "field": "신학자·철학자",
+      "field_en": "Theologian and Philosopher",
+      "birth_year": 1225,
+      "death_year": 1274,
+      "nation": "IT",
+      "flags": [
+        "year-approx"
+      ],
+      "birthplace": {
+        "admin": "이탈리아 로카세카",
+        "admin_en": "Roccasecca, Italy",
+        "source_url": "https://www.britannica.com/biography/Saint-Thomas-Aquinas",
+        "source_grade": "A",
+        "flags": [
+          "coords-osm"
+        ],
+        "lat": 41.5523208,
+        "lng": 13.6672577
+      },
+      "timeline": [
+        {
+          "year": 1225,
+          "event": "이탈리아 로카세카의 귀족 가문에서 출생(연도는 근사)",
+          "event_en": "Born at Roccasecca into a noble family; the date is approximate",
+          "source_url": "https://www.britannica.com/biography/Saint-Thomas-Aquinas",
+          "source_grade": "A",
+          "flags": [
+            "year-approx"
+          ]
+        },
+        {
+          "year": 1244,
+          "event": "가족의 반대를 무릅쓰고 도미니코회에 입회",
+          "event_en": "Joined the Dominican order against his family's opposition",
+          "source_url": "https://www.britannica.com/biography/Saint-Thomas-Aquinas",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1256,
+          "event": "파리 대학에서 신학 교수로 강의 시작",
+          "event_en": "Began lecturing as a master of theology at Paris",
+          "source_url": "https://www.britannica.com/biography/Saint-Thomas-Aquinas",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1265,
+          "event": "『신학대전』 집필 시작",
+          "event_en": "Began the Summa Theologiae",
+          "source_url": "https://www.britannica.com/biography/Saint-Thomas-Aquinas",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1273,
+          "event": "집필을 중단하고 더 쓰지 않음",
+          "event_en": "Broke off the work and wrote no more",
+          "source_url": "https://www.britannica.com/biography/Saint-Thomas-Aquinas",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1274,
+          "event": "사망",
+          "event_en": "Died",
+          "source_url": "https://www.britannica.com/biography/Saint-Thomas-Aquinas",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "신학대전",
+          "title_en": "Summa Theologiae",
+          "note": "질문과 반론, 답변으로 이어지는 형식으로 신학 전체를 재구성한 미완의 대작",
+          "note_en": "An unfinished reconstruction of theology built from questions, objections and replies",
+          "quote": "Gratia non tollit naturam, sed perficit.",
+          "quote_ko": "은총은 자연을 없애지 않고 완성한다.",
+          "quote_en": "Grace does not destroy nature, but perfects it.",
+          "quote_source": "Thomas Aquinas, Summa Theologiae I, q.1, a.8",
+          "source_url": "https://www.britannica.com/biography/Saint-Thomas-Aquinas",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tommaso_-_Summa_theologica%2C_1596_-_4593718.tif/lossy-page1-500px-Tommaso_-_Summa_theologica%2C_1596_-_4593718.tif.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%8B%A0%ED%95%99%EB%8C%80%EC%A0%84"
+          }
+        }
+      ],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "이슬람 세계를 거쳐 되돌아온 아리스토텔레스를 그리스도교 신학과 맞물리게 해, 신앙과 이성을 대립이 아니라 층위로 놓았다. 질문-반론-답변 형식의 『신학대전』이 이후 서구 대학 학문의 서술 방식이 되었다.",
+        "en": "He fitted the Aristotle who had returned through the Islamic world into Christian theology, placing faith and reason on different levels rather than in opposition. The question-objection-reply form of the Summa became the shape of Western academic argument.",
+        "source_url": "https://www.britannica.com/biography/Saint-Thomas-Aquinas",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/500px-St-thomas-aquinas.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St-thomas-aquinasFXD.jpg"
+      },
+      "links": [
+        {
+          "id": "aristotle",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9438"
+        },
+        {
+          "id": "augustine",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9438"
+        },
+        {
+          "id": "dante",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q1067"
+        },
+        {
+          "id": "descartes",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9191"
+        },
+        {
+          "id": "heidegger",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q48301"
+        },
+        {
+          "id": "ibn-sina",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9438"
+        },
+        {
+          "id": "leibniz",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
+        },
+        {
+          "id": "plato",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9438"
+        }
+      ]
+    },
+    {
+      "id": "dogen",
+      "name_ko": "도겐",
+      "name_en": "Dōgen",
+      "field": "불교 사상가·승려",
+      "field_en": "Buddhist Philosopher and Monk",
+      "birth_year": 1200,
+      "death_year": 1253,
+      "nation": "JP",
+      "birthplace": {
+        "admin": "일본 교토",
+        "admin_en": "Kyoto, Japan",
+        "source_url": "https://www.britannica.com/biography/Dogen",
+        "source_grade": "A",
+        "flags": [
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 35.0115754,
+        "lng": 135.7681441
+      },
+      "timeline": [
+        {
+          "year": 1200,
+          "event": "교토의 귀족 가문에서 출생",
+          "event_en": "Born in Kyoto into an aristocratic family",
+          "source_url": "https://www.britannica.com/biography/Dogen",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1223,
+          "event": "송나라로 건너가 선을 배움",
+          "event_en": "Travelled to Song China to study Chan",
+          "source_url": "https://www.britannica.com/biography/Dogen",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1227,
+          "event": "귀국해 좌선 자체를 깨달음으로 보는 지관타좌를 폄",
+          "event_en": "Returned to Japan teaching shikantaza, seated meditation as itself awakening",
+          "source_url": "https://www.britannica.com/biography/Dogen",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1244,
+          "event": "에치젠에 영평사(에이헤이지)를 세움",
+          "event_en": "Founded Eiheiji in Echizen",
+          "source_url": "https://www.britannica.com/biography/Dogen",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1253,
+          "event": "교토에서 사망",
+          "event_en": "Died in Kyoto",
+          "source_url": "https://www.britannica.com/biography/Dogen",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "정법안장",
+          "title_en": "Shōbōgenzō",
+          "note": "한문이 아닌 일본어로 쓴 95권의 선 사상서",
+          "note_en": "Ninety-five fascicles of Zen thought written in Japanese rather than Chinese",
+          "quote": "仏道をならふといふは、自己をならふ也。",
+          "quote_ko": "불도를 배운다는 것은 자기를 배우는 것이다.",
+          "quote_en": "To study the Buddha way is to study the self.",
+          "quote_source": "道元, 正法眼藏 現成公案",
+          "source_url": "https://www.britannica.com/biography/Dogen",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "앉는 것 자체가 곧 깨달음이라는 지관타좌를 폈고, 한문이 아니라 일본어로 사상서를 써서 『정법안장』을 남겼다. 그가 세운 영평사를 중심으로 일본 조동종이 이어졌다.",
+        "en": "He taught shikantaza — that sitting is itself awakening — and wrote his major work in Japanese rather than Chinese. The Sōtō school of Japanese Zen continued from the monastery he founded at Eiheiji.",
+        "source_url": "https://www.britannica.com/biography/Dogen",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Dogen.jpg/500px-Dogen.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dogen.jpg"
+      }
+    },
+    {
+      "id": "li-zhi",
+      "name_ko": "이지(이탁오)",
+      "name_en": "Li Zhi",
+      "field": "사상가·문인",
+      "field_en": "Philosopher and Writer",
+      "birth_year": 1527,
+      "death_year": 1602,
+      "nation": "CN",
+      "birthplace": {
+        "admin": "명나라 복건 천주(현 푸젠성 취안저우)",
+        "admin_en": "Quanzhou, Fujian, Ming China",
+        "source_url": "https://www.britannica.com/biography/Li-Zhi",
+        "source_grade": "A",
+        "flags": [
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 25.1901863,
+        "lng": 118.338717
+      },
+      "timeline": [
+        {
+          "year": 1527,
+          "event": "명나라 복건 천주에서 출생",
+          "event_en": "Born at Quanzhou in Fujian under the Ming",
+          "source_url": "https://www.britannica.com/biography/Li-Zhi",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1580,
+          "event": "관직을 버리고 삭발한 채 강학과 저술에 전념",
+          "event_en": "Left office, shaved his head and devoted himself to teaching and writing",
+          "source_url": "https://www.britannica.com/biography/Li-Zhi",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1590,
+          "event": "『분서』를 출간하며 성리학의 권위를 정면으로 반박",
+          "event_en": "Published A Book to Burn, directly attacking neo-Confucian authority",
+          "source_url": "https://www.britannica.com/biography/Li-Zhi",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1602,
+          "event": "풍속을 어지럽혔다는 죄목으로 투옥되어 옥중에서 자결",
+          "event_en": "Imprisoned on a charge of corrupting morals and took his own life in prison",
+          "source_url": "https://www.britannica.com/biography/Li-Zhi",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "분서",
+          "title_en": "A Book to Burn (Fenshu)",
+          "year": 1590,
+          "note": "불태워질 것을 각오하고 쓴다는 제목으로 낸 논설·서신집",
+          "note_en": "Essays and letters published under a title conceding they would be burned",
+          "quote": "夫童心者，真心也。",
+          "quote_ko": "무릇 동심이란 참된 마음이다.",
+          "quote_en": "The childlike mind is the true mind.",
+          "quote_source": "李贄, 焚書 童心說",
+          "source_url": "https://www.britannica.com/biography/Li-Zhi",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Redacted777.png/500px-Redacted777.png?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%B6%84%EC%84%9C"
+          }
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "성리학이 정해 놓은 옳고 그름을 거부하고, 꾸미지 않은 '동심'을 판단의 기준으로 세웠다. 스스로 불태워질 책이라 이름 붙여 냈고 실제로 금서가 되었으며, 옥중에서 생을 마쳤다.",
+        "en": "He rejected the right and wrong fixed by neo-Confucian orthodoxy and set the unadorned childlike mind as the standard of judgement. He titled his book as one to be burned, it was duly banned, and he died in prison.",
+        "source_url": "https://www.britannica.com/biography/Li-Zhi",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      }
+    },
+    {
+      "id": "francis-bacon",
+      "name_ko": "프랜시스 베이컨",
+      "name_en": "Francis Bacon",
+      "field": "철학자·정치가",
+      "field_en": "Philosopher and Statesman",
+      "birth_year": 1561,
+      "death_year": 1626,
+      "nation": "GB",
+      "birthplace": {
+        "admin": "잉글랜드 런던",
+        "admin_en": "London, England",
+        "source_url": "https://www.britannica.com/biography/Francis-Bacon-Viscount-Saint-Alban",
+        "source_grade": "A",
+        "flags": [
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 51.5074456,
+        "lng": -0.1277653
+      },
+      "timeline": [
+        {
+          "year": 1561,
+          "event": "런던에서 출생",
+          "event_en": "Born in London",
+          "source_url": "https://www.britannica.com/biography/Francis-Bacon-Viscount-Saint-Alban",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1597,
+          "event": "『수상록』 초판 출간",
+          "event_en": "Published the first edition of the Essays",
+          "source_url": "https://www.britannica.com/biography/Francis-Bacon-Viscount-Saint-Alban",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1618,
+          "event": "대법관에 오름",
+          "event_en": "Became Lord Chancellor",
+          "source_url": "https://www.britannica.com/biography/Francis-Bacon-Viscount-Saint-Alban",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1620,
+          "event": "『신기관』 출간, 관찰과 귀납의 방법을 제시",
+          "event_en": "Published the Novum Organum, setting out a method of observation and induction",
+          "source_url": "https://www.britannica.com/biography/Francis-Bacon-Viscount-Saint-Alban",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1621,
+          "event": "뇌물 수수 혐의로 공직에서 물러남",
+          "event_en": "Fell from office on charges of taking bribes",
+          "source_url": "https://www.britannica.com/biography/Francis-Bacon-Viscount-Saint-Alban",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1626,
+          "event": "사망",
+          "event_en": "Died",
+          "source_url": "https://www.britannica.com/biography/Francis-Bacon-Viscount-Saint-Alban",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "신기관",
+          "title_en": "Novum Organum",
+          "year": 1620,
+          "note": "아리스토텔레스의 연역 논리를 대신할 관찰·실험·귀납의 절차를 제시",
+          "note_en": "Proposes observation, experiment and induction in place of Aristotelian deduction",
+          "quote": "Ipsa scientia potestas est.",
+          "quote_ko": "지식 그 자체가 힘이다.",
+          "quote_en": "Knowledge itself is power.",
+          "quote_source": "Francis Bacon, Meditationes Sacrae (1597)",
+          "source_url": "https://www.britannica.com/biography/Francis-Bacon-Viscount-Saint-Alban",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Houghton_EC.B1328.620ib_-_Novum_organum_scientiarum.jpg/500px-Houghton_EC.B1328.620ib_-_Novum_organum_scientiarum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Novum_Organum"
+          }
+        },
+        {
+          "title": "수상록",
+          "title_en": "Essays",
+          "year": 1597,
+          "note": "짧은 산문으로 처세·정치·학문을 다룬 영어 에세이의 초기 사례",
+          "note_en": "Short prose pieces on conduct, politics and learning; an early model of the English essay",
+          "source_url": "https://www.britannica.com/biography/Francis-Bacon-Viscount-Saint-Alban",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Montaigne_Essais_Manuscript.jpg/500px-Montaigne_Essais_Manuscript.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%88%98%EC%83%81%EB%A1%9D"
+          }
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "권위 있는 책에서 결론을 끌어내는 대신 관찰하고 실험해 쌓아 올리는 절차를 제시해 근대 과학의 방법을 정리했다. 대법관까지 올랐다가 뇌물 혐의로 물러났다.",
+        "en": "Instead of deriving conclusions from authoritative books, he set out a procedure of observing and experimenting upward — the method of modern science. He rose to Lord Chancellor and fell on charges of bribery.",
+        "source_url": "https://www.britannica.com/biography/Francis-Bacon-Viscount-Saint-Alban",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Somer_Francis_Bacon.jpg/500px-Somer_Francis_Bacon.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Somer_Francis_Bacon.jpg"
+      },
+      "links": [
+        {
+          "id": "spinoza",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q35802"
+        }
+      ]
+    },
+    {
+      "id": "leibniz",
+      "name_ko": "고트프리트 빌헬름 라이프니츠",
+      "name_en": "Gottfried Wilhelm Leibniz",
+      "field": "철학자·수학자",
+      "field_en": "Philosopher and Mathematician",
+      "birth_year": 1646,
+      "death_year": 1716,
+      "nation": "DE",
+      "birthplace": {
+        "admin": "독일 라이프치히",
+        "admin_en": "Leipzig, Germany",
+        "source_url": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+        "source_grade": "A",
+        "flags": [
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 51.3406321,
+        "lng": 12.3747329
+      },
+      "timeline": [
+        {
+          "year": 1646,
+          "event": "독일 라이프치히에서 출생",
+          "event_en": "Born in Leipzig, Germany",
+          "source_url": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1675,
+          "event": "미적분법을 독자적으로 만들고 오늘날 쓰는 기호를 고안",
+          "event_en": "Developed the calculus independently and devised the notation still in use",
+          "source_url": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1679,
+          "event": "이진법 체계를 정리한 논고를 씀",
+          "event_en": "Wrote out a system of binary arithmetic",
+          "source_url": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1710,
+          "event": "『변신론』 출간",
+          "event_en": "Published the Theodicy",
+          "source_url": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1714,
+          "event": "「모나드론」을 씀",
+          "event_en": "Wrote the Monadology",
+          "source_url": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1716,
+          "event": "하노버에서 사망",
+          "event_en": "Died in Hanover",
+          "source_url": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "모나드론",
+          "title_en": "Monadologie",
+          "year": 1714,
+          "note": "더 나눌 수 없는 단순 실체 모나드로 세계를 설명한 90개 항의 짧은 글",
+          "note_en": "Ninety short sections explaining the world through indivisible simple substances",
+          "quote": "Rien ne se fait sans raison suffisante.",
+          "quote_ko": "충분한 이유 없이는 아무것도 일어나지 않는다.",
+          "quote_en": "Nothing happens without a sufficient reason.",
+          "quote_source": "G. W. Leibniz, Monadologie §32 (1714)",
+          "source_url": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Leibniz_Monadology_1.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%9E%90%EB%A1%A0"
+          }
+        },
+        {
+          "title": "변신론",
+          "title_en": "Essais de Théodicée",
+          "year": 1710,
+          "note": "악의 존재와 신의 선함을 함께 설명하려 한 시도",
+          "note_en": "An attempt to reconcile the existence of evil with the goodness of God",
+          "source_url": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Gottfried_Wilhelm_Leibniz%2C_Bernhard_Christoph_Francke.jpg/500px-Gottfried_Wilhelm_Leibniz%2C_Bernhard_Christoph_Francke.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%A0%95%EB%A1%A0"
+          }
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "뉴턴과 별개로 미적분을 만들었고, 오늘날 쓰는 미적분 기호와 이진법 체계가 그의 손에서 나왔다. 일어나는 모든 일에는 충분한 이유가 있다는 원리를 철학의 축으로 삼았다.",
+        "en": "He developed the calculus independently of Newton, and both its modern notation and the binary system came from his hand. He made the principle that nothing happens without a sufficient reason an axis of his philosophy.",
+        "source_url": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg/500px-Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg"
+      },
+      "links": [
+        {
+          "id": "aquinas",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
+        },
+        {
+          "id": "aristotle",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
+        },
+        {
+          "id": "augustine",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
+        },
+        {
+          "id": "confucius",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
+        },
+        {
+          "id": "descartes",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
+        },
+        {
+          "id": "kant",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9312"
+        },
+        {
+          "id": "nietzsche",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q9358"
+        },
+        {
+          "id": "pascal",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
+        },
+        {
+          "id": "plato",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q9047"
+        },
+        {
+          "id": "russell",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q33760"
+        },
+        {
+          "id": "spinoza",
+          "rel": "student_of",
+          "source_url": "https://www.wikidata.org/wiki/Q35802"
+        }
+      ]
+    },
+    {
+      "id": "bentham",
+      "name_ko": "제러미 벤담",
+      "name_en": "Jeremy Bentham",
+      "field": "철학자·법학자",
+      "field_en": "Philosopher and Jurist",
+      "birth_year": 1748,
+      "death_year": 1832,
+      "nation": "GB",
+      "birthplace": {
+        "admin": "잉글랜드 런던 스피탈필즈",
+        "admin_en": "Spitalfields, London, England",
+        "source_url": "https://www.britannica.com/money/Jeremy-Bentham",
+        "source_grade": "A",
+        "flags": [
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 51.5195274,
+        "lng": -0.0751701
+      },
+      "timeline": [
+        {
+          "year": 1748,
+          "event": "런던에서 출생",
+          "event_en": "Born in London",
+          "source_url": "https://www.britannica.com/money/Jeremy-Bentham",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1776,
+          "event": "『정부론 단편』에서 최대 다수의 최대 행복을 옳고 그름의 척도로 제시",
+          "event_en": "In A Fragment on Government proposed the greatest happiness of the greatest number as the measure of right and wrong",
+          "source_url": "https://www.britannica.com/money/Jeremy-Bentham",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1789,
+          "event": "『도덕과 입법의 원리 서설』 출간",
+          "event_en": "Published An Introduction to the Principles of Morals and Legislation",
+          "source_url": "https://www.britannica.com/money/Jeremy-Bentham",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1791,
+          "event": "한 지점에서 전체를 감시하는 파놉티콘 감옥 설계를 제안",
+          "event_en": "Proposed the panopticon, a prison observable in its entirety from one point",
+          "source_url": "https://www.britannica.com/money/Jeremy-Bentham",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1832,
+          "event": "런던에서 사망; 유언에 따라 시신이 보존되어 유니버시티 칼리지 런던에 안치됨",
+          "event_en": "Died in London; by his will his body was preserved and placed at University College London",
+          "source_url": "https://www.britannica.com/money/Jeremy-Bentham",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "도덕과 입법의 원리 서설",
+          "title_en": "An Introduction to the Principles of Morals and Legislation",
+          "year": 1789,
+          "note": "쾌락과 고통의 계산으로 법과 도덕을 설계하려 한 공리주의의 기본 문헌",
+          "note_en": "The foundational utilitarian text, designing law and morals by a calculus of pleasure and pain",
+          "quote": "it is the greatest happiness of the greatest number that is the measure of right and wrong",
+          "quote_ko": "옳고 그름의 척도는 최대 다수의 최대 행복이다.",
+          "quote_source": "Jeremy Bentham, A Fragment on Government (1776), Preface",
+          "source_url": "https://www.britannica.com/money/Jeremy-Bentham",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/IPML_Title_Page_1789_Edition.PNG/500px-IPML_Title_Page_1789_Edition.PNG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/An_Introduction_to_the_Principles_of_Morals_and_Legislation"
+          }
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "옳고 그름을 신분이나 전통이 아니라 결과가 만들어 내는 행복의 총량으로 재려 했고, 그 기준으로 형법과 감옥, 선거제도의 개혁안을 냈다. 한 지점에서 전체가 보이는 파놉티콘 설계도 그의 것이다.",
+        "en": "He tried to measure right and wrong by the quantity of happiness produced rather than by rank or tradition, and used that standard to draft reforms of criminal law, prisons and the franchise. The panopticon, a building visible entire from one point, was also his.",
+        "source_url": "https://www.britannica.com/money/Jeremy-Bentham",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Jeremy_Bentham_by_Henry_William_Pickersgill_detail.jpg/500px-Jeremy_Bentham_by_Henry_William_Pickersgill_detail.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Jeremy_Bentham_by_Henry_William_Pickersgill_detail.jpg"
+      },
+      "links": [
+        {
+          "id": "mill",
+          "rel": "teacher_of",
+          "source_url": "https://www.wikidata.org/wiki/Q50020"
+        }
+      ]
+    },
+    {
+      "id": "mill",
+      "name_ko": "존 스튜어트 밀",
+      "name_en": "John Stuart Mill",
+      "field": "철학자·경제학자",
+      "field_en": "Philosopher and Economist",
+      "birth_year": 1806,
+      "death_year": 1873,
+      "nation": "GB",
+      "birthplace": {
+        "admin": "잉글랜드 런던 펜턴빌",
+        "admin_en": "Pentonville, London, England",
+        "source_url": "https://www.britannica.com/biography/John-Stuart-Mill",
+        "source_grade": "A",
+        "flags": [
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 51.5321048,
+        "lng": -0.1148938
+      },
+      "timeline": [
+        {
+          "year": 1806,
+          "event": "런던에서 출생, 아버지 제임스 밀에게 세 살부터 그리스어를 배움",
+          "event_en": "Born in London and taught Greek from the age of three by his father James Mill",
+          "source_url": "https://www.britannica.com/biography/John-Stuart-Mill",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1826,
+          "event": "스무 살에 정신적 위기를 겪고 시와 감정의 자리를 다시 봄",
+          "event_en": "A mental crisis at twenty led him to reconsider the place of poetry and feeling",
+          "source_url": "https://www.britannica.com/biography/John-Stuart-Mill",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1859,
+          "event": "『자유론』 출간",
+          "event_en": "Published On Liberty",
+          "source_url": "https://www.britannica.com/biography/John-Stuart-Mill",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1866,
+          "event": "하원의원으로서 여성 참정권을 처음으로 발의",
+          "event_en": "As a member of parliament, made the first proposal for women's suffrage",
+          "source_url": "https://www.britannica.com/biography/John-Stuart-Mill",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1869,
+          "event": "『여성의 종속』 출간",
+          "event_en": "Published The Subjection of Women",
+          "source_url": "https://www.britannica.com/biography/John-Stuart-Mill",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1873,
+          "event": "아비뇽에서 사망",
+          "event_en": "Died at Avignon",
+          "source_url": "https://www.britannica.com/biography/John-Stuart-Mill",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "자유론",
+          "title_en": "On Liberty",
+          "year": 1859,
+          "note": "남에게 해를 끼치지 않는 한 개인의 영역에 사회가 개입할 수 없다는 원리를 논증",
+          "note_en": "Argues that society may not intrude on the individual except to prevent harm to others",
+          "quote": "Over himself, over his own body and mind, the individual is sovereign.",
+          "quote_ko": "자기 자신에 대해서는, 자기의 몸과 마음에 대해서는, 개인이 주권자다.",
+          "quote_source": "John Stuart Mill, On Liberty I (1859)",
+          "source_url": "https://www.britannica.com/biography/John-Stuart-Mill",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/On_Liberty_%28first_edition_title_page_via_facsimile%29.jpg/500px-On_Liberty_%28first_edition_title_page_via_facsimile%29.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%9C%A0%EB%A1%A0"
+          }
+        },
+        {
+          "title": "여성의 종속",
+          "title_en": "The Subjection of Women",
+          "year": 1869,
+          "note": "법과 관습이 만든 남녀 불평등을 논증으로 반박",
+          "note_en": "Argues against the inequality of the sexes as a product of law and custom",
+          "source_url": "https://www.britannica.com/biography/John-Stuart-Mill",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/The_Subjection_of_Women.jpg/500px-The_Subjection_of_Women.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%97%AC%EC%84%B1%EC%9D%98_%EC%A2%85%EC%86%8D"
+          }
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "남에게 해를 끼치지 않는 한 개인의 영역에 사회가 개입할 수 없다는 원리를 세웠고, 소수 의견을 지키는 것이 다수에게도 이익이라고 논증했다. 하원에서 여성 참정권을 처음 발의했다.",
+        "en": "He established the principle that society may not intrude on the individual except to prevent harm to others, and argued that protecting minority opinion serves the majority too. In parliament he made the first proposal for women's suffrage.",
+        "source_url": "https://www.britannica.com/biography/John-Stuart-Mill",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg/500px-John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg"
+      },
+      "links": [
+        {
+          "id": "bentham",
+          "rel": "student_of",
+          "source_url": "https://www.wikidata.org/wiki/Q50020"
+        },
+        {
+          "id": "russell",
+          "rel": "influenced",
+          "source_url": "https://www.wikidata.org/wiki/Q33760"
+        }
+      ]
+    },
+    {
+      "id": "dewey",
+      "name_ko": "존 듀이",
+      "name_en": "John Dewey",
+      "field": "철학자·교육학자",
+      "field_en": "Philosopher and Educator",
+      "birth_year": 1859,
+      "death_year": 1952,
+      "nation": "US",
+      "birthplace": {
+        "admin": "미국 버몬트주 벌링턴",
+        "admin_en": "Burlington, Vermont, USA",
+        "source_url": "https://www.britannica.com/biography/John-Dewey",
+        "source_grade": "A",
+        "flags": [
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 44.4761601,
+        "lng": -73.212906
+      },
+      "timeline": [
+        {
+          "year": 1859,
+          "event": "미국 버몬트 벌링턴에서 출생",
+          "event_en": "Born at Burlington, Vermont",
+          "source_url": "https://www.britannica.com/biography/John-Dewey",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1896,
+          "event": "시카고 대학에 실험학교를 열어 교육 이론을 직접 시험",
+          "event_en": "Opened a laboratory school at Chicago to test his educational theory in practice",
+          "source_url": "https://www.britannica.com/biography/John-Dewey",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1916,
+          "event": "『민주주의와 교육』 출간",
+          "event_en": "Published Democracy and Education",
+          "source_url": "https://www.britannica.com/biography/John-Dewey",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1919,
+          "event": "일본과 중국을 방문해 2년 넘게 강연",
+          "event_en": "Travelled to Japan and China, lecturing for over two years",
+          "source_url": "https://www.britannica.com/biography/John-Dewey",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1952,
+          "event": "뉴욕에서 사망",
+          "event_en": "Died in New York",
+          "source_url": "https://www.britannica.com/biography/John-Dewey",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "민주주의와 교육",
+          "title_en": "Democracy and Education",
+          "year": 1916,
+          "note": "교육을 지식 전달이 아니라 함께 살아가는 방식을 익히는 과정으로 규정",
+          "note_en": "Defines education not as transmission of knowledge but as learning a shared way of living",
+          "quote": "Education is a regulation of the process of coming to share in the social consciousness.",
+          "quote_ko": "교육은 사회적 의식에 참여해 가는 과정을 조절하는 일이다.",
+          "quote_source": "John Dewey, My Pedagogic Creed (1897), Article II",
+          "source_url": "https://www.britannica.com/biography/John-Dewey",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Democracy_and_Education_title_page.jpg/500px-Democracy_and_Education_title_page.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://ko.wikipedia.org/wiki/%EB%AF%BC%EC%A3%BC%EC%A3%BC%EC%9D%98%EC%99%80_%EA%B5%90%EC%9C%A1"
+          }
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "생각을 진리의 거울이 아니라 문제를 푸는 도구로 보고, 교육을 지식 전달이 아니라 함께 살아가는 방식을 익히는 과정으로 다시 정의했다. 학교를 직접 열어 자기 이론을 시험했고, 그 구상이 20세기 학교의 형태에 남았다.",
+        "en": "He treated thinking as an instrument for solving problems rather than a mirror of truth, and redefined education as learning a shared way of living rather than receiving knowledge. He opened a school to test the theory, and its design stayed in the twentieth-century classroom.",
+        "source_url": "https://www.britannica.com/biography/John-Dewey",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/John_Dewey_cph.3a51565.jpg/500px-John_Dewey_cph.3a51565.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:John_Dewey_in_1902.jpg"
+      }
+    },
+    {
+      "id": "russell",
+      "name_ko": "버트런드 러셀",
+      "name_en": "Bertrand Russell",
+      "field": "철학자·수학자",
+      "field_en": "Philosopher and Mathematician",
+      "birth_year": 1872,
+      "death_year": 1970,
+      "nation": "GB",
+      "birthplace": {
+        "admin": "웨일스 몬머스셔 트렐렉",
+        "admin_en": "Trellech, Monmouthshire, Wales",
+        "source_url": "https://www.britannica.com/biography/Bertrand-Russell",
+        "source_grade": "A",
+        "flags": [
+          "coords-osm"
+        ],
+        "lat": 51.7450901,
+        "lng": -2.7244457
+      },
+      "timeline": [
+        {
+          "year": 1872,
+          "event": "웨일스 트렐렉에서 출생",
+          "event_en": "Born at Trellech in Wales",
+          "source_url": "https://www.britannica.com/biography/Bertrand-Russell",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1910,
+          "event": "화이트헤드와 『수학 원리』 제1권 출간",
+          "event_en": "Published the first volume of Principia Mathematica with Whitehead",
+          "source_url": "https://www.britannica.com/biography/Bertrand-Russell",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1918,
+          "event": "1차 대전 반전 활동으로 6개월간 수감",
+          "event_en": "Imprisoned for six months for his opposition to the First World War",
+          "source_url": "https://www.britannica.com/biography/Bertrand-Russell",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1950,
+          "event": "노벨 문학상 수상",
+          "event_en": "Awarded the Nobel Prize in Literature",
+          "source_url": "https://www.nobelprize.org/prizes/literature/1950/russell/facts/",
+          "source_grade": "B",
+          "flags": []
+        },
+        {
+          "year": 1955,
+          "event": "아인슈타인과 핵무기 반대 성명(러셀·아인슈타인 선언) 발표",
+          "event_en": "Issued the Russell–Einstein Manifesto against nuclear weapons",
+          "source_url": "https://www.britannica.com/biography/Bertrand-Russell",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1970,
+          "event": "웨일스에서 사망",
+          "event_en": "Died in Wales",
+          "source_url": "https://www.britannica.com/biography/Bertrand-Russell",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "수학 원리",
+          "title_en": "Principia Mathematica",
+          "year": 1910,
+          "note": "화이트헤드와 함께 수학 전체를 논리학에서 이끌어내려 한 시도",
+          "note_en": "An attempt, with Whitehead, to derive the whole of mathematics from logic",
+          "quote": "The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts.",
+          "quote_ko": "세상의 문제는 바보와 광신자는 늘 자신만만하고, 더 현명한 사람은 의심으로 가득하다는 데 있다.",
+          "quote_source": "Bertrand Russell, The Triumph of Stupidity (1933)",
+          "source_url": "https://www.britannica.com/biography/Bertrand-Russell",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Russell%2C_Whitehead_-_Principia_Mathematica_to_56.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%88%98%ED%95%99_%EC%9B%90%EB%A6%AC"
+          }
+        },
+        {
+          "title": "서양철학사",
+          "title_en": "A History of Western Philosophy",
+          "year": 1945,
+          "note": "철학을 각 시대의 사회와 함께 서술해 대중적으로 널리 읽힌 통사",
+          "note_en": "A survey placing philosophy alongside the society of each era; widely read outside the academy",
+          "source_url": "https://www.britannica.com/biography/Bertrand-Russell",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "수학 전체를 논리학에서 이끌어내려 한 『수학 원리』로 분석철학의 길을 열었고, 동시에 전쟁과 핵무기에 반대하다 감옥에도 갔다. 어려운 논의를 일반 독자의 언어로 옮긴 공로로 노벨 문학상을 받았다.",
+        "en": "Principia Mathematica, an attempt to derive all mathematics from logic, opened the path of analytic philosophy; he also went to prison for opposing war and campaigned against nuclear weapons. The Nobel Prize in Literature recognised his carrying difficult argument into ordinary language.",
+        "source_url": "https://www.britannica.com/biography/Bertrand-Russell",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Bertrand_Russell_smoking_in_1936.jpg/500px-Bertrand_Russell_smoking_in_1936.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bertrand_Russell_transparent_bg.png"
+      },
+      "links": [
+        {
+          "id": "hume",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q33760"
+        },
+        {
+          "id": "leibniz",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q33760"
+        },
+        {
+          "id": "mill",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q33760"
+        },
+        {
+          "id": "spinoza",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q33760"
+        },
+        {
+          "id": "wittgenstein",
+          "rel": "teacher_of",
+          "source_url": "https://www.wikidata.org/wiki/Q33760"
+        }
+      ]
+    },
+    {
+      "id": "jung",
+      "name_ko": "카를 구스타프 융",
+      "name_en": "Carl Gustav Jung",
+      "field": "심리학자·사상가",
+      "field_en": "Psychologist and Thinker",
+      "birth_year": 1875,
+      "death_year": 1961,
+      "nation": "CH",
+      "birthplace": {
+        "admin": "스위스 투르가우 케스빌",
+        "admin_en": "Kesswil, Thurgau, Switzerland",
+        "source_url": "https://www.britannica.com/biography/Carl-Jung",
+        "source_grade": "A",
+        "flags": [
+          "coords-osm"
+        ],
+        "lat": 47.5869848,
+        "lng": 9.3140452
+      },
+      "timeline": [
+        {
+          "year": 1875,
+          "event": "스위스 케스빌에서 목사의 아들로 출생",
+          "event_en": "Born at Kesswil, Switzerland, a pastor's son",
+          "source_url": "https://www.britannica.com/biography/Carl-Jung",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1907,
+          "event": "프로이트를 만나 긴밀히 협력",
+          "event_en": "Met Freud and began a close collaboration",
+          "source_url": "https://www.britannica.com/biography/Carl-Jung",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1913,
+          "event": "성욕 중심 이론을 두고 프로이트와 결별",
+          "event_en": "Broke with Freud over the centrality of sexuality",
+          "source_url": "https://www.britannica.com/biography/Carl-Jung",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1921,
+          "event": "『심리 유형』에서 내향·외향의 구분을 제시",
+          "event_en": "Set out introversion and extraversion in Psychological Types",
+          "source_url": "https://www.britannica.com/biography/Carl-Jung",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1961,
+          "event": "취리히 호숫가 퀴스나흐트에서 사망",
+          "event_en": "Died at Küsnacht on Lake Zurich",
+          "source_url": "https://www.britannica.com/biography/Carl-Jung",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "심리 유형",
+          "title_en": "Psychologische Typen",
+          "year": 1921,
+          "note": "내향·외향과 네 가지 심리 기능을 제시한 저작으로 이후 성격 유형론의 바탕이 됨",
+          "note_en": "Introduces introversion, extraversion and four psychological functions; the basis of later type theories",
+          "quote": "Wo die Liebe herrscht, da gibt es keinen Machtwillen.",
+          "quote_ko": "사랑이 다스리는 곳에는 권력에의 의지가 없다.",
+          "quote_en": "Where love rules, there is no will to power.",
+          "quote_source": "C. G. Jung, Über die Psychologie des Unbewußten",
+          "source_url": "https://www.britannica.com/biography/Carl-Jung",
+          "source_grade": "A",
+          "flags": [
+            "authorship-traditional"
+          ]
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "개인의 무의식 아래 신화·종교·꿈에 되풀이되는 공통의 층이 있다고 보고 집단 무의식과 원형을 제시했다. 내향·외향의 구분이 이후 성격 유형 검사들의 출발점이 되었다.",
+        "en": "He posited a layer beneath personal memory that recurs across myth, religion and dream — the collective unconscious and its archetypes. His division of introversion and extraversion became the starting point for later personality typologies.",
+        "source_url": "https://www.britannica.com/biography/Carl-Jung",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/ETH-BIB-Jung%2C_Carl_Gustav_%281875-1961%29-Portrait-Portr_14163_%28cropped%29.tif/lossy-page1-500px-ETH-BIB-Jung%2C_Carl_Gustav_%281875-1961%29-Portrait-Portr_14163_%28cropped%29.tif.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Jung%2C_Carl_Gustav_%281875-1961%29-Portrait-Portr_14163_%28cropped%29.tif"
+      }
+    },
+    {
+      "id": "adorno",
+      "name_ko": "테오도어 아도르노",
+      "name_en": "Theodor W. Adorno",
+      "field": "철학자·사회학자",
+      "field_en": "Philosopher and Sociologist",
+      "birth_year": 1903,
+      "death_year": 1969,
+      "nation": "DE",
+      "birthplace": {
+        "admin": "독일 프랑크푸르트암마인",
+        "admin_en": "Frankfurt am Main, Germany",
+        "source_url": "https://www.britannica.com/biography/Theodor-Wiesengrund-Adorno",
+        "source_grade": "A",
+        "flags": [
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 50.1106444,
+        "lng": 8.6820917
+      },
+      "timeline": [
+        {
+          "year": 1903,
+          "event": "독일 프랑크푸르트에서 출생",
+          "event_en": "Born in Frankfurt, Germany",
+          "source_url": "https://www.britannica.com/biography/Theodor-Wiesengrund-Adorno",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1934,
+          "event": "나치를 피해 망명, 이후 미국으로 건너감",
+          "event_en": "Went into exile from Nazi Germany and later moved to the United States",
+          "source_url": "https://www.britannica.com/biography/Theodor-Wiesengrund-Adorno",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1944,
+          "event": "호르크하이머와 『계몽의 변증법』을 씀",
+          "event_en": "Wrote Dialectic of Enlightenment with Horkheimer",
+          "source_url": "https://www.britannica.com/biography/Theodor-Wiesengrund-Adorno",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1951,
+          "event": "망명기에 쓴 단상집 『미니마 모랄리아』 출간",
+          "event_en": "Published Minima Moralia, aphorisms written in exile",
+          "source_url": "https://www.britannica.com/biography/Theodor-Wiesengrund-Adorno",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1969,
+          "event": "스위스에서 사망",
+          "event_en": "Died in Switzerland",
+          "source_url": "https://www.britannica.com/biography/Theodor-Wiesengrund-Adorno",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "계몽의 변증법",
+          "title_en": "Dialektik der Aufklärung",
+          "year": 1944,
+          "note": "이성이 어떻게 스스로 야만으로 뒤집히는지를 호르크하이머와 함께 분석",
+          "note_en": "Written with Horkheimer on how reason turns over into barbarism",
+          "quote": "Es gibt kein richtiges Leben im falschen.",
+          "quote_ko": "잘못된 삶 속에 올바른 삶이란 없다.",
+          "quote_en": "There is no right life in the wrong one.",
+          "quote_source": "Theodor W. Adorno, Minima Moralia §18 (1951)",
+          "source_url": "https://www.britannica.com/biography/Theodor-Wiesengrund-Adorno",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Raubdruck_von_Horkheimers_Dialektik_der_Aufkl%C3%A4rung.jpg/500px-Raubdruck_von_Horkheimers_Dialektik_der_Aufkl%C3%A4rung.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://ko.wikipedia.org/wiki/%EA%B3%84%EB%AA%BD%EC%9D%98_%EB%B3%80%EC%A6%9D%EB%B2%95"
+          }
+        },
+        {
+          "title": "미니마 모랄리아",
+          "title_en": "Minima Moralia",
+          "year": 1951,
+          "note": "망명 생활 속의 짧은 단상들로 일상에서 사회 구조를 읽어냄",
+          "note_en": "Short reflections from exile, reading social structure out of daily life",
+          "source_url": "https://www.britannica.com/biography/Theodor-Wiesengrund-Adorno",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/AdornoHorkheimerHabermasbyJeremyJShapiro2.png/500px-AdornoHorkheimerHabermasbyJeremyJShapiro2.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Minima_Moralia"
+          }
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "이성이 왜 야만을 막지 못하고 오히려 그 도구가 되었는지를 물었고, 대중문화를 '문화산업'이라 부르며 그 작동을 분석했다. 프랑크푸르트학파 비판이론의 중심 인물이다.",
+        "en": "He asked why reason had failed to stop barbarism and had instead become its instrument, and analysed mass culture under the name of the culture industry. He stands at the centre of the Frankfurt School's critical theory.",
+        "source_url": "https://www.britannica.com/biography/Theodor-Wiesengrund-Adorno",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Theodor_W._Adorno.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Theodor_W._Adorno.jpg"
+      },
+      "links": [
+        {
+          "id": "hegel",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q152388"
+        },
+        {
+          "id": "marx",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q152388"
+        },
+        {
+          "id": "nietzsche",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q152388"
+        }
+      ]
+    },
+    {
+      "id": "rawls",
+      "name_ko": "존 롤스",
+      "name_en": "John Rawls",
+      "field": "정치철학자",
+      "field_en": "Political Philosopher",
+      "birth_year": 1921,
+      "death_year": 2002,
+      "nation": "US",
+      "birthplace": {
+        "admin": "미국 메릴랜드주 볼티모어",
+        "admin_en": "Baltimore, Maryland, USA",
+        "source_url": "https://www.britannica.com/biography/John-Rawls",
+        "source_grade": "A",
+        "flags": [
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 39.2908816,
+        "lng": -76.610759
+      },
+      "timeline": [
+        {
+          "year": 1921,
+          "event": "미국 볼티모어에서 출생",
+          "event_en": "Born in Baltimore, Maryland",
+          "source_url": "https://www.britannica.com/biography/John-Rawls",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1945,
+          "event": "태평양 전선에서 복무한 뒤 제대",
+          "event_en": "Discharged after service in the Pacific theatre",
+          "source_url": "https://www.britannica.com/biography/John-Rawls",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1971,
+          "event": "『정의론』 출간",
+          "event_en": "Published A Theory of Justice",
+          "source_url": "https://www.britannica.com/biography/John-Rawls",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1993,
+          "event": "『정치적 자유주의』 출간",
+          "event_en": "Published Political Liberalism",
+          "source_url": "https://www.britannica.com/biography/John-Rawls",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 2002,
+          "event": "매사추세츠에서 사망",
+          "event_en": "Died in Massachusetts",
+          "source_url": "https://www.britannica.com/biography/John-Rawls",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "정의론",
+          "title_en": "A Theory of Justice",
+          "year": 1971,
+          "note": "자기가 어떤 처지에 놓일지 모르는 상태에서 고를 규칙으로 정의를 도출",
+          "note_en": "Derives principles of justice from what one would choose without knowing one's own position",
+          "quote": "Justice is the first virtue of social institutions, as truth is of systems of thought.",
+          "quote_ko": "정의는 사회 제도의 첫 번째 덕목이다. 진리가 사상 체계에 그렇듯이.",
+          "quote_source": "John Rawls, A Theory of Justice §1 (1971)",
+          "source_url": "https://www.britannica.com/biography/John-Rawls",
+          "source_grade": "A",
+          "flags": [],
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/A_Theory_of_Justice_-_first_American_hardcover_edition.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+            "source_url": "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%9D%98%EB%A1%A0"
+          }
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "자기가 부자일지 가난할지 모르는 상태에서 고를 규칙이 곧 정의라고 보고, 가장 불리한 사람에게 이익이 될 때만 불평등이 허용된다고 논증했다. 20세기 후반 정치철학이 이 책을 두고 다시 짜였다.",
+        "en": "He argued that justice is what one would choose without knowing whether one would end up rich or poor, and that inequality is permitted only when it benefits the worst off. Late twentieth-century political philosophy reorganised itself around that book.",
+        "source_url": "https://www.britannica.com/biography/John-Rawls",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/John_Rawls_%281971_photo_portrait%29.jpg/500px-John_Rawls_%281971_photo_portrait%29.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "source_url": "https://commons.wikimedia.org/wiki/File:John_Rawls_%281971_photo_portrait%29.jpg"
+      },
+      "links": [
+        {
+          "id": "kant",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q172544"
+        },
+        {
+          "id": "locke",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q172544"
+        }
+      ]
+    },
+    {
+      "id": "foucault",
+      "name_ko": "미셸 푸코",
+      "name_en": "Michel Foucault",
+      "field": "철학자·사상가",
+      "field_en": "Philosopher and Historian of Ideas",
+      "birth_year": 1926,
+      "death_year": 1984,
+      "nation": "FR",
+      "birthplace": {
+        "admin": "프랑스 푸아티에",
+        "admin_en": "Poitiers, France",
+        "source_url": "https://www.britannica.com/biography/Michel-Foucault",
+        "source_grade": "A",
+        "flags": [
+          "coords-approx",
+          "coords-osm"
+        ],
+        "lat": 46.5802596,
+        "lng": 0.340196
+      },
+      "timeline": [
+        {
+          "year": 1926,
+          "event": "프랑스 푸아티에에서 출생",
+          "event_en": "Born at Poitiers, France",
+          "source_url": "https://www.britannica.com/biography/Michel-Foucault",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1961,
+          "event": "『광기의 역사』 출간",
+          "event_en": "Published Madness and Civilization",
+          "source_url": "https://www.britannica.com/biography/Michel-Foucault",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1966,
+          "event": "『말과 사물』 출간",
+          "event_en": "Published The Order of Things",
+          "source_url": "https://www.britannica.com/biography/Michel-Foucault",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1970,
+          "event": "콜레주 드 프랑스 교수로 선출",
+          "event_en": "Elected to a chair at the Collège de France",
+          "source_url": "https://www.britannica.com/biography/Michel-Foucault",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1975,
+          "event": "『감시와 처벌』 출간",
+          "event_en": "Published Discipline and Punish",
+          "source_url": "https://www.britannica.com/biography/Michel-Foucault",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1984,
+          "event": "파리에서 사망",
+          "event_en": "Died in Paris",
+          "source_url": "https://www.britannica.com/biography/Michel-Foucault",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "감시와 처벌",
+          "title_en": "Surveiller et punir",
+          "year": 1975,
+          "note": "형벌이 신체의 처벌에서 감시와 규율로 옮겨 간 과정을 추적",
+          "note_en": "Traces the shift from punishment of the body to surveillance and discipline",
+          "quote": "Le pouvoir et le savoir s'impliquent directement l'un l'autre.",
+          "quote_ko": "권력과 지식은 서로를 직접 함축한다.",
+          "quote_en": "Power and knowledge directly imply one another.",
+          "quote_source": "Michel Foucault, Surveiller et punir (1975)",
+          "source_url": "https://www.britannica.com/biography/Michel-Foucault",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "title": "광기의 역사",
+          "title_en": "Histoire de la folie à l'âge classique",
+          "year": 1961,
+          "note": "광기를 병으로 규정하고 가두기 시작한 역사적 과정을 추적",
+          "note_en": "Traces the historical process by which madness was defined as illness and confined",
+          "source_url": "https://www.britannica.com/biography/Michel-Foucault",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "광기·질병·범죄처럼 당연해 보이는 범주가 언제 어떻게 만들어졌는지를 문서로 추적했다. 권력을 억누르는 힘이 아니라 지식과 함께 사람을 만들어 내는 것으로 다시 정의했다.",
+        "en": "He tracked in the archives when and how categories that look self-evident — madness, illness, delinquency — were actually made. He redefined power not as something that represses but as something that produces people, together with knowledge.",
+        "source_url": "https://www.britannica.com/biography/Michel-Foucault",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Michel_Foucault_1974_Brasil.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Michel_Foucault_1974_Brasil.jpg"
+      },
+      "links": [
+        {
+          "id": "derrida",
+          "rel": "teacher_of",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
+          "id": "freud",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
+        },
+        {
+          "id": "hegel",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
+        },
+        {
+          "id": "heidegger",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
+        },
+        {
+          "id": "kant",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
+        },
+        {
+          "id": "marx",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
+        },
+        {
+          "id": "nietzsche",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
+        },
+        {
+          "id": "plato",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q44272"
+        }
+      ]
+    },
+    {
+      "id": "derrida",
+      "name_ko": "자크 데리다",
+      "name_en": "Jacques Derrida",
+      "field": "철학자",
+      "field_en": "Philosopher",
+      "birth_year": 1930,
+      "death_year": 2004,
+      "nation": "DZ",
+      "birthplace": {
+        "admin": "프랑스령 알제리 엘비아르",
+        "admin_en": "El Biar, French Algeria",
+        "source_url": "https://www.britannica.com/biography/Jacques-Derrida",
+        "source_grade": "A",
+        "flags": [
+          "coords-osm"
+        ],
+        "lat": 36.7688936,
+        "lng": 3.030647
+      },
+      "timeline": [
+        {
+          "year": 1930,
+          "event": "프랑스령 알제리 엘비아르의 유대인 가정에서 출생",
+          "event_en": "Born at El Biar in French Algeria into a Jewish family",
+          "source_url": "https://www.britannica.com/biography/Jacques-Derrida",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1942,
+          "event": "비시 정권의 유대인 할당제로 학교에서 퇴학당함",
+          "event_en": "Expelled from school under the Vichy regime's quota on Jewish pupils",
+          "source_url": "https://www.britannica.com/biography/Jacques-Derrida",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1967,
+          "event": "『그라마톨로지』 등 세 권을 한 해에 출간하며 해체를 제시",
+          "event_en": "Published three books in one year, including Of Grammatology, setting out deconstruction",
+          "source_url": "https://www.britannica.com/biography/Jacques-Derrida",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 1983,
+          "event": "파리 국제철학학교 설립에 참여",
+          "event_en": "Helped found the Collège international de philosophie in Paris",
+          "source_url": "https://www.britannica.com/biography/Jacques-Derrida",
+          "source_grade": "A",
+          "flags": []
+        },
+        {
+          "year": 2004,
+          "event": "파리에서 사망",
+          "event_en": "Died in Paris",
+          "source_url": "https://www.britannica.com/biography/Jacques-Derrida",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "works": [
+        {
+          "title": "그라마톨로지",
+          "title_en": "De la grammatologie",
+          "year": 1967,
+          "note": "말을 글보다 앞세워 온 서구 사유의 전제를 텍스트 안에서 뒤집어 읽음",
+          "note_en": "Reads against the Western assumption that speech precedes writing, from inside the texts themselves",
+          "quote": "Il n'y a pas de hors-texte.",
+          "quote_ko": "텍스트 바깥은 없다.",
+          "quote_en": "There is nothing outside the text.",
+          "quote_source": "Jacques Derrida, De la grammatologie (1967)",
+          "source_url": "https://www.britannica.com/biography/Jacques-Derrida",
+          "source_grade": "A",
+          "flags": []
+        }
+      ],
+      "flags": [],
+      "verified": true,
+      "source_grade": "A",
+      "legacy": {
+        "ko": "글을 말보다 낮게 두어 온 서구 사유의 전제를, 그 텍스트 자체를 꼼꼼히 읽어 안에서부터 무너뜨리는 방식을 폈다. 이 해체 독법이 철학뿐 아니라 문학·건축·법학 연구에까지 퍼졌다.",
+        "en": "He undid the Western assumption that writing is secondary to speech by reading those very texts closely enough to break them open from inside. That deconstructive reading spread beyond philosophy into literary, architectural and legal scholarship.",
+        "source_url": "https://www.britannica.com/biography/Jacques-Derrida",
+        "source_grade": "A",
+        "flags": [
+          "editorial-summary"
+        ]
+      },
+      "portrait": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Chinmoy_Guha_with_Derrida_%28cropped%29.jpg?utm_source=ko.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Derrida-by-Pablo-Secca.jpg"
+      },
+      "links": [
+        {
+          "id": "foucault",
+          "rel": "student_of",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
+          "id": "freud",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
+          "id": "hegel",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
+          "id": "heidegger",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
+          "id": "james-joyce",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
+          "id": "marx",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
+          "id": "nietzsche",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
+          "id": "plato",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
+          "id": "rousseau",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
+        },
+        {
+          "id": "wittgenstein",
+          "rel": "influenced_by",
+          "source_url": "https://www.wikidata.org/wiki/Q130631"
         }
       ]
     }

@@ -14,7 +14,8 @@ import { dirname, join } from "node:path";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const PEOPLE = join(ROOT, "public", "data", "people.json");
 const LEGACY = join(ROOT, "data", "legacy.json");
-const SOURCES = ["philosophers-west.json", "philosophers-east.json"].map((f) => join(ROOT, "data", f));
+const SOURCES = ["philosophers-west.json", "philosophers-east.json", "philosophers-2.json"]
+  .map((f) => join(ROOT, "data", f));
 const DRY = process.argv.includes("--dry");
 const UA = "SageScroll/1.0 (https://sage.bluetronai.com; contact@bluetronai.com)";
 
@@ -44,13 +45,16 @@ async function geocode(q) {
   }
 }
 
-const incoming = SOURCES.flatMap((f) => JSON.parse(readFileSync(f, "utf8")).people);
+const all = SOURCES.flatMap((f) => JSON.parse(readFileSync(f, "utf8")).people);
 const people = JSON.parse(readFileSync(PEOPLE, "utf8"));
 const legacyFile = JSON.parse(readFileSync(LEGACY, "utf8"));
 
+// 이미 들어간 인물은 건너뛴다 — 스크립트를 여러 번 돌려도 같은 결과가 되게(멱등).
 const existing = new Set(people.people.map((p) => p.id));
-const dupes = incoming.filter((p) => existing.has(p.id)).map((p) => p.id);
-if (dupes.length) { console.error(`이미 있는 id: ${dupes.join(", ")}`); process.exit(1); }
+const incoming = all.filter((p) => !existing.has(p.id));
+const skipped = all.length - incoming.length;
+if (skipped) console.log(`이미 있어 건너뜀: ${skipped}명`);
+if (!incoming.length) { console.log("추가할 인물 없음"); process.exit(0); }
 
 // ── 1. 출처 URL 실검증 ────────────────────────────────────────
 const urls = new Set();

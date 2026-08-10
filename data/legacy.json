@@ -596,6 +596,86 @@
     "buddha": {
       "ko": "고통이 어디서 오고 어떻게 그치는지를 네 가지 명제로 정리하고, 그 길을 여덟 갈래의 실천으로 제시했다. 계급이 아니라 수행으로 사람을 나누는 공동체를 만들었고, 그 가르침이 아시아 전역으로 퍼졌다.",
       "en": "He set out where suffering comes from and how it ends in four propositions, and gave the way to end it as eight kinds of practice. He formed a community that ranked people by practice rather than caste, and the teaching spread across Asia."
+    },
+    "seneca": {
+      "ko": "스토아 윤리를 강단의 이론이 아니라 편지와 일상의 사례로 풀어 썼고, 시간을 어떻게 쓰느냐로 삶의 길이를 다시 정의했다. 네로의 스승이자 권력의 한복판에 있었고 결국 그 명으로 자결했다.",
+      "en": "He wrote Stoic ethics as letters and everyday cases rather than school doctrine, and redefined the length of a life as a question of how time is used. Tutor to Nero and close to power, he was finally ordered by Nero to kill himself."
+    },
+    "epictetus": {
+      "ko": "내 뜻대로 되는 것과 되지 않는 것을 나누고, 되지 않는 것에는 판단을 걸지 말라고 가르쳤다. 노예로 태어나 글을 남기지 않았고, 제자가 받아 적은 강의만 전한다.",
+      "en": "He taught the division between what is up to us and what is not, and to place no judgement on the latter. Born a slave, he wrote nothing; only a student's transcripts of his lectures survive."
+    },
+    "marcus-aurelius": {
+      "ko": "제국의 최고 권력자가 전쟁터의 막사에서 자기 자신에게 쓴 기록이 남았고, 그 안에 남을 다스리는 말은 거의 없고 스스로를 단속하는 말만 있다. 스토아 철학이 실제로 어떻게 쓰였는지 보여 주는 1차 기록으로 읽힌다.",
+      "en": "The most powerful man in the empire left notes written to himself in a campaign tent, almost none of them about governing others and nearly all about holding himself in check. They are read as a first-hand record of Stoicism actually in use."
+    },
+    "nagarjuna": {
+      "ko": "모든 것은 그 자체로 성립하는 본질이 없고 조건에 기대어서만 있다는 공(空)을 논증으로 세웠다. 이 중관 사상이 티베트·중국·한국·일본 대승불교 전체의 이론적 바탕이 되었다.",
+      "en": "He established emptiness by argument: nothing holds by an essence of its own, only in dependence on conditions. That Madhyamaka reasoning became the theoretical base of Mahayana Buddhism across Tibet, China, Korea and Japan."
+    },
+    "uisang": {
+      "ko": "화엄의 교리 전체를 210자의 도장 그림 한 장으로 압축한 「법계도」를 남겼고, 부석사를 세워 신라 화엄종을 열었다. 저잣거리로 간 원효와 달리 그는 교단과 사찰을 세우는 쪽으로 갔다.",
+      "en": "He compressed an entire Huayan doctrinal system into a single 210-character seal diagram and founded Buseoksa, establishing the Korean Huayan school. Where Wonhyo went to the markets, he built the order and its temples."
+    },
+    "shankara": {
+      "ko": "개별 자아와 궁극 실재가 둘이 아니라는 불이일원론을 주석 작업으로 체계화했다. 인도 사방에 수도원을 세웠다고 전하며, 이후 힌두 사상의 주류 해석 틀이 여기서 나왔다.",
+      "en": "Through commentary he systematised Advaita — that the individual self and ultimate reality are not two. Tradition credits him with founding monastic centres across India, and the mainstream frame of later Hindu thought came out of this work."
+    },
+    "aquinas": {
+      "ko": "이슬람 세계를 거쳐 되돌아온 아리스토텔레스를 그리스도교 신학과 맞물리게 해, 신앙과 이성을 대립이 아니라 층위로 놓았다. 질문-반론-답변 형식의 『신학대전』이 이후 서구 대학 학문의 서술 방식이 되었다.",
+      "en": "He fitted the Aristotle who had returned through the Islamic world into Christian theology, placing faith and reason on different levels rather than in opposition. The question-objection-reply form of the Summa became the shape of Western academic argument."
+    },
+    "dogen": {
+      "ko": "앉는 것 자체가 곧 깨달음이라는 지관타좌를 폈고, 한문이 아니라 일본어로 사상서를 써서 『정법안장』을 남겼다. 그가 세운 영평사를 중심으로 일본 조동종이 이어졌다.",
+      "en": "He taught shikantaza — that sitting is itself awakening — and wrote his major work in Japanese rather than Chinese. The Sōtō school of Japanese Zen continued from the monastery he founded at Eiheiji."
+    },
+    "li-zhi": {
+      "ko": "성리학이 정해 놓은 옳고 그름을 거부하고, 꾸미지 않은 '동심'을 판단의 기준으로 세웠다. 스스로 불태워질 책이라 이름 붙여 냈고 실제로 금서가 되었으며, 옥중에서 생을 마쳤다.",
+      "en": "He rejected the right and wrong fixed by neo-Confucian orthodoxy and set the unadorned childlike mind as the standard of judgement. He titled his book as one to be burned, it was duly banned, and he died in prison."
+    },
+    "francis-bacon": {
+      "ko": "권위 있는 책에서 결론을 끌어내는 대신 관찰하고 실험해 쌓아 올리는 절차를 제시해 근대 과학의 방법을 정리했다. 대법관까지 올랐다가 뇌물 혐의로 물러났다.",
+      "en": "Instead of deriving conclusions from authoritative books, he set out a procedure of observing and experimenting upward — the method of modern science. He rose to Lord Chancellor and fell on charges of bribery."
+    },
+    "leibniz": {
+      "ko": "뉴턴과 별개로 미적분을 만들었고, 오늘날 쓰는 미적분 기호와 이진법 체계가 그의 손에서 나왔다. 일어나는 모든 일에는 충분한 이유가 있다는 원리를 철학의 축으로 삼았다.",
+      "en": "He developed the calculus independently of Newton, and both its modern notation and the binary system came from his hand. He made the principle that nothing happens without a sufficient reason an axis of his philosophy."
+    },
+    "bentham": {
+      "ko": "옳고 그름을 신분이나 전통이 아니라 결과가 만들어 내는 행복의 총량으로 재려 했고, 그 기준으로 형법과 감옥, 선거제도의 개혁안을 냈다. 한 지점에서 전체가 보이는 파놉티콘 설계도 그의 것이다.",
+      "en": "He tried to measure right and wrong by the quantity of happiness produced rather than by rank or tradition, and used that standard to draft reforms of criminal law, prisons and the franchise. The panopticon, a building visible entire from one point, was also his."
+    },
+    "mill": {
+      "ko": "남에게 해를 끼치지 않는 한 개인의 영역에 사회가 개입할 수 없다는 원리를 세웠고, 소수 의견을 지키는 것이 다수에게도 이익이라고 논증했다. 하원에서 여성 참정권을 처음 발의했다.",
+      "en": "He established the principle that society may not intrude on the individual except to prevent harm to others, and argued that protecting minority opinion serves the majority too. In parliament he made the first proposal for women's suffrage."
+    },
+    "dewey": {
+      "ko": "생각을 진리의 거울이 아니라 문제를 푸는 도구로 보고, 교육을 지식 전달이 아니라 함께 살아가는 방식을 익히는 과정으로 다시 정의했다. 학교를 직접 열어 자기 이론을 시험했고, 그 구상이 20세기 학교의 형태에 남았다.",
+      "en": "He treated thinking as an instrument for solving problems rather than a mirror of truth, and redefined education as learning a shared way of living rather than receiving knowledge. He opened a school to test the theory, and its design stayed in the twentieth-century classroom."
+    },
+    "russell": {
+      "ko": "수학 전체를 논리학에서 이끌어내려 한 『수학 원리』로 분석철학의 길을 열었고, 동시에 전쟁과 핵무기에 반대하다 감옥에도 갔다. 어려운 논의를 일반 독자의 언어로 옮긴 공로로 노벨 문학상을 받았다.",
+      "en": "Principia Mathematica, an attempt to derive all mathematics from logic, opened the path of analytic philosophy; he also went to prison for opposing war and campaigned against nuclear weapons. The Nobel Prize in Literature recognised his carrying difficult argument into ordinary language."
+    },
+    "jung": {
+      "ko": "개인의 무의식 아래 신화·종교·꿈에 되풀이되는 공통의 층이 있다고 보고 집단 무의식과 원형을 제시했다. 내향·외향의 구분이 이후 성격 유형 검사들의 출발점이 되었다.",
+      "en": "He posited a layer beneath personal memory that recurs across myth, religion and dream — the collective unconscious and its archetypes. His division of introversion and extraversion became the starting point for later personality typologies."
+    },
+    "adorno": {
+      "ko": "이성이 왜 야만을 막지 못하고 오히려 그 도구가 되었는지를 물었고, 대중문화를 '문화산업'이라 부르며 그 작동을 분석했다. 프랑크푸르트학파 비판이론의 중심 인물이다.",
+      "en": "He asked why reason had failed to stop barbarism and had instead become its instrument, and analysed mass culture under the name of the culture industry. He stands at the centre of the Frankfurt School's critical theory."
+    },
+    "rawls": {
+      "ko": "자기가 부자일지 가난할지 모르는 상태에서 고를 규칙이 곧 정의라고 보고, 가장 불리한 사람에게 이익이 될 때만 불평등이 허용된다고 논증했다. 20세기 후반 정치철학이 이 책을 두고 다시 짜였다.",
+      "en": "He argued that justice is what one would choose without knowing whether one would end up rich or poor, and that inequality is permitted only when it benefits the worst off. Late twentieth-century political philosophy reorganised itself around that book."
+    },
+    "foucault": {
+      "ko": "광기·질병·범죄처럼 당연해 보이는 범주가 언제 어떻게 만들어졌는지를 문서로 추적했다. 권력을 억누르는 힘이 아니라 지식과 함께 사람을 만들어 내는 것으로 다시 정의했다.",
+      "en": "He tracked in the archives when and how categories that look self-evident — madness, illness, delinquency — were actually made. He redefined power not as something that represses but as something that produces people, together with knowledge."
+    },
+    "derrida": {
+      "ko": "글을 말보다 낮게 두어 온 서구 사유의 전제를, 그 텍스트 자체를 꼼꼼히 읽어 안에서부터 무너뜨리는 방식을 폈다. 이 해체 독법이 철학뿐 아니라 문학·건축·법학 연구에까지 퍼졌다.",
+      "en": "He undid the Western assumption that writing is secondary to speech by reading those very texts closely enough to break them open from inside. That deconstructive reading spread beyond philosophy into literary, architectural and legal scholarship."
     }
   }
 }
