@@ -289,6 +289,8 @@ function setActivePerson(p, fly) {
 }
 
 function renderPerson(p, fly = true) {
+  // 방금 보고 온 인물은 "다음 인물"에서 뺀다. 안 그러면 두 사람 사이를 오가는 고리가 생긴다.
+  const cameFrom = currentPerson && currentPerson.id !== p.id ? currentPerson.id : null;
   currentPerson = p;
   trackEvent("person_open", {
     content_id: p.id || "unknown",
@@ -376,6 +378,18 @@ function renderPerson(p, fly = true) {
   const linksSection = linkChips
     ? `<section class="seg"><h3 class="seg-title">${t("교류·영향", "Connections")}<span class="hint">${t("위키데이터 기준 · 지도에 붉은 선", "from Wikidata · red lines on the map")}</span></h3><div class="link-chips">${linkChips}</div></section>` : "";
 
+  const skipNext = new Set([p.id, cameFrom].filter(Boolean));
+  const relatedNext = (p.links || []).map((l) => personById[l.id]).find((c) => c && !skipNext.has(c.id));
+  const fieldNext = allPeople.find((candidate) => !skipNext.has(candidate.id) && categoryOf(candidate.field) === categoryOf(p.field));
+  const nextPerson = relatedNext || fieldNext;
+  const nextPersonSection = nextPerson
+    ? `<section class="seg"><h3 class="seg-title">${t("다음 인물", "Explore next")}<span class="hint">${t("같은 맥락을 이어서", "continue this thread")}</span></h3>
+       <button type="button" class="link-chip next-person" data-person="${nextPerson.id}">
+         <span class="lc-name">${nameOf(nextPerson)}</span><span class="lc-rel">${t("계속 보기", "continue")}</span>
+         <span class="lc-life">${fmtYear(nextPerson.birth_year)}–${fmtYear(nextPerson.death_year)}</span>
+       </button></section>`
+    : "";
+
   const placesHtml = (p.places || []).map((pl) => {
     const clickable = placeIndex[pl.id] && placeIndex[pl.id].lat != null;
     return `<div class="place ${clickable ? "clickable" : ""}" ${clickable ? `data-place="${pl.id}"` : ""}>
@@ -403,6 +417,7 @@ function renderPerson(p, fly = true) {
       <section class="seg"><h3 class="seg-title">${t("생애", "Life")}<span class="hint">${t("누르면 지도가 그곳으로", "tap to move the map")}</span></h3><ol class="timeline">${timelineHtml}</ol></section>
       <section class="seg"><h3 class="seg-title">${t("저작", "Works")}<span class="hint">${t("사료 원문", "primary sources")}</span></h3>${worksHtml}${bookShopLink(p)}${readingGearLinks(p)}</section>
       ${linksSection}
+      ${nextPersonSection}
       <section class="seg"><h3 class="seg-title">${t("연고 장소", "Places")}</h3>${placesHtml}</section>
     </article>`;
 }
@@ -810,7 +825,20 @@ async function init() {
   document.getElementById("panel-content").addEventListener("click", (e) => {
     if (e.target.closest(".src-mark")) return;
     const pb = e.target.closest("[data-person]");
-    if (pb) { const q = personById[pb.getAttribute("data-person")]; if (q) renderPerson(q); return; }
+    if (pb) {
+      const q = personById[pb.getAttribute("data-person")];
+      if (q) {
+        if (pb.classList.contains("next-person")) {
+          trackEvent("content_open", {
+            content_id: q.id || "unknown",
+            placement: "person-recommendation",
+            source_type: "internal",
+          });
+        }
+        renderPerson(q);
+      }
+      return;
+    }
     const el = e.target.closest("[data-place]");
     if (el) focusPlace(el.getAttribute("data-place"));
   });
