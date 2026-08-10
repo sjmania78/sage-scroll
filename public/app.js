@@ -328,6 +328,14 @@ function renderPerson(p, fly = true) {
          <cite class="hq-cite">${t(hero.quote_source, hero.quote_source_en) || nameOf2(hero)}</cite>
        </blockquote>` : "";
 
+  // 무엇을 남겼나 — 편집부가 쓴 2~3문장. 인물의 말(인용문)이 아니므로 세리프를 쓰지 않고,
+  // 제목 옆에 '편집부 정리'와 참고 출처를 붙여 사료와 구분한다.
+  const lg = p.legacy;
+  const lgText = lg ? t(lg.ko, lg.en) : "";
+  const legacyHtml = lgText
+    ? `<section class="seg"><h3 class="seg-title">${t("무엇을 남겼나", "What they left")}<span class="hint">${t("편집부 정리 · 참고", "our summary · reference")}${srcMark(lg.source_url)}</span></h3>
+         <p class="legacy-text">${lgText}</p></section>` : "";
+
   const timelineHtml = (p.timeline || []).map((tl) => {
     const clickable = tl.place_id && placeIndex[tl.place_id] && placeIndex[tl.place_id].lat != null;
     return `<li class="tl ${clickable ? "clickable" : ""}" ${clickable ? `data-place="${tl.place_id}"` : ""}>
@@ -391,6 +399,7 @@ function renderPerson(p, fly = true) {
       </header>
       <div class="person-public-link"><a href="${LANG === "en" ? "/en" : ""}/person/${p.id}">${t("공유용 인물 페이지", "Shareable profile")} →</a></div>
       ${heroHtml}
+      ${legacyHtml}
       <section class="seg"><h3 class="seg-title">${t("생애", "Life")}<span class="hint">${t("누르면 지도가 그곳으로", "tap to move the map")}</span></h3><ol class="timeline">${timelineHtml}</ol></section>
       <section class="seg"><h3 class="seg-title">${t("저작", "Works")}<span class="hint">${t("사료 원문", "primary sources")}</span></h3>${worksHtml}${bookShopLink(p)}${readingGearLinks(p)}</section>
       ${linksSection}

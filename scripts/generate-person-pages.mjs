@@ -90,6 +90,13 @@ function pageFor(person, lang) {
   for (const item of person.works || []) addSource(item.source_url, en ? "Work source" : "저작 출처");
   for (const item of person.places || []) addSource(item.source_url, en ? "Place source" : "장소 출처");
   addSource(person.portrait?.source_url, "Wikimedia Commons");
+  addSource(person.legacy?.source_url, en ? "Summary reference" : "정리 참고 출처");
+
+  // 무엇을 남겼나 — 편집부가 쓴 문장. 인용문이 아니라는 것을 화면에 적어 사료와 구분한다.
+  const legacyText = person.legacy ? (en ? (person.legacy.en || person.legacy.ko) : person.legacy.ko) : "";
+  const legacySection = legacyText
+    ? `<section class="profile-section"><h2>${en ? "What they left" : "무엇을 남겼나"}</h2><p class="profile-legacy">${escapeHtml(legacyText)}</p><p class="profile-legacy-note">${en ? "Written by the editors from the sources listed below — not a quotation." : "아래 출처를 참고해 편집부가 쓴 문장이며, 인용문이 아닙니다."}${absoluteSource(person.legacy.source_url) ? ` <a href="${escapeHtml(person.legacy.source_url)}" target="_blank" rel="noopener noreferrer">${en ? "reference" : "참고 출처"}</a>` : ""}</p></section>`
+    : "";
 
   const timeline = (person.timeline || []).map((item) => {
     const text = en ? (item.event_en || item.event) : item.event;
@@ -128,6 +135,7 @@ function pageFor(person, lang) {
 <body class="profile-page"><main class="profile-shell"><nav><a href="${backPath}">← ${en ? "Open on the map" : "지도에서 보기"}</a><a href="${otherPath}">${en ? "한국어" : "English"}</a></nav>
 <header class="profile-hero">${person.portrait?.url ? `<img src="${escapeHtml(person.portrait.url)}" alt="${escapeHtml(name)}" onerror="this.remove()">` : ""}<div><p>Sage Scroll · ${person.verified === false ? (en ? "Unverified" : "미검증") : (en ? "Verified sources" : "출처 검증")}</p><h1>${escapeHtml(name)}</h1>${en && person.name_ko ? `<div class="profile-alt">${escapeHtml(person.name_ko)}</div>` : (!en && person.name_en ? `<div class="profile-alt">${escapeHtml(person.name_en)}</div>` : "")}<strong>${escapeHtml(field || "")} · ${escapeHtml(year(person.birth_year, lang))}–${escapeHtml(year(person.death_year, lang))}</strong></div></header>
 <div class="profile-actions"><a href="${backPath}">${en ? "Explore places on the map" : "지도에서 연고지 보기"}</a><button type="button" id="share-profile">${en ? "Share" : "공유하기"}</button></div>
+${legacySection}
 <section class="profile-section"><h2>${en ? "Life" : "생애"}</h2><ol class="profile-timeline">${timeline}</ol></section>
 <section class="profile-section"><h2>${en ? "Works" : "저작"}</h2><div class="profile-works">${works}</div>${affiliateNote}${readingGear}</section>
 <section class="profile-section"><h2>${en ? "Sources" : "근거 출처"}</h2><ul class="profile-sources">${sourceList}</ul><p class="profile-note">${en ? "Facts are shown with their recorded sources; this page does not rank or evaluate the person." : "사실은 기록된 출처와 함께 표시하며, 인물을 순위화하거나 평가하지 않습니다."}</p></section>

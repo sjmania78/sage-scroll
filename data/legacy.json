@@ -1,0 +1,485 @@
+{
+  "_note": "무엇을 남겼나 — 인물별 2~3문장. 각 인물 레코드의 기존 출처를 참고해 편집부가 작성한 문장이며, 인용문이 아니다. 화면에는 '편집부 정리 · 참고 출처'로 표기한다. 평가어('위대한', '천재')·성공 서사·교훈 문장 금지. 사실 서술만.",
+  "legacy": {
+    "jeong-yagyong": {
+      "ko": "18년 유배 동안 『목민심서』·『경세유표』 등 500여 권을 써서 조선의 토지·형법·행정을 조목조목 다시 설계했다. 통치를 도덕 훈계가 아니라 실무 제도의 문제로 옮겨 놓았다.",
+      "en": "Across eighteen years of exile he wrote some 500 volumes, including Mokminsimseo and Gyeongse yupyo, redesigning Joseon land tenure, penal law and administration clause by clause. He treated governing as a problem of working institutions rather than moral exhortation."
+    },
+    "choe-hangi": {
+      "ko": "성리학의 이(理) 대신 기(氣)와 경험으로 세계를 설명하려 했고, 서양 천문·의학 서적을 들여와 조선의 지식 체계에 붙였다. 천 권에 가까운 저술 대부분이 흩어졌지만 『기측체의』·『인정』이 남았다.",
+      "en": "He tried to explain the world through gi and observation rather than the neo-Confucian principle of i, and absorbed Western astronomy and medicine into Joseon scholarship. Most of his nearly one thousand volumes are lost; Gicheukcheui and Injeong survive."
+    },
+    "yun-dongju": {
+      "ko": "일제 말 한글로 쓴 시를 발표하지 못한 채 후쿠오카 형무소에서 죽었고, 유고가 해방 후 『하늘과 바람과 별과 시』로 묶였다. 부끄러움을 밖이 아니라 자기 안에서 먼저 묻는 문장을 남겼다.",
+      "en": "He died in Fukuoka prison without publishing the Korean-language poems he wrote under Japanese rule; the manuscripts appeared after liberation as Sky, Wind, Stars and Poetry. His lines turn the question of shame inward before turning it outward."
+    },
+    "yi-sang": {
+      "ko": "띄어쓰기와 숫자, 도면을 시에 끌어들여 「오감도」로 조선 문단을 뒤집었다. 소설 「날개」와 함께 한국어 모더니즘의 출발점으로 남았다.",
+      "en": "He pulled numerals, diagrams and broken spacing into verse, and Crow's Eye View split the Korean literary world in two. With the story Wings he became the starting point of Korean-language modernism."
+    },
+    "sejong-the-great": {
+      "ko": "백성이 제 뜻을 글로 펴지 못하는 것을 이유로 훈민정음을 만들어 1446년 반포했다. 측우기·자격루·『농사직설』처럼 관측과 농업 기술을 국가 사업으로 묶었다.",
+      "en": "Stating that ordinary people could not put their meaning into writing, he created Hunminjeongeum and promulgated it in 1446. He also organised measurement and farming knowledge as state projects, from the rain gauge and striking clepsydra to the agricultural manual Nongsa jikseol."
+    },
+    "yi-sun-sin": {
+      "ko": "임진왜란 7년 동안 조선 수군을 지휘했고, 명량에서 열세의 함선으로 물길을 막았다. 전쟁의 날짜별 기록인 『난중일기』가 남았다.",
+      "en": "He commanded the Joseon navy through the seven years of the Imjin War and held the strait at Myeongnyang with a heavily outnumbered fleet. His day-by-day record of the war, the Nanjung ilgi, survives."
+    },
+    "han-yongun": {
+      "ko": "3·1 운동 민족대표 33인으로 참여했고 「조선불교유신론」에서 불교의 개혁을 주장했다. 시집 『님의 침묵』에서 잃은 것을 향한 말과 신앙의 언어를 겹쳐 놓았다.",
+      "en": "He was one of the thirty-three signatories of the 1919 declaration of independence and argued for reform of Korean Buddhism in his treatise on Buddhist renewal. In the poems of The Silence of the Beloved he layers religious language over address to what has been lost."
+    },
+    "sin-chaeho": {
+      "ko": "역사를 왕조의 계보가 아니라 '아(我)와 비아(非我)의 투쟁'으로 다시 쓰자고 했고, 『조선상고사』로 고대사 서술을 바꿨다. 뤼순 감옥에서 죽었다.",
+      "en": "He argued that history should be written as a struggle between the self and the non-self rather than as a dynastic lineage, and rewrote Korean antiquity in Joseon sanggosa. He died in Lüshun prison."
+    },
+    "jeong-jiyong": {
+      "ko": "감정을 직접 말하지 않고 감각과 사물로 옮기는 방식을 한국 시에 정착시켰다. 「향수」·「유리창」이 남았고, 청록파 시인들이 그의 손을 거쳤다.",
+      "en": "He established a Korean poetics that carries feeling through sensation and objects instead of stating it. Nostalgia and Window Pane survive, and the Cheongnok poets came up through his editing."
+    },
+    "kim-yujeong": {
+      "ko": "강원도 농촌의 가난과 어수룩한 인물들을 웃음으로 감싸 「봄·봄」·「동백꽃」을 썼다. 스물아홉에 죽기까지 2년 남짓 사이에 서른 편 가까운 단편을 남겼다.",
+      "en": "He wrapped rural Gangwon poverty and its guileless characters in comedy in stories such as Spring, Spring and Camellias. He left close to thirty stories in barely two years before dying at twenty-nine."
+    },
+    "lee-yuksa": {
+      "ko": "의열단 활동으로 열일곱 차례 투옥되면서 「절정」·「광야」를 썼고, 베이징 감옥에서 죽었다. 필명 육사는 수인번호 264에서 왔다.",
+      "en": "Imprisoned seventeen times for his work with the armed independence movement, he wrote Summit and The Wilderness and died in a Beijing jail. His pen name Yuksa comes from his prisoner number, 264."
+    },
+    "lee-jung-seop": {
+      "ko": "전쟁으로 가족과 헤어진 뒤 담뱃갑 은박지에까지 소와 아이들을 새겼다. 은지화와 「흰 소」 연작이 남았다.",
+      "en": "Separated from his family by the war, he scratched oxen and children even into cigarette foil. The foil drawings and the White Ox paintings remain."
+    },
+    "kim-whanki": {
+      "ko": "달항아리·산·달의 형상에서 출발해 뉴욕에서 점 하나하나를 찍는 전면점화에 이르렀다. 한국 추상회화의 경로를 열어 놓았다.",
+      "en": "He began from moon jars, mountains and the moon and arrived in New York at all-over canvases built dot by dot. He opened the path Korean abstract painting would follow."
+    },
+    "park-soo-keun": {
+      "ko": "화강암 표면 같은 두꺼운 마티에르 위에 빨래터·행상·아이 업은 여인 같은 일상을 올렸다. 가난한 시절의 평범한 사람을 화면의 주인공으로 삼았다.",
+      "en": "On a thick granite-like surface he set washing places, street vendors and women carrying children on their backs. He made ordinary people of a poor decade the subject of the canvas."
+    },
+    "na-hye-seok": {
+      "ko": "한국 최초의 여성 서양화가로 개인전을 열었고, 「이혼고백서」에서 여성에게만 묻는 정조를 공개적으로 반박했다. 그림과 글 양쪽으로 여성의 자기 결정을 주장했다.",
+      "en": "The first Korean woman to paint in the Western manner and hold a solo exhibition, she publicly rejected the double standard of chastity in her Confession of Divorce. She argued for women's self-determination in both painting and prose."
+    },
+    "lee-hyoseok": {
+      "ko": "「메밀꽃 필 무렵」에서 달밤의 봉평 길을 서정적 문체로 그려 한국 단편의 표본을 만들었다. 자연 묘사와 인물의 내면을 한 문장 안에 붙이는 방식을 남겼다.",
+      "en": "When the Buckwheat Blooms, with its moonlit road through Bongpyeong, became a template for the Korean short story. He joined landscape description and inner life inside the same sentence."
+    },
+    "chae-mansik": {
+      "ko": "「탁류」·「태평천하」에서 식민지 사회의 위선을 풍자와 반어로 드러냈다. 화자가 인물 편을 드는 척하며 조롱하는 서술 방식을 썼다.",
+      "en": "In Muddy Currents and Peace Under Heaven he exposed colonial-era hypocrisy through satire and irony. His narrator pretends to side with a character while mocking him."
+    },
+    "yi-i": {
+      "ko": "기(氣)의 작용을 앞세운 이기론으로 이황과 다른 길을 냈고, 『성학집요』에서 군주가 배워야 할 것을 정리했다. 국방·세제 개혁안을 잇달아 올렸다.",
+      "en": "His account of i and gi, giving priority to the working of gi, diverged from Yi Hwang's, and Seonghak jibyo set out what a ruler must learn. He submitted successive proposals on defence and tax reform."
+    },
+    "yi-hwang": {
+      "ko": "이(理)의 능동성을 강조해 사단칠정 논쟁을 남겼고, 도산서원에서 후학을 길렀다. 『성학십도』로 학문 전체를 열 장의 그림으로 압축했다.",
+      "en": "Insisting on the activity of i, he left the Four-Seven debate behind him and taught at the Dosan academy. Ten Diagrams on Sage Learning compresses an entire curriculum into ten plates."
+    },
+    "kim-sowol": {
+      "ko": "민요의 가락을 현대시의 운율로 옮겨 「진달래꽃」·「초혼」을 남겼다. 떠나는 사람을 붙잡지 않는 말투가 이후 한국 서정시의 기본형이 되었다.",
+      "en": "He carried folk-song cadence into modern metre in Azaleas and Summoning the Soul. The voice that refuses to hold back someone leaving became a basic register of Korean lyric poetry."
+    },
+    "an-junggeun": {
+      "ko": "1909년 하얼빈역에서 이토 히로부미를 저격했고, 재판에서 자신을 대한의군 참모중장으로 규정했다. 옥중에서 「동양평화론」을 쓰다 처형됐다.",
+      "en": "He shot Itō Hirobumi at Harbin station in 1909 and told the court he had acted as a lieutenant general of the Korean righteous army. He was executed while writing his essay On Peace in East Asia."
+    },
+    "yun-seondo": {
+      "ko": "「어부사시사」·「오우가」로 시조의 형식을 끌어올렸고, 보길도에 세연정을 지어 원림을 남겼다. 유배와 은거를 오가며 우리말 노래를 다듬었다.",
+      "en": "The Fisherman's Calendar and Song of Five Friends raised the sijo form, and the Seyeonjeong garden he built on Bogil Island survives. He refined song in the Korean vernacular through cycles of exile and retreat."
+    },
+    "kim-jeonghui": {
+      "ko": "추사체를 이루었고, 북한산 비석을 진흥왕순수비로 판독해 금석학을 실증 학문으로 세웠다. 제주 유배 중 「세한도」를 그렸다.",
+      "en": "He formed the Chusa calligraphic style and, by reading the Bukhansan stele as King Jinheung's monument, put epigraphy on an evidential footing. He painted Sehando during exile on Jeju."
+    },
+    "confucius": {
+      "ko": "배움은 타고나는 것이 아니라 쌓는 것이라 보고, 신분이 아니라 배우려는 태도로 제자를 받았다. 통치자에게도 형벌보다 예(禮)와 본보기로 다스리라고 했고, 제자들이 그 말을 『논어』로 묶었다.",
+      "en": "He held that learning is accumulated rather than inborn, and took students by their willingness to learn rather than by rank. He told rulers to govern by ritual propriety and example rather than punishment; his students collected the sayings as the Analects."
+    },
+    "du-fu": {
+      "ko": "안사의 난으로 무너진 나라와 굶는 백성을 시의 소재로 삼아 「춘망」과 삼리삼별을 남겼다. 개인의 슬픔과 시대의 기록을 한 편 안에 겹쳐 놓아 시사(詩史)로 불린다.",
+      "en": "He made a collapsing state and starving people his material in Spring View and the Three Officers and Three Partings. Because personal grief and public record sit in the same poem, his work is called poet-history."
+    },
+    "matsuo-basho": {
+      "ko": "하이쿠를 말놀이에서 문학으로 끌어올렸고, 도호쿠를 걸어 다닌 기록을 『오쿠노호소미치』로 남겼다. 열일곱 자 안에 계절과 순간을 세우는 형식을 확립했다.",
+      "en": "He lifted haikai from word-play into literature and recorded his walk through the north as The Narrow Road to the Deep North. He fixed a form that stands a season and an instant inside seventeen syllables."
+    },
+    "murasaki-shikibu": {
+      "ko": "헤이안 궁정에서 『겐지 이야기』 54첩을 썼다. 인물의 심리와 흘러가는 세월을 이어 붙인 장편 서사를 11세기 초에 완성했다.",
+      "en": "At the Heian court she wrote the fifty-four chapters of The Tale of Genji. By the early eleventh century she had completed a long narrative that tracks inner life across passing decades."
+    },
+    "socrates": {
+      "ko": "글을 남기지 않고 아테네 광장에서 묻기만 했으며, 안다고 믿는 것을 되물어 상대의 전제를 무너뜨렸다. 신을 모독하고 젊은이를 타락시켰다는 죄목으로 사형을 받았다.",
+      "en": "He wrote nothing and only questioned, in the Athenian agora, dismantling his interlocutors' premises by asking what they claimed to know. He was condemned to death for impiety and corrupting the young."
+    },
+    "shakespeare": {
+      "ko": "37편 안팎의 희곡에서 왕과 광대에게 같은 밀도의 말을 주었다. 독백으로 인물이 스스로 흔들리는 과정을 무대 위에 올렸다.",
+      "en": "Across some thirty-seven plays he gave kings and fools language of equal density. The soliloquy let an audience watch a character waver in real time."
+    },
+    "goethe": {
+      "ko": "『파우스트』를 60년에 걸쳐 썼고, 『젊은 베르테르의 슬픔』으로 유럽을 흔들었다. 문학만이 아니라 색채론과 식물 형태학 연구도 함께 남겼다.",
+      "en": "He worked on Faust for sixty years and shook Europe with The Sorrows of Young Werther. Alongside the literature he left studies on colour and on plant morphology."
+    },
+    "dante": {
+      "ko": "피렌체에서 추방된 뒤 라틴어가 아니라 토스카나 속어로 『신곡』을 썼다. 그 선택이 이탈리아어 문학의 출발점이 되었다.",
+      "en": "Exiled from Florence, he wrote the Commedia in the Tuscan vernacular rather than Latin. That choice became the starting point of literature in Italian."
+    },
+    "tolstoy": {
+      "ko": "『전쟁과 평화』·『안나 카레니나』에서 개인의 선택과 역사의 힘을 같은 화면에 놓았다. 말년에는 재산과 교회를 버리고 비폭력·무저항을 주장해 간디에게 이어졌다.",
+      "en": "War and Peace and Anna Karenina hold individual choice and historical force in a single frame. In later life he renounced property and the church and argued for non-resistance, a line that carried to Gandhi."
+    },
+    "rumi": {
+      "ko": "페르시아어로 『마스나비』와 수만 행의 시를 남겼고, 사랑을 신에게 이르는 길로 노래했다. 그를 따르는 이들이 회전춤으로 알려진 메블레비 교단을 세웠다.",
+      "en": "He left the Masnavi and tens of thousands of lines in Persian, singing love as the road to God. Those who followed him founded the Mevlevi order known for its turning dance."
+    },
+    "tagore": {
+      "ko": "『기탄잘리』로 1913년 아시아 최초의 노벨 문학상을 받았고, 벵골어 시를 세계에 열었다. 산티니케탄에 학교를 세워 시험이 아닌 교육을 실험했다.",
+      "en": "Gitanjali brought him the 1913 Nobel Prize, the first for Asia, and opened Bengali poetry to the world. At Santiniketan he founded a school to test an education not built on examinations."
+    },
+    "mark-twain": {
+      "ko": "『허클베리 핀의 모험』에서 미국 남부의 말투를 그대로 문장으로 옮겼다. 노예제와 인종 문제를 소년의 눈높이에서 정면으로 다뤘다.",
+      "en": "Huckleberry Finn put the spoken American South directly onto the page. He faced slavery and race head-on at a boy's eye level."
+    },
+    "neruda": {
+      "ko": "사랑시로 시작해 『모두의 노래』에서 라틴아메리카의 땅·노동·사람을 서사시의 주인공으로 올렸다. 외교관과 상원의원으로 일하며 시와 정치를 분리하지 않았다.",
+      "en": "He began with love poems and, in Canto General, made the land, labour and people of Latin America the subject of epic. Working as consul and senator, he never separated poetry from politics."
+    },
+    "mahfouz": {
+      "ko": "카이로 뒷골목의 3대를 따라간 『카이로 삼부작』으로 아랍 소설의 형태를 만들었다. 1988년 아랍어권 최초의 노벨 문학상을 받았다.",
+      "en": "The Cairo Trilogy, following three generations through the city's back streets, shaped the modern Arabic novel. In 1988 he became the first Arabic-language writer to receive the Nobel Prize."
+    },
+    "jose-rizal": {
+      "ko": "『놀리 메 탕헤레』·『엘 필리부스테리스모』로 스페인 식민 통치를 소설로 고발했고, 서른다섯에 총살됐다. 무장봉기보다 교육과 개혁을 주장했다.",
+      "en": "Noli Me Tángere and El Filibusterismo indicted Spanish colonial rule in fiction; he was executed by firing squad at thirty-five. He argued for education and reform rather than armed revolt."
+    },
+    "mansfield": {
+      "ko": "사건이 아니라 한순간의 인식으로 끝나는 단편 형식을 다듬었다. 뉴질랜드의 기억을 「가든 파티」 같은 작품에 남겼다.",
+      "en": "She refined a short story that ends on a moment of recognition rather than on an event. Her New Zealand childhood survives in pieces such as The Garden Party."
+    },
+    "victor-hugo": {
+      "ko": "『레 미제라블』·『노트르담 드 파리』에서 가난과 형벌 제도를 소설의 중심에 놓았다. 사형제 폐지와 공화정을 주장하다 19년을 망명으로 보냈다.",
+      "en": "Les Misérables and The Hunchback of Notre-Dame put poverty and the penal system at the centre of the novel. He spent nineteen years in exile for arguing against the death penalty and for the republic."
+    },
+    "cervantes": {
+      "ko": "기사도 소설을 비틀어 쓴 『돈키호테』에서 인물이 자기 이야기를 읽는 구조를 만들었다. 근대 소설의 출발점으로 꼽힌다.",
+      "en": "Don Quixote, written against the chivalric romance, built a structure in which characters read their own story. It is generally taken as the starting point of the modern novel."
+    },
+    "van-gogh": {
+      "ko": "10년 남짓 그리며 2,000점 가까이 남겼고, 생전에 팔린 그림은 거의 없었다. 색과 붓자국 자체가 감정을 옮기는 방식을 열었다.",
+      "en": "He painted for barely ten years, left close to two thousand works, and sold almost nothing in his lifetime. He opened a way in which colour and brushstroke themselves carry feeling."
+    },
+    "james-joyce": {
+      "ko": "『율리시스』에서 더블린의 하루를 의식의 흐름으로 옮겼다. 『피네간의 경야』에 이르러서는 언어 자체를 실험 대상으로 삼았다.",
+      "en": "Ulysses renders a single Dublin day as stream of consciousness. By Finnegans Wake the material under experiment was language itself."
+    },
+    "mozart": {
+      "ko": "35년 동안 600곡 넘게 써서 교향곡·오페라·협주곡 전 영역을 남겼다. 오페라에서 인물의 성격을 선율로 구분하는 방식을 세웠다.",
+      "en": "In thirty-five years he wrote more than six hundred works across symphony, opera and concerto. In opera he established a way of distinguishing character by melodic line."
+    },
+    "chopin": {
+      "ko": "거의 전 작품을 피아노 한 대에 걸었고, 폴란드 춤곡인 마주르카·폴로네즈를 예술음악으로 올렸다. 파리 망명 중에도 고국의 리듬을 놓지 않았다.",
+      "en": "He staked nearly his entire output on the piano alone and raised the Polish mazurka and polonaise into art music. Exiled in Paris, he never let go of those rhythms."
+    },
+    "kafka": {
+      "ko": "출판을 원하지 않은 원고가 친구의 손에 남아 『소송』·『성』으로 나왔다. 이유를 알 수 없는 관료 기구 앞에 선 개인을 문학의 주제로 만들었다.",
+      "en": "Manuscripts he did not want published survived with a friend and appeared as The Trial and The Castle. He made the individual before an unexplained bureaucracy a subject for literature."
+    },
+    "ibsen": {
+      "ko": "『인형의 집』에서 아내가 문을 닫고 나가는 결말로 유럽 극장을 갈라놓았다. 응접실을 무대로 사회 문제를 다루는 근대극을 열었다.",
+      "en": "The closing door at the end of A Doll's House divided European theatre. He opened a modern drama that argued social questions inside a drawing room."
+    },
+    "andersen": {
+      "ko": "「미운 오리 새끼」·「인어공주」 등 150편 넘는 창작 동화를 썼다. 민담을 옮겨 적는 대신 아이와 어른이 같이 읽는 이야기를 만들었다.",
+      "en": "He wrote more than 150 original tales, among them The Ugly Duckling and The Little Mermaid. Rather than transcribing folklore he made stories that children and adults read together."
+    },
+    "linnaeus": {
+      "ko": "생물을 속명과 종명 두 낱말로 부르는 이명법을 정착시켰다. 『자연의 체계』로 오늘날까지 쓰이는 분류 체계의 뼈대를 놓았다.",
+      "en": "He established binomial nomenclature, naming each organism by genus and species. Systema Naturae laid the frame of the classification still in use."
+    },
+    "hafez": {
+      "ko": "가잘 형식을 페르시아어 서정시의 정점으로 끌어올렸다. 이란에서는 지금도 그의 시집을 펼쳐 앞일을 묻는 관습이 남아 있다.",
+      "en": "He brought the ghazal to the height of Persian lyric. In Iran the practice of opening his divan to ask about the future survives to this day."
+    },
+    "gibran": {
+      "ko": "『예언자』를 영어로 써서 20세기 영어권에서 가장 많이 읽힌 시집 가운데 하나가 되었다. 아랍 이민자의 언어로 사랑·일·자유를 짧은 산문시로 정리했다.",
+      "en": "The Prophet, written in English, became one of the most widely read books of verse of the twentieth century. In the language of an Arab immigrant he set out love, work and freedom as short prose poems."
+    },
+    "nguyen-du": {
+      "ko": "쯔놈으로 쓴 3,254행의 『쭈옌 끼에우』를 남겼고, 베트남에서 국민 서사시로 읽힌다. 팔려간 여성의 삶을 통해 시대의 무게를 옮겼다.",
+      "en": "His 3,254-line Tale of Kiều, written in chữ Nôm, is read in Vietnam as the national epic. He carried the weight of an era through the life of a woman who is sold."
+    },
+    "iqbal": {
+      "ko": "페르시아어·우르두어 시로 개인의 자아(후디)를 철학의 중심에 놓았다. 인도 무슬림의 독립된 정치 공동체를 처음 구상해 파키스탄 건국의 사상적 배경이 되었다.",
+      "en": "In Persian and Urdu verse he placed the self, khudi, at the centre of his philosophy. He first proposed a separate political community for India's Muslims, which became the intellectual background to Pakistan."
+    },
+    "achebe": {
+      "ko": "『모든 것이 산산이 부서지다』에서 식민지 이전 이보 사회를 아프리카인의 시선으로 썼다. 아프리카 문학이 영어로 세계에 닿는 통로를 열었다.",
+      "en": "Things Fall Apart wrote pre-colonial Igbo society from an African point of view. He opened the route by which African literature reached the world in English."
+    },
+    "mandela": {
+      "ko": "27년을 감옥에서 보낸 뒤 남아프리카공화국 최초의 흑인 대통령이 되었고, 보복 대신 진실화해위원회를 택했다. 아파르트헤이트 해체를 협상으로 마무리했다.",
+      "en": "After twenty-seven years in prison he became South Africa's first Black president and chose a truth and reconciliation process over retribution. He closed out apartheid by negotiation."
+    },
+    "borges": {
+      "ko": "도서관·미로·무한을 짧은 단편으로 옮겨 『픽션들』을 남겼다. 소설을 이야기가 아니라 사고 실험으로 쓸 수 있음을 보여 줬다.",
+      "en": "Libraries, labyrinths and infinity became short fictions in Ficciones. He showed that a story could be written as a thought experiment rather than a plot."
+    },
+    "ibn-battuta": {
+      "ko": "30년 동안 아프리카·아시아·유럽을 12만 km 다니며 본 것을 『리흘라』로 구술했다. 14세기 이슬람 세계의 도시와 관습에 대한 1차 기록으로 남았다.",
+      "en": "Over thirty years he travelled some 120,000 km across Africa, Asia and Europe and dictated what he saw as the Rihla. It survives as a first-hand record of fourteenth-century Islamic cities and customs."
+    },
+    "garcia-marquez": {
+      "ko": "『백년의 고독』에서 마콘도라는 마을의 100년을 신화와 일상이 섞인 문체로 썼다. 마술적 사실주의를 세계 문학의 공용어로 만들었다.",
+      "en": "One Hundred Years of Solitude tells a century of the village of Macondo in a register where myth and daily life are indistinguishable. He made magical realism a common language of world literature."
+    },
+    "sor-juana": {
+      "ko": "수녀원에서 4,000권에 이르는 장서를 모으고 시와 논문을 썼다. 「필로테아 수녀에게 보내는 답신」에서 여성이 학문할 권리를 논증했다.",
+      "en": "In her convent she assembled a library of some four thousand volumes and wrote poetry and treatises. Her Reply to Sister Filotea argues the case for a woman's right to study."
+    },
+    "machado-de-assis": {
+      "ko": "죽은 사람이 화자로 말하는 『브라스 쿠바스의 사후 회고록』을 썼다. 브라질 문학원을 세우고 초대 원장을 맡았다.",
+      "en": "The Posthumous Memoirs of Brás Cubas is narrated by a dead man. He founded the Brazilian Academy of Letters and served as its first president."
+    },
+    "banjo-paterson": {
+      "ko": "「왈칭 마틸다」와 「스노위 강에서 온 남자」로 호주 내륙의 말과 풍경을 시에 담았다. 부시 발라드를 호주의 국민적 형식으로 만들었다.",
+      "en": "Waltzing Matilda and The Man from Snowy River put the speech and landscape of the Australian interior into verse. He made the bush ballad a national form."
+    },
+    "kartini": {
+      "ko": "자바 귀족 가문에서 외출과 교육이 막힌 채 네덜란드 친구들에게 편지를 썼다. 사후 출간된 그 편지가 인도네시아 여성 교육 운동의 출발점이 되었다.",
+      "en": "Confined by the customs of a Javanese noble household, she wrote letters to Dutch friends. Published after her death, they became the starting point of the Indonesian women's education movement."
+    },
+    "lm-montgomery": {
+      "ko": "『빨간 머리 앤』에서 프린스에드워드섬의 풍경과 고아 소녀의 말을 함께 남겼다. 이후 20권 넘는 작품으로 그 섬 자체를 문학의 장소로 만들었다.",
+      "en": "Anne of Green Gables preserved both the landscape of Prince Edward Island and the voice of an orphan girl. More than twenty books later, the island itself had become a literary place."
+    },
+    "dostoevsky": {
+      "ko": "사형 직전 감형과 시베리아 유형을 겪은 뒤 『죄와 벌』·『카라마조프가의 형제들』을 썼다. 신·자유·죄를 인물들의 논쟁으로 풀어내는 소설 형식을 만들었다.",
+      "en": "After a reprieve at the scaffold and Siberian penal exile he wrote Crime and Punishment and The Brothers Karamazov. He built a novel in which God, freedom and guilt are argued out between characters."
+    },
+    "pushkin": {
+      "ko": "운문 소설 『예브게니 오네긴』으로 러시아 문학어의 기준을 세웠다. 교회 슬라브어와 일상 구어를 섞어 이후 러시아 산문의 바탕을 만들었다.",
+      "en": "The verse novel Eugene Onegin set the standard for literary Russian. By mixing Church Slavonic with everyday speech he laid the ground for later Russian prose."
+    },
+    "li-bai": {
+      "ko": "형식에 매이지 않는 가락으로 술·달·여행을 노래해 1,000편 가까운 시가 전한다. 두보와 함께 당시(唐詩)의 두 축으로 읽힌다.",
+      "en": "Wine, the moon and travel run through nearly a thousand surviving poems written in a metre he refused to be bound by. He and Du Fu are read as the two poles of Tang poetry."
+    },
+    "voltaire": {
+      "ko": "『캉디드』와 수많은 팸플릿으로 교회의 불관용과 사법 살인을 공격했다. 칼라스 사건의 재심을 끌어내 여론이 판결을 뒤집을 수 있음을 보여 줬다.",
+      "en": "Candide and a stream of pamphlets attacked religious intolerance and judicial murder. By forcing a retrial in the Calas case he showed that public opinion could overturn a verdict."
+    },
+    "dickens": {
+      "ko": "월간 연재 형식으로 『올리버 트위스트』·『두 도시 이야기』를 썼다. 빈민가와 아동 노동을 소설의 전면에 올려 여론을 움직였다.",
+      "en": "He wrote Oliver Twist and A Tale of Two Cities in monthly instalments. Putting slums and child labour at the front of the novel, he moved public opinion."
+    },
+    "natsume-soseki": {
+      "ko": "『나는 고양이로소이다』·『마음』에서 서구화하는 일본과 개인의 고독을 함께 다뤘다. 근대 일본어 산문의 문체를 정리했다.",
+      "en": "I Am a Cat and Kokoro hold a westernising Japan and individual loneliness in the same frame. He settled the prose style of modern Japanese."
+    },
+    "pessoa": {
+      "ko": "이름과 문체와 생년까지 다른 70여 명의 이명(異名)을 만들어 각각의 시를 썼다. 『불안의 책』이 사후 원고 상자에서 나왔다.",
+      "en": "He invented some seventy heteronyms with their own names, styles and birthdates, and wrote each one's poems. The Book of Disquiet came out of a trunk of manuscripts after his death."
+    },
+    "petofi": {
+      "ko": "「민족의 노래」로 1848년 헝가리 혁명의 언어를 만들었고, 스물여섯에 전장에서 사라졌다. 민중의 말투를 그대로 시의 문체로 삼았다.",
+      "en": "The National Song gave the 1848 Hungarian revolution its language; he vanished on a battlefield at twenty-six. He took ordinary speech as the register of poetry."
+    },
+    "sibelius": {
+      "ko": "「핀란디아」와 일곱 편의 교향곡으로 핀란드어권의 음악 정체성을 세웠다. 러시아 통치 아래 검열을 피해 다른 제목으로 연주되기도 했다.",
+      "en": "Finlandia and seven symphonies built a musical identity for Finnish speakers. Under Russian rule the piece was performed under other titles to evade censorship."
+    },
+    "rousseau": {
+      "ko": "『사회계약론』에서 정당한 권력은 사람들의 합의에서만 나온다고 주장했다. 『에밀』로 아이를 어른의 축소판이 아니라 다른 존재로 보는 교육관을 폈다.",
+      "en": "The Social Contract argues that legitimate power arises only from the agreement of the governed. Émile set out an education that treats a child as a different kind of being, not a small adult."
+    },
+    "magritte": {
+      "ko": "파이프 그림 아래 '이것은 파이프가 아니다'라고 적어 이미지와 말의 관계를 문제 삼았다. 익숙한 사물을 낯선 자리에 두는 방식을 그림의 문법으로 만들었다.",
+      "en": "Writing 'this is not a pipe' under a painted pipe, he made the relation of image and word a problem. Placing familiar objects in unfamiliar positions became a grammar of painting."
+    },
+    "shevchenko": {
+      "ko": "농노로 태어나 값을 치르고 자유를 산 뒤 우크라이나어로 『코브자르』를 썼다. 우크라이나어 문학의 출발점으로 읽히며 유형과 창작 금지를 겪었다.",
+      "en": "Born a serf and freed by purchase, he wrote Kobzar in Ukrainian. Read as the starting point of Ukrainian literature, he was later exiled and forbidden to write or paint."
+    },
+    "sunthorn-phu": {
+      "ko": "『프라 아파이 마니』 등 장편 운문 이야기로 태국 시의 운율 형식을 정리했다. 궁정 시인과 승려를 오가며 구어에 가까운 태국어로 썼다.",
+      "en": "Long verse narratives such as Phra Aphai Mani settled the metrical forms of Thai poetry. Moving between court poet and monk, he wrote in a Thai close to ordinary speech."
+    },
+    "cesar-vallejo": {
+      "ko": "『트릴세』에서 문법과 철자를 깨뜨려 스페인어 시의 한계를 밀어냈다. 파리 망명과 스페인 내전을 겪으며 고통을 추상이 아닌 몸의 언어로 썼다.",
+      "en": "Trilce broke grammar and spelling to push at the limits of Spanish verse. Through exile in Paris and the Spanish Civil War he wrote suffering in the language of the body rather than of abstraction."
+    },
+    "jose-marti": {
+      "ko": "쿠바 독립전쟁을 조직하며 시·연설·신문 기사를 함께 썼다. 「관타나메라」의 가사가 된 『소박한 시』를 남겼다.",
+      "en": "He organised the Cuban war of independence while writing poems, speeches and journalism. His Versos sencillos supplied the words later sung as Guantanamera."
+    },
+    "ruben-dario": {
+      "ko": "『푸름』·『속(俗)의 노래』로 모데르니스모를 열어 스페인어 시의 운율과 어휘를 바꿨다. 라틴아메리카의 시가 스페인 본국에 영향을 준 첫 사례로 꼽힌다.",
+      "en": "Azul and Prosas profanas opened modernismo and changed the metre and vocabulary of poetry in Spanish. It is taken as the first case of Latin American verse influencing Spain rather than the reverse."
+    },
+    "senghor": {
+      "ko": "네그리튀드를 내걸어 아프리카의 미학을 프랑스어 시로 주장했고, 세네갈 초대 대통령을 20년 지냈다. 임기를 스스로 마치고 물러났다.",
+      "en": "Under the banner of négritude he argued an African aesthetic in French verse, and served twenty years as Senegal's first president. He stepped down of his own accord."
+    },
+    "plato": {
+      "ko": "스승 소크라테스를 화자로 세운 대화편으로 철학을 썼고, 아테네에 아카데메이아를 세웠다. 『국가』에서 정의가 무엇인지와 누가 다스려야 하는지를 함께 물었다.",
+      "en": "He wrote philosophy as dialogue with Socrates as speaker and founded the Academy at Athens. The Republic asks what justice is and who should rule in the same argument."
+    },
+    "aristotle": {
+      "ko": "논리학·자연학·윤리학·시학을 각각의 분야로 나누고 그 방법을 정리했다. 관찰과 분류로 학문을 세우는 방식이 이후 서구 학문의 틀이 되었다.",
+      "en": "He separated logic, natural science, ethics and poetics into fields and set out a method for each. Building knowledge by observation and classification became the frame of Western learning."
+    },
+    "mencius": {
+      "ko": "사람의 본성은 선하다는 전제 위에서 유가를 다시 세웠다. 백성이 가장 귀하고 임금은 가볍다고 말하며 폭군의 교체를 정당화했다.",
+      "en": "He rebuilt Confucianism on the premise that human nature is good. Holding that the people matter most and the ruler least, he justified removing a tyrant."
+    },
+    "sima-qian": {
+      "ko": "궁형을 받고도 『사기』 130권을 마쳤다. 왕조 연대기와 인물 열전을 나눠 쓰는 기전체를 만들어 동아시아 역사 서술의 형식이 되었다.",
+      "en": "He completed the 130 chapters of the Shiji after being sentenced to castration. His division into annals and biographies became the standard form of East Asian historiography."
+    },
+    "qu-yuan": {
+      "ko": "추방된 신하의 목소리로 「이소」를 써서 초사(楚辭)라는 형식을 열었다. 그를 기리는 단오와 용선 경주가 남았다.",
+      "en": "Li Sao, in the voice of a banished official, opened the form known as the Songs of Chu. The Duanwu festival and its dragon boat races commemorate him."
+    },
+    "ashoka": {
+      "ko": "칼링가 전쟁의 참상 뒤 정복을 멈추고 바위와 돌기둥에 통치 원칙을 새겼다. 그 비문이 인도 최초의 문자 기록 가운데 하나로 남았다.",
+      "en": "After the carnage of the Kalinga war he stopped conquering and had his principles of rule carved on rocks and pillars. Those inscriptions survive among the earliest written records from India."
+    },
+    "aryabhata": {
+      "ko": "『아리아바티야』에서 원주율을 3.1416으로 계산하고 지구가 스스로 돈다고 적었다. 사인표와 이차방정식 해법을 정리했다.",
+      "en": "The Aryabhatiya gives pi as 3.1416 and states that the earth rotates on its axis. It also sets out a sine table and solutions to quadratic equations."
+    },
+    "augustine": {
+      "ko": "『고백록』으로 자기 내면을 서술하는 글쓰기를 만들었고, 『신국론』에서 세속의 나라와 신의 나라를 갈라 놓았다. 서구 신학과 자서전 양쪽의 출발점이 되었다.",
+      "en": "The Confessions created a way of writing the inner self, and The City of God separated the earthly city from the divine one. He stands at the head of both Western theology and autobiography."
+    },
+    "ibn-sina": {
+      "ko": "『의학전범』이 유럽 의과대학에서 수백 년 동안 교재로 쓰였다. 아리스토텔레스 철학과 이슬람 신학을 잇는 체계를 세웠다.",
+      "en": "The Canon of Medicine served as a university textbook in Europe for centuries. He built a system joining Aristotelian philosophy to Islamic theology."
+    },
+    "omar-khayyam": {
+      "ko": "삼차방정식을 기하학으로 푸는 방법을 정리하고, 잘랄리력을 계산해 오차를 크게 줄였다. 그의 이름으로 전하는 『루바이야트』가 19세기 영역으로 다시 알려졌다.",
+      "en": "He set out geometric solutions to cubic equations and computed the Jalali calendar, sharply reducing its error. The Rubaiyat attributed to him returned to notice through a nineteenth-century English translation."
+    },
+    "ibn-khaldun": {
+      "ko": "『무캇디마』에서 왕조의 흥망을 집단의 연대감(아사비야)으로 설명했다. 역사를 사건 나열이 아니라 사회의 규칙성으로 다루려 한 시도로 읽힌다.",
+      "en": "The Muqaddima explains the rise and fall of dynasties through group solidarity, asabiyya. It is read as an attempt to treat history as social regularity rather than a list of events."
+    },
+    "mansa-musa": {
+      "ko": "1324년 메카 순례길에 대규모의 금을 풀어 카이로의 금값을 흔들었다. 팀북투에 학자와 건축가를 불러 모아 상카레 모스크와 학문 중심지를 세웠다.",
+      "en": "On his 1324 pilgrimage to Mecca he distributed so much gold that prices in Cairo were disturbed. He drew scholars and builders to Timbuktu, raising the Sankoré mosque and a centre of learning."
+    },
+    "sei-shonagon": {
+      "ko": "『마쿠라노소시』에서 목록과 단상으로 궁정의 하루를 적었다. 사건이 아니라 취향과 감각을 기준으로 쓰는 수필 형식을 만들었다.",
+      "en": "The Pillow Book records court days in lists and fragments. She made an essay form organised by taste and sensation rather than by event."
+    },
+    "leonardo": {
+      "ko": "「최후의 만찬」·「모나리자」와 함께 해부·비행·수력에 관한 노트 수천 장을 남겼다. 관찰한 것을 그림으로 기록하는 방식을 끝까지 밀고 나갔다.",
+      "en": "Alongside The Last Supper and the Mona Lisa he left thousands of notebook pages on anatomy, flight and water. He pushed to its limit the practice of recording observation by drawing."
+    },
+    "michelangelo": {
+      "ko": "「다비드」와 시스티나 예배당 천장화를 남기고 성 베드로 대성당 돔을 설계했다. 조각·회화·건축을 한 사람의 작업으로 묶었다.",
+      "en": "He left the David and the Sistine ceiling and designed the dome of St Peter's. Sculpture, painting and architecture became one person's single body of work."
+    },
+    "hokusai": {
+      "ko": "「후지산 36경」의 「가나가와 앞바다의 파도」로 우키요에를 풍경 장르로 넓혔다. 그의 판화가 유럽으로 건너가 인상파의 구도에 영향을 줬다.",
+      "en": "The Great Wave off Kanagawa, from Thirty-six Views of Mount Fuji, widened ukiyo-e into landscape. His prints reached Europe and shaped Impressionist composition."
+    },
+    "rembrandt": {
+      "ko": "빛과 어둠의 대비로 인물의 얼굴에 시간을 새겼고, 40년에 걸쳐 자화상을 계속 그렸다. 「야경」에서 집단 초상화를 정지된 배열이 아니라 하나의 장면으로 바꿨다.",
+      "en": "Contrasts of light and dark cut time into his sitters' faces, and he painted himself for forty years. The Night Watch turned the group portrait from an arrangement into a scene."
+    },
+    "frida-kahlo": {
+      "ko": "교통사고 후유증과 잇단 수술을 그림의 소재로 삼아 55점의 자화상을 남겼다. 멕시코 민중미술의 형식과 자기 몸의 기록을 겹쳐 놓았다.",
+      "en": "She made the aftermath of a road accident and repeated surgeries her subject, leaving fifty-five self-portraits. Mexican popular forms and the record of her own body sit in the same picture."
+    },
+    "gandhi": {
+      "ko": "소금 행진과 불복종으로 비폭력(아힘사)과 사티아그라하를 정치의 방법으로 만들었다. 인도 독립운동을 대중이 직접 참여하는 형태로 바꿨다.",
+      "en": "The salt march and civil disobedience turned ahimsa and satyagraha into political method. He remade the Indian independence movement as something ordinary people took part in directly."
+    },
+    "sun-yat-sen": {
+      "ko": "민족·민권·민생의 삼민주의를 내걸고 청 왕조를 무너뜨린 신해혁명을 이끌었다. 중화민국 초대 임시대총통을 지냈다.",
+      "en": "Under the Three Principles of the People he led the 1911 revolution that ended the Qing dynasty. He served as the first provisional president of the Republic of China."
+    },
+    "bolivar": {
+      "ko": "베네수엘라·콜롬비아·에콰도르·페루·볼리비아의 독립을 이끌었다. 남아메리카를 하나의 연방으로 묶으려 했으나 이루지 못했다.",
+      "en": "He led the independence of Venezuela, Colombia, Ecuador, Peru and Bolivia. His attempt to bind South America into a single federation failed."
+    },
+    "unaipon": {
+      "ko": "양털 깎는 기계를 비롯해 아홉 건의 특허를 출원했고, 호주 원주민 최초로 책을 출간했다. 응아링제리의 구전 설화를 문자로 옮겨 남겼다.",
+      "en": "He filed nine patents, among them an improved sheep-shearing handpiece, and was the first Aboriginal Australian to publish a book. He put Ngarrindjeri oral legends into writing."
+    },
+    "ngata": {
+      "ko": "마오리 토지법과 농업 정책을 만들어 부족의 토지 기반을 되살렸다. 마오리 노래·조각·집회소를 기록하고 복원하는 사업을 이끌었다.",
+      "en": "He drafted Māori land and farming legislation that restored the tribal land base. He also led the recording and restoration of Māori song, carving and meeting houses."
+    },
+    "al-khwarizmi": {
+      "ko": "『알자브르』에서 방정식을 이항과 정리로 푸는 절차를 세웠고, 그 제목에서 대수학(algebra)이 나왔다. 그의 이름은 알고리즘(algorithm)의 어원이 되었다.",
+      "en": "Al-jabr set out a procedure for solving equations by transposition and balancing, and gave algebra its name. His own name is the origin of the word algorithm."
+    },
+    "claude-shannon": {
+      "ko": "1948년 논문에서 정보를 비트로 재고, 잡음이 있는 통신로가 실어 나를 수 있는 한계를 계산했다. 그 전에는 스위치 회로를 불 대수로 다룰 수 있음을 보여 디지털 회로 설계의 바탕을 놓았다.",
+      "en": "His 1948 paper measured information in bits and computed the capacity of a noisy channel. Earlier he had shown that switching circuits could be handled as Boolean algebra, laying the ground for digital design."
+    },
+    "john-von-neumann": {
+      "ko": "프로그램과 데이터를 같은 메모리에 두는 컴퓨터 구조를 정리했고, 게임이론을 경제학의 도구로 만들었다. 양자역학의 수학적 기초도 함께 세웠다.",
+      "en": "He set out the computer architecture that keeps program and data in the same memory, and made game theory a tool of economics. He also built the mathematical foundations of quantum mechanics."
+    },
+    "douglas-engelbart": {
+      "ko": "1968년 시연에서 마우스·창·하이퍼텍스트·화상회의를 한자리에서 보여 줬다. 컴퓨터를 계산기가 아니라 생각을 돕는 도구로 규정했다.",
+      "en": "His 1968 demonstration showed the mouse, windows, hypertext and video conferencing in one sitting. He defined the computer as a tool for augmenting thought rather than a calculator."
+    },
+    "alan-kay": {
+      "ko": "객체지향 언어 스몰토크와 겹치는 창 인터페이스를 만들었고, 개인용 휴대 컴퓨터 다이나북을 구상했다. 아이들이 쓰는 컴퓨터를 설계 기준으로 삼았다.",
+      "en": "He built the object-oriented language Smalltalk and the overlapping-window interface, and proposed the Dynabook portable computer. He took a computer for children as the design target."
+    },
+    "robert-noyce": {
+      "ko": "평면 공정으로 만든 집적회로를 실용화하고 인텔을 공동 창업했다. 실리콘밸리의 수평적인 회사 운영 방식을 만든 인물로 꼽힌다.",
+      "en": "He made the planar integrated circuit practical and co-founded Intel. He is credited with the flat, informal company style that spread through Silicon Valley."
+    },
+    "gordon-moore": {
+      "ko": "1965년 글에서 집적회로의 소자 수가 일정 주기로 두 배가 된다고 관측했고, 이것이 무어의 법칙이 되었다. 인텔을 공동 창업해 반도체 산업의 일정표를 만들었다.",
+      "en": "A 1965 article observed that the number of components on a chip doubles at a regular interval, and became known as Moore's law. Co-founding Intel, he turned that observation into the industry's timetable."
+    },
+    "steve-jobs": {
+      "ko": "애플에서 매킨토시·아이팟·아이폰을 내놓아 개인용 기기의 형태를 바꿨다. 픽사를 사들여 장편 컴퓨터 애니메이션을 산업으로 만들었다.",
+      "en": "At Apple he shipped the Macintosh, the iPod and the iPhone, changing the shape of personal devices. Buying Pixar, he turned feature-length computer animation into an industry."
+    },
+    "steve-wozniak": {
+      "ko": "애플 I·II를 혼자 설계해 개인용 컴퓨터를 부품 상자에서 완제품으로 옮겼다. 최소한의 칩으로 컬러 그래픽과 디스크 제어를 구현했다.",
+      "en": "He designed the Apple I and II alone, moving the personal computer from a box of parts to a finished product. He implemented colour graphics and disk control with a minimum of chips."
+    },
+    "bill-gates": {
+      "ko": "마이크로소프트를 세워 PC 운영체제와 오피스를 사실상의 표준으로 만들었다. 이후 재단을 통해 감염병 퇴치와 백신 보급에 재산을 투입했다.",
+      "en": "He founded Microsoft and made its operating system and office suite the de facto standard for the PC. He has since directed his fortune through a foundation into disease control and vaccination."
+    },
+    "jeff-bezos": {
+      "ko": "아마존을 세워 온라인 소매의 표준을 만들었고, AWS로 클라우드 컴퓨팅 시장을 열었다. 블루오리진으로 재사용 발사체를 개발했다.",
+      "en": "He founded Amazon and set the pattern for online retail, then opened the cloud computing market with AWS. Through Blue Origin he has developed reusable launch vehicles."
+    },
+    "larry-page": {
+      "ko": "링크 구조로 웹페이지의 중요도를 계산하는 페이지랭크를 만들어 구글을 세웠다. 검색을 광고로 지탱되는 서비스로 성립시켰다.",
+      "en": "PageRank, which ranks web pages by link structure, became the basis of Google. He made search viable as an advertising-supported service."
+    },
+    "jensen-huang": {
+      "ko": "엔비디아를 창업해 GPU를 만들었고, CUDA로 그래픽 칩을 범용 계산에 열었다. 그 선택이 오늘날 AI 학습 인프라의 바탕이 되었다.",
+      "en": "He founded Nvidia and built the GPU, then opened graphics chips to general computation with CUDA. That decision underlies today's AI training infrastructure."
+    },
+    "elon-musk": {
+      "ko": "테슬라로 전기차를 대량 생산 궤도에 올리고, 스페이스X로 로켓 1단 회수를 실용화했다. 스타링크로 위성 인터넷을 상용화했다.",
+      "en": "Tesla put the electric car into volume production and SpaceX made first-stage recovery routine. Starlink brought satellite internet to commercial service."
+    },
+    "geoffrey-hinton": {
+      "ko": "역전파와 심층 신경망 연구를 이어 가 2012년 이미지 인식에서 딥러닝의 성능을 입증했다. 이후 인공지능의 위험을 공개적으로 경고해 왔다.",
+      "en": "He carried backpropagation and deep neural networks forward, and in 2012 demonstrated their performance on image recognition. He has since warned publicly about the risks of artificial intelligence."
+    },
+    "sam-altman": {
+      "ko": "OpenAI를 이끌며 GPT 계열 모델과 ChatGPT를 대중에게 내놓았다. 대규모 언어모델을 제품과 규제 논의의 한복판으로 옮겼다.",
+      "en": "Leading OpenAI, he brought the GPT models and ChatGPT to the general public. He moved large language models into the centre of both product and regulatory debate."
+    },
+    "demis-hassabis": {
+      "ko": "딥마인드를 세워 알파고로 바둑을, 알파폴드로 단백질 구조 예측을 풀었다. 알파폴드의 공로로 2024년 노벨 화학상을 받았다.",
+      "en": "He founded DeepMind, which solved Go with AlphaGo and protein structure prediction with AlphaFold. AlphaFold brought him a share of the 2024 Nobel Prize in Chemistry."
+    }
+  }
+}

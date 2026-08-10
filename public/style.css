@@ -340,6 +340,14 @@ body { display: flex; flex-direction: column; }
 }
 .seg-empty { font-size: 13px; color: var(--ink-faint); }
 
+/* ── 무엇을 남겼나 ──
+   우리가 쓴 문장이다. 사료(인물명·인용문·저작)는 세리프이므로 여기는 산세리프를 써서
+   "그의 말"과 "우리 정리"가 눈으로 구분되게 한다. */
+.legacy-text {
+  font-family: var(--sans); font-size: 14.5px; line-height: 1.8;
+  color: var(--ink); margin: 0; word-break: keep-all;
+}
+
 /* ── 생애 연표 ── */
 .timeline { list-style: none; margin: 0; padding: 0; }
 .tl { position: relative; padding: 0 0 19px 22px; margin-left: 4px; border-left: 1px solid var(--rule); }
@@ -440,6 +448,10 @@ body { display: flex; flex-direction: column; }
 .profile-works p { margin-top: 7px; color: var(--ink-soft); font-size: 14px; line-height: 1.65; }
 .profile-sources { padding-left: 20px; }
 .profile-note { margin-top: 22px; color: var(--ink-faint); font: 400 12px/1.7 var(--sans); }
+/* 편집부가 쓴 문장 — 사료(세리프)와 구분되도록 산세리프 */
+.profile-legacy { margin: 0; color: var(--ink); font: 400 16px/1.8 var(--sans); word-break: keep-all; }
+.profile-legacy-note { margin: 12px 0 0; color: var(--ink-faint); font: 400 12px/1.7 var(--sans); }
+.profile-legacy-note a { color: var(--ink-faint); font: 500 11px/1.5 var(--sans); }
 
 @media (max-width: 560px) {
   .profile-hero { align-items: flex-start; gap: 16px; }
