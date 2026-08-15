@@ -456,10 +456,12 @@ window.sendSageFeedback = function (rating, personId, reason) {
     window.va("event", {
       name: "user_feedback",
       data: {
+        schema_version: "1.0",
         service_id: "sage_scroll",
         tab: personId || "general",
         rating: rating,
-        reason: reason || "none"
+        reason: reason || "none",
+        placement: "feedback-widget"
       }
     });
   }
