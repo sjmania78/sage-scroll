@@ -286,8 +286,57 @@ function renderPerson(p, fly = true) {
       <section class="seg"><h3 class="seg-title">${t("저작", "Works")}<span class="hint">${t("사료 원문", "primary sources")}</span></h3>${worksHtml}${bookShopLink(p)}</section>
       ${linksSection}
       <section class="seg"><h3 class="seg-title">${t("연고 장소", "Places")}</h3>${placesHtml}</section>
+      <section class="seg" style="margin-top:20px;border-top:1px dashed var(--rule);padding-top:14px;">
+        <div id="sage-fb-box" class="sage-feedback-card">
+          <div class="sfb-idle" style="display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px;">
+            <span style="color:var(--ink-soft);">💬 ${t("이 인물의 생애 지도가 유익했나요?", "Was this figure's map helpful?")}</span>
+            <div style="display:flex;gap:6px;">
+              <button type="button" class="sfb-btn" onclick="sendSageFeedback('positive','${p.id}')">👍 ${t("유익해요", "Helpful")}</button>
+              <button type="button" class="sfb-btn" onclick="openSageFeedbackNeg('${p.id}')">👎 ${t("아쉬워요", "Needs work")}</button>
+            </div>
+          </div>
+          <div id="sfb-neg" style="display:none;margin-top:10px;font-size:12px;">
+            <p style="color:var(--seal);font-weight:600;margin-bottom:6px;">${t("어떤 점이 아쉬우셨나요?", "How can we make this better?")}</p>
+            <div style="display:flex;gap:6px;flex-wrap:wrap;">
+              <button type="button" class="sfb-tag" onclick="sendSageFeedback('negative','${p.id}','need_more_places')">${t("연고 장소/좌표 부족", "Need more places")}</button>
+              <button type="button" class="sfb-tag" onclick="sendSageFeedback('negative','${p.id}','need_more_quotes')">${t("남긴 말/저작 부족", "Need more quotes/works")}</button>
+              <button type="button" class="sfb-tag" onclick="sendSageFeedback('negative','${p.id}','fact_error')">${t("연대기/사실 오류", "Factual error")}</button>
+            </div>
+          </div>
+          <div id="sfb-done" style="display:none;font-size:12px;color:var(--ink-soft);text-align:center;padding:4px 0;">
+            ✓ ${t("소중한 의견 감사합니다. 사료 검증에 반영하겠습니다.", "Thank you! Your feedback helps us improve Sage Scroll.")}
+          </div>
+        </div>
+      </section>
     </article>`;
 }
+
+window.openSageFeedbackNeg = function () {
+  const idle = document.querySelector(".sfb-idle");
+  const neg = document.getElementById("sfb-neg");
+  if (idle) idle.style.display = "none";
+  if (neg) neg.style.display = "block";
+};
+
+window.sendSageFeedback = function (rating, personId, reason) {
+  if (typeof window.va === "function") {
+    window.va("event", {
+      name: "user_feedback",
+      data: {
+        service_id: "sage_scroll",
+        tab: personId || "general",
+        rating: rating,
+        reason: reason || "none"
+      }
+    });
+  }
+  const idle = document.querySelector(".sfb-idle");
+  const neg = document.getElementById("sfb-neg");
+  const done = document.getElementById("sfb-done");
+  if (idle) idle.style.display = "none";
+  if (neg) neg.style.display = "none";
+  if (done) done.style.display = "block";
+};
 function nameOf2(w) { return t(w.title, w.title_en) || ""; }
 
 function buildPersonIndex(people, container) {
